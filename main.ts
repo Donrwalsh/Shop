@@ -1,7 +1,6 @@
 import fs = require("fs");
 import csv = require("csv-parser");
 import { Blueprint } from "./model";
-import { lookup } from "dns";
 
 const csvFileName =
   "Shop Titans Data Spreadsheet _ c_ v13.1.0 _ v1.0.2.067 - Blueprints.csv";
@@ -29,40 +28,41 @@ async function main() {
   // let bp = blueprints[1];
   let bp = blueprints[Math.floor(Math.random() * blueprints.length)];
 
-  //Basic impl. works for unique/present headers only
-  function lookupFieldVal(field: string) {
-    return Object.keys(headers).find((key) => {
-      return headers[key] === field;
+  function getBpVal(rawBp: any, headers: any, field: string) {
+    let result = [];
+    Object.keys(headers).find((key) => {
+      if (headers[key] === field) {
+        result.push(
+          /^[0-9,.]*$/.test(rawBp[key])
+            ? parseInt(rawBp[key].split(",").join(""))
+            : rawBp[key]
+        );
+      }
     });
+    if (result.length == 1) {
+      return result[0];
+    }
   }
 
   let output: Blueprint = {
-    name: bp[lookupFieldVal("Name")],
-    type: bp[lookupFieldVal("Type")],
-    tier: parseInt(bp[lookupFieldVal("Tier")]),
-    ...(bp[lookupFieldVal("Unlock Prerequisite")] !== "---" && {
-      unlockPrerequisite: bp[lookupFieldVal("Unlock Prerequisite")],
+    name: getBpVal(bp, headers, "Name"),
+    type: getBpVal(bp, headers, "Type"),
+    tier: getBpVal(bp, headers, "Tier"),
+    ...(getBpVal(bp, headers, "Unlock Prerequisite") !== "---" && {
+      unlockPrerequisite: getBpVal(bp, headers, "Unlock Prerequisite"),
     }),
     values: {
-      gold: parseInt(bp[lookupFieldVal("Value")].split(",").join("")),
-      merchantXp: parseInt(
-        bp[lookupFieldVal("Merchant XP")].split(",").join("")
-      ),
-      workerXp: parseInt(bp[lookupFieldVal("Worker XP")].split(",").join("")),
-      fusionXp: parseInt(bp[lookupFieldVal("Fusion XP")].split(",").join("")),
-      favor: parseInt(bp[lookupFieldVal("Favor")].split(",").join("")),
-      airshipPower: parseInt(
-        bp[lookupFieldVal("Airship Power")].split(",").join("")
-      ),
-      ...(bp[lookupFieldVal("Antique Tokens")] !== "---" && {
-        antiqueTokens: parseInt(
-          bp[lookupFieldVal("Antique Tokens")].split(",").join("")
-        ),
+      gold: getBpVal(bp, headers, "Value"),
+      merchantXp: getBpVal(bp, headers, "Merchant XP"),
+      workerXp: getBpVal(bp, headers, "Worker XP"),
+      fusionXp: getBpVal(bp, headers, "Fusion XP"),
+      favor: getBpVal(bp, headers, "Favor"),
+      airshipPower: getBpVal(bp, headers, "Airship Power"),
+      ...(getBpVal(bp, headers, "Antique Tokens") !== "---" && {
+        antiqueTokens: getBpVal(bp, headers, "Antique Tokens"),
       }),
-      ...(bp[lookupFieldVal("Research Scrolls")] !== "---" && {
-        researchScrolls: parseInt(
-          bp[lookupFieldVal("Research Scrolls")].split(",").join("")
-        ),
+      ...(getBpVal(bp, headers, "Research Scrolls") !== "---" && {
+        researchScrolls: getBpVal(bp, headers, "Research Scrolls"),
       }),
     },
   };
