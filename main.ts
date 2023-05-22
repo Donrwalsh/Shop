@@ -1,6 +1,7 @@
 import fs = require("fs");
 import csv = require("csv-parser");
 import { Blueprint } from "./model";
+import { lookup } from "dns";
 
 const csvFileName =
   "Shop Titans Data Spreadsheet _ c_ v13.1.0 _ v1.0.2.067 - Blueprints.csv";
@@ -44,6 +45,25 @@ async function main() {
     }),
     values: {
       gold: parseInt(bp[lookupFieldVal("Value")].split(",").join("")),
+      merchantXp: parseInt(
+        bp[lookupFieldVal("Merchant XP")].split(",").join("")
+      ),
+      workerXp: parseInt(bp[lookupFieldVal("Worker XP")].split(",").join("")),
+      fusionXp: parseInt(bp[lookupFieldVal("Fusion XP")].split(",").join("")),
+      favor: parseInt(bp[lookupFieldVal("Favor")].split(",").join("")),
+      airshipPower: parseInt(
+        bp[lookupFieldVal("Airship Power")].split(",").join("")
+      ),
+      ...(bp[lookupFieldVal("Antique Tokens")] !== "---" && {
+        antiqueTokens: parseInt(
+          bp[lookupFieldVal("Antique Tokens")].split(",").join("")
+        ),
+      }),
+      ...(bp[lookupFieldVal("Research Scrolls")] !== "---" && {
+        researchScrolls: parseInt(
+          bp[lookupFieldVal("Research Scrolls")].split(",").join("")
+        ),
+      }),
     },
   };
 
