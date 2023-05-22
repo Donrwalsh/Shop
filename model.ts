@@ -13,4 +13,9 @@ export interface Blueprint {
     antiqueTokens?: number;
     researchScrolls?: number;
   };
+  ascensionUpgrades: [
+    { upgrade: string; shards: number },
+    { upgrade: string; shards: number },
+    { upgrade: string; shards: number }
+  ];
 }

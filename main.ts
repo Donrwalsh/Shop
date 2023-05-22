@@ -41,6 +41,8 @@ async function main() {
     });
     if (result.length == 1) {
       return result[0];
+    } else {
+      return result;
     }
   }
 
@@ -65,6 +67,20 @@ async function main() {
         researchScrolls: getBpVal(bp, headers, "Research Scrolls"),
       }),
     },
+    ascensionUpgrades: [
+      {
+        upgrade: getBpVal(bp, headers, "Ascension Upgrade 1"),
+        shards: getBpVal(bp, headers, "Shards Needed")[0],
+      },
+      {
+        upgrade: getBpVal(bp, headers, "Ascension Upgrade 2"),
+        shards: getBpVal(bp, headers, "Shards Needed")[1],
+      },
+      {
+        upgrade: getBpVal(bp, headers, "Ascension Upgrade 3"),
+        shards: getBpVal(bp, headers, "Shards Needed")[2],
+      },
+    ],
   };
 
   console.log(output);
