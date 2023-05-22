@@ -18,4 +18,10 @@ export interface Blueprint {
     { upgrade: string; shards: number },
     { upgrade: string; shards: number }
   ];
+  crafting: {
+    timeInSeconds: number;
+    timeFormatted: string;
+    valuePerCraftingSecond: number;
+    merchantXpPerCraftingSecond: number;
+  };
 }

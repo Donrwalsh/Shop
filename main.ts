@@ -32,11 +32,13 @@ async function main() {
     let result = [];
     Object.keys(headers).find((key) => {
       if (headers[key] === field) {
-        result.push(
-          /^[0-9,.]*$/.test(rawBp[key])
-            ? parseInt(rawBp[key].split(",").join(""))
-            : rawBp[key]
-        );
+        if (/^[0-9,]*$/.test(rawBp[key])) {
+          result.push(parseInt(rawBp[key].split(",").join("")));
+        } else if (/^[0-9.]*$/.test(rawBp[key])) {
+          result.push(parseFloat(rawBp[key]));
+        } else {
+          result.push(rawBp[key]);
+        }
       }
     });
     if (result.length == 1) {
@@ -81,6 +83,16 @@ async function main() {
         shards: getBpVal(bp, headers, "Shards Needed")[2],
       },
     ],
+    crafting: {
+      timeInSeconds: getBpVal(bp, headers, "Crafting Time (seconds)"),
+      timeFormatted: getBpVal(bp, headers, "Crafting Time (formatted)"),
+      valuePerCraftingSecond: getBpVal(bp, headers, "Value / Crafting Time"),
+      merchantXpPerCraftingSecond: getBpVal(
+        bp,
+        headers,
+        "Merchant XP / Crafting Time"
+      ),
+    },
   };
 
   console.log(output);
