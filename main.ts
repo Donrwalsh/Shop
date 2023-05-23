@@ -39,7 +39,7 @@ async function main() {
 
   let headers = { ...blueprints[0], ...manualColumns };
 
-  // let bp = blueprints[1];
+  // let bp = blueprints[135];
   let bp = blueprints[Math.floor(Math.random() * blueprints.length)];
 
   function getBpVal(rawBp: any, headers: any, field: string) {
@@ -66,6 +66,25 @@ async function main() {
     return getBpVal(bp, headers, field) !== "---"
       ? [{ resource: field, amount: getBpVal(bp, headers, field) }]
       : [];
+  }
+
+  function conditionalComponent(index: number): CraftingMaterial[] {
+    let output = [];
+    if (getBpVal(bp, headers, "Component")[index] !== "---") {
+      if (getBpVal(bp, headers, "Component Quality")[index] !== "---") {
+        output.push({
+          item: getBpVal(bp, headers, "Component")[index],
+          quality: getBpVal(bp, headers, "Component Quality")[index],
+          amount: getBpVal(bp, headers, "Amount Needed")[index],
+        });
+      } else {
+        output.push({
+          component: getBpVal(bp, headers, "Component")[index],
+          amount: getBpVal(bp, headers, "Amount Needed")[index],
+        });
+      }
+    }
+    return output;
   }
 
   let output: Blueprint = {
@@ -124,6 +143,8 @@ async function main() {
         ...conditionalMaterial("Mana"),
         ...conditionalMaterial("Jewels"),
         ...conditionalMaterial("Essence"),
+        ...conditionalComponent(0),
+        ...conditionalComponent(1),
       ],
     },
   };
