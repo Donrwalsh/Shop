@@ -41,4 +41,4 @@ interface ComponentMaterial extends Material {
   resource?: never;
 }
 
-type CraftingMaterial = ResourceMaterial | ComponentMaterial;
+export type CraftingMaterial = ResourceMaterial | ComponentMaterial;

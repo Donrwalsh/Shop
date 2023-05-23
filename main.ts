@@ -1,9 +1,23 @@
 import fs = require("fs");
 import csv = require("csv-parser");
-import { Blueprint } from "./model";
+import { Blueprint, CraftingMaterial } from "./model";
 
 const csvFileName =
   "Shop Titans Data Spreadsheet _ c_ v13.1.0 _ v1.0.2.067 - Blueprints.csv";
+
+const manualColumns = {
+  "24": "Iron",
+  "25": "Wood",
+  "26": "Leather",
+  "27": "Herbs",
+  "28": "Steel",
+  "29": "Ironwood",
+  "30": "Fabric",
+  "31": "Oil", // image says "Oils"
+  "32": "Mana",
+  "33": "Jewels", // image says "Gems"
+  "34": "Essence",
+};
 
 async function readCSVFile(filePath: string): Promise<object[]> {
   const results: object[] = [];
@@ -23,7 +37,7 @@ async function main() {
 
   let blueprints = await readCSVFile(`./${csvFileName}`);
 
-  let headers = blueprints[0];
+  let headers = { ...blueprints[0], ...manualColumns };
 
   // let bp = blueprints[1];
   let bp = blueprints[Math.floor(Math.random() * blueprints.length)];
@@ -46,6 +60,12 @@ async function main() {
     } else {
       return result;
     }
+  }
+
+  function conditionalMaterial(field: string) {
+    return getBpVal(bp, headers, field) !== "---"
+      ? [{ resource: field, amount: getBpVal(bp, headers, field) }]
+      : [];
   }
 
   let output: Blueprint = {
@@ -92,10 +112,23 @@ async function main() {
         headers,
         "Merchant XP / Crafting Time"
       ),
+      materials: [
+        ...conditionalMaterial("Iron"),
+        ...conditionalMaterial("Wood"),
+        ...conditionalMaterial("Leather"),
+        ...conditionalMaterial("Herbs"),
+        ...conditionalMaterial("Steel"),
+        ...conditionalMaterial("Ironwood"),
+        ...conditionalMaterial("Fabric"),
+        ...conditionalMaterial("Oil"),
+        ...conditionalMaterial("Mana"),
+        ...conditionalMaterial("Jewels"),
+        ...conditionalMaterial("Essence"),
+      ],
     },
   };
 
-  console.log(output);
+  console.log(JSON.stringify(output, null, 2));
 }
 
 main();
