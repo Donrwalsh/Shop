@@ -23,5 +23,22 @@ export interface Blueprint {
     timeFormatted: string;
     valuePerCraftingSecond: number;
     merchantXpPerCraftingSecond: number;
+    materials: CraftingMaterial[];
   };
 }
+
+interface Material {
+  amount: number;
+}
+
+interface ResourceMaterial extends Material {
+  resource: string;
+  component?: never;
+}
+
+interface ComponentMaterial extends Material {
+  component: string;
+  resource?: never;
+}
+
+type CraftingMaterial = ResourceMaterial | ComponentMaterial;
