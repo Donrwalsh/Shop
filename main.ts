@@ -1,6 +1,6 @@
 import fs = require("fs");
 import csv = require("csv-parser");
-import { Blueprint, CraftingMaterial } from "./model";
+import { Blueprint, BlueprintWorker, CraftingMaterial } from "./model";
 
 const csvFileName =
   "Shop Titans Data Spreadsheet _ c_ v13.1.0 _ v1.0.2.067 - Blueprints.csv";
@@ -145,6 +145,31 @@ async function main() {
         ...conditionalMaterial("Essence"),
         ...conditionalComponent(0),
         ...conditionalComponent(1),
+      ],
+      workers: [
+        {
+          requiredWorker: getBpVal(bp, headers, "Required Worker "), // Note the space
+          workerLevel: getBpVal(bp, headers, "Worker Level")[0],
+        },
+        ...(getBpVal(bp, headers, "Required Worker")[0] !== "---"
+          ? ([
+              {
+                requiredWorker: getBpVal(bp, headers, "Required Worker")[0],
+                workerLevel: getBpVal(bp, headers, "Worker Level")[1],
+              },
+              // This casting as a const prevents ts2322 where typescript thinks this
+              // array that is being spread may contain more than a single element and
+              // thus violates the tuple requirement of no more than 3 workers. Cool
+            ] as const)
+          : ([] as const)),
+        ...(getBpVal(bp, headers, "Required Worker")[1] !== "---"
+          ? ([
+              {
+                requiredWorker: getBpVal(bp, headers, "Required Worker")[1],
+                workerLevel: getBpVal(bp, headers, "Worker Level")[2],
+              },
+            ] as const)
+          : ([] as const)),
       ],
     },
   };

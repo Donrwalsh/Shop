@@ -24,6 +24,7 @@ export interface Blueprint {
     valuePerCraftingSecond: number;
     merchantXpPerCraftingSecond: number;
     materials: CraftingMaterial[];
+    workers: [BlueprintWorker, BlueprintWorker?, BlueprintWorker?];
   };
 }
 
@@ -43,6 +44,11 @@ interface ComponentMaterial extends Material {
   resource?: never;
   item?: never;
   quality?: never;
+}
+
+export interface BlueprintWorker {
+  requiredWorker: string; //Also enum eligible
+  workerLevel: number;
 }
 
 interface ItemMaterial extends Material {
