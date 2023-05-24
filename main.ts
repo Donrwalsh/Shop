@@ -87,6 +87,18 @@ async function main() {
     return output;
   }
 
+  // Produce insertMany([...]) inner content to be copy-pasted.
+  blueprints.forEach((bp) => {
+    let output: Partial<Blueprint> = {
+      name: getBpVal(bp, headers, "Name"),
+      type: getBpVal(bp, headers, "Type"),
+      tier: getBpVal(bp, headers, "Tier"),
+    };
+    console.log(JSON.stringify(output) + ",");
+  });
+
+  process.exit(1);
+
   let output: Blueprint = {
     name: getBpVal(bp, headers, "Name"),
     type: getBpVal(bp, headers, "Type"),
