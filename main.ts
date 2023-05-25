@@ -32,16 +32,6 @@ async function readCSVFile(filePath: string): Promise<object[]> {
 }
 
 async function main() {
-  //Get Blueprint data as csv
-  //https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c/export?gid=1558235212&exportFormat=csv
-
-  let blueprints = await readCSVFile(`./${csvFileName}`);
-
-  let headers = { ...blueprints[0], ...manualColumns };
-
-  // let bp = blueprints[135];
-  let bp = blueprints[Math.floor(Math.random() * blueprints.length)];
-
   function getBpVal(rawBp: any, headers: any, field: string) {
     let result = [];
     Object.keys(headers).find((key) => {
@@ -87,27 +77,40 @@ async function main() {
     return output;
   }
 
-  let bpOutput = "db.blueprints.insertMany([";
+  //Get Blueprint data as csv
+  //https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c/export?gid=1558235212&exportFormat=csv
+
+  let blueprints = await readCSVFile(`./${csvFileName}`);
+
+  let headers = { ...blueprints[0], ...manualColumns };
 
   // Remove first array element (headers)
   blueprints.shift();
 
-  blueprints.forEach((bp) => {
-    let output: Partial<Blueprint> = {
-      name: getBpVal(bp, headers, "Name"),
-      type: getBpVal(bp, headers, "Type"),
-      tier: getBpVal(bp, headers, "Tier"),
-      ...(getBpVal(bp, headers, "Unlock Prerequisite") !== "---" && {
-        unlockPrerequisite: getBpVal(bp, headers, "Unlock Prerequisite"),
-      }),
-    };
-    bpOutput = bpOutput + JSON.stringify(output) + ",";
-  });
-  bpOutput += "]);";
+  let bpOutput =
+    "db.blueprints.insertMany([" +
+    blueprints.reduce(
+      (accumulator, bp) =>
+        accumulator +
+        JSON.stringify({
+          name: getBpVal(bp, headers, "Name"),
+          type: getBpVal(bp, headers, "Type"),
+          tier: getBpVal(bp, headers, "Tier"),
+          ...(getBpVal(bp, headers, "Unlock Prerequisite") !== "---" && {
+            unlockPrerequisite: getBpVal(bp, headers, "Unlock Prerequisite"),
+          }),
+        } as Partial<Blueprint>) +
+        ",",
+      ""
+    ) +
+    "]);";
 
   fs.writeFileSync("./scripts/blueprints.js", bpOutput, "utf-8");
 
-  process.exit(1);
+  process.exit(0);
+
+  // let bp = blueprints[135];
+  let bp = blueprints[Math.floor(Math.random() * blueprints.length)];
 
   let output: Blueprint = {
     name: getBpVal(bp, headers, "Name"),
