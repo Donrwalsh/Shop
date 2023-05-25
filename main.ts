@@ -97,6 +97,9 @@ async function main() {
       name: getBpVal(bp, headers, "Name"),
       type: getBpVal(bp, headers, "Type"),
       tier: getBpVal(bp, headers, "Tier"),
+      ...(getBpVal(bp, headers, "Unlock Prerequisite") !== "---" && {
+        unlockPrerequisite: getBpVal(bp, headers, "Unlock Prerequisite"),
+      }),
     };
     bpOutput = bpOutput + JSON.stringify(output) + ",";
   });

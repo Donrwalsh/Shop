@@ -52,6 +52,10 @@ db.createCollection("blueprints", {
           maximum: 13,
           description: "Blueprint tier (required)",
         },
+        unlockPrerequisite: {
+          bsonType: "string",
+          description: "Details on how to unlock (optional)",
+        },
       },
     },
   },
