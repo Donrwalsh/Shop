@@ -87,15 +87,22 @@ async function main() {
     return output;
   }
 
-  // Produce insertMany([...]) inner content to be copy-pasted.
+  let bpOutput = "db.blueprints.insertMany([";
+
+  // Remove first array element (headers)
+  blueprints.shift();
+
   blueprints.forEach((bp) => {
     let output: Partial<Blueprint> = {
       name: getBpVal(bp, headers, "Name"),
       type: getBpVal(bp, headers, "Type"),
       tier: getBpVal(bp, headers, "Tier"),
     };
-    console.log(JSON.stringify(output) + ",");
+    bpOutput = bpOutput + JSON.stringify(output) + ",";
   });
+  bpOutput += "]);";
+
+  fs.writeFileSync("./scripts/blueprints.js", bpOutput, "utf-8");
 
   process.exit(1);
 
