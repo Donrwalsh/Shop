@@ -1,9 +1,11 @@
+import * as utils from "./helpers/utils";
 import fs = require("fs");
-import csv = require("csv-parser");
-import { Blueprint, BlueprintWorker, CraftingMaterial } from "./model";
+import { Blueprint, CraftingMaterial } from "./model";
 
-const csvFileName =
-  "Shop Titans Data Spreadsheet _ c_ v13.1.0 _ v1.0.2.067 - Blueprints.csv";
+const baseSpreadsheetURL =
+  "https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c";
+
+const blueprintsGID = "1558235212";
 
 const manualColumns = {
   "24": "Iron",
@@ -19,19 +21,18 @@ const manualColumns = {
   "34": "Essence",
 };
 
-async function readCSVFile(filePath: string): Promise<object[]> {
-  const results: object[] = [];
-
-  return new Promise((resolve, reject) => {
-    fs.createReadStream(filePath)
-      .pipe(csv({ headers: false }))
-      .on("data", (data) => results.push(data))
-      .on("end", () => resolve(results))
-      .on("error", (error) => reject(error));
-  });
-}
-
 async function main() {
+  let bpFileName = await utils.downloadFile(
+    `${baseSpreadsheetURL}/export?gid=${blueprintsGID}&exportFormat=csv`
+  );
+
+  let blueprints = await utils.readCSVFile(`./${bpFileName}`);
+
+  let headers = { ...blueprints[0], ...manualColumns };
+
+  // let bp = blueprints[135];
+  let bp = blueprints[Math.floor(Math.random() * blueprints.length)];
+
   function getBpVal(rawBp: any, headers: any, field: string) {
     let result = [];
     Object.keys(headers).find((key) => {
@@ -80,10 +81,6 @@ async function main() {
   //Get Blueprint data as csv
   //https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c/export?gid=1558235212&exportFormat=csv
 
-  let blueprints = await readCSVFile(`./${csvFileName}`);
-
-  let headers = { ...blueprints[0], ...manualColumns };
-
   // Remove first array element (headers)
   blueprints.shift();
 
@@ -110,7 +107,6 @@ async function main() {
   process.exit(0);
 
   // let bp = blueprints[135];
-  let bp = blueprints[Math.floor(Math.random() * blueprints.length)];
 
   let output: Blueprint = {
     name: getBpVal(bp, headers, "Name"),
