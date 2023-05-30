@@ -1,9 +1,13 @@
 import fs = require("fs");
+import https = require("https");
 import csv = require("csv-parser");
 import { Blueprint, BlueprintWorker, CraftingMaterial } from "./model";
+import * as utils from "./helpers/utils";
 
-const csvFileName =
-  "Shop Titans Data Spreadsheet _ c_ v13.1.0 _ v1.0.2.067 - Blueprints.csv";
+const baseSpreadsheetURL =
+  "https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c";
+
+const blueprintsGID = "1558235212";
 
 const manualColumns = {
   "24": "Iron",
@@ -32,10 +36,11 @@ async function readCSVFile(filePath: string): Promise<object[]> {
 }
 
 async function main() {
-  //Get Blueprint data as csv
-  //https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c/export?gid=1558235212&exportFormat=csv
+  let bpFileName = await utils.downloadFile(
+    `${baseSpreadsheetURL}/export?gid=${blueprintsGID}&exportFormat=csv`
+  );
 
-  let blueprints = await readCSVFile(`./${csvFileName}`);
+  let blueprints = await readCSVFile(`./${bpFileName}`);
 
   let headers = { ...blueprints[0], ...manualColumns };
 
