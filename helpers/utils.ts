@@ -1,3 +1,4 @@
+import csv = require("csv-parser");
 import fs = require("fs");
 import https = require("https");
 
@@ -38,5 +39,17 @@ export async function downloadFile(url) {
       .on("error", (error) => {
         reject(error);
       });
+  });
+}
+
+export async function readCSVFile(filePath: string): Promise<object[]> {
+  const results: object[] = [];
+
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(filePath)
+      .pipe(csv({ headers: false }))
+      .on("data", (data) => results.push(data))
+      .on("end", () => resolve(results))
+      .on("error", (error) => reject(error));
   });
 }

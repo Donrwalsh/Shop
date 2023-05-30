@@ -1,8 +1,5 @@
-import fs = require("fs");
-import https = require("https");
-import csv = require("csv-parser");
-import { Blueprint, BlueprintWorker, CraftingMaterial } from "./model";
 import * as utils from "./helpers/utils";
+import { Blueprint, CraftingMaterial } from "./model";
 
 const baseSpreadsheetURL =
   "https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c";
@@ -23,24 +20,12 @@ const manualColumns = {
   "34": "Essence",
 };
 
-async function readCSVFile(filePath: string): Promise<object[]> {
-  const results: object[] = [];
-
-  return new Promise((resolve, reject) => {
-    fs.createReadStream(filePath)
-      .pipe(csv({ headers: false }))
-      .on("data", (data) => results.push(data))
-      .on("end", () => resolve(results))
-      .on("error", (error) => reject(error));
-  });
-}
-
 async function main() {
   let bpFileName = await utils.downloadFile(
     `${baseSpreadsheetURL}/export?gid=${blueprintsGID}&exportFormat=csv`
   );
 
-  let blueprints = await readCSVFile(`./${bpFileName}`);
+  let blueprints = await utils.readCSVFile(`./${bpFileName}`);
 
   let headers = { ...blueprints[0], ...manualColumns };
 
