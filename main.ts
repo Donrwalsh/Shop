@@ -1,6 +1,8 @@
 import * as utils from "./helpers/utils";
 import fs = require("fs");
 import { Blueprint, CraftingMaterial } from "./model";
+const util = require("util");
+const exec = util.promisify(require("child_process").exec);
 
 const baseSpreadsheetURL =
   "https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c";
@@ -78,9 +80,6 @@ async function main() {
     return output;
   }
 
-  //Get Blueprint data as csv
-  //https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c/export?gid=1558235212&exportFormat=csv
-
   // Remove first array element (headers)
   blueprints.shift();
 
@@ -103,6 +102,20 @@ async function main() {
     "]);";
 
   fs.writeFileSync("./scripts/blueprints.js", bpOutput, "utf-8");
+
+  async function execute(command) {
+    const { stdout, stderr } = await exec(command);
+    console.log("stdout:", stdout);
+    console.log("stderr:", stderr);
+  }
+
+  await execute("mongosh shop < ./scripts/reset.js");
+  await execute("mongosh shop < ./scripts/schema.js");
+  await execute("mongosh shop < ./scripts/blueprints.js");
+  await execute("mongosh shop < ./scripts/sampleOneBp.js");
+  await execute(
+    `mongosh shop --eval 'printjson(db.blueprints.aggregate([{ "$sample": { size: 1 } }]))'`
+  );
 
   process.exit(0);
 
