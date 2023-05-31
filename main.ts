@@ -95,6 +95,20 @@ async function main() {
           ...(getBpVal(bp, headers, "Unlock Prerequisite") !== "---" && {
             unlockPrerequisite: getBpVal(bp, headers, "Unlock Prerequisite"),
           }),
+          values: {
+            gold: getBpVal(bp, headers, "Value"),
+            merchantXp: getBpVal(bp, headers, "Merchant XP"),
+            workerXp: getBpVal(bp, headers, "Worker XP"),
+            fusionXp: getBpVal(bp, headers, "Fusion XP"),
+            favor: getBpVal(bp, headers, "Favor"),
+            airshipPower: getBpVal(bp, headers, "Airship Power"),
+            ...(getBpVal(bp, headers, "Antique Tokens") !== "---" && {
+              antiqueTokens: getBpVal(bp, headers, "Antique Tokens"),
+            }),
+            ...(getBpVal(bp, headers, "Research Scrolls") !== "---" && {
+              researchScrolls: getBpVal(bp, headers, "Research Scrolls"),
+            }),
+          },
         } as Partial<Blueprint>) +
         ",",
       ""
@@ -112,7 +126,6 @@ async function main() {
   await execute("mongosh shop < ./scripts/reset.js");
   await execute("mongosh shop < ./scripts/schema.js");
   await execute("mongosh shop < ./scripts/blueprints.js");
-  await execute("mongosh shop < ./scripts/sampleOneBp.js");
   await execute(
     `mongosh shop --eval 'printjson(db.blueprints.aggregate([{ "$sample": { size: 1 } }]))'`
   );

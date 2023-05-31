@@ -1,3 +1,5 @@
+For context, I initially wanted to run mongoDB through docker, but the mac I'm using for this is not able to run docker because it's so old. That's why I went the local route for prototyping.
+
 I had previously installed mongoDB on this mac, so I'm going to use it to test out these scripts that I'm creating.
 
 I'm just going to copy-paste them into the terminal to start. Haha, this works but it takes a couple minutes of scrolling. That's only going to get longer, so let's find a different approach.

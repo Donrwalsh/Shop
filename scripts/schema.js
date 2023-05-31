@@ -56,6 +56,51 @@ db.createCollection("blueprints", {
           bsonType: "string",
           description: "Details on how to unlock (optional)",
         },
+        values: {
+          bsonType: "object",
+          required: [
+            "gold",
+            "merchantXp",
+            "workerXp",
+            "fusionXp",
+            "favor",
+            "airshipPower",
+          ],
+          properties: {
+            gold: {
+              bsonType: "int",
+              description: "Blueprint base gold value (required)",
+            },
+            merchantXp: {
+              bsonType: "int",
+              description: "Blueprint base merchant XP value (required)",
+            },
+            workerXp: {
+              bsonType: "int",
+              description: "Blueprint base worker XP value (required)",
+            },
+            fusionXp: {
+              bsonType: "int",
+              description: "Blueprint base fusion XP value (required)",
+            },
+            favor: {
+              bsonType: "int",
+              description: "Blueprint base favor value (required)",
+            },
+            airshipPower: {
+              bsonType: "int",
+              description: "Blueprint base airship power value (required)",
+            },
+            antiqueTokens: {
+              bsonType: "int",
+              description: "Blueprint cost in antique tokens (optional)",
+            },
+            researchScrolls: {
+              bsonType: "int",
+              description: "Blueprint cost in research scrolls (optional)",
+            },
+          },
+        },
       },
     },
   },
