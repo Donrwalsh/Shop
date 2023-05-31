@@ -123,6 +123,60 @@ async function main() {
               shards: getBpVal(bp, headers, "Shards Needed")[2],
             },
           ],
+          crafting: {
+            timeInSeconds: getBpVal(bp, headers, "Crafting Time (seconds)"),
+            timeFormatted: getBpVal(bp, headers, "Crafting Time (formatted)"),
+            // goldPerCraftingSecond: getBpVal(
+            //   bp,
+            //   headers,
+            //   "Value / Crafting Time"
+            // ),
+            // merchantXpPerCraftingSecond: getBpVal(
+            //   bp,
+            //   headers,
+            //   "Merchant XP / Crafting Time"
+            // ),
+            // materials: [
+            //   ...conditionalMaterial("Iron"),
+            //   ...conditionalMaterial("Wood"),
+            //   ...conditionalMaterial("Leather"),
+            //   ...conditionalMaterial("Herbs"),
+            //   ...conditionalMaterial("Steel"),
+            //   ...conditionalMaterial("Ironwood"),
+            //   ...conditionalMaterial("Fabric"),
+            //   ...conditionalMaterial("Oil"),
+            //   ...conditionalMaterial("Mana"),
+            //   ...conditionalMaterial("Jewels"),
+            //   ...conditionalMaterial("Essence"),
+            //   ...conditionalComponent(0),
+            //   ...conditionalComponent(1),
+            // ],
+            // workers: [
+            //   {
+            //     requiredWorker: getBpVal(bp, headers, "Required Worker "), // Note the space
+            //     workerLevel: getBpVal(bp, headers, "Worker Level")[0],
+            //   },
+            //   ...(getBpVal(bp, headers, "Required Worker")[0] !== "---"
+            //     ? ([
+            //         {
+            //           requiredWorker: getBpVal(bp, headers, "Required Worker")[0],
+            //           workerLevel: getBpVal(bp, headers, "Worker Level")[1],
+            //         },
+            //         // This casting as a const prevents ts2322 where typescript thinks this
+            //         // array that is being spread may contain more than a single element and
+            //         // thus violates the tuple requirement of no more than 3 workers. Cool
+            //       ] as const)
+            //     : ([] as const)),
+            //   ...(getBpVal(bp, headers, "Required Worker")[1] !== "---"
+            //     ? ([
+            //         {
+            //           requiredWorker: getBpVal(bp, headers, "Required Worker")[1],
+            //           workerLevel: getBpVal(bp, headers, "Worker Level")[2],
+            //         },
+            //       ] as const)
+            //     : ([] as const)),
+            // ],
+          },
         } as Partial<Blueprint>) +
         ",",
       ""
@@ -145,97 +199,6 @@ async function main() {
   );
 
   process.exit(0);
-
-  // let bp = blueprints[135];
-
-  let output: Blueprint = {
-    name: getBpVal(bp, headers, "Name"),
-    type: getBpVal(bp, headers, "Type"),
-    tier: getBpVal(bp, headers, "Tier"),
-    ...(getBpVal(bp, headers, "Unlock Prerequisite") !== "---" && {
-      unlockPrerequisite: getBpVal(bp, headers, "Unlock Prerequisite"),
-    }),
-    values: {
-      gold: getBpVal(bp, headers, "Value"),
-      merchantXp: getBpVal(bp, headers, "Merchant XP"),
-      workerXp: getBpVal(bp, headers, "Worker XP"),
-      fusionXp: getBpVal(bp, headers, "Fusion XP"),
-      favor: getBpVal(bp, headers, "Favor"),
-      airshipPower: getBpVal(bp, headers, "Airship Power"),
-      ...(getBpVal(bp, headers, "Antique Tokens") !== "---" && {
-        antiqueTokens: getBpVal(bp, headers, "Antique Tokens"),
-      }),
-      ...(getBpVal(bp, headers, "Research Scrolls") !== "---" && {
-        researchScrolls: getBpVal(bp, headers, "Research Scrolls"),
-      }),
-    },
-    ascensionUpgrades: [
-      {
-        upgrade: getBpVal(bp, headers, "Ascension Upgrade 1"),
-        shards: getBpVal(bp, headers, "Shards Needed")[0],
-      },
-      {
-        upgrade: getBpVal(bp, headers, "Ascension Upgrade 2"),
-        shards: getBpVal(bp, headers, "Shards Needed")[1],
-      },
-      {
-        upgrade: getBpVal(bp, headers, "Ascension Upgrade 3"),
-        shards: getBpVal(bp, headers, "Shards Needed")[2],
-      },
-    ],
-    crafting: {
-      timeInSeconds: getBpVal(bp, headers, "Crafting Time (seconds)"),
-      timeFormatted: getBpVal(bp, headers, "Crafting Time (formatted)"),
-      valuePerCraftingSecond: getBpVal(bp, headers, "Value / Crafting Time"),
-      merchantXpPerCraftingSecond: getBpVal(
-        bp,
-        headers,
-        "Merchant XP / Crafting Time"
-      ),
-      materials: [
-        ...conditionalMaterial("Iron"),
-        ...conditionalMaterial("Wood"),
-        ...conditionalMaterial("Leather"),
-        ...conditionalMaterial("Herbs"),
-        ...conditionalMaterial("Steel"),
-        ...conditionalMaterial("Ironwood"),
-        ...conditionalMaterial("Fabric"),
-        ...conditionalMaterial("Oil"),
-        ...conditionalMaterial("Mana"),
-        ...conditionalMaterial("Jewels"),
-        ...conditionalMaterial("Essence"),
-        ...conditionalComponent(0),
-        ...conditionalComponent(1),
-      ],
-      workers: [
-        {
-          requiredWorker: getBpVal(bp, headers, "Required Worker "), // Note the space
-          workerLevel: getBpVal(bp, headers, "Worker Level")[0],
-        },
-        ...(getBpVal(bp, headers, "Required Worker")[0] !== "---"
-          ? ([
-              {
-                requiredWorker: getBpVal(bp, headers, "Required Worker")[0],
-                workerLevel: getBpVal(bp, headers, "Worker Level")[1],
-              },
-              // This casting as a const prevents ts2322 where typescript thinks this
-              // array that is being spread may contain more than a single element and
-              // thus violates the tuple requirement of no more than 3 workers. Cool
-            ] as const)
-          : ([] as const)),
-        ...(getBpVal(bp, headers, "Required Worker")[1] !== "---"
-          ? ([
-              {
-                requiredWorker: getBpVal(bp, headers, "Required Worker")[1],
-                workerLevel: getBpVal(bp, headers, "Worker Level")[2],
-              },
-            ] as const)
-          : ([] as const)),
-      ],
-    },
-  };
-
-  console.log(JSON.stringify(output, null, 2));
 }
 
 main();

@@ -20,7 +20,7 @@
   "crafting": {
     "timeInSeconds": 146400,
     "timeFormatted": "40:40:00",
-    "valuePerCraftingSecond": 41.33,
+    "goldPerCraftingSecond": 41.33,
     "merchantXpPerCraftingSecond": 1.61,
     "materials": [
       { "resource": "Iron", "amount": 431 },

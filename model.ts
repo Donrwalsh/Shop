@@ -21,7 +21,7 @@ export interface Blueprint {
   crafting: {
     timeInSeconds: number;
     timeFormatted: string;
-    valuePerCraftingSecond: number;
+    goldPerCraftingSecond: number;
     merchantXpPerCraftingSecond: number;
     materials: CraftingMaterial[];
     workers: [BlueprintWorker, BlueprintWorker?, BlueprintWorker?];

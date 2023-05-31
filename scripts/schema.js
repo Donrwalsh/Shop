@@ -2,7 +2,14 @@ db.createCollection("blueprints", {
   validator: {
     $jsonSchema: {
       bsonType: "object",
-      required: ["name", "tier", "type", "values", "ascensionUpgrades"],
+      required: [
+        "name",
+        "tier",
+        "type",
+        "values",
+        "ascensionUpgrades",
+        "crafting",
+      ],
       properties: {
         name: {
           bsonType: "string",
@@ -112,12 +119,43 @@ db.createCollection("blueprints", {
             bsonType: "object",
             properties: {
               upgrade: {
-                type: "string",
+                bsonType: "string",
               },
               shards: {
-                type: "int",
+                bsonType: "int",
               },
             },
+          },
+        },
+        crafting: {
+          bsonType: "object",
+          required: [
+            "timeInSeconds",
+            "timeFormatted",
+            // "goldPerCraftingSecond",
+            // "merchantXpPerCraftingSecond",
+          ],
+          description: "Blueprint crafting values and details (required)",
+          properties: {
+            timeInSeconds: {
+              bsonType: "int",
+              description: "Blueprint base crafting time in seconds (required)",
+            },
+            timeFormatted: {
+              bsonType: "string",
+              description:
+                "Blueprint base crafting time in readable format (required)",
+            },
+            // goldPerCraftingSecond: {
+            //   bsonType: "double",
+            //   description:
+            //     "Blueprint value in gold per second of crafting time (required)",
+            // },
+            // merchantXpPerCraftingSecond: {
+            //   bsonType: "double",
+            //   description:
+            //     "Blueprint merchant XP per second of crafting time (required)",
+            // },
           },
         },
       },
