@@ -146,16 +146,16 @@ db.createCollection("blueprints", {
               description:
                 "Blueprint base crafting time in readable format (required)",
             },
-            // goldPerCraftingSecond: {
-            //   bsonType: "double",
-            //   description:
-            //     "Blueprint value in gold per second of crafting time (required)",
-            // },
-            // merchantXpPerCraftingSecond: {
-            //   bsonType: "double",
-            //   description:
-            //     "Blueprint merchant XP per second of crafting time (required)",
-            // },
+            goldPerCraftingSecond: {
+              bsonType: "string", // double in disguise
+              description:
+                "Blueprint value in gold per second of crafting time (required)",
+            },
+            merchantXpPerCraftingSecond: {
+              bsonType: "string", // double in disguise
+              description:
+                "Blueprint merchant XP per second of crafting time (required)",
+            },
           },
         },
       },

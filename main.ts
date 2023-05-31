@@ -126,16 +126,16 @@ async function main() {
           crafting: {
             timeInSeconds: getBpVal(bp, headers, "Crafting Time (seconds)"),
             timeFormatted: getBpVal(bp, headers, "Crafting Time (formatted)"),
-            // goldPerCraftingSecond: getBpVal(
-            //   bp,
-            //   headers,
-            //   "Value / Crafting Time"
-            // ),
-            // merchantXpPerCraftingSecond: getBpVal(
-            //   bp,
-            //   headers,
-            //   "Merchant XP / Crafting Time"
-            // ),
+            goldPerCraftingSecond: getBpVal(
+              bp,
+              headers,
+              "Value / Crafting Time"
+            ).toFixed(2),
+            merchantXpPerCraftingSecond: getBpVal(
+              bp,
+              headers,
+              "Merchant XP / Crafting Time"
+            ).toFixed(2),
             // materials: [
             //   ...conditionalMaterial("Iron"),
             //   ...conditionalMaterial("Wood"),
