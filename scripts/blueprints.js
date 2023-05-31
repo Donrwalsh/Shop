@@ -12,6 +12,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 13,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Iron Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Arming Sword",
@@ -26,6 +31,11 @@ db.blueprints.insertMany([
       airshipPower: 26,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Gladius",
@@ -40,6 +50,11 @@ db.blueprints.insertMany([
       airshipPower: 42,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Iron Pine Cone Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Arboreal Blade",
@@ -54,6 +69,11 @@ db.blueprints.insertMany([
       favor: 21,
       airshipPower: 68,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "-1 Elven Wood Spent", shards: 10 },
+    ],
   },
   {
     name: "Zweihander",
@@ -69,6 +89,11 @@ db.blueprints.insertMany([
       airshipPower: 84,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Iron Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Cutlass",
@@ -83,6 +108,11 @@ db.blueprints.insertMany([
       airshipPower: 70,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Espada",
@@ -97,6 +127,11 @@ db.blueprints.insertMany([
       airshipPower: 115,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Hero's Sword",
@@ -112,6 +147,11 @@ db.blueprints.insertMany([
       airshipPower: 189,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-2 Steel Spent", shards: 20 },
+    ],
   },
   {
     name: "Chocolicious Blade",
@@ -127,6 +167,11 @@ db.blueprints.insertMany([
       airshipPower: 163,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Oils Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Katana",
@@ -141,6 +186,11 @@ db.blueprints.insertMany([
       airshipPower: 160,
       researchScrolls: 18,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Serrated Cinquedea",
@@ -156,6 +206,11 @@ db.blueprints.insertMany([
       airshipPower: 276,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-23 Iron Spent", shards: 25 },
+      { upgrade: "-2 Iron Pine Cone Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+    ],
   },
   {
     name: "Regal Blade",
@@ -170,6 +225,11 @@ db.blueprints.insertMany([
       airshipPower: 216,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Chronos Runeblade",
@@ -185,6 +245,11 @@ db.blueprints.insertMany([
       airshipPower: 308,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Celesteel Blade",
@@ -199,6 +264,11 @@ db.blueprints.insertMany([
       airshipPower: 272,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 35 },
+    ],
   },
   {
     name: "Damocles",
@@ -213,6 +283,11 @@ db.blueprints.insertMany([
       favor: 981,
       airshipPower: 326,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Overgrown Vine Spent", shards: 35 },
+    ],
   },
   {
     name: "Luxurious Macuahuitl",
@@ -227,6 +302,11 @@ db.blueprints.insertMany([
       favor: 1146,
       airshipPower: 296,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Mythril Edge",
@@ -241,6 +321,11 @@ db.blueprints.insertMany([
       airshipPower: 328,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "-3 Star Metal Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Seafarer Blade",
@@ -256,6 +341,11 @@ db.blueprints.insertMany([
       airshipPower: 409,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "-3 Silver Dust Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Gentleman Blade",
@@ -271,6 +361,11 @@ db.blueprints.insertMany([
       airshipPower: 474,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 40 },
+      { upgrade: "-1 Overgrown Vine Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Oversized Cleaver",
@@ -285,6 +380,11 @@ db.blueprints.insertMany([
       airshipPower: 360,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-3 Star Metal Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Caladbolg",
@@ -299,6 +399,11 @@ db.blueprints.insertMany([
       favor: 2352,
       airshipPower: 434,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 45 },
+      { upgrade: "-6 Moon Crystal Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Dragon Dao",
@@ -314,6 +419,11 @@ db.blueprints.insertMany([
       airshipPower: 518,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 45 },
+      { upgrade: "-1 Overgrown Vine Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Tiger Blade",
@@ -329,6 +439,11 @@ db.blueprints.insertMany([
       airshipPower: 459,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 45 },
+      { upgrade: "-28 Steel Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Vorpal Sword",
@@ -343,6 +458,11 @@ db.blueprints.insertMany([
       airshipPower: 464,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Elegant Rapier",
@@ -358,6 +478,11 @@ db.blueprints.insertMany([
       airshipPower: 554,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Tsukuyomi",
@@ -373,6 +498,11 @@ db.blueprints.insertMany([
       airshipPower: 720,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-106 Iron Spent", shards: 60 },
+      { upgrade: "-4 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Excalibur",
@@ -387,6 +517,11 @@ db.blueprints.insertMany([
       airshipPower: 584,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+      { upgrade: "-34 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Titan Sword",
@@ -402,6 +537,11 @@ db.blueprints.insertMany([
       airshipPower: 804,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-17 Steel Spent", shards: 80 },
+      { upgrade: "+15% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Brand",
@@ -416,6 +556,11 @@ db.blueprints.insertMany([
       favor: 5154,
       airshipPower: 608,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Épée d'Artagnan",
@@ -431,6 +576,11 @@ db.blueprints.insertMany([
       airshipPower: 1034,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Thorn of Scorn",
@@ -446,6 +596,11 @@ db.blueprints.insertMany([
       airshipPower: 836,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-117 Wood Spent", shards: 80 },
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Djinn Pyre",
@@ -460,6 +615,11 @@ db.blueprints.insertMany([
       airshipPower: 744,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Magma Core Spent", shards: 100 },
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Plasma Saber",
@@ -475,6 +635,11 @@ db.blueprints.insertMany([
       airshipPower: 889,
       antiqueTokens: 375,
     },
+    ascensionUpgrades: [
+      { upgrade: "-86 Iron Spent", shards: 100 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Wood Axe",
@@ -488,6 +653,11 @@ db.blueprints.insertMany([
       favor: 10,
       airshipPower: 24,
     },
+    ascensionUpgrades: [
+      { upgrade: "-50% Craft Time Reduction", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Hatchet",
@@ -502,6 +672,11 @@ db.blueprints.insertMany([
       airshipPower: 40,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-50% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Iron Chopper",
@@ -516,6 +691,11 @@ db.blueprints.insertMany([
       airshipPower: 58,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x3", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "-3 Glow Shroom Spent", shards: 10 },
+    ],
   },
   {
     name: "Explorer's Axe",
@@ -531,6 +711,11 @@ db.blueprints.insertMany([
       airshipPower: 92,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Bardiche",
@@ -545,6 +730,11 @@ db.blueprints.insertMany([
       airshipPower: 86,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Molten Voulge",
@@ -559,6 +749,11 @@ db.blueprints.insertMany([
       favor: 56,
       airshipPower: 116,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Iron Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Precious Gem Spent", shards: 15 },
+    ],
   },
   {
     name: "Dismantler's Pickaxe",
@@ -573,6 +768,11 @@ db.blueprints.insertMany([
       airshipPower: 119,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Carved Branch Spent", shards: 15 },
+    ],
   },
   {
     name: "Tomahawk",
@@ -587,6 +787,11 @@ db.blueprints.insertMany([
       airshipPower: 118,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Companion Axe",
@@ -602,6 +807,11 @@ db.blueprints.insertMany([
       airshipPower: 194,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-4 Iron Pine Cone Spent", shards: 20 },
+    ],
   },
   {
     name: "Cold Iron Axe",
@@ -617,6 +827,11 @@ db.blueprints.insertMany([
       airshipPower: 171,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Battleaxe",
@@ -631,6 +846,11 @@ db.blueprints.insertMany([
       airshipPower: 168,
       researchScrolls: 16,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+    ],
   },
   {
     name: "Raptor Reaper",
@@ -646,6 +866,11 @@ db.blueprints.insertMany([
       airshipPower: 211,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-2 Webbed Wing Spent", shards: 25 },
+    ],
   },
   {
     name: "Dwarven Greataxe",
@@ -660,6 +885,11 @@ db.blueprints.insertMany([
       airshipPower: 200,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-5 Rustwyrm Scale Spent", shards: 30 },
+    ],
   },
   {
     name: "Stonesplitter",
@@ -674,6 +904,11 @@ db.blueprints.insertMany([
       favor: 502,
       airshipPower: 262,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-2 White Sand Spent", shards: 30 },
+    ],
   },
   {
     name: "Raider Axe",
@@ -688,6 +923,11 @@ db.blueprints.insertMany([
       airshipPower: 264,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+    ],
   },
   {
     name: "Qian Chopper",
@@ -703,6 +943,11 @@ db.blueprints.insertMany([
       airshipPower: 386,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 White Sand Spent", shards: 35 },
+    ],
   },
   {
     name: "Executioner",
@@ -717,6 +962,11 @@ db.blueprints.insertMany([
       airshipPower: 296,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-4 Bronze Fang Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Purgatory",
@@ -731,6 +981,11 @@ db.blueprints.insertMany([
       favor: 1589,
       airshipPower: 362,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-4 White Sand Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Axe of The Fifth",
@@ -746,6 +1001,11 @@ db.blueprints.insertMany([
       airshipPower: 418,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-4 Moon Crystal Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Eclipsis",
@@ -760,6 +1020,11 @@ db.blueprints.insertMany([
       airshipPower: 336,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-3 Evil Eye Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Terra Tyrannis",
@@ -774,6 +1039,11 @@ db.blueprints.insertMany([
       favor: 2451,
       airshipPower: 410,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-2 Overgrown Vine Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Opulent Grandaxe",
@@ -788,6 +1058,11 @@ db.blueprints.insertMany([
       favor: 2831,
       airshipPower: 368,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Kodiak Kleaver",
@@ -803,6 +1078,11 @@ db.blueprints.insertMany([
       airshipPower: 438,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Manticore Slayer",
@@ -817,6 +1097,11 @@ db.blueprints.insertMany([
       airshipPower: 432,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Beeswaxe",
@@ -832,6 +1117,11 @@ db.blueprints.insertMany([
       airshipPower: 594,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-22 Oils Spent", shards: 60 },
+      { upgrade: "-1 Precious Shell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Shroom Doom",
@@ -847,6 +1137,11 @@ db.blueprints.insertMany([
       airshipPower: 538,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Jötunnbane",
@@ -862,6 +1157,11 @@ db.blueprints.insertMany([
       airshipPower: 616,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Crescent of Conquest",
@@ -876,6 +1176,11 @@ db.blueprints.insertMany([
       airshipPower: 552,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-12 Jewels Spent", shards: 80 },
+      { upgrade: "-34 Ironwood Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Onyx King Axe",
@@ -891,6 +1196,11 @@ db.blueprints.insertMany([
       airshipPower: 657,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Lover's Quarrel",
@@ -906,6 +1216,11 @@ db.blueprints.insertMany([
       airshipPower: 782,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x2", shards: 80 },
+      { upgrade: "-1 Magma Core Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Apex Goraxe",
@@ -921,6 +1236,11 @@ db.blueprints.insertMany([
       airshipPower: 678,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-12 Ether Spent", shards: 80 },
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Edge Eternal",
@@ -935,6 +1255,11 @@ db.blueprints.insertMany([
       airshipPower: 696,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 Astral Fabric Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Shiv",
@@ -948,6 +1273,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 11,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Iron Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Ice Pick",
@@ -962,6 +1292,11 @@ db.blueprints.insertMany([
       favor: 9,
       airshipPower: 41,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Swift Blade",
@@ -976,6 +1311,11 @@ db.blueprints.insertMany([
       airshipPower: 24,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Kunai",
@@ -991,6 +1331,11 @@ db.blueprints.insertMany([
       airshipPower: 60,
       antiqueTokens: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Stealth Knife",
@@ -1005,6 +1350,11 @@ db.blueprints.insertMany([
       airshipPower: 48,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Balisong",
@@ -1019,6 +1369,11 @@ db.blueprints.insertMany([
       airshipPower: 86,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Erudite Vector",
@@ -1034,6 +1389,11 @@ db.blueprints.insertMany([
       airshipPower: 163,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Precious Gem Spent", shards: 15 },
+    ],
   },
   {
     name: "Ritual Dagger",
@@ -1048,6 +1408,11 @@ db.blueprints.insertMany([
       airshipPower: 118,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Sokka's Boomerang",
@@ -1063,6 +1428,11 @@ db.blueprints.insertMany([
       airshipPower: 180,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Assassin Tanto",
@@ -1078,6 +1448,11 @@ db.blueprints.insertMany([
       airshipPower: 211,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-2 Webbed Wing Spent", shards: 20 },
+    ],
   },
   {
     name: "Kingsguard",
@@ -1092,6 +1467,11 @@ db.blueprints.insertMany([
       airshipPower: 168,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-4 Silver Dust Spent", shards: 25 },
+    ],
   },
   {
     name: "Cloudwalker Chakram",
@@ -1107,6 +1487,11 @@ db.blueprints.insertMany([
       airshipPower: 264,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-2 Deep Pearl Spent", shards: 25 },
+    ],
   },
   {
     name: "Fishmonger",
@@ -1121,6 +1506,11 @@ db.blueprints.insertMany([
       airshipPower: 216,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Juniper's Trowel",
@@ -1136,6 +1526,11 @@ db.blueprints.insertMany([
       airshipPower: 269,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Herbs Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Troll Tooth",
@@ -1150,6 +1545,11 @@ db.blueprints.insertMany([
       airshipPower: 256,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Steel Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 35 },
+    ],
   },
   {
     name: "Levia Fang",
@@ -1164,6 +1564,11 @@ db.blueprints.insertMany([
       favor: 805,
       airshipPower: 310,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Steel Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-4 Bronze Fang Spent", shards: 35 },
+    ],
   },
   {
     name: "Misericordia",
@@ -1178,6 +1583,11 @@ db.blueprints.insertMany([
       airshipPower: 296,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-12 Steel Spent", shards: 40 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Sultan Dagger",
@@ -1193,6 +1603,11 @@ db.blueprints.insertMany([
       airshipPower: 480,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-30% Craft Time Reduction", shards: 40 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Luxurious Poignard",
@@ -1207,6 +1622,11 @@ db.blueprints.insertMany([
       favor: 1380,
       airshipPower: 320,
     },
+    ascensionUpgrades: [
+      { upgrade: "-14 Steel Spent", shards: 40 },
+      { upgrade: "-1 Golden Artifact Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Ceremonial Katar",
@@ -1221,6 +1641,11 @@ db.blueprints.insertMany([
       airshipPower: 336,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-15 Steel Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Nightmare Fellblade",
@@ -1235,6 +1660,11 @@ db.blueprints.insertMany([
       favor: 1777,
       airshipPower: 410,
     },
+    ascensionUpgrades: [
+      { upgrade: "-16 Steel Spent", shards: 45 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Swan's Edge",
@@ -1250,6 +1680,11 @@ db.blueprints.insertMany([
       airshipPower: 528,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Lucky Strike",
@@ -1265,6 +1700,11 @@ db.blueprints.insertMany([
       airshipPower: 552,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-17 Steel Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Heartseeker",
@@ -1279,6 +1719,11 @@ db.blueprints.insertMany([
       airshipPower: 432,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-18 Steel Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Last Breath",
@@ -1293,6 +1738,11 @@ db.blueprints.insertMany([
       favor: 2277,
       airshipPower: 490,
     },
+    ascensionUpgrades: [
+      { upgrade: "-91 Iron Spent", shards: 60 },
+      { upgrade: "-18 Steel Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Nightwing Bolt",
@@ -1308,6 +1758,11 @@ db.blueprints.insertMany([
       airshipPower: 594,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-13 Steel Spent", shards: 60 },
+      { upgrade: "-12 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Kyoshi Warrior Fan",
@@ -1323,6 +1778,11 @@ db.blueprints.insertMany([
       airshipPower: 538,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Precious Shell Spent", shards: 60 },
+      { upgrade: "-1 Precious Shell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Wiccan Dagger",
@@ -1338,6 +1798,11 @@ db.blueprints.insertMany([
       airshipPower: 896,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "-45 Wood Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Sixth Sin",
@@ -1352,6 +1817,11 @@ db.blueprints.insertMany([
       airshipPower: 552,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20 Steel Spent", shards: 80 },
+      { upgrade: "-31 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Tecpatl",
@@ -1366,6 +1836,11 @@ db.blueprints.insertMany([
       favor: 3270,
       airshipPower: 552,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20 Steel Spent", shards: 80 },
+      { upgrade: "-1 Magma Core Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Celesteel Knuckles",
@@ -1381,6 +1856,11 @@ db.blueprints.insertMany([
       airshipPower: 782,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+      { upgrade: "-17 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Empress War Fan",
@@ -1396,6 +1876,11 @@ db.blueprints.insertMany([
       airshipPower: 852,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-22 Steel Spent", shards: 80 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Nocturne",
@@ -1410,6 +1895,11 @@ db.blueprints.insertMany([
       airshipPower: 696,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 100 },
+      { upgrade: "-1 Raw Obsidian Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Cudgel",
@@ -1424,6 +1914,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 11,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Wood Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Spiked Cudgel",
@@ -1438,6 +1933,11 @@ db.blueprints.insertMany([
       airshipPower: 24,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Cudgel Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Darkwood Branch",
@@ -1452,6 +1952,11 @@ db.blueprints.insertMany([
       favor: 13,
       airshipPower: 49,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Herbs Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Warhammer",
@@ -1466,6 +1971,11 @@ db.blueprints.insertMany([
       airshipPower: 40,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Elven Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Liberty Mace",
@@ -1481,6 +1991,11 @@ db.blueprints.insertMany([
       airshipPower: 58,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Morning Star",
@@ -1495,6 +2010,11 @@ db.blueprints.insertMany([
       airshipPower: 67,
       researchScrolls: 7,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Inflatable Maul",
@@ -1510,6 +2030,11 @@ db.blueprints.insertMany([
       airshipPower: 92,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+    ],
   },
   {
     name: "Flanged Mace",
@@ -1524,6 +2049,11 @@ db.blueprints.insertMany([
       airshipPower: 109,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-4 Iron Pine Cone Spent", shards: 20 },
+    ],
   },
   {
     name: "First Morning Star",
@@ -1539,6 +2069,11 @@ db.blueprints.insertMany([
       airshipPower: 180,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Precious Gem Spent", shards: 20 },
+    ],
   },
   {
     name: "Skull Crusher",
@@ -1553,6 +2088,11 @@ db.blueprints.insertMany([
       airshipPower: 154,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Troublin Bludgeon",
@@ -1568,6 +2108,11 @@ db.blueprints.insertMany([
       airshipPower: 242,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-14 Iron Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Cudgel Spent", shards: 25 },
+    ],
   },
   {
     name: "Evening Star",
@@ -1582,6 +2127,11 @@ db.blueprints.insertMany([
       airshipPower: 200,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Meteor Hammer",
@@ -1596,6 +2146,11 @@ db.blueprints.insertMany([
       favor: 444,
       airshipPower: 262,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Button Masher",
@@ -1611,6 +2166,11 @@ db.blueprints.insertMany([
       airshipPower: 448,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Powder Keg",
@@ -1625,6 +2185,11 @@ db.blueprints.insertMany([
       airshipPower: 264,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-8 Living Root Spent", shards: 35 },
+    ],
   },
   {
     name: "Whack-O'-Lantern",
@@ -1640,6 +2205,11 @@ db.blueprints.insertMany([
       airshipPower: 335,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-28 Ironwood Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Overgrown Vine Spent", shards: 35 },
+    ],
   },
   {
     name: "Peppermint Mallet",
@@ -1655,6 +2225,11 @@ db.blueprints.insertMany([
       airshipPower: 420,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-5 Deep Pearl Spent", shards: 35 },
+    ],
   },
   {
     name: "Tenderizer",
@@ -1669,6 +2244,11 @@ db.blueprints.insertMany([
       airshipPower: 296,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-5 Rustwyrm Scale Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Wallace Mallet",
@@ -1684,6 +2264,11 @@ db.blueprints.insertMany([
       airshipPower: 364,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 40 },
+      { upgrade: "-5 Star Metal Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Striped Star",
@@ -1699,6 +2284,11 @@ db.blueprints.insertMany([
       airshipPower: 480,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 40 },
+      { upgrade: "-6 Precious Gem Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Nautilus",
@@ -1713,6 +2303,11 @@ db.blueprints.insertMany([
       airshipPower: 336,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "-2 Ancient Marble Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Opulent Maul",
@@ -1727,6 +2322,11 @@ db.blueprints.insertMany([
       favor: 1814,
       airshipPower: 336,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "-30% Craft Time Reduction", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Mundra's Masher",
@@ -1742,6 +2342,11 @@ db.blueprints.insertMany([
       airshipPower: 557,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 45 },
+      { upgrade: "-2 Moon Crystal Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Thorium Hammer",
@@ -1756,6 +2361,11 @@ db.blueprints.insertMany([
       airshipPower: 432,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Sunglow Impact",
@@ -1770,6 +2380,11 @@ db.blueprints.insertMany([
       favor: 2702,
       airshipPower: 490,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Gaia Maul",
@@ -1785,6 +2400,11 @@ db.blueprints.insertMany([
       airshipPower: 616,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 60 },
+      { upgrade: "-2 Deep Coral Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Sokka's Club",
@@ -1800,6 +2420,11 @@ db.blueprints.insertMany([
       airshipPower: 538,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "-10 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Mjölnir",
@@ -1814,6 +2439,11 @@ db.blueprints.insertMany([
       airshipPower: 568,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Ether Spent", shards: 80 },
+      { upgrade: "-33 Ironwood Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Eggshell Smasher",
@@ -1829,6 +2459,11 @@ db.blueprints.insertMany([
       airshipPower: 782,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 80 },
+      { upgrade: "-7 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Merry Christmace",
@@ -1844,6 +2479,11 @@ db.blueprints.insertMany([
       airshipPower: 804,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-94 Iron Spent", shards: 80 },
+      { upgrade: "-28 Steel Spent", shards: 80 },
+      { upgrade: "-10 Ether Spent", shards: 80 },
+    ],
   },
   {
     name: "Crag Guardian",
@@ -1858,6 +2498,11 @@ db.blueprints.insertMany([
       airshipPower: 696,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-25 Ironwood Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Smash Hit",
@@ -1873,6 +2518,11 @@ db.blueprints.insertMany([
       airshipPower: 831,
       antiqueTokens: 375,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 Outsider's Claw Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Javelin",
@@ -1886,6 +2536,11 @@ db.blueprints.insertMany([
       favor: 10,
       airshipPower: 24,
     },
+    ascensionUpgrades: [
+      { upgrade: "-50% Craft Time Reduction", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Hunting Spear",
@@ -1900,6 +2555,11 @@ db.blueprints.insertMany([
       airshipPower: 40,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Elven Wood Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Bladed Spear",
@@ -1914,6 +2574,11 @@ db.blueprints.insertMany([
       airshipPower: 67,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Iron Pine Cone Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Sturdy Pitchfork",
@@ -1929,6 +2594,11 @@ db.blueprints.insertMany([
       airshipPower: 115,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-13 Iron Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Ranseur",
@@ -1943,6 +2613,11 @@ db.blueprints.insertMany([
       airshipPower: 99,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-3 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Trishula",
@@ -1957,6 +2632,11 @@ db.blueprints.insertMany([
       airshipPower: 131,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Bunbun Lance",
@@ -1972,6 +2652,11 @@ db.blueprints.insertMany([
       airshipPower: 194,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Herbs Spent", shards: 20 },
+      { upgrade: "-1 Precious Gem Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Warlord Halberd",
@@ -1987,6 +2672,11 @@ db.blueprints.insertMany([
       airshipPower: 230,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-21 Leather Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Spetum",
@@ -2001,6 +2691,11 @@ db.blueprints.insertMany([
       airshipPower: 168,
       researchScrolls: 16,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Bronze Fang Spent", shards: 25 },
+    ],
   },
   {
     name: "Triton Lance",
@@ -2015,6 +2710,11 @@ db.blueprints.insertMany([
       favor: 296,
       airshipPower: 222,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Magic Potion Spent", shards: 25 },
+    ],
   },
   {
     name: "Cu Chulainn's Lance",
@@ -2030,6 +2730,11 @@ db.blueprints.insertMany([
       airshipPower: 288,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-32 Leather Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-2 Living Root Spent", shards: 25 },
+    ],
   },
   {
     name: "Royal Halberd",
@@ -2044,6 +2749,11 @@ db.blueprints.insertMany([
       airshipPower: 216,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Hunting Spear Spent", shards: 30 },
+    ],
   },
   {
     name: "Twicicle Javelin",
@@ -2059,6 +2769,11 @@ db.blueprints.insertMany([
       airshipPower: 308,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-2 Precious Gem Spent", shards: 30 },
+    ],
   },
   {
     name: "Warrior Assegai",
@@ -2074,6 +2789,11 @@ db.blueprints.insertMany([
       airshipPower: 274,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+      { upgrade: "-13 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+    ],
   },
   {
     name: "Champion Lance",
@@ -2088,6 +2808,11 @@ db.blueprints.insertMany([
       airshipPower: 256,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-5 White Sand Spent", shards: 35 },
+    ],
   },
   {
     name: "Sunset Yari",
@@ -2103,6 +2828,11 @@ db.blueprints.insertMany([
       airshipPower: 314,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Overgrown Vine Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-8 Jewels Spent", shards: 35 },
+    ],
   },
   {
     name: "Wyvern Glaive",
@@ -2117,6 +2847,11 @@ db.blueprints.insertMany([
       airshipPower: 296,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+      { upgrade: "Component Quality Reduced", shards: 40 },
+    ],
   },
   {
     name: "Hoartooth Lance",
@@ -2132,6 +2867,11 @@ db.blueprints.insertMany([
       airshipPower: 364,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 40 },
+      { upgrade: "-2 Overgrown Vine Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Luxurious Spear",
@@ -2146,6 +2886,11 @@ db.blueprints.insertMany([
       favor: 1589,
       airshipPower: 304,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 40 },
+      { upgrade: "-2 Evil Eye Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Stellaria",
@@ -2160,6 +2905,11 @@ db.blueprints.insertMany([
       airshipPower: 336,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Longinus",
@@ -2174,6 +2924,11 @@ db.blueprints.insertMany([
       favor: 2128,
       airshipPower: 394,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Birdbane Halberd",
@@ -2189,6 +2944,11 @@ db.blueprints.insertMany([
       airshipPower: 484,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 45 },
+      { upgrade: "-3 Silk Scarab Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Titania's Gift",
@@ -2203,6 +2963,11 @@ db.blueprints.insertMany([
       airshipPower: 432,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Jester Jouster",
@@ -2218,6 +2983,11 @@ db.blueprints.insertMany([
       airshipPower: 517,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 60 },
+      { upgrade: "-2 Ghastly Pennant Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Holy Night Lance",
@@ -2233,6 +3003,11 @@ db.blueprints.insertMany([
       airshipPower: 616,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Precious Shell Spent", shards: 60 },
+      { upgrade: "-10 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Heaven's Wrath",
@@ -2247,6 +3022,11 @@ db.blueprints.insertMany([
       airshipPower: 552,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-12 Jewels Spent", shards: 80 },
+      { upgrade: "-34 Ironwood Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Propeller-Pike",
@@ -2262,6 +3042,11 @@ db.blueprints.insertMany([
       airshipPower: 657,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-23 Ironwood Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Pokey Parasol",
@@ -2277,6 +3062,11 @@ db.blueprints.insertMany([
       airshipPower: 782,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "-76 Leather Spent", shards: 80 },
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+    ],
   },
   {
     name: "Opulent Halberd",
@@ -2291,6 +3081,11 @@ db.blueprints.insertMany([
       favor: 5488,
       airshipPower: 568,
     },
+    ascensionUpgrades: [
+      { upgrade: "-14 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+    ],
   },
   {
     name: "Blackened Bardiche",
@@ -2305,6 +3100,11 @@ db.blueprints.insertMany([
       airshipPower: 696,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "-1 All-Seeing Eye Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Riptide",
@@ -2319,6 +3119,11 @@ db.blueprints.insertMany([
       favor: 7238,
       airshipPower: 802,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "-1 Crush Claw Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Training Bow",
@@ -2332,6 +3137,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 18,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Wood Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Tailwind",
@@ -2346,6 +3156,11 @@ db.blueprints.insertMany([
       favor: 11,
       airshipPower: 42,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x2", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "-1 Iron Pine Cone Spent", shards: 5 },
+    ],
   },
   {
     name: "Elmwood Bow",
@@ -2360,6 +3175,11 @@ db.blueprints.insertMany([
       airshipPower: 34,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Wood Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Reflex Bow",
@@ -2374,6 +3194,11 @@ db.blueprints.insertMany([
       airshipPower: 61,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Elven Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Grand Harp",
@@ -2389,6 +3214,11 @@ db.blueprints.insertMany([
       airshipPower: 98,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-13 Leather Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Compound Bow",
@@ -2403,6 +3233,11 @@ db.blueprints.insertMany([
       airshipPower: 93,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 15 },
+    ],
   },
   {
     name: "Mundra's Hornbow",
@@ -2418,6 +3253,11 @@ db.blueprints.insertMany([
       airshipPower: 263,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ironwood Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Precious Gem Spent", shards: 15 },
+    ],
   },
   {
     name: "Deadeye",
@@ -2432,6 +3272,11 @@ db.blueprints.insertMany([
       airshipPower: 128,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-2 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Hallowed Willow",
@@ -2447,6 +3292,11 @@ db.blueprints.insertMany([
       airshipPower: 207,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 20 },
+    ],
   },
   {
     name: "Raptoria",
@@ -2461,6 +3311,11 @@ db.blueprints.insertMany([
       airshipPower: 176,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-5 Glow Shroom Spent", shards: 25 },
+    ],
   },
   {
     name: "Quetzal Wing",
@@ -2475,6 +3330,11 @@ db.blueprints.insertMany([
       favor: 296,
       airshipPower: 230,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Studded Gloves Spent", shards: 25 },
+    ],
   },
   {
     name: "L'Arabesque",
@@ -2489,6 +3349,11 @@ db.blueprints.insertMany([
       airshipPower: 224,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Hotshot Bowgun",
@@ -2504,6 +3369,11 @@ db.blueprints.insertMany([
       airshipPower: 330,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-50 Iron Spent", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Yumi",
@@ -2518,6 +3388,11 @@ db.blueprints.insertMany([
       airshipPower: 280,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "Component Quality Reduced", shards: 35 },
+    ],
   },
   {
     name: "Cupid Bow",
@@ -2533,6 +3408,11 @@ db.blueprints.insertMany([
       airshipPower: 356,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-6 Bronze Fang Spent", shards: 35 },
+    ],
   },
   {
     name: "Bramblebane",
@@ -2547,6 +3427,11 @@ db.blueprints.insertMany([
       airshipPower: 312,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Maplewood Gale",
@@ -2562,6 +3447,11 @@ db.blueprints.insertMany([
       airshipPower: 452,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "-2 Webbed Wing Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Gemini Strike",
@@ -2576,6 +3466,11 @@ db.blueprints.insertMany([
       airshipPower: 360,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-2 Thread of Fate Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Jolly Ranger",
@@ -2591,6 +3486,11 @@ db.blueprints.insertMany([
       airshipPower: 451,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 45 },
+      { upgrade: "-2 Bronze Fang Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Stormrend",
@@ -2605,6 +3505,11 @@ db.blueprints.insertMany([
       airshipPower: 480,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Opulent Longbow",
@@ -2619,6 +3524,11 @@ db.blueprints.insertMany([
       favor: 3479,
       airshipPower: 480,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Pinata Hunter",
@@ -2634,6 +3544,11 @@ db.blueprints.insertMany([
       airshipPower: 720,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 60 },
+      { upgrade: "-1 Yumi Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Rising Star",
@@ -2649,6 +3564,11 @@ db.blueprints.insertMany([
       airshipPower: 682,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Precious Shell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Boughwrought Bow",
@@ -2664,6 +3584,11 @@ db.blueprints.insertMany([
       airshipPower: 596,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Olympus",
@@ -2678,6 +3603,11 @@ db.blueprints.insertMany([
       airshipPower: 608,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+      { upgrade: "-37 Ironwood Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Power Flipper",
@@ -2693,6 +3623,11 @@ db.blueprints.insertMany([
       airshipPower: 1034,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 80 },
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Elite Pathfinder",
@@ -2708,6 +3643,11 @@ db.blueprints.insertMany([
       airshipPower: 892,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 80 },
+      { upgrade: "-5 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Grand Monarque",
@@ -2722,6 +3662,11 @@ db.blueprints.insertMany([
       airshipPower: 744,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "-1 Astral Fabric Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Earthstrung Wings",
@@ -2736,6 +3681,11 @@ db.blueprints.insertMany([
       favor: 7238,
       airshipPower: 850,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "-1 Outsider's Claw Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Jindai Zakura",
@@ -2751,6 +3701,11 @@ db.blueprints.insertMany([
       airshipPower: 918,
       antiqueTokens: 375,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "-2 Deep Coral Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Carved Branch",
@@ -2765,6 +3720,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 13,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Wood Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Sturdy Cane",
@@ -2779,6 +3739,11 @@ db.blueprints.insertMany([
       airshipPower: 26,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Wood Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Oak Staff",
@@ -2793,6 +3758,11 @@ db.blueprints.insertMany([
       airshipPower: 42,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Elven Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Owl Perch",
@@ -2808,6 +3778,11 @@ db.blueprints.insertMany([
       airshipPower: 85,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Herbs Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Luxurious Stick",
@@ -2822,6 +3797,11 @@ db.blueprints.insertMany([
       favor: 30,
       airshipPower: 70,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20% Craft Time Reduction", shards: 10 },
+      { upgrade: "-2 Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+    ],
   },
   {
     name: "Bo Staff",
@@ -2836,6 +3816,11 @@ db.blueprints.insertMany([
       airshipPower: 83,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Apprentice Staff",
@@ -2851,6 +3836,11 @@ db.blueprints.insertMany([
       airshipPower: 141,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "Quality Chance x3", shards: 15 },
+    ],
   },
   {
     name: "Jade Scepter",
@@ -2865,6 +3855,11 @@ db.blueprints.insertMany([
       airshipPower: 128,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Amber Staff",
@@ -2879,6 +3874,11 @@ db.blueprints.insertMany([
       favor: 119,
       airshipPower: 183,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Wiccan Broomstick",
@@ -2894,6 +3894,11 @@ db.blueprints.insertMany([
       airshipPower: 163,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Wizard Staff",
@@ -2908,6 +3913,11 @@ db.blueprints.insertMany([
       airshipPower: 176,
       researchScrolls: 18,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-2 Precious Gem Spent", shards: 25 },
+    ],
   },
   {
     name: "Staff of Seasons",
@@ -2923,6 +3933,11 @@ db.blueprints.insertMany([
       airshipPower: 276,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Celestial Staff",
@@ -2937,6 +3952,11 @@ db.blueprints.insertMany([
       airshipPower: 216,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Mundra's Scepter",
@@ -2952,6 +3972,11 @@ db.blueprints.insertMany([
       airshipPower: 450,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 30 },
+    ],
   },
   {
     name: "Imperial Aquila",
@@ -2966,6 +3991,11 @@ db.blueprints.insertMany([
       airshipPower: 272,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Ironwood Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 35 },
+    ],
   },
   {
     name: "Phoenix Staff",
@@ -2980,6 +4010,11 @@ db.blueprints.insertMany([
       favor: 1001,
       airshipPower: 326,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "Component Quality Reduced", shards: 35 },
+    ],
   },
   {
     name: "Fluted Chime",
@@ -2995,6 +4030,11 @@ db.blueprints.insertMany([
       airshipPower: 386,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Ether Spent", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+    ],
   },
   {
     name: "Transcendence",
@@ -3009,6 +4049,11 @@ db.blueprints.insertMany([
       airshipPower: 312,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-2 Alloy Loop Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Tidebringer",
@@ -3023,6 +4068,11 @@ db.blueprints.insertMany([
       favor: 1589,
       airshipPower: 386,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-2 Star Metal Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Zesty Scepter",
@@ -3038,6 +4088,11 @@ db.blueprints.insertMany([
       airshipPower: 452,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-1 Thread of Fate Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Seraphim",
@@ -3052,6 +4107,11 @@ db.blueprints.insertMany([
       airshipPower: 360,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Staff of Merriment",
@@ -3067,6 +4127,11 @@ db.blueprints.insertMany([
       airshipPower: 518,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+      { upgrade: "-1 Wizard Staff Spent", shards: 45 },
+    ],
   },
   {
     name: "Penumbra",
@@ -3081,6 +4146,11 @@ db.blueprints.insertMany([
       airshipPower: 464,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Ice Queen's Scepter",
@@ -3096,6 +4166,11 @@ db.blueprints.insertMany([
       airshipPower: 554,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ether Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Heartcaptor's Staff",
@@ -3111,6 +4186,11 @@ db.blueprints.insertMany([
       airshipPower: 660,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Scepter of Xolimnul",
@@ -3125,6 +4205,11 @@ db.blueprints.insertMany([
       airshipPower: 584,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-34 Ironwood Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Staff",
@@ -3139,6 +4224,11 @@ db.blueprints.insertMany([
       favor: 4782,
       airshipPower: 584,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Soulbinder Staff",
@@ -3154,6 +4244,11 @@ db.blueprints.insertMany([
       airshipPower: 876,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Grim Talon Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Pharaoh's Ankh",
@@ -3169,6 +4264,11 @@ db.blueprints.insertMany([
       airshipPower: 728,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ether Spent", shards: 80 },
+      { upgrade: "-1 Magma Core Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Cloud Nine",
@@ -3183,6 +4283,11 @@ db.blueprints.insertMany([
       airshipPower: 768,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Boreal Gale Spent", shards: 100 },
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Gravity Controller",
@@ -3197,6 +4302,11 @@ db.blueprints.insertMany([
       favor: 7793,
       airshipPower: 874,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Raw Obsidian Spent", shards: 100 },
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Baton",
@@ -3211,6 +4321,11 @@ db.blueprints.insertMany([
       favor: 11,
       airshipPower: 29,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Wood Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Elvenwood Wand",
@@ -3225,6 +4340,11 @@ db.blueprints.insertMany([
       favor: 21,
       airshipPower: 59,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Elven Wood Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Hexer's Wand",
@@ -3239,6 +4359,11 @@ db.blueprints.insertMany([
       favor: 39,
       airshipPower: 96,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x3", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "-4 Glow Shroom Spent", shards: 10 },
+    ],
   },
   {
     name: "Steel Rod",
@@ -3254,6 +4379,11 @@ db.blueprints.insertMany([
       airshipPower: 122,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Sturdy Cap Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "Quality Chance x3", shards: 15 },
+    ],
   },
   {
     name: "Star Rod",
@@ -3269,6 +4399,11 @@ db.blueprints.insertMany([
       airshipPower: 160,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Peppermint Cane",
@@ -3284,6 +4419,11 @@ db.blueprints.insertMany([
       airshipPower: 242,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Sylvanel",
@@ -3299,6 +4439,11 @@ db.blueprints.insertMany([
       airshipPower: 208,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-6 Elven Wood Spent", shards: 25 },
+    ],
   },
   {
     name: "Chōchin Gohei",
@@ -3314,6 +4459,11 @@ db.blueprints.insertMany([
       airshipPower: 269,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Ruby Wand",
@@ -3329,6 +4479,11 @@ db.blueprints.insertMany([
       airshipPower: 264,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Owl Wing Wand",
@@ -3344,6 +4499,11 @@ db.blueprints.insertMany([
       airshipPower: 335,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Wand of Midas",
@@ -3359,6 +4519,11 @@ db.blueprints.insertMany([
       airshipPower: 328,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+    ],
   },
   {
     name: "Evergreen Wand",
@@ -3374,6 +4539,11 @@ db.blueprints.insertMany([
       airshipPower: 392,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Equinox Rod",
@@ -3389,6 +4559,11 @@ db.blueprints.insertMany([
       airshipPower: 496,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "-3 Moon Crystal Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Astral Conductor",
@@ -3404,6 +4579,11 @@ db.blueprints.insertMany([
       airshipPower: 448,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Grimar's Grand Wand",
@@ -3419,6 +4599,11 @@ db.blueprints.insertMany([
       airshipPower: 616,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "-2 Chronos Crystal Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Draconic Eyestalk",
@@ -3434,6 +4619,11 @@ db.blueprints.insertMany([
       airshipPower: 560,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Opulent Wand",
@@ -3448,6 +4638,11 @@ db.blueprints.insertMany([
       favor: 3218,
       airshipPower: 560,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 60 },
+    ],
   },
   {
     name: "Moonlight Wand",
@@ -3463,6 +4658,11 @@ db.blueprints.insertMany([
       airshipPower: 686,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Herald of the End",
@@ -3478,6 +4678,11 @@ db.blueprints.insertMany([
       airshipPower: 704,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-34 Ironwood Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Ivory Queen Rod",
@@ -3493,6 +4698,11 @@ db.blueprints.insertMany([
       airshipPower: 968,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Steel Spent", shards: 80 },
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Fork of Roasting",
@@ -3508,6 +4718,11 @@ db.blueprints.insertMany([
       airshipPower: 868,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-33 Steel Spent", shards: 80 },
+      { upgrade: "-12 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Pyroquartz Rod",
@@ -3523,6 +4738,11 @@ db.blueprints.insertMany([
       airshipPower: 920,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 All-Seeing Eye Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Light Crossbow",
@@ -3537,6 +4757,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 19,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Hand Crossbow",
@@ -3551,6 +4776,11 @@ db.blueprints.insertMany([
       favor: 16,
       airshipPower: 37,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Arbalest",
@@ -3565,6 +4795,11 @@ db.blueprints.insertMany([
       favor: 26,
       airshipPower: 67,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Elven Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Heavy Crossbow",
@@ -3580,6 +4815,11 @@ db.blueprints.insertMany([
       airshipPower: 102,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 15 },
+    ],
   },
   {
     name: "Cluckthrower",
@@ -3595,6 +4835,11 @@ db.blueprints.insertMany([
       airshipPower: 153,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-3 Elven Wood Spent", shards: 15 },
+    ],
   },
   {
     name: "Hunter's Crossbow",
@@ -3610,6 +4855,11 @@ db.blueprints.insertMany([
       airshipPower: 141,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Herbs Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-2 Mintyleaf Herb Spent", shards: 20 },
+    ],
   },
   {
     name: "Scorpio",
@@ -3625,6 +4875,11 @@ db.blueprints.insertMany([
       airshipPower: 192,
       researchScrolls: 16,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+    ],
   },
   {
     name: "Primitech Slingshot",
@@ -3640,6 +4895,11 @@ db.blueprints.insertMany([
       airshipPower: 308,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-13 Ironwood Spent", shards: 25 },
+      { upgrade: "-1 Living Root Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+    ],
   },
   {
     name: "Double Crossbow",
@@ -3655,6 +4915,11 @@ db.blueprints.insertMany([
       airshipPower: 256,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Arbalest Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Chu-Ko-Nu",
@@ -3670,6 +4935,11 @@ db.blueprints.insertMany([
       airshipPower: 304,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Ironwood Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Dra-Ko-Nu",
@@ -3685,6 +4955,11 @@ db.blueprints.insertMany([
       airshipPower: 380,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Ironwood Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Overgrown Vine Spent", shards: 35 },
+    ],
   },
   {
     name: "Triple Crossbow",
@@ -3700,6 +4975,11 @@ db.blueprints.insertMany([
       airshipPower: 368,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Heavy Crossbow Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Super Repeater",
@@ -3715,6 +4995,11 @@ db.blueprints.insertMany([
       airshipPower: 400,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Nightwing Caster",
@@ -3730,6 +5015,11 @@ db.blueprints.insertMany([
       airshipPower: 550,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Leviathan",
@@ -3745,6 +5035,11 @@ db.blueprints.insertMany([
       airshipPower: 520,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Opulent Crossbow",
@@ -3759,6 +5054,11 @@ db.blueprints.insertMany([
       favor: 3592,
       airshipPower: 520,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Titan Crossbow",
@@ -3774,6 +5074,11 @@ db.blueprints.insertMany([
       airshipPower: 649,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Godslayer Arbalest",
@@ -3789,6 +5094,11 @@ db.blueprints.insertMany([
       airshipPower: 656,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-34 Ironwood Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Baross' Backup",
@@ -3804,6 +5114,11 @@ db.blueprints.insertMany([
       airshipPower: 902,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Primarosa",
@@ -3819,6 +5134,11 @@ db.blueprints.insertMany([
       airshipPower: 840,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "Component Quality Reduced", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Pellet Gun",
@@ -3833,6 +5153,11 @@ db.blueprints.insertMany([
       favor: 12,
       airshipPower: 30,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Handgun",
@@ -3847,6 +5172,11 @@ db.blueprints.insertMany([
       favor: 19,
       airshipPower: 51,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Smoothbore",
@@ -3861,6 +5191,11 @@ db.blueprints.insertMany([
       favor: 33,
       airshipPower: 86,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Iron Pine Cone Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Long Rifle",
@@ -3876,6 +5211,11 @@ db.blueprints.insertMany([
       airshipPower: 128,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Living Root Spent", shards: 15 },
+    ],
   },
   {
     name: "Snowball Launcher",
@@ -3891,6 +5231,11 @@ db.blueprints.insertMany([
       airshipPower: 194,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Deep Pearl Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "Quality Chance x3", shards: 15 },
+    ],
   },
   {
     name: "Blunderbuss",
@@ -3906,6 +5251,11 @@ db.blueprints.insertMany([
       airshipPower: 184,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-5 Elven Wood Spent", shards: 20 },
+    ],
   },
   {
     name: "Boomstick",
@@ -3921,6 +5271,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+    ],
   },
   {
     name: "Banana Gun",
@@ -3936,6 +5291,11 @@ db.blueprints.insertMany([
       airshipPower: 298,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+    ],
   },
   {
     name: "Pellet Popper",
@@ -3951,6 +5311,11 @@ db.blueprints.insertMany([
       airshipPower: 360,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Deep Pearl Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Kenora Mk. IV",
@@ -3966,6 +5331,11 @@ db.blueprints.insertMany([
       airshipPower: 280,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-2 White Sand Spent", shards: 30 },
+    ],
   },
   {
     name: "Prototype Gatling",
@@ -3981,6 +5351,11 @@ db.blueprints.insertMany([
       airshipPower: 336,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Steel Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Overgrown Vine Spent", shards: 35 },
+    ],
   },
   {
     name: "Dragonator",
@@ -3996,6 +5371,11 @@ db.blueprints.insertMany([
       airshipPower: 424,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Handcask '65",
@@ -4011,6 +5391,11 @@ db.blueprints.insertMany([
       airshipPower: 584,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Evil Eye Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "The Messenger",
@@ -4026,6 +5411,11 @@ db.blueprints.insertMany([
       airshipPower: 464,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Oxen Impact",
@@ -4041,6 +5431,11 @@ db.blueprints.insertMany([
       airshipPower: 672,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Omega Disintegrator",
@@ -4056,6 +5451,11 @@ db.blueprints.insertMany([
       airshipPower: 576,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Opulent Pistol",
@@ -4070,6 +5470,11 @@ db.blueprints.insertMany([
       favor: 3351,
       airshipPower: 576,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Dogbone Blaster",
@@ -4085,6 +5490,11 @@ db.blueprints.insertMany([
       airshipPower: 691,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Blackbeard's Cannon",
@@ -4100,6 +5510,11 @@ db.blueprints.insertMany([
       airshipPower: 760,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 80 },
+      { upgrade: "-37 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Hotshot Carbine",
@@ -4115,6 +5530,11 @@ db.blueprints.insertMany([
       airshipPower: 1046,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Gift Wrap Rifle",
@@ -4130,6 +5550,11 @@ db.blueprints.insertMany([
       airshipPower: 1176,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Overgrown Vine Spent", shards: 80 },
+      { upgrade: "-6 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Vainglory",
@@ -4144,6 +5569,11 @@ db.blueprints.insertMany([
       airshipPower: 936,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-35 Steel Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Sonic Trumpeteer",
@@ -4159,6 +5589,11 @@ db.blueprints.insertMany([
       airshipPower: 1116,
       antiqueTokens: 375,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-2 Precious Shell Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Mintyleaf Herb",
@@ -4173,6 +5608,11 @@ db.blueprints.insertMany([
       favor: 10,
       airshipPower: 16,
     },
+    ascensionUpgrades: [
+      { upgrade: "-50% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Sweet Grass",
@@ -4187,6 +5627,11 @@ db.blueprints.insertMany([
       airshipPower: 25,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-50% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Moon Powder",
@@ -4201,6 +5646,11 @@ db.blueprints.insertMany([
       airshipPower: 42,
       researchScrolls: 4,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Mintyleaf Herb Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Magical Mistletoe",
@@ -4216,6 +5666,11 @@ db.blueprints.insertMany([
       airshipPower: 59,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Herbs Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Healing Salve",
@@ -4230,6 +5685,11 @@ db.blueprints.insertMany([
       airshipPower: 65,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Living Root Spent", shards: 15 },
+    ],
   },
   {
     name: "Venerable Oats",
@@ -4245,6 +5705,11 @@ db.blueprints.insertMany([
       airshipPower: 81,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Sweet Grass Spent", shards: 15 },
+    ],
   },
   {
     name: "Silver Thistle",
@@ -4259,6 +5724,11 @@ db.blueprints.insertMany([
       airshipPower: 83,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Oils Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Bountiful Harvest",
@@ -4274,6 +5744,11 @@ db.blueprints.insertMany([
       airshipPower: 108,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Oils Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Flint Corn Bundle",
@@ -4289,6 +5764,11 @@ db.blueprints.insertMany([
       airshipPower: 143,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Oils Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Bloodvine",
@@ -4303,6 +5783,11 @@ db.blueprints.insertMany([
       airshipPower: 107,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Bronze Fang Spent", shards: 25 },
+    ],
   },
   {
     name: "Fragrant Bouquet",
@@ -4318,6 +5803,11 @@ db.blueprints.insertMany([
       airshipPower: 136,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+      { upgrade: "-2 Silver Dust Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+    ],
   },
   {
     name: "Lil' Cactus",
@@ -4333,6 +5823,11 @@ db.blueprints.insertMany([
       airshipPower: 149,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Mandragoroot",
@@ -4347,6 +5842,11 @@ db.blueprints.insertMany([
       airshipPower: 130,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Unwilting Rose",
@@ -4362,6 +5862,11 @@ db.blueprints.insertMany([
       airshipPower: 191,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-2 White Sand Spent", shards: 30 },
+    ],
   },
   {
     name: "Wolf's Bane",
@@ -4376,6 +5881,11 @@ db.blueprints.insertMany([
       airshipPower: 164,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Mistpeak Bloom",
@@ -4390,6 +5900,11 @@ db.blueprints.insertMany([
       favor: 981,
       airshipPower: 277,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Overgrown Vine Spent", shards: 35 },
+    ],
   },
   {
     name: "Yggdrasil Branch",
@@ -4404,6 +5919,11 @@ db.blueprints.insertMany([
       airshipPower: 189,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+      { upgrade: "-1 Healing Salve Spent", shards: 40 },
+    ],
   },
   {
     name: "Luckiest Clover",
@@ -4419,6 +5939,11 @@ db.blueprints.insertMany([
       airshipPower: 234,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+      { upgrade: "-2 Overgrown Vine Spent", shards: 40 },
+    ],
   },
   {
     name: "Luxurious Panacea",
@@ -4433,6 +5958,11 @@ db.blueprints.insertMany([
       favor: 1777,
       airshipPower: 205,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-2 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Wyrmblood Ointment",
@@ -4447,6 +5977,11 @@ db.blueprints.insertMany([
       airshipPower: 223,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-3 Silk Scarab Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Wild Oak Rose",
@@ -4462,6 +5997,11 @@ db.blueprints.insertMany([
       airshipPower: 283,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Bo Staff Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Florae Daemonica",
@@ -4476,6 +6016,11 @@ db.blueprints.insertMany([
       airshipPower: 278,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Bleakspire Roots",
@@ -4490,6 +6035,11 @@ db.blueprints.insertMany([
       favor: 3061,
       airshipPower: 411,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Seltzer Surprise",
@@ -4505,6 +6055,11 @@ db.blueprints.insertMany([
       airshipPower: 363,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Super Snack Pack",
@@ -4520,6 +6075,11 @@ db.blueprints.insertMany([
       airshipPower: 343,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-26 Oils Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Philosopher's Stone",
@@ -4534,6 +6094,11 @@ db.blueprints.insertMany([
       airshipPower: 353,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 80 },
+      { upgrade: "-34 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Sakura Infusion",
@@ -4549,6 +6114,11 @@ db.blueprints.insertMany([
       airshipPower: 458,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 80 },
+      { upgrade: "-6 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Decoction",
@@ -4563,6 +6133,11 @@ db.blueprints.insertMany([
       favor: 4528,
       airshipPower: 353,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+    ],
   },
   {
     name: "Premium Brand Jam",
@@ -4578,6 +6153,11 @@ db.blueprints.insertMany([
       airshipPower: 433,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25 Oils Spent", shards: 80 },
+      { upgrade: "-10 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Voidbloom Roots",
@@ -4592,6 +6172,11 @@ db.blueprints.insertMany([
       airshipPower: 449,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 Astral Fabric Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Slide Grease",
@@ -4607,6 +6192,11 @@ db.blueprints.insertMany([
       airshipPower: 584,
       antiqueTokens: 375,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-7 Ether Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Warm Tea",
@@ -4620,6 +6210,11 @@ db.blueprints.insertMany([
       favor: 13,
       airshipPower: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-50% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Healing Potion",
@@ -4634,6 +6229,11 @@ db.blueprints.insertMany([
       airshipPower: 45,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-50% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Magic Potion",
@@ -4648,6 +6248,11 @@ db.blueprints.insertMany([
       airshipPower: 70,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Webbed Wing Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Science Project",
@@ -4663,6 +6268,11 @@ db.blueprints.insertMany([
       airshipPower: 88,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Herbs Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "XL Healing Potion",
@@ -4677,6 +6287,11 @@ db.blueprints.insertMany([
       airshipPower: 95,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Living Root Spent", shards: 15 },
+    ],
   },
   {
     name: "Elegant Tea Set",
@@ -4692,6 +6307,11 @@ db.blueprints.insertMany([
       airshipPower: 163,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Glow Shroom Spent", shards: 15 },
+    ],
   },
   {
     name: "XL Magic Potion",
@@ -4706,6 +6326,11 @@ db.blueprints.insertMany([
       airshipPower: 120,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Oils Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-2 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Titan Potion",
@@ -4721,6 +6346,11 @@ db.blueprints.insertMany([
       airshipPower: 194,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Oils Spent", shards: 20 },
+      { upgrade: "+15% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Old Salt's Brew",
@@ -4736,6 +6366,11 @@ db.blueprints.insertMany([
       airshipPower: 162,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Oils Spent", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Phoenix Tonic",
@@ -4750,6 +6385,11 @@ db.blueprints.insertMany([
       airshipPower: 140,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-5 Iron Pine Cone Spent", shards: 25 },
+    ],
   },
   {
     name: "Zesty Granita",
@@ -4765,6 +6405,11 @@ db.blueprints.insertMany([
       airshipPower: 222,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Potion of Renewal",
@@ -4779,6 +6424,11 @@ db.blueprints.insertMany([
       airshipPower: 160,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Bottled Mirth",
@@ -4793,6 +6443,11 @@ db.blueprints.insertMany([
       favor: 502,
       airshipPower: 230,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Fizzy Guzzle Bottle",
@@ -4807,6 +6462,11 @@ db.blueprints.insertMany([
       airshipPower: 264,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 XL Magic Potion Spent", shards: 30 },
+    ],
   },
   {
     name: "Purple Bomb",
@@ -4821,6 +6481,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-4 Moon Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Gourd Elixir",
@@ -4836,6 +6501,11 @@ db.blueprints.insertMany([
       airshipPower: 276,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Oils Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 XL Healing Potion Spent", shards: 35 },
+    ],
   },
   {
     name: "Naya's Special",
@@ -4850,6 +6520,11 @@ db.blueprints.insertMany([
       airshipPower: 310,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Silk Scarab Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 35 },
+    ],
   },
   {
     name: "Special Sazonado",
@@ -4864,6 +6539,11 @@ db.blueprints.insertMany([
       airshipPower: 290,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-12 Oils Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Overgrown Vine Spent", shards: 35 },
+    ],
   },
   {
     name: "Soulfire Extract",
@@ -4878,6 +6558,11 @@ db.blueprints.insertMany([
       airshipPower: 230,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+      { upgrade: "Component Quality Reduced", shards: 40 },
+    ],
   },
   {
     name: "Tangy Decoction",
@@ -4893,6 +6578,11 @@ db.blueprints.insertMany([
       airshipPower: 316,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+      { upgrade: "-1 Thread of Fate Spent", shards: 40 },
+    ],
   },
   {
     name: "Oak Essence",
@@ -4908,6 +6598,11 @@ db.blueprints.insertMany([
       airshipPower: 370,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 40 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Gaia Tonic",
@@ -4922,6 +6617,11 @@ db.blueprints.insertMany([
       airshipPower: 265,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Midnight Oil",
@@ -4937,6 +6637,11 @@ db.blueprints.insertMany([
       airshipPower: 349,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-3 Evil Eye Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Opulent Elixir",
@@ -4951,6 +6656,11 @@ db.blueprints.insertMany([
       favor: 2451,
       airshipPower: 275,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "-2 Crystal Lullaby Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Distilled Nebula",
@@ -4965,6 +6675,11 @@ db.blueprints.insertMany([
       airshipPower: 340,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Aurora Springwater",
@@ -4980,6 +6695,11 @@ db.blueprints.insertMany([
       airshipPower: 502,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-2 Crystal Lullaby Spent", shards: 60 },
+    ],
   },
   {
     name: "Nectar Pitcher",
@@ -4995,6 +6715,11 @@ db.blueprints.insertMany([
       airshipPower: 467,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 60 },
+      { upgrade: "-2 Overgrown Vine Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Ambrosia",
@@ -5009,6 +6734,11 @@ db.blueprints.insertMany([
       airshipPower: 430,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-34 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Mundra's Remedy",
@@ -5024,6 +6754,11 @@ db.blueprints.insertMany([
       airshipPower: 771,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-28 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Quintessence Purity",
@@ -5038,6 +6773,11 @@ db.blueprints.insertMany([
       favor: 5488,
       airshipPower: 580,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ether Spent", shards: 80 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Supreme Sunscreen",
@@ -5053,6 +6793,11 @@ db.blueprints.insertMany([
       airshipPower: 587,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20% Craft Time Reduction", shards: 80 },
+      { upgrade: "-18 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Maple Holy Grail",
@@ -5068,6 +6813,11 @@ db.blueprints.insertMany([
       airshipPower: 680,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20% Craft Time Reduction", shards: 80 },
+      { upgrade: "-27 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Conqueror's Blood",
@@ -5082,6 +6832,11 @@ db.blueprints.insertMany([
       airshipPower: 545,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 Outsider's Claw Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Satchel of Essentials",
@@ -5097,6 +6852,11 @@ db.blueprints.insertMany([
       airshipPower: 807,
       antiqueTokens: 375,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 100 },
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Scroll of Sparks",
@@ -5111,6 +6871,11 @@ db.blueprints.insertMany([
       favor: 10,
       airshipPower: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Scroll of Cleansing",
@@ -5125,6 +6890,11 @@ db.blueprints.insertMany([
       favor: 15,
       airshipPower: 65,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Herbs Spent", shards: 5 },
+      { upgrade: "+10% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Scroll of Armor",
@@ -5139,6 +6909,11 @@ db.blueprints.insertMany([
       airshipPower: 106,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Breastplate Spent", shards: 5 },
+      { upgrade: "+10% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Scroll of Storms",
@@ -5153,6 +6928,11 @@ db.blueprints.insertMany([
       airshipPower: 125,
       researchScrolls: 4,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Precious Gem Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Song of Valor",
@@ -5167,6 +6947,11 @@ db.blueprints.insertMany([
       airshipPower: 176,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Oils Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Living Root Spent", shards: 15 },
+    ],
   },
   {
     name: "Correspondence",
@@ -5182,6 +6967,11 @@ db.blueprints.insertMany([
       airshipPower: 250,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Oils Spent", shards: 15 },
+      { upgrade: "-2 Silver Dust Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+    ],
   },
   {
     name: "Monster Manual",
@@ -5196,6 +6986,11 @@ db.blueprints.insertMany([
       airshipPower: 216,
       researchScrolls: 12,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Oils Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-2 Precious Gem Spent", shards: 20 },
+    ],
   },
   {
     name: "Tome of the Night",
@@ -5210,6 +7005,11 @@ db.blueprints.insertMany([
       favor: 150,
       airshipPower: 278,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Tome of Knowledge",
@@ -5225,6 +7025,11 @@ db.blueprints.insertMany([
       airshipPower: 302,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-18 Leather Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-8 Oils Spent", shards: 20 },
+    ],
   },
   {
     name: "Tome of Secrets",
@@ -5239,6 +7044,11 @@ db.blueprints.insertMany([
       airshipPower: 272,
       researchScrolls: 17,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+    ],
   },
   {
     name: "Naughty or Nice List",
@@ -5254,6 +7064,11 @@ db.blueprints.insertMany([
       airshipPower: 356,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-2 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Bagua Board",
@@ -5268,6 +7083,11 @@ db.blueprints.insertMany([
       airshipPower: 336,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Scroll of Storms Spent", shards: 30 },
+    ],
   },
   {
     name: "Firework Bundle",
@@ -5283,6 +7103,11 @@ db.blueprints.insertMany([
       airshipPower: 468,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Tale of the Unicorn",
@@ -5298,6 +7123,11 @@ db.blueprints.insertMany([
       airshipPower: 430,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Bubble Element Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Tarot Deck",
@@ -5312,6 +7142,11 @@ db.blueprints.insertMany([
       airshipPower: 424,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+    ],
   },
   {
     name: "Scroll of Fortune",
@@ -5327,6 +7162,11 @@ db.blueprints.insertMany([
       airshipPower: 533,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+    ],
   },
   {
     name: "Grimoire Aeternum",
@@ -5341,6 +7181,11 @@ db.blueprints.insertMany([
       airshipPower: 496,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-1 Thread of Fate Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Imperial Decree",
@@ -5356,6 +7201,11 @@ db.blueprints.insertMany([
       airshipPower: 666,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-6 Bronze Fang Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Luxurious Tablet",
@@ -5370,6 +7220,11 @@ db.blueprints.insertMany([
       favor: 1847,
       airshipPower: 536,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 40 },
+      { upgrade: "-2 Ancient Marble Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Ancestral Atlas",
@@ -5384,6 +7239,11 @@ db.blueprints.insertMany([
       airshipPower: 560,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+      { upgrade: "-1 Bagua Board Spent", shards: 45 },
+    ],
   },
   {
     name: "Prayer Book",
@@ -5399,6 +7259,11 @@ db.blueprints.insertMany([
       airshipPower: 728,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Curse of the Night",
@@ -5414,6 +7279,11 @@ db.blueprints.insertMany([
       airshipPower: 759,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-26 Oils Spent", shards: 45 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Druidic Grimoire",
@@ -5429,6 +7299,11 @@ db.blueprints.insertMany([
       airshipPower: 699,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+      { upgrade: "-1 Noble Ring Spent", shards: 45 },
+    ],
   },
   {
     name: "Celestial Choir",
@@ -5443,6 +7318,11 @@ db.blueprints.insertMany([
       airshipPower: 728,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+    ],
   },
   {
     name: "Phoenix Litany",
@@ -5457,6 +7337,11 @@ db.blueprints.insertMany([
       favor: 3218,
       airshipPower: 786,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-2 Precious Shell Spent", shards: 60 },
+    ],
   },
   {
     name: "Sealed Declaration",
@@ -5472,6 +7357,11 @@ db.blueprints.insertMany([
       airshipPower: 910,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-2 Thread of Fate Spent", shards: 60 },
+    ],
   },
   {
     name: "Tiger Emperor's Edict",
@@ -5487,6 +7377,11 @@ db.blueprints.insertMany([
       airshipPower: 988,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-21 Oils Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-10 Ether Spent", shards: 60 },
+    ],
   },
   {
     name: "Tome of All-Knowledge",
@@ -5501,6 +7396,11 @@ db.blueprints.insertMany([
       favor: 4167,
       airshipPower: 1030,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-7 Ether Spent", shards: 60 },
+    ],
   },
   {
     name: "The Bound Beast",
@@ -5515,6 +7415,11 @@ db.blueprints.insertMany([
       airshipPower: 960,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-14 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "-37 Oils Spent", shards: 80 },
+    ],
   },
   {
     name: "Pharaoh's Pact",
@@ -5530,6 +7435,11 @@ db.blueprints.insertMany([
       airshipPower: 1145,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Silk Scarab Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "-9 Ether Spent", shards: 80 },
+    ],
   },
   {
     name: "Lost Star Chart",
@@ -5545,6 +7455,11 @@ db.blueprints.insertMany([
       airshipPower: 1290,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "-20 Oils Spent", shards: 80 },
+    ],
   },
   {
     name: "Love Declaration",
@@ -5560,6 +7475,11 @@ db.blueprints.insertMany([
       airshipPower: 1212,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Magma Core Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "-12 Jewels Spent", shards: 80 },
+    ],
   },
   {
     name: "Opulent Incantation",
@@ -5574,6 +7494,11 @@ db.blueprints.insertMany([
       favor: 5599,
       airshipPower: 992,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Pandora's Box",
@@ -5588,6 +7513,11 @@ db.blueprints.insertMany([
       airshipPower: 1216,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+      { upgrade: "-2 Thread of Fate Spent", shards: 100 },
+    ],
   },
   {
     name: "Sealed Hurricane",
@@ -5602,6 +7532,11 @@ db.blueprints.insertMany([
       favor: 8374,
       airshipPower: 1322,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+      { upgrade: "-2 Boreal Gale Spent", shards: 100 },
+    ],
   },
   {
     name: "Breastplate",
@@ -5616,6 +7551,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Iron Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Iron Mail",
@@ -5630,6 +7570,11 @@ db.blueprints.insertMany([
       airshipPower: 26,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Scale Armor",
@@ -5644,6 +7589,11 @@ db.blueprints.insertMany([
       airshipPower: 48,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x3", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "-2 Glow Shroom Spent", shards: 10 },
+    ],
   },
   {
     name: "Hauberk",
@@ -5658,6 +7608,11 @@ db.blueprints.insertMany([
       airshipPower: 74,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Precious Gem Spent", shards: 15 },
+    ],
   },
   {
     name: "Knight Breastplate",
@@ -5672,6 +7627,11 @@ db.blueprints.insertMany([
       airshipPower: 101,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Ceremonial Breastplate",
@@ -5686,6 +7646,11 @@ db.blueprints.insertMany([
       favor: 119,
       airshipPower: 155,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Centurion Armor",
@@ -5701,6 +7666,11 @@ db.blueprints.insertMany([
       airshipPower: 161,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+      { upgrade: "-2 Iron Pine Cone Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Paladin Plate",
@@ -5715,6 +7685,11 @@ db.blueprints.insertMany([
       airshipPower: 138,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Scale Armor Spent", shards: 25 },
+    ],
   },
   {
     name: "Thorn Baron Armor",
@@ -5730,6 +7705,11 @@ db.blueprints.insertMany([
       airshipPower: 173,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Herbs Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Living Root Spent", shards: 25 },
+    ],
   },
   {
     name: "Hive Guard Plate",
@@ -5745,6 +7725,11 @@ db.blueprints.insertMany([
       airshipPower: 175,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Bronze Fang Spent", shards: 25 },
+    ],
   },
   {
     name: "Samurai Do",
@@ -5759,6 +7744,11 @@ db.blueprints.insertMany([
       airshipPower: 180,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-5 Silver Dust Spent", shards: 30 },
+    ],
   },
   {
     name: "Brinewater Do",
@@ -5773,6 +7763,11 @@ db.blueprints.insertMany([
       favor: 938,
       airshipPower: 236,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Scholar's Tunic Spent", shards: 30 },
+    ],
   },
   {
     name: "Kyoshi Warrior Armor",
@@ -5788,6 +7783,11 @@ db.blueprints.insertMany([
       airshipPower: 224,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-17 Leather Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 White Sand Spent", shards: 30 },
+    ],
   },
   {
     name: "Warlord Plate",
@@ -5803,6 +7803,11 @@ db.blueprints.insertMany([
       airshipPower: 259,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "General Plate",
@@ -5817,6 +7822,11 @@ db.blueprints.insertMany([
       airshipPower: 216,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+    ],
   },
   {
     name: "Landsknecht Plate",
@@ -5832,6 +7842,11 @@ db.blueprints.insertMany([
       airshipPower: 288,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Santa's Guard Plate",
@@ -5847,6 +7862,11 @@ db.blueprints.insertMany([
       airshipPower: 266,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-90 Herbs Spent", shards: 35 },
+    ],
   },
   {
     name: "Berserker Armor",
@@ -5861,6 +7881,11 @@ db.blueprints.insertMany([
       airshipPower: 246,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Gaia Enforcer",
@@ -5875,6 +7900,11 @@ db.blueprints.insertMany([
       favor: 1589,
       airshipPower: 316,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Star-Spangled Plate",
@@ -5890,6 +7920,11 @@ db.blueprints.insertMany([
       airshipPower: 340,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "-6 Rustwyrm Scale Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Juggernaut Fortress",
@@ -5904,6 +7939,11 @@ db.blueprints.insertMany([
       airshipPower: 294,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Amber Citadel",
@@ -5918,6 +7958,11 @@ db.blueprints.insertMany([
       favor: 2451,
       airshipPower: 352,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Phoenix Tonic Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Opulent Breastplate",
@@ -5932,6 +7977,11 @@ db.blueprints.insertMany([
       favor: 2451,
       airshipPower: 294,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Milesian Mail",
@@ -5947,6 +7997,11 @@ db.blueprints.insertMany([
       airshipPower: 369,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Celesteel Plate",
@@ -5961,6 +8016,11 @@ db.blueprints.insertMany([
       airshipPower: 366,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Canid Plate",
@@ -5976,6 +8036,11 @@ db.blueprints.insertMany([
       airshipPower: 427,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-2 Ghastly Pennant Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Fire Nation Armor",
@@ -5991,6 +8056,11 @@ db.blueprints.insertMany([
       airshipPower: 461,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-1 Blaze Element Spent", shards: 60 },
+    ],
   },
   {
     name: "Vermilion Guard Plate",
@@ -6005,6 +8075,11 @@ db.blueprints.insertMany([
       airshipPower: 462,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-28 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Oni Rōnin Armor",
@@ -6020,6 +8095,11 @@ db.blueprints.insertMany([
       airshipPower: 539,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "-1 Grim Talon Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Tyrant Plate Armor",
@@ -6035,6 +8115,11 @@ db.blueprints.insertMany([
       airshipPower: 605,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+      { upgrade: "-162 Iron Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Lost Warrior's Plate",
@@ -6050,6 +8135,11 @@ db.blueprints.insertMany([
       airshipPower: 720,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-61 Iron Spent", shards: 80 },
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Balefire Armor",
@@ -6064,6 +8154,11 @@ db.blueprints.insertMany([
       airshipPower: 612,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "Component Quality Reduced", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Magmacore Plate",
@@ -6078,6 +8173,11 @@ db.blueprints.insertMany([
       favor: 8374,
       airshipPower: 718,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 Outsider's Claw Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Leather Armor",
@@ -6091,6 +8191,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Leather Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Gambeson",
@@ -6105,6 +8210,11 @@ db.blueprints.insertMany([
       airshipPower: 19,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Leather Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Doublet",
@@ -6119,6 +8229,11 @@ db.blueprints.insertMany([
       airshipPower: 38,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Studded Armor",
@@ -6133,6 +8248,11 @@ db.blueprints.insertMany([
       airshipPower: 62,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 15 },
+    ],
   },
   {
     name: "Blizzard Armor",
@@ -6148,6 +8268,11 @@ db.blueprints.insertMany([
       airshipPower: 90,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Iron Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Iron Pine Cone Spent", shards: 15 },
+    ],
   },
   {
     name: "Hide Armor",
@@ -6162,6 +8287,11 @@ db.blueprints.insertMany([
       airshipPower: 96,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-4 Elven Wood Spent", shards: 20 },
+    ],
   },
   {
     name: "Mundra's Tabard",
@@ -6177,6 +8307,11 @@ db.blueprints.insertMany([
       airshipPower: 240,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-2 Webbed Wing Spent", shards: 20 },
+    ],
   },
   {
     name: "Sky Pirate Outfit",
@@ -6192,6 +8327,11 @@ db.blueprints.insertMany([
       airshipPower: 155,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 20 },
+    ],
   },
   {
     name: "Savage Garb",
@@ -6206,6 +8346,11 @@ db.blueprints.insertMany([
       airshipPower: 132,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Bronze Fang Spent", shards: 25 },
+    ],
   },
   {
     name: "Glade Guard Armor",
@@ -6220,6 +8365,11 @@ db.blueprints.insertMany([
       favor: 465,
       airshipPower: 182,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Horned Helm Spent", shards: 25 },
+    ],
   },
   {
     name: "Pumpkin Armor",
@@ -6235,6 +8385,11 @@ db.blueprints.insertMany([
       airshipPower: 161,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Iron Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-3 Webbed Wing Spent", shards: 25 },
+    ],
   },
   {
     name: "Ninja Garb",
@@ -6249,6 +8404,11 @@ db.blueprints.insertMany([
       airshipPower: 168,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Nightwing Mantle",
@@ -6264,6 +8424,11 @@ db.blueprints.insertMany([
       airshipPower: 210,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Oils Spent", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+    ],
   },
   {
     name: "Windrunner Armor",
@@ -6278,6 +8443,11 @@ db.blueprints.insertMany([
       airshipPower: 204,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Fabric Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Studded Armor Spent", shards: 35 },
+    ],
   },
   {
     name: "Sokka's Outfit",
@@ -6293,6 +8463,11 @@ db.blueprints.insertMany([
       airshipPower: 265,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-17 Fabric Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Drakeskin Armor",
@@ -6307,6 +8482,11 @@ db.blueprints.insertMany([
       airshipPower: 234,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 40 },
+      { upgrade: "-1 Thread of Fate Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Smith Attire",
@@ -6322,6 +8502,11 @@ db.blueprints.insertMany([
       airshipPower: 287,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 40 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Corsair Mantle",
@@ -6336,6 +8521,11 @@ db.blueprints.insertMany([
       airshipPower: 282,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Swan's Garment",
@@ -6351,6 +8541,11 @@ db.blueprints.insertMany([
       airshipPower: 329,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Cloudwalker Armor",
@@ -6366,6 +8561,11 @@ db.blueprints.insertMany([
       airshipPower: 363,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-2 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Everdusk Lord Attire",
@@ -6380,6 +8580,11 @@ db.blueprints.insertMany([
       airshipPower: 348,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Opulent Armor",
@@ -6394,6 +8599,11 @@ db.blueprints.insertMany([
       favor: 3042,
       airshipPower: 348,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Barkback's Armor",
@@ -6409,6 +8619,11 @@ db.blueprints.insertMany([
       airshipPower: 406,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "-35 Ironwood Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Cat Burglar Outfit",
@@ -6424,6 +8639,11 @@ db.blueprints.insertMany([
       airshipPower: 540,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Dawn Thief Uniform",
@@ -6438,6 +8658,11 @@ db.blueprints.insertMany([
       airshipPower: 438,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-34 Fabric Spent", shards: 80 },
+      { upgrade: "-9 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Shroud of the Lost",
@@ -6452,6 +8677,11 @@ db.blueprints.insertMany([
       favor: 5154,
       airshipPower: 562,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Stylish Poncho",
@@ -6467,6 +8697,11 @@ db.blueprints.insertMany([
       airshipPower: 553,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20% Craft Time Reduction", shards: 80 },
+      { upgrade: "-23 Fabric Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Desperado Outfit",
@@ -6482,6 +8717,11 @@ db.blueprints.insertMany([
       airshipPower: 532,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Ether Spent", shards: 80 },
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Wildhunt Leathers",
@@ -6496,6 +8736,11 @@ db.blueprints.insertMany([
       airshipPower: 558,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "-1 Astral Fabric Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Shirt",
@@ -6510,6 +8755,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 8,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Leather Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Black Robe",
@@ -6524,6 +8774,11 @@ db.blueprints.insertMany([
       airshipPower: 18,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Elven Wood Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Druid's Robe",
@@ -6538,6 +8793,11 @@ db.blueprints.insertMany([
       airshipPower: 36,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Disciple's Robe",
@@ -6552,6 +8812,11 @@ db.blueprints.insertMany([
       airshipPower: 58,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Precious Gem Spent", shards: 15 },
+    ],
   },
   {
     name: "Scholar's Tunic",
@@ -6566,6 +8831,11 @@ db.blueprints.insertMany([
       airshipPower: 89,
       researchScrolls: 11,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Explorer's Outfit",
@@ -6581,6 +8851,11 @@ db.blueprints.insertMany([
       airshipPower: 115,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Tailor Mantle",
@@ -6596,6 +8871,11 @@ db.blueprints.insertMany([
       airshipPower: 136,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Fabric Spent", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Witch's Outfit",
@@ -6610,6 +8890,11 @@ db.blueprints.insertMany([
       airshipPower: 126,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Vestal Raiments",
@@ -6624,6 +8909,11 @@ db.blueprints.insertMany([
       favor: 296,
       airshipPower: 176,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Bronze Fang Spent", shards: 25 },
+    ],
   },
   {
     name: "Wizard Attire",
@@ -6639,6 +8929,11 @@ db.blueprints.insertMany([
       airshipPower: 168,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Midnight Apparel",
@@ -6653,6 +8948,11 @@ db.blueprints.insertMany([
       airshipPower: 150,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Component Quality Reduced", shards: 30 },
+    ],
   },
   {
     name: "Aang's Robe",
@@ -6668,6 +8968,11 @@ db.blueprints.insertMany([
       airshipPower: 202,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Shaman Vestment",
@@ -6682,6 +8987,11 @@ db.blueprints.insertMany([
       airshipPower: 198,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-3 Moon Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Cupid Robes",
@@ -6697,6 +9007,11 @@ db.blueprints.insertMany([
       airshipPower: 265,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-29 Iron Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+    ],
   },
   {
     name: "Luxurious Attire",
@@ -6711,6 +9026,11 @@ db.blueprints.insertMany([
       favor: 1118,
       airshipPower: 222,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-4 Silk Scarab Spent", shards: 35 },
+    ],
   },
   {
     name: "Astravestimenta",
@@ -6725,6 +9045,11 @@ db.blueprints.insertMany([
       airshipPower: 222,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-3 Evil Eye Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Ostara Vest",
@@ -6740,6 +9065,11 @@ db.blueprints.insertMany([
       airshipPower: 266,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-3 White Sand Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Desert Threads",
@@ -6755,6 +9085,11 @@ db.blueprints.insertMany([
       airshipPower: 305,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 40 },
+      { upgrade: "-3 Silk Scarab Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Archmage Raiments",
@@ -6769,6 +9104,11 @@ db.blueprints.insertMany([
       airshipPower: 264,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "-3 Ghastly Pennant Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Republic Garments",
@@ -6784,6 +9124,11 @@ db.blueprints.insertMany([
       airshipPower: 334,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Djinn Robes",
@@ -6798,6 +9143,11 @@ db.blueprints.insertMany([
       airshipPower: 324,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-68 Leather Spent", shards: 60 },
+      { upgrade: "-8 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Moonlight Kimono",
@@ -6813,6 +9163,11 @@ db.blueprints.insertMany([
       airshipPower: 378,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 60 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Tiger Emperor's Robe",
@@ -6828,6 +9183,11 @@ db.blueprints.insertMany([
       airshipPower: 426,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Exarch Robes",
@@ -6842,6 +9202,11 @@ db.blueprints.insertMany([
       airshipPower: 426,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-121 Leather Spent", shards: 80 },
+      { upgrade: "-14 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Soulbinder Regalia",
@@ -6857,6 +9222,11 @@ db.blueprints.insertMany([
       airshipPower: 497,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Grim Talon Spent", shards: 80 },
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Vestment",
@@ -6871,6 +9241,11 @@ db.blueprints.insertMany([
       favor: 5488,
       airshipPower: 426,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ether Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Garb of the Primordial",
@@ -6885,6 +9260,11 @@ db.blueprints.insertMany([
       favor: 6249,
       airshipPower: 544,
     },
+    ascensionUpgrades: [
+      { upgrade: "-84 Leather Spent", shards: 80 },
+      { upgrade: "-15 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Ice Queen's Silks",
@@ -6900,6 +9280,11 @@ db.blueprints.insertMany([
       airshipPower: 553,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-27 Fabric Spent", shards: 80 },
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Voidminster Habit",
@@ -6914,6 +9299,11 @@ db.blueprints.insertMany([
       airshipPower: 540,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-67 Leather Spent", shards: 100 },
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Sturdy Cap",
@@ -6927,6 +9317,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Iron Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Warrior Helmet",
@@ -6941,6 +9336,11 @@ db.blueprints.insertMany([
       airshipPower: 28,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Horned Helm",
@@ -6955,6 +9355,11 @@ db.blueprints.insertMany([
       airshipPower: 50,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Iron Pine Cone Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Raider Helm",
@@ -6969,6 +9374,11 @@ db.blueprints.insertMany([
       airshipPower: 67,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Knight Heaume",
@@ -6983,6 +9393,11 @@ db.blueprints.insertMany([
       airshipPower: 106,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Brinewater Helm",
@@ -6997,6 +9412,11 @@ db.blueprints.insertMany([
       favor: 119,
       airshipPower: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Eagle Helm",
@@ -7012,6 +9432,11 @@ db.blueprints.insertMany([
       airshipPower: 145,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-15 Leather Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Rex Chomper",
@@ -7027,6 +9452,11 @@ db.blueprints.insertMany([
       airshipPower: 147,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Paladin Helm",
@@ -7041,6 +9471,11 @@ db.blueprints.insertMany([
       airshipPower: 144,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-4 Precious Gem Spent", shards: 25 },
+    ],
   },
   {
     name: "Kodiak Helmet",
@@ -7056,6 +9491,11 @@ db.blueprints.insertMany([
       airshipPower: 196,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-2 Elven Wood Spent", shards: 25 },
+    ],
   },
   {
     name: "Fire Nation Helm",
@@ -7071,6 +9511,11 @@ db.blueprints.insertMany([
       airshipPower: 196,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "Quality Chance x2", shards: 25 },
+    ],
   },
   {
     name: "Crown of Tyranny",
@@ -7086,6 +9531,11 @@ db.blueprints.insertMany([
       airshipPower: 213,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-6 Steel Spent", shards: 25 },
+    ],
   },
   {
     name: "Samurai Kabuto",
@@ -7100,6 +9550,11 @@ db.blueprints.insertMany([
       airshipPower: 192,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Gladiator Helm",
@@ -7115,6 +9570,11 @@ db.blueprints.insertMany([
       airshipPower: 259,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Sandcastle Protector",
@@ -7130,6 +9590,11 @@ db.blueprints.insertMany([
       airshipPower: 238,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 White Sand Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-2 White Sand Spent", shards: 30 },
+    ],
   },
   {
     name: "General Heaume",
@@ -7144,6 +9609,11 @@ db.blueprints.insertMany([
       airshipPower: 228,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Steel Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+    ],
   },
   {
     name: "Crusader Helmet",
@@ -7158,6 +9628,11 @@ db.blueprints.insertMany([
       favor: 1001,
       airshipPower: 284,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Steel Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 35 },
+    ],
   },
   {
     name: "Warlord Helmet",
@@ -7173,6 +9648,11 @@ db.blueprints.insertMany([
       airshipPower: 317,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-12 Steel Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Feathered Hat Spent", shards: 35 },
+    ],
   },
   {
     name: "Berserker Helmet",
@@ -7187,6 +9667,11 @@ db.blueprints.insertMany([
       airshipPower: 264,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-5 Rustwyrm Scale Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Centurion Helmet",
@@ -7202,6 +9687,11 @@ db.blueprints.insertMany([
       airshipPower: 322,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Thread of Fate Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Juggernaut Furnace",
@@ -7216,6 +9706,11 @@ db.blueprints.insertMany([
       airshipPower: 300,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-2 Star Metal Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Gobble Lord Helm",
@@ -7231,6 +9726,11 @@ db.blueprints.insertMany([
       airshipPower: 392,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-8 Webbed Wing Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Opulent Heaume",
@@ -7245,6 +9745,11 @@ db.blueprints.insertMany([
       favor: 2451,
       airshipPower: 312,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Celesteel Heaume",
@@ -7259,6 +9764,11 @@ db.blueprints.insertMany([
       airshipPower: 390,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Canid Helmet",
@@ -7274,6 +9784,11 @@ db.blueprints.insertMany([
       airshipPower: 455,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Bo Staff Spent", shards: 60 },
+      { upgrade: "-1 Bo Staff Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Cupid's Heaume",
@@ -7289,6 +9804,11 @@ db.blueprints.insertMany([
       airshipPower: 513,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "-7 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Vermilion Guard Helm",
@@ -7303,6 +9823,11 @@ db.blueprints.insertMany([
       airshipPower: 492,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-34 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Onyx King Helm",
@@ -7318,6 +9843,11 @@ db.blueprints.insertMany([
       airshipPower: 574,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Thorn Baron Helm",
@@ -7333,6 +9863,11 @@ db.blueprints.insertMany([
       airshipPower: 645,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-1 Magma Core Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Balefire Gaze",
@@ -7347,6 +9882,11 @@ db.blueprints.insertMany([
       airshipPower: 630,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 All-Seeing Eye Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Taishōgun Kabuto",
@@ -7362,6 +9902,11 @@ db.blueprints.insertMany([
       airshipPower: 735,
       antiqueTokens: 375,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-3 Thread of Fate Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Leather Cap",
@@ -7375,6 +9920,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Leather Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Canopy Cap",
@@ -7389,6 +9939,11 @@ db.blueprints.insertMany([
       favor: 11,
       airshipPower: 37,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Leather Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Brimmed Hat",
@@ -7403,6 +9958,11 @@ db.blueprints.insertMany([
       airshipPower: 19,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Leather Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Feathered Hat",
@@ -7417,6 +9977,11 @@ db.blueprints.insertMany([
       airshipPower: 38,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Tricorn",
@@ -7431,6 +9996,11 @@ db.blueprints.insertMany([
       airshipPower: 53,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 15 },
+    ],
   },
   {
     name: "Silk Hood",
@@ -7445,6 +10015,11 @@ db.blueprints.insertMany([
       airshipPower: 86,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Santa's Elf Hat",
@@ -7460,6 +10035,11 @@ db.blueprints.insertMany([
       airshipPower: 121,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20% Craft Time Reduction", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Pharaoh's Nemes",
@@ -7475,6 +10055,11 @@ db.blueprints.insertMany([
       airshipPower: 112,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20% Craft Time Reduction", shards: 20 },
+      { upgrade: "-25 Iron Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Pirate Hat",
@@ -7489,6 +10074,11 @@ db.blueprints.insertMany([
       airshipPower: 120,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-4 Elven Wood Spent", shards: 25 },
+    ],
   },
   {
     name: "Lovely Hat",
@@ -7504,6 +10094,11 @@ db.blueprints.insertMany([
       airshipPower: 167,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-3 Silver Dust Spent", shards: 25 },
+    ],
   },
   {
     name: "Night Cowl",
@@ -7518,6 +10113,11 @@ db.blueprints.insertMany([
       airshipPower: 162,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-2 Moon Crystal Spent", shards: 30 },
+    ],
   },
   {
     name: "Nomad Veil",
@@ -7532,6 +10132,11 @@ db.blueprints.insertMany([
       favor: 502,
       airshipPower: 212,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Harvester's Hood",
@@ -7547,6 +10152,11 @@ db.blueprints.insertMany([
       airshipPower: 210,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Windrunner Hat",
@@ -7561,6 +10171,11 @@ db.blueprints.insertMany([
       airshipPower: 204,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Evil Eye Spent", shards: 35 },
+    ],
   },
   {
     name: "Blue Spirit Mask",
@@ -7576,6 +10191,11 @@ db.blueprints.insertMany([
       airshipPower: 245,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Evil Eye Spent", shards: 35 },
+    ],
   },
   {
     name: "Musketeer Hat",
@@ -7591,6 +10211,11 @@ db.blueprints.insertMany([
       airshipPower: 285,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Fabric Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-6 Jewels Spent", shards: 35 },
+    ],
   },
   {
     name: "Drakeskin Mask",
@@ -7605,6 +10230,11 @@ db.blueprints.insertMany([
       airshipPower: 246,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 40 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Storm Dragon Mask",
@@ -7619,6 +10249,11 @@ db.blueprints.insertMany([
       favor: 1777,
       airshipPower: 316,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "Component Quality Reduced", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Grand Tyrolean",
@@ -7634,6 +10269,11 @@ db.blueprints.insertMany([
       airshipPower: 301,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-2 Thread of Fate Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Corsair Tricorn",
@@ -7648,6 +10288,11 @@ db.blueprints.insertMany([
       airshipPower: 270,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 45 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Republic Coiffe",
@@ -7663,6 +10308,11 @@ db.blueprints.insertMany([
       airshipPower: 357,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Everdusk Cowl",
@@ -7677,6 +10327,11 @@ db.blueprints.insertMany([
       airshipPower: 348,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-20% Craft Time Reduction", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Abyssal Hood",
@@ -7691,6 +10346,11 @@ db.blueprints.insertMany([
       favor: 3061,
       airshipPower: 406,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-20% Craft Time Reduction", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Rogue Sombrero",
@@ -7706,6 +10366,11 @@ db.blueprints.insertMany([
       airshipPower: 406,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-20% Craft Time Reduction", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Cat Burglar Hood",
@@ -7721,6 +10386,11 @@ db.blueprints.insertMany([
       airshipPower: 455,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-21 Fabric Spent", shards: 60 },
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Opulent Sallet",
@@ -7735,6 +10405,11 @@ db.blueprints.insertMany([
       favor: 3479,
       airshipPower: 360,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Dawn Thief Cowl",
@@ -7749,6 +10424,11 @@ db.blueprints.insertMany([
       airshipPower: 438,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 80 },
+      { upgrade: "-30% Craft Time Reduction", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Bunbun Masquerade",
@@ -7764,6 +10444,11 @@ db.blueprints.insertMany([
       airshipPower: 511,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 80 },
+      { upgrade: "-56 Iron Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Dragonseeker Goggles",
@@ -7779,6 +10464,11 @@ db.blueprints.insertMany([
       airshipPower: 576,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 80 },
+      { upgrade: "-20% Craft Time Reduction", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Kitsune Spirit Mask",
@@ -7794,6 +10484,11 @@ db.blueprints.insertMany([
       airshipPower: 532,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "-20% Craft Time Reduction", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Wildhunt Skull",
@@ -7808,6 +10503,11 @@ db.blueprints.insertMany([
       airshipPower: 558,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 All-Seeing Eye Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Stitched Cone",
@@ -7821,6 +10521,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 8,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Leather Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Black Cowl",
@@ -7835,6 +10540,11 @@ db.blueprints.insertMany([
       airshipPower: 18,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Leather Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Druid Laurels",
@@ -7849,6 +10559,11 @@ db.blueprints.insertMany([
       airshipPower: 35,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Apprentice Tiara",
@@ -7864,6 +10579,11 @@ db.blueprints.insertMany([
       airshipPower: 51,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x2", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Bronze Circlet",
@@ -7878,6 +10598,11 @@ db.blueprints.insertMany([
       airshipPower: 47,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Wizard Hat",
@@ -7892,6 +10617,11 @@ db.blueprints.insertMany([
       airshipPower: 77,
       researchScrolls: 9,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Hat of the Four Winds",
@@ -7906,6 +10636,11 @@ db.blueprints.insertMany([
       favor: 91,
       airshipPower: 128,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Herbs Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Ostara Hat",
@@ -7921,6 +10656,11 @@ db.blueprints.insertMany([
       airshipPower: 106,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Witch Hat",
@@ -7935,6 +10675,11 @@ db.blueprints.insertMany([
       airshipPower: 108,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Waterproof Lilycap",
@@ -7950,6 +10695,11 @@ db.blueprints.insertMany([
       airshipPower: 138,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-30 Leather Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Sweet Grass Spent", shards: 25 },
+    ],
   },
   {
     name: "Owl Cowl",
@@ -7965,6 +10715,11 @@ db.blueprints.insertMany([
       airshipPower: 161,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Fabric Spent", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+    ],
   },
   {
     name: "Tactician Hat",
@@ -7979,6 +10734,11 @@ db.blueprints.insertMany([
       airshipPower: 144,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Summoner Hat",
@@ -7994,6 +10754,11 @@ db.blueprints.insertMany([
       airshipPower: 175,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Ivory Queen Crown",
@@ -8009,6 +10774,11 @@ db.blueprints.insertMany([
       airshipPower: 190,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Shaman Hat",
@@ -8023,6 +10793,11 @@ db.blueprints.insertMany([
       airshipPower: 180,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Silver Band Spent", shards: 35 },
+    ],
   },
   {
     name: "Luxurious Headdress",
@@ -8037,6 +10812,11 @@ db.blueprints.insertMany([
       favor: 1366,
       airshipPower: 204,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 35 },
+    ],
   },
   {
     name: "Astral Hat",
@@ -8051,6 +10831,11 @@ db.blueprints.insertMany([
       airshipPower: 216,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-1 Thread of Fate Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Raven Mask",
@@ -8066,6 +10851,11 @@ db.blueprints.insertMany([
       airshipPower: 266,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-31 Fabric Spent", shards: 40 },
+      { upgrade: "-4 Ether Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Spellward Hat",
@@ -8081,6 +10871,11 @@ db.blueprints.insertMany([
       airshipPower: 288,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 40 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Opal Diadem",
@@ -8095,6 +10890,11 @@ db.blueprints.insertMany([
       airshipPower: 234,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Night Crown",
@@ -8110,6 +10910,11 @@ db.blueprints.insertMany([
       airshipPower: 273,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Djinn Veil",
@@ -8124,6 +10929,11 @@ db.blueprints.insertMany([
       airshipPower: 306,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Elegant Top Hat",
@@ -8139,6 +10949,11 @@ db.blueprints.insertMany([
       airshipPower: 386,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-2 Precious Shell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Ice Queen's Summer Hat",
@@ -8154,6 +10969,11 @@ db.blueprints.insertMany([
       airshipPower: 371,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-21 Fabric Spent", shards: 60 },
+      { upgrade: "-7 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Exarch Mitre",
@@ -8168,6 +10988,11 @@ db.blueprints.insertMany([
       airshipPower: 384,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-28 Fabric Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Sakura Eboshi",
@@ -8183,6 +11008,11 @@ db.blueprints.insertMany([
       airshipPower: 484,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-33 Fabric Spent", shards: 80 },
+      { upgrade: "-20% Craft Time Reduction", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Headdress",
@@ -8197,6 +11027,11 @@ db.blueprints.insertMany([
       favor: 4008,
       airshipPower: 384,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Phoenix Crest",
@@ -8211,6 +11046,11 @@ db.blueprints.insertMany([
       favor: 5488,
       airshipPower: 502,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25 Fabric Spent", shards: 80 },
+      { upgrade: "-18 Fabric Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Empress Hairpins",
@@ -8226,6 +11066,11 @@ db.blueprints.insertMany([
       airshipPower: 512,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 80 },
+      { upgrade: "-2 Crystal Lullaby Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Voidminster Hat",
@@ -8240,6 +11085,11 @@ db.blueprints.insertMany([
       airshipPower: 492,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-2 Crystal Lullaby Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Elysium Halo",
@@ -8254,6 +11104,11 @@ db.blueprints.insertMany([
       favor: 6891,
       airshipPower: 598,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 Sigil of Spark Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Iron Armguards",
@@ -8267,6 +11122,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 8,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Iron Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Plated Gauntlets",
@@ -8281,6 +11141,11 @@ db.blueprints.insertMany([
       airshipPower: 24,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Warrior Gauntlets",
@@ -8295,6 +11160,11 @@ db.blueprints.insertMany([
       airshipPower: 43,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Iron Pine Cone Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Demi Gauntlets",
@@ -8309,6 +11179,11 @@ db.blueprints.insertMany([
       airshipPower: 65,
       researchScrolls: 7,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Pumpkin Gauntlets",
@@ -8324,6 +11199,11 @@ db.blueprints.insertMany([
       airshipPower: 87,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Herbs Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 15 },
+    ],
   },
   {
     name: "Knight Gauntlets",
@@ -8338,6 +11218,11 @@ db.blueprints.insertMany([
       airshipPower: 98,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Santa's Guard Gauntlets",
@@ -8353,6 +11238,11 @@ db.blueprints.insertMany([
       airshipPower: 136,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Hands of the Fifth",
@@ -8368,6 +11258,11 @@ db.blueprints.insertMany([
       airshipPower: 134,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Precious Gem Spent", shards: 20 },
+    ],
   },
   {
     name: "Paladin Gauntlets",
@@ -8382,6 +11277,11 @@ db.blueprints.insertMany([
       airshipPower: 126,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Bronze Fang Spent", shards: 25 },
+    ],
   },
   {
     name: "Sungrasp Gauntlets",
@@ -8396,6 +11296,11 @@ db.blueprints.insertMany([
       favor: 296,
       airshipPower: 176,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Landsknecht Gauntlets",
@@ -8411,6 +11316,11 @@ db.blueprints.insertMany([
       airshipPower: 167,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+    ],
   },
   {
     name: "Samurai Kote",
@@ -8425,6 +11335,11 @@ db.blueprints.insertMany([
       airshipPower: 150,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Republic Gauntlets",
@@ -8440,6 +11355,11 @@ db.blueprints.insertMany([
       airshipPower: 202,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-16 Leather Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Fruity Gauntlets",
@@ -8455,6 +11375,11 @@ db.blueprints.insertMany([
       airshipPower: 196,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-42 Wood Spent", shards: 30 },
+    ],
   },
   {
     name: "General Gauntlets",
@@ -8469,6 +11394,11 @@ db.blueprints.insertMany([
       airshipPower: 198,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-4 White Sand Spent", shards: 35 },
+    ],
   },
   {
     name: "Berserker Gauntlets",
@@ -8483,6 +11413,11 @@ db.blueprints.insertMany([
       airshipPower: 222,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-4 Bronze Fang Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Luxurious Gauntlets",
@@ -8497,6 +11432,11 @@ db.blueprints.insertMany([
       favor: 1589,
       airshipPower: 228,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-8 Precious Gem Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Juggernaut Grip",
@@ -8511,6 +11451,11 @@ db.blueprints.insertMany([
       airshipPower: 252,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-4 Overgrown Vine Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Winter's Touch",
@@ -8526,6 +11471,11 @@ db.blueprints.insertMany([
       airshipPower: 308,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-4 Rustwyrm Scale Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Celesteel Gauntlets",
@@ -8540,6 +11490,11 @@ db.blueprints.insertMany([
       airshipPower: 324,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Gaia's Hold",
@@ -8555,6 +11510,11 @@ db.blueprints.insertMany([
       airshipPower: 409,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-3 Ancient Marble Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Vanguard Gauntlets",
@@ -8570,6 +11530,11 @@ db.blueprints.insertMany([
       airshipPower: 392,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-51 Herbs Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Huscarl Gauntlets",
@@ -8585,6 +11550,11 @@ db.blueprints.insertMany([
       airshipPower: 426,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Vermilion Guard Might",
@@ -8599,6 +11569,11 @@ db.blueprints.insertMany([
       airshipPower: 426,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+      { upgrade: "-31 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Goon's Facesmackers",
@@ -8614,6 +11589,11 @@ db.blueprints.insertMany([
       airshipPower: 497,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+      { upgrade: "-54 Iron Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Dracofists",
@@ -8628,6 +11608,11 @@ db.blueprints.insertMany([
       favor: 5488,
       airshipPower: 426,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Tyrant Fists",
@@ -8643,6 +11628,11 @@ db.blueprints.insertMany([
       airshipPower: 553,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Balefire Gauntlets",
@@ -8657,6 +11647,11 @@ db.blueprints.insertMany([
       airshipPower: 522,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-2 Raw Obsidian Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Power Gauntlet",
@@ -8672,6 +11667,11 @@ db.blueprints.insertMany([
       airshipPower: 615,
       antiqueTokens: 375,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-65 Iron Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Leather Gloves",
@@ -8686,6 +11686,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 8,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Leather Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Bracers",
@@ -8700,6 +11705,11 @@ db.blueprints.insertMany([
       airshipPower: 17,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Leather Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Thief's Gloves",
@@ -8714,6 +11724,11 @@ db.blueprints.insertMany([
       airshipPower: 26,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Swift Mitts",
@@ -8728,6 +11743,11 @@ db.blueprints.insertMany([
       favor: 23,
       airshipPower: 56,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Herbs Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "-1 Bracers Spent", shards: 10 },
+    ],
   },
   {
     name: "Patchleather Bracers",
@@ -8743,6 +11763,11 @@ db.blueprints.insertMany([
       airshipPower: 67,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Herbs Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Studded Gloves",
@@ -8757,6 +11782,11 @@ db.blueprints.insertMany([
       airshipPower: 50,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 15 },
+    ],
   },
   {
     name: "Regal Bangles",
@@ -8772,6 +11802,11 @@ db.blueprints.insertMany([
       airshipPower: 80,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Iron Armguards Spent", shards: 15 },
+    ],
   },
   {
     name: "Elven Vambraces",
@@ -8786,6 +11821,11 @@ db.blueprints.insertMany([
       airshipPower: 79,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Ostara Gloves",
@@ -8801,6 +11841,11 @@ db.blueprints.insertMany([
       airshipPower: 101,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Savage Claws",
@@ -8815,6 +11860,11 @@ db.blueprints.insertMany([
       airshipPower: 101,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-2 Living Root Spent", shards: 25 },
+    ],
   },
   {
     name: "Black Wyrm Claws",
@@ -8829,6 +11879,11 @@ db.blueprints.insertMany([
       favor: 465,
       airshipPower: 162,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+    ],
   },
   {
     name: "Ninja Gloves",
@@ -8843,6 +11898,11 @@ db.blueprints.insertMany([
       airshipPower: 132,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Cat Burglar Claws",
@@ -8858,6 +11918,11 @@ db.blueprints.insertMany([
       airshipPower: 161,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Bronze Fang Spent", shards: 30 },
+    ],
   },
   {
     name: "Windrunner Gloves",
@@ -8872,6 +11937,11 @@ db.blueprints.insertMany([
       airshipPower: 168,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "Component Quality Reduced", shards: 35 },
+    ],
   },
   {
     name: "Sakura Cuffs",
@@ -8887,6 +11957,11 @@ db.blueprints.insertMany([
       airshipPower: 219,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-37 Leather Spent", shards: 35 },
+    ],
   },
   {
     name: "Drakeskin Gloves",
@@ -8901,6 +11976,11 @@ db.blueprints.insertMany([
       airshipPower: 192,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-13 Fabric Spent", shards: 40 },
+      { upgrade: "-4 Bronze Fang Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Mountain Man Mitts",
@@ -8916,6 +11996,11 @@ db.blueprints.insertMany([
       airshipPower: 306,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-14 Fabric Spent", shards: 40 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Corsair Gloves",
@@ -8930,6 +12015,11 @@ db.blueprints.insertMany([
       airshipPower: 222,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Fortunate Gloves",
@@ -8945,6 +12035,11 @@ db.blueprints.insertMany([
       airshipPower: 266,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-17 Fabric Spent", shards: 45 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Opulent Grasp",
@@ -8959,6 +12054,11 @@ db.blueprints.insertMany([
       favor: 2451,
       airshipPower: 228,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "-2 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Everdusk Gloves",
@@ -8973,6 +12073,11 @@ db.blueprints.insertMany([
       airshipPower: 288,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Raptor Wings",
@@ -8988,6 +12093,11 @@ db.blueprints.insertMany([
       airshipPower: 432,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Nightwing Vambraces",
@@ -9003,6 +12113,11 @@ db.blueprints.insertMany([
       airshipPower: 369,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Dawn Thief's Touch",
@@ -9017,6 +12132,11 @@ db.blueprints.insertMany([
       airshipPower: 360,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Swindler's Fingers",
@@ -9031,6 +12151,11 @@ db.blueprints.insertMany([
       favor: 5488,
       airshipPower: 478,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ether Spent", shards: 80 },
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Gloves of Rhythm",
@@ -9046,6 +12171,11 @@ db.blueprints.insertMany([
       airshipPower: 420,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-57 Iron Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Gants d'Artagnan",
@@ -9061,6 +12191,11 @@ db.blueprints.insertMany([
       airshipPower: 632,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+    ],
   },
   {
     name: "Wildhunt Gloves",
@@ -9075,6 +12210,11 @@ db.blueprints.insertMany([
       airshipPower: 456,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-2 Boreal Gale Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Shin Guards",
@@ -9088,6 +12228,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Iron Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Long Boots",
@@ -9102,6 +12247,11 @@ db.blueprints.insertMany([
       airshipPower: 20,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Iron Greaves",
@@ -9116,6 +12266,11 @@ db.blueprints.insertMany([
       airshipPower: 34,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Iron Pine Cone Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Hero's Boots",
@@ -9131,6 +12286,11 @@ db.blueprints.insertMany([
       airshipPower: 51,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Leather Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Reinforced Greaves",
@@ -9145,6 +12305,11 @@ db.blueprints.insertMany([
       airshipPower: 56,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Plated Squeakers",
@@ -9160,6 +12325,11 @@ db.blueprints.insertMany([
       airshipPower: 80,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Leather Spent", shards: 15 },
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+    ],
   },
   {
     name: "Knight Sollerets",
@@ -9174,6 +12344,11 @@ db.blueprints.insertMany([
       airshipPower: 101,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Cindersole",
@@ -9188,6 +12363,11 @@ db.blueprints.insertMany([
       favor: 119,
       airshipPower: 155,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Warlord Boots",
@@ -9203,6 +12383,11 @@ db.blueprints.insertMany([
       airshipPower: 140,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Paladin Boots",
@@ -9217,6 +12402,11 @@ db.blueprints.insertMany([
       airshipPower: 138,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Iron Greaves Spent", shards: 25 },
+    ],
   },
   {
     name: "Canid Paws",
@@ -9232,6 +12422,11 @@ db.blueprints.insertMany([
       airshipPower: 175,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20% Craft Time Reduction", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 25 },
+    ],
   },
   {
     name: "Samurai Haidate",
@@ -9246,6 +12441,11 @@ db.blueprints.insertMany([
       airshipPower: 168,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Topaz Greaves",
@@ -9261,6 +12461,11 @@ db.blueprints.insertMany([
       airshipPower: 242,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Jewels Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "General Greaves",
@@ -9275,6 +12480,11 @@ db.blueprints.insertMany([
       airshipPower: 216,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+    ],
   },
   {
     name: "Berserker Stompers",
@@ -9289,6 +12499,11 @@ db.blueprints.insertMany([
       airshipPower: 246,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Luxurious Boots",
@@ -9303,6 +12518,11 @@ db.blueprints.insertMany([
       favor: 1589,
       airshipPower: 258,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Vanguard Greaves",
@@ -9318,6 +12538,11 @@ db.blueprints.insertMany([
       airshipPower: 340,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Star Metal Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Juggernaut Greaves",
@@ -9332,6 +12557,11 @@ db.blueprints.insertMany([
       airshipPower: 282,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Bunbun Booties",
@@ -9347,6 +12577,11 @@ db.blueprints.insertMany([
       airshipPower: 343,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Greaves of the Fifth",
@@ -9362,6 +12597,11 @@ db.blueprints.insertMany([
       airshipPower: 369,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-2 Deep Pearl Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Celesteel Boots",
@@ -9376,6 +12616,11 @@ db.blueprints.insertMany([
       airshipPower: 366,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-2 Crystal Lullaby Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Star-Spangled Greaves",
@@ -9391,6 +12636,11 @@ db.blueprints.insertMany([
       airshipPower: 461,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-12 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Santa's Guard Boots",
@@ -9406,6 +12656,11 @@ db.blueprints.insertMany([
       airshipPower: 448,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Precious Shell Spent", shards: 60 },
+      { upgrade: "-10 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Vermilion Guard Greaves",
@@ -9420,6 +12675,11 @@ db.blueprints.insertMany([
       airshipPower: 462,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-28 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Boots of Zeal",
@@ -9434,6 +12694,11 @@ db.blueprints.insertMany([
       favor: 5488,
       airshipPower: 586,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 80 },
+      { upgrade: "-7 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Fruity Booties",
@@ -9449,6 +12714,11 @@ db.blueprints.insertMany([
       airshipPower: 605,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-18 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Greaves",
@@ -9463,6 +12733,11 @@ db.blueprints.insertMany([
       favor: 5488,
       airshipPower: 480,
     },
+    ascensionUpgrades: [
+      { upgrade: "-14 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+    ],
   },
   {
     name: "Rex Stompers",
@@ -9478,6 +12753,11 @@ db.blueprints.insertMany([
       airshipPower: 560,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Balefire Greaves",
@@ -9492,6 +12772,11 @@ db.blueprints.insertMany([
       airshipPower: 594,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 Astral Fabric Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Leather Boots",
@@ -9506,6 +12791,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 8,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Leather Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Trailblazers",
@@ -9520,6 +12810,11 @@ db.blueprints.insertMany([
       favor: 11,
       airshipPower: 36,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Leather Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Flip-Flops",
@@ -9534,6 +12829,11 @@ db.blueprints.insertMany([
       airshipPower: 18,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Leather Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Soft Shoes",
@@ -9548,6 +12848,11 @@ db.blueprints.insertMany([
       airshipPower: 30,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Elven Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Legionnaire Sandals",
@@ -9563,6 +12868,11 @@ db.blueprints.insertMany([
       airshipPower: 42,
       antiqueTokens: 75,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Wood Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Thief's Shoes",
@@ -9577,6 +12887,11 @@ db.blueprints.insertMany([
       airshipPower: 58,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-2 Webbed Wing Spent", shards: 15 },
+    ],
   },
   {
     name: "Perennial Sandals",
@@ -9592,6 +12907,11 @@ db.blueprints.insertMany([
       airshipPower: 80,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Leather Spent", shards: 15 },
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+    ],
   },
   {
     name: "Elven Shoes",
@@ -9606,6 +12926,11 @@ db.blueprints.insertMany([
       airshipPower: 82,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Moonlight Zōri",
@@ -9621,6 +12946,11 @@ db.blueprints.insertMany([
       airshipPower: 114,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Fabric Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-12 Iron Spent", shards: 20 },
+    ],
   },
   {
     name: "Savage Stride",
@@ -9635,6 +12965,11 @@ db.blueprints.insertMany([
       airshipPower: 115,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Bronze Fang Spent", shards: 25 },
+    ],
   },
   {
     name: "Sakura Tabi",
@@ -9650,6 +12985,11 @@ db.blueprints.insertMany([
       airshipPower: 156,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-6 Oils Spent", shards: 25 },
+    ],
   },
   {
     name: "Sultan Steps",
@@ -9665,6 +13005,11 @@ db.blueprints.insertMany([
       airshipPower: 154,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Herbs Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Ninja Tabi",
@@ -9679,6 +13024,11 @@ db.blueprints.insertMany([
       airshipPower: 144,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Nightwing Shoes",
@@ -9694,6 +13044,11 @@ db.blueprints.insertMany([
       airshipPower: 225,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Fabric Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Windrunner Boots",
@@ -9708,6 +13063,11 @@ db.blueprints.insertMany([
       airshipPower: 192,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-4 Rustwyrm Scale Spent", shards: 35 },
+    ],
   },
   {
     name: "Alpine Stride",
@@ -9722,6 +13082,11 @@ db.blueprints.insertMany([
       favor: 1001,
       airshipPower: 242,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 35 },
+    ],
   },
   {
     name: "Drakeskin Boots",
@@ -9736,6 +13101,11 @@ db.blueprints.insertMany([
       airshipPower: 222,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-3 Deep Pearl Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Plaguewalkers",
@@ -9750,6 +13120,11 @@ db.blueprints.insertMany([
       favor: 1589,
       airshipPower: 286,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-2 Evil Eye Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Shoes of Style",
@@ -9765,6 +13140,11 @@ db.blueprints.insertMany([
       airshipPower: 266,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Corsair Boots",
@@ -9779,6 +13159,11 @@ db.blueprints.insertMany([
       airshipPower: 252,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 45 },
+      { upgrade: "-2 Ghastly Pennant Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Cloudwalker Steps",
@@ -9794,6 +13179,11 @@ db.blueprints.insertMany([
       airshipPower: 334,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "-2 Crystal Lullaby Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Everdusk Boots",
@@ -9808,6 +13198,11 @@ db.blueprints.insertMany([
       airshipPower: 324,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Raptor Talons",
@@ -9823,6 +13218,11 @@ db.blueprints.insertMany([
       airshipPower: 378,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-20 Fabric Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Opulent Footwraps",
@@ -9837,6 +13237,11 @@ db.blueprints.insertMany([
       favor: 3218,
       airshipPower: 324,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 60 },
+    ],
   },
   {
     name: "Dawn Thief's Path",
@@ -9851,6 +13256,11 @@ db.blueprints.insertMany([
       airshipPower: 414,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-28 Fabric Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Desperado Spurs",
@@ -9866,6 +13276,11 @@ db.blueprints.insertMany([
       airshipPower: 519,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "-17 Fabric Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Hunter Moccasins",
@@ -9881,6 +13296,11 @@ db.blueprints.insertMany([
       airshipPower: 724,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ether Spent", shards: 80 },
+      { upgrade: "-2 Thread of Fate Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Fairy Sandals",
@@ -9896,6 +13316,11 @@ db.blueprints.insertMany([
       airshipPower: 497,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ether Spent", shards: 80 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Wildhunt Sandals",
@@ -9910,6 +13335,11 @@ db.blueprints.insertMany([
       airshipPower: 522,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 Astral Fabric Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Wooden Shield",
@@ -9923,6 +13353,11 @@ db.blueprints.insertMany([
       favor: 1,
       airshipPower: 14,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Wood Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Heavy Buckler",
@@ -9937,6 +13372,11 @@ db.blueprints.insertMany([
       airshipPower: 34,
       researchScrolls: 1,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Elven Wood Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Oaken Shield",
@@ -9951,6 +13391,11 @@ db.blueprints.insertMany([
       airshipPower: 48,
       researchScrolls: 3,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Iron Pine Cone Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Iron Shield",
@@ -9965,6 +13410,11 @@ db.blueprints.insertMany([
       airshipPower: 74,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Aurum Ward",
@@ -9979,6 +13429,11 @@ db.blueprints.insertMany([
       favor: 56,
       airshipPower: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Iron Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Precious Gem Spent", shards: 15 },
+    ],
   },
   {
     name: "Teardrop Shield",
@@ -9993,6 +13448,11 @@ db.blueprints.insertMany([
       airshipPower: 101,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Ironwood Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+    ],
   },
   {
     name: "Imperial Scutum",
@@ -10008,6 +13468,11 @@ db.blueprints.insertMany([
       airshipPower: 140,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-30 Iron Spent", shards: 20 },
+    ],
   },
   {
     name: "Champion Vigil",
@@ -10023,6 +13488,11 @@ db.blueprints.insertMany([
       airshipPower: 150,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Iron Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Jade Pendant Spent", shards: 20 },
+    ],
   },
   {
     name: "Mythril Aspis",
@@ -10037,6 +13507,11 @@ db.blueprints.insertMany([
       airshipPower: 126,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ironwood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Raider Buckler",
@@ -10052,6 +13527,11 @@ db.blueprints.insertMany([
       airshipPower: 161,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Bronze Fang Spent", shards: 25 },
+    ],
   },
   {
     name: "Gaia Aegis",
@@ -10067,6 +13547,11 @@ db.blueprints.insertMany([
       airshipPower: 190,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Wyrmguard",
@@ -10081,6 +13566,11 @@ db.blueprints.insertMany([
       airshipPower: 168,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ironwood Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-4 Rustwyrm Scale Spent", shards: 30 },
+    ],
   },
   {
     name: "Vanguard Buckler",
@@ -10096,6 +13586,11 @@ db.blueprints.insertMany([
       airshipPower: 288,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-42 Herbs Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Ancestor Totem",
@@ -10110,6 +13605,11 @@ db.blueprints.insertMany([
       airshipPower: 216,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+    ],
   },
   {
     name: "Angelic Pavise",
@@ -10124,6 +13624,11 @@ db.blueprints.insertMany([
       airshipPower: 246,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-4 White Sand Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Prometheon",
@@ -10138,6 +13643,11 @@ db.blueprints.insertMany([
       favor: 1589,
       airshipPower: 316,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-2 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Milesian Shield",
@@ -10153,6 +13663,11 @@ db.blueprints.insertMany([
       airshipPower: 328,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-5 Deep Pearl Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Bunbun Buckler",
@@ -10168,6 +13683,11 @@ db.blueprints.insertMany([
       airshipPower: 387,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-2 Evil Eye Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Luxurious Aegis",
@@ -10182,6 +13702,11 @@ db.blueprints.insertMany([
       favor: 1847,
       airshipPower: 270,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Golden Artifact Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Goldmane Guard",
@@ -10196,6 +13721,11 @@ db.blueprints.insertMany([
       airshipPower: 282,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Emperor Wyrmguard",
@@ -10211,6 +13741,11 @@ db.blueprints.insertMany([
       airshipPower: 369,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Bearded Paragon",
@@ -10225,6 +13760,11 @@ db.blueprints.insertMany([
       airshipPower: 366,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-68 Wood Spent", shards: 60 },
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Honeycomb Defender",
@@ -10240,6 +13780,11 @@ db.blueprints.insertMany([
       airshipPower: 461,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Crystalice Targe",
@@ -10255,6 +13800,11 @@ db.blueprints.insertMany([
       airshipPower: 448,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 60 },
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Abyssal Artifact",
@@ -10269,6 +13819,11 @@ db.blueprints.insertMany([
       airshipPower: 462,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-28 Ironwood Spent", shards: 80 },
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Titan Shield",
@@ -10284,6 +13839,11 @@ db.blueprints.insertMany([
       airshipPower: 582,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-28 Ironwood Spent", shards: 80 },
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Buckler",
@@ -10298,6 +13858,11 @@ db.blueprints.insertMany([
       favor: 4782,
       airshipPower: 462,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Bastion of Dawn",
@@ -10313,6 +13878,11 @@ db.blueprints.insertMany([
       airshipPower: 560,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Elongo Shield",
@@ -10328,6 +13898,11 @@ db.blueprints.insertMany([
       airshipPower: 625,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Chloroshield",
@@ -10342,6 +13917,11 @@ db.blueprints.insertMany([
       airshipPower: 594,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 100 },
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Mundra's Aegis",
@@ -10357,6 +13937,11 @@ db.blueprints.insertMany([
       airshipPower: 936,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Jewels Spent", shards: 100 },
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Adventurer Cape",
@@ -10371,6 +13956,11 @@ db.blueprints.insertMany([
       favor: 26,
       airshipPower: 62,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x2", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Administrator Cloak",
@@ -10386,6 +13976,11 @@ db.blueprints.insertMany([
       airshipPower: 94,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Druid Cloak",
@@ -10401,6 +13996,11 @@ db.blueprints.insertMany([
       airshipPower: 126,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Herbs Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-2 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Imperial Cape",
@@ -10416,6 +14016,11 @@ db.blueprints.insertMany([
       airshipPower: 168,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Vampire Wings",
@@ -10431,6 +14036,11 @@ db.blueprints.insertMany([
       airshipPower: 210,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Fabric Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+    ],
   },
   {
     name: "Elven Cloak",
@@ -10446,6 +14056,11 @@ db.blueprints.insertMany([
       airshipPower: 222,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-23 Herbs Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-8 Fabric Spent", shards: 30 },
+    ],
   },
   {
     name: "Beast King's Cloak",
@@ -10461,6 +14076,11 @@ db.blueprints.insertMany([
       airshipPower: 276,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-17 Fabric Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+    ],
   },
   {
     name: "Dragonlord Crest",
@@ -10476,6 +14096,11 @@ db.blueprints.insertMany([
       airshipPower: 324,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 40 },
+      { upgrade: "-5 Rustwyrm Scale Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Tyrant Cloak",
@@ -10491,6 +14116,11 @@ db.blueprints.insertMany([
       airshipPower: 504,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-1 Ghastly Pennant Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Archbishop Mantle",
@@ -10506,6 +14136,11 @@ db.blueprints.insertMany([
       airshipPower: 372,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Voidcloth From Beyond",
@@ -10521,6 +14156,11 @@ db.blueprints.insertMany([
       airshipPower: 480,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "-5 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Opulent Cloak",
@@ -10535,6 +14175,11 @@ db.blueprints.insertMany([
       favor: 3471,
       airshipPower: 480,
     },
+    ascensionUpgrades: [
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-5 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 60 },
+    ],
   },
   {
     name: "Woven Lilycloak",
@@ -10550,6 +14195,11 @@ db.blueprints.insertMany([
       airshipPower: 747,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Herald's Mantle",
@@ -10565,6 +14215,11 @@ db.blueprints.insertMany([
       airshipPower: 606,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-31 Fabric Spent", shards: 80 },
+      { upgrade: "-7 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Sakura Cloak",
@@ -10580,6 +14235,11 @@ db.blueprints.insertMany([
       airshipPower: 766,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "-64 Leather Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Fairy Wings",
@@ -10595,6 +14255,11 @@ db.blueprints.insertMany([
       airshipPower: 728,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Cloak Everflowing",
@@ -10610,6 +14275,11 @@ db.blueprints.insertMany([
       airshipPower: 774,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Thread of Fate Spent", shards: 100 },
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Iron Ring",
@@ -10624,6 +14294,11 @@ db.blueprints.insertMany([
       favor: 16,
       airshipPower: 23,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Iron Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Alloy Loop",
@@ -10637,6 +14312,11 @@ db.blueprints.insertMany([
       favor: 21,
       airshipPower: 34,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Ruby Ring",
@@ -10650,6 +14330,11 @@ db.blueprints.insertMany([
       favor: 42,
       airshipPower: 51,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x3", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "-2 Glow Shroom Spent", shards: 10 },
+    ],
   },
   {
     name: "Emerald Ring",
@@ -10664,6 +14349,11 @@ db.blueprints.insertMany([
       favor: 56,
       airshipPower: 74,
     },
+    ascensionUpgrades: [
+      { upgrade: "-17 Herbs Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "-1 Silver Dust Spent", shards: 10 },
+    ],
   },
   {
     name: "Silver Band",
@@ -10678,6 +14368,11 @@ db.blueprints.insertMany([
       airshipPower: 70,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Precious Gem Spent", shards: 15 },
+    ],
   },
   {
     name: "Ring of Passion",
@@ -10693,6 +14388,11 @@ db.blueprints.insertMany([
       airshipPower: 107,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-30 Iron Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 15 },
+    ],
   },
   {
     name: "Noble Ring",
@@ -10707,6 +14407,11 @@ db.blueprints.insertMany([
       airshipPower: 84,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Iron Ring Spent", shards: 20 },
+    ],
   },
   {
     name: "Ring of Rhythm",
@@ -10722,6 +14427,11 @@ db.blueprints.insertMany([
       airshipPower: 119,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Claud's Will",
@@ -10737,6 +14447,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-11 Steel Spent", shards: 20 },
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Knight Signet",
@@ -10751,6 +14466,11 @@ db.blueprints.insertMany([
       airshipPower: 96,
       researchScrolls: 15,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Ruby Ring Spent", shards: 25 },
+    ],
   },
   {
     name: "Ring of Liberty",
@@ -10766,6 +14486,11 @@ db.blueprints.insertMany([
       airshipPower: 144,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-23 Iron Spent", shards: 25 },
+      { upgrade: "-2 Iron Pine Cone Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+    ],
   },
   {
     name: "Qian Loop",
@@ -10781,6 +14506,11 @@ db.blueprints.insertMany([
       airshipPower: 144,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-27 Iron Spent", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+    ],
   },
   {
     name: "Batrachite Stone",
@@ -10795,6 +14525,11 @@ db.blueprints.insertMany([
       airshipPower: 120,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+    ],
   },
   {
     name: "Soulstone Ring",
@@ -10809,6 +14544,11 @@ db.blueprints.insertMany([
       favor: 502,
       airshipPower: 174,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Ring of the Chosen",
@@ -10824,6 +14564,11 @@ db.blueprints.insertMany([
       airshipPower: 188,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Brimstone Coil",
@@ -10838,6 +14583,11 @@ db.blueprints.insertMany([
       airshipPower: 160,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-4 White Sand Spent", shards: 35 },
+    ],
   },
   {
     name: "Ring of Vampire Kin",
@@ -10853,6 +14603,11 @@ db.blueprints.insertMany([
       airshipPower: 233,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Fairfolk Band",
@@ -10867,6 +14622,11 @@ db.blueprints.insertMany([
       airshipPower: 176,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Dawnflower Ring",
@@ -10882,6 +14642,11 @@ db.blueprints.insertMany([
       airshipPower: 254,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Jewels Spent", shards: 40 },
+      { upgrade: "-4 Moon Crystal Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Valedictorian Ring",
@@ -10897,6 +14662,11 @@ db.blueprints.insertMany([
       airshipPower: 264,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-1 Thread of Fate Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Luxurious Signet",
@@ -10911,6 +14681,11 @@ db.blueprints.insertMany([
       favor: 1777,
       airshipPower: 192,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "-1 Golden Artifact Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Borealis",
@@ -10925,6 +14700,11 @@ db.blueprints.insertMany([
       airshipPower: 200,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Northwind Gem",
@@ -10939,6 +14719,11 @@ db.blueprints.insertMany([
       favor: 2451,
       airshipPower: 266,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "-2 Chronos Crystal Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Blizzard Ring",
@@ -10954,6 +14739,11 @@ db.blueprints.insertMany([
       airshipPower: 286,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-17 Steel Spent", shards: 45 },
+      { upgrade: "-5 Jewels Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Bunbun Band",
@@ -10969,6 +14759,11 @@ db.blueprints.insertMany([
       airshipPower: 301,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 45 },
+      { upgrade: "-2 Evil Eye Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Rubicon Prison",
@@ -10983,6 +14778,11 @@ db.blueprints.insertMany([
       airshipPower: 260,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Crunchy Bracelet",
@@ -10998,6 +14798,11 @@ db.blueprints.insertMany([
       airshipPower: 374,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Ring of New Beginnings",
@@ -11013,6 +14818,11 @@ db.blueprints.insertMany([
       airshipPower: 377,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Precious Shell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Pearlescent Perfection",
@@ -11027,6 +14837,11 @@ db.blueprints.insertMany([
       airshipPower: 328,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "-34 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Crystalice Loop",
@@ -11042,6 +14857,11 @@ db.blueprints.insertMany([
       airshipPower: 467,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "-25 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Ogun's Onyx Ring",
@@ -11057,6 +14877,11 @@ db.blueprints.insertMany([
       airshipPower: 485,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Maple Ration Mini",
@@ -11072,6 +14897,11 @@ db.blueprints.insertMany([
       airshipPower: 502,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-2 Thread of Fate Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Signet",
@@ -11086,6 +14916,11 @@ db.blueprints.insertMany([
       favor: 6249,
       airshipPower: 352,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Mark of Ouroboros",
@@ -11101,6 +14936,11 @@ db.blueprints.insertMany([
       airshipPower: 420,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-8 Jewels Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Memento",
@@ -11114,6 +14954,11 @@ db.blueprints.insertMany([
       favor: 10,
       airshipPower: 28,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Iron Spent", shards: 5 },
+      { upgrade: "+30% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Jade Pendant",
@@ -11127,6 +14972,11 @@ db.blueprints.insertMany([
       favor: 14,
       airshipPower: 42,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Iron Spent", shards: 5 },
+      { upgrade: "+20% Multicraft Chance", shards: 5 },
+      { upgrade: "Quality Chance x3", shards: 5 },
+    ],
   },
   {
     name: "Iron Bond",
@@ -11140,6 +14990,11 @@ db.blueprints.insertMany([
       favor: 20,
       airshipPower: 59,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Iron Pine Cone Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Mundra's Amulet",
@@ -11154,6 +15009,11 @@ db.blueprints.insertMany([
       favor: 27,
       airshipPower: 197,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Sun Pendant",
@@ -11168,6 +15028,11 @@ db.blueprints.insertMany([
       airshipPower: 86,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Precious Gem Spent", shards: 15 },
+    ],
   },
   {
     name: "Eclipse Amulet",
@@ -11182,6 +15047,11 @@ db.blueprints.insertMany([
       favor: 52,
       airshipPower: 114,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Leather Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 15 },
+    ],
   },
   {
     name: "Medal of Honor",
@@ -11197,6 +15067,11 @@ db.blueprints.insertMany([
       airshipPower: 121,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Silver Dust Spent", shards: 15 },
+    ],
   },
   {
     name: "Noble Chain",
@@ -11211,6 +15086,11 @@ db.blueprints.insertMany([
       airshipPower: 106,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-2 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Lucky Medallion",
@@ -11226,6 +15106,11 @@ db.blueprints.insertMany([
       airshipPower: 134,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 20 },
+      { upgrade: "-3 Precious Gem Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+    ],
   },
   {
     name: "Luxurious Charm",
@@ -11240,6 +15125,11 @@ db.blueprints.insertMany([
       favor: 210,
       airshipPower: 138,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Steel Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-8 Glow Shroom Spent", shards: 20 },
+    ],
   },
   {
     name: "Holy Symbol",
@@ -11254,6 +15144,11 @@ db.blueprints.insertMany([
       airshipPower: 138,
       researchScrolls: 17,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "Component Quality Reduced", shards: 25 },
+    ],
   },
   {
     name: "Convenient Pendant",
@@ -11269,6 +15164,11 @@ db.blueprints.insertMany([
       airshipPower: 178,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Steel Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Moon Crystal Spent", shards: 25 },
+    ],
   },
   {
     name: "Trinket of the Fifth",
@@ -11284,6 +15184,11 @@ db.blueprints.insertMany([
       airshipPower: 178,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-22 Herbs Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 Living Root Spent", shards: 25 },
+    ],
   },
   {
     name: "Titanium Torc",
@@ -11298,6 +15203,11 @@ db.blueprints.insertMany([
       airshipPower: 192,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+    ],
   },
   {
     name: "Magical Timepiece",
@@ -11313,6 +15223,11 @@ db.blueprints.insertMany([
       airshipPower: 238,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Steel Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-4 Oils Spent", shards: 30 },
+    ],
   },
   {
     name: "Magatama Necklace",
@@ -11327,6 +15242,11 @@ db.blueprints.insertMany([
       airshipPower: 228,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Dragonsoul Pendant",
@@ -11342,6 +15262,11 @@ db.blueprints.insertMany([
       airshipPower: 300,
       antiqueTokens: 180,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "-1 Ancient Marble Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+    ],
   },
   {
     name: "Archivist Glasses",
@@ -11356,6 +15281,11 @@ db.blueprints.insertMany([
       favor: 739,
       airshipPower: 280,
     },
+    ascensionUpgrades: [
+      { upgrade: "-14 Steel Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Bronze Circlet Spent", shards: 35 },
+    ],
   },
   {
     name: "Stygian Phylactery",
@@ -11370,6 +15300,11 @@ db.blueprints.insertMany([
       airshipPower: 264,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "-2 Iron Bond Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Ursa Totem",
@@ -11385,6 +15320,11 @@ db.blueprints.insertMany([
       airshipPower: 322,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Thread of Fate Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "P.E.T. Portable",
@@ -11400,6 +15340,11 @@ db.blueprints.insertMany([
       airshipPower: 356,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Thread of Fate Spent", shards: 40 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Alimyriad",
@@ -11414,6 +15359,11 @@ db.blueprints.insertMany([
       airshipPower: 300,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Freyja's Talisman",
@@ -11429,6 +15379,11 @@ db.blueprints.insertMany([
       airshipPower: 350,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 45 },
+      { upgrade: "-2 Silk Scarab Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "VIP Talisman",
@@ -11444,6 +15399,11 @@ db.blueprints.insertMany([
       airshipPower: 392,
       antiqueTokens: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 45 },
+      { upgrade: "-1 Deep Coral Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Brísingamen",
@@ -11458,6 +15418,11 @@ db.blueprints.insertMany([
       airshipPower: 390,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Monsoon Heart",
@@ -11472,6 +15437,11 @@ db.blueprints.insertMany([
       favor: 2340,
       airshipPower: 448,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Boreal Gale Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Forlorn Acorn",
@@ -11487,6 +15457,11 @@ db.blueprints.insertMany([
       airshipPower: 476,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Ether Spent", shards: 60 },
+      { upgrade: "-4 Living Root Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Gyatso's Amulet",
@@ -11502,6 +15477,11 @@ db.blueprints.insertMany([
       airshipPower: 513,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-14 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "-1 Gale Element Spent", shards: 60 },
+    ],
   },
   {
     name: "Fellgrove Talisman",
@@ -11517,6 +15497,11 @@ db.blueprints.insertMany([
       airshipPower: 490,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Ether Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Titania's Keepsake",
@@ -11531,6 +15516,11 @@ db.blueprints.insertMany([
       airshipPower: 510,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+      { upgrade: "-23 Steel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Carcanet",
@@ -11545,6 +15535,11 @@ db.blueprints.insertMany([
       favor: 3993,
       airshipPower: 510,
     },
+    ascensionUpgrades: [
+      { upgrade: "-9 Jewels Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Gamepad Mini",
@@ -11560,6 +15555,11 @@ db.blueprints.insertMany([
       airshipPower: 645,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-18 Steel Spent", shards: 80 },
+      { upgrade: "-45 Iron Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Eternal Hourglass",
@@ -11575,6 +15575,11 @@ db.blueprints.insertMany([
       airshipPower: 595,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-12 Oils Spent", shards: 80 },
+      { upgrade: "-6 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Fairy Wreath",
@@ -11590,6 +15595,11 @@ db.blueprints.insertMany([
       airshipPower: 663,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 80 },
+      { upgrade: "-8 Jewels Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Titania's Timepiece",
@@ -11604,6 +15614,11 @@ db.blueprints.insertMany([
       airshipPower: 630,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-1 Outsider's Claw Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Troublin",
@@ -11618,6 +15633,11 @@ db.blueprints.insertMany([
       favor: 29,
       airshipPower: 66,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Iron Pine Cone Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Yeti",
@@ -11633,6 +15653,11 @@ db.blueprints.insertMany([
       airshipPower: 100,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-25% Craft Time Reduction", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "-1 Precious Gem Spent", shards: 15 },
+    ],
   },
   {
     name: "Toadwitch",
@@ -11648,6 +15673,11 @@ db.blueprints.insertMany([
       airshipPower: 350,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Leather Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Mushgoon",
@@ -11663,6 +15693,11 @@ db.blueprints.insertMany([
       airshipPower: 299,
       researchScrolls: 30,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Anubis",
@@ -11678,6 +15713,11 @@ db.blueprints.insertMany([
       airshipPower: 544,
       researchScrolls: 40,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Cyclops",
@@ -11693,6 +15733,11 @@ db.blueprints.insertMany([
       airshipPower: 380,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Jewels Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-1 Chronos Crystal Spent", shards: 35 },
+    ],
   },
   {
     name: "Tyrant",
@@ -11708,6 +15753,11 @@ db.blueprints.insertMany([
       airshipPower: 759,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 40 },
+      { upgrade: "-1 Spooky Ectoplasm Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Mermaid",
@@ -11723,6 +15773,11 @@ db.blueprints.insertMany([
       airshipPower: 1020,
       researchScrolls: 80,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 45 },
+      { upgrade: "Component Quality Reduced", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Harpy",
@@ -11738,6 +15793,11 @@ db.blueprints.insertMany([
       airshipPower: 1056,
       researchScrolls: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Opulent Golem",
@@ -11752,6 +15812,11 @@ db.blueprints.insertMany([
       favor: 4172,
       airshipPower: 858,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Crushtacean",
@@ -11767,6 +15832,11 @@ db.blueprints.insertMany([
       airshipPower: 1422,
       researchScrolls: 150,
     },
+    ascensionUpgrades: [
+      { upgrade: "-12 Jewels Spent", shards: 80 },
+      { upgrade: "-42 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Voidling",
@@ -11782,6 +15852,11 @@ db.blueprints.insertMany([
       airshipPower: 2140,
       researchScrolls: 250,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Essence Spent", shards: 100 },
+      { upgrade: "-10 Jewels Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Bacon and Eggs",
@@ -11796,6 +15871,11 @@ db.blueprints.insertMany([
       favor: 36,
       airshipPower: 48,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x3", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "-1 Glow Shroom Spent", shards: 10 },
+    ],
   },
   {
     name: "Gua Bao",
@@ -11810,6 +15890,11 @@ db.blueprints.insertMany([
       airshipPower: 62,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Elven Wood Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "Quality Chance x3", shards: 15 },
+    ],
   },
   {
     name: "CosmOs Cereals",
@@ -11825,6 +15910,11 @@ db.blueprints.insertMany([
       airshipPower: 70,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "Quality Chance x3", shards: 15 },
+    ],
   },
   {
     name: "Poutine",
@@ -11839,6 +15929,11 @@ db.blueprints.insertMany([
       airshipPower: 82,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Oils Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Living Root Spent", shards: 20 },
+    ],
   },
   {
     name: "Sugar Shack Special",
@@ -11854,6 +15949,11 @@ db.blueprints.insertMany([
       airshipPower: 114,
       antiqueTokens: 120,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Webbed Wing Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Webbed Wing Spent", shards: 20 },
+    ],
   },
   {
     name: "Cheeseburger",
@@ -11868,6 +15968,11 @@ db.blueprints.insertMany([
       airshipPower: 106,
       researchScrolls: 18,
     },
+    ascensionUpgrades: [
+      { upgrade: "-31 Herbs Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-5 Oils Spent", shards: 25 },
+    ],
   },
   {
     name: "Margherita Pizza",
@@ -11883,6 +15988,11 @@ db.blueprints.insertMany([
       airshipPower: 132,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-15 Oils Spent", shards: 25 },
+      { upgrade: "-1 Elven Wood Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+    ],
   },
   {
     name: "Power-Up Pie",
@@ -11898,6 +16008,11 @@ db.blueprints.insertMany([
       airshipPower: 144,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 25 },
+      { upgrade: "-15 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+    ],
   },
   {
     name: "Ahi Poke Bowl",
@@ -11912,6 +16027,11 @@ db.blueprints.insertMany([
       airshipPower: 126,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Glow Shroom Spent", shards: 30 },
+      { upgrade: "-7 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+    ],
   },
   {
     name: "Creamy Scallops",
@@ -11927,6 +16047,11 @@ db.blueprints.insertMany([
       airshipPower: 176,
       antiqueTokens: 160,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Mintyleaf Herb Spent", shards: 30 },
+      { upgrade: "-20 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+    ],
   },
   {
     name: "Sushi",
@@ -11941,6 +16066,11 @@ db.blueprints.insertMany([
       airshipPower: 160,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Oils Spent", shards: 35 },
+      { upgrade: "-2 Ether Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+    ],
   },
   {
     name: "Super Spicy Curry",
@@ -11955,6 +16085,11 @@ db.blueprints.insertMany([
       airshipPower: 190,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "Component Quality Reduced", shards: 40 },
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Veggie Kebabs",
@@ -11969,6 +16104,11 @@ db.blueprints.insertMany([
       airshipPower: 220,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-96 Herbs Spent", shards: 45 },
+      { upgrade: "-27 Oils Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Deluxe Ramen",
@@ -11983,6 +16123,11 @@ db.blueprints.insertMany([
       airshipPower: 270,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-20 Oils Spent", shards: 60 },
+      { upgrade: "-5 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Steamed Sea Bass",
@@ -11998,6 +16143,11 @@ db.blueprints.insertMany([
       airshipPower: 336,
       antiqueTokens: 300,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Deep Coral Spent", shards: 60 },
+      { upgrade: "-1 Crystal Lullaby Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Huli-Huli Chicken",
@@ -12012,6 +16162,11 @@ db.blueprints.insertMany([
       airshipPower: 346,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-29 Oils Spent", shards: 80 },
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Tamales",
@@ -12026,6 +16181,11 @@ db.blueprints.insertMany([
       favor: 4859,
       airshipPower: 346,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Pot of Paella",
@@ -12040,6 +16200,11 @@ db.blueprints.insertMany([
       airshipPower: 436,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 100 },
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Cookie Plate",
@@ -12054,6 +16219,11 @@ db.blueprints.insertMany([
       favor: 39,
       airshipPower: 80,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Glow Shroom Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x3", shards: 10 },
+    ],
   },
   {
     name: "Shaved Ice",
@@ -12069,6 +16239,11 @@ db.blueprints.insertMany([
       airshipPower: 100,
       researchScrolls: 6,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Sturdy Cap Spent", shards: 15 },
+      { upgrade: "+10% Multicraft Chance", shards: 15 },
+      { upgrade: "Quality Chance x3", shards: 15 },
+    ],
   },
   {
     name: "Taiyaki",
@@ -12084,6 +16259,11 @@ db.blueprints.insertMany([
       airshipPower: 135,
       researchScrolls: 10,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Oils Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-1 Deep Pearl Spent", shards: 20 },
+    ],
   },
   {
     name: "Cheesecake",
@@ -12099,6 +16279,11 @@ db.blueprints.insertMany([
       airshipPower: 170,
       researchScrolls: 18,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Oils Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+    ],
   },
   {
     name: "Chocolate Box",
@@ -12114,6 +16299,11 @@ db.blueprints.insertMany([
       airshipPower: 235,
       antiqueTokens: 140,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 White Sand Spent", shards: 25 },
+      { upgrade: "+10% Multicraft Chance", shards: 25 },
+      { upgrade: "-34 Herbs Spent", shards: 25 },
+    ],
   },
   {
     name: "Macaron Set",
@@ -12129,6 +16319,11 @@ db.blueprints.insertMany([
       airshipPower: 210,
       researchScrolls: 25,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Oils Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+    ],
   },
   {
     name: "Strawberry Mochi",
@@ -12144,6 +16339,11 @@ db.blueprints.insertMany([
       airshipPower: 265,
       researchScrolls: 35,
     },
+    ascensionUpgrades: [
+      { upgrade: "-15 Oils Spent", shards: 35 },
+      { upgrade: "+10% Multicraft Chance", shards: 35 },
+      { upgrade: "-2 White Sand Spent", shards: 35 },
+    ],
   },
   {
     name: "Matcha Swiss Roll",
@@ -12159,6 +16359,11 @@ db.blueprints.insertMany([
       airshipPower: 320,
       researchScrolls: 45,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Ether Spent", shards: 40 },
+      { upgrade: "Component Quality Reduced", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+    ],
   },
   {
     name: "Pineapple Cake",
@@ -12174,6 +16379,11 @@ db.blueprints.insertMany([
       airshipPower: 365,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-5 Ether Spent", shards: 45 },
+      { upgrade: "-1 Precious Shell Spent", shards: 45 },
+      { upgrade: "+10% Multicraft Chance", shards: 45 },
+    ],
   },
   {
     name: "Tuxedo Cake",
@@ -12189,6 +16399,11 @@ db.blueprints.insertMany([
       airshipPower: 455,
       researchScrolls: 85,
     },
+    ascensionUpgrades: [
+      { upgrade: "-6 Ether Spent", shards: 60 },
+      { upgrade: "-1 Grim Talon Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Halo-Halo",
@@ -12204,6 +16419,11 @@ db.blueprints.insertMany([
       airshipPower: 570,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-34 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Coconut Cream Cake",
@@ -12219,6 +16439,11 @@ db.blueprints.insertMany([
       airshipPower: 732,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-81 Herbs Spent", shards: 80 },
+      { upgrade: "-9 Ether Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Opulent Churros",
@@ -12233,6 +16458,11 @@ db.blueprints.insertMany([
       favor: 5488,
       airshipPower: 590,
     },
+    ascensionUpgrades: [
+      { upgrade: "-18 Oils Spent", shards: 80 },
+      { upgrade: "-1 Opulent Jewel Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Glazed Mirror Cake",
@@ -12248,6 +16478,11 @@ db.blueprints.insertMany([
       airshipPower: 708,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10 Ether Spent", shards: 80 },
+      { upgrade: "+5% Multicraft Chance", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Ultimate Fruit Salad",
@@ -12263,6 +16498,11 @@ db.blueprints.insertMany([
       airshipPower: 655,
       researchScrolls: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Essence Spent", shards: 100 },
+      { upgrade: "-22 Oils Spent", shards: 100 },
+      { upgrade: "+10% Multicraft Chance", shards: 100 },
+    ],
   },
   {
     name: "Chipped Runestone",
@@ -12277,6 +16517,11 @@ db.blueprints.insertMany([
       favor: 30,
       airshipPower: 0,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Webbed Wing Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-20% Craft Time Reduction", shards: 20 },
+    ],
   },
   {
     name: "Flawed Runestone",
@@ -12292,6 +16537,11 @@ db.blueprints.insertMany([
       airshipPower: 0,
       researchScrolls: 30,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Star Metal Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+      { upgrade: "-20% Craft Time Reduction", shards: 40 },
+    ],
   },
   {
     name: "Chiseled Runestone",
@@ -12307,6 +16557,11 @@ db.blueprints.insertMany([
       airshipPower: 0,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Ether Spent", shards: 60 },
+      { upgrade: "-1 Chipped Runestone Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Perfect Runestone",
@@ -12322,6 +16577,11 @@ db.blueprints.insertMany([
       airshipPower: 0,
       researchScrolls: 130,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Ether Spent", shards: 80 },
+      { upgrade: "-17 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Lesser Moonstone",
@@ -12336,6 +16596,11 @@ db.blueprints.insertMany([
       favor: 39,
       airshipPower: 0,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Precious Gem Spent", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "-20% Craft Time Reduction", shards: 20 },
+    ],
   },
   {
     name: "Superior Moonstone",
@@ -12351,6 +16616,11 @@ db.blueprints.insertMany([
       airshipPower: 0,
       researchScrolls: 30,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Evil Eye Spent", shards: 40 },
+      { upgrade: "+10% Multicraft Chance", shards: 40 },
+      { upgrade: "-20% Craft Time Reduction", shards: 40 },
+    ],
   },
   {
     name: "Greater Moonstone",
@@ -12366,6 +16636,11 @@ db.blueprints.insertMany([
       airshipPower: 0,
       researchScrolls: 60,
     },
+    ascensionUpgrades: [
+      { upgrade: "-8 Jewels Spent", shards: 60 },
+      { upgrade: "-1 Lesser Moonstone Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+    ],
   },
   {
     name: "Perfect Moonstone",
@@ -12381,6 +16656,11 @@ db.blueprints.insertMany([
       airshipPower: 0,
       researchScrolls: 130,
     },
+    ascensionUpgrades: [
+      { upgrade: "-7 Jewels Spent", shards: 80 },
+      { upgrade: "-16 Oils Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+    ],
   },
   {
     name: "Ember Element",
@@ -12395,6 +16675,11 @@ db.blueprints.insertMany([
       favor: 35,
       airshipPower: 38,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Precious Gem Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Flame Element",
@@ -12409,6 +16694,11 @@ db.blueprints.insertMany([
       airshipPower: 100,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 White Sand Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Blaze Element",
@@ -12423,6 +16713,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Chronos Crystal Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Inferno Element",
@@ -12437,6 +16732,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Magma Core Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Bubble Element",
@@ -12451,6 +16751,11 @@ db.blueprints.insertMany([
       favor: 35,
       airshipPower: 38,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Silver Dust Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Tide Element",
@@ -12465,6 +16770,11 @@ db.blueprints.insertMany([
       airshipPower: 100,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Moon Crystal Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Flood Element",
@@ -12479,6 +16789,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10% Craft Time Reduction", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Torrent Element",
@@ -12493,6 +16808,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Boreal Gale Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Breeze Element",
@@ -12507,6 +16827,11 @@ db.blueprints.insertMany([
       airshipPower: 38,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Webbed Wing Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Gale Element",
@@ -12521,6 +16846,11 @@ db.blueprints.insertMany([
       airshipPower: 100,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Tempest Element",
@@ -12535,6 +16865,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10% Craft Time Reduction", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Hurricane Element",
@@ -12549,6 +16884,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Grim Talon Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Nature Element",
@@ -12563,6 +16903,11 @@ db.blueprints.insertMany([
       airshipPower: 38,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Living Root Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Wild Element",
@@ -12577,6 +16922,11 @@ db.blueprints.insertMany([
       airshipPower: 100,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Bronze Fang Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Primal Element",
@@ -12591,6 +16941,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Overgrown Vine Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Primeval Element",
@@ -12605,6 +16960,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Light Element",
@@ -12619,6 +16979,11 @@ db.blueprints.insertMany([
       airshipPower: 38,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Deep Pearl Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Holy Element",
@@ -12633,6 +16998,11 @@ db.blueprints.insertMany([
       airshipPower: 100,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Sacred Element",
@@ -12647,6 +17017,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Ancient Marble Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Divine Element",
@@ -12661,6 +17036,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Corrupted Element",
@@ -12675,6 +17055,11 @@ db.blueprints.insertMany([
       airshipPower: 38,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Rustwyrm Scale Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Unholy Element",
@@ -12689,6 +17074,11 @@ db.blueprints.insertMany([
       airshipPower: 100,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Nightmare Element",
@@ -12703,6 +17093,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10% Craft Time Reduction", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Abyssal Element",
@@ -12717,6 +17112,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Luxurious Element",
@@ -12731,6 +17131,11 @@ db.blueprints.insertMany([
       favor: 150,
       airshipPower: 67,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x2", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "Quality Chance x2", shards: 20 },
+    ],
   },
   {
     name: "Opulent Element",
@@ -12745,6 +17150,11 @@ db.blueprints.insertMany([
       favor: 2128,
       airshipPower: 166,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Ether Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Ram Spirit",
@@ -12759,6 +17169,11 @@ db.blueprints.insertMany([
       favor: 42,
       airshipPower: 41,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Precious Gem Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Wolf Spirit",
@@ -12773,6 +17188,11 @@ db.blueprints.insertMany([
       airshipPower: 41,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-3 Silver Dust Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Ox Spirit",
@@ -12787,6 +17207,11 @@ db.blueprints.insertMany([
       airshipPower: 41,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Living Root Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Eagle Spirit",
@@ -12801,6 +17226,11 @@ db.blueprints.insertMany([
       airshipPower: 41,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Webbed Wing Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Viper Spirit",
@@ -12815,6 +17245,11 @@ db.blueprints.insertMany([
       airshipPower: 41,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Rustwyrm Scale Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Cat Spirit",
@@ -12829,6 +17264,11 @@ db.blueprints.insertMany([
       airshipPower: 41,
       researchScrolls: 5,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Deep Pearl Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Bunny Spirit",
@@ -12844,6 +17284,11 @@ db.blueprints.insertMany([
       airshipPower: 50,
       antiqueTokens: 100,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Living Root Spent", shards: 10 },
+      { upgrade: "+10% Multicraft Chance", shards: 10 },
+      { upgrade: "Quality Chance x2", shards: 10 },
+    ],
   },
   {
     name: "Xolotl Spirit",
@@ -12858,6 +17303,11 @@ db.blueprints.insertMany([
       favor: 150,
       airshipPower: 67,
     },
+    ascensionUpgrades: [
+      { upgrade: "Quality Chance x2", shards: 20 },
+      { upgrade: "+10% Multicraft Chance", shards: 20 },
+      { upgrade: "Quality Chance x2", shards: 20 },
+    ],
   },
   {
     name: "Rhino Spirit",
@@ -12872,6 +17322,11 @@ db.blueprints.insertMany([
       airshipPower: 105,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Bronze Fang Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Owl Spirit",
@@ -12886,6 +17341,11 @@ db.blueprints.insertMany([
       airshipPower: 105,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Moon Crystal Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Armadillo Spirit",
@@ -12900,6 +17360,11 @@ db.blueprints.insertMany([
       airshipPower: 105,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 White Sand Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Lizard Spirit",
@@ -12914,6 +17379,11 @@ db.blueprints.insertMany([
       airshipPower: 105,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Evil Eye Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Horse Spirit",
@@ -12928,6 +17398,11 @@ db.blueprints.insertMany([
       airshipPower: 105,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Silk Scarab Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Hippo Spirit",
@@ -12942,6 +17417,11 @@ db.blueprints.insertMany([
       airshipPower: 105,
       researchScrolls: 20,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Star Metal Spent", shards: 30 },
+      { upgrade: "+10% Multicraft Chance", shards: 30 },
+      { upgrade: "Quality Chance x2", shards: 30 },
+    ],
   },
   {
     name: "Shark Spirit",
@@ -12956,6 +17436,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10% Craft Time Reduction", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Walrus Spirit",
@@ -12970,6 +17455,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Ancient Marble Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Lion Spirit",
@@ -12984,6 +17474,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10% Craft Time Reduction", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Bear Spirit",
@@ -12998,6 +17493,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Overgrown Vine Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Mammoth Spirit",
@@ -13012,6 +17512,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Chronos Crystal Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Dinosaur Spirit",
@@ -13026,6 +17531,11 @@ db.blueprints.insertMany([
       airshipPower: 127,
       researchScrolls: 50,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Star Metal Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Tiger Spirit",
@@ -13041,6 +17551,11 @@ db.blueprints.insertMany([
       airshipPower: 130,
       antiqueTokens: 200,
     },
+    ascensionUpgrades: [
+      { upgrade: "-10% Craft Time Reduction", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Quetzalcoatl Spirit",
@@ -13055,6 +17570,11 @@ db.blueprints.insertMany([
       favor: 2128,
       airshipPower: 166,
     },
+    ascensionUpgrades: [
+      { upgrade: "-4 Jewels Spent", shards: 60 },
+      { upgrade: "+10% Multicraft Chance", shards: 60 },
+      { upgrade: "Quality Chance x2", shards: 60 },
+    ],
   },
   {
     name: "Phoenix Spirit",
@@ -13069,6 +17589,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Magma Core Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Hydra Spirit",
@@ -13083,6 +17608,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Raw Obsidian Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Tarrasque Spirit",
@@ -13097,6 +17627,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Crush Claw Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Carbuncle Spirit",
@@ -13111,6 +17646,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Zirconia Eggshell Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Chimera Spirit",
@@ -13125,6 +17665,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Grim Talon Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Kraken Spirit",
@@ -13139,6 +17684,11 @@ db.blueprints.insertMany([
       airshipPower: 232,
       researchScrolls: 125,
     },
+    ascensionUpgrades: [
+      { upgrade: "-1 Deep Coral Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
   {
     name: "Christmas Spirit",
@@ -13154,5 +17704,10 @@ db.blueprints.insertMany([
       airshipPower: 237,
       antiqueTokens: 350,
     },
+    ascensionUpgrades: [
+      { upgrade: "-2 Precious Shell Spent", shards: 80 },
+      { upgrade: "+10% Multicraft Chance", shards: 80 },
+      { upgrade: "Quality Chance x2", shards: 80 },
+    ],
   },
 ]);

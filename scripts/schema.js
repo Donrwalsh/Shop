@@ -2,7 +2,7 @@ db.createCollection("blueprints", {
   validator: {
     $jsonSchema: {
       bsonType: "object",
-      required: ["name", "tier", "type"],
+      required: ["name", "tier", "type", "values", "ascensionUpgrades"],
       properties: {
         name: {
           bsonType: "string",
@@ -66,6 +66,7 @@ db.createCollection("blueprints", {
             "favor",
             "airshipPower",
           ],
+          description: "Blueprint values and costs (required)",
           properties: {
             gold: {
               bsonType: "int",
@@ -98,6 +99,24 @@ db.createCollection("blueprints", {
             researchScrolls: {
               bsonType: "int",
               description: "Blueprint cost in research scrolls (optional)",
+            },
+          },
+        },
+        ascensionUpgrades: {
+          bsonType: "array",
+          maxItems: 3,
+          minItems: 3,
+          description:
+            "Blueprint ascension upgrade details and shard costs (required)",
+          items: {
+            bsonType: "object",
+            properties: {
+              upgrade: {
+                type: "string",
+              },
+              shards: {
+                type: "int",
+              },
             },
           },
         },

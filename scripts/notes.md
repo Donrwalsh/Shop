@@ -1,4 +1,4 @@
-For context, I initially wanted to run mongoDB through docker, but the mac I'm using for this is not able to run docker because it's so old. That's why I went the local route for prototyping.
+For context, I initially wanted to run mongoDB through docker, but the mac I'm using for this is not able to run docker because it's so old. That's why I went the local route for prototyping. (Mac is also too old to use Compass, ffs)
 
 I had previously installed mongoDB on this mac, so I'm going to use it to test out these scripts that I'm creating.
 
