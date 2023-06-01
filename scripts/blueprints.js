@@ -24,6 +24,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Iron", amount: 5 }],
       workers: [{ worker: "Blacksmith", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Shiv", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Arming Sword", craftsNeeded: 18 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -51,6 +58,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.58",
       materials: [{ resource: "Iron", amount: 9 }],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "Blueprint: Wood Axe", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Gladius", craftsNeeded: 20 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -81,6 +95,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 2 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 6 },
+        { upgrade: "Blueprint: Cutlass", craftsNeeded: 16 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 28 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -112,6 +133,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 2 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 18 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -140,6 +168,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.70",
       materials: [{ resource: "Iron", amount: 17 }],
       workers: [{ worker: "Blacksmith", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 18 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 32 },
+        { upgrade: "-2 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -171,6 +206,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 2 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 7 },
+        { upgrade: "-4 Iron Spent", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Espada", craftsNeeded: 32 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -203,6 +245,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-8 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Katana", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -236,6 +285,13 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 1 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-2 Steel Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -269,6 +325,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 4 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-11 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Corrupted Element Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -303,6 +366,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 13 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Regal Blade", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -340,6 +410,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-6 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -374,6 +451,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 17 },
         { worker: "Master", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Celesteel Blade", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -411,6 +495,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -446,6 +537,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Mythril Edge", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -483,6 +581,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-11 Steel Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -518,6 +623,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-46 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-12 Steel Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -555,6 +667,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-44 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "-12 Steel Spent", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -590,6 +709,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Oversized Cleaver", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -628,6 +754,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -664,6 +797,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-83 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-19 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -702,6 +842,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Vorpal Sword", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -738,6 +885,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-2 Deep Coral Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -777,6 +931,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-92 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-22 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -815,6 +976,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 22 },
         { worker: "Jeweler", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-97 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Precious Shell Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -851,6 +1019,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Excalibur", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -890,6 +1065,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -928,6 +1110,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-21 Steel Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-4 Jewels Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -964,6 +1153,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 29 },
         { worker: "Master", workerLevel: 25 },
         { worker: "Jeweler", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Djinn Pyre", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -1003,6 +1199,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-78 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -1039,6 +1242,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Jeweler", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-81 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "-37 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -1078,6 +1288,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Jeweler", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-80 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "-18 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -1116,6 +1333,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 26 },
         { worker: "Master", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-23 Ironwood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-7 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -1152,6 +1376,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 32 },
         { worker: "Master", workerLevel: 28 },
         { worker: "Jeweler", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-28 Steel Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-6 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -1191,6 +1422,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Jeweler", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-6 Jewels Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-5 Essence Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -1220,6 +1458,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 1 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "-1 Elven Wood Spent", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Hatchet", craftsNeeded: 20 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -1250,6 +1495,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 2 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Iron Chopper", craftsNeeded: 20 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -1280,6 +1532,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Bardiche", craftsNeeded: 18 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 32 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -1308,6 +1567,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.50",
       materials: [{ resource: "Wood", amount: 21 }],
       workers: [{ worker: "Blacksmith", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-4 Wood Spent", craftsNeeded: 18 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 32 },
+        { upgrade: "-4 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -1338,6 +1604,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 4 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Tomahawk", craftsNeeded: 36 },
+        { upgrade: "-6 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -1369,6 +1642,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-7 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "-9 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -1401,6 +1681,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 4 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-9 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 36 },
+        { upgrade: "-7 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -1433,6 +1720,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 2 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Wood Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Battleaxe", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -1466,6 +1760,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 4 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "-3 Ironwood Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -1498,6 +1799,13 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-10 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-10 Iron Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -1532,6 +1840,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 14 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Dwarven Greataxe", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -1569,6 +1884,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 Webbed Wing Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -1605,6 +1927,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 17 },
         { worker: "Master", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Raider Axe", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -1639,6 +1968,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 White Sand Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -1675,6 +2011,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Executioner", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -1713,6 +2056,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-44 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-1 Bronze Fang Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -1749,6 +2099,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Eclipsis", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -1784,6 +2141,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -1822,6 +2186,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -1858,6 +2229,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Carpenter", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Manticore Slayer", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -1896,6 +2274,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Carpenter", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Ironwood Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -1932,6 +2317,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 26 },
         { worker: "Master", workerLevel: 22 },
         { worker: "Carpenter", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-64 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-19 Ironwood Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -1971,6 +2363,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 22 },
         { worker: "Carpenter", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-64 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-19 Ironwood Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -2007,6 +2406,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Carpenter", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Crescent of Conquest", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -2046,6 +2452,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Carpenter", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -2083,6 +2496,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Carpenter", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "-21 Ironwood Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -2122,6 +2542,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Carpenter", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-64 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-18 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -2158,6 +2585,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 29 },
         { worker: "Master", workerLevel: 25 },
         { worker: "Carpenter", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Edge Eternal", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -2197,6 +2631,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Carpenter", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-93 Iron Spent", craftsNeeded: 6 },
+        { upgrade: "-10 Steel Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-10 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -2234,6 +2675,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Carpenter", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-135 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "-21 Steel Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
       ],
     },
   },
@@ -2273,6 +2721,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Carpenter", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-96 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-21 Ironwood Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -2310,6 +2765,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Carpenter", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Wood Spent", craftsNeeded: 10 },
+        { upgrade: "-8 Jewels Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -2336,6 +2798,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "12.50",
       materials: [{ resource: "Iron", amount: 5 }],
       workers: [{ worker: "Blacksmith", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Swift Blade", craftsNeeded: 18 },
+        { upgrade: "-1 Iron Spent", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -2366,6 +2835,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 1 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-1 Elven Wood Spent", craftsNeeded: 16 },
+        { upgrade: "-2 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -2396,6 +2872,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 1 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "Blueprint: Stealth Knife", craftsNeeded: 6 },
+        { upgrade: "-1 Iron Pine Cone Spent", craftsNeeded: 16 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 28 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -2424,6 +2907,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.38",
       materials: [{ resource: "Iron", amount: 13 }],
       workers: [{ worker: "Blacksmith", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 16 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 28 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -2454,6 +2944,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 2 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Balisong", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -2484,6 +2981,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 4 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Ritual Dagger", craftsNeeded: 36 },
+        { upgrade: "-5 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -2515,6 +3019,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 4 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-7 Iron Spent", craftsNeeded: 36 },
+        { upgrade: "-1 Precious Gem Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -2548,6 +3059,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 10 },
         { worker: "Jeweler", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-9 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Kingsguard", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
   },
@@ -2583,6 +3101,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 11 },
         { worker: "Jeweler", workerLevel: 4 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-11 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Deep Pearl Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -2620,6 +3145,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 12 },
         { worker: "Jeweler", workerLevel: 6 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-13 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -2654,6 +3186,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 14 },
         { worker: "Jeweler", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-18 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Fishmonger", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -2691,6 +3230,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 15 },
         { worker: "Jeweler", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-20 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -2725,6 +3271,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 18 },
         { worker: "Jeweler", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Troll Tooth", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -2762,6 +3315,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 19 },
         { worker: "Herbalist", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 White Sand Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -2796,6 +3356,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-36 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Misericordia", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -2832,6 +3399,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-38 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-1 Ancient Marble Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -2866,6 +3440,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Jeweler", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-44 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Ceremonial Katar", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -2903,6 +3484,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 24 },
         { worker: "Jeweler", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -2937,6 +3525,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 24 },
         { worker: "Jeweler", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-1 Chronos Crystal Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -2974,6 +3569,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Heartseeker", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -3009,6 +3611,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 25 },
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Master", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-55 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-2 Moon Crystal Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -3047,6 +3656,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-55 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-16 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -3084,6 +3700,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 22 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-58 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Living Root Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -3120,6 +3743,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-91 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Sixth Sin", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -3155,6 +3785,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Master", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-18 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -3194,6 +3831,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-91 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-13 Jewels Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -3230,6 +3874,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Master", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-64 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-19 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -3269,6 +3920,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 16 },
+        { upgrade: "-64 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "-19 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -3305,6 +3963,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 25 },
         { worker: "Master", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-105 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Nocturne", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -3340,6 +4005,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 29 },
         { worker: "Jeweler", workerLevel: 25 },
         { worker: "Master", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-105 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-15 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -3379,6 +4051,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Master", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-109 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -3415,6 +4094,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 30 },
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Master", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-72 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-22 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -3453,6 +4139,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 28 },
         { worker: "Master", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-118 Iron Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-8 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -3480,6 +4173,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Wood", amount: 5 }],
       workers: [{ worker: "Carpenter", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Wooden Shield", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Spiked Cudgel", craftsNeeded: 18 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -3510,6 +4210,13 @@ db.blueprints.insertMany([
         { item: "Cudgel", quality: "Normal", amount: 1 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Warhammer", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -3541,6 +4248,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 1 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-2 Wood Spent", craftsNeeded: 20 },
+        { upgrade: "-1 Elven Wood Spent", craftsNeeded: 36 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -3571,6 +4285,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 2 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 6 },
+        { upgrade: "Blueprint: Morning Star", craftsNeeded: 16 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 28 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -3602,6 +4323,13 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 14 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 32 },
+        { upgrade: "-2 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -3633,6 +4361,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Flanged Mace", craftsNeeded: 32 },
+        { upgrade: "-4 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -3665,6 +4400,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 2 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-5 Wood Spent", craftsNeeded: 18 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 32 },
+        { upgrade: "-2 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -3699,6 +4441,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 9 },
         { worker: "Priestess", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-7 Wood Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Skull Crusher", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
   },
@@ -3735,6 +4484,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 11 },
         { worker: "Priestess", workerLevel: 4 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-11 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "-3 Ironwood Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -3768,6 +4524,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 13 },
         { worker: "Priestess", workerLevel: 8 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-15 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Evening Star", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -3806,6 +4569,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 15 },
         { worker: "Priestess", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-20 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-21 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -3842,6 +4612,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-25 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Powder Keg", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -3876,6 +4653,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 18 },
         { worker: "Priestess", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 Morning Star Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -3913,6 +4697,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 19 },
         { worker: "Priestess", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 24 },
+        { upgrade: "-26 Iron Spent", craftsNeeded: 44 },
+        { upgrade: "-1 Star Metal Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -3948,6 +4739,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-38 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Tenderizer", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -3986,6 +4784,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 22 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-41 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-11 Ironwood Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -4023,6 +4828,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 22 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-41 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-11 Ironwood Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -4058,6 +4870,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 22 },
         { worker: "Priestess", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-44 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Nautilus", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -4096,6 +4915,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-47 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-13 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -4132,6 +4958,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 24 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -4170,6 +5003,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Thorium Hammer", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -4205,6 +5045,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -4244,6 +5091,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-55 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Mundra's Remedy", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -4281,6 +5135,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Mjölnir", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -4317,6 +5178,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 27 },
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-18 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -4356,6 +5224,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-64 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-19 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -4394,6 +5269,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-64 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-19 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -4430,6 +5312,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 30 },
         { worker: "Priestess", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-73 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Crag Guardian", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -4469,6 +5358,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-70 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -4507,6 +5403,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 27 },
         { worker: "Priestess", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-1 Magma Core Spent", craftsNeeded: 26 },
+        { upgrade: "+10% Multicraft Chance", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -4543,6 +5446,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 32 },
         { worker: "Priestess", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-6 Ether Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-1 Outsider's Claw Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -4582,6 +5492,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-5 Ether Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-23 Ironwood Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -4608,6 +5525,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.43",
       materials: [{ resource: "Wood", amount: 9 }],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Hunting Spear", craftsNeeded: 20 },
+        { upgrade: "-2 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -4638,6 +5562,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 1 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Bladed Spear", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -4668,6 +5599,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 3 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Ranseur", craftsNeeded: 32 },
+        { upgrade: "-4 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -4699,6 +5637,13 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 26 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-5 Wood Spent", craftsNeeded: 32 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -4731,6 +5676,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Trishula", craftsNeeded: 36 },
+        { upgrade: "-7 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -4762,6 +5714,13 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 4 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Spetum", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -4794,6 +5753,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 6 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Precious Gem Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -4827,6 +5793,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 5 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 13 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-4 Ironwood Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -4862,6 +5835,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 14 },
         { worker: "Jeweler", workerLevel: 10 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Royal Halberd", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -4896,6 +5876,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 15 },
         { worker: "Jeweler", workerLevel: 11 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-3 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -4934,6 +5921,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 16 },
         { worker: "Jeweler", workerLevel: 12 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-25 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-7 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -4969,6 +5963,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 18 },
         { worker: "Jeweler", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Champion Lance", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -5006,6 +6007,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 19 },
         { worker: "Jeweler", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "-9 Ironwood Spent", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -5040,6 +6048,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 19 },
         { worker: "Jeweler", workerLevel: 15 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-13 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -5077,6 +6092,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Wyvern Glaive", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -5113,6 +6135,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "-1 Overgrown Vine Spent", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -5148,6 +6177,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 22 },
         { worker: "Jeweler", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Stellaria", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -5186,6 +6222,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -5221,6 +6264,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -5259,6 +6309,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Titania's Gift", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -5295,6 +6352,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 25 },
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Master", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-16 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -5334,6 +6398,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Ironwood Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -5370,6 +6441,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 27 },
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Master", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Heaven's Wrath", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -5409,6 +6487,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -5447,6 +6532,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-71 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 28 },
+        { upgrade: "-31 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -5483,6 +6575,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 29 },
         { worker: "Jeweler", workerLevel: 25 },
         { worker: "Master", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Blackened Bardiche", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -5522,6 +6621,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 25 },
         { worker: "Master", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-6 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -5560,6 +6666,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Master", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-23 Fabric Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-7 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -5596,6 +6709,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 30 },
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Master", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-25 Ironwood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-25 Ironwood Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -5634,6 +6754,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 28 },
         { worker: "Master", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Wood Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-8 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -5670,6 +6797,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 32 },
         { worker: "Jeweler", workerLevel: 28 },
         { worker: "Master", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-8 Jewels Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-86 Wood Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -5709,6 +6843,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 28 },
         { worker: "Master", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-84 Wood Spent", craftsNeeded: 10 },
+        { upgrade: "-8 Jewels Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -5738,6 +6879,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 1 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "-1 Elven Wood Spent", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Elmwood Bow", craftsNeeded: 20 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -5768,6 +6916,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 1 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-2 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -5795,6 +6950,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.40",
       materials: [{ resource: "Wood", amount: 12 }],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Reflex Bow", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -5826,6 +6988,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 3 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Compound Bow", craftsNeeded: 32 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -5857,6 +7026,13 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 13 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-5 Wood Spent", craftsNeeded: 32 },
+        { upgrade: "-5 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -5888,6 +7064,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 2 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Deadeye", craftsNeeded: 36 },
+        { upgrade: "-6 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -5920,6 +7103,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 3 },
       ],
       workers: [{ worker: "Moon Dragon", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Mundra's Tabard", craftsNeeded: 36 },
+        { upgrade: "-8 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -5952,6 +7142,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 3 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Raptoria", craftsNeeded: 36 },
+        { upgrade: "-10 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -5985,6 +7182,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 4 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 22 },
+        { upgrade: "-14 Wood Spent", craftsNeeded: 40 },
+        { upgrade: "-3 Ironwood Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -6020,6 +7224,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 14 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: L'Arabesque", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -6054,6 +7265,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 15 },
         { worker: "Master", workerLevel: 11 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-3 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -6091,6 +7309,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Yumi", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -6127,6 +7352,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-9 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -6162,6 +7394,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Bramblebane", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -6200,6 +7439,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-46 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-12 Ironwood Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -6235,6 +7481,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Gemini Strike", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -6273,6 +7526,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -6309,6 +7569,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Stormrend", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -6348,6 +7615,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Ironwood Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -6385,6 +7659,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Olympus", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -6421,6 +7702,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-21 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -6460,6 +7748,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-21 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -6497,6 +7792,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 28 },
         { worker: "Master", workerLevel: 24 },
         { worker: "Carpenter", workerLevel: 21 },
+      ],
+      upgrades: [
+        { upgrade: "-67 Iron Spent", craftsNeeded: 6 },
+        { upgrade: "-29 Steel Spent", craftsNeeded: 14 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -6536,6 +7838,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 24 },
         { worker: "Blacksmith", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-74 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-22 Ironwood Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -6572,6 +7881,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Grand Monarque", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -6611,6 +7927,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-22 Steel Spent", craftsNeeded: 14 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 26 },
+        { upgrade: "-73 Iron Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -6649,6 +7972,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 27 },
         { worker: "Blacksmith", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-36 Steel Spent", craftsNeeded: 6 },
+        { upgrade: "-76 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -6686,6 +8016,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-6 Jewels Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-88 Wood Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -6722,6 +8059,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 32 },
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-6 Jewels Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "Component Quality Reduced", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -6761,6 +8105,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 30 },
         { worker: "Blacksmith", workerLevel: 27 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-85 Wood Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-6 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -6788,6 +8139,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.33",
       materials: [{ resource: "Wood", amount: 5 }],
       workers: [{ worker: "Carpenter", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Training Bow", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Sturdy Cane", craftsNeeded: 18 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -6815,6 +8173,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.71",
       materials: [{ resource: "Wood", amount: 9 }],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "Blueprint: Oak Staff", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Javelin", craftsNeeded: 20 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -6845,6 +8210,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 2 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Bo Staff", craftsNeeded: 28 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -6876,6 +8248,13 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 11 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 32 },
+        { upgrade: "-4 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -6907,6 +8286,13 @@ db.blueprints.insertMany([
         { component: "Golden Artifact", amount: 1 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 7 },
+        { upgrade: "-4 Wood Spent", craftsNeeded: 18 },
+        { upgrade: "-2 Herbs Spent", craftsNeeded: 32 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -6939,6 +8325,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 2 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Jade Scepter", craftsNeeded: 32 },
+        { upgrade: "-5 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -6970,6 +8363,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 2 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 36 },
+        { upgrade: "-7 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -7004,6 +8404,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 10 },
         { worker: "Wizard", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Wood Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Wizard Staff", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -7037,6 +8444,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 11 },
         { worker: "Wizard", workerLevel: 4 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-2 Ironwood Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -7074,6 +8488,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 11 },
         { worker: "Wizard", workerLevel: 4 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Elven Wood Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -7108,6 +8529,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 14 },
         { worker: "Wizard", workerLevel: 10 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Celestial Staff", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -7145,6 +8573,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 15 },
         { worker: "Wizard", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 12 },
+        { upgrade: "-23 Wood Spent", craftsNeeded: 30 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 54 },
+        { upgrade: "-23 Wood Spent", craftsNeeded: 85 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 135 },
+      ],
     },
   },
   {
@@ -7179,6 +8614,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Imperial Aquila", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -7217,6 +8659,13 @@ db.blueprints.insertMany([
         { worker: "Moon Dragon", workerLevel: 19 },
         { worker: "Wizard", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 12 },
+        { upgrade: "-34 Wood Spent", craftsNeeded: 30 },
+        { upgrade: "Blueprint: Mundra's Masher", craftsNeeded: 54 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 85 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 135 },
+      ],
     },
   },
   {
@@ -7253,6 +8702,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Transcendence", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -7288,6 +8744,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-11 Ironwood Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -7326,6 +8789,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-10 Ironwood Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -7362,6 +8832,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 22 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Seraphim", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -7397,6 +8874,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -7435,6 +8919,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -7471,6 +8962,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Penumbra", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -7510,6 +9008,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Ironwood Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -7546,6 +9051,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 27 },
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Scepter of Xolimnul", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -7585,6 +9097,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-60 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-18 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -7623,6 +9142,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 16 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "-20 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -7660,6 +9186,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Cloud Nine", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -7696,6 +9229,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 29 },
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "-17 Ironwood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -7735,6 +9275,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-76 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-32 Ironwood Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -7773,6 +9320,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 26 },
         { worker: "Priestess", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-16 Steel Spent", craftsNeeded: 14 },
+        { upgrade: "-100 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -7809,6 +9363,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 34 },
         { worker: "Wizard", workerLevel: 30 },
         { worker: "Priestess", workerLevel: 27 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-29 Ironwood Spent", craftsNeeded: 10 },
+        { upgrade: "-8 Ether Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -7847,6 +9408,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 30 },
         { worker: "Priestess", workerLevel: 27 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-27 Ironwood Spent", craftsNeeded: 10 },
+        { upgrade: "-6 Ether Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -7874,6 +9442,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.81",
       materials: [{ resource: "Wood", amount: 9 }],
       workers: [{ worker: "Scholar", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-2 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -7904,6 +9479,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 2 },
       ],
       workers: [{ worker: "Scholar", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 9 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 22 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -7934,6 +9516,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 4 },
       ],
       workers: [{ worker: "Scholar", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Steel Rod", craftsNeeded: 32 },
+        { upgrade: "-5 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -7967,6 +9556,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 4 },
       ],
       workers: [{ worker: "Scholar", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Star Rod", craftsNeeded: 36 },
+        { upgrade: "-7 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -8002,6 +9598,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Scholar", workerLevel: 11 },
         { worker: "Wizard", workerLevel: 4 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Sylvanel", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -8040,6 +9643,13 @@ db.blueprints.insertMany([
         { worker: "Scholar", workerLevel: 12 },
         { worker: "Wizard", workerLevel: 6 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Mintyleaf Herb Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -8077,6 +9687,13 @@ db.blueprints.insertMany([
         { worker: "Scholar", workerLevel: 14 },
         { worker: "Herbalist", workerLevel: 10 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Ruby Wand", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -8112,6 +9729,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Scholar", workerLevel: 15 },
         { worker: "Wizard", workerLevel: 11 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 Baton Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -8149,6 +9773,13 @@ db.blueprints.insertMany([
         { worker: "Scholar", workerLevel: 17 },
         { worker: "Wizard", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Wand of Midas", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -8184,6 +9815,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Scholar", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-8 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -8222,6 +9860,13 @@ db.blueprints.insertMany([
         { worker: "Scholar", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Evergreen Wand", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -8259,6 +9904,13 @@ db.blueprints.insertMany([
         { worker: "Scholar", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-40% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Astral Conductor", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -8295,6 +9947,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Scholar", workerLevel: 24 },
         { worker: "Wizard", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-40% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -8334,6 +9993,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Draconic Eyestalk", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -8371,6 +10037,13 @@ db.blueprints.insertMany([
         { worker: "Scholar", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Ironwood Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -8410,6 +10083,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Herald of the End", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -8446,6 +10126,13 @@ db.blueprints.insertMany([
         { worker: "Scholar", workerLevel: 27 },
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -8485,6 +10172,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-64 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-19 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -8522,6 +10216,13 @@ db.blueprints.insertMany([
         { worker: "Scholar", workerLevel: 29 },
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Pyroquartz Rod", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -8561,6 +10262,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-70 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-10 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -8598,6 +10306,13 @@ db.blueprints.insertMany([
         { worker: "Scholar", workerLevel: 30 },
         { worker: "Wizard", workerLevel: 26 },
         { worker: "Cook", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-73 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "-33 Steel Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -8637,6 +10352,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 30 },
         { worker: "Priestess", workerLevel: 27 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-89 Wood Spent", craftsNeeded: 10 },
+        { upgrade: "-22 Ironwood Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -8664,6 +10386,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.70",
       materials: [{ resource: "Wood", amount: 8 }],
       workers: [{ worker: "Engineer", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-2 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -8691,6 +10420,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "10.77",
       materials: [{ resource: "Wood", amount: 13 }],
       workers: [{ worker: "Engineer", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -8721,6 +10457,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 3 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Heavy Crossbow", craftsNeeded: 32 },
+        { upgrade: "-4 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -8752,6 +10495,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 3 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Hunter's Crossbow", craftsNeeded: 36 },
+        { upgrade: "-7 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -8784,6 +10534,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 5 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 36 },
+        { upgrade: "-9 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -8817,6 +10574,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 4 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-11 Wood Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Scorpio", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -8852,6 +10616,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Engineer", workerLevel: 14 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-22 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Double Crossbow", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -8889,6 +10660,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 16 },
         { worker: "Master", workerLevel: 12 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "-1 White Sand Spent", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -8924,6 +10702,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Engineer", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Chu-Ko-Nu", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -8962,6 +10747,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-44 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Triple Crossbow", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -8999,6 +10791,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-47 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-11 Ironwood Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -9035,6 +10834,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Engineer", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-40% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-57 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Super Repeater", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -9074,6 +10880,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-64 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Leviathan", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -9111,6 +10924,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-64 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-16 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -9150,6 +10970,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-74 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Godslayer Arbalest", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -9186,6 +11013,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-74 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -9225,6 +11059,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-117 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 28 },
+        { upgrade: "-31 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -9262,6 +11103,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 29 },
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-85 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Primarosa", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -9301,6 +11149,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-84 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-28 Ironwood Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -9339,6 +11194,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-28 Ironwood Spent", craftsNeeded: 10 },
+        { upgrade: "-96 Wood Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -9369,6 +11231,13 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 5 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-2 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -9399,6 +11268,13 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 7 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -9430,6 +11306,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 3 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Long Rifle", craftsNeeded: 32 },
+        { upgrade: "-5 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -9462,6 +11345,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 3 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Blunderbuss", craftsNeeded: 36 },
+        { upgrade: "-7 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -9494,6 +11384,13 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-9 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "-9 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -9527,6 +11424,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 8 },
       ],
       workers: [{ worker: "Engineer", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-16 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Boomstick", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -9562,6 +11466,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Engineer", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-25 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Kenora Mk. IV", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -9599,6 +11510,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 16 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-25 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 Living Root Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -9634,6 +11552,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Engineer", workerLevel: 16 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-25 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "-7 Oils Spent", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -9672,6 +11597,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 18 },
         { worker: "Jeweler", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Prototype Gatling", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -9707,6 +11639,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Engineer", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-2 Handgun Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Dragonator", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -9745,6 +11684,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-40% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-60 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: The Messenger", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -9781,6 +11727,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Engineer", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-40% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-60 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -9820,6 +11773,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-67 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Omega Disintegrator", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -9856,6 +11816,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 26 },
         { worker: "Master", workerLevel: 22 },
         { worker: "Blacksmith", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-71 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-19 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -9895,6 +11862,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-74 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Blackbeard's Cannon", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -9931,6 +11905,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-74 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -9970,6 +11951,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-74 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -10007,6 +11995,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-89 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Vainglory", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -10046,6 +12041,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-108 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "-23 Ironwood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -10084,6 +12086,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 27 },
         { worker: "Blacksmith", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-139 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "-27 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -10120,6 +12129,13 @@ db.blueprints.insertMany([
         { worker: "Engineer", workerLevel: 32 },
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-96 Iron Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-1 Outsider's Claw Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -10159,6 +12175,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-95 Iron Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-35 Steel Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -10186,6 +12209,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.58",
       materials: [{ resource: "Herbs", amount: 9 }],
       workers: [{ worker: "Herbalist", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Warm Tea", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Sweet Grass", craftsNeeded: 20 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -10216,6 +12246,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 2 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Moon Powder", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -10247,6 +12284,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 2 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Healing Salve", craftsNeeded: 32 },
+        { upgrade: "-4 Herbs Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -10278,6 +12322,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 1 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-5 Herbs Spent", craftsNeeded: 32 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -10308,6 +12359,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 2 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Silver Thistle", craftsNeeded: 36 },
+        { upgrade: "-7 Herbs Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -10340,6 +12398,13 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 2 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 36 },
+        { upgrade: "-8 Herbs Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -10375,6 +12440,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 11 },
         { worker: "Priestess", workerLevel: 4 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Bloodvine", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -10407,6 +12479,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 4 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-14 Herbs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -10441,6 +12520,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 2 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 13 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-11 Iron Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -10474,6 +12560,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 14 },
         { worker: "Priestess", workerLevel: 10 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Mandragoroot", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -10511,6 +12604,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 15 },
         { worker: "Priestess", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 12 },
+        { upgrade: "-23 Herbs Spent", craftsNeeded: 30 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 54 },
+        { upgrade: "-6 Oils Spent", craftsNeeded: 85 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 135 },
+      ],
     },
   },
   {
@@ -10546,6 +12646,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 15 },
         { worker: "Priestess", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 24 },
+        { upgrade: "-22 Herbs Spent", craftsNeeded: 44 },
+        { upgrade: "-5 Oils Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -10580,6 +12687,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Wolf's Bane", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -10617,6 +12731,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 19 },
         { worker: "Priestess", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "-2 Moon Crystal Spent", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -10652,6 +12773,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Yggdrasil Branch", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -10689,6 +12817,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-11 Oils Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -10724,6 +12859,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 22 },
         { worker: "Priestess", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Wyrmblood Ointment", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -10762,6 +12904,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Oils Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -10797,6 +12946,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 24 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Oils Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -10834,6 +12990,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Florae Daemonica", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -10873,6 +13036,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 22 },
         { worker: "Wizard", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-58 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-19 Ironwood Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -10910,6 +13080,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Philosopher's Stone", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -10946,6 +13123,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 27 },
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Oils Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -10985,6 +13169,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Oils Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -11023,6 +13214,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-26 Oils Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -11059,6 +13257,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 29 },
         { worker: "Priestess", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Voidbloom Roots", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -11098,6 +13303,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-76 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-1 Spooky Ectoplasm Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -11134,6 +13346,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 29 },
         { worker: "Priestess", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-17 Oils Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -11173,6 +13392,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 26 },
         { worker: "Wizard", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-1 Raw Obsidian Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-81 Herbs Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -11209,6 +13435,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 32 },
         { worker: "Priestess", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-28 Oils Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-10 Ether Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -11248,6 +13481,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-25 Oils Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-1 Precious Shell Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -11274,6 +13514,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.10",
       materials: [{ resource: "Herbs", amount: 12 }],
       workers: [{ worker: "Herbalist", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Healing Potion", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -11304,6 +13551,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 2 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 9 },
+        { upgrade: "Blueprint: Magic Potion", craftsNeeded: 22 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -11335,6 +13589,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 1 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: XL Healing Potion", craftsNeeded: 36 },
+        { upgrade: "-6 Herbs Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -11366,6 +13627,13 @@ db.blueprints.insertMany([
         { item: "Healing Potion", quality: "Normal", amount: 1 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-7 Herbs Spent", craftsNeeded: 36 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -11396,6 +13664,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 3 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: XL Magic Potion", craftsNeeded: 36 },
+        { upgrade: "-10 Herbs Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -11428,6 +13703,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 3 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 9 },
+        { upgrade: "-11 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "-11 Herbs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -11460,6 +13742,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 2 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 13 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Phoenix Tonic", craftsNeeded: 40 },
+        { upgrade: "-17 Herbs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -11492,6 +13781,13 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 5 },
       ],
       workers: [{ worker: "Herbalist", workerLevel: 14 }],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 22 },
+        { upgrade: "-20 Herbs Spent", craftsNeeded: 40 },
+        { upgrade: "-5 Oils Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -11528,6 +13824,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 15 },
         { worker: "Priestess", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 12 },
+        { upgrade: "-23 Herbs Spent", craftsNeeded: 30 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 54 },
+        { upgrade: "-6 Oils Spent", craftsNeeded: 85 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 135 },
+      ],
     },
   },
   {
@@ -11562,6 +13865,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 15 },
         { worker: "Priestess", workerLevel: 11 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Potion of Renewal", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -11599,6 +13909,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 16 },
         { worker: "Priestess", workerLevel: 12 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-25 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 Warm Tea Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -11633,6 +13950,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Purple Bomb", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -11666,6 +13990,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 18 },
         { worker: "Priestess", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -11702,6 +14033,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 19 },
         { worker: "Priestess", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 Moon Crystal Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -11737,6 +14075,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Soulfire Extract", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -11775,6 +14120,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-43 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-11 Oils Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -11809,6 +14161,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-11 Oils Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -11846,6 +14205,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 22 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-46 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-1 Star Metal Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -11881,6 +14247,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 22 },
         { worker: "Priestess", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Gaia Tonic", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -11919,6 +14292,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Oils Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -11954,6 +14334,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Herbalist", workerLevel: 24 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -11991,6 +14378,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Distilled Nebula", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -12030,6 +14424,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-16 Oils Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -12067,6 +14468,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Oils Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -12103,6 +14511,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 27 },
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Ambrosia", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -12142,6 +14557,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Oils Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -12180,6 +14602,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-21 Oils Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-1 Overgrown Vine Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -12216,6 +14645,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 29 },
         { worker: "Priestess", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Conqueror's Blood", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -12255,6 +14691,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Mundra's Aegis", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -12291,6 +14734,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 30 },
         { worker: "Priestess", workerLevel: 26 },
         { worker: "Wizard", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-101 Herbs Spent", craftsNeeded: 6 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 14 },
+        { upgrade: "-18 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -12330,6 +14780,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 26 },
         { worker: "Sun Dragon", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-81 Herbs Spent", craftsNeeded: 6 },
+        { upgrade: "-18 Oils Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-7 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -12368,6 +14825,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 27 },
         { worker: "Cook", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-84 Herbs Spent", craftsNeeded: 6 },
+        { upgrade: "-84 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-10 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -12404,6 +14868,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 32 },
         { worker: "Priestess", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Herbs Spent", craftsNeeded: 10 },
+        { upgrade: "-13 Ether Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -12443,6 +14914,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-85 Herbs Spent", craftsNeeded: 4 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-13 Ether Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -12470,6 +14948,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.07",
       materials: [{ resource: "Herbs", amount: 9 }],
       workers: [{ worker: "Wizard", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Scroll of Armor", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -12497,6 +14982,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.40",
       materials: [{ resource: "Herbs", amount: 12 }],
       workers: [{ worker: "Wizard", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-2 Herbs Spent", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -12527,6 +15019,13 @@ db.blueprints.insertMany([
         { item: "Breastplate", quality: "Normal", amount: 1 },
       ],
       workers: [{ worker: "Wizard", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 9 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Scroll of Storms", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -12558,6 +15057,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 1 },
       ],
       workers: [{ worker: "Wizard", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Song of Valor", craftsNeeded: 32 },
+        { upgrade: "-5 Herbs Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -12590,6 +15096,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 2 },
       ],
       workers: [{ worker: "Wizard", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Monster Manual", craftsNeeded: 36 },
+        { upgrade: "-8 Herbs Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -12623,6 +15136,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 5 },
       ],
       workers: [{ worker: "Wizard", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-10 Herbs Spent", craftsNeeded: 36 },
+        { upgrade: "-5 Leather Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -12659,6 +15179,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 11 },
         { worker: "Herbalist", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Tome of Secrets", craftsNeeded: 40 },
+        { upgrade: "-12 Herbs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -12692,6 +15219,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 12 },
         { worker: "Herbalist", workerLevel: 6 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 22 },
+        { upgrade: "-14 Herbs Spent", craftsNeeded: 40 },
+        { upgrade: "-7 Leather Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -12729,6 +15263,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 12 },
         { worker: "Herbalist", workerLevel: 6 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Living Root Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -12764,6 +15305,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 14 },
         { worker: "Herbalist", workerLevel: 10 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Bagua Board", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -12802,6 +15350,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 15 },
         { worker: "Herbalist", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-11 Leather Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -12838,6 +15393,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 17 },
         { worker: "Herbalist", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Tarot Deck", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -12873,6 +15435,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 18 },
         { worker: "Herbalist", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-16 Leather Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -12911,6 +15480,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 18 },
         { worker: "Herbalist", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-16 Leather Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -12946,6 +15522,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Herbalist", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Grimoire Aeternum", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -12984,6 +15567,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Herbalist", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-43 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-11 Oils Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -13019,6 +15609,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 22 },
         { worker: "Herbalist", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Ancestral Atlas", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -13057,6 +15654,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Herbalist", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Oils Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -13092,6 +15696,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 24 },
         { worker: "Herbalist", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Oils Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -13129,6 +15740,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Celestial Choir", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -13168,6 +15786,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-16 Oils Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -13205,6 +15830,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Spooky Ectoplasm Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -13244,6 +15876,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Oils Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -13281,6 +15920,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: The Bound Beast", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -13317,6 +15963,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 27 },
         { worker: "Herbalist", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 16 },
+        { upgrade: "-68 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "-20 Oils Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -13356,6 +16009,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-60 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-18 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -13394,6 +16054,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-1 Precious Shell Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -13431,6 +16098,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 24 },
         { worker: "Priestess", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-74 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "-22 Oils Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -13467,6 +16141,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 30 },
         { worker: "Herbalist", workerLevel: 26 },
         { worker: "Priestess", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-121 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Pandora's Box", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -13506,6 +16187,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 26 },
         { worker: "Priestess", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-73 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-22 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -13543,6 +16231,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 31 },
         { worker: "Herbalist", workerLevel: 27 },
         { worker: "Priestess", workerLevel: 24 },
+      ],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-84 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 26 },
+        { upgrade: "-10 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -13582,6 +16277,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 27 },
         { worker: "Priestess", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-114 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-30 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -13618,6 +16320,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 31 },
         { worker: "Herbalist", workerLevel: 27 },
         { worker: "Priestess", workerLevel: 24 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-26 Oils Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-1 Luxurious Signet Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -13656,6 +16365,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 30 },
         { worker: "Priestess", workerLevel: 27 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-134 Herbs Spent", craftsNeeded: 10 },
+        { upgrade: "-11 Ether Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -13693,6 +16409,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 30 },
         { worker: "Priestess", workerLevel: 27 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-132 Herbs Spent", craftsNeeded: 10 },
+        { upgrade: "-10 Ether Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -13720,6 +16443,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.33",
       materials: [{ resource: "Iron", amount: 5 }],
       workers: [{ worker: "Blacksmith", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Sturdy Cap", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Iron Mail", craftsNeeded: 18 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -13750,6 +16480,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 1 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "Blueprint: Scale Armor", craftsNeeded: 8 },
+        { upgrade: "-1 Iron Pine Cone Spent", craftsNeeded: 20 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -13780,6 +16517,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 4 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Hauberk", craftsNeeded: 32 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -13811,6 +16555,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 2 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Knight Breastplate", craftsNeeded: 36 },
+        { upgrade: "-6 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -13842,6 +16593,13 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Paladin Plate", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -13873,6 +16631,13 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-2 Steel Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -13909,6 +16674,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 13 },
         { worker: "Master", workerLevel: 8 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-9 Leather Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -13944,6 +16716,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 14 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Samurai Do", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -13978,6 +16757,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 14 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Living Root Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -14015,6 +16801,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-6 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -14050,6 +16843,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: General Plate", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -14087,6 +16887,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-17 Leather Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -14122,6 +16929,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 Silk Scarab Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -14160,6 +16974,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 20 },
         { worker: "Master", workerLevel: 16 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-37 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-18 Leather Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -14194,6 +17015,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Berserker Armor", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -14232,6 +17060,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-11 Steel Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -14269,6 +17104,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-26 Leather Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -14305,6 +17147,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Juggernaut Fortress", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -14340,6 +17189,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -14378,6 +17234,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -14414,6 +17277,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Tailor", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Celesteel Plate", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -14452,6 +17322,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Tailor", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -14488,6 +17365,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Tailor", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -14527,6 +17411,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Tailor", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -14563,6 +17454,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Tailor", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Vermilion Guard Plate", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -14602,6 +17500,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Tailor", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -14640,6 +17545,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Tailor", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-40% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -14676,6 +17588,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 29 },
         { worker: "Master", workerLevel: 25 },
         { worker: "Tailor", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Balefire Armor", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -14715,6 +17634,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-76 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-22 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -14752,6 +17678,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Tailor", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-18 Steel Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-18 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -14791,6 +17724,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Tailor", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-25 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -14827,6 +17767,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 34 },
         { worker: "Master", workerLevel: 30 },
         { worker: "Tailor", workerLevel: 27 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-89 Iron Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-14 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -14865,6 +17812,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 30 },
         { worker: "Tailor", workerLevel: 27 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Iron Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-13 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -14891,6 +17845,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.33",
       materials: [{ resource: "Leather", amount: 5 }],
       workers: [{ worker: "Tailor", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Gambeson", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Leather Cap", craftsNeeded: 18 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -14918,6 +17879,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.36",
       materials: [{ resource: "Leather", amount: 9 }],
       workers: [{ worker: "Tailor", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "Blueprint: Doublet", craftsNeeded: 8 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -14948,6 +17916,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 3 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Studded Armor", craftsNeeded: 32 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -14979,6 +17954,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Hide Armor", craftsNeeded: 32 },
+        { upgrade: "-5 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -15012,6 +17994,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 4 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-7 Leather Spent", craftsNeeded: 36 },
+        { upgrade: "-1 Silver Dust Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -15044,6 +18033,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 4 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Savage Garb", craftsNeeded: 36 },
+        { upgrade: "-10 Leather Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -15077,6 +18073,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 2 },
       ],
       workers: [{ worker: "Moon Dragon", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 9 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Mundra's Scepter", craftsNeeded: 40 },
+        { upgrade: "-12 Leather Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -15109,6 +18112,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 8 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 22 },
+        { upgrade: "-1 Webbed Wing Spent", craftsNeeded: 40 },
+        { upgrade: "-12 Leather Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -15145,6 +18155,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 14 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Ninja Garb", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -15180,6 +18197,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-11 Herbs Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -15218,6 +18242,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 15 },
         { worker: "Blacksmith", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-11 Herbs Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -15252,6 +18283,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Windrunner Armor", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -15290,6 +18328,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 12 },
+        { upgrade: "-34 Leather Spent", craftsNeeded: 30 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 54 },
+        { upgrade: "-9 Fabric Spent", craftsNeeded: 85 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 135 },
+      ],
     },
   },
   {
@@ -15325,6 +18370,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Drakeskin Armor", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -15362,6 +18414,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-43 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "-11 Fabric Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -15397,6 +18456,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Corsair Mantle", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -15435,6 +18501,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -15471,6 +18544,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Everdusk Lord Attire", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -15510,6 +18590,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Fabric Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -15548,6 +18635,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 22 },
         { worker: "Blacksmith", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-64 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-19 Fabric Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -15585,6 +18679,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Dawn Thief Uniform", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -15621,6 +18722,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -15660,6 +18768,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Carpenter", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-18 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -15698,6 +18813,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-21 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -15735,6 +18857,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "Component Quality Reduced", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Wildhunt Leathers", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -15771,6 +18900,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-31 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -15810,6 +18946,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-77 Leather Spent", craftsNeeded: 6 },
+        { upgrade: "-23 Fabric Spent", craftsNeeded: 14 },
+        { upgrade: "-6 Ether Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -15848,6 +18991,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-37 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -15885,6 +19035,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-131 Leather Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-12 Ether Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -15912,6 +19069,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
       workers: [{ worker: "Tailor", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Black Robe", craftsNeeded: 4 },
+        { upgrade: "Blueprint: Leather Armor", craftsNeeded: 10 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 18 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -15942,6 +19106,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 1 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Druid's Robe", craftsNeeded: 20 },
+        { upgrade: "-2 Leather Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -15973,6 +19144,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 3 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Disciple's Robe", craftsNeeded: 32 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -16004,6 +19182,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Scholar's Tunic", craftsNeeded: 32 },
+        { upgrade: "-5 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -16038,6 +19223,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 10 },
         { worker: "Wizard", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Witch's Outfit", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
   },
@@ -16074,6 +19266,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 11 },
         { worker: "Wizard", workerLevel: 4 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -16108,6 +19307,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 12 },
         { worker: "Wizard", workerLevel: 6 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-3 Fabric Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -16145,6 +19351,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 14 },
         { worker: "Wizard", workerLevel: 10 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Midnight Apparel", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -16178,6 +19391,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 15 },
         { worker: "Wizard", workerLevel: 11 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-3 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -16216,6 +19436,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 16 },
         { worker: "Wizard", workerLevel: 12 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-25 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-7 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -16250,6 +19477,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 17 },
         { worker: "Wizard", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Shaman Vestment", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -16287,6 +19521,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "Component Quality Reduced", craftsNeeded: 10 },
+        { upgrade: "-31 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -16322,6 +19563,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Astravestimenta", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -16359,6 +19607,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 22 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-46 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-19 Fabric Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -16395,6 +19650,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-43 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-11 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -16430,6 +19692,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 22 },
         { worker: "Wizard", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Archmage Raiments", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -16468,6 +19737,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -16504,6 +19780,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 24 },
         { worker: "Wizard", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -16542,6 +19825,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Djinn Robes", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -16579,6 +19869,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Fabric Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -16615,6 +19912,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 27 },
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Exarch Robes", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -16654,6 +19958,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-85 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "-25 Fabric Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -16692,6 +20003,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-89 Leather Spent", craftsNeeded: 6 },
+        { upgrade: "-26 Fabric Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -16728,6 +20046,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 30 },
         { worker: "Wizard", workerLevel: 26 },
         { worker: "Priestess", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-18 Fabric Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Voidminster Habit", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -16767,6 +20092,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 26 },
         { worker: "Priestess", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-59 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-23 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -16804,6 +20136,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 26 },
         { worker: "Priestess", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-25 Fabric Spent", craftsNeeded: 14 },
+        { upgrade: "-81 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -16840,6 +20179,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 31 },
         { worker: "Wizard", workerLevel: 27 },
         { worker: "Priestess", workerLevel: 24 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-27 Fabric Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-1 Monster Manual Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -16879,6 +20225,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 27 },
         { worker: "Priestess", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-27 Fabric Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -16916,6 +20269,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 30 },
         { worker: "Priestess", workerLevel: 27 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-8 Ether Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-89 Leather Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -16942,6 +20302,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.33",
       materials: [{ resource: "Iron", amount: 5 }],
       workers: [{ worker: "Blacksmith", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Warrior Helmet", craftsNeeded: 18 },
+        { upgrade: "-1 Iron Spent", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -16972,6 +20339,13 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 6 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Horned Helm", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -17002,6 +20376,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Raider Helm", craftsNeeded: 32 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -17032,6 +20413,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Knight Heaume", craftsNeeded: 32 },
+        { upgrade: "-5 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -17067,6 +20455,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 10 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Paladin Helm", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -17100,6 +20495,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 11 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-6 Iron Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -17135,6 +20537,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 11 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -17172,6 +20581,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 12 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-18 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-5 Ironwood Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -17206,6 +20622,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 14 },
         { worker: "Priestess", workerLevel: 10 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Samurai Kabuto", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -17243,6 +20666,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 15 },
         { worker: "Priestess", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-6 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -17278,6 +20708,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 16 },
         { worker: "Tailor", workerLevel: 12 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 12 },
+        { upgrade: "-25 Iron Spent", craftsNeeded: 30 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 54 },
+        { upgrade: "-10 Steel Spent", craftsNeeded: 85 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
   },
@@ -17315,6 +20752,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 16 },
         { worker: "Priestess", workerLevel: 12 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 12 },
+        { upgrade: "-25 Iron Spent", craftsNeeded: 30 },
+        { upgrade: "-6 Steel Spent", craftsNeeded: 54 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 85 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 135 },
+      ],
     },
   },
   {
@@ -17349,6 +20793,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: General Heaume", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -17386,6 +20837,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -17420,6 +20878,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "-2 White Sand Spent", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -17456,6 +20921,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Berserker Helmet", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -17491,6 +20963,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-11 Steel Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -17529,6 +21008,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-46 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-12 Steel Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -17564,6 +21050,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Juggernaut Furnace", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -17602,6 +21095,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -17638,6 +21138,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Celesteel Heaume", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -17677,6 +21184,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -17714,6 +21228,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -17750,6 +21271,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Vermilion Guard Helm", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -17789,6 +21317,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -17827,6 +21362,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-106 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-21 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -17863,6 +21405,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 29 },
         { worker: "Master", workerLevel: 25 },
         { worker: "Jeweler", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Balefire Gaze", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -17902,6 +21451,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Jeweler", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-97 Iron Spent", craftsNeeded: 6 },
+        { upgrade: "-23 Steel Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-10 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -17940,6 +21496,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Jeweler", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-100 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-21 Oils Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -17976,6 +21539,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 32 },
         { worker: "Master", workerLevel: 28 },
         { worker: "Jeweler", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Iron Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-13 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -18015,6 +21585,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Jeweler", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-9 Jewels Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-84 Iron Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -18041,6 +21618,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
       workers: [{ worker: "Tailor", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Stitched Cone", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Brimmed Hat", craftsNeeded: 18 },
+        { upgrade: "-1 Leather Spent", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -18071,6 +21655,13 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-2 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "-2 Herbs Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -18098,6 +21689,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.07",
       materials: [{ resource: "Leather", amount: 9 }],
       workers: [{ worker: "Tailor", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Feathered Hat", craftsNeeded: 20 },
+        { upgrade: "-2 Leather Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -18128,6 +21726,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Tricorn", craftsNeeded: 32 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -18159,6 +21764,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Silk Hood", craftsNeeded: 32 },
+        { upgrade: "-4 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -18191,6 +21803,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 3 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-8 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Pirate Hat", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -18223,6 +21842,13 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 36 },
+        { upgrade: "-2 Fabric Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -18256,6 +21882,13 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 3 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-12 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 36 },
+        { upgrade: "-2 Fabric Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -18290,6 +21923,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 13 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Night Cowl", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -18327,6 +21967,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 14 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 White Sand Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -18361,6 +22008,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 17 },
         { worker: "Master", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Windrunner Hat", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -18397,6 +22051,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-8 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -18431,6 +22092,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -18467,6 +22135,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Drakeskin Mask", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -18505,6 +22180,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-38 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "-10 Ironwood Spent", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -18542,6 +22224,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "Component Quality Reduced", craftsNeeded: 11 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 28 },
+        { upgrade: "-43 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -18578,6 +22267,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Corsair Tricorn", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -18613,6 +22309,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -18651,6 +22354,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -18687,6 +22397,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Everdusk Cowl", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -18725,6 +22442,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Fabric Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -18762,6 +22486,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Dawn Thief Cowl", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -18798,6 +22529,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -18837,6 +22575,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -18875,6 +22620,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "Component Quality Reduced", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -18912,6 +22664,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-21 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -18948,6 +22707,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 29 },
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-77 Leather Spent", craftsNeeded: 6 },
+        { upgrade: "-28 Fabric Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Wildhunt Skull", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -18987,6 +22753,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "Quality Chance x2", craftsNeeded: 6 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 14 },
+        { upgrade: "-56 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-22 Steel Spent", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -19024,6 +22797,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-37 Fabric Spent", craftsNeeded: 26 },
+        { upgrade: "-81 Leather Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -19063,6 +22843,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-23 Ironwood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-80 Wood Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -19101,6 +22888,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-10 Ether Spent", craftsNeeded: 10 },
+        { upgrade: "-86 Leather Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -19138,6 +22932,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Leather Spent", craftsNeeded: 10 },
+        { upgrade: "-10 Ether Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -19164,6 +22965,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
       workers: [{ worker: "Tailor", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Black Cowl", craftsNeeded: 18 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -19191,6 +22999,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "7.07",
       materials: [{ resource: "Leather", amount: 9 }],
       workers: [{ worker: "Tailor", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Druid Laurels", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -19222,6 +23037,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 1 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Bronze Circlet", craftsNeeded: 32 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -19253,6 +23075,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 18 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 32 },
+        { upgrade: "-1 Iron Pine Cone Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -19284,6 +23113,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Wizard Hat", craftsNeeded: 32 },
+        { upgrade: "-4 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -19320,6 +23156,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 9 },
         { worker: "Wizard", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-8 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Witch Hat", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -19353,6 +23196,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 10 },
         { worker: "Wizard", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 36 },
+        { upgrade: "-2 Herbs Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
   },
@@ -19391,6 +23241,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 11 },
         { worker: "Wizard", workerLevel: 4 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-3 Herbs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -19427,6 +23284,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 13 },
         { worker: "Wizard", workerLevel: 8 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Tactician Hat", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -19462,6 +23326,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 14 },
         { worker: "Wizard", workerLevel: 10 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-30 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Living Root Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -19500,6 +23371,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 15 },
         { worker: "Wizard", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-6 Herbs Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -19533,6 +23411,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 17 },
         { worker: "Wizard", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Shaman Hat", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -19568,6 +23453,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -19605,6 +23497,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 Moon Crystal Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -19640,6 +23539,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Astral Hat", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -19677,6 +23583,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 22 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-13 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -19712,6 +23625,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Opal Diadem", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -19750,6 +23670,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 24 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "Component Quality Reduced", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-55 Leather Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -19787,6 +23714,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 24 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "Component Quality Reduced", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-55 Leather Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -19823,6 +23757,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Djinn Veil", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -19862,6 +23803,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-16 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -19898,6 +23846,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 27 },
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Exarch Mitre", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -19937,6 +23892,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -19975,6 +23937,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 16 },
+        { upgrade: "-71 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "-21 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -20011,6 +23980,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 29 },
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Voidminster Hat", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -20050,6 +24026,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-76 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "-10 Ether Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -20087,6 +24070,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-26 Steel Spent", craftsNeeded: 14 },
+        { upgrade: "-1 Raw Obsidian Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -20123,6 +24113,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 30 },
         { worker: "Wizard", workerLevel: 26 },
         { worker: "Priestess", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-14 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -20162,6 +24159,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 26 },
         { worker: "Priestess", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-73 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-33 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -20198,6 +24202,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 32 },
         { worker: "Wizard", workerLevel: 28 },
         { worker: "Priestess", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-21 Fabric Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-8 Ether Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -20236,6 +24247,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 28 },
         { worker: "Priestess", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-20 Fabric Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-8 Ether Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -20262,6 +24280,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Iron", amount: 5 }],
       workers: [{ worker: "Blacksmith", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Plated Gauntlets", craftsNeeded: 18 },
+        { upgrade: "-1 Iron Spent", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -20292,6 +24317,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 1 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "-1 Iron Pine Cone Spent", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Warrior Gauntlets", craftsNeeded: 20 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -20323,6 +24355,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Demi Gauntlets", craftsNeeded: 32 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -20355,6 +24394,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-6 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Knight Gauntlets", craftsNeeded: 36 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -20387,6 +24433,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-7 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "-7 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -20420,6 +24473,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 11 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Paladin Gauntlets", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -20456,6 +24516,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 12 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -20490,6 +24557,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 13 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-5 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -20527,6 +24601,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 14 },
         { worker: "Priestess", workerLevel: 10 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Samurai Kote", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -20561,6 +24642,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 15 },
         { worker: "Priestess", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-3 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -20594,6 +24682,13 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 4 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 15 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-6 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -20628,6 +24723,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 17 },
         { worker: "Master", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: General Gauntlets", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -20665,6 +24767,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-16 Leather Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -20700,6 +24809,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-11 Oils Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -20737,6 +24853,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Berserker Gauntlets", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -20772,6 +24895,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Juggernaut Grip", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -20809,6 +24939,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -20845,6 +24982,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Celesteel Gauntlets", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -20884,6 +25028,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -20920,6 +25071,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Vermilion Guard Might", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -20959,6 +25117,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -20996,6 +25161,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-61 Leather Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -21035,6 +25207,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-106 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-31 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -21071,6 +25250,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Jeweler", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Balefire Gauntlets", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -21110,6 +25296,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Jeweler", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-54 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "-29 Steel Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -21146,6 +25339,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Jeweler", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-31 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -21185,6 +25385,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 27 },
         { worker: "Jeweler", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-63 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-34 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -21221,6 +25428,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 32 },
         { worker: "Master", workerLevel: 28 },
         { worker: "Jeweler", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Iron Spent", craftsNeeded: 10 },
+        { upgrade: "-10 Jewels Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -21260,6 +25474,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Jeweler", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-50% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-10 Jewels Spent", craftsNeeded: 10 },
+        { upgrade: "-65 Iron Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -21287,6 +25508,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
       workers: [{ worker: "Tailor", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Iron Armguards", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Bracers", craftsNeeded: 18 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -21314,6 +25542,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.00",
       materials: [{ resource: "Leather", amount: 9 }],
       workers: [{ worker: "Tailor", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Thief's Gloves", craftsNeeded: 20 },
+        { upgrade: "-2 Leather Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -21344,6 +25579,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Studded Gloves", craftsNeeded: 28 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -21375,6 +25617,13 @@ db.blueprints.insertMany([
         { item: "Bracers", quality: "Normal", amount: 1 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 32 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -21407,6 +25656,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-4 Leather Spent", craftsNeeded: 32 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -21438,6 +25694,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 3 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Elven Vambraces", craftsNeeded: 32 },
+        { upgrade: "-5 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -21474,6 +25737,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 8 },
         { worker: "Blacksmith", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-7 Leather Spent", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 36 },
+        { upgrade: "-5 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -21505,6 +25775,13 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Savage Claws", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -21537,6 +25814,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 4 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -21572,6 +25856,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 13 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Ninja Gloves", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -21609,6 +25900,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-6 Herbs Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -21643,6 +25941,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 17 },
         { worker: "Master", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Windrunner Gloves", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -21680,6 +25985,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 Thief's Gloves Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -21715,6 +26027,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Drakeskin Gloves", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -21753,6 +26072,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-28 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "-9 Fabric Spent", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -21788,6 +26114,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Corsair Gloves", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -21826,6 +26159,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -21862,6 +26202,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Everdusk Gloves", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -21901,6 +26248,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Fabric Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -21938,6 +26292,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Fabric Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -21974,6 +26335,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Dawn Thief's Touch", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -22013,6 +26381,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -22051,6 +26426,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-21 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -22088,6 +26470,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-23 Fabric Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Wildhunt Gloves", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -22124,6 +26513,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-25 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -22163,6 +26559,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-57 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "-25 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -22201,6 +26604,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-25 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -22238,6 +26648,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Leather Spent", craftsNeeded: 10 },
+        { upgrade: "-9 Jewels Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -22264,6 +26681,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Iron", amount: 5 }],
       workers: [{ worker: "Blacksmith", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Long Boots", craftsNeeded: 7 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-1 Iron Spent", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -22294,6 +26718,13 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 5 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "Blueprint: Iron Greaves", craftsNeeded: 8 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 20 },
+        { upgrade: "-2 Iron Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -22324,6 +26755,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 2 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Reinforced Greaves", craftsNeeded: 28 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -22355,6 +26793,13 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 8 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 32 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -22386,6 +26831,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 2 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 5 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Knight Sollerets", craftsNeeded: 32 },
+        { upgrade: "-4 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -22419,6 +26871,13 @@ db.blueprints.insertMany([
         { item: "Leather Boots", quality: "Normal", amount: 1 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-5 Iron Spent", craftsNeeded: 32 },
+        { upgrade: "-1 Leather Boots Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -22450,6 +26909,13 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Paladin Boots", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -22482,6 +26948,13 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Scroll of Sparks Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -22515,6 +26988,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 1 },
       ],
       workers: [{ worker: "Blacksmith", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Iron Pine Cone Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -22551,6 +27031,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 14 },
         { worker: "Priestess", workerLevel: 10 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Samurai Haidate", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -22585,6 +27072,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 15 },
         { worker: "Priestess", workerLevel: 11 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -22622,6 +27116,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 17 },
         { worker: "Master", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: General Greaves", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -22656,6 +27157,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -22693,6 +27201,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Berserker Stompers", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -22729,6 +27244,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "Component Quality Reduced", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Juggernaut Greaves", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -22764,6 +27286,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Blacksmith", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -22802,6 +27331,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -22839,6 +27375,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Tailor", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Celesteel Boots", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -22875,6 +27418,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Tailor", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -22914,6 +27464,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Tailor", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-61 Iron Spent", craftsNeeded: 9 },
+        { upgrade: "-1 Crystal Lullaby Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -22950,6 +27507,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Tailor", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Vermilion Guard Greaves", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -22989,6 +27553,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Tailor", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -23027,6 +27598,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Tailor", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-71 Iron Spent", craftsNeeded: 6 },
+        { upgrade: "-21 Steel Spent", craftsNeeded: 16 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -23064,6 +27642,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Tailor", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Balefire Greaves", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -23100,6 +27685,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Tailor", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-81 Iron Spent", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 26 },
+        { upgrade: "-25 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -23139,6 +27731,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Tailor", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-80 Herbs Spent", craftsNeeded: 6 },
+        { upgrade: "-24 Oils Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -23175,6 +27774,13 @@ db.blueprints.insertMany([
         { worker: "Blacksmith", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Tailor", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-25 Steel Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-25 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -23214,6 +27820,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-79 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-21 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -23251,6 +27864,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Tailor", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-8 Jewels Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-88 Iron Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -23278,6 +27898,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
       workers: [{ worker: "Tailor", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Shin Guards", craftsNeeded: 7 },
+        { upgrade: "Blueprint: Flip-Flops", craftsNeeded: 18 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 32 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -23305,6 +27932,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.00",
       materials: [{ resource: "Leather", amount: 9 }],
       workers: [{ worker: "Tailor", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-2 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -23332,6 +27966,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.00",
       materials: [{ resource: "Leather", amount: 9 }],
       workers: [{ worker: "Tailor", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Soft Shoes", craftsNeeded: 20 },
+        { upgrade: "-2 Leather Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -23362,6 +28003,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Thief's Shoes", craftsNeeded: 28 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -23393,6 +28041,13 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 16 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 32 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -23424,6 +28079,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Elven Shoes", craftsNeeded: 32 },
+        { upgrade: "-5 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -23456,6 +28118,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-6 Leather Spent", craftsNeeded: 36 },
+        { upgrade: "-7 Herbs Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -23488,6 +28157,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 3 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-8 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Savage Stride", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -23521,6 +28197,13 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 2 },
       ],
       workers: [{ worker: "Tailor", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "x1.2 Value Increase", craftsNeeded: 20 },
+        { upgrade: "-10 Leather Spent", craftsNeeded: 36 },
+        { upgrade: "x1.2 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -23556,6 +28239,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 13 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Ninja Tabi", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -23594,6 +28284,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 14 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-5 Herbs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -23629,6 +28326,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-6 Herbs Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -23666,6 +28370,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-6 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "-22 Leather Spent", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -23700,6 +28411,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 16 },
         { worker: "Master", workerLevel: 12 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-25 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Windrunner Boots", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -23737,6 +28455,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 17 },
         { worker: "Master", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-1 Evil Eye Spent", craftsNeeded: 24 },
+        { upgrade: "-35 Leather Spent", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -23772,6 +28497,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Drakeskin Boots", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -23809,6 +28541,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-11 Fabric Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -23845,6 +28584,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Corsair Boots", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -23880,6 +28626,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -23918,6 +28671,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -23954,6 +28714,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Everdusk Boots", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -23993,6 +28760,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Fabric Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -24029,6 +28803,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Dawn Thief's Path", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -24068,6 +28849,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-1 Raptoria Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -24105,6 +28893,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -24141,6 +28936,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 29 },
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Wildhunt Sandals", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -24180,6 +28982,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-76 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "-17 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -24217,6 +29026,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-25 Fabric Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-81 Leather Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -24256,6 +29072,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-80 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-24 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -24293,6 +29116,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Leather Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-8 Ether Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -24319,6 +29149,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.33",
       materials: [{ resource: "Wood", amount: 7 }],
       workers: [{ worker: "Carpenter", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Heavy Buckler", craftsNeeded: 8 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 20 },
+        { upgrade: "-1 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -24349,6 +29186,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 1 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 2 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 8 },
+        { upgrade: "Blueprint: Oaken Shield", craftsNeeded: 20 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -24380,6 +29224,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 3 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 3 }],
+      upgrades: [
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Iron Shield", craftsNeeded: 32 },
+        { upgrade: "-3 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -24411,6 +29262,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Teardrop Shield", craftsNeeded: 36 },
+        { upgrade: "-6 Wood Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -24442,6 +29300,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 4 },
       ],
       workers: [{ worker: "Carpenter", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-7 Wood Spent", craftsNeeded: 36 },
+        { upgrade: "-9 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -24476,6 +29341,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 10 },
         { worker: "Jeweler", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-10 Wood Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Mythril Aspis", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
   },
@@ -24513,6 +29385,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 11 },
         { worker: "Jeweler", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-3 Ironwood Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -24549,6 +29428,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 12 },
         { worker: "Jeweler", workerLevel: 6 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-7 Iron Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -24583,6 +29469,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 13 },
         { worker: "Jeweler", workerLevel: 8 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Wyrmguard", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -24620,6 +29513,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 14 },
         { worker: "Jeweler", workerLevel: 10 },
       ],
+      upgrades: [
+        { upgrade: "-20 Wood Spent", craftsNeeded: 9 },
+        { upgrade: "-8 Ironwood Spent", craftsNeeded: 22 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -24656,6 +29556,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 15 },
         { worker: "Jeweler", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-6 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -24691,6 +29598,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 17 },
         { worker: "Jeweler", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Ancestor Totem", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -24729,6 +29643,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 19 },
         { worker: "Jeweler", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-43 Herbs Spent", craftsNeeded: 10 },
+        { upgrade: "-34 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -24764,6 +29685,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Wood Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Angelic Pavise", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -24801,6 +29729,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 22 },
         { worker: "Jeweler", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Goldmane Guard", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -24836,6 +29771,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -24874,6 +29816,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -24911,6 +29860,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -24946,6 +29902,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Carpenter", workerLevel: 24 },
         { worker: "Jeweler", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -24983,6 +29946,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 25 },
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Bearded Paragon", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -25022,6 +29992,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Blacksmith", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 7 },
+        { upgrade: "-61 Wood Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 32 },
+        { upgrade: "-17 Ironwood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -25058,6 +30035,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 27 },
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Abyssal Artifact", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -25097,6 +30081,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -25135,6 +30126,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Blacksmith", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-21 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -25171,6 +30169,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 29 },
         { worker: "Jeweler", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Chloroshield", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -25210,6 +30215,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "Component Quality Reduced", craftsNeeded: 14 },
+        { upgrade: "-76 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -25246,6 +30258,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 29 },
         { worker: "Jeweler", workerLevel: 25 },
         { worker: "Blacksmith", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-97 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "-28 Ironwood Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -25285,6 +30304,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-80 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-30 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -25323,6 +30349,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-8 Ether Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-81 Wood Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -25359,6 +30392,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 32 },
         { worker: "Jeweler", workerLevel: 28 },
         { worker: "Blacksmith", workerLevel: 25 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-28 Ironwood Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-13 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
   },
@@ -25398,6 +30438,13 @@ db.blueprints.insertMany([
         { worker: "Carpenter", workerLevel: 30 },
         { worker: "Jeweler", workerLevel: 27 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-29 Ironwood Spent", craftsNeeded: 10 },
+        { upgrade: "-8 Jewels Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -25428,6 +30475,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 3 },
       ],
       workers: [{ worker: "Summoner", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Administrator Cloak", craftsNeeded: 32 },
+        { upgrade: "-4 Leather Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -25461,6 +30515,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 3 },
       ],
       workers: [{ worker: "Summoner", workerLevel: 4 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Druid Cloak", craftsNeeded: 36 },
+        { upgrade: "-7 Leather Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -25498,6 +30559,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 8 },
         { worker: "Tailor", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-11 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Imperial Cape", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -25533,6 +30601,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Summoner", workerLevel: 13 },
         { worker: "Tailor", workerLevel: 8 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-19 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Elven Cloak", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -25570,6 +30645,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 14 },
         { worker: "Tailor", workerLevel: 10 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-1 Webbed Wing Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-27 Leather Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -25606,6 +30688,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 17 },
         { worker: "Tailor", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Beast King's Cloak", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -25641,6 +30730,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Summoner", workerLevel: 21 },
         { worker: "Tailor", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-44 Leather Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Dragonlord Crest", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -25679,6 +30775,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 22 },
         { worker: "Tailor", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-54 Leather Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Archbishop Mantle", craftsNeeded: 46 },
+        { upgrade: "Component Quality Reduced", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -25715,6 +30818,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Summoner", workerLevel: 23 },
         { worker: "Tailor", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-57 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-16 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -25754,6 +30864,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Tailor", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-64 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Voidcloth From Beyond", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -25792,6 +30909,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-74 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Herald's Mantle", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -25828,6 +30952,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 27 },
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-74 Leather Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-21 Fabric Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -25867,6 +30998,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-67 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-20 Oils Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -25904,6 +31042,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 29 },
         { worker: "Tailor", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-85 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Cloak Everflowing", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -25943,6 +31088,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-64 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "-19 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -25980,6 +31132,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 30 },
         { worker: "Tailor", workerLevel: 26 },
         { worker: "Wizard", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-89 Leather Spent", craftsNeeded: 26 },
+        { upgrade: "-27 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -26019,6 +31178,13 @@ db.blueprints.insertMany([
         { worker: "Tailor", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-96 Leather Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-23 Fabric Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -26046,6 +31212,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.57",
       materials: [{ resource: "Iron", amount: 14 }],
       workers: [{ worker: "Jeweler", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -26072,6 +31245,13 @@ db.blueprints.insertMany([
       merchantXpPerCraftingSecond: "8.70",
       materials: [{ resource: "Iron", amount: 17 }],
       workers: [{ worker: "Jeweler", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 9 },
+        { upgrade: "-6 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -26102,6 +31282,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 4 },
       ],
       workers: [{ worker: "Jeweler", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Silver Band", craftsNeeded: 36 },
+        { upgrade: "-6 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -26133,6 +31320,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
       ],
       workers: [{ worker: "Jeweler", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-7 Iron Spent", craftsNeeded: 36 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -26164,6 +31358,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 3 },
       ],
       workers: [{ worker: "Jeweler", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Noble Ring", craftsNeeded: 36 },
+        { upgrade: "-10 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -26196,6 +31397,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 3 },
       ],
       workers: [{ worker: "Jeweler", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 9 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 22 },
+        { upgrade: "-12 Iron Spent", craftsNeeded: 40 },
+        { upgrade: "-6 Herbs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -26228,6 +31436,13 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
       ],
       workers: [{ worker: "Jeweler", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Knight Signet", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -26261,6 +31476,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 2 },
       ],
       workers: [{ worker: "Jeweler", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-14 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-14 Iron Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -26294,6 +31516,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 2 },
       ],
       workers: [{ worker: "Jeweler", workerLevel: 13 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-17 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-17 Iron Spent", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -26329,6 +31558,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Jeweler", workerLevel: 14 },
         { worker: "Master", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Batrachite Stone", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -26366,6 +31602,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "-9 Steel Spent", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -26402,6 +31645,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 15 },
         { worker: "Master", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-22 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-5 Fabric Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -26435,6 +31685,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Jeweler", workerLevel: 17 },
         { worker: "Master", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Brimstone Coil", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -26470,6 +31727,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Jeweler", workerLevel: 18 },
         { worker: "Master", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -26508,6 +31772,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 19 },
         { worker: "Master", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-34 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -26543,6 +31814,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-43 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Fairfolk Band", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -26581,6 +31859,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-46 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "-19 Steel Spent", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -26616,6 +31901,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Jeweler", workerLevel: 22 },
         { worker: "Master", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-49 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Borealis", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -26654,6 +31946,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Master", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-52 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-14 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -26690,6 +31989,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -26724,6 +32030,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Jeweler", workerLevel: 24 },
         { worker: "Master", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-55 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-15 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -26762,6 +32075,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Rubicon Prison", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -26798,6 +32118,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 25 },
         { worker: "Master", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-17 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -26837,6 +32164,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-1 Tide Element Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -26875,6 +32209,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 22 },
         { worker: "Wizard", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-64 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-19 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -26911,6 +32252,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 27 },
         { worker: "Master", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Pearlescent Perfection", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -26950,6 +32298,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-64 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-1 Boreal Gale Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -26988,6 +32343,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-71 Iron Spent", craftsNeeded: 6 },
+        { upgrade: "-31 Steel Spent", craftsNeeded: 16 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -27024,6 +32386,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 29 },
         { worker: "Master", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Mark of Ouroboros", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -27063,6 +32432,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 26 },
         { worker: "Wizard", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-81 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -27100,6 +32476,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 30 },
         { worker: "Master", workerLevel: 26 },
         { worker: "Wizard", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-81 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "-7 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -27139,6 +32522,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 27 },
         { worker: "Cook", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-25 Fabric Spent", craftsNeeded: 6 },
+        { upgrade: "-1 Thread of Fate Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-164 Leather Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -27175,6 +32565,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 31 },
         { worker: "Master", workerLevel: 27 },
         { worker: "Wizard", workerLevel: 24 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-84 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-20 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -27214,6 +32611,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-88 Iron Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-8 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -27243,6 +32647,13 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 6 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -27272,6 +32683,13 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 8 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 9 },
+        { upgrade: "-4 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -27301,6 +32719,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 4 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Sun Pendant", craftsNeeded: 32 },
+        { upgrade: "-3 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -27331,6 +32756,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 3 },
       ],
       workers: [{ worker: "Moon Dragon", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Mundra's Hornbow", craftsNeeded: 32 },
+        { upgrade: "-4 Iron Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -27362,6 +32794,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 3 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Noble Chain", craftsNeeded: 36 },
+        { upgrade: "-5 Iron Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -27393,6 +32832,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 4 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-6 Iron Spent", craftsNeeded: 36 },
+        { upgrade: "-4 Leather Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -27425,6 +32871,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "-9 Iron Spent", craftsNeeded: 36 },
+        { upgrade: "-4 Leather Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -27458,6 +32911,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 4 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 10 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 8 },
+        { upgrade: "-7 Iron Spent", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Holy Symbol", craftsNeeded: 36 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -27495,6 +32955,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 11 },
         { worker: "Jeweler", workerLevel: 4 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-9 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-6 Leather Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -27530,6 +32997,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 13 },
         { worker: "Jeweler", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-13 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -27567,6 +33041,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 13 },
         { worker: "Jeweler", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-13 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Titanium Torc", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -27602,6 +33083,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 13 },
         { worker: "Jeweler", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-15 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -27640,6 +33128,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 13 },
         { worker: "Carpenter", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-16 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Living Root Spent", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -27674,6 +33169,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 18 },
         { worker: "Jeweler", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Magatama Necklace", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -27711,6 +33213,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 19 },
         { worker: "Jeweler", workerLevel: 15 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-25 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -27746,6 +33255,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-30 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Stygian Phylactery", craftsNeeded: 50 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -27783,6 +33299,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Jeweler", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-32 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-8 Steel Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -27817,6 +33340,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 22 },
         { worker: "Jeweler", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-34 Iron Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "-1 Bronze Circlet Spent", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -27853,6 +33383,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 22 },
         { worker: "Jeweler", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-37 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Alimyriad", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -27891,6 +33428,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-36 Wood Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-9 Ironwood Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -27928,6 +33472,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 23 },
         { worker: "Jeweler", workerLevel: 19 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-39 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "-11 Steel Spent", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -27964,6 +33515,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 25 },
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-44 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Brísingamen", craftsNeeded: 46 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -28003,6 +33561,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-44 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "-12 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -28041,6 +33606,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-46 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-13 Steel Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -28078,6 +33650,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-51 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "Blueprint: Titania's Keepsake", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -28114,6 +33693,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 27 },
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-51 Iron Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-15 Steel Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -28153,6 +33739,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Carpenter", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-50 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-13 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -28190,6 +33783,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 27 },
         { worker: "Jeweler", workerLevel: 23 },
         { worker: "Carpenter", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-84 Wood Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-23 Ironwood Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -28229,6 +33829,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 24 },
         { worker: "Wizard", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-56 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-16 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -28266,6 +33873,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Wizard", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-45 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Titania's Timepiece", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -28302,6 +33916,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 30 },
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Wizard", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 6 },
+        { upgrade: "-61 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "-19 Steel Spent", craftsNeeded: 26 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -28341,6 +33962,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Wizard", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-45 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "-8 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -28378,6 +34006,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 30 },
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Wizard", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 14 },
+        { upgrade: "-35% Craft Time Reduction", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -28417,6 +34052,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 27 },
         { worker: "Wizard", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-48 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "-10 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -28454,6 +34096,13 @@ db.blueprints.insertMany([
         { worker: "Jeweler", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-49 Iron Spent", craftsNeeded: 10 },
+        { upgrade: "-8 Jewels Spent", craftsNeeded: 18 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -28485,6 +34134,13 @@ db.blueprints.insertMany([
         { component: "Iron Pine Cone", amount: 2 },
       ],
       workers: [{ worker: "Summoner", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-4 Herbs Spent", craftsNeeded: 18 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Yeti", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -28517,6 +34173,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 3 },
       ],
       workers: [{ worker: "Summoner", workerLevel: 4 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-3 Leather Spent", craftsNeeded: 20 },
+        { upgrade: "-7 Herbs Spent", craftsNeeded: 36 },
+        { upgrade: "Blueprint: Toadwitch", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -28550,6 +34213,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 4 },
       ],
       workers: [{ worker: "Summoner", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "-25 Iron Spent", craftsNeeded: 8 },
+        { upgrade: "-12 Herbs Spent", craftsNeeded: 20 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 36 },
+        { upgrade: "Blueprint: Mushgoon", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -28586,6 +34256,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 13 },
         { worker: "Wizard", workerLevel: 1 },
       ],
+      upgrades: [
+        { upgrade: "-21 Herbs Spent", craftsNeeded: 9 },
+        { upgrade: "-8 Oils Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Anubis", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -28620,6 +34297,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Summoner", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-39 Herbs Spent", craftsNeeded: 10 },
+        { upgrade: "-15 Oils Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Cyclops", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -28658,6 +34342,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-50 Herbs Spent", craftsNeeded: 11 },
+        { upgrade: "-19 Oils Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "Blueprint: Tyrant", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -28693,6 +34384,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Summoner", workerLevel: 22 },
         { worker: "Wizard", workerLevel: 18 },
+      ],
+      upgrades: [
+        { upgrade: "-61 Herbs Spent", craftsNeeded: 10 },
+        { upgrade: "-25 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "Blueprint: Mermaid", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -28732,6 +34430,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-73 Herbs Spent", craftsNeeded: 10 },
+        { upgrade: "-31 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 46 },
+        { upgrade: "Blueprint: Harpy", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -28770,6 +34475,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-85 Herbs Spent", craftsNeeded: 6 },
+        { upgrade: "-37 Oils Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Crushtacean", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -28806,6 +34518,13 @@ db.blueprints.insertMany([
         { worker: "Summoner", workerLevel: 27 },
         { worker: "Wizard", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-85 Herbs Spent", craftsNeeded: 6 },
+        { upgrade: "-37 Oils Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "-3 Jewels Spent", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -28845,6 +34564,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-97 Herbs Spent", craftsNeeded: 6 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Voidling", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -28883,6 +34609,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 28 },
         { worker: "Priestess", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-110 Herbs Spent", craftsNeeded: 4 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-10 Jewels Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -28913,6 +34646,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 5 },
       ],
       workers: [{ worker: "Cook", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-5 Herbs Spent", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Gua Bao", craftsNeeded: 32 },
+        { upgrade: "-1 Glow Shroom Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -28945,6 +34685,13 @@ db.blueprints.insertMany([
         { component: "Elven Wood", amount: 2 },
       ],
       workers: [{ worker: "Cook", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "-18 Wood Spent", craftsNeeded: 8 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Poutine", craftsNeeded: 36 },
+        { upgrade: "-7 Herbs Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -28978,6 +34725,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 3 },
       ],
       workers: [{ worker: "Cook", workerLevel: 9 }],
+      upgrades: [
+        { upgrade: "-22 Wood Spent", craftsNeeded: 8 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 20 },
+        { upgrade: "-9 Herbs Spent", craftsNeeded: 36 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -29009,6 +34763,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 4 },
       ],
       workers: [{ worker: "Cook", workerLevel: 11 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Cheeseburger", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -29041,6 +34802,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 8 },
       ],
       workers: [{ worker: "Cook", workerLevel: 12 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-15 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.5 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-15 Herbs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -29075,6 +34843,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Cook", workerLevel: 14 },
         { worker: "Herbalist", workerLevel: 10 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Ahi Poke Bowl", craftsNeeded: 40 },
+        { upgrade: "-1 Bacon and Eggs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -29112,6 +34887,13 @@ db.blueprints.insertMany([
         { worker: "Cook", workerLevel: 15 },
         { worker: "Herbalist", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 12 },
+        { upgrade: "-24 Herbs Spent", craftsNeeded: 30 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 54 },
+        { upgrade: "-1 Living Root Spent", craftsNeeded: 85 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 135 },
+      ],
     },
   },
   {
@@ -29148,6 +34930,13 @@ db.blueprints.insertMany([
         { worker: "Cook", workerLevel: 15 },
         { worker: "Herbalist", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 12 },
+        { upgrade: "-22 Herbs Spent", craftsNeeded: 30 },
+        { upgrade: "-1 Deep Pearl Spent", craftsNeeded: 54 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 85 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 135 },
+      ],
     },
   },
   {
@@ -29182,6 +34971,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Cook", workerLevel: 17 },
         { worker: "Herbalist", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-30 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Sushi", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -29219,6 +35015,13 @@ db.blueprints.insertMany([
         { worker: "Cook", workerLevel: 18 },
         { worker: "Herbalist", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-1 Mintyleaf Herb Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-33 Herbs Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -29253,6 +35056,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Cook", workerLevel: 21 },
         { worker: "Herbalist", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-42 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "Blueprint: Super Spicy Curry", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -29289,6 +35099,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Cook", workerLevel: 23 },
         { worker: "Herbalist", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Veggie Kebabs", craftsNeeded: 46 },
+        { upgrade: "-54 Herbs Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -29327,6 +35144,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-1 Sweet Grass Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Deluxe Ramen", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -29363,6 +35187,13 @@ db.blueprints.insertMany([
         { worker: "Cook", workerLevel: 27 },
         { worker: "Herbalist", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-71 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Huli-Huli Chicken", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -29402,6 +35233,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 23 },
         { worker: "Wizard", workerLevel: 20 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-112 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "-32 Oils Spent", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -29438,6 +35276,13 @@ db.blueprints.insertMany([
         { worker: "Cook", workerLevel: 29 },
         { worker: "Herbalist", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Pot of Paella", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -29476,6 +35321,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-81 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-23 Oils Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -29513,6 +35365,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 25 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-92 Herbs Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-6 Ether Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -29543,6 +35402,13 @@ db.blueprints.insertMany([
         { component: "Glow Shroom", amount: 4 },
       ],
       workers: [{ worker: "Baker", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 7 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "Blueprint: Shaved Ice", craftsNeeded: 32 },
+        { upgrade: "-5 Herbs Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x3", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -29575,6 +35441,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 4 },
       ],
       workers: [{ worker: "Baker", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 8 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 20 },
+        { upgrade: "Blueprint: Taiyaki", craftsNeeded: 36 },
+        { upgrade: "-7 Herbs Spent", craftsNeeded: 55 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 85 },
+      ],
     },
   },
   {
@@ -29609,6 +35482,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Baker", workerLevel: 11 },
         { worker: "Herbalist", workerLevel: 4 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-12 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "Blueprint: Cheesecake", craftsNeeded: 40 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -29646,6 +35526,13 @@ db.blueprints.insertMany([
         { worker: "Baker", workerLevel: 14 },
         { worker: "Herbalist", workerLevel: 10 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-20 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Macaron Set", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -29681,6 +35568,13 @@ db.blueprints.insertMany([
         { worker: "Baker", workerLevel: 15 },
         { worker: "Herbalist", workerLevel: 11 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-23 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 44 },
+        { upgrade: "-1 White Sand Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -29715,6 +35609,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Baker", workerLevel: 17 },
         { worker: "Herbalist", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "Blueprint: Strawberry Mochi", craftsNeeded: 44 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -29752,6 +35653,13 @@ db.blueprints.insertMany([
         { worker: "Baker", workerLevel: 21 },
         { worker: "Herbalist", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 11 },
+        { upgrade: "-1 White Sand Spent", craftsNeeded: 28 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 50 },
+        { upgrade: "Blueprint: Matcha Swiss Roll", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -29788,6 +35696,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Baker", workerLevel: 23 },
         { worker: "Herbalist", workerLevel: 19 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Pineapple Cake", craftsNeeded: 46 },
+        { upgrade: "-52 Herbs Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -29827,6 +35742,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-61 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Tuxedo Cake", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
+      ],
     },
   },
   {
@@ -29864,6 +35786,13 @@ db.blueprints.insertMany([
         { worker: "Baker", workerLevel: 27 },
         { worker: "Herbalist", workerLevel: 23 },
         { worker: "Priestess", workerLevel: 20 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-68 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 28 },
+        { upgrade: "Blueprint: Halo-Halo", craftsNeeded: 45 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
   },
@@ -29903,6 +35832,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 22 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-77 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "Blueprint: Ultimate Fruit Salad", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -29941,6 +35877,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 26 },
         { worker: "Priestess", workerLevel: 23 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 14 },
+        { upgrade: "-18 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "-18 Oils Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -29977,6 +35920,13 @@ db.blueprints.insertMany([
         { worker: "Baker", workerLevel: 30 },
         { worker: "Jeweler", workerLevel: 26 },
         { worker: "Blacksmith", workerLevel: 23 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-18 Oils Spent", craftsNeeded: 14 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 26 },
+        { upgrade: "-81 Herbs Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -30016,6 +35966,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 27 },
         { worker: "Wizard", workerLevel: 24 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-84 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "-27 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -30054,6 +36011,13 @@ db.blueprints.insertMany([
         { worker: "Herbalist", workerLevel: 30 },
         { worker: "Priestess", workerLevel: 27 },
       ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 4 },
+        { upgrade: "-89 Herbs Spent", craftsNeeded: 10 },
+        { upgrade: "x1.25 Value Increase", craftsNeeded: 18 },
+        { upgrade: "-22 Oils Spent", craftsNeeded: 30 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 45 },
+      ],
     },
   },
   {
@@ -30084,6 +36048,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 4 },
       ],
       workers: [{ worker: "Scholar", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 7 },
+        { upgrade: "-2 Herbs Spent", craftsNeeded: 18 },
+        { upgrade: "-4 Herbs Spent", craftsNeeded: 32 },
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 50 },
+        { upgrade: "Blueprint: Flawed Runestone", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -30116,6 +36087,13 @@ db.blueprints.insertMany([
         { component: "Star Metal", amount: 4 },
       ],
       workers: [{ worker: "Scholar", workerLevel: 13 }],
+      upgrades: [
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-9 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "-17 Herbs Spent", craftsNeeded: 50 },
+        { upgrade: "-4 Oils Spent", craftsNeeded: 80 },
+        { upgrade: "Blueprint: Chiseled Runestone", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -30152,6 +36130,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Scholar", workerLevel: 21 },
         { worker: "Master", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-100 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "-26 Oils Spent", craftsNeeded: 50 },
+        { upgrade: "-1 Chipped Runestone Spent", craftsNeeded: 80 },
+        { upgrade: "Blueprint: Perfect Runestone", craftsNeeded: 125 },
       ],
     },
   },
@@ -30190,6 +36175,13 @@ db.blueprints.insertMany([
         { worker: "Master", workerLevel: 21 },
         { worker: "Sun Dragon", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-92 Herbs Spent", craftsNeeded: 16 },
+        { upgrade: "-17 Oils Spent", craftsNeeded: 28 },
+        { upgrade: "-5 Ether Spent", craftsNeeded: 45 },
+        { upgrade: "+20% Multicraft Chance", craftsNeeded: 70 },
+      ],
     },
   },
   {
@@ -30220,6 +36212,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 5 },
       ],
       workers: [{ worker: "Moon Dragon", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 7 },
+        { upgrade: "-3 Herbs Spent", craftsNeeded: 18 },
+        { upgrade: "-5 Herbs Spent", craftsNeeded: 32 },
+        { upgrade: "-1 Precious Gem Spent", craftsNeeded: 50 },
+        { upgrade: "Blueprint: Superior Moonstone", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -30252,6 +36251,13 @@ db.blueprints.insertMany([
         { component: "Evil Eye", amount: 4 },
       ],
       workers: [{ worker: "Moon Dragon", workerLevel: 14 }],
+      upgrades: [
+        { upgrade: "-10% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-10 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "-20 Herbs Spent", craftsNeeded: 50 },
+        { upgrade: "-5 Oils Spent", craftsNeeded: 80 },
+        { upgrade: "Blueprint: Greater Moonstone", craftsNeeded: 125 },
+      ],
     },
   },
   {
@@ -30288,6 +36294,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Moon Dragon", workerLevel: 21 },
         { worker: "Sun Dragon", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-20% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-107 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "-29 Oils Spent", craftsNeeded: 50 },
+        { upgrade: "-1 Lesser Moonstone Spent", craftsNeeded: 80 },
+        { upgrade: "Blueprint: Perfect Moonstone", craftsNeeded: 125 },
       ],
     },
   },
@@ -30326,6 +36339,13 @@ db.blueprints.insertMany([
         { worker: "Sun Dragon", workerLevel: 21 },
         { worker: "Master", workerLevel: 18 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 7 },
+        { upgrade: "-87 Herbs Spent", craftsNeeded: 18 },
+        { upgrade: "-16 Oils Spent", craftsNeeded: 32 },
+        { upgrade: "-4 Jewels Spent", craftsNeeded: 50 },
+        { upgrade: "+20% Multicraft Chance", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -30357,6 +36377,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 6 },
       ],
       workers: [{ worker: "Wizard", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Breeze Element", craftsNeeded: 3 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-1 Precious Gem Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Flame Element", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -30391,6 +36418,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "-1 White Sand Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Blaze Element", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -30427,6 +36461,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-10 Steel Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Inferno Element", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -30465,6 +36506,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Steel Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -30496,6 +36544,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 6 },
       ],
       workers: [{ worker: "Wizard", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Nature Element", craftsNeeded: 3 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-1 Silver Dust Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Tide Element", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -30530,6 +36585,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Moon Crystal Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Flood Element", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -30566,6 +36628,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "-10 Ironwood Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Torrent Element", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -30604,6 +36673,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Ironwood Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -30635,6 +36711,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 7 },
       ],
       workers: [{ worker: "Wizard", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "Blueprint: Light Element", craftsNeeded: 3 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-1 Webbed Wing Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Gale Element", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -30669,6 +36752,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Star Metal Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Tempest Element", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -30705,6 +36795,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "-10 Fabric Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Hurricane Element", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -30743,6 +36840,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Fabric Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -30774,6 +36878,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 5 },
       ],
       workers: [{ worker: "Wizard", workerLevel: 6 }],
+      upgrades: [
+        { upgrade: "Blueprint: Corrupted Element", craftsNeeded: 3 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-1 Living Root Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Wild Element", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -30808,6 +36919,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Bronze Fang Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Primal Element", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -30844,6 +36962,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "-10 Oils Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Primeval Element", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -30882,6 +37007,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -30915,6 +37047,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 6 },
         { worker: "Priestess", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-5 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Deep Pearl Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Holy Element", craftsNeeded: 65 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
   },
@@ -30951,6 +37090,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Silk Scarab Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Sacred Element", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -30986,6 +37132,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "-10 Oils Spent", craftsNeeded: 50 },
+        { upgrade: "Blueprint: Divine Element", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -31024,6 +37177,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -31057,6 +37217,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 6 },
         { worker: "Priestess", workerLevel: 1 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 7 },
+        { upgrade: "-5 Herbs Spent", craftsNeeded: 18 },
+        { upgrade: "-1 Rustwyrm Scale Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Unholy Element", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
   },
@@ -31093,6 +37260,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 17 },
         { worker: "Priestess", workerLevel: 13 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-28 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Evil Eye Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Nightmare Element", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -31128,6 +37302,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 21 },
         { worker: "Priestess", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 11 },
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 28 },
+        { upgrade: "-10 Oils Spent", craftsNeeded: 50 },
+        { upgrade: "Blueprint: Abyssal Element", craftsNeeded: 80 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
   },
@@ -31166,6 +37347,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Ether Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -31199,6 +37387,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Wizard", workerLevel: 12 },
         { worker: "Priestess", workerLevel: 6 },
+      ],
+      upgrades: [
+        { upgrade: "-15% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-11 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "-15% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "-11 Herbs Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -31236,6 +37431,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Priestess", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Herbs Spent", craftsNeeded: 26 },
+        { upgrade: "-12 Oils Spent", craftsNeeded: 46 },
+        { upgrade: "-12 Oils Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -31267,6 +37469,13 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 7 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 1 }],
+      upgrades: [
+        { upgrade: "Blueprint: Wolf Spirit", craftsNeeded: 3 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-6 Herbs Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Rhino Spirit", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -31298,6 +37507,13 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 8 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 4 }],
+      upgrades: [
+        { upgrade: "Blueprint: Ox Spirit", craftsNeeded: 3 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-6 Iron Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Owl Spirit", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -31329,6 +37545,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 5 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "Blueprint: Eagle Spirit", craftsNeeded: 3 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-6 Wood Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Armadillo Spirit", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -31360,6 +37583,13 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 8 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "Blueprint: Viper Spirit", craftsNeeded: 3 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-6 Leather Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Lizard Spirit", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -31391,6 +37621,13 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 5 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "Blueprint: Cat Spirit", craftsNeeded: 3 },
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 18 },
+        { upgrade: "-6 Herbs Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Horse Spirit", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -31422,6 +37659,13 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 5 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 7 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 3 },
+        { upgrade: "-6 Leather Spent", craftsNeeded: 18 },
+        { upgrade: "-1 Deep Pearl Spent", craftsNeeded: 32 },
+        { upgrade: "Blueprint: Hippo Spirit", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -31454,6 +37698,13 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 5 },
       ],
       workers: [{ worker: "Priestess", workerLevel: 8 }],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 3 },
+        { upgrade: "-5 Wood Spent", craftsNeeded: 18 },
+        { upgrade: "-1 Living Root Spent", craftsNeeded: 32 },
+        { upgrade: "-5 Wood Spent", craftsNeeded: 50 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 80 },
+      ],
     },
   },
   {
@@ -31487,6 +37738,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 12 },
         { worker: "Wizard", workerLevel: 6 },
+      ],
+      upgrades: [
+        { upgrade: "-15% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-11 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-15% Craft Time Reduction", craftsNeeded: 40 },
+        { upgrade: "-11 Iron Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -31523,6 +37781,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Iron Spent", craftsNeeded: 24 },
+        { upgrade: "-2 Bronze Fang Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Shark Spirit", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -31557,6 +37822,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Leather Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Moon Crystal Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Walrus Spirit", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -31593,6 +37865,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "-2 White Sand Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Mammoth Spirit", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -31627,6 +37906,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Herbs Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Evil Eye Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Dinosaur Spirit", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -31663,6 +37949,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Silk Scarab Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Bear Spirit", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
+      ],
     },
   },
   {
@@ -31697,6 +37990,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 18 },
         { worker: "Wizard", workerLevel: 14 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-31 Wood Spent", craftsNeeded: 24 },
+        { upgrade: "-1 Star Metal Spent", craftsNeeded: 44 },
+        { upgrade: "Blueprint: Lion Spirit", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -31734,6 +38034,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Iron Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Spooky Ectoplasm Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Kraken Spirit", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -31769,6 +38076,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Leather Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Ancient Marble Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Tarrasque Spirit", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -31806,6 +38120,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Thread of Fate Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Chimera Spirit", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -31841,6 +38162,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Overgrown Vine Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Phoenix Spirit", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -31878,6 +38206,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Chronos Crystal Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Carbuncle Spirit", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -31913,6 +38248,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-40 Herbs Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Star Metal Spent", craftsNeeded: 40 },
+        { upgrade: "Blueprint: Hydra Spirit", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
   },
@@ -31951,6 +38293,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 21 },
         { worker: "Wizard", workerLevel: 17 },
       ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 9 },
+        { upgrade: "-43 Wood Spent", craftsNeeded: 22 },
+        { upgrade: "-1 Spooky Ectoplasm Spent", craftsNeeded: 40 },
+        { upgrade: "-11 Ironwood Spent", craftsNeeded: 60 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 95 },
+      ],
     },
   },
   {
@@ -31986,6 +38335,13 @@ db.blueprints.insertMany([
       workers: [
         { worker: "Priestess", workerLevel: 25 },
         { worker: "Wizard", workerLevel: 21 },
+      ],
+      upgrades: [
+        { upgrade: "-25% Craft Time Reduction", craftsNeeded: 10 },
+        { upgrade: "-58 Iron Spent", craftsNeeded: 26 },
+        { upgrade: "-12 Steel Spent", craftsNeeded: 46 },
+        { upgrade: "-12 Steel Spent", craftsNeeded: 70 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
   },
@@ -32024,6 +38380,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Iron Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Steel Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -32060,6 +38423,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
+      ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -32098,6 +38468,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Ironwood Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -32134,6 +38511,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
+      ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Fabric Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -32172,6 +38556,13 @@ db.blueprints.insertMany([
         { worker: "Wizard", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
       ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Herbs Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Oils Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
+      ],
     },
   },
   {
@@ -32208,6 +38599,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 28 },
         { worker: "Wizard", workerLevel: 24 },
         { worker: "Master", workerLevel: 21 },
+      ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-148 Leather Spent", craftsNeeded: 14 },
+        { upgrade: "-43 Fabric Spent", craftsNeeded: 26 },
+        { upgrade: "-14 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },
@@ -32246,6 +38644,13 @@ db.blueprints.insertMany([
         { worker: "Priestess", workerLevel: 29 },
         { worker: "Wizard", workerLevel: 25 },
         { worker: "Master", workerLevel: 22 },
+      ],
+      upgrades: [
+        { upgrade: "-30% Craft Time Reduction", craftsNeeded: 6 },
+        { upgrade: "-155 Wood Spent", craftsNeeded: 14 },
+        { upgrade: "-45 Ironwood Spent", craftsNeeded: 26 },
+        { upgrade: "-16 Jewels Spent", craftsNeeded: 40 },
+        { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
   },

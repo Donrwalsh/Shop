@@ -25,7 +25,19 @@ export interface Blueprint {
     merchantXpPerCraftingSecond: number;
     materials: CraftingMaterial[];
     workers: [BlueprintWorker, BlueprintWorker?, BlueprintWorker?];
+    upgrades: [
+      CraftUpgrade,
+      CraftUpgrade,
+      CraftUpgrade,
+      CraftUpgrade,
+      CraftUpgrade
+    ];
   };
+}
+
+interface CraftUpgrade {
+  upgrade: string;
+  craftsNeeded: number;
 }
 
 interface Material {

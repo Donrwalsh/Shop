@@ -176,6 +176,28 @@ async function main() {
                   ] as const)
                 : ([] as const)),
             ],
+            upgrades: [
+              {
+                upgrade: getBpVal(bp, headers, "Crafting Upgrade 1"),
+                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[0],
+              },
+              {
+                upgrade: getBpVal(bp, headers, "Crafting Upgrade 2"),
+                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[1],
+              },
+              {
+                upgrade: getBpVal(bp, headers, "Crafting Upgrade 3"),
+                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[2],
+              },
+              {
+                upgrade: getBpVal(bp, headers, "Crafting Upgrade 4"),
+                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[3],
+              },
+              {
+                upgrade: getBpVal(bp, headers, "Crafting Upgrade 5"),
+                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[4],
+              },
+            ],
           },
         } as Blueprint) +
         ",",
@@ -198,6 +220,7 @@ async function main() {
     `mongosh shop --eval 'printjson(db.blueprints.aggregate([{ "$sample": { size: 1 } }]))'`
   );
 
+  console.log("success");
   process.exit(0);
 }
 
