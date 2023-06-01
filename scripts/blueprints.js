@@ -23,6 +23,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "3.33",
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Iron", amount: 5 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 1 }],
     },
   },
   {
@@ -49,6 +50,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "3.00",
       merchantXpPerCraftingSecond: "7.58",
       materials: [{ resource: "Iron", amount: 9 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -78,6 +80,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 14 },
         { component: "Iron Pine Cone", amount: 2 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -108,6 +111,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 4 },
         { component: "Elven Wood", amount: 2 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 3 }],
     },
   },
   {
@@ -135,6 +139,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.63",
       merchantXpPerCraftingSecond: "8.70",
       materials: [{ resource: "Iron", amount: 17 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 3 }],
     },
   },
   {
@@ -165,6 +170,7 @@ db.blueprints.insertMany([
         { item: "Squire Sword", quality: "Normal", amount: 1 },
         { component: "Silver Dust", amount: 2 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 5 }],
     },
   },
   {
@@ -196,6 +202,7 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 2 },
         { component: "Iron Pine Cone", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 9 }],
     },
   },
   {
@@ -228,6 +235,7 @@ db.blueprints.insertMany([
         { item: "Cutlass", quality: "Normal", amount: 1 },
         { component: "Deep Pearl", amount: 1 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 11 }],
     },
   },
   {
@@ -260,6 +268,7 @@ db.blueprints.insertMany([
         { item: "Corrupted Element", quality: "Normal", amount: 1 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 11 }],
     },
   },
   {
@@ -290,6 +299,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 21 },
         { component: "White Sand", amount: 4 },
         { component: "Precious Gem", amount: 2 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 13 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -323,6 +336,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 4 },
         { component: "Iron Pine Cone", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -353,6 +370,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 36 },
         { resource: "Oil", amount: 18 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 17 },
+        { worker: "Master", workerLevel: 13 },
       ],
     },
   },
@@ -386,6 +407,10 @@ db.blueprints.insertMany([
         { component: "Ancient Marble", amount: 2 },
         { component: "Star Metal", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -417,6 +442,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 5 },
         { component: "Chronos Crystal", amount: 5 },
         { component: "Silk Scarab", amount: 2 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -450,6 +479,10 @@ db.blueprints.insertMany([
         { component: "Overgrown Vine", amount: 4 },
         { component: "Moon Crystal", amount: 7 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -481,6 +514,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 8 },
         { component: "Golden Artifact", amount: 3 },
         { component: "Chronos Crystal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
       ],
     },
   },
@@ -514,6 +551,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 4 },
         { component: "Star Metal", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -545,6 +586,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 12 },
         { component: "Spooky Ectoplasm", amount: 4 },
         { component: "Star Metal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
       ],
     },
   },
@@ -579,6 +624,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 4 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -612,6 +661,10 @@ db.blueprints.insertMany([
         { component: "Thread of Fate", amount: 3 },
         { component: "Overgrown Vine", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -644,6 +697,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 5 },
         { component: "Star Metal", amount: 6 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -675,6 +733,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 19 },
         { component: "Deep Coral", amount: 5 },
         { component: "Moon Crystal", amount: 6 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 18 },
       ],
     },
   },
@@ -709,6 +772,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 4 },
         { component: "Overgrown Vine", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -742,6 +810,11 @@ db.blueprints.insertMany([
         { component: "Deep Coral", amount: 4 },
         { component: "Precious Shell", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 26 },
+        { worker: "Master", workerLevel: 22 },
+        { worker: "Jeweler", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -773,6 +846,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 23 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
       ],
     },
   },
@@ -807,6 +885,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Zirconia Eggshell", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -840,6 +923,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -871,6 +959,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 22 },
       ],
     },
   },
@@ -905,6 +998,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -936,6 +1034,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 34 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Raw Obsidian", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Jeweler", workerLevel: 23 },
       ],
     },
   },
@@ -970,6 +1073,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Boreal Gale", amount: 5 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Jeweler", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -1003,6 +1111,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Carpenter", workerLevel: 26 },
+        { worker: "Master", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -1034,6 +1147,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Outsider's Claw", amount: 3 },
         { component: "Magma Core", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Jeweler", workerLevel: 25 },
       ],
     },
   },
@@ -1068,6 +1186,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Jeweler", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -1096,6 +1219,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 9 },
         { component: "Elven Wood", amount: 1 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -1125,6 +1249,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 14 },
         { component: "Elven Wood", amount: 2 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -1154,6 +1279,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 17 },
         { component: "Glow Shroom", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 3 }],
     },
   },
   {
@@ -1181,6 +1307,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.38",
       merchantXpPerCraftingSecond: "9.50",
       materials: [{ resource: "Wood", amount: 21 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 5 }],
     },
   },
   {
@@ -1210,6 +1337,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 30 },
         { component: "Silver Dust", amount: 4 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 7 }],
     },
   },
   {
@@ -1240,6 +1368,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 34 },
         { component: "Precious Gem", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 8 }],
     },
   },
   {
@@ -1271,6 +1400,7 @@ db.blueprints.insertMany([
         { item: "Carved Branch", quality: "Normal", amount: 1 },
         { component: "Webbed Wing", amount: 4 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 8 }],
     },
   },
   {
@@ -1302,6 +1432,7 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
         { component: "Elven Wood", amount: 2 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 10 }],
     },
   },
   {
@@ -1334,6 +1465,7 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 3 },
         { component: "Iron Pine Cone", amount: 4 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 12 }],
     },
   },
   {
@@ -1365,6 +1497,7 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 14 },
         { component: "Rustwyrm Scale", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 12 }],
     },
   },
   {
@@ -1395,6 +1528,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 25 },
         { item: "Hatchet", quality: "Normal", amount: 1 },
         { component: "Moon Crystal", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 14 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -1428,6 +1565,10 @@ db.blueprints.insertMany([
         { item: "Tomahawk", quality: "Normal", amount: 1 },
         { component: "Webbed Wing", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -1460,6 +1601,10 @@ db.blueprints.insertMany([
         { component: "Star Metal", amount: 3 },
         { component: "Rustwyrm Scale", amount: 5 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 17 },
+        { worker: "Master", workerLevel: 13 },
+      ],
     },
   },
   {
@@ -1490,6 +1635,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 39 },
         { component: "Star Metal", amount: 1 },
         { component: "White Sand", amount: 8 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
       ],
     },
   },
@@ -1522,6 +1671,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 8 },
         { item: "Skull Crusher", quality: "Normal", amount: 1 },
         { component: "Ancient Marble", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -1556,6 +1709,10 @@ db.blueprints.insertMany([
         { component: "Bronze Fang", amount: 7 },
         { component: "White Sand", amount: 7 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -1588,6 +1745,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 3 },
         { component: "Bronze Fang", amount: 8 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -1619,6 +1780,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 16 },
         { component: "Thread of Fate", amount: 4 },
         { component: "White Sand", amount: 6 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
       ],
     },
   },
@@ -1653,6 +1818,10 @@ db.blueprints.insertMany([
         { component: "Spooky Ectoplasm", amount: 4 },
         { component: "Moon Crystal", amount: 5 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -1684,6 +1853,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { component: "Deep Coral", amount: 5 },
         { component: "Evil Eye", amount: 6 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Carpenter", workerLevel: 18 },
       ],
     },
   },
@@ -1717,6 +1891,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 4 },
         { component: "Overgrown Vine", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Carpenter", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -1748,6 +1927,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 29 },
         { component: "Opulent Jewel", amount: 5 },
         { component: "Chronos Crystal", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 26 },
+        { worker: "Master", workerLevel: 22 },
+        { worker: "Carpenter", workerLevel: 19 },
       ],
     },
   },
@@ -1782,6 +1966,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 3 },
         { component: "Ghastly Pennant", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 26 },
+        { worker: "Master", workerLevel: 22 },
+        { worker: "Carpenter", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -1813,6 +2002,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Grim Talon", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Carpenter", workerLevel: 20 },
       ],
     },
   },
@@ -1847,6 +2041,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Precious Shell", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Carpenter", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -1879,6 +2078,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 29 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Grim Talon", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Carpenter", workerLevel: 20 },
       ],
     },
   },
@@ -1913,6 +2117,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Carpenter", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -1944,6 +2153,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 2 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Carpenter", workerLevel: 22 },
       ],
     },
   },
@@ -1978,6 +2192,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Carpenter", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -2010,6 +2229,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 46 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Carpenter", workerLevel: 23 },
       ],
     },
   },
@@ -2044,6 +2268,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Carpenter", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -2076,6 +2305,11 @@ db.blueprints.insertMany([
         { component: "Astral Fabric", amount: 3 },
         { component: "Zirconia Eggshell", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Carpenter", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -2101,6 +2335,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.50",
       merchantXpPerCraftingSecond: "12.50",
       materials: [{ resource: "Iron", amount: 5 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 1 }],
     },
   },
   {
@@ -2130,6 +2365,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 8 },
         { component: "Elven Wood", amount: 1 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -2159,6 +2395,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 8 },
         { component: "Iron Pine Cone", amount: 1 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -2186,6 +2423,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "5.08",
       merchantXpPerCraftingSecond: "7.38",
       materials: [{ resource: "Iron", amount: 13 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 1 }],
     },
   },
   {
@@ -2215,6 +2453,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 14 },
         { component: "Glow Shroom", amount: 2 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 3 }],
     },
   },
   {
@@ -2244,6 +2483,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 27 },
         { component: "Silver Dust", amount: 4 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 7 }],
     },
   },
   {
@@ -2274,6 +2514,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 37 },
         { component: "Precious Gem", amount: 4 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 9 }],
     },
   },
   {
@@ -2303,6 +2544,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 44 },
         { resource: "Steel", amount: 9 },
         { component: "Rustwyrm Scale", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 10 },
+        { worker: "Jeweler", workerLevel: 1 },
       ],
     },
   },
@@ -2334,6 +2579,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 54 },
         { resource: "Steel", amount: 11 },
         { component: "Deep Pearl", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 11 },
+        { worker: "Jeweler", workerLevel: 4 },
       ],
     },
   },
@@ -2367,6 +2616,10 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 3 },
         { component: "Webbed Wing", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 12 },
+        { worker: "Jeweler", workerLevel: 6 },
+      ],
     },
   },
   {
@@ -2397,6 +2650,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 22 },
         { component: "Bronze Fang", amount: 3 },
         { component: "Silver Dust", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 14 },
+        { worker: "Jeweler", workerLevel: 1 },
       ],
     },
   },
@@ -2430,6 +2687,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 3 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 15 },
+        { worker: "Jeweler", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -2460,6 +2721,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 35 },
         { item: "Stealth Knife", quality: "Normal", amount: 1 },
         { component: "Evil Eye", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 18 },
+        { worker: "Jeweler", workerLevel: 14 },
       ],
     },
   },
@@ -2493,6 +2758,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 4 },
         { component: "Star Metal", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 19 },
+        { worker: "Herbalist", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -2523,6 +2792,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 46 },
         { component: "Overgrown Vine", amount: 5 },
         { component: "Silk Scarab", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 17 },
       ],
     },
   },
@@ -2555,6 +2828,10 @@ db.blueprints.insertMany([
         { component: "Ancient Marble", amount: 5 },
         { component: "Bronze Fang", amount: 8 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -2585,6 +2862,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 60 },
         { component: "Spooky Ectoplasm", amount: 5 },
         { component: "Ancient Marble", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Jeweler", workerLevel: 18 },
       ],
     },
   },
@@ -2618,6 +2899,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 15 },
         { component: "Ghastly Pennant", amount: 5 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 24 },
+        { worker: "Jeweler", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -2648,6 +2933,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 69 },
         { component: "Golden Artifact", amount: 5 },
         { component: "Chronos Crystal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 24 },
+        { worker: "Jeweler", workerLevel: 20 },
       ],
     },
   },
@@ -2680,6 +2969,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 5 },
         { component: "Bronze Fang", amount: 6 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -2710,6 +3004,11 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 79 },
         { component: "Crystal Lullaby", amount: 5 },
         { component: "Moon Crystal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Master", workerLevel: 18 },
       ],
     },
   },
@@ -2743,6 +3042,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 20 },
         { component: "Deep Coral", amount: 5 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -2775,6 +3079,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 5 },
         { component: "Living Root", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 26 },
+        { worker: "Jeweler", workerLevel: 22 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -2806,6 +3115,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -2836,6 +3150,11 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 88 },
         { component: "Sigil of Grace", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Master", workerLevel: 20 },
       ],
     },
   },
@@ -2870,6 +3189,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -2901,6 +3225,11 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 93 },
         { component: "Sigil of Grace", amount: 1 },
         { component: "Precious Shell", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Master", workerLevel: 20 },
       ],
     },
   },
@@ -2935,6 +3264,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -2966,6 +3300,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Master", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -2996,6 +3335,11 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 102 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Master", workerLevel: 22 },
       ],
     },
   },
@@ -3030,6 +3374,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Master", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -3061,6 +3410,11 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 110 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Master", workerLevel: 23 },
       ],
     },
   },
@@ -3094,6 +3448,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 3 },
         { component: "Raw Obsidian", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 32 },
+        { worker: "Jeweler", workerLevel: 28 },
+        { worker: "Master", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -3120,6 +3479,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "3.33",
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Wood", amount: 5 }],
+      workers: [{ worker: "Carpenter", workerLevel: 1 }],
     },
   },
   {
@@ -3149,6 +3509,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 8 },
         { item: "Cudgel", quality: "Normal", amount: 1 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -3179,6 +3540,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 3 },
         { component: "Elven Wood", amount: 1 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -3208,6 +3570,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 13 },
         { component: "Elven Wood", amount: 2 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -3238,6 +3601,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 4 },
         { resource: "Wood", amount: 14 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 3 }],
     },
   },
   {
@@ -3268,6 +3632,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 19 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 5 }],
     },
   },
   {
@@ -3299,6 +3664,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 23 },
         { component: "Webbed Wing", amount: 2 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 6 }],
     },
   },
   {
@@ -3329,6 +3695,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 7 },
         { component: "Rustwyrm Scale", amount: 2 },
         { component: "Iron Pine Cone", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 9 },
+        { worker: "Priestess", workerLevel: 1 },
       ],
     },
   },
@@ -3361,6 +3731,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 11 },
         { component: "Precious Gem", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 11 },
+        { worker: "Priestess", workerLevel: 4 },
+      ],
     },
   },
   {
@@ -3390,6 +3764,10 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 77 },
         { resource: "Ironwood", amount: 19 },
         { component: "White Sand", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 13 },
+        { worker: "Priestess", workerLevel: 8 },
       ],
     },
   },
@@ -3424,6 +3802,10 @@ db.blueprints.insertMany([
         { item: "Cudgel", quality: "Normal", amount: 1 },
         { component: "Bronze Fang", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 15 },
+        { worker: "Priestess", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -3456,6 +3838,10 @@ db.blueprints.insertMany([
         { item: "Morning Star", quality: "Normal", amount: 1 },
         { component: "Evil Eye", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
+      ],
     },
   },
   {
@@ -3486,6 +3872,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 35 },
         { item: "Morning Star", quality: "Normal", amount: 1 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 18 },
+        { worker: "Priestess", workerLevel: 14 },
       ],
     },
   },
@@ -3519,6 +3909,10 @@ db.blueprints.insertMany([
         { component: "Star Metal", amount: 4 },
         { component: "Evil Eye", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 19 },
+        { worker: "Priestess", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -3550,6 +3944,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 6 },
         { component: "Overgrown Vine", amount: 5 },
         { component: "Living Root", amount: 8 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
       ],
     },
   },
@@ -3584,6 +3982,10 @@ db.blueprints.insertMany([
         { component: "Overgrown Vine", amount: 4 },
         { component: "Evil Eye", amount: 2 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 22 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -3617,6 +4019,10 @@ db.blueprints.insertMany([
         { component: "Ancient Marble", amount: 5 },
         { component: "Deep Pearl", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 22 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -3648,6 +4054,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 10 },
         { component: "Ghastly Pennant", amount: 4 },
         { component: "Rustwyrm Scale", amount: 10 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 22 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -3682,6 +4092,10 @@ db.blueprints.insertMany([
         { component: "Thread of Fate", amount: 3 },
         { component: "Star Metal", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -3715,6 +4129,10 @@ db.blueprints.insertMany([
         { component: "Spooky Ectoplasm", amount: 5 },
         { component: "Precious Gem", amount: 8 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 24 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -3747,6 +4165,11 @@ db.blueprints.insertMany([
         { component: "Deep Coral", amount: 5 },
         { component: "Ancient Marble", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -3777,6 +4200,11 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 74 },
         { resource: "Mana", amount: 17 },
         { component: "Opulent Jewel", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
       ],
     },
   },
@@ -3811,6 +4239,11 @@ db.blueprints.insertMany([
         { component: "Deep Coral", amount: 4 },
         { component: "Moon Crystal", amount: 5 },
       ],
+      workers: [
+        { worker: "Moon Dragon", workerLevel: 25 },
+        { worker: "Carpenter", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -3843,6 +4276,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -3874,6 +4312,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 23 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
       ],
     },
   },
@@ -3908,6 +4351,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Deep Coral", amount: 6 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -3941,6 +4389,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -3972,6 +4425,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 34 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 2 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
       ],
     },
   },
@@ -4006,6 +4464,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -4039,6 +4502,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 31 },
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -4070,6 +4538,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Outsider's Claw", amount: 3 },
         { component: "Sigil of Might", amount: 2 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 32 },
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
       ],
     },
   },
@@ -4104,6 +4577,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 3 },
         { component: "Thread of Fate", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 32 },
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -4129,6 +4607,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "2.71",
       merchantXpPerCraftingSecond: "7.43",
       materials: [{ resource: "Wood", amount: 9 }],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -4158,6 +4637,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 14 },
         { component: "Elven Wood", amount: 1 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -4187,6 +4667,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 21 },
         { component: "Iron Pine Cone", amount: 3 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 5 }],
     },
   },
   {
@@ -4217,6 +4698,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 13 },
         { resource: "Wood", amount: 26 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 6 }],
     },
   },
   {
@@ -4248,6 +4730,7 @@ db.blueprints.insertMany([
         { item: "Hunting Spear", quality: "Normal", amount: 1 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 8 }],
     },
   },
   {
@@ -4278,6 +4761,7 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 12 },
         { component: "Rustwyrm Scale", amount: 4 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 11 }],
     },
   },
   {
@@ -4309,6 +4793,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 18 },
         { component: "Precious Gem", amount: 6 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 12 }],
     },
   },
   {
@@ -4341,6 +4826,7 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 21 },
         { component: "Living Root", amount: 5 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 13 }],
     },
   },
   {
@@ -4372,6 +4858,10 @@ db.blueprints.insertMany([
         { component: "Bronze Fang", amount: 4 },
         { component: "Iron Pine Cone", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 14 },
+        { worker: "Jeweler", workerLevel: 10 },
+      ],
     },
   },
   {
@@ -4402,6 +4892,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 29 },
         { item: "Magic Potion", quality: "Normal", amount: 1 },
         { component: "Moon Crystal", amount: 3 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 15 },
+        { worker: "Jeweler", workerLevel: 11 },
       ],
     },
   },
@@ -4436,6 +4930,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 4 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 16 },
+        { worker: "Jeweler", workerLevel: 12 },
+      ],
     },
   },
   {
@@ -4467,6 +4965,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 10 },
         { item: "Hunting Spear", quality: "Superior", amount: 1 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 18 },
+        { worker: "Jeweler", workerLevel: 14 },
       ],
     },
   },
@@ -4500,6 +5002,10 @@ db.blueprints.insertMany([
         { component: "Evil Eye", amount: 4 },
         { component: "Precious Gem", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 19 },
+        { worker: "Jeweler", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -4530,6 +5036,10 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 170 },
         { resource: "Ironwood", amount: 43 },
         { component: "Star Metal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 19 },
+        { worker: "Jeweler", workerLevel: 15 },
       ],
     },
   },
@@ -4563,6 +5073,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 4 },
         { component: "White Sand", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -4595,6 +5109,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 8 },
         { component: "Overgrown Vine", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -4626,6 +5144,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 13 },
         { item: "Cutlass", quality: "Superior", amount: 1 },
         { component: "Ghastly Pennant", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 22 },
+        { worker: "Jeweler", workerLevel: 18 },
       ],
     },
   },
@@ -4660,6 +5182,10 @@ db.blueprints.insertMany([
         { component: "Ancient Marble", amount: 4 },
         { component: "Overgrown Vine", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -4691,6 +5217,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 16 },
         { component: "Golden Artifact", amount: 5 },
         { component: "Evil Eye", amount: 5 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 19 },
       ],
     },
   },
@@ -4724,6 +5254,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 4 },
         { component: "Chronos Crystal", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -4755,6 +5290,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { item: "Sun Pendant", quality: "Normal", amount: 1 },
         { component: "Precious Shell", amount: 5 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Master", workerLevel: 18 },
       ],
     },
   },
@@ -4789,6 +5329,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 4 },
         { component: "Silk Scarab", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -4820,6 +5365,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Grim Talon", amount: 3 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Master", workerLevel: 20 },
       ],
     },
   },
@@ -4854,6 +5404,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Ghastly Pennant", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -4887,6 +5442,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Precious Shell", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -4918,6 +5478,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { component: "Sigil of True Might", amount: 1 },
         { item: "Sacred Element", quality: "Normal", amount: 1 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 29 },
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Master", workerLevel: 22 },
       ],
     },
   },
@@ -4952,6 +5517,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 29 },
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Master", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -4985,6 +5555,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Crush Claw", amount: 2 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Master", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -5016,6 +5591,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 46 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Deep Coral", amount: 8 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Master", workerLevel: 23 },
       ],
     },
   },
@@ -5049,6 +5629,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 32 },
+        { worker: "Jeweler", workerLevel: 28 },
+        { worker: "Master", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -5080,6 +5665,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Astral Fabric", amount: 3 },
         { component: "Crush Claw", amount: 2 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 32 },
+        { worker: "Jeweler", workerLevel: 28 },
+        { worker: "Master", workerLevel: 25 },
       ],
     },
   },
@@ -5114,6 +5704,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 3 },
         { item: "Trishula", quality: "Superior", amount: 1 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 32 },
+        { worker: "Jeweler", workerLevel: 28 },
+        { worker: "Master", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -5142,6 +5737,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 7 },
         { component: "Elven Wood", amount: 1 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 1 }],
     },
   },
   {
@@ -5171,6 +5767,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 9 },
         { component: "Iron Pine Cone", amount: 1 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -5197,6 +5794,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "2.90",
       merchantXpPerCraftingSecond: "8.40",
       materials: [{ resource: "Wood", amount: 12 }],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -5227,6 +5825,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 4 },
         { component: "Elven Wood", amount: 3 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 3 }],
     },
   },
   {
@@ -5257,6 +5856,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 26 },
         { resource: "Leather", amount: 13 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 1 }],
     },
   },
   {
@@ -5287,6 +5887,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 15 },
         { component: "Webbed Wing", amount: 2 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 7 }],
     },
   },
   {
@@ -5318,6 +5919,7 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 8 },
         { component: "Precious Gem", amount: 3 },
       ],
+      workers: [{ worker: "Moon Dragon", workerLevel: 9 }],
     },
   },
   {
@@ -5349,6 +5951,7 @@ db.blueprints.insertMany([
         { item: "Elmwood Bow", quality: "Normal", amount: 1 },
         { component: "Living Root", amount: 3 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 10 }],
     },
   },
   {
@@ -5381,6 +5984,7 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 1 },
         { component: "Webbed Wing", amount: 4 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 12 }],
     },
   },
   {
@@ -5412,6 +6016,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 4 },
         { component: "Glow Shroom", amount: 7 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 14 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -5442,6 +6050,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 29 },
         { item: "Studded Gloves", quality: "Normal", amount: 1 },
         { component: "Bronze Fang", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 15 },
+        { worker: "Master", workerLevel: 11 },
       ],
     },
   },
@@ -5475,6 +6087,10 @@ db.blueprints.insertMany([
         { component: "Silk Scarab", amount: 4 },
         { component: "Moon Crystal", amount: 1 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -5507,6 +6123,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 43 },
         { component: "Star Metal", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -5538,6 +6158,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 6 },
         { item: "Oak Staff", quality: "Superior", amount: 1 },
         { component: "Overgrown Vine", amount: 5 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -5572,6 +6196,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 3 },
         { component: "Bronze Fang", amount: 6 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -5603,6 +6231,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 10 },
         { item: "Bloodvine", quality: "Normal", amount: 1 },
         { component: "Spooky Ectoplasm", amount: 5 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
       ],
     },
   },
@@ -5637,6 +6269,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 4 },
         { component: "Webbed Wing", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -5668,6 +6304,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 17 },
         { component: "Deep Coral", amount: 4 },
         { component: "Thread of Fate", amount: 5 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
       ],
     },
   },
@@ -5702,6 +6343,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 4 },
         { component: "Bronze Fang", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -5734,6 +6380,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -5765,6 +6416,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 25 },
         { component: "Opulent Jewel", amount: 5 },
         { component: "Grim Talon", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
       ],
     },
   },
@@ -5799,6 +6455,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { item: "Yumi", quality: "Normal", amount: 1 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -5831,6 +6492,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 27 },
         { component: "Sigil of Grace", amount: 1 },
         { component: "Precious Shell", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 28 },
+        { worker: "Master", workerLevel: 24 },
+        { worker: "Carpenter", workerLevel: 21 },
       ],
     },
   },
@@ -5865,6 +6531,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 28 },
+        { worker: "Master", workerLevel: 24 },
+        { worker: "Blacksmith", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -5896,6 +6567,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 34 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
       ],
     },
   },
@@ -5930,6 +6606,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -5963,6 +6644,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 31 },
+        { worker: "Master", workerLevel: 27 },
+        { worker: "Blacksmith", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -5995,6 +6681,11 @@ db.blueprints.insertMany([
         { component: "Astral Fabric", amount: 3 },
         { component: "Zirconia Eggshell", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -6026,6 +6717,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Outsider's Claw", amount: 3 },
         { item: "Mandragoroot", quality: "Superior", amount: 1 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
       ],
     },
   },
@@ -6060,6 +6756,11 @@ db.blueprints.insertMany([
         { component: "Astral Fabric", amount: 2 },
         { component: "Deep Coral", amount: 6 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 34 },
+        { worker: "Master", workerLevel: 30 },
+        { worker: "Blacksmith", workerLevel: 27 },
+      ],
     },
   },
   {
@@ -6086,6 +6787,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.33",
       materials: [{ resource: "Wood", amount: 5 }],
+      workers: [{ worker: "Carpenter", workerLevel: 1 }],
     },
   },
   {
@@ -6112,6 +6814,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "2.86",
       merchantXpPerCraftingSecond: "7.71",
       materials: [{ resource: "Wood", amount: 9 }],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -6141,6 +6844,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 14 },
         { component: "Elven Wood", amount: 2 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -6171,6 +6875,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 21 },
         { resource: "Herbs", amount: 11 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 1 }],
     },
   },
   {
@@ -6201,6 +6906,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 11 },
         { component: "Golden Artifact", amount: 1 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 5 }],
     },
   },
   {
@@ -6232,6 +6938,7 @@ db.blueprints.insertMany([
         { item: "Sturdy Cane", quality: "Normal", amount: 1 },
         { component: "Silver Dust", amount: 2 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 6 }],
     },
   },
   {
@@ -6262,6 +6969,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 34 },
         { component: "Precious Gem", amount: 2 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 8 }],
     },
   },
   {
@@ -6292,6 +7000,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 10 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 10 },
+        { worker: "Wizard", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -6321,6 +7033,10 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 60 },
         { resource: "Ironwood", amount: 12 },
         { component: "Living Root", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 11 },
+        { worker: "Wizard", workerLevel: 4 },
       ],
     },
   },
@@ -6354,6 +7070,10 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 4 },
         { component: "Elven Wood", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 11 },
+        { worker: "Wizard", workerLevel: 4 },
+      ],
     },
   },
   {
@@ -6384,6 +7104,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 25 },
         { component: "Moon Crystal", amount: 4 },
         { component: "Precious Gem", amount: 2 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 14 },
+        { worker: "Wizard", workerLevel: 10 },
       ],
     },
   },
@@ -6417,6 +7141,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 3 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 15 },
+        { worker: "Wizard", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -6447,6 +7175,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 36 },
         { resource: "Oil", amount: 18 },
         { component: "Evil Eye", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
       ],
     },
   },
@@ -6481,6 +7213,10 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 4 },
         { component: "Silver Dust", amount: 4 },
       ],
+      workers: [
+        { worker: "Moon Dragon", workerLevel: 19 },
+        { worker: "Wizard", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -6513,6 +7249,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 4 },
         { component: "Silk Scarab", amount: 2 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -6544,6 +7284,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 8 },
         { item: "Bronze Circlet", quality: "Superior", amount: 1 },
         { component: "Chronos Crystal", amount: 3 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
       ],
     },
   },
@@ -6578,6 +7322,10 @@ db.blueprints.insertMany([
         { component: "Ancient Marble", amount: 3 },
         { component: "Star Metal", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -6610,6 +7358,10 @@ db.blueprints.insertMany([
         { item: "Alloy Loop", quality: "Normal", amount: 4 },
         { component: "Ghastly Pennant", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 22 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -6641,6 +7393,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 16 },
         { component: "Spooky Ectoplasm", amount: 4 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 19 },
       ],
     },
   },
@@ -6675,6 +7431,10 @@ db.blueprints.insertMany([
         { component: "Thread of Fate", amount: 4 },
         { component: "Bronze Fang", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -6706,6 +7466,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 22 },
         { component: "Crystal Lullaby", amount: 5 },
         { component: "Ancient Marble", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -6740,6 +7505,11 @@ db.blueprints.insertMany([
         { item: "Wizard Staff", quality: "Normal", amount: 1 },
         { component: "Deep Coral", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -6771,6 +7541,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Sigil of Spark", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
       ],
     },
   },
@@ -6805,6 +7580,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -6838,6 +7618,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Silk Scarab", amount: 8 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -6870,6 +7655,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -6901,6 +7691,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 41 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Raw Obsidian", amount: 3 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
       ],
     },
   },
@@ -6935,6 +7730,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -6968,6 +7768,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Magma Core", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Wizard", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -6999,6 +7804,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 6 },
         { component: "Astral Fabric", amount: 2 },
         { component: "Boreal Gale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 34 },
+        { worker: "Wizard", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 27 },
       ],
     },
   },
@@ -7032,6 +7842,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 2 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 34 },
+        { worker: "Wizard", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 27 },
+      ],
     },
   },
   {
@@ -7058,6 +7873,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.38",
       merchantXpPerCraftingSecond: "9.81",
       materials: [{ resource: "Wood", amount: 9 }],
+      workers: [{ worker: "Scholar", workerLevel: 1 }],
     },
   },
   {
@@ -7087,6 +7903,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 16 },
         { component: "Elven Wood", amount: 2 },
       ],
+      workers: [{ worker: "Scholar", workerLevel: 1 }],
     },
   },
   {
@@ -7116,6 +7933,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 26 },
         { component: "Glow Shroom", amount: 4 },
       ],
+      workers: [{ worker: "Scholar", workerLevel: 1 }],
     },
   },
   {
@@ -7148,6 +7966,7 @@ db.blueprints.insertMany([
         { item: "Sturdy Cap", quality: "Normal", amount: 1 },
         { component: "Silver Dust", amount: 4 },
       ],
+      workers: [{ worker: "Scholar", workerLevel: 8 }],
     },
   },
   {
@@ -7179,6 +7998,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 12 },
         { resource: "Oil", amount: 9 },
         { component: "Deep Pearl", amount: 4 },
+      ],
+      workers: [
+        { worker: "Scholar", workerLevel: 11 },
+        { worker: "Wizard", workerLevel: 4 },
       ],
     },
   },
@@ -7213,6 +8036,10 @@ db.blueprints.insertMany([
         { item: "Mintyleaf Herb", quality: "Normal", amount: 1 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 12 },
+        { worker: "Wizard", workerLevel: 6 },
+      ],
     },
   },
   {
@@ -7246,6 +8073,10 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 5 },
         { component: "Elven Wood", amount: 6 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 14 },
+        { worker: "Herbalist", workerLevel: 10 },
+      ],
     },
   },
   {
@@ -7277,6 +8108,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 29 },
         { item: "Baton", quality: "Normal", amount: 1 },
         { component: "White Sand", amount: 6 },
+      ],
+      workers: [
+        { worker: "Scholar", workerLevel: 15 },
+        { worker: "Wizard", workerLevel: 11 },
       ],
     },
   },
@@ -7310,6 +8145,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 36 },
         { component: "Evil Eye", amount: 5 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 17 },
+        { worker: "Wizard", workerLevel: 13 },
+      ],
     },
   },
   {
@@ -7341,6 +8180,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 10 },
         { resource: "Ironwood", amount: 39 },
         { component: "Evil Eye", amount: 5 },
+      ],
+      workers: [
+        { worker: "Scholar", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
       ],
     },
   },
@@ -7375,6 +8218,10 @@ db.blueprints.insertMany([
         { item: "Song of Valor", quality: "Normal", amount: 2 },
         { component: "Ancient Marble", amount: 5 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -7407,6 +8254,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 16 },
         { component: "Spooky Ectoplasm", amount: 4 },
         { component: "Living Root", amount: 8 },
+      ],
+      workers: [
+        { worker: "Scholar", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 19 },
       ],
     },
   },
@@ -7441,6 +8292,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 3 },
         { component: "Moon Crystal", amount: 6 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 24 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -7473,6 +8328,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 25 },
         { item: "Monster Manual", quality: "Normal", amount: 1 },
         { component: "Crystal Lullaby", amount: 4 },
+      ],
+      workers: [
+        { worker: "Scholar", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -7507,6 +8367,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 4 },
         { component: "Chronos Crystal", amount: 2 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -7540,6 +8405,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -7571,6 +8441,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Opulent Jewel", amount: 5 },
         { component: "Zirconia Eggshell", amount: 4 },
+      ],
+      workers: [
+        { worker: "Scholar", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
       ],
     },
   },
@@ -7605,6 +8480,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Grim Talon", amount: 5 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -7637,6 +8517,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
+      ],
+      workers: [
+        { worker: "Scholar", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
       ],
     },
   },
@@ -7671,6 +8556,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Zirconia Eggshell", amount: 3 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -7703,6 +8593,11 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 60 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 3 },
+      ],
+      workers: [
+        { worker: "Scholar", workerLevel: 30 },
+        { worker: "Wizard", workerLevel: 26 },
+        { worker: "Cook", workerLevel: 23 },
       ],
     },
   },
@@ -7737,6 +8632,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Deep Coral", amount: 2 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 34 },
+        { worker: "Wizard", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 27 },
+      ],
     },
   },
   {
@@ -7763,6 +8663,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.20",
       merchantXpPerCraftingSecond: "7.70",
       materials: [{ resource: "Wood", amount: 8 }],
+      workers: [{ worker: "Engineer", workerLevel: 1 }],
     },
   },
   {
@@ -7789,6 +8690,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.31",
       merchantXpPerCraftingSecond: "10.77",
       materials: [{ resource: "Wood", amount: 13 }],
+      workers: [{ worker: "Engineer", workerLevel: 1 }],
     },
   },
   {
@@ -7818,6 +8720,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 19 },
         { component: "Elven Wood", amount: 3 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 1 }],
     },
   },
   {
@@ -7848,6 +8751,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 33 },
         { component: "Webbed Wing", amount: 3 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 7 }],
     },
   },
   {
@@ -7879,6 +8783,7 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 3 },
         { component: "Elven Wood", amount: 5 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 9 }],
     },
   },
   {
@@ -7911,6 +8816,7 @@ db.blueprints.insertMany([
         { item: "Mintyleaf Herb", quality: "Normal", amount: 2 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 10 }],
     },
   },
   {
@@ -7942,6 +8848,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 25 },
         { component: "Moon Crystal", amount: 3 },
         { component: "Webbed Wing", amount: 3 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 14 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -7975,6 +8885,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 4 },
         { component: "Living Root", amount: 3 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 16 },
+        { worker: "Master", workerLevel: 12 },
+      ],
     },
   },
   {
@@ -8006,6 +8920,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 39 },
         { item: "Arbalest", quality: "Normal", amount: 2 },
         { component: "Silk Scarab", amount: 5 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
       ],
     },
   },
@@ -8040,6 +8958,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 4 },
         { component: "Bronze Fang", amount: 4 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -8072,6 +8994,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 57 },
         { component: "Overgrown Vine", amount: 4 },
         { component: "White Sand", amount: 5 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -8106,6 +9032,10 @@ db.blueprints.insertMany([
         { item: "Heavy Crossbow", quality: "Normal", amount: 3 },
         { component: "Thread of Fate", amount: 3 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -8138,6 +9068,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { component: "Deep Coral", amount: 4 },
         { component: "Ancient Marble", amount: 3 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
       ],
     },
   },
@@ -8172,6 +9107,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 4 },
         { component: "Ghastly Pennant", amount: 2 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -8205,6 +9145,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -8236,6 +9181,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Opulent Jewel", amount: 5 },
         { component: "Boreal Gale", amount: 3 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
       ],
     },
   },
@@ -8270,6 +9220,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 5 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -8302,6 +9257,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
       ],
     },
   },
@@ -8336,6 +9296,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -8369,6 +9334,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { item: "Silver Thistle", quality: "Superior", amount: 1 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -8398,6 +9368,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 10 },
         { resource: "Wood", amount: 5 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 1 }],
     },
   },
   {
@@ -8427,6 +9398,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 15 },
         { resource: "Wood", amount: 7 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 1 }],
     },
   },
   {
@@ -8457,6 +9429,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 11 },
         { component: "Iron Pine Cone", amount: 3 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 1 }],
     },
   },
   {
@@ -8488,6 +9461,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 17 },
         { component: "Living Root", amount: 3 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 8 }],
     },
   },
   {
@@ -8519,6 +9493,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 20 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 9 }],
     },
   },
   {
@@ -8551,6 +9526,7 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 4 },
         { component: "Elven Wood", amount: 8 },
       ],
+      workers: [{ worker: "Engineer", workerLevel: 12 }],
     },
   },
   {
@@ -8582,6 +9558,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 29 },
         { component: "Moon Crystal", amount: 4 },
         { component: "Precious Gem", amount: 3 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -8615,6 +9595,10 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 5 },
         { component: "Moon Crystal", amount: 2 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 16 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -8646,6 +9630,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 33 },
         { component: "Deep Pearl", amount: 5 },
         { component: "White Sand", amount: 2 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 16 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -8680,6 +9668,10 @@ db.blueprints.insertMany([
         { component: "Star Metal", amount: 4 },
         { component: "White Sand", amount: 2 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 18 },
+        { worker: "Jeweler", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -8711,6 +9703,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 51 },
         { item: "Handgun", quality: "Normal", amount: 4 },
         { component: "Overgrown Vine", amount: 5 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -8745,6 +9741,10 @@ db.blueprints.insertMany([
         { item: "Ember Element", quality: "Normal", amount: 2 },
         { component: "Spooky Ectoplasm", amount: 4 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -8777,6 +9777,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 11 },
         { component: "Ghastly Pennant", amount: 3 },
         { component: "Evil Eye", amount: 5 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
       ],
     },
   },
@@ -8811,6 +9815,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 4 },
         { component: "Ancient Marble", amount: 3 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -8842,6 +9851,11 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 93 },
         { resource: "Jewels", amount: 17 },
         { component: "Precious Shell", amount: 5 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 26 },
+        { worker: "Master", workerLevel: 22 },
+        { worker: "Blacksmith", workerLevel: 19 },
       ],
     },
   },
@@ -8876,6 +9890,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -8907,6 +9926,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 19 },
         { component: "Opulent Jewel", amount: 5 },
         { component: "Grim Talon", amount: 4 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
       ],
     },
   },
@@ -8941,6 +9965,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -8973,6 +10002,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 27 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
       ],
     },
   },
@@ -9007,6 +10041,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -9040,6 +10079,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Overgrown Vine", amount: 8 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 31 },
+        { worker: "Master", workerLevel: 27 },
+        { worker: "Blacksmith", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -9071,6 +10115,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Outsider's Claw", amount: 3 },
         { component: "Zirconia Eggshell", amount: 3 },
+      ],
+      workers: [
+        { worker: "Engineer", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
       ],
     },
   },
@@ -9105,6 +10154,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Precious Shell", amount: 6 },
       ],
+      workers: [
+        { worker: "Engineer", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -9131,6 +10185,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "3.00",
       merchantXpPerCraftingSecond: "7.58",
       materials: [{ resource: "Herbs", amount: 9 }],
+      workers: [{ worker: "Herbalist", workerLevel: 1 }],
     },
   },
   {
@@ -9160,6 +10215,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 14 },
         { component: "Glow Shroom", amount: 2 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 2 }],
     },
   },
   {
@@ -9190,6 +10246,7 @@ db.blueprints.insertMany([
         { item: "Mintyleaf Herb", quality: "Normal", amount: 1 },
         { component: "Webbed Wing", amount: 2 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 5 }],
     },
   },
   {
@@ -9220,6 +10277,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 26 },
         { component: "Precious Gem", amount: 1 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 6 }],
     },
   },
   {
@@ -9249,6 +10307,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 34 },
         { component: "Living Root", amount: 2 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 8 }],
     },
   },
   {
@@ -9280,6 +10339,7 @@ db.blueprints.insertMany([
         { item: "Sweet Grass", quality: "Normal", amount: 1 },
         { component: "Deep Pearl", amount: 2 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 9 }],
     },
   },
   {
@@ -9310,6 +10370,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 12 },
         { component: "Deep Pearl", amount: 3 },
         { component: "Elven Wood", amount: 2 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 11 },
+        { worker: "Priestess", workerLevel: 4 },
       ],
     },
   },
@@ -9342,6 +10406,7 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 16 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 12 }],
     },
   },
   {
@@ -9375,6 +10440,7 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
         { component: "Precious Gem", amount: 2 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 13 }],
     },
   },
   {
@@ -9404,6 +10470,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 99 },
         { resource: "Oil", amount: 25 },
         { component: "Bronze Fang", amount: 4 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 14 },
+        { worker: "Priestess", workerLevel: 10 },
       ],
     },
   },
@@ -9437,6 +10507,10 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 3 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 15 },
+        { worker: "Priestess", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -9468,6 +10542,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 27 },
         { component: "White Sand", amount: 4 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 15 },
+        { worker: "Priestess", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -9498,6 +10576,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 36 },
         { component: "Silk Scarab", amount: 4 },
         { component: "Living Root", amount: 3 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
       ],
     },
   },
@@ -9531,6 +10613,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 6 },
         { component: "Moon Crystal", amount: 6 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 19 },
+        { worker: "Priestess", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -9562,6 +10648,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 5 },
         { item: "Witch's Outfit", quality: "Normal", amount: 1 },
         { component: "Chronos Crystal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
       ],
     },
   },
@@ -9595,6 +10685,10 @@ db.blueprints.insertMany([
         { component: "Overgrown Vine", amount: 5 },
         { component: "Deep Pearl", amount: 6 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -9626,6 +10720,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 10 },
         { item: "Healing Salve", quality: "Normal", amount: 2 },
         { component: "Thread of Fate", amount: 5 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 22 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -9660,6 +10758,10 @@ db.blueprints.insertMany([
         { component: "Overgrown Vine", amount: 6 },
         { component: "Silver Dust", amount: 8 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -9692,6 +10794,10 @@ db.blueprints.insertMany([
         { component: "Golden Artifact", amount: 5 },
         { component: "Spooky Ectoplasm", amount: 3 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 24 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -9723,6 +10829,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 19 },
         { component: "Deep Coral", amount: 5 },
         { component: "Silk Scarab", amount: 8 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
       ],
     },
   },
@@ -9757,6 +10868,11 @@ db.blueprints.insertMany([
         { item: "Bo Staff", quality: "Superior", amount: 2 },
         { component: "Crystal Lullaby", amount: 4 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 22 },
+        { worker: "Wizard", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -9789,6 +10905,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -9820,6 +10941,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 23 },
         { component: "Sigil of Spark", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
       ],
     },
   },
@@ -9854,6 +10980,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -9887,6 +11018,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Ancient Marble", amount: 8 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -9918,6 +11054,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Crush Claw", amount: 2 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 29 },
+        { worker: "Priestess", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 22 },
       ],
     },
   },
@@ -9952,6 +11093,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Spooky Ectoplasm", amount: 6 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 29 },
+        { worker: "Priestess", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -9983,6 +11129,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Precious Shell", amount: 5 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 29 },
+        { worker: "Priestess", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 22 },
       ],
     },
   },
@@ -10017,6 +11168,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 26 },
+        { worker: "Wizard", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -10048,6 +11204,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Astral Fabric", amount: 3 },
         { component: "Zirconia Eggshell", amount: 2 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 32 },
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 25 },
       ],
     },
   },
@@ -10082,6 +11243,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 3 },
         { component: "Precious Shell", amount: 4 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 32 },
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -10107,6 +11273,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "2.80",
       merchantXpPerCraftingSecond: "8.10",
       materials: [{ resource: "Herbs", amount: 12 }],
+      workers: [{ worker: "Herbalist", workerLevel: 2 }],
     },
   },
   {
@@ -10136,6 +11303,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 17 },
         { component: "Glow Shroom", amount: 2 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 3 }],
     },
   },
   {
@@ -10166,6 +11334,7 @@ db.blueprints.insertMany([
         { component: "Webbed Wing", amount: 3 },
         { component: "Glow Shroom", amount: 1 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 7 }],
     },
   },
   {
@@ -10196,6 +11365,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 34 },
         { item: "Healing Potion", quality: "Normal", amount: 1 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 8 }],
     },
   },
   {
@@ -10225,6 +11395,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 49 },
         { component: "Living Root", amount: 3 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 10 }],
     },
   },
   {
@@ -10256,6 +11427,7 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 2 },
         { component: "Glow Shroom", amount: 3 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 12 }],
     },
   },
   {
@@ -10287,6 +11459,7 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
         { component: "Precious Gem", amount: 2 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 13 }],
     },
   },
   {
@@ -10318,6 +11491,7 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 25 },
         { component: "Rustwyrm Scale", amount: 5 },
       ],
+      workers: [{ worker: "Herbalist", workerLevel: 14 }],
     },
   },
   {
@@ -10350,6 +11524,10 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 3 },
         { component: "Silver Dust", amount: 4 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 15 },
+        { worker: "Priestess", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -10380,6 +11558,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 29 },
         { component: "Moon Crystal", amount: 4 },
         { component: "Iron Pine Cone", amount: 5 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 15 },
+        { worker: "Priestess", workerLevel: 11 },
       ],
     },
   },
@@ -10413,6 +11595,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 5 },
         { item: "Warm Tea", quality: "Superior", amount: 1 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 16 },
+        { worker: "Priestess", workerLevel: 12 },
+      ],
     },
   },
   {
@@ -10443,6 +11629,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 36 },
         { component: "Evil Eye", amount: 5 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
+      ],
     },
   },
   {
@@ -10472,6 +11662,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 155 },
         { resource: "Oil", amount: 39 },
         { component: "Silk Scarab", amount: 5 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 18 },
+        { worker: "Priestess", workerLevel: 14 },
       ],
     },
   },
@@ -10504,6 +11698,10 @@ db.blueprints.insertMany([
         { item: "XL Magic Potion", quality: "Normal", amount: 1 },
         { component: "Moon Crystal", amount: 6 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 19 },
+        { worker: "Priestess", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -10535,6 +11733,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 7 },
         { component: "Chronos Crystal", amount: 4 },
         { component: "Moon Crystal", amount: 6 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
       ],
     },
   },
@@ -10569,6 +11771,10 @@ db.blueprints.insertMany([
         { item: "XL Healing Potion", quality: "Normal", amount: 1 },
         { component: "Overgrown Vine", amount: 4 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -10599,6 +11805,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 57 },
         { component: "Overgrown Vine", amount: 4 },
         { component: "Silk Scarab", amount: 5 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
       ],
     },
   },
@@ -10632,6 +11842,10 @@ db.blueprints.insertMany([
         { component: "Overgrown Vine", amount: 3 },
         { component: "Star Metal", amount: 3 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 22 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -10663,6 +11877,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 13 },
         { item: "Light Element", quality: "Superior", amount: 1 },
         { component: "Spooky Ectoplasm", amount: 5 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 22 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -10697,6 +11915,10 @@ db.blueprints.insertMany([
         { component: "Thread of Fate", amount: 3 },
         { component: "Overgrown Vine", amount: 3 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -10729,6 +11951,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 19 },
         { component: "Spooky Ectoplasm", amount: 5 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 24 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -10760,6 +11986,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 22 },
         { component: "Precious Shell", amount: 4 },
         { component: "Overgrown Vine", amount: 5 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
       ],
     },
   },
@@ -10794,6 +12025,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 4 },
         { component: "Evil Eye", amount: 3 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -10826,6 +12062,11 @@ db.blueprints.insertMany([
         { component: "Opulent Jewel", amount: 4 },
         { component: "Crystal Lullaby", amount: 4 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -10857,6 +12098,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Sigil of Spark", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
       ],
     },
   },
@@ -10891,6 +12137,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Crystal Lullaby", amount: 5 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -10924,6 +12175,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Overgrown Vine", amount: 10 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -10955,6 +12211,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 41 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 29 },
+        { worker: "Priestess", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 22 },
       ],
     },
   },
@@ -10989,6 +12250,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Chronos Crystal", amount: 5 },
       ],
+      workers: [
+        { worker: "Moon Dragon", workerLevel: 29 },
+        { worker: "Herbalist", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -11020,6 +12286,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 46 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Crystal Lullaby", amount: 6 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 26 },
+        { worker: "Wizard", workerLevel: 23 },
       ],
     },
   },
@@ -11054,6 +12325,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Crush Claw", amount: 2 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 26 },
+        { worker: "Sun Dragon", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -11087,6 +12363,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 2 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 31 },
+        { worker: "Priestess", workerLevel: 27 },
+        { worker: "Cook", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -11118,6 +12399,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Outsider's Claw", amount: 3 },
         { component: "Grim Talon", amount: 4 },
+      ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 32 },
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 25 },
       ],
     },
   },
@@ -11152,6 +12438,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 2 },
         { component: "Crystal Lullaby", amount: 4 },
       ],
+      workers: [
+        { worker: "Herbalist", workerLevel: 32 },
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -11178,6 +12469,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.57",
       merchantXpPerCraftingSecond: "7.07",
       materials: [{ resource: "Herbs", amount: 9 }],
+      workers: [{ worker: "Wizard", workerLevel: 1 }],
     },
   },
   {
@@ -11204,6 +12496,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "13.80",
       merchantXpPerCraftingSecond: "8.40",
       materials: [{ resource: "Herbs", amount: 12 }],
+      workers: [{ worker: "Wizard", workerLevel: 1 }],
     },
   },
   {
@@ -11233,6 +12526,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 16 },
         { item: "Breastplate", quality: "Normal", amount: 1 },
       ],
+      workers: [{ worker: "Wizard", workerLevel: 3 }],
     },
   },
   {
@@ -11263,6 +12557,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 26 },
         { component: "Precious Gem", amount: 1 },
       ],
+      workers: [{ worker: "Wizard", workerLevel: 6 }],
     },
   },
   {
@@ -11294,6 +12589,7 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 8 },
         { component: "Living Root", amount: 2 },
       ],
+      workers: [{ worker: "Wizard", workerLevel: 9 }],
     },
   },
   {
@@ -11326,6 +12622,7 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 10 },
         { component: "Silver Dust", amount: 5 },
       ],
+      workers: [{ worker: "Wizard", workerLevel: 10 }],
     },
   },
   {
@@ -11358,6 +12655,10 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
         { component: "Precious Gem", amount: 2 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 11 },
+        { worker: "Herbalist", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -11387,6 +12688,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 36 },
         { resource: "Herbs", amount: 71 },
         { component: "Rustwyrm Scale", amount: 5 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 12 },
+        { worker: "Herbalist", workerLevel: 6 },
       ],
     },
   },
@@ -11420,6 +12725,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 16 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 12 },
+        { worker: "Herbalist", workerLevel: 6 },
+      ],
     },
   },
   {
@@ -11451,6 +12760,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 25 },
         { component: "Moon Crystal", amount: 2 },
         { component: "White Sand", amount: 3 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 14 },
+        { worker: "Herbalist", workerLevel: 10 },
       ],
     },
   },
@@ -11485,6 +12798,10 @@ db.blueprints.insertMany([
         { item: "Magical Mistletoe", quality: "Normal", amount: 1 },
         { component: "White Sand", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 15 },
+        { worker: "Herbalist", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -11517,6 +12834,10 @@ db.blueprints.insertMany([
         { item: "Scroll of Storms", quality: "Normal", amount: 1 },
         { component: "Evil Eye", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 17 },
+        { worker: "Herbalist", workerLevel: 13 },
+      ],
     },
   },
   {
@@ -11548,6 +12869,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 155 },
         { resource: "Oil", amount: 39 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 18 },
+        { worker: "Herbalist", workerLevel: 14 },
       ],
     },
   },
@@ -11582,6 +12907,10 @@ db.blueprints.insertMany([
         { item: "Bubble Element", quality: "Normal", amount: 1 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 18 },
+        { worker: "Herbalist", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -11613,6 +12942,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 7 },
         { component: "Ancient Marble", amount: 4 },
         { component: "Silk Scarab", amount: 4 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Herbalist", workerLevel: 17 },
       ],
     },
   },
@@ -11647,6 +12980,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 4 },
         { component: "Living Root", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Herbalist", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -11678,6 +13015,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 13 },
         { component: "Thread of Fate", amount: 5 },
         { component: "Silver Dust", amount: 4 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 22 },
+        { worker: "Herbalist", workerLevel: 18 },
       ],
     },
   },
@@ -11712,6 +13053,10 @@ db.blueprints.insertMany([
         { component: "Spooky Ectoplasm", amount: 4 },
         { component: "Bronze Fang", amount: 6 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Herbalist", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -11744,6 +13089,10 @@ db.blueprints.insertMany([
         { component: "Golden Artifact", amount: 5 },
         { component: "Ancient Marble", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 24 },
+        { worker: "Herbalist", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -11775,6 +13124,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 22 },
         { item: "Bagua Board", quality: "Normal", amount: 1 },
         { component: "Precious Shell", amount: 4 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -11809,6 +13163,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 4 },
         { component: "Silk Scarab", amount: 2 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -11841,6 +13200,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 25 },
         { component: "Spooky Ectoplasm", amount: 6 },
         { component: "Webbed Wing", amount: 4 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -11875,6 +13239,11 @@ db.blueprints.insertMany([
         { item: "Noble Ring", quality: "Superior", amount: 2 },
         { component: "Crystal Lullaby", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -11907,6 +13276,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 27 },
+        { worker: "Herbalist", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -11938,6 +13312,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Sigil of Spark", amount: 1 },
         { component: "Precious Shell", amount: 5 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 27 },
+        { worker: "Herbalist", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
       ],
     },
   },
@@ -11972,6 +13351,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Thread of Fate", amount: 5 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 27 },
+        { worker: "Herbalist", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -12005,6 +13389,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Precious Shell", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 27 },
+        { worker: "Herbalist", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -12037,6 +13426,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { item: "Archivist Glasses", quality: "Normal", amount: 1 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Herbalist", workerLevel: 24 },
+        { worker: "Priestess", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -12068,6 +13462,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 46 },
         { component: "Sigil of True Spark", amount: 1 },
         { item: "Batrachite Stone", quality: "Normal", amount: 1 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 30 },
+        { worker: "Herbalist", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 23 },
       ],
     },
   },
@@ -12102,6 +13501,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Silk Scarab", amount: 8 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 30 },
+        { worker: "Herbalist", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -12134,6 +13538,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 40 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 31 },
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 24 },
       ],
     },
   },
@@ -12168,6 +13577,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 31 },
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -12199,6 +13613,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 40 },
         { component: "Opulent Jewel", amount: 6 },
         { item: "Luxurious Signet", quality: "Normal", amount: 1 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 31 },
+        { worker: "Herbalist", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 24 },
       ],
     },
   },
@@ -12232,6 +13651,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Thread of Fate", amount: 2 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 34 },
+        { worker: "Herbalist", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 27 },
+      ],
     },
   },
   {
@@ -12264,6 +13688,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 3 },
         { component: "Boreal Gale", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 34 },
+        { worker: "Herbalist", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 27 },
+      ],
     },
   },
   {
@@ -12290,6 +13719,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.33",
       materials: [{ resource: "Iron", amount: 5 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 1 }],
     },
   },
   {
@@ -12319,6 +13749,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 12 },
         { component: "Iron Pine Cone", amount: 1 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -12348,6 +13779,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 17 },
         { component: "Glow Shroom", amount: 4 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 3 }],
     },
   },
   {
@@ -12378,6 +13810,7 @@ db.blueprints.insertMany([
         { item: "Iron Mail", quality: "Normal", amount: 1 },
         { component: "Precious Gem", amount: 2 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 7 }],
     },
   },
   {
@@ -12408,6 +13841,7 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 10 },
         { component: "Rustwyrm Scale", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 10 }],
     },
   },
   {
@@ -12438,6 +13872,7 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 12 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 11 }],
     },
   },
   {
@@ -12470,6 +13905,10 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 3 },
         { component: "Iron Pine Cone", amount: 5 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 13 },
+        { worker: "Master", workerLevel: 8 },
+      ],
     },
   },
   {
@@ -12501,6 +13940,10 @@ db.blueprints.insertMany([
         { item: "Scale Armor", quality: "Normal", amount: 1 },
         { component: "Bronze Fang", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 14 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -12531,6 +13974,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 99 },
         { resource: "Herbs", amount: 25 },
         { component: "Living Root", amount: 6 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 14 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -12564,6 +14011,10 @@ db.blueprints.insertMany([
         { item: "Iron Mail", quality: "Normal", amount: 1 },
         { component: "Bronze Fang", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -12595,6 +14046,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 39 },
         { component: "Star Metal", amount: 4 },
         { component: "Silver Dust", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
       ],
     },
   },
@@ -12628,6 +14083,10 @@ db.blueprints.insertMany([
         { item: "Scholar's Tunic", quality: "Normal", amount: 1 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -12659,6 +14118,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 85 },
         { component: "Silk Scarab", amount: 4 },
         { component: "White Sand", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
       ],
     },
   },
@@ -12693,6 +14156,10 @@ db.blueprints.insertMany([
         { component: "Star Metal", amount: 4 },
         { component: "Bronze Fang", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 20 },
+        { worker: "Master", workerLevel: 16 },
+      ],
     },
   },
   {
@@ -12723,6 +14190,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 51 },
         { resource: "Jewels", amount: 7 },
         { component: "Ancient Marble", amount: 6 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -12757,6 +14228,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 3 },
         { component: "Moon Crystal", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -12790,6 +14265,10 @@ db.blueprints.insertMany([
         { component: "Ancient Marble", amount: 5 },
         { component: "White Sand", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -12822,6 +14301,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 4 },
         { component: "Moon Crystal", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -12853,6 +14336,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 16 },
         { component: "Ghastly Pennant", amount: 4 },
         { component: "Living Root", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
       ],
     },
   },
@@ -12887,6 +14374,10 @@ db.blueprints.insertMany([
         { component: "Thread of Fate", amount: 4 },
         { component: "Rustwyrm Scale", amount: 6 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -12918,6 +14409,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 25 },
         { component: "Deep Coral", amount: 4 },
         { component: "Chronos Crystal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Tailor", workerLevel: 18 },
       ],
     },
   },
@@ -12951,6 +14447,11 @@ db.blueprints.insertMany([
         { item: "Phoenix Tonic", quality: "Normal", amount: 2 },
         { component: "Precious Shell", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Tailor", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -12982,6 +14483,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 25 },
         { component: "Opulent Jewel", amount: 4 },
         { component: "Crystal Lullaby", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Tailor", workerLevel: 18 },
       ],
     },
   },
@@ -13016,6 +14522,11 @@ db.blueprints.insertMany([
         { component: "Deep Coral", amount: 4 },
         { component: "Chronos Crystal", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Tailor", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -13047,6 +14558,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Tailor", workerLevel: 20 },
       ],
     },
   },
@@ -13081,6 +14597,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Ghastly Pennant", amount: 6 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Tailor", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -13114,6 +14635,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { item: "Blaze Element", quality: "Normal", amount: 1 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Tailor", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -13145,6 +14671,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Tailor", workerLevel: 22 },
       ],
     },
   },
@@ -13179,6 +14710,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -13211,6 +14747,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 46 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Tailor", workerLevel: 23 },
       ],
     },
   },
@@ -13245,6 +14786,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Tailor", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -13276,6 +14822,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 6 },
         { component: "All-Seeing Eye", amount: 2 },
         { item: "Nightmare Element", quality: "Superior", amount: 1 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 34 },
+        { worker: "Master", workerLevel: 30 },
+        { worker: "Tailor", workerLevel: 27 },
       ],
     },
   },
@@ -13309,6 +14860,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 3 },
         { component: "Magma Core", amount: 1 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 34 },
+        { worker: "Master", workerLevel: 30 },
+        { worker: "Tailor", workerLevel: 27 },
+      ],
     },
   },
   {
@@ -13334,6 +14890,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.33",
       materials: [{ resource: "Leather", amount: 5 }],
+      workers: [{ worker: "Tailor", workerLevel: 1 }],
     },
   },
   {
@@ -13360,6 +14917,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "2.71",
       merchantXpPerCraftingSecond: "7.36",
       materials: [{ resource: "Leather", amount: 9 }],
+      workers: [{ worker: "Tailor", workerLevel: 2 }],
     },
   },
   {
@@ -13389,6 +14947,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 16 },
         { component: "Glow Shroom", amount: 3 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 3 }],
     },
   },
   {
@@ -13419,6 +14978,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 26 },
         { component: "Webbed Wing", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 6 }],
     },
   },
   {
@@ -13451,6 +15011,7 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
         { component: "Iron Pine Cone", amount: 4 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 8 }],
     },
   },
   {
@@ -13482,6 +15043,7 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 3 },
         { component: "Elven Wood", amount: 4 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 10 }],
     },
   },
   {
@@ -13514,6 +15076,7 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 3 },
         { component: "Webbed Wing", amount: 2 },
       ],
+      workers: [{ worker: "Moon Dragon", workerLevel: 11 }],
     },
   },
   {
@@ -13545,6 +15108,7 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 12 },
         { component: "Webbed Wing", amount: 8 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 11 }],
     },
   },
   {
@@ -13577,6 +15141,10 @@ db.blueprints.insertMany([
         { component: "Bronze Fang", amount: 3 },
         { component: "Webbed Wing", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 14 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -13608,6 +15176,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 29 },
         { item: "Horned Helm", quality: "Normal", amount: 1 },
         { component: "White Sand", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -13642,6 +15214,10 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 3 },
         { component: "Webbed Wing", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 15 },
+        { worker: "Blacksmith", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -13672,6 +15248,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 39 },
         { resource: "Oil", amount: 20 },
         { component: "Silk Scarab", amount: 5 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
       ],
     },
   },
@@ -13706,6 +15286,10 @@ db.blueprints.insertMany([
         { component: "Evil Eye", amount: 4 },
         { component: "Rustwyrm Scale", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -13737,6 +15321,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 51 },
         { item: "Studded Armor", quality: "Normal", amount: 1 },
         { component: "Overgrown Vine", amount: 6 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -13770,6 +15358,10 @@ db.blueprints.insertMany([
         { item: "Doublet", quality: "Normal", amount: 1 },
         { component: "Chronos Crystal", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -13801,6 +15393,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 10 },
         { component: "Thread of Fate", amount: 5 },
         { component: "Webbed Wing", amount: 8 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
       ],
     },
   },
@@ -13835,6 +15431,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 3 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -13866,6 +15466,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 19 },
         { component: "Deep Coral", amount: 4 },
         { component: "Thread of Fate", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
       ],
     },
   },
@@ -13900,6 +15505,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 3 },
         { component: "Silk Scarab", amount: 5 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -13933,6 +15543,11 @@ db.blueprints.insertMany([
         { item: "Ninja Garb", quality: "Normal", amount: 1 },
         { component: "Deep Coral", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 26 },
+        { worker: "Master", workerLevel: 22 },
+        { worker: "Blacksmith", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -13965,6 +15580,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -13996,6 +15616,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { component: "Opulent Jewel", amount: 5 },
         { component: "Grim Talon", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
       ],
     },
   },
@@ -14030,6 +15655,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Carpenter", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -14063,6 +15693,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -14095,6 +15730,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { item: "Rhino Spirit", quality: "Superior", amount: 1 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -14126,6 +15766,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 34 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
       ],
     },
   },
@@ -14160,6 +15805,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Magma Core", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -14193,6 +15843,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -14225,6 +15880,11 @@ db.blueprints.insertMany([
         { component: "Astral Fabric", amount: 3 },
         { component: "Grim Talon", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -14251,6 +15911,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "3.33",
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
+      workers: [{ worker: "Tailor", workerLevel: 1 }],
     },
   },
   {
@@ -14280,6 +15941,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 9 },
         { component: "Elven Wood", amount: 1 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 1 }],
     },
   },
   {
@@ -14310,6 +15972,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 8 },
         { component: "Glow Shroom", amount: 3 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 3 }],
     },
   },
   {
@@ -14340,6 +16003,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 13 },
         { component: "Precious Gem", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 6 }],
     },
   },
   {
@@ -14370,6 +16034,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 10 },
         { resource: "Oil", amount: 5 },
         { component: "Deep Pearl", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 10 },
+        { worker: "Wizard", workerLevel: 1 },
       ],
     },
   },
@@ -14402,6 +16070,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 12 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 11 },
+        { worker: "Wizard", workerLevel: 4 },
+      ],
     },
   },
   {
@@ -14432,6 +16104,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 71 },
         { resource: "Fabric", amount: 16 },
         { component: "Rustwyrm Scale", amount: 5 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 12 },
+        { worker: "Wizard", workerLevel: 6 },
       ],
     },
   },
@@ -14465,6 +16141,10 @@ db.blueprints.insertMany([
         { item: "Black Robe", quality: "Normal", amount: 1 },
         { component: "White Sand", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 14 },
+        { worker: "Wizard", workerLevel: 10 },
+      ],
     },
   },
   {
@@ -14494,6 +16174,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 113 },
         { resource: "Fabric", amount: 29 },
         { component: "Bronze Fang", amount: 5 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 15 },
+        { worker: "Wizard", workerLevel: 11 },
       ],
     },
   },
@@ -14528,6 +16212,10 @@ db.blueprints.insertMany([
         { item: "Black Robe", quality: "Normal", amount: 1 },
         { component: "White Sand", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 16 },
+        { worker: "Wizard", workerLevel: 12 },
+      ],
     },
   },
   {
@@ -14558,6 +16246,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 36 },
         { item: "Scroll of Sparks", quality: "Superior", amount: 1 },
         { component: "Silk Scarab", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 17 },
+        { worker: "Wizard", workerLevel: 13 },
       ],
     },
   },
@@ -14591,6 +16283,10 @@ db.blueprints.insertMany([
         { item: "Breeze Element", quality: "Superior", amount: 1 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -14622,6 +16318,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 8 },
         { component: "Overgrown Vine", amount: 4 },
         { component: "Moon Crystal", amount: 7 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
       ],
     },
   },
@@ -14655,6 +16355,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 62 },
         { component: "Ancient Marble", amount: 6 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 22 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -14687,6 +16391,10 @@ db.blueprints.insertMany([
         { component: "Golden Artifact", amount: 4 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -14718,6 +16426,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 13 },
         { component: "Thread of Fate", amount: 4 },
         { component: "Evil Eye", amount: 6 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 22 },
+        { worker: "Wizard", workerLevel: 18 },
       ],
     },
   },
@@ -14752,6 +16464,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 3 },
         { component: "White Sand", amount: 7 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -14785,6 +16501,10 @@ db.blueprints.insertMany([
         { component: "Spooky Ectoplasm", amount: 4 },
         { component: "Silk Scarab", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 24 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -14816,6 +16536,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 25 },
         { component: "Crystal Lullaby", amount: 4 },
         { component: "Ghastly Pennant", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -14849,6 +16574,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 25 },
         { component: "Precious Shell", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -14880,6 +16610,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Sigil of Spark", amount: 1 },
         { component: "Zirconia Eggshell", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
       ],
     },
   },
@@ -14914,6 +16649,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Crystal Lullaby", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -14947,6 +16687,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -14978,6 +16723,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 46 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Wizard", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 23 },
       ],
     },
   },
@@ -15012,6 +16762,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Wizard", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -15044,6 +16799,11 @@ db.blueprints.insertMany([
         { component: "Opulent Jewel", amount: 6 },
         { component: "Silk Scarab", amount: 10 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Wizard", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -15075,6 +16835,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 50 },
         { component: "Sigil of True Spark", amount: 1 },
         { item: "Monster Manual", quality: "Normal", amount: 2 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 31 },
+        { worker: "Wizard", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 24 },
       ],
     },
   },
@@ -15109,6 +16874,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 31 },
+        { worker: "Wizard", workerLevel: 27 },
+        { worker: "Priestess", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -15141,6 +16911,11 @@ db.blueprints.insertMany([
         { component: "Astral Fabric", amount: 3 },
         { component: "Boreal Gale", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 34 },
+        { worker: "Wizard", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 27 },
+      ],
     },
   },
   {
@@ -15166,6 +16941,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.33",
       materials: [{ resource: "Iron", amount: 5 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 1 }],
     },
   },
   {
@@ -15195,6 +16971,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 12 },
         { resource: "Leather", amount: 6 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -15224,6 +17001,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 17 },
         { component: "Iron Pine Cone", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 3 }],
     },
   },
   {
@@ -15253,6 +17031,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 26 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 6 }],
     },
   },
   {
@@ -15284,6 +17063,10 @@ db.blueprints.insertMany([
         { item: "Warrior Helmet", quality: "Normal", amount: 1 },
         { component: "Rustwyrm Scale", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 10 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -15313,6 +17096,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 60 },
         { resource: "Steel", amount: 12 },
         { component: "Rustwyrm Scale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 11 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -15344,6 +17131,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 60 },
         { resource: "Leather", amount: 30 },
         { component: "Deep Pearl", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 11 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -15377,6 +17168,10 @@ db.blueprints.insertMany([
         { component: "Bronze Fang", amount: 1 },
         { component: "Rustwyrm Scale", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 12 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -15407,6 +17202,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 25 },
         { component: "Bronze Fang", amount: 3 },
         { component: "Precious Gem", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 14 },
+        { worker: "Priestess", workerLevel: 10 },
       ],
     },
   },
@@ -15440,6 +17239,10 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 3 },
         { component: "Elven Wood", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 15 },
+        { worker: "Priestess", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -15471,6 +17274,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 33 },
         { component: "White Sand", amount: 3 },
         { component: "Deep Pearl", amount: 2 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 16 },
+        { worker: "Tailor", workerLevel: 12 },
       ],
     },
   },
@@ -15504,6 +17311,10 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 3 },
         { component: "Rustwyrm Scale", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 16 },
+        { worker: "Priestess", workerLevel: 12 },
+      ],
     },
   },
   {
@@ -15534,6 +17345,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 39 },
         { component: "Star Metal", amount: 4 },
         { component: "Bronze Fang", amount: 2 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
       ],
     },
   },
@@ -15567,6 +17382,10 @@ db.blueprints.insertMany([
         { component: "Evil Eye", amount: 3 },
         { component: "Star Metal", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -15597,6 +17416,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 170 },
         { resource: "Steel", amount: 43 },
         { component: "White Sand", amount: 10 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
       ],
     },
   },
@@ -15629,6 +17452,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 7 },
         { component: "Ancient Marble", amount: 6 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -15660,6 +17487,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 8 },
         { component: "Star Metal", amount: 4 },
         { component: "Silk Scarab", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -15694,6 +17525,10 @@ db.blueprints.insertMany([
         { item: "Feathered Hat", quality: "Normal", amount: 2 },
         { component: "Chronos Crystal", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -15725,6 +17560,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 13 },
         { component: "Ghastly Pennant", amount: 4 },
         { component: "Rustwyrm Scale", amount: 10 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
       ],
     },
   },
@@ -15759,6 +17598,10 @@ db.blueprints.insertMany([
         { component: "Thread of Fate", amount: 4 },
         { component: "Deep Pearl", amount: 5 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -15790,6 +17633,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { component: "Deep Coral", amount: 5 },
         { component: "Star Metal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 18 },
       ],
     },
   },
@@ -15824,6 +17672,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 4 },
         { component: "Webbed Wing", amount: 8 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -15856,6 +17709,11 @@ db.blueprints.insertMany([
         { component: "Opulent Jewel", amount: 5 },
         { component: "Silk Scarab", amount: 5 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -15887,6 +17745,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Grim Talon", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
       ],
     },
   },
@@ -15921,6 +17784,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { item: "Bo Staff", quality: "Normal", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -15954,6 +17822,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -15985,6 +17858,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 2 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 22 },
       ],
     },
   },
@@ -16019,6 +17897,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -16052,6 +17935,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Jeweler", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -16083,6 +17971,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Crush Claw", amount: 1 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Jeweler", workerLevel: 25 },
       ],
     },
   },
@@ -16117,6 +18010,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 2 },
         { component: "Thread of Fate", amount: 6 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Jeweler", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -16142,6 +18040,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
+      workers: [{ worker: "Tailor", workerLevel: 1 }],
     },
   },
   {
@@ -16171,6 +18070,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 9 },
         { resource: "Herbs", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 2 }],
     },
   },
   {
@@ -16197,6 +18097,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "2.71",
       merchantXpPerCraftingSecond: "7.07",
       materials: [{ resource: "Leather", amount: 9 }],
+      workers: [{ worker: "Tailor", workerLevel: 2 }],
     },
   },
   {
@@ -16226,6 +18127,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 16 },
         { component: "Glow Shroom", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 3 }],
     },
   },
   {
@@ -16256,6 +18158,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 21 },
         { component: "Webbed Wing", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 5 }],
     },
   },
   {
@@ -16287,6 +18190,7 @@ db.blueprints.insertMany([
         { item: "Leather Cap", quality: "Normal", amount: 1 },
         { component: "Living Root", amount: 3 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 9 }],
     },
   },
   {
@@ -16318,6 +18222,7 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 10 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 10 }],
     },
   },
   {
@@ -16350,6 +18255,7 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 10 },
         { component: "White Sand", amount: 3 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 10 }],
     },
   },
   {
@@ -16380,6 +18286,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 21 },
         { component: "White Sand", amount: 4 },
         { component: "Elven Wood", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 13 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -16413,6 +18323,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 4 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 14 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -16443,6 +18357,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 36 },
         { component: "Silk Scarab", amount: 3 },
         { component: "Moon Crystal", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 17 },
+        { worker: "Master", workerLevel: 13 },
       ],
     },
   },
@@ -16475,6 +18393,10 @@ db.blueprints.insertMany([
         { item: "Silk Hood", quality: "Normal", amount: 1 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -16505,6 +18427,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 170 },
         { resource: "Fabric", amount: 43 },
         { component: "Evil Eye", amount: 5 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
       ],
     },
   },
@@ -16537,6 +18463,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 5 },
         { component: "Overgrown Vine", amount: 4 },
         { component: "Evil Eye", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -16571,6 +18501,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 5 },
         { component: "Evil Eye", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -16604,6 +18538,10 @@ db.blueprints.insertMany([
         { item: "Feathered Hat", quality: "Superior", amount: 1 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -16636,6 +18574,10 @@ db.blueprints.insertMany([
         { item: "Savage Claws", quality: "Normal", amount: 1 },
         { component: "Ghastly Pennant", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -16667,6 +18609,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 14 },
         { item: "Raptoria", quality: "Superior", amount: 1 },
         { component: "Thread of Fate", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
       ],
     },
   },
@@ -16701,6 +18647,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 2 },
         { component: "Thread of Fate", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -16732,6 +18682,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 17 },
         { component: "Precious Shell", amount: 4 },
         { component: "Spooky Ectoplasm", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
       ],
     },
   },
@@ -16765,6 +18720,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 19 },
         { component: "Deep Coral", amount: 5 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -16797,6 +18757,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -16828,6 +18793,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 23 },
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
       ],
     },
   },
@@ -16862,6 +18832,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Precious Shell", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -16895,6 +18870,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { item: "Night Cowl", quality: "Superior", amount: 1 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -16927,6 +18907,11 @@ db.blueprints.insertMany([
         { component: "Opulent Jewel", amount: 5 },
         { component: "Zirconia Eggshell", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -16958,6 +18943,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
       ],
     },
   },
@@ -16992,6 +18982,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Crush Claw", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -17024,6 +19019,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 34 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Grim Talon", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
       ],
     },
   },
@@ -17058,6 +19058,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -17091,6 +19096,11 @@ db.blueprints.insertMany([
         { component: "Astral Fabric", amount: 2 },
         { component: "Boreal Gale", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -17123,6 +19133,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Sigil of Grace", amount: 1 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -17148,6 +19163,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
+      workers: [{ worker: "Tailor", workerLevel: 1 }],
     },
   },
   {
@@ -17174,6 +19190,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "2.71",
       merchantXpPerCraftingSecond: "7.07",
       materials: [{ resource: "Leather", amount: 9 }],
+      workers: [{ worker: "Tailor", workerLevel: 2 }],
     },
   },
   {
@@ -17204,6 +19221,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 4 },
         { component: "Glow Shroom", amount: 1 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 3 }],
     },
   },
   {
@@ -17234,6 +19252,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 17 },
         { component: "Iron Pine Cone", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 3 }],
     },
   },
   {
@@ -17264,6 +19283,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 5 },
         { component: "Silver Dust", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 5 }],
     },
   },
   {
@@ -17296,6 +19316,10 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 2 },
         { component: "Precious Gem", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 9 },
+        { worker: "Wizard", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -17325,6 +19349,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 49 },
         { resource: "Herbs", amount: 12 },
         { component: "Living Root", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 10 },
+        { worker: "Wizard", workerLevel: 1 },
       ],
     },
   },
@@ -17359,6 +19387,10 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 2 },
         { component: "Precious Gem", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 11 },
+        { worker: "Wizard", workerLevel: 4 },
+      ],
     },
   },
   {
@@ -17391,6 +19423,10 @@ db.blueprints.insertMany([
         { item: "Memento", quality: "Normal", amount: 1 },
         { component: "White Sand", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 13 },
+        { worker: "Wizard", workerLevel: 8 },
+      ],
     },
   },
   {
@@ -17422,6 +19458,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 99 },
         { item: "Sweet Grass", quality: "Normal", amount: 2 },
         { component: "Living Root", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 14 },
+        { worker: "Wizard", workerLevel: 10 },
       ],
     },
   },
@@ -17456,6 +19496,10 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 3 },
         { component: "Glow Shroom", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 15 },
+        { worker: "Wizard", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -17485,6 +19529,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 141 },
         { resource: "Fabric", amount: 36 },
         { component: "Silk Scarab", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 17 },
+        { worker: "Wizard", workerLevel: 13 },
       ],
     },
   },
@@ -17516,6 +19564,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 155 },
         { resource: "Fabric", amount: 39 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
       ],
     },
   },
@@ -17549,6 +19601,10 @@ db.blueprints.insertMany([
         { component: "Silk Scarab", amount: 3 },
         { component: "Moon Crystal", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -17580,6 +19636,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 7 },
         { item: "Silver Band", quality: "Normal", amount: 1 },
         { component: "Chronos Crystal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
       ],
     },
   },
@@ -17613,6 +19673,10 @@ db.blueprints.insertMany([
         { component: "Golden Artifact", amount: 4 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 22 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -17644,6 +19708,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 16 },
         { item: "Tome of Secrets", quality: "Normal", amount: 1 },
         { component: "Thread of Fate", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 19 },
       ],
     },
   },
@@ -17678,6 +19746,10 @@ db.blueprints.insertMany([
         { item: "Silver Thistle", quality: "Superior", amount: 1 },
         { component: "Spooky Ectoplasm", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 24 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -17711,6 +19783,10 @@ db.blueprints.insertMany([
         { item: "Monster Manual", quality: "Superior", amount: 1 },
         { component: "Ghastly Pennant", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 24 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -17742,6 +19818,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 22 },
         { component: "Precious Shell", amount: 4 },
         { component: "Thread of Fate", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -17776,6 +19857,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 3 },
         { component: "Ghastly Pennant", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -17807,6 +19893,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Sigil of Spark", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
       ],
     },
   },
@@ -17841,6 +19932,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Precious Shell", amount: 5 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -17874,6 +19970,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -17905,6 +20006,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 41 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Crush Claw", amount: 2 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
       ],
     },
   },
@@ -17939,6 +20045,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -17971,6 +20082,11 @@ db.blueprints.insertMany([
         { component: "Opulent Jewel", amount: 6 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -18002,6 +20118,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 46 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Wizard", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 23 },
       ],
     },
   },
@@ -18036,6 +20157,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Crystal Lullaby", amount: 7 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Wizard", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -18067,6 +20193,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Astral Fabric", amount: 3 },
         { component: "Crystal Lullaby", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 32 },
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Priestess", workerLevel: 25 },
       ],
     },
   },
@@ -18100,6 +20231,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Sigil of Spark", amount: 1 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 32 },
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Priestess", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -18125,6 +20261,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Iron", amount: 5 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 1 }],
     },
   },
   {
@@ -18154,6 +20291,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 12 },
         { component: "Iron Pine Cone", amount: 1 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -18184,6 +20322,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 9 },
         { component: "Iron Pine Cone", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 3 }],
     },
   },
   {
@@ -18215,6 +20354,7 @@ db.blueprints.insertMany([
         { item: "Plated Gauntlets", quality: "Normal", amount: 1 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 7 }],
     },
   },
   {
@@ -18246,6 +20386,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 9 },
         { component: "Webbed Wing", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 8 }],
     },
   },
   {
@@ -18275,6 +20416,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 60 },
         { resource: "Steel", amount: 12 },
         { component: "Rustwyrm Scale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 11 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -18307,6 +20452,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 16 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 12 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -18337,6 +20486,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 85 },
         { resource: "Steel", amount: 25 },
         { component: "Precious Gem", amount: 6 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 13 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -18370,6 +20523,10 @@ db.blueprints.insertMany([
         { component: "Bronze Fang", amount: 3 },
         { component: "Precious Gem", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 14 },
+        { worker: "Priestess", workerLevel: 10 },
+      ],
     },
   },
   {
@@ -18399,6 +20556,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 113 },
         { resource: "Steel", amount: 29 },
         { component: "White Sand", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 15 },
+        { worker: "Priestess", workerLevel: 11 },
       ],
     },
   },
@@ -18432,6 +20593,7 @@ db.blueprints.insertMany([
         { item: "Thief's Gloves", quality: "Normal", amount: 1 },
         { component: "Moon Crystal", amount: 4 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 15 }],
     },
   },
   {
@@ -18462,6 +20624,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 70 },
         { resource: "Steel", amount: 36 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 17 },
+        { worker: "Master", workerLevel: 13 },
       ],
     },
   },
@@ -18495,6 +20661,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 39 },
         { component: "Evil Eye", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -18526,6 +20696,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 160 },
         { resource: "Oil", amount: 42 },
         { component: "Silk Scarab", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
       ],
     },
   },
@@ -18559,6 +20733,10 @@ db.blueprints.insertMany([
         { component: "Ancient Marble", amount: 5 },
         { component: "White Sand", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -18590,6 +20768,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 13 },
         { component: "Ghastly Pennant", amount: 4 },
         { component: "Bronze Fang", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
       ],
     },
   },
@@ -18623,6 +20805,10 @@ db.blueprints.insertMany([
         { component: "Golden Artifact", amount: 5 },
         { component: "Precious Gem", amount: 16 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -18654,6 +20840,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { component: "Deep Coral", amount: 5 },
         { component: "Overgrown Vine", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 18 },
       ],
     },
   },
@@ -18688,6 +20879,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 4 },
         { component: "Rustwyrm Scale", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -18719,6 +20915,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
       ],
     },
   },
@@ -18753,6 +20954,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Ancient Marble", amount: 6 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -18785,6 +20991,11 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 254 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
       ],
     },
   },
@@ -18819,6 +21030,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Crystal Lullaby", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -18850,6 +21066,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 46 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Jeweler", workerLevel: 23 },
       ],
     },
   },
@@ -18884,6 +21105,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Jeweler", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -18915,6 +21141,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 46 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Magma Core", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Jeweler", workerLevel: 23 },
       ],
     },
   },
@@ -18949,6 +21180,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 31 },
+        { worker: "Master", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -18980,6 +21216,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Outsider's Claw", amount: 3 },
         { component: "Raw Obsidian", amount: 2 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Jeweler", workerLevel: 25 },
       ],
     },
   },
@@ -19014,6 +21255,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 2 },
         { component: "Zirconia Eggshell", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Jeweler", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -19040,6 +21286,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
+      workers: [{ worker: "Tailor", workerLevel: 1 }],
     },
   },
   {
@@ -19066,6 +21313,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "3.00",
       merchantXpPerCraftingSecond: "8.00",
       materials: [{ resource: "Leather", amount: 9 }],
+      workers: [{ worker: "Tailor", workerLevel: 2 }],
     },
   },
   {
@@ -19095,6 +21343,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 14 },
         { component: "Glow Shroom", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 2 }],
     },
   },
   {
@@ -19125,6 +21374,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 4 },
         { item: "Bracers", quality: "Normal", amount: 1 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 3 }],
     },
   },
   {
@@ -19156,6 +21406,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 5 },
         { component: "Iron Pine Cone", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 5 }],
     },
   },
   {
@@ -19186,6 +21437,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 26 },
         { component: "Webbed Wing", amount: 3 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 6 }],
     },
   },
   {
@@ -19218,6 +21470,10 @@ db.blueprints.insertMany([
         { item: "Iron Armguards", quality: "Normal", amount: 1 },
         { component: "Precious Gem", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 8 },
+        { worker: "Blacksmith", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -19248,6 +21504,7 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 10 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 10 }],
     },
   },
   {
@@ -19279,6 +21536,7 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 12 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 11 }],
     },
   },
   {
@@ -19310,6 +21568,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 21 },
         { component: "Bronze Fang", amount: 2 },
         { component: "Living Root", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 13 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -19343,6 +21605,10 @@ db.blueprints.insertMany([
         { component: "Bronze Fang", amount: 2 },
         { component: "Moon Crystal", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -19373,6 +21639,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 36 },
         { component: "Evil Eye", amount: 3 },
         { component: "Silk Scarab", amount: 2 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 17 },
+        { worker: "Master", workerLevel: 13 },
       ],
     },
   },
@@ -19406,6 +21676,10 @@ db.blueprints.insertMany([
         { component: "Bronze Fang", amount: 5 },
         { item: "Thief's Gloves", quality: "Normal", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -19437,6 +21711,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 7 },
         { item: "Reflex Bow", quality: "Superior", amount: 1 },
         { component: "Chronos Crystal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -19471,6 +21749,10 @@ db.blueprints.insertMany([
         { component: "Overgrown Vine", amount: 3 },
         { component: "Silk Scarab", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -19502,6 +21784,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 13 },
         { component: "Thread of Fate", amount: 4 },
         { component: "Bronze Fang", amount: 8 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
       ],
     },
   },
@@ -19536,6 +21822,10 @@ db.blueprints.insertMany([
         { component: "Spooky Ectoplasm", amount: 4 },
         { component: "Overgrown Vine", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -19567,6 +21857,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 22 },
         { component: "Precious Shell", amount: 4 },
         { component: "Ghastly Pennant", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
       ],
     },
   },
@@ -19601,6 +21896,11 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 4 },
         { component: "Silk Scarab", amount: 5 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -19633,6 +21933,11 @@ db.blueprints.insertMany([
         { component: "Opulent Jewel", amount: 5 },
         { component: "Precious Shell", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -19664,6 +21969,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Sigil of Grace", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
       ],
     },
   },
@@ -19698,6 +22008,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -19731,6 +22046,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Ghastly Pennant", amount: 6 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -19763,6 +22083,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Silk Scarab", amount: 8 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -19794,6 +22119,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 46 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Crush Claw", amount: 2 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
       ],
     },
   },
@@ -19828,6 +22158,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Magma Core", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -19861,6 +22196,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -19893,6 +22233,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -19918,6 +22263,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Iron", amount: 5 }],
+      workers: [{ worker: "Blacksmith", workerLevel: 1 }],
     },
   },
   {
@@ -19947,6 +22293,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 9 },
         { resource: "Leather", amount: 5 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -19976,6 +22323,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 14 },
         { component: "Iron Pine Cone", amount: 2 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 2 }],
     },
   },
   {
@@ -20006,6 +22354,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 16 },
         { resource: "Leather", amount: 8 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 3 }],
     },
   },
   {
@@ -20036,6 +22385,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 11 },
         { component: "Silver Dust", amount: 2 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 5 }],
     },
   },
   {
@@ -20068,6 +22418,7 @@ db.blueprints.insertMany([
         { item: "Shin Guards", quality: "Normal", amount: 1 },
         { item: "Leather Boots", quality: "Normal", amount: 1 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 6 }],
     },
   },
   {
@@ -20098,6 +22449,7 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 10 },
         { component: "Rustwyrm Scale", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 10 }],
     },
   },
   {
@@ -20129,6 +22481,7 @@ db.blueprints.insertMany([
         { item: "Scroll of Sparks", quality: "Normal", amount: 1 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 11 }],
     },
   },
   {
@@ -20161,6 +22514,7 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 4 },
         { component: "Iron Pine Cone", amount: 1 },
       ],
+      workers: [{ worker: "Blacksmith", workerLevel: 12 }],
     },
   },
   {
@@ -20193,6 +22547,10 @@ db.blueprints.insertMany([
         { item: "Iron Greaves", quality: "Normal", amount: 1 },
         { component: "Moon Crystal", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 14 },
+        { worker: "Priestess", workerLevel: 10 },
+      ],
     },
   },
   {
@@ -20223,6 +22581,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 113 },
         { resource: "Steel", amount: 29 },
         { component: "Rustwyrm Scale", amount: 6 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 15 },
+        { worker: "Priestess", workerLevel: 11 },
       ],
     },
   },
@@ -20256,6 +22618,10 @@ db.blueprints.insertMany([
         { component: "Star Metal", amount: 3 },
         { component: "Bronze Fang", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 17 },
+        { worker: "Master", workerLevel: 13 },
+      ],
     },
   },
   {
@@ -20286,6 +22652,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 170 },
         { resource: "Jewels", amount: 5 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
       ],
     },
   },
@@ -20319,6 +22689,10 @@ db.blueprints.insertMany([
         { component: "Ancient Marble", amount: 5 },
         { component: "Evil Eye", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -20351,6 +22725,10 @@ db.blueprints.insertMany([
         { item: "Knight Sollerets", quality: "Superior", amount: 1 },
         { component: "Ghastly Pennant", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -20382,6 +22760,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 16 },
         { component: "Golden Artifact", amount: 5 },
         { component: "Ghastly Pennant", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
       ],
     },
   },
@@ -20416,6 +22798,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 3 },
         { component: "Star Metal", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -20448,6 +22834,11 @@ db.blueprints.insertMany([
         { component: "Deep Coral", amount: 5 },
         { component: "Chronos Crystal", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Tailor", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -20479,6 +22870,11 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 87 },
         { resource: "Jewels", amount: 25 },
         { component: "Precious Shell", amount: 4 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Tailor", workerLevel: 18 },
       ],
     },
   },
@@ -20513,6 +22909,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 5 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Tailor", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -20544,6 +22945,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Crystal Lullaby", amount: 6 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Tailor", workerLevel: 20 },
       ],
     },
   },
@@ -20578,6 +22984,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Tailor", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -20611,6 +23022,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Precious Shell", amount: 4 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Tailor", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -20643,6 +23059,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Tailor", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -20674,6 +23095,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 46 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Precious Shell", amount: 5 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Tailor", workerLevel: 23 },
       ],
     },
   },
@@ -20708,6 +23134,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 2 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Tailor", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -20739,6 +23170,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 46 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Crush Claw", amount: 3 },
+      ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Tailor", workerLevel: 23 },
       ],
     },
   },
@@ -20773,6 +23209,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -20805,6 +23246,11 @@ db.blueprints.insertMany([
         { component: "Astral Fabric", amount: 3 },
         { component: "Precious Shell", amount: 3 },
       ],
+      workers: [
+        { worker: "Blacksmith", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Tailor", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -20831,6 +23277,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
       materials: [{ resource: "Leather", amount: 5 }],
+      workers: [{ worker: "Tailor", workerLevel: 1 }],
     },
   },
   {
@@ -20857,6 +23304,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "8.33",
       merchantXpPerCraftingSecond: "8.00",
       materials: [{ resource: "Leather", amount: 9 }],
+      workers: [{ worker: "Tailor", workerLevel: 2 }],
     },
   },
   {
@@ -20883,6 +23331,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "3.00",
       merchantXpPerCraftingSecond: "8.00",
       materials: [{ resource: "Leather", amount: 9 }],
+      workers: [{ worker: "Tailor", workerLevel: 2 }],
     },
   },
   {
@@ -20912,6 +23361,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 14 },
         { component: "Elven Wood", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 2 }],
     },
   },
   {
@@ -20942,6 +23392,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 8 },
         { resource: "Leather", amount: 16 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 3 }],
     },
   },
   {
@@ -20972,6 +23423,7 @@ db.blueprints.insertMany([
         { item: "Swift Blade", quality: "Normal", amount: 1 },
         { component: "Webbed Wing", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 6 }],
     },
   },
   {
@@ -21003,6 +23455,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 7 },
         { component: "Silver Dust", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 7 }],
     },
   },
   {
@@ -21034,6 +23487,7 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 8 },
         { component: "Living Root", amount: 3 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 9 }],
     },
   },
   {
@@ -21066,6 +23520,7 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 10 },
         { component: "Moon Crystal", amount: 2 },
       ],
+      workers: [{ worker: "Tailor", workerLevel: 10 }],
     },
   },
   {
@@ -21097,6 +23552,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 21 },
         { component: "Bronze Fang", amount: 3 },
         { component: "Webbed Wing", amount: 2 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 13 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -21131,6 +23590,10 @@ db.blueprints.insertMany([
         { item: "Flip-Flops", quality: "Normal", amount: 1 },
         { component: "Deep Pearl", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 14 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -21162,6 +23625,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 28 },
         { resource: "Fabric", amount: 29 },
         { component: "White Sand", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -21195,6 +23662,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 29 },
         { component: "Bronze Fang", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -21225,6 +23696,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 33 },
         { item: "Flip-Flops", quality: "Normal", amount: 1 },
         { component: "Evil Eye", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 16 },
+        { worker: "Master", workerLevel: 12 },
       ],
     },
   },
@@ -21258,6 +23733,10 @@ db.blueprints.insertMany([
         { component: "Evil Eye", amount: 3 },
         { component: "Silk Scarab", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 17 },
+        { worker: "Master", workerLevel: 13 },
+      ],
     },
   },
   {
@@ -21289,6 +23768,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 7 },
         { component: "Overgrown Vine", amount: 5 },
         { component: "Rustwyrm Scale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -21322,6 +23805,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 4 },
         { component: "Silk Scarab", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -21354,6 +23841,10 @@ db.blueprints.insertMany([
         { component: "Thread of Fate", amount: 5 },
         { component: "Deep Pearl", amount: 5 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -21385,6 +23876,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 16 },
         { component: "Ghastly Pennant", amount: 3 },
         { component: "Evil Eye", amount: 5 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
       ],
     },
   },
@@ -21419,6 +23914,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 3 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -21450,6 +23949,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 22 },
         { component: "Deep Coral", amount: 4 },
         { component: "Ghastly Pennant", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
       ],
     },
   },
@@ -21484,6 +23988,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 3 },
         { component: "Deep Coral", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -21515,6 +24024,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 31 },
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 4 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
       ],
     },
   },
@@ -21549,6 +24063,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { item: "Raptoria", quality: "Normal", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -21581,6 +24100,11 @@ db.blueprints.insertMany([
         { component: "Opulent Jewel", amount: 5 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -21612,6 +24136,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 41 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
       ],
     },
   },
@@ -21646,6 +24175,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -21678,6 +24212,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 46 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Thread of Fate", amount: 8 },
+      ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
       ],
     },
   },
@@ -21712,6 +24251,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Zirconia Eggshell", amount: 3 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -21744,6 +24288,11 @@ db.blueprints.insertMany([
         { component: "Astral Fabric", amount: 3 },
         { component: "Sigil of Grace", amount: 1 },
       ],
+      workers: [
+        { worker: "Tailor", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -21769,6 +24318,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "3.67",
       merchantXpPerCraftingSecond: "8.33",
       materials: [{ resource: "Wood", amount: 7 }],
+      workers: [{ worker: "Carpenter", workerLevel: 1 }],
     },
   },
   {
@@ -21798,6 +24348,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 14 },
         { component: "Elven Wood", amount: 1 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 2 }],
     },
   },
   {
@@ -21828,6 +24379,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 9 },
         { component: "Iron Pine Cone", amount: 3 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 3 }],
     },
   },
   {
@@ -21858,6 +24410,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 30 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 7 }],
     },
   },
   {
@@ -21888,6 +24441,7 @@ db.blueprints.insertMany([
         { resource: "Wood", amount: 34 },
         { component: "Precious Gem", amount: 4 },
       ],
+      workers: [{ worker: "Carpenter", workerLevel: 8 }],
     },
   },
   {
@@ -21918,6 +24472,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 10 },
         { component: "Rustwyrm Scale", amount: 3 },
         { component: "Webbed Wing", amount: 2 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 10 },
+        { worker: "Jeweler", workerLevel: 1 },
       ],
     },
   },
@@ -21951,6 +24509,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 12 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 11 },
+        { worker: "Jeweler", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -21983,6 +24545,10 @@ db.blueprints.insertMany([
         { item: "Jade Pendant", quality: "Normal", amount: 1 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 12 },
+        { worker: "Jeweler", workerLevel: 6 },
+      ],
     },
   },
   {
@@ -22013,6 +24579,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 10 },
         { resource: "Ironwood", amount: 21 },
         { component: "White Sand", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 13 },
+        { worker: "Jeweler", workerLevel: 8 },
       ],
     },
   },
@@ -22046,6 +24616,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 25 },
         { component: "Bronze Fang", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 14 },
+        { worker: "Jeweler", workerLevel: 10 },
+      ],
     },
   },
   {
@@ -22078,6 +24652,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 29 },
         { component: "White Sand", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 15 },
+        { worker: "Jeweler", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -22109,6 +24687,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 36 },
         { component: "Star Metal", amount: 3 },
         { component: "Rustwyrm Scale", amount: 6 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 17 },
+        { worker: "Jeweler", workerLevel: 13 },
       ],
     },
   },
@@ -22143,6 +24725,10 @@ db.blueprints.insertMany([
         { item: "Oaken Shield", quality: "Normal", amount: 1 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 19 },
+        { worker: "Jeweler", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -22174,6 +24760,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 7 },
         { item: "Tomahawk", quality: "Normal", amount: 1 },
         { component: "Ancient Marble", amount: 6 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 17 },
       ],
     },
   },
@@ -22207,6 +24797,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 4 },
         { component: "White Sand", amount: 8 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 22 },
+        { worker: "Jeweler", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -22238,6 +24832,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 16 },
         { component: "Spooky Ectoplasm", amount: 4 },
         { component: "Star Metal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 19 },
       ],
     },
   },
@@ -22272,6 +24870,10 @@ db.blueprints.insertMany([
         { component: "Ghastly Pennant", amount: 3 },
         { component: "Deep Pearl", amount: 10 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -22305,6 +24907,10 @@ db.blueprints.insertMany([
         { component: "Thread of Fate", amount: 3 },
         { component: "Evil Eye", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -22337,6 +24943,10 @@ db.blueprints.insertMany([
         { component: "Golden Artifact", amount: 6 },
         { component: "Precious Gem", amount: 5 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 24 },
+        { worker: "Jeweler", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -22368,6 +24978,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { component: "Precious Shell", amount: 5 },
         { component: "White Sand", amount: 6 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
       ],
     },
   },
@@ -22402,6 +25017,11 @@ db.blueprints.insertMany([
         { component: "Deep Coral", amount: 4 },
         { component: "Ghastly Pennant", amount: 2 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Blacksmith", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -22433,6 +25053,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
       ],
     },
   },
@@ -22467,6 +25092,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -22500,6 +25130,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Blacksmith", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -22531,6 +25166,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 29 },
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
       ],
     },
   },
@@ -22565,6 +25205,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { item: "XL Magic Potion", quality: "Superior", amount: 1 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 29 },
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -22596,6 +25241,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Raw Obsidian", amount: 2 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 29 },
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Blacksmith", workerLevel: 22 },
       ],
     },
   },
@@ -22630,6 +25280,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -22663,6 +25318,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -22694,6 +25354,11 @@ db.blueprints.insertMany([
         { resource: "Essence", amount: 5 },
         { component: "Outsider's Claw", amount: 3 },
         { component: "Zirconia Eggshell", amount: 4 },
+      ],
+      workers: [
+        { worker: "Carpenter", workerLevel: 32 },
+        { worker: "Jeweler", workerLevel: 28 },
+        { worker: "Blacksmith", workerLevel: 25 },
       ],
     },
   },
@@ -22728,6 +25393,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 2 },
         { component: "Raw Obsidian", amount: 1 },
       ],
+      workers: [
+        { worker: "Moon Dragon", workerLevel: 34 },
+        { worker: "Carpenter", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 27 },
+      ],
     },
   },
   {
@@ -22757,6 +25427,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 19 },
         { component: "Glow Shroom", amount: 3 },
       ],
+      workers: [{ worker: "Summoner", workerLevel: 1 }],
     },
   },
   {
@@ -22789,6 +25460,7 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
         { component: "Iron Pine Cone", amount: 3 },
       ],
+      workers: [{ worker: "Summoner", workerLevel: 4 }],
     },
   },
   {
@@ -22822,6 +25494,10 @@ db.blueprints.insertMany([
         { item: "Druid Laurels", quality: "Normal", amount: 1 },
         { component: "Living Root", amount: 5 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 8 },
+        { worker: "Tailor", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -22853,6 +25529,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 23 },
         { component: "White Sand", amount: 4 },
         { component: "Deep Pearl", amount: 2 },
+      ],
+      workers: [
+        { worker: "Summoner", workerLevel: 13 },
+        { worker: "Tailor", workerLevel: 8 },
       ],
     },
   },
@@ -22886,6 +25566,10 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 5 },
         { component: "Webbed Wing", amount: 5 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 14 },
+        { worker: "Tailor", workerLevel: 10 },
+      ],
     },
   },
   {
@@ -22918,6 +25602,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 40 },
         { component: "Silk Scarab", amount: 5 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 17 },
+        { worker: "Tailor", workerLevel: 13 },
+      ],
     },
   },
   {
@@ -22949,6 +25637,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 57 },
         { resource: "Jewels", amount: 6 },
         { component: "Chronos Crystal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Summoner", workerLevel: 21 },
+        { worker: "Tailor", workerLevel: 17 },
       ],
     },
   },
@@ -22983,6 +25675,10 @@ db.blueprints.insertMany([
         { item: "Savage Garb", quality: "Superior", amount: 1 },
         { component: "Rustwyrm Scale", amount: 10 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 22 },
+        { worker: "Tailor", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -23015,6 +25711,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 14 },
         { component: "Ghastly Pennant", amount: 3 },
         { component: "Spooky Ectoplasm", amount: 3 },
+      ],
+      workers: [
+        { worker: "Summoner", workerLevel: 23 },
+        { worker: "Tailor", workerLevel: 19 },
       ],
     },
   },
@@ -23049,6 +25749,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 4 },
         { component: "Ancient Marble", amount: 3 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Tailor", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -23082,6 +25787,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 27 },
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -23113,6 +25823,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 25 },
         { component: "Opulent Jewel", amount: 5 },
         { component: "Grim Talon", amount: 4 },
+      ],
+      workers: [
+        { worker: "Summoner", workerLevel: 27 },
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
       ],
     },
   },
@@ -23147,6 +25862,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 27 },
+        { worker: "Tailor", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -23179,6 +25899,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 33 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
+      ],
+      workers: [
+        { worker: "Summoner", workerLevel: 29 },
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 22 },
       ],
     },
   },
@@ -23213,6 +25938,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Magma Core", amount: 2 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 29 },
+        { worker: "Tailor", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -23245,6 +25975,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 36 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Crush Claw", amount: 4 },
+      ],
+      workers: [
+        { worker: "Summoner", workerLevel: 30 },
+        { worker: "Tailor", workerLevel: 26 },
+        { worker: "Wizard", workerLevel: 23 },
       ],
     },
   },
@@ -23279,6 +26014,11 @@ db.blueprints.insertMany([
         { component: "Astral Fabric", amount: 2 },
         { component: "Thread of Fate", amount: 4 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 32 },
+        { worker: "Tailor", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -23305,6 +26045,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.93",
       merchantXpPerCraftingSecond: "8.57",
       materials: [{ resource: "Iron", amount: 14 }],
+      workers: [{ worker: "Jeweler", workerLevel: 1 }],
     },
   },
   {
@@ -23330,6 +26071,7 @@ db.blueprints.insertMany([
       goldPerCraftingSecond: "4.44",
       merchantXpPerCraftingSecond: "8.70",
       materials: [{ resource: "Iron", amount: 17 }],
+      workers: [{ worker: "Jeweler", workerLevel: 1 }],
     },
   },
   {
@@ -23359,6 +26101,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 15 },
         { component: "Glow Shroom", amount: 4 },
       ],
+      workers: [{ worker: "Jeweler", workerLevel: 1 }],
     },
   },
   {
@@ -23389,6 +26132,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 17 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [{ worker: "Jeweler", workerLevel: 8 }],
     },
   },
   {
@@ -23419,6 +26163,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 25 },
         { component: "Precious Gem", amount: 3 },
       ],
+      workers: [{ worker: "Jeweler", workerLevel: 10 }],
     },
   },
   {
@@ -23450,6 +26195,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 30 },
         { component: "Webbed Wing", amount: 3 },
       ],
+      workers: [{ worker: "Jeweler", workerLevel: 11 }],
     },
   },
   {
@@ -23481,6 +26227,7 @@ db.blueprints.insertMany([
         { item: "Iron Ring", quality: "Normal", amount: 1 },
         { component: "Deep Pearl", amount: 3 },
       ],
+      workers: [{ worker: "Jeweler", workerLevel: 12 }],
     },
   },
   {
@@ -23513,6 +26260,7 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 3 },
         { component: "Glow Shroom", amount: 2 },
       ],
+      workers: [{ worker: "Jeweler", workerLevel: 12 }],
     },
   },
   {
@@ -23545,6 +26293,7 @@ db.blueprints.insertMany([
         { component: "Rustwyrm Scale", amount: 3 },
         { component: "Silver Dust", amount: 2 },
       ],
+      workers: [{ worker: "Jeweler", workerLevel: 13 }],
     },
   },
   {
@@ -23576,6 +26325,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 25 },
         { item: "Ruby Ring", quality: "Normal", amount: 1 },
         { component: "Moon Crystal", amount: 2 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 14 },
+        { worker: "Master", workerLevel: 1 },
       ],
     },
   },
@@ -23609,6 +26362,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 4 },
         { component: "Iron Pine Cone", amount: 4 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -23641,6 +26398,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 27 },
         { component: "Moon Crystal", amount: 4 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 15 },
+        { worker: "Master", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -23670,6 +26431,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 141 },
         { resource: "Steel", amount: 36 },
         { component: "Evil Eye", amount: 4 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 17 },
+        { worker: "Master", workerLevel: 13 },
       ],
     },
   },
@@ -23701,6 +26466,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 39 },
         { component: "Star Metal", amount: 3 },
         { component: "Evil Eye", amount: 2 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 18 },
+        { worker: "Master", workerLevel: 14 },
       ],
     },
   },
@@ -23735,6 +26504,10 @@ db.blueprints.insertMany([
         { component: "Star Metal", amount: 4 },
         { component: "Deep Pearl", amount: 1 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 19 },
+        { worker: "Master", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -23766,6 +26539,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 8 },
         { component: "Ancient Marble", amount: 5 },
         { component: "White Sand", amount: 4 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
       ],
     },
   },
@@ -23800,6 +26577,10 @@ db.blueprints.insertMany([
         { component: "Chronos Crystal", amount: 4 },
         { component: "Evil Eye", amount: 1 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -23831,6 +26612,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 13 },
         { component: "Spooky Ectoplasm", amount: 5 },
         { component: "Chronos Crystal", amount: 1 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 22 },
+        { worker: "Master", workerLevel: 18 },
       ],
     },
   },
@@ -23865,6 +26650,10 @@ db.blueprints.insertMany([
         { component: "Spooky Ectoplasm", amount: 4 },
         { component: "Moon Crystal", amount: 4 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Master", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -23897,6 +26686,10 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 14 },
         { component: "Thread of Fate", amount: 5 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -23927,6 +26720,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 77 },
         { resource: "Mana", amount: 14 },
         { component: "Golden Artifact", amount: 6 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 24 },
+        { worker: "Master", workerLevel: 20 },
       ],
     },
   },
@@ -23960,6 +26757,11 @@ db.blueprints.insertMany([
         { component: "Deep Coral", amount: 6 },
         { component: "Evil Eye", amount: 4 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -23991,6 +26793,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 25 },
         { component: "Crystal Lullaby", amount: 5 },
         { component: "Chronos Crystal", amount: 2 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
       ],
     },
   },
@@ -24025,6 +26832,11 @@ db.blueprints.insertMany([
         { item: "Tide Element", quality: "Normal", amount: 1 },
         { component: "Crystal Lullaby", amount: 3 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -24058,6 +26870,11 @@ db.blueprints.insertMany([
         { component: "Precious Shell", amount: 4 },
         { component: "Evil Eye", amount: 4 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Master", workerLevel: 22 },
+        { worker: "Wizard", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -24089,6 +26906,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
       ],
     },
   },
@@ -24123,6 +26945,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -24156,6 +26983,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Might", amount: 1 },
         { component: "Precious Shell", amount: 5 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 27 },
+        { worker: "Master", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -24187,6 +27019,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 29 },
+        { worker: "Master", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 22 },
       ],
     },
   },
@@ -24221,6 +27058,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Wizard", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -24253,6 +27095,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 34 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 30 },
+        { worker: "Master", workerLevel: 26 },
+        { worker: "Wizard", workerLevel: 23 },
       ],
     },
   },
@@ -24287,6 +27134,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Thread of Fate", amount: 12 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 31 },
+        { worker: "Master", workerLevel: 27 },
+        { worker: "Cook", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -24318,6 +27170,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 50 },
         { component: "Opulent Jewel", amount: 5 },
         { component: "Raw Obsidian", amount: 4 },
+      ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 31 },
+        { worker: "Master", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 24 },
       ],
     },
   },
@@ -24352,6 +27209,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 3 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Jeweler", workerLevel: 32 },
+        { worker: "Master", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -24380,6 +27242,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 9 },
         { resource: "Leather", amount: 6 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 1 }],
     },
   },
   {
@@ -24408,6 +27271,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 12 },
         { resource: "Leather", amount: 8 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 1 }],
     },
   },
   {
@@ -24436,6 +27300,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 16 },
         { component: "Iron Pine Cone", amount: 4 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 1 }],
     },
   },
   {
@@ -24465,6 +27330,7 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 19 },
         { component: "Glow Shroom", amount: 3 },
       ],
+      workers: [{ worker: "Moon Dragon", workerLevel: 1 }],
     },
   },
   {
@@ -24495,6 +27361,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 17 },
         { component: "Precious Gem", amount: 3 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 8 }],
     },
   },
   {
@@ -24525,6 +27392,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 20 },
         { component: "Webbed Wing", amount: 4 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 9 }],
     },
   },
   {
@@ -24556,6 +27424,7 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 20 },
         { component: "Silver Dust", amount: 3 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 9 }],
     },
   },
   {
@@ -24588,6 +27457,7 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 2 },
         { component: "Glow Shroom", amount: 4 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 10 }],
     },
   },
   {
@@ -24621,6 +27491,10 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 2 },
         { component: "Precious Gem", amount: 3 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 11 },
+        { worker: "Jeweler", workerLevel: 4 },
+      ],
     },
   },
   {
@@ -24652,6 +27526,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 15 },
         { component: "Golden Artifact", amount: 1 },
         { component: "Glow Shroom", amount: 8 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 13 },
+        { worker: "Jeweler", workerLevel: 1 },
       ],
     },
   },
@@ -24685,6 +27563,10 @@ db.blueprints.insertMany([
         { item: "Memento", quality: "Superior", amount: 1 },
         { component: "White Sand", amount: 2 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 13 },
+        { worker: "Jeweler", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -24716,6 +27598,10 @@ db.blueprints.insertMany([
         { resource: "Leather", amount: 49 },
         { resource: "Steel", amount: 19 },
         { component: "Moon Crystal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 13 },
+        { worker: "Jeweler", workerLevel: 1 },
       ],
     },
   },
@@ -24750,6 +27636,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 4 },
         { component: "Living Root", amount: 2 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 13 },
+        { worker: "Carpenter", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -24780,6 +27670,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 29 },
         { resource: "Oil", amount: 20 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 18 },
+        { worker: "Jeweler", workerLevel: 14 },
       ],
     },
   },
@@ -24813,6 +27707,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 22 },
         { component: "Silk Scarab", amount: 4 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 19 },
+        { worker: "Jeweler", workerLevel: 15 },
+      ],
     },
   },
   {
@@ -24844,6 +27742,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 7 },
         { item: "Druid Laurels", quality: "Normal", amount: 1 },
         { component: "Chronos Crystal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 17 },
       ],
     },
   },
@@ -24877,6 +27779,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 8 },
         { component: "Ancient Marble", amount: 5 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Jeweler", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -24907,6 +27813,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 46 },
         { item: "Bronze Circlet", quality: "Normal", amount: 2 },
         { component: "Chronos Crystal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 22 },
+        { worker: "Jeweler", workerLevel: 18 },
       ],
     },
   },
@@ -24939,6 +27849,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 13 },
         { item: "Iron Bond", quality: "Normal", amount: 3 },
         { component: "Spooky Ectoplasm", amount: 5 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 22 },
+        { worker: "Jeweler", workerLevel: 18 },
       ],
     },
   },
@@ -24973,6 +27887,10 @@ db.blueprints.insertMany([
         { item: "Oak Staff", quality: "Normal", amount: 1 },
         { component: "Thread of Fate", amount: 4 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -25006,6 +27924,10 @@ db.blueprints.insertMany([
         { component: "Spooky Ectoplasm", amount: 2 },
         { component: "Thread of Fate", amount: 3 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 23 },
+        { worker: "Jeweler", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -25037,6 +27959,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { component: "Precious Shell", amount: 5 },
         { component: "Bronze Fang", amount: 4 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
       ],
     },
   },
@@ -25071,6 +27998,11 @@ db.blueprints.insertMany([
         { component: "Crystal Lullaby", amount: 4 },
         { component: "Silk Scarab", amount: 2 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -25104,6 +28036,11 @@ db.blueprints.insertMany([
         { component: "Deep Coral", amount: 4 },
         { component: "Evil Eye", amount: 3 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 25 },
+        { worker: "Jeweler", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -25136,6 +28073,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -25167,6 +28109,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Sigil of Spark", amount: 1 },
         { component: "Boreal Gale", amount: 3 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
       ],
     },
   },
@@ -25201,6 +28148,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Living Root", amount: 10 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Carpenter", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -25233,6 +28185,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 34 },
         { component: "Sigil of Spark", amount: 1 },
         { item: "Gale Element", quality: "Normal", amount: 1 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 27 },
+        { worker: "Jeweler", workerLevel: 23 },
+        { worker: "Carpenter", workerLevel: 20 },
       ],
     },
   },
@@ -25267,6 +28224,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Grim Talon", amount: 3 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Jeweler", workerLevel: 24 },
+        { worker: "Wizard", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -25299,6 +28261,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Crush Claw", amount: 2 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Wizard", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -25330,6 +28297,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 46 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Crush Claw", amount: 4 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Wizard", workerLevel: 23 },
       ],
     },
   },
@@ -25364,6 +28336,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Wizard", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -25396,6 +28373,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 41 },
         { component: "Sigil of True Grace", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Wizard", workerLevel: 23 },
       ],
     },
   },
@@ -25430,6 +28412,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 31 },
+        { worker: "Jeweler", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -25462,6 +28449,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 3 },
         { component: "Sigil of Spark", amount: 1 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 32 },
+        { worker: "Jeweler", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -25492,6 +28484,7 @@ db.blueprints.insertMany([
         { item: "Cudgel", quality: "Normal", amount: 1 },
         { component: "Iron Pine Cone", amount: 2 },
       ],
+      workers: [{ worker: "Summoner", workerLevel: 1 }],
     },
   },
   {
@@ -25523,6 +28516,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 37 },
         { component: "Precious Gem", amount: 3 },
       ],
+      workers: [{ worker: "Summoner", workerLevel: 4 }],
     },
   },
   {
@@ -25555,6 +28549,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 62 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [{ worker: "Summoner", workerLevel: 8 }],
     },
   },
   {
@@ -25587,6 +28582,10 @@ db.blueprints.insertMany([
         { component: "White Sand", amount: 4 },
         { component: "Glow Shroom", amount: 1 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 13 },
+        { worker: "Wizard", workerLevel: 1 },
+      ],
     },
   },
   {
@@ -25617,6 +28616,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 194 },
         { resource: "Oil", amount: 49 },
         { component: "Silk Scarab", amount: 4 },
+      ],
+      workers: [
+        { worker: "Summoner", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
       ],
     },
   },
@@ -25651,6 +28654,10 @@ db.blueprints.insertMany([
         { item: "Bronze Circlet", quality: "Normal", amount: 1 },
         { component: "Chronos Crystal", amount: 3 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -25682,6 +28689,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 84 },
         { resource: "Jewels", amount: 13 },
         { component: "Spooky Ectoplasm", amount: 4 },
+      ],
+      workers: [
+        { worker: "Summoner", workerLevel: 22 },
+        { worker: "Wizard", workerLevel: 18 },
       ],
     },
   },
@@ -25716,6 +28727,11 @@ db.blueprints.insertMany([
         { item: "Trishula", quality: "Superior", amount: 1 },
         { component: "Crystal Lullaby", amount: 4 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -25749,6 +28765,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Grace", amount: 1 },
         { component: "Zirconia Eggshell", amount: 2 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -25780,6 +28801,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 31 },
         { component: "Opulent Jewel", amount: 5 },
         { component: "Zirconia Eggshell", amount: 3 },
+      ],
+      workers: [
+        { worker: "Summoner", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
       ],
     },
   },
@@ -25814,6 +28840,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -25847,6 +28878,11 @@ db.blueprints.insertMany([
         { component: "Outsider's Claw", amount: 2 },
         { component: "All-Seeing Eye", amount: 1 },
       ],
+      workers: [
+        { worker: "Summoner", workerLevel: 32 },
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Priestess", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -25876,6 +28912,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 27 },
         { component: "Glow Shroom", amount: 5 },
       ],
+      workers: [{ worker: "Cook", workerLevel: 1 }],
     },
   },
   {
@@ -25907,6 +28944,7 @@ db.blueprints.insertMany([
         { component: "Silver Dust", amount: 3 },
         { component: "Elven Wood", amount: 2 },
       ],
+      workers: [{ worker: "Cook", workerLevel: 8 }],
     },
   },
   {
@@ -25939,6 +28977,7 @@ db.blueprints.insertMany([
         { component: "Precious Gem", amount: 4 },
         { component: "Glow Shroom", amount: 3 },
       ],
+      workers: [{ worker: "Cook", workerLevel: 9 }],
     },
   },
   {
@@ -25969,6 +29008,7 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 13 },
         { component: "Living Root", amount: 4 },
       ],
+      workers: [{ worker: "Cook", workerLevel: 11 }],
     },
   },
   {
@@ -26000,6 +29040,7 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 17 },
         { component: "Webbed Wing", amount: 8 },
       ],
+      workers: [{ worker: "Cook", workerLevel: 12 }],
     },
   },
   {
@@ -26030,6 +29071,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 25 },
         { item: "Bacon and Eggs", quality: "Normal", amount: 1 },
         { component: "Deep Pearl", amount: 4 },
+      ],
+      workers: [
+        { worker: "Cook", workerLevel: 14 },
+        { worker: "Herbalist", workerLevel: 10 },
       ],
     },
   },
@@ -26063,6 +29108,10 @@ db.blueprints.insertMany([
         { component: "Living Root", amount: 6 },
         { component: "Elven Wood", amount: 4 },
       ],
+      workers: [
+        { worker: "Cook", workerLevel: 15 },
+        { worker: "Herbalist", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -26095,6 +29144,10 @@ db.blueprints.insertMany([
         { component: "Deep Pearl", amount: 5 },
         { component: "Glow Shroom", amount: 4 },
       ],
+      workers: [
+        { worker: "Cook", workerLevel: 15 },
+        { worker: "Herbalist", workerLevel: 11 },
+      ],
     },
   },
   {
@@ -26125,6 +29178,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 37 },
         { component: "Evil Eye", amount: 5 },
         { component: "Glow Shroom", amount: 4 },
+      ],
+      workers: [
+        { worker: "Cook", workerLevel: 17 },
+        { worker: "Herbalist", workerLevel: 13 },
       ],
     },
   },
@@ -26158,6 +29215,10 @@ db.blueprints.insertMany([
         { item: "Mintyleaf Herb", quality: "Normal", amount: 3 },
         { component: "Bronze Fang", amount: 6 },
       ],
+      workers: [
+        { worker: "Cook", workerLevel: 18 },
+        { worker: "Herbalist", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -26188,6 +29249,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 52 },
         { resource: "Mana", amount: 6 },
         { component: "Chronos Crystal", amount: 5 },
+      ],
+      workers: [
+        { worker: "Cook", workerLevel: 21 },
+        { worker: "Herbalist", workerLevel: 17 },
       ],
     },
   },
@@ -26221,6 +29286,10 @@ db.blueprints.insertMany([
         { item: "Bloodvine", quality: "Superior", amount: 1 },
         { component: "Spooky Ectoplasm", amount: 4 },
       ],
+      workers: [
+        { worker: "Cook", workerLevel: 23 },
+        { worker: "Herbalist", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -26253,6 +29322,11 @@ db.blueprints.insertMany([
         { item: "Sweet Grass", quality: "Normal", amount: 2 },
         { component: "Deep Coral", amount: 5 },
       ],
+      workers: [
+        { worker: "Cook", workerLevel: 25 },
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -26284,6 +29358,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 25 },
         { component: "Sigil of Might", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
+      ],
+      workers: [
+        { worker: "Cook", workerLevel: 27 },
+        { worker: "Herbalist", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
       ],
     },
   },
@@ -26318,6 +29397,11 @@ db.blueprints.insertMany([
         { component: "Deep Coral", amount: 5 },
         { component: "Crystal Lullaby", amount: 5 },
       ],
+      workers: [
+        { worker: "Cook", workerLevel: 27 },
+        { worker: "Herbalist", workerLevel: 23 },
+        { worker: "Wizard", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -26349,6 +29433,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 33 },
         { component: "Sigil of True Might", amount: 1 },
         { component: "Magma Core", amount: 2 },
+      ],
+      workers: [
+        { worker: "Cook", workerLevel: 29 },
+        { worker: "Herbalist", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 22 },
       ],
     },
   },
@@ -26382,6 +29471,11 @@ db.blueprints.insertMany([
         { component: "Opulent Jewel", amount: 6 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Cook", workerLevel: 29 },
+        { worker: "Herbalist", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 22 },
+      ],
     },
   },
   {
@@ -26414,6 +29508,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Crush Claw", amount: 2 },
       ],
+      workers: [
+        { worker: "Cook", workerLevel: 32 },
+        { worker: "Herbalist", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 25 },
+      ],
     },
   },
   {
@@ -26443,6 +29542,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 26 },
         { component: "Glow Shroom", amount: 4 },
       ],
+      workers: [{ worker: "Baker", workerLevel: 1 }],
     },
   },
   {
@@ -26474,6 +29574,7 @@ db.blueprints.insertMany([
         { item: "Sturdy Cap", quality: "Normal", amount: 1 },
         { component: "Precious Gem", amount: 4 },
       ],
+      workers: [{ worker: "Baker", workerLevel: 8 }],
     },
   },
   {
@@ -26504,6 +29605,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 60 },
         { resource: "Oil", amount: 12 },
         { component: "Deep Pearl", amount: 4 },
+      ],
+      workers: [
+        { worker: "Baker", workerLevel: 11 },
+        { worker: "Herbalist", workerLevel: 4 },
       ],
     },
   },
@@ -26537,6 +29642,10 @@ db.blueprints.insertMany([
         { component: "Moon Crystal", amount: 4 },
         { component: "White Sand", amount: 3 },
       ],
+      workers: [
+        { worker: "Baker", workerLevel: 14 },
+        { worker: "Herbalist", workerLevel: 10 },
+      ],
     },
   },
   {
@@ -26567,6 +29676,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 113 },
         { resource: "Oil", amount: 29 },
         { component: "White Sand", amount: 7 },
+      ],
+      workers: [
+        { worker: "Baker", workerLevel: 15 },
+        { worker: "Herbalist", workerLevel: 11 },
       ],
     },
   },
@@ -26599,6 +29712,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 36 },
         { component: "Silk Scarab", amount: 5 },
       ],
+      workers: [
+        { worker: "Baker", workerLevel: 17 },
+        { worker: "Herbalist", workerLevel: 13 },
+      ],
     },
   },
   {
@@ -26630,6 +29747,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 51 },
         { component: "Ancient Marble", amount: 6 },
         { component: "White Sand", amount: 5 },
+      ],
+      workers: [
+        { worker: "Baker", workerLevel: 21 },
+        { worker: "Herbalist", workerLevel: 17 },
       ],
     },
   },
@@ -26664,6 +29785,10 @@ db.blueprints.insertMany([
         { item: "Druid Laurels", quality: "Superior", amount: 1 },
         { component: "Overgrown Vine", amount: 5 },
       ],
+      workers: [
+        { worker: "Baker", workerLevel: 23 },
+        { worker: "Herbalist", workerLevel: 19 },
+      ],
     },
   },
   {
@@ -26696,6 +29821,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 25 },
         { component: "Precious Shell", amount: 4 },
         { component: "Thread of Fate", amount: 3 },
+      ],
+      workers: [
+        { worker: "Baker", workerLevel: 25 },
+        { worker: "Herbalist", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 18 },
       ],
     },
   },
@@ -26730,6 +29860,11 @@ db.blueprints.insertMany([
         { component: "Sigil of Spark", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Baker", workerLevel: 27 },
+        { worker: "Herbalist", workerLevel: 23 },
+        { worker: "Priestess", workerLevel: 20 },
+      ],
     },
   },
   {
@@ -26762,6 +29897,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 41 },
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
+      ],
+      workers: [
+        { worker: "Baker", workerLevel: 29 },
+        { worker: "Herbalist", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 22 },
       ],
     },
   },
@@ -26796,6 +29936,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Spark", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Baker", workerLevel: 30 },
+        { worker: "Herbalist", workerLevel: 26 },
+        { worker: "Priestess", workerLevel: 23 },
+      ],
     },
   },
   {
@@ -26827,6 +29972,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 46 },
         { component: "Opulent Jewel", amount: 6 },
         { component: "Magma Core", amount: 3 },
+      ],
+      workers: [
+        { worker: "Baker", workerLevel: 30 },
+        { worker: "Jeweler", workerLevel: 26 },
+        { worker: "Blacksmith", workerLevel: 23 },
       ],
     },
   },
@@ -26861,6 +30011,11 @@ db.blueprints.insertMany([
         { component: "Sigil of True Might", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Baker", workerLevel: 31 },
+        { worker: "Priestess", workerLevel: 27 },
+        { worker: "Wizard", workerLevel: 24 },
+      ],
     },
   },
   {
@@ -26894,6 +30049,11 @@ db.blueprints.insertMany([
         { component: "All-Seeing Eye", amount: 3 },
         { component: "Boreal Gale", amount: 3 },
       ],
+      workers: [
+        { worker: "Baker", workerLevel: 34 },
+        { worker: "Herbalist", workerLevel: 30 },
+        { worker: "Priestess", workerLevel: 27 },
+      ],
     },
   },
   {
@@ -26923,6 +30083,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 21 },
         { component: "Webbed Wing", amount: 4 },
       ],
+      workers: [{ worker: "Scholar", workerLevel: 1 }],
     },
   },
   {
@@ -26954,6 +30115,7 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 21 },
         { component: "Star Metal", amount: 4 },
       ],
+      workers: [{ worker: "Scholar", workerLevel: 13 }],
     },
   },
   {
@@ -26987,6 +30149,10 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 3 },
         { component: "Spooky Ectoplasm", amount: 3 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 21 },
+        { worker: "Master", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -27019,6 +30185,11 @@ db.blueprints.insertMany([
         { resource: "Mana", amount: 25 },
         { component: "Raw Obsidian", amount: 2 },
       ],
+      workers: [
+        { worker: "Scholar", workerLevel: 25 },
+        { worker: "Master", workerLevel: 21 },
+        { worker: "Sun Dragon", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -27048,6 +30219,7 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 26 },
         { component: "Precious Gem", amount: 5 },
       ],
+      workers: [{ worker: "Moon Dragon", workerLevel: 1 }],
     },
   },
   {
@@ -27079,6 +30251,7 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 25 },
         { component: "Evil Eye", amount: 4 },
       ],
+      workers: [{ worker: "Moon Dragon", workerLevel: 14 }],
     },
   },
   {
@@ -27112,6 +30285,10 @@ db.blueprints.insertMany([
         { item: "Lesser Moonstone", quality: "Normal", amount: 3 },
         { component: "Ghastly Pennant", amount: 2 },
       ],
+      workers: [
+        { worker: "Moon Dragon", workerLevel: 21 },
+        { worker: "Sun Dragon", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -27144,6 +30321,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { component: "Crush Claw", amount: 2 },
       ],
+      workers: [
+        { worker: "Moon Dragon", workerLevel: 25 },
+        { worker: "Sun Dragon", workerLevel: 21 },
+        { worker: "Master", workerLevel: 18 },
+      ],
     },
   },
   {
@@ -27174,6 +30356,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Precious Gem", amount: 6 },
       ],
+      workers: [{ worker: "Wizard", workerLevel: 1 }],
     },
   },
   {
@@ -27204,6 +30387,10 @@ db.blueprints.insertMany([
         { resource: "Steel", amount: 36 },
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "White Sand", amount: 10 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
       ],
     },
   },
@@ -27237,6 +30424,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Chronos Crystal", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -27269,6 +30460,11 @@ db.blueprints.insertMany([
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Magma Core", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Priestess", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -27299,6 +30495,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Silver Dust", amount: 6 },
       ],
+      workers: [{ worker: "Wizard", workerLevel: 1 }],
     },
   },
   {
@@ -27329,6 +30526,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 36 },
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Moon Crystal", amount: 8 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
       ],
     },
   },
@@ -27362,6 +30563,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Spooky Ectoplasm", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -27394,6 +30599,11 @@ db.blueprints.insertMany([
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Boreal Gale", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Priestess", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -27424,6 +30634,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Webbed Wing", amount: 7 },
       ],
+      workers: [{ worker: "Wizard", workerLevel: 6 }],
     },
   },
   {
@@ -27454,6 +30665,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 36 },
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Star Metal", amount: 4 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
       ],
     },
   },
@@ -27487,6 +30702,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Thread of Fate", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -27519,6 +30738,11 @@ db.blueprints.insertMany([
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Priestess", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -27549,6 +30773,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Living Root", amount: 5 },
       ],
+      workers: [{ worker: "Wizard", workerLevel: 6 }],
     },
   },
   {
@@ -27579,6 +30804,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 36 },
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Bronze Fang", amount: 8 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
       ],
     },
   },
@@ -27612,6 +30841,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Overgrown Vine", amount: 5 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -27644,6 +30877,11 @@ db.blueprints.insertMany([
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Priestess", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -27673,6 +30911,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 26 },
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Deep Pearl", amount: 4 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 6 },
+        { worker: "Priestess", workerLevel: 1 },
       ],
     },
   },
@@ -27704,6 +30946,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 36 },
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Silk Scarab", amount: 4 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
       ],
     },
   },
@@ -27737,6 +30983,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Ancient Marble", amount: 5 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -27769,6 +31019,11 @@ db.blueprints.insertMany([
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Priestess", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -27798,6 +31053,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 26 },
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Rustwyrm Scale", amount: 5 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 6 },
+        { worker: "Priestess", workerLevel: 1 },
       ],
     },
   },
@@ -27829,6 +31088,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 36 },
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Evil Eye", amount: 5 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 17 },
+        { worker: "Priestess", workerLevel: 13 },
       ],
     },
   },
@@ -27862,6 +31125,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Ghastly Pennant", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 21 },
+        { worker: "Priestess", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -27894,6 +31161,11 @@ db.blueprints.insertMany([
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 28 },
+        { worker: "Priestess", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -27923,6 +31195,10 @@ db.blueprints.insertMany([
         { resource: "Herbs", amount: 71 },
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Golden Artifact", amount: 1 },
+      ],
+      workers: [
+        { worker: "Wizard", workerLevel: 12 },
+        { worker: "Priestess", workerLevel: 6 },
       ],
     },
   },
@@ -27956,6 +31232,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Opulent Jewel", amount: 2 },
       ],
+      workers: [
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Priestess", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -27986,6 +31266,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Precious Gem", amount: 7 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 1 }],
     },
   },
   {
@@ -28016,6 +31297,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Silver Dust", amount: 8 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 4 }],
     },
   },
   {
@@ -28046,6 +31328,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Living Root", amount: 5 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 7 }],
     },
   },
   {
@@ -28076,6 +31359,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Webbed Wing", amount: 8 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 7 }],
     },
   },
   {
@@ -28106,6 +31390,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Rustwyrm Scale", amount: 5 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 7 }],
     },
   },
   {
@@ -28136,6 +31421,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Deep Pearl", amount: 5 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 7 }],
     },
   },
   {
@@ -28167,6 +31453,7 @@ db.blueprints.insertMany([
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Living Root", amount: 5 },
       ],
+      workers: [{ worker: "Priestess", workerLevel: 8 }],
     },
   },
   {
@@ -28196,6 +31483,10 @@ db.blueprints.insertMany([
         { resource: "Iron", amount: 71 },
         { item: "Chipped Runestone", quality: "Normal", amount: 1 },
         { component: "Golden Artifact", amount: 1 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 12 },
+        { worker: "Wizard", workerLevel: 6 },
       ],
     },
   },
@@ -28228,6 +31519,10 @@ db.blueprints.insertMany([
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Bronze Fang", amount: 10 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -28258,6 +31553,10 @@ db.blueprints.insertMany([
         { resource: "Fabric", amount: 39 },
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Moon Crystal", amount: 9 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
       ],
     },
   },
@@ -28290,6 +31589,10 @@ db.blueprints.insertMany([
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "White Sand", amount: 12 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -28320,6 +31623,10 @@ db.blueprints.insertMany([
         { resource: "Oil", amount: 39 },
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Evil Eye", amount: 7 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
       ],
     },
   },
@@ -28352,6 +31659,10 @@ db.blueprints.insertMany([
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Silk Scarab", amount: 6 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
+      ],
     },
   },
   {
@@ -28382,6 +31693,10 @@ db.blueprints.insertMany([
         { resource: "Ironwood", amount: 39 },
         { item: "Flawed Runestone", quality: "Normal", amount: 1 },
         { component: "Star Metal", amount: 6 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 18 },
+        { worker: "Wizard", workerLevel: 14 },
       ],
     },
   },
@@ -28415,6 +31730,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Spooky Ectoplasm", amount: 3 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -28446,6 +31765,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 7 },
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Ancient Marble", amount: 5 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
       ],
     },
   },
@@ -28479,6 +31802,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Thread of Fate", amount: 3 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -28510,6 +31837,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 7 },
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Overgrown Vine", amount: 4 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
       ],
     },
   },
@@ -28543,6 +31874,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Chronos Crystal", amount: 4 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -28574,6 +31909,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 7 },
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Star Metal", amount: 6 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
       ],
     },
   },
@@ -28608,6 +31947,10 @@ db.blueprints.insertMany([
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Spooky Ectoplasm", amount: 3 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 21 },
+        { worker: "Wizard", workerLevel: 17 },
+      ],
     },
   },
   {
@@ -28639,6 +31982,10 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 22 },
         { item: "Chiseled Runestone", quality: "Normal", amount: 1 },
         { component: "Opulent Jewel", amount: 2 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 25 },
+        { worker: "Wizard", workerLevel: 21 },
       ],
     },
   },
@@ -28672,6 +32019,11 @@ db.blueprints.insertMany([
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Magma Core", amount: 3 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -28703,6 +32055,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 36 },
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Raw Obsidian", amount: 3 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
       ],
     },
   },
@@ -28736,6 +32093,11 @@ db.blueprints.insertMany([
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Crush Claw", amount: 3 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -28767,6 +32129,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 36 },
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Zirconia Eggshell", amount: 4 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
       ],
     },
   },
@@ -28800,6 +32167,11 @@ db.blueprints.insertMany([
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Grim Talon", amount: 4 },
       ],
+      workers: [
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
+      ],
     },
   },
   {
@@ -28831,6 +32203,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 36 },
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Deep Coral", amount: 4 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 28 },
+        { worker: "Wizard", workerLevel: 24 },
+        { worker: "Master", workerLevel: 21 },
       ],
     },
   },
@@ -28864,6 +32241,11 @@ db.blueprints.insertMany([
         { resource: "Jewels", amount: 41 },
         { item: "Perfect Runestone", quality: "Normal", amount: 1 },
         { component: "Precious Shell", amount: 6 },
+      ],
+      workers: [
+        { worker: "Priestess", workerLevel: 29 },
+        { worker: "Wizard", workerLevel: 25 },
+        { worker: "Master", workerLevel: 22 },
       ],
     },
   },

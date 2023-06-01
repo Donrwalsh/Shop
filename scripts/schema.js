@@ -134,6 +134,8 @@ db.createCollection("blueprints", {
             "timeFormatted",
             "goldPerCraftingSecond",
             "merchantXpPerCraftingSecond",
+            "materials",
+            "workers",
           ],
           description: "Blueprint crafting values and details (required)",
           properties: {
@@ -177,6 +179,24 @@ db.createCollection("blueprints", {
                   },
                   quality: {
                     bsonType: "string",
+                  },
+                },
+              },
+            },
+            workers: {
+              bsonType: "array",
+              maxItems: 3,
+              minItems: 1,
+              description: "Blueprint workers (required)",
+              items: {
+                bsonType: "object",
+                required: ["worker", "workerLevel"],
+                properties: {
+                  worker: {
+                    bsonType: "string",
+                  },
+                  workerLevel: {
+                    bsonType: "int",
                   },
                 },
               },

@@ -151,33 +151,33 @@ async function main() {
               ...conditionalComponent(bp, 0),
               ...conditionalComponent(bp, 1),
             ],
-            // workers: [
-            //   {
-            //     requiredWorker: getBpVal(bp, headers, "Required Worker "), // Note the space
-            //     workerLevel: getBpVal(bp, headers, "Worker Level")[0],
-            //   },
-            //   ...(getBpVal(bp, headers, "Required Worker")[0] !== "---"
-            //     ? ([
-            //         {
-            //           requiredWorker: getBpVal(bp, headers, "Required Worker")[0],
-            //           workerLevel: getBpVal(bp, headers, "Worker Level")[1],
-            //         },
-            //         // This casting as a const prevents ts2322 where typescript thinks this
-            //         // array that is being spread may contain more than a single element and
-            //         // thus violates the tuple requirement of no more than 3 workers. Cool
-            //       ] as const)
-            //     : ([] as const)),
-            //   ...(getBpVal(bp, headers, "Required Worker")[1] !== "---"
-            //     ? ([
-            //         {
-            //           requiredWorker: getBpVal(bp, headers, "Required Worker")[1],
-            //           workerLevel: getBpVal(bp, headers, "Worker Level")[2],
-            //         },
-            //       ] as const)
-            //     : ([] as const)),
-            // ],
+            workers: [
+              {
+                worker: getBpVal(bp, headers, "Required Worker "), // Note the space
+                workerLevel: getBpVal(bp, headers, "Worker Level")[0],
+              },
+              ...(getBpVal(bp, headers, "Required Worker")[0] !== "---"
+                ? ([
+                    {
+                      worker: getBpVal(bp, headers, "Required Worker")[0],
+                      workerLevel: getBpVal(bp, headers, "Worker Level")[1],
+                    },
+                    // This casting as a const prevents ts2322 where typescript thinks this
+                    // array that is being spread may contain more than a single element and
+                    // thus violates the tuple requirement of no more than 3 workers. Cool
+                  ] as const)
+                : ([] as const)),
+              ...(getBpVal(bp, headers, "Required Worker")[1] !== "---"
+                ? ([
+                    {
+                      worker: getBpVal(bp, headers, "Required Worker")[1],
+                      workerLevel: getBpVal(bp, headers, "Worker Level")[2],
+                    },
+                  ] as const)
+                : ([] as const)),
+            ],
           },
-        } as Partial<Blueprint>) +
+        } as Blueprint) +
         ",",
       ""
     ) +

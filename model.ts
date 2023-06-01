@@ -59,6 +59,6 @@ export type CraftingMaterial =
   | ItemMaterial;
 
 export interface BlueprintWorker {
-  requiredWorker: string; //Also enum eligible
+  worker: string; //Also enum eligible
   workerLevel: number;
 }
