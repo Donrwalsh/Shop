@@ -46,11 +46,6 @@ interface ComponentMaterial extends Material {
   quality?: never;
 }
 
-export interface BlueprintWorker {
-  requiredWorker: string; //Also enum eligible
-  workerLevel: number;
-}
-
 interface ItemMaterial extends Material {
   item: string;
   quality: string; //probably switch to enum at some point
@@ -62,3 +57,8 @@ export type CraftingMaterial =
   | ResourceMaterial
   | ComponentMaterial
   | ItemMaterial;
+
+export interface BlueprintWorker {
+  requiredWorker: string; //Also enum eligible
+  workerLevel: number;
+}

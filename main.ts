@@ -136,21 +136,21 @@ async function main() {
               headers,
               "Merchant XP / Crafting Time"
             ).toFixed(2),
-            // materials: [
-            //   ...conditionalMaterial("Iron"),
-            //   ...conditionalMaterial("Wood"),
-            //   ...conditionalMaterial("Leather"),
-            //   ...conditionalMaterial("Herbs"),
-            //   ...conditionalMaterial("Steel"),
-            //   ...conditionalMaterial("Ironwood"),
-            //   ...conditionalMaterial("Fabric"),
-            //   ...conditionalMaterial("Oil"),
-            //   ...conditionalMaterial("Mana"),
-            //   ...conditionalMaterial("Jewels"),
-            //   ...conditionalMaterial("Essence"),
-            //   ...conditionalComponent(0),
-            //   ...conditionalComponent(1),
-            // ],
+            materials: [
+              ...conditionalMaterial("Iron"),
+              ...conditionalMaterial("Wood"),
+              ...conditionalMaterial("Leather"),
+              ...conditionalMaterial("Herbs"),
+              ...conditionalMaterial("Steel"),
+              ...conditionalMaterial("Ironwood"),
+              ...conditionalMaterial("Fabric"),
+              ...conditionalMaterial("Oil"),
+              ...conditionalMaterial("Mana"),
+              ...conditionalMaterial("Jewels"),
+              ...conditionalMaterial("Essence"),
+              ...conditionalComponent(0),
+              ...conditionalComponent(1),
+            ],
             // workers: [
             //   {
             //     requiredWorker: getBpVal(bp, headers, "Required Worker "), // Note the space

@@ -132,8 +132,8 @@ db.createCollection("blueprints", {
           required: [
             "timeInSeconds",
             "timeFormatted",
-            // "goldPerCraftingSecond",
-            // "merchantXpPerCraftingSecond",
+            "goldPerCraftingSecond",
+            "merchantXpPerCraftingSecond",
           ],
           description: "Blueprint crafting values and details (required)",
           properties: {
@@ -155,6 +155,31 @@ db.createCollection("blueprints", {
               bsonType: "string", // double in disguise
               description:
                 "Blueprint merchant XP per second of crafting time (required)",
+            },
+            materials: {
+              bsonType: "array",
+              maxItems: 5,
+              minItems: 1,
+              description:
+                "Blueprint crafting materials and components (required)",
+              items: {
+                bsonType: "object",
+                required: ["amount"],
+                properties: {
+                  amount: {
+                    bsonType: "int",
+                  },
+                  component: {
+                    bsonType: "string",
+                  },
+                  item: {
+                    bsonType: "string",
+                  },
+                  quality: {
+                    bsonType: "string",
+                  },
+                },
+              },
             },
           },
         },

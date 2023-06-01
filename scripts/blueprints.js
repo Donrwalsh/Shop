@@ -22,6 +22,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "3.33",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -47,6 +54,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:00",
       goldPerCraftingSecond: "3.00",
       merchantXpPerCraftingSecond: "7.58",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -72,6 +86,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:20",
       goldPerCraftingSecond: "4.79",
       merchantXpPerCraftingSecond: "8.57",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -97,6 +118,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:20",
       goldPerCraftingSecond: "10.25",
       merchantXpPerCraftingSecond: "8.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -123,6 +151,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:04:30",
       goldPerCraftingSecond: "4.63",
       merchantXpPerCraftingSecond: "8.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -148,6 +183,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:00",
       goldPerCraftingSecond: "5.69",
       merchantXpPerCraftingSecond: "8.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -173,6 +215,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:16:30",
       goldPerCraftingSecond: "5.96",
       merchantXpPerCraftingSecond: "7.37",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -199,6 +248,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:21:30",
       goldPerCraftingSecond: "8.53",
       merchantXpPerCraftingSecond: "7.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -225,6 +281,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:26:30",
       goldPerCraftingSecond: "9.43",
       merchantXpPerCraftingSecond: "6.29",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -250,6 +313,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "10.00",
       merchantXpPerCraftingSecond: "5.63",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -276,6 +346,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "10.69",
       merchantXpPerCraftingSecond: "4.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -301,6 +378,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "10.75",
       merchantXpPerCraftingSecond: "3.67",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -327,6 +411,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "13.89",
       merchantXpPerCraftingSecond: "3.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -352,6 +443,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:40:00",
       goldPerCraftingSecond: "14.77",
       merchantXpPerCraftingSecond: "2.46",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -377,6 +475,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "14.20",
       merchantXpPerCraftingSecond: "2.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -402,6 +507,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:20:00",
       goldPerCraftingSecond: "19.01",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -427,6 +539,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "14.71",
       merchantXpPerCraftingSecond: "2.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -453,6 +572,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "17.07",
       merchantXpPerCraftingSecond: "1.99",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -479,6 +605,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "16.06",
       merchantXpPerCraftingSecond: "1.99",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -504,6 +637,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:10:00",
       goldPerCraftingSecond: "20.58",
       merchantXpPerCraftingSecond: "1.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -529,6 +669,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:40:00",
       goldPerCraftingSecond: "19.11",
       merchantXpPerCraftingSecond: "1.62",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -555,6 +702,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:40:00",
       goldPerCraftingSecond: "18.68",
       merchantXpPerCraftingSecond: "1.62",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -581,6 +735,13 @@ db.blueprints.insertMany([
       timeFormatted: "11:40:00",
       goldPerCraftingSecond: "16.19",
       merchantXpPerCraftingSecond: "1.45",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -606,6 +767,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "27.78",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -632,6 +800,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "29.76",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -658,6 +833,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "27.50",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -683,6 +865,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:50:00",
       goldPerCraftingSecond: "30.30",
       merchantXpPerCraftingSecond: "2.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -709,6 +898,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:50:00",
       goldPerCraftingSecond: "32.63",
       merchantXpPerCraftingSecond: "2.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -734,6 +930,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "52.14",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -760,6 +963,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "28.27",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -786,6 +996,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "28.27",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -811,6 +1028,13 @@ db.blueprints.insertMany([
       timeFormatted: "40:40:00",
       goldPerCraftingSecond: "38.59",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -837,6 +1061,13 @@ db.blueprints.insertMany([
       timeFormatted: "40:40:00",
       goldPerCraftingSecond: "41.33",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -861,6 +1092,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "4.43",
       merchantXpPerCraftingSecond: "7.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -886,6 +1124,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:40",
       goldPerCraftingSecond: "4.44",
       merchantXpPerCraftingSecond: "9.06",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -911,6 +1156,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:05:00",
       goldPerCraftingSecond: "4.33",
       merchantXpPerCraftingSecond: "9.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -937,6 +1189,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:40",
       goldPerCraftingSecond: "4.38",
       merchantXpPerCraftingSecond: "9.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -962,6 +1221,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:11:30",
       goldPerCraftingSecond: "6.52",
       merchantXpPerCraftingSecond: "8.84",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -987,6 +1253,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:14:30",
       goldPerCraftingSecond: "6.95",
       merchantXpPerCraftingSecond: "8.56",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1012,6 +1285,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:14:30",
       goldPerCraftingSecond: "6.61",
       merchantXpPerCraftingSecond: "8.56",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1037,6 +1317,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:23:00",
       goldPerCraftingSecond: "7.25",
       merchantXpPerCraftingSecond: "7.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1063,6 +1350,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:36:00",
       goldPerCraftingSecond: "5.56",
       merchantXpPerCraftingSecond: "6.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1089,6 +1383,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:36:00",
       goldPerCraftingSecond: "6.71",
       merchantXpPerCraftingSecond: "6.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1114,6 +1415,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "7.27",
       merchantXpPerCraftingSecond: "5.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1140,6 +1448,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "13.50",
       merchantXpPerCraftingSecond: "7.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1165,6 +1480,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:50:00",
       goldPerCraftingSecond: "10.45",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1190,6 +1512,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "12.31",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1215,6 +1544,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:20:00",
       goldPerCraftingSecond: "13.46",
       merchantXpPerCraftingSecond: "2.82",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1241,6 +1577,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:00:00",
       goldPerCraftingSecond: "10.65",
       merchantXpPerCraftingSecond: "2.20",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1266,6 +1609,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:10:00",
       goldPerCraftingSecond: "15.32",
       merchantXpPerCraftingSecond: "2.77",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1291,6 +1641,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "17.79",
       merchantXpPerCraftingSecond: "2.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1317,6 +1674,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "18.69",
       merchantXpPerCraftingSecond: "2.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1342,6 +1706,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:00:00",
       goldPerCraftingSecond: "19.91",
       merchantXpPerCraftingSecond: "2.01",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1367,6 +1738,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:40:00",
       goldPerCraftingSecond: "18.62",
       merchantXpPerCraftingSecond: "1.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1392,6 +1770,13 @@ db.blueprints.insertMany([
       timeFormatted: "12:50:00",
       goldPerCraftingSecond: "35.71",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1418,6 +1803,13 @@ db.blueprints.insertMany([
       timeFormatted: "12:50:00",
       goldPerCraftingSecond: "14.83",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1443,6 +1835,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:20:00",
       goldPerCraftingSecond: "26.27",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1469,6 +1868,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:20:00",
       goldPerCraftingSecond: "30.80",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1495,6 +1901,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:20:00",
       goldPerCraftingSecond: "27.27",
       merchantXpPerCraftingSecond: "1.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1521,6 +1934,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:20:00",
       goldPerCraftingSecond: "28.03",
       merchantXpPerCraftingSecond: "1.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1546,6 +1966,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "26.54",
       merchantXpPerCraftingSecond: "2.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1572,6 +1999,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "29.19",
       merchantXpPerCraftingSecond: "2.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1598,6 +2032,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:20:00",
       goldPerCraftingSecond: "26.15",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1624,6 +2065,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:20:00",
       goldPerCraftingSecond: "26.60",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1649,6 +2097,13 @@ db.blueprints.insertMany([
       timeFormatted: "44:40:00",
       goldPerCraftingSecond: "35.14",
       merchantXpPerCraftingSecond: "1.77",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1673,6 +2128,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:10",
       goldPerCraftingSecond: "4.50",
       merchantXpPerCraftingSecond: "12.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1698,6 +2160,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:00",
       goldPerCraftingSecond: "11.00",
       merchantXpPerCraftingSecond: "6.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1723,6 +2192,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:00",
       goldPerCraftingSecond: "4.33",
       merchantXpPerCraftingSecond: "6.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1749,6 +2225,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:10",
       goldPerCraftingSecond: "5.08",
       merchantXpPerCraftingSecond: "7.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1774,6 +2257,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:00",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "7.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1799,6 +2289,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:09:20",
       goldPerCraftingSecond: "6.52",
       merchantXpPerCraftingSecond: "7.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1825,6 +2322,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:15:00",
       goldPerCraftingSecond: "7.33",
       merchantXpPerCraftingSecond: "6.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1850,6 +2354,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:19:00",
       goldPerCraftingSecond: "6.10",
       merchantXpPerCraftingSecond: "6.10",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1876,6 +2387,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:24:00",
       goldPerCraftingSecond: "7.64",
       merchantXpPerCraftingSecond: "5.66",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1902,6 +2420,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:30:00",
       goldPerCraftingSecond: "8.33",
       merchantXpPerCraftingSecond: "5.22",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1927,6 +2452,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:45:00",
       goldPerCraftingSecond: "7.59",
       merchantXpPerCraftingSecond: "4.63",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1953,6 +2485,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "9.55",
       merchantXpPerCraftingSecond: "4.24",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -1978,6 +2517,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:50:00",
       goldPerCraftingSecond: "10.53",
       merchantXpPerCraftingSecond: "2.95",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2004,6 +2550,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "9.17",
       merchantXpPerCraftingSecond: "2.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2029,6 +2582,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:20:00",
       goldPerCraftingSecond: "14.17",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2054,6 +2614,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:00:00",
       goldPerCraftingSecond: "14.93",
       merchantXpPerCraftingSecond: "1.98",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2079,6 +2646,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:10:00",
       goldPerCraftingSecond: "19.00",
       merchantXpPerCraftingSecond: "2.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2105,6 +2679,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "18.47",
       merchantXpPerCraftingSecond: "1.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2130,6 +2711,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "23.42",
       merchantXpPerCraftingSecond: "1.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2155,6 +2743,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:20:00",
       goldPerCraftingSecond: "18.94",
       merchantXpPerCraftingSecond: "1.59",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2180,6 +2775,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:50:00",
       goldPerCraftingSecond: "18.40",
       merchantXpPerCraftingSecond: "1.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2206,6 +2808,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:50:00",
       goldPerCraftingSecond: "17.92",
       merchantXpPerCraftingSecond: "1.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2232,6 +2841,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:30:00",
       goldPerCraftingSecond: "16.27",
       merchantXpPerCraftingSecond: "1.28",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2257,6 +2873,13 @@ db.blueprints.insertMany([
       timeFormatted: "12:30:00",
       goldPerCraftingSecond: "26.67",
       merchantXpPerCraftingSecond: "1.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2282,6 +2905,13 @@ db.blueprints.insertMany([
       timeFormatted: "12:30:00",
       goldPerCraftingSecond: "30.00",
       merchantXpPerCraftingSecond: "1.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2308,6 +2938,13 @@ db.blueprints.insertMany([
       timeFormatted: "12:30:00",
       goldPerCraftingSecond: "33.33",
       merchantXpPerCraftingSecond: "1.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2334,6 +2971,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:00:00",
       goldPerCraftingSecond: "29.63",
       merchantXpPerCraftingSecond: "1.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2360,6 +3004,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:00:00",
       goldPerCraftingSecond: "32.41",
       merchantXpPerCraftingSecond: "1.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2385,6 +3036,13 @@ db.blueprints.insertMany([
       timeFormatted: "21:30:00",
       goldPerCraftingSecond: "27.78",
       merchantXpPerCraftingSecond: "2.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2410,6 +3068,13 @@ db.blueprints.insertMany([
       timeFormatted: "21:30:00",
       goldPerCraftingSecond: "55.56",
       merchantXpPerCraftingSecond: "2.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2436,6 +3101,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:40:00",
       goldPerCraftingSecond: "24.35",
       merchantXpPerCraftingSecond: "1.79",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2462,6 +3134,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:40:00",
       goldPerCraftingSecond: "28.14",
       merchantXpPerCraftingSecond: "1.79",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2487,6 +3166,13 @@ db.blueprints.insertMany([
       timeFormatted: "36:30:00",
       goldPerCraftingSecond: "41.10",
       merchantXpPerCraftingSecond: "1.41",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2512,6 +3198,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "3.33",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2537,6 +3230,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:50",
       goldPerCraftingSecond: "4.40",
       merchantXpPerCraftingSecond: "9.10",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2562,6 +3262,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:40",
       goldPerCraftingSecond: "10.60",
       merchantXpPerCraftingSecond: "7.65",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2587,6 +3294,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:20",
       goldPerCraftingSecond: "4.50",
       merchantXpPerCraftingSecond: "8.57",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2613,6 +3327,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:20",
       goldPerCraftingSecond: "5.00",
       merchantXpPerCraftingSecond: "8.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2638,6 +3359,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:00",
       goldPerCraftingSecond: "7.50",
       merchantXpPerCraftingSecond: "8.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2664,6 +3392,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:00",
       goldPerCraftingSecond: "9.58",
       merchantXpPerCraftingSecond: "8.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2689,6 +3424,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:16:30",
       goldPerCraftingSecond: "6.26",
       merchantXpPerCraftingSecond: "7.37",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2715,6 +3457,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:26:30",
       goldPerCraftingSecond: "7.55",
       merchantXpPerCraftingSecond: "6.29",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2740,6 +3489,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "8.75",
       merchantXpPerCraftingSecond: "5.63",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2766,6 +3522,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "11.25",
       merchantXpPerCraftingSecond: "4.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2791,6 +3554,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:30:00",
       goldPerCraftingSecond: "11.39",
       merchantXpPerCraftingSecond: "4.07",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2816,6 +3586,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:50:00",
       goldPerCraftingSecond: "14.39",
       merchantXpPerCraftingSecond: "3.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2842,6 +3619,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:20:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "3.21",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2867,6 +3651,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "11.42",
       merchantXpPerCraftingSecond: "2.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2893,6 +3684,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:20:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2919,6 +3717,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:20:00",
       goldPerCraftingSecond: "13.54",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2944,6 +3749,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "17.26",
       merchantXpPerCraftingSecond: "2.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2970,6 +3782,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "20.10",
       merchantXpPerCraftingSecond: "2.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -2996,6 +3815,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "17.07",
       merchantXpPerCraftingSecond: "1.99",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3021,6 +3847,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:10:00",
       goldPerCraftingSecond: "21.43",
       merchantXpPerCraftingSecond: "1.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3046,6 +3879,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:10:00",
       goldPerCraftingSecond: "44.22",
       merchantXpPerCraftingSecond: "1.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3072,6 +3912,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:40:00",
       goldPerCraftingSecond: "20.11",
       merchantXpPerCraftingSecond: "1.62",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3097,6 +3944,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "26.79",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3122,6 +3976,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "31.75",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3148,6 +4009,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "28.33",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3174,6 +4042,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "30.00",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3199,6 +4074,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "24.37",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3225,6 +4107,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "26.80",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3251,6 +4140,13 @@ db.blueprints.insertMany([
       timeFormatted: "34:00:00",
       goldPerCraftingSecond: "23.69",
       merchantXpPerCraftingSecond: "1.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3276,6 +4172,13 @@ db.blueprints.insertMany([
       timeFormatted: "40:40:00",
       goldPerCraftingSecond: "37.91",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3302,6 +4205,13 @@ db.blueprints.insertMany([
       timeFormatted: "40:40:00",
       goldPerCraftingSecond: "39.96",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3326,6 +4236,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "2.71",
       merchantXpPerCraftingSecond: "7.43",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3351,6 +4268,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:40",
       goldPerCraftingSecond: "3.25",
       merchantXpPerCraftingSecond: "8.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3376,6 +4300,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:30",
       goldPerCraftingSecond: "3.59",
       merchantXpPerCraftingSecond: "9.36",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3402,6 +4333,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:40",
       goldPerCraftingSecond: "4.62",
       merchantXpPerCraftingSecond: "8.94",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3427,6 +4365,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:12:30",
       goldPerCraftingSecond: "6.47",
       merchantXpPerCraftingSecond: "9.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3452,6 +4397,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:28:30",
       goldPerCraftingSecond: "6.73",
       merchantXpPerCraftingSecond: "7.02",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3478,6 +4430,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:36:00",
       goldPerCraftingSecond: "7.41",
       merchantXpPerCraftingSecond: "6.48",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3504,6 +4463,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:45:00",
       goldPerCraftingSecond: "8.70",
       merchantXpPerCraftingSecond: "5.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3529,6 +4495,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "8.79",
       merchantXpPerCraftingSecond: "5.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3554,6 +4527,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "12.36",
       merchantXpPerCraftingSecond: "5.69",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3580,6 +4560,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:20:00",
       goldPerCraftingSecond: "11.25",
       merchantXpPerCraftingSecond: "4.79",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3605,6 +4592,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "4.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3631,6 +4625,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:40:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "3.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3657,6 +4658,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:40:00",
       goldPerCraftingSecond: "13.54",
       merchantXpPerCraftingSecond: "3.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3682,6 +4690,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:50:00",
       goldPerCraftingSecond: "13.04",
       merchantXpPerCraftingSecond: "2.79",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3708,6 +4723,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:50:00",
       goldPerCraftingSecond: "11.78",
       merchantXpPerCraftingSecond: "2.41",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3733,6 +4755,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:00:00",
       goldPerCraftingSecond: "16.11",
       merchantXpPerCraftingSecond: "2.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3759,6 +4788,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "18.92",
       merchantXpPerCraftingSecond: "2.43",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3784,6 +4820,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "27.03",
       merchantXpPerCraftingSecond: "2.43",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3809,6 +4852,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:50:00",
       goldPerCraftingSecond: "19.03",
       merchantXpPerCraftingSecond: "1.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3834,6 +4884,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:40:00",
       goldPerCraftingSecond: "22.12",
       merchantXpPerCraftingSecond: "2.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3860,6 +4917,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:30:00",
       goldPerCraftingSecond: "17.86",
       merchantXpPerCraftingSecond: "1.77",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3885,6 +4949,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:00:00",
       goldPerCraftingSecond: "22.22",
       merchantXpPerCraftingSecond: "2.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3911,6 +4982,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:00:00",
       goldPerCraftingSecond: "29.63",
       merchantXpPerCraftingSecond: "2.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3937,6 +5015,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:00:00",
       goldPerCraftingSecond: "27.78",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3962,6 +5047,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:00:00",
       goldPerCraftingSecond: "30.19",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -3988,6 +5080,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:40:00",
       goldPerCraftingSecond: "30.30",
       merchantXpPerCraftingSecond: "2.49",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4014,6 +5113,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:50:00",
       goldPerCraftingSecond: "26.58",
       merchantXpPerCraftingSecond: "2.21",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4039,6 +5145,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:50:00",
       goldPerCraftingSecond: "47.75",
       merchantXpPerCraftingSecond: "2.21",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4064,6 +5177,13 @@ db.blueprints.insertMany([
       timeFormatted: "43:50:00",
       goldPerCraftingSecond: "37.07",
       merchantXpPerCraftingSecond: "1.74",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4089,6 +5209,13 @@ db.blueprints.insertMany([
       timeFormatted: "43:50:00",
       goldPerCraftingSecond: "38.97",
       merchantXpPerCraftingSecond: "1.74",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4113,6 +5240,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:40",
       goldPerCraftingSecond: "5.50",
       merchantXpPerCraftingSecond: "6.63",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4138,6 +5272,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "11.71",
       merchantXpPerCraftingSecond: "7.07",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4163,6 +5304,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:40",
       goldPerCraftingSecond: "2.90",
       merchantXpPerCraftingSecond: "8.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4188,6 +5336,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:04:50",
       goldPerCraftingSecond: "3.97",
       merchantXpPerCraftingSecond: "8.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4214,6 +5369,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:20",
       goldPerCraftingSecond: "4.70",
       merchantXpPerCraftingSecond: "8.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4239,6 +5401,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:11:00",
       goldPerCraftingSecond: "4.24",
       merchantXpPerCraftingSecond: "8.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4265,6 +5434,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:17:30",
       goldPerCraftingSecond: "18.48",
       merchantXpPerCraftingSecond: "7.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4290,6 +5466,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:21:30",
       goldPerCraftingSecond: "6.43",
       merchantXpPerCraftingSecond: "7.48",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4316,6 +5499,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:34:00",
       goldPerCraftingSecond: "6.62",
       merchantXpPerCraftingSecond: "6.37",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4341,6 +5531,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "8.18",
       merchantXpPerCraftingSecond: "5.15",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4366,6 +5563,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "13.47",
       merchantXpPerCraftingSecond: "5.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4391,6 +5595,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "10.07",
       merchantXpPerCraftingSecond: "3.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4417,6 +5628,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:30:00",
       goldPerCraftingSecond: "12.22",
       merchantXpPerCraftingSecond: "3.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4442,6 +5660,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:20:00",
       goldPerCraftingSecond: "12.18",
       merchantXpPerCraftingSecond: "2.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4468,6 +5693,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "12.01",
       merchantXpPerCraftingSecond: "2.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4493,6 +5725,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "18.83",
       merchantXpPerCraftingSecond: "2.87",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4519,6 +5758,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:00:00",
       goldPerCraftingSecond: "19.68",
       merchantXpPerCraftingSecond: "2.34",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4544,6 +5790,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:30:00",
       goldPerCraftingSecond: "20.59",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4570,6 +5823,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:10:00",
       goldPerCraftingSecond: "17.90",
       merchantXpPerCraftingSecond: "1.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4595,6 +5855,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:30:00",
       goldPerCraftingSecond: "23.81",
       merchantXpPerCraftingSecond: "1.83",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4620,6 +5887,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:30:00",
       goldPerCraftingSecond: "46.03",
       merchantXpPerCraftingSecond: "1.83",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4646,6 +5920,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:40:00",
       goldPerCraftingSecond: "31.03",
       merchantXpPerCraftingSecond: "2.04",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4672,6 +5953,13 @@ db.blueprints.insertMany([
       timeFormatted: "21:00:00",
       goldPerCraftingSecond: "25.13",
       merchantXpPerCraftingSecond: "1.65",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4698,6 +5986,13 @@ db.blueprints.insertMany([
       timeFormatted: "21:00:00",
       goldPerCraftingSecond: "25.79",
       merchantXpPerCraftingSecond: "1.65",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4723,6 +6018,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:50:00",
       goldPerCraftingSecond: "24.21",
       merchantXpPerCraftingSecond: "2.14",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4749,6 +6051,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:50:00",
       goldPerCraftingSecond: "27.00",
       merchantXpPerCraftingSecond: "2.14",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4775,6 +6084,13 @@ db.blueprints.insertMany([
       timeFormatted: "35:40:00",
       goldPerCraftingSecond: "24.14",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4800,6 +6116,13 @@ db.blueprints.insertMany([
       timeFormatted: "42:40:00",
       goldPerCraftingSecond: "36.46",
       merchantXpPerCraftingSecond: "1.69",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4825,6 +6148,13 @@ db.blueprints.insertMany([
       timeFormatted: "41:40:00",
       goldPerCraftingSecond: "39.00",
       merchantXpPerCraftingSecond: "1.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4851,6 +6181,13 @@ db.blueprints.insertMany([
       timeFormatted: "50:50:00",
       goldPerCraftingSecond: "32.51",
       merchantXpPerCraftingSecond: "1.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4876,6 +6213,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4901,6 +6245,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "2.86",
       merchantXpPerCraftingSecond: "7.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4926,6 +6277,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:40",
       goldPerCraftingSecond: "4.44",
       merchantXpPerCraftingSecond: "9.06",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4952,6 +6310,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:40",
       goldPerCraftingSecond: "4.88",
       merchantXpPerCraftingSecond: "9.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -4977,6 +6342,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:40",
       goldPerCraftingSecond: "25.00",
       merchantXpPerCraftingSecond: "9.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5002,6 +6374,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:10",
       goldPerCraftingSecond: "5.71",
       merchantXpPerCraftingSecond: "9.90",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5028,6 +6407,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:14:30",
       goldPerCraftingSecond: "5.52",
       merchantXpPerCraftingSecond: "8.56",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5053,6 +6439,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:23:00",
       goldPerCraftingSecond: "6.88",
       merchantXpPerCraftingSecond: "7.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5078,6 +6471,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:29:00",
       goldPerCraftingSecond: "12.93",
       merchantXpPerCraftingSecond: "7.18",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5104,6 +6504,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:29:00",
       goldPerCraftingSecond: "10.63",
       merchantXpPerCraftingSecond: "7.18",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5129,6 +6536,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "9.85",
       merchantXpPerCraftingSecond: "5.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5155,6 +6569,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "10.71",
       merchantXpPerCraftingSecond: "5.12",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5180,6 +6601,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:50:00",
       goldPerCraftingSecond: "9.17",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5206,6 +6634,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:40:00",
       goldPerCraftingSecond: "10.94",
       merchantXpPerCraftingSecond: "3.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5231,6 +6666,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:00:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5256,6 +6698,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:10:00",
       goldPerCraftingSecond: "14.67",
       merchantXpPerCraftingSecond: "2.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5282,6 +6731,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:50:00",
       goldPerCraftingSecond: "12.64",
       merchantXpPerCraftingSecond: "2.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5307,6 +6763,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:00:00",
       goldPerCraftingSecond: "16.67",
       merchantXpPerCraftingSecond: "2.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5332,6 +6795,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "18.02",
       merchantXpPerCraftingSecond: "2.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5358,6 +6828,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "19.37",
       merchantXpPerCraftingSecond: "2.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5383,6 +6860,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:00:00",
       goldPerCraftingSecond: "19.91",
       merchantXpPerCraftingSecond: "2.01",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5409,6 +6893,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:10:00",
       goldPerCraftingSecond: "18.44",
       merchantXpPerCraftingSecond: "1.90",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5434,6 +6925,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:20:00",
       goldPerCraftingSecond: "25.36",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5460,6 +6958,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:20:00",
       goldPerCraftingSecond: "29.89",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5486,6 +6991,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:20:00",
       goldPerCraftingSecond: "27.27",
       merchantXpPerCraftingSecond: "1.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5511,6 +7023,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "24.95",
       merchantXpPerCraftingSecond: "2.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5536,6 +7055,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "48.83",
       merchantXpPerCraftingSecond: "2.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5562,6 +7088,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "27.07",
       merchantXpPerCraftingSecond: "2.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5588,6 +7121,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:20:00",
       goldPerCraftingSecond: "24.38",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5613,6 +7153,13 @@ db.blueprints.insertMany([
       timeFormatted: "53:20:00",
       goldPerCraftingSecond: "26.56",
       merchantXpPerCraftingSecond: "1.59",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5638,6 +7185,13 @@ db.blueprints.insertMany([
       timeFormatted: "53:20:00",
       goldPerCraftingSecond: "28.91",
       merchantXpPerCraftingSecond: "1.59",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5663,6 +7217,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:20",
       goldPerCraftingSecond: "4.38",
       merchantXpPerCraftingSecond: "9.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5688,6 +7249,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:04:30",
       goldPerCraftingSecond: "5.19",
       merchantXpPerCraftingSecond: "11.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5713,6 +7281,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:10:30",
       goldPerCraftingSecond: "5.16",
       merchantXpPerCraftingSecond: "11.90",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5739,6 +7314,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:17:30",
       goldPerCraftingSecond: "7.29",
       merchantXpPerCraftingSecond: "10.95",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5765,6 +7347,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:36:00",
       goldPerCraftingSecond: "8.56",
       merchantXpPerCraftingSecond: "9.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5791,6 +7380,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:45:00",
       goldPerCraftingSecond: "7.41",
       merchantXpPerCraftingSecond: "8.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5817,6 +7413,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "12.74",
       merchantXpPerCraftingSecond: "7.02",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5843,6 +7446,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:20:00",
       goldPerCraftingSecond: "14.90",
       merchantXpPerCraftingSecond: "6.98",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5869,6 +7479,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "12.82",
       merchantXpPerCraftingSecond: "5.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5895,6 +7512,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:40:00",
       goldPerCraftingSecond: "10.94",
       merchantXpPerCraftingSecond: "4.84",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5921,6 +7545,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "15.12",
       merchantXpPerCraftingSecond: "3.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5947,6 +7578,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:40:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "3.15",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5973,6 +7611,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:10:00",
       goldPerCraftingSecond: "12.12",
       merchantXpPerCraftingSecond: "2.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -5999,6 +7644,13 @@ db.blueprints.insertMany([
       timeFormatted: "12:50:00",
       goldPerCraftingSecond: "14.39",
       merchantXpPerCraftingSecond: "2.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6025,6 +7677,13 @@ db.blueprints.insertMany([
       timeFormatted: "13:10:00",
       goldPerCraftingSecond: "14.77",
       merchantXpPerCraftingSecond: "2.32",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6051,6 +7710,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:50:00",
       goldPerCraftingSecond: "25.07",
       merchantXpPerCraftingSecond: "2.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6076,6 +7742,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:50:00",
       goldPerCraftingSecond: "50.88",
       merchantXpPerCraftingSecond: "2.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6102,6 +7775,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:30:00",
       goldPerCraftingSecond: "24.69",
       merchantXpPerCraftingSecond: "2.47",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6128,6 +7808,13 @@ db.blueprints.insertMany([
       timeFormatted: "32:10:00",
       goldPerCraftingSecond: "26.34",
       merchantXpPerCraftingSecond: "3.24",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6154,6 +7841,13 @@ db.blueprints.insertMany([
       timeFormatted: "32:10:00",
       goldPerCraftingSecond: "28.07",
       merchantXpPerCraftingSecond: "3.24",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6180,6 +7874,13 @@ db.blueprints.insertMany([
       timeFormatted: "38:30:00",
       goldPerCraftingSecond: "24.17",
       merchantXpPerCraftingSecond: "2.89",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6206,6 +7907,13 @@ db.blueprints.insertMany([
       timeFormatted: "65:30:00",
       goldPerCraftingSecond: "26.93",
       merchantXpPerCraftingSecond: "1.99",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6231,6 +7939,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:50",
       goldPerCraftingSecond: "4.20",
       merchantXpPerCraftingSecond: "7.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6256,6 +7971,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:10",
       goldPerCraftingSecond: "4.31",
       merchantXpPerCraftingSecond: "10.77",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6281,6 +8003,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:10",
       goldPerCraftingSecond: "5.41",
       merchantXpPerCraftingSecond: "11.89",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6307,6 +8036,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:14:00",
       goldPerCraftingSecond: "6.73",
       merchantXpPerCraftingSecond: "11.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6333,6 +8069,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:22:30",
       goldPerCraftingSecond: "6.70",
       merchantXpPerCraftingSecond: "10.37",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6359,6 +8102,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:27:30",
       goldPerCraftingSecond: "9.39",
       merchantXpPerCraftingSecond: "10.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6385,6 +8135,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "8.33",
       merchantXpPerCraftingSecond: "7.02",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6411,6 +8168,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:50:00",
       goldPerCraftingSecond: "8.56",
       merchantXpPerCraftingSecond: "5.68",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6437,6 +8201,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:30:00",
       goldPerCraftingSecond: "14.44",
       merchantXpPerCraftingSecond: "5.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6463,6 +8234,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:50:00",
       goldPerCraftingSecond: "12.07",
       merchantXpPerCraftingSecond: "3.59",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6489,6 +8267,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:00:00",
       goldPerCraftingSecond: "10.65",
       merchantXpPerCraftingSecond: "3.15",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6515,6 +8300,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:10:00",
       goldPerCraftingSecond: "13.76",
       merchantXpPerCraftingSecond: "3.37",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6541,6 +8333,13 @@ db.blueprints.insertMany([
       timeFormatted: "11:00:00",
       goldPerCraftingSecond: "16.54",
       merchantXpPerCraftingSecond: "2.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6567,6 +8366,13 @@ db.blueprints.insertMany([
       timeFormatted: "11:00:00",
       goldPerCraftingSecond: "17.42",
       merchantXpPerCraftingSecond: "2.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6593,6 +8399,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:50:00",
       goldPerCraftingSecond: "28.02",
       merchantXpPerCraftingSecond: "2.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6618,6 +8431,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:50:00",
       goldPerCraftingSecond: "51.62",
       merchantXpPerCraftingSecond: "2.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6644,6 +8464,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:30:00",
       goldPerCraftingSecond: "25.93",
       merchantXpPerCraftingSecond: "2.47",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6670,6 +8497,13 @@ db.blueprints.insertMany([
       timeFormatted: "32:10:00",
       goldPerCraftingSecond: "25.47",
       merchantXpPerCraftingSecond: "3.24",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6696,6 +8530,13 @@ db.blueprints.insertMany([
       timeFormatted: "32:10:00",
       goldPerCraftingSecond: "27.63",
       merchantXpPerCraftingSecond: "3.24",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6722,6 +8563,13 @@ db.blueprints.insertMany([
       timeFormatted: "54:40:00",
       goldPerCraftingSecond: "31.25",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6747,6 +8595,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:20",
       goldPerCraftingSecond: "5.00",
       merchantXpPerCraftingSecond: "9.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6772,6 +8627,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:10",
       goldPerCraftingSecond: "4.42",
       merchantXpPerCraftingSecond: "10.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6797,6 +8659,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:07:50",
       goldPerCraftingSecond: "5.21",
       merchantXpPerCraftingSecond: "11.49",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6823,6 +8692,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:17:00",
       goldPerCraftingSecond: "9.02",
       merchantXpPerCraftingSecond: "10.29",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6849,6 +8725,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:21:30",
       goldPerCraftingSecond: "8.91",
       merchantXpPerCraftingSecond: "10.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6875,6 +8758,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:45:00",
       goldPerCraftingSecond: "7.78",
       merchantXpPerCraftingSecond: "7.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6901,6 +8791,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:20:00",
       goldPerCraftingSecond: "9.58",
       merchantXpPerCraftingSecond: "6.46",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6927,6 +8824,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "9.33",
       merchantXpPerCraftingSecond: "5.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6953,6 +8857,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "9.67",
       merchantXpPerCraftingSecond: "5.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -6979,6 +8890,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:30:00",
       goldPerCraftingSecond: "12.22",
       merchantXpPerCraftingSecond: "4.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7005,6 +8923,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "3.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7031,6 +8956,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:20:00",
       goldPerCraftingSecond: "12.33",
       merchantXpPerCraftingSecond: "2.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7057,6 +8989,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:50:00",
       goldPerCraftingSecond: "13.36",
       merchantXpPerCraftingSecond: "2.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7083,6 +9022,13 @@ db.blueprints.insertMany([
       timeFormatted: "12:40:00",
       goldPerCraftingSecond: "14.58",
       merchantXpPerCraftingSecond: "2.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7109,6 +9055,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:10:00",
       goldPerCraftingSecond: "12.36",
       merchantXpPerCraftingSecond: "1.92",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7135,6 +9088,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:10:00",
       goldPerCraftingSecond: "25.99",
       merchantXpPerCraftingSecond: "2.60",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7160,6 +9120,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:10:00",
       goldPerCraftingSecond: "51.99",
       merchantXpPerCraftingSecond: "2.60",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7186,6 +9153,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:10:00",
       goldPerCraftingSecond: "30.58",
       merchantXpPerCraftingSecond: "2.60",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7212,6 +9186,13 @@ db.blueprints.insertMany([
       timeFormatted: "37:00:00",
       goldPerCraftingSecond: "24.02",
       merchantXpPerCraftingSecond: "2.74",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7238,6 +9219,13 @@ db.blueprints.insertMany([
       timeFormatted: "37:00:00",
       goldPerCraftingSecond: "25.53",
       merchantXpPerCraftingSecond: "2.74",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7264,6 +9252,13 @@ db.blueprints.insertMany([
       timeFormatted: "44:10:00",
       goldPerCraftingSecond: "22.01",
       merchantXpPerCraftingSecond: "2.45",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7289,6 +9284,13 @@ db.blueprints.insertMany([
       timeFormatted: "52:50:00",
       goldPerCraftingSecond: "31.81",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7315,6 +9317,13 @@ db.blueprints.insertMany([
       timeFormatted: "52:50:00",
       goldPerCraftingSecond: "34.17",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7340,6 +9349,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:00",
       goldPerCraftingSecond: "3.00",
       merchantXpPerCraftingSecond: "7.58",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7365,6 +9381,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:20",
       goldPerCraftingSecond: "5.00",
       merchantXpPerCraftingSecond: "8.57",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7390,6 +9413,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:05:40",
       goldPerCraftingSecond: "6.91",
       merchantXpPerCraftingSecond: "9.12",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7416,6 +9446,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:00",
       goldPerCraftingSecond: "6.56",
       merchantXpPerCraftingSecond: "8.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7441,6 +9478,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:13:00",
       goldPerCraftingSecond: "5.26",
       merchantXpPerCraftingSecond: "7.82",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7467,6 +9511,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:15:30",
       goldPerCraftingSecond: "9.30",
       merchantXpPerCraftingSecond: "7.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7492,6 +9543,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:26:30",
       goldPerCraftingSecond: "6.29",
       merchantXpPerCraftingSecond: "6.29",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7518,6 +9576,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:34:00",
       goldPerCraftingSecond: "7.84",
       merchantXpPerCraftingSecond: "5.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7544,6 +9609,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "7.50",
       merchantXpPerCraftingSecond: "5.63",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7569,6 +9641,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "8.17",
       merchantXpPerCraftingSecond: "5.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7595,6 +9674,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "10.28",
       merchantXpPerCraftingSecond: "4.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7621,6 +9707,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "9.72",
       merchantXpPerCraftingSecond: "4.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7646,6 +9739,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "11.42",
       merchantXpPerCraftingSecond: "3.67",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7672,6 +9772,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:20:00",
       goldPerCraftingSecond: "11.90",
       merchantXpPerCraftingSecond: "3.21",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7697,6 +9804,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:10:00",
       goldPerCraftingSecond: "15.79",
       merchantXpPerCraftingSecond: "2.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7722,6 +9836,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "13.89",
       merchantXpPerCraftingSecond: "2.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7747,6 +9868,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "18.83",
       merchantXpPerCraftingSecond: "2.59",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7773,6 +9901,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "18.14",
       merchantXpPerCraftingSecond: "2.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7798,6 +9933,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "24.19",
       merchantXpPerCraftingSecond: "1.99",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7823,6 +9965,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:40:00",
       goldPerCraftingSecond: "18.25",
       merchantXpPerCraftingSecond: "1.62",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7849,6 +9998,13 @@ db.blueprints.insertMany([
       timeFormatted: "11:20:00",
       goldPerCraftingSecond: "15.93",
       merchantXpPerCraftingSecond: "1.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7874,6 +10030,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "25.79",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7899,6 +10062,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "31.75",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7925,6 +10095,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "33.73",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7951,6 +10128,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "27.50",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -7976,6 +10160,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:50:00",
       goldPerCraftingSecond: "31.47",
       merchantXpPerCraftingSecond: "2.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8002,6 +10193,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:50:00",
       goldPerCraftingSecond: "34.97",
       merchantXpPerCraftingSecond: "2.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8027,6 +10225,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:50:00",
       goldPerCraftingSecond: "62.94",
       merchantXpPerCraftingSecond: "2.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8053,6 +10258,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "30.21",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8078,6 +10290,13 @@ db.blueprints.insertMany([
       timeFormatted: "40:40:00",
       goldPerCraftingSecond: "34.49",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8104,6 +10323,13 @@ db.blueprints.insertMany([
       timeFormatted: "40:40:00",
       goldPerCraftingSecond: "37.23",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8128,6 +10354,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:40",
       goldPerCraftingSecond: "2.80",
       merchantXpPerCraftingSecond: "8.10",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8153,6 +10386,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:04:40",
       goldPerCraftingSecond: "3.50",
       merchantXpPerCraftingSecond: "8.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8178,6 +10418,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:10:30",
       goldPerCraftingSecond: "6.11",
       merchantXpPerCraftingSecond: "8.41",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8204,6 +10451,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:10:30",
       goldPerCraftingSecond: "6.43",
       merchantXpPerCraftingSecond: "10.24",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8229,6 +10483,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:21:30",
       goldPerCraftingSecond: "5.43",
       merchantXpPerCraftingSecond: "7.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8255,6 +10516,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:34:00",
       goldPerCraftingSecond: "5.88",
       merchantXpPerCraftingSecond: "6.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8280,6 +10548,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "5.63",
       merchantXpPerCraftingSecond: "6.04",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8306,6 +10581,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "7.27",
       merchantXpPerCraftingSecond: "5.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8332,6 +10614,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "5.95",
       merchantXpPerCraftingSecond: "4.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8357,6 +10646,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "7.50",
       merchantXpPerCraftingSecond: "4.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8383,6 +10679,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "12.98",
       merchantXpPerCraftingSecond: "5.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8408,6 +10711,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "12.08",
       merchantXpPerCraftingSecond: "3.92",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8433,6 +10743,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "14.58",
       merchantXpPerCraftingSecond: "3.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8458,6 +10775,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "12.82",
       merchantXpPerCraftingSecond: "3.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8483,6 +10807,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:40:00",
       goldPerCraftingSecond: "14.39",
       merchantXpPerCraftingSecond: "2.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8509,6 +10840,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:20:00",
       goldPerCraftingSecond: "14.42",
       merchantXpPerCraftingSecond: "2.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8534,6 +10872,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "14.20",
       merchantXpPerCraftingSecond: "2.35",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8559,6 +10904,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:30:00",
       goldPerCraftingSecond: "12.12",
       merchantXpPerCraftingSecond: "2.10",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8584,6 +10936,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "18.21",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8610,6 +10969,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:50:00",
       goldPerCraftingSecond: "19.29",
       merchantXpPerCraftingSecond: "2.31",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8636,6 +11002,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:00:00",
       goldPerCraftingSecond: "16.27",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8661,6 +11034,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:20:00",
       goldPerCraftingSecond: "20.67",
       merchantXpPerCraftingSecond: "1.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8687,6 +11067,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:20:00",
       goldPerCraftingSecond: "21.50",
       merchantXpPerCraftingSecond: "1.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8712,6 +11099,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:00:00",
       goldPerCraftingSecond: "43.06",
       merchantXpPerCraftingSecond: "1.68",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8737,6 +11131,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:20:00",
       goldPerCraftingSecond: "31.01",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8763,6 +11164,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:20:00",
       goldPerCraftingSecond: "34.88",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8789,6 +11197,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:10:00",
       goldPerCraftingSecond: "27.51",
       merchantXpPerCraftingSecond: "1.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8814,6 +11229,13 @@ db.blueprints.insertMany([
       timeFormatted: "24:30:00",
       goldPerCraftingSecond: "28.34",
       merchantXpPerCraftingSecond: "2.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8840,6 +11262,13 @@ db.blueprints.insertMany([
       timeFormatted: "24:30:00",
       goldPerCraftingSecond: "32.31",
       merchantXpPerCraftingSecond: "2.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8865,6 +11294,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:20:00",
       goldPerCraftingSecond: "25.57",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8891,6 +11327,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:20:00",
       goldPerCraftingSecond: "26.99",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8917,6 +11360,13 @@ db.blueprints.insertMany([
       timeFormatted: "35:00:00",
       goldPerCraftingSecond: "23.81",
       merchantXpPerCraftingSecond: "1.87",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8942,6 +11392,13 @@ db.blueprints.insertMany([
       timeFormatted: "41:50:00",
       goldPerCraftingSecond: "35.52",
       merchantXpPerCraftingSecond: "1.66",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8968,6 +11425,13 @@ db.blueprints.insertMany([
       timeFormatted: "41:50:00",
       goldPerCraftingSecond: "36.85",
       merchantXpPerCraftingSecond: "1.66",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -8993,6 +11457,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "4.57",
       merchantXpPerCraftingSecond: "7.07",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9018,6 +11489,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:40",
       goldPerCraftingSecond: "13.80",
       merchantXpPerCraftingSecond: "8.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9043,6 +11521,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:20",
       goldPerCraftingSecond: "5.25",
       merchantXpPerCraftingSecond: "9.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9068,6 +11553,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:20",
       goldPerCraftingSecond: "5.50",
       merchantXpPerCraftingSecond: "8.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9093,6 +11585,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:17:30",
       goldPerCraftingSecond: "6.57",
       merchantXpPerCraftingSecond: "7.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9119,6 +11618,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:22:00",
       goldPerCraftingSecond: "10.23",
       merchantXpPerCraftingSecond: "7.31",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9144,6 +11650,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:28:00",
       goldPerCraftingSecond: "8.93",
       merchantXpPerCraftingSecond: "6.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9169,6 +11682,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:34:00",
       goldPerCraftingSecond: "15.20",
       merchantXpPerCraftingSecond: "6.37",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9195,6 +11715,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:34:00",
       goldPerCraftingSecond: "10.78",
       merchantXpPerCraftingSecond: "6.37",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9220,6 +11747,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "9.85",
       merchantXpPerCraftingSecond: "5.15",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9246,6 +11780,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "12.36",
       merchantXpPerCraftingSecond: "5.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9271,6 +11812,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "11.83",
       merchantXpPerCraftingSecond: "4.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9297,6 +11845,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "15.97",
       merchantXpPerCraftingSecond: "3.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9323,6 +11878,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "18.06",
       merchantXpPerCraftingSecond: "3.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9348,6 +11910,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:50:00",
       goldPerCraftingSecond: "14.13",
       merchantXpPerCraftingSecond: "2.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9374,6 +11943,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "13.39",
       merchantXpPerCraftingSecond: "2.35",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9399,6 +11975,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:00:00",
       goldPerCraftingSecond: "17.78",
       merchantXpPerCraftingSecond: "2.58",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9425,6 +12008,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:00:00",
       goldPerCraftingSecond: "19.68",
       merchantXpPerCraftingSecond: "2.34",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9450,6 +12040,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:10:00",
       goldPerCraftingSecond: "23.64",
       merchantXpPerCraftingSecond: "2.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9475,6 +12072,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:30:00",
       goldPerCraftingSecond: "22.96",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9501,6 +12105,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:30:00",
       goldPerCraftingSecond: "21.41",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9527,6 +12138,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:10:00",
       goldPerCraftingSecond: "18.44",
       merchantXpPerCraftingSecond: "1.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9553,6 +12171,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:10:00",
       goldPerCraftingSecond: "21.36",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9578,6 +12203,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:40:00",
       goldPerCraftingSecond: "26.52",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9603,6 +12235,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:40:00",
       goldPerCraftingSecond: "30.30",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9629,6 +12268,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:30:00",
       goldPerCraftingSecond: "25.40",
       merchantXpPerCraftingSecond: "1.83",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9655,6 +12301,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:30:00",
       goldPerCraftingSecond: "27.78",
       merchantXpPerCraftingSecond: "1.83",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9680,6 +12333,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:10:00",
       goldPerCraftingSecond: "30.58",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9705,6 +12365,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:10:00",
       goldPerCraftingSecond: "25.71",
       merchantXpPerCraftingSecond: "2.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9731,6 +12398,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:50:00",
       goldPerCraftingSecond: "27.00",
       merchantXpPerCraftingSecond: "2.14",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9757,6 +12431,13 @@ db.blueprints.insertMany([
       timeFormatted: "35:40:00",
       goldPerCraftingSecond: "23.36",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9783,6 +12464,13 @@ db.blueprints.insertMany([
       timeFormatted: "35:40:00",
       goldPerCraftingSecond: "23.75",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9808,6 +12496,13 @@ db.blueprints.insertMany([
       timeFormatted: "32:20:00",
       goldPerCraftingSecond: "51.12",
       merchantXpPerCraftingSecond: "2.10",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9833,6 +12528,13 @@ db.blueprints.insertMany([
       timeFormatted: "50:50:00",
       goldPerCraftingSecond: "28.42",
       merchantXpPerCraftingSecond: "1.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9858,6 +12560,13 @@ db.blueprints.insertMany([
       timeFormatted: "50:50:00",
       goldPerCraftingSecond: "30.60",
       merchantXpPerCraftingSecond: "1.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9883,6 +12592,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9908,6 +12624,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:50",
       goldPerCraftingSecond: "3.91",
       merchantXpPerCraftingSecond: "8.36",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9933,6 +12656,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:05:00",
       goldPerCraftingSecond: "5.33",
       merchantXpPerCraftingSecond: "9.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9958,6 +12688,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:10:00",
       goldPerCraftingSecond: "6.08",
       merchantXpPerCraftingSecond: "10.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -9983,6 +12720,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:23:00",
       goldPerCraftingSecond: "6.12",
       merchantXpPerCraftingSecond: "7.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10008,6 +12752,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:29:00",
       goldPerCraftingSecond: "12.07",
       merchantXpPerCraftingSecond: "7.18",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10034,6 +12785,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:45:00",
       goldPerCraftingSecond: "7.04",
       merchantXpPerCraftingSecond: "6.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10059,6 +12817,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "7.83",
       merchantXpPerCraftingSecond: "6.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10085,6 +12850,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "8.64",
       merchantXpPerCraftingSecond: "5.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10111,6 +12883,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "8.21",
       merchantXpPerCraftingSecond: "5.12",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10136,6 +12915,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "10.77",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10161,6 +12947,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:30:00",
       goldPerCraftingSecond: "12.78",
       merchantXpPerCraftingSecond: "3.67",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10187,6 +12980,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:40:00",
       goldPerCraftingSecond: "15.10",
       merchantXpPerCraftingSecond: "3.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10213,6 +13013,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:20:00",
       goldPerCraftingSecond: "13.75",
       merchantXpPerCraftingSecond: "3.04",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10238,6 +13045,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:00:00",
       goldPerCraftingSecond: "12.85",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10264,6 +13078,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:50:00",
       goldPerCraftingSecond: "12.93",
       merchantXpPerCraftingSecond: "2.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10290,6 +13111,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:50:00",
       goldPerCraftingSecond: "13.51",
       merchantXpPerCraftingSecond: "2.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10315,6 +13143,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:10:00",
       goldPerCraftingSecond: "16.67",
       merchantXpPerCraftingSecond: "2.77",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10340,6 +13175,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "18.02",
       merchantXpPerCraftingSecond: "2.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10366,6 +13208,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:30:00",
       goldPerCraftingSecond: "15.74",
       merchantXpPerCraftingSecond: "2.24",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10391,6 +13240,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:40:00",
       goldPerCraftingSecond: "15.89",
       merchantXpPerCraftingSecond: "1.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10416,6 +13272,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:20:00",
       goldPerCraftingSecond: "20.09",
       merchantXpPerCraftingSecond: "2.07",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10441,6 +13304,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:40:00",
       goldPerCraftingSecond: "39.06",
       merchantXpPerCraftingSecond: "1.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10467,6 +13337,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:40:00",
       goldPerCraftingSecond: "17.84",
       merchantXpPerCraftingSecond: "1.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10492,6 +13369,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:20:00",
       goldPerCraftingSecond: "28.08",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10518,6 +13402,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:20:00",
       goldPerCraftingSecond: "31.70",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10544,6 +13435,13 @@ db.blueprints.insertMany([
       timeFormatted: "13:20:00",
       goldPerCraftingSecond: "37.50",
       merchantXpPerCraftingSecond: "2.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10569,6 +13467,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "25.48",
       merchantXpPerCraftingSecond: "2.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10595,6 +13500,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "29.72",
       merchantXpPerCraftingSecond: "2.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10621,6 +13533,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:20:00",
       goldPerCraftingSecond: "26.60",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10647,6 +13566,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:20:00",
       goldPerCraftingSecond: "26.60",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10672,6 +13598,13 @@ db.blueprints.insertMany([
       timeFormatted: "47:40:00",
       goldPerCraftingSecond: "30.30",
       merchantXpPerCraftingSecond: "1.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10697,6 +13630,13 @@ db.blueprints.insertMany([
       timeFormatted: "53:20:00",
       goldPerCraftingSecond: "29.95",
       merchantXpPerCraftingSecond: "1.59",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10721,6 +13661,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10746,6 +13693,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "2.71",
       merchantXpPerCraftingSecond: "7.36",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10771,6 +13725,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:40",
       goldPerCraftingSecond: "5.00",
       merchantXpPerCraftingSecond: "8.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10796,6 +13757,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:30",
       goldPerCraftingSecond: "4.90",
       merchantXpPerCraftingSecond: "9.02",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10822,6 +13790,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:14:00",
       goldPerCraftingSecond: "7.14",
       merchantXpPerCraftingSecond: "8.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10847,6 +13822,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:22:30",
       goldPerCraftingSecond: "6.59",
       merchantXpPerCraftingSecond: "7.41",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10873,6 +13855,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:28:30",
       goldPerCraftingSecond: "19.30",
       merchantXpPerCraftingSecond: "7.02",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10899,6 +13888,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:28:30",
       goldPerCraftingSecond: "10.82",
       merchantXpPerCraftingSecond: "7.02",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10924,6 +13920,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "7.42",
       merchantXpPerCraftingSecond: "5.45",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10949,6 +13952,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "10.24",
       merchantXpPerCraftingSecond: "4.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -10975,6 +13985,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "9.40",
       merchantXpPerCraftingSecond: "4.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11000,6 +14017,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "11.03",
       merchantXpPerCraftingSecond: "3.65",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11026,6 +14050,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:30:00",
       goldPerCraftingSecond: "12.78",
       merchantXpPerCraftingSecond: "3.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11051,6 +14082,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:50:00",
       goldPerCraftingSecond: "14.86",
       merchantXpPerCraftingSecond: "2.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11077,6 +14115,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "14.58",
       merchantXpPerCraftingSecond: "2.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11102,6 +14147,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:00:00",
       goldPerCraftingSecond: "17.78",
       merchantXpPerCraftingSecond: "2.69",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11128,6 +14180,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:00:00",
       goldPerCraftingSecond: "19.68",
       merchantXpPerCraftingSecond: "2.43",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11153,6 +14212,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:30:00",
       goldPerCraftingSecond: "15.87",
       merchantXpPerCraftingSecond: "1.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11179,6 +14245,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:30:00",
       goldPerCraftingSecond: "17.33",
       merchantXpPerCraftingSecond: "1.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11205,6 +14278,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:50:00",
       goldPerCraftingSecond: "17.44",
       merchantXpPerCraftingSecond: "1.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11230,6 +14310,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:00:00",
       goldPerCraftingSecond: "25.93",
       merchantXpPerCraftingSecond: "2.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11255,6 +14342,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:00:00",
       goldPerCraftingSecond: "55.56",
       merchantXpPerCraftingSecond: "2.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11281,6 +14375,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:00:00",
       goldPerCraftingSecond: "30.56",
       merchantXpPerCraftingSecond: "2.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11307,6 +14408,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:50:00",
       goldPerCraftingSecond: "27.26",
       merchantXpPerCraftingSecond: "1.87",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11332,6 +14440,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:20:00",
       goldPerCraftingSecond: "30.36",
       merchantXpPerCraftingSecond: "2.68",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11357,6 +14472,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:30:00",
       goldPerCraftingSecond: "25.05",
       merchantXpPerCraftingSecond: "2.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11383,6 +14505,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:30:00",
       goldPerCraftingSecond: "30.50",
       merchantXpPerCraftingSecond: "2.45",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11409,6 +14538,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:30:00",
       goldPerCraftingSecond: "26.41",
       merchantXpPerCraftingSecond: "2.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11434,6 +14570,13 @@ db.blueprints.insertMany([
       timeFormatted: "43:30:00",
       goldPerCraftingSecond: "34.16",
       merchantXpPerCraftingSecond: "1.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11459,6 +14602,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "3.33",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11484,6 +14634,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:00",
       goldPerCraftingSecond: "4.67",
       merchantXpPerCraftingSecond: "7.58",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11509,6 +14666,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:20",
       goldPerCraftingSecond: "5.50",
       merchantXpPerCraftingSecond: "8.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11534,6 +14698,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:00",
       goldPerCraftingSecond: "5.31",
       merchantXpPerCraftingSecond: "8.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11559,6 +14730,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:21:00",
       goldPerCraftingSecond: "6.98",
       merchantXpPerCraftingSecond: "6.90",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11585,6 +14763,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:26:30",
       goldPerCraftingSecond: "9.43",
       merchantXpPerCraftingSecond: "6.29",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11611,6 +14796,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:34:00",
       goldPerCraftingSecond: "10.54",
       merchantXpPerCraftingSecond: "5.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11636,6 +14828,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "8.00",
       merchantXpPerCraftingSecond: "5.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11661,6 +14860,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "13.06",
       merchantXpPerCraftingSecond: "4.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11687,6 +14893,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:20:00",
       goldPerCraftingSecond: "8.44",
       merchantXpPerCraftingSecond: "4.06",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11712,6 +14925,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:30:00",
       goldPerCraftingSecond: "12.96",
       merchantXpPerCraftingSecond: "4.07",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11738,6 +14958,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "15.28",
       merchantXpPerCraftingSecond: "3.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11763,6 +14990,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "11.73",
       merchantXpPerCraftingSecond: "2.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11789,6 +15023,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:20:00",
       goldPerCraftingSecond: "11.20",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11814,6 +15055,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "23.81",
       merchantXpPerCraftingSecond: "2.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11839,6 +15087,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "19.94",
       merchantXpPerCraftingSecond: "2.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11865,6 +15120,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "18.87",
       merchantXpPerCraftingSecond: "2.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11891,6 +15153,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "16.67",
       merchantXpPerCraftingSecond: "1.99",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11916,6 +15185,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:40:00",
       goldPerCraftingSecond: "17.10",
       merchantXpPerCraftingSecond: "1.62",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11942,6 +15218,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:40:00",
       goldPerCraftingSecond: "17.82",
       merchantXpPerCraftingSecond: "1.62",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11967,6 +15250,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "26.79",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -11993,6 +15283,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "30.75",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12019,6 +15316,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "28.33",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12044,6 +15348,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "23.88",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12070,6 +15381,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "25.34",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12095,6 +15413,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "48.73",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12120,6 +15445,13 @@ db.blueprints.insertMany([
       timeFormatted: "33:30:00",
       goldPerCraftingSecond: "21.56",
       merchantXpPerCraftingSecond: "1.82",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12146,6 +15478,13 @@ db.blueprints.insertMany([
       timeFormatted: "34:00:00",
       goldPerCraftingSecond: "22.47",
       merchantXpPerCraftingSecond: "1.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12171,6 +15510,13 @@ db.blueprints.insertMany([
       timeFormatted: "48:30:00",
       goldPerCraftingSecond: "31.50",
       merchantXpPerCraftingSecond: "1.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12195,6 +15541,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12220,6 +15573,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:50",
       goldPerCraftingSecond: "3.18",
       merchantXpPerCraftingSecond: "8.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12245,6 +15605,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:05:00",
       goldPerCraftingSecond: "4.17",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12270,6 +15637,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:40",
       goldPerCraftingSecond: "6.15",
       merchantXpPerCraftingSecond: "9.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12295,6 +15669,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:22:00",
       goldPerCraftingSecond: "7.16",
       merchantXpPerCraftingSecond: "7.95",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12320,6 +15701,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:29:00",
       goldPerCraftingSecond: "13.51",
       merchantXpPerCraftingSecond: "7.18",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12346,6 +15734,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:29:00",
       goldPerCraftingSecond: "8.62",
       merchantXpPerCraftingSecond: "7.18",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12372,6 +15767,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:36:00",
       goldPerCraftingSecond: "7.64",
       merchantXpPerCraftingSecond: "6.48",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12397,6 +15799,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "7.88",
       merchantXpPerCraftingSecond: "5.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12423,6 +15832,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "8.93",
       merchantXpPerCraftingSecond: "5.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12449,6 +15865,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:20:00",
       goldPerCraftingSecond: "8.23",
       merchantXpPerCraftingSecond: "4.90",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12475,6 +15898,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:20:00",
       goldPerCraftingSecond: "8.33",
       merchantXpPerCraftingSecond: "4.90",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12500,6 +15930,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "11.03",
       merchantXpPerCraftingSecond: "3.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12526,6 +15963,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:40:00",
       goldPerCraftingSecond: "11.98",
       merchantXpPerCraftingSecond: "3.39",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12552,6 +15996,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:40:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "3.39",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12577,6 +16028,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:00:00",
       goldPerCraftingSecond: "12.85",
       merchantXpPerCraftingSecond: "2.74",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12602,6 +16060,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:50:00",
       goldPerCraftingSecond: "12.07",
       merchantXpPerCraftingSecond: "2.47",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12628,6 +16093,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:50:00",
       goldPerCraftingSecond: "12.14",
       merchantXpPerCraftingSecond: "2.21",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12653,6 +16125,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:10:00",
       goldPerCraftingSecond: "17.47",
       merchantXpPerCraftingSecond: "2.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12679,6 +16158,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "19.14",
       merchantXpPerCraftingSecond: "2.48",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12704,6 +16190,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:50:00",
       goldPerCraftingSecond: "18.87",
       merchantXpPerCraftingSecond: "2.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12730,6 +16223,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:40:00",
       goldPerCraftingSecond: "17.58",
       merchantXpPerCraftingSecond: "1.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12755,6 +16255,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:40:00",
       goldPerCraftingSecond: "42.97",
       merchantXpPerCraftingSecond: "1.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12780,6 +16287,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:10:00",
       goldPerCraftingSecond: "21.98",
       merchantXpPerCraftingSecond: "2.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12806,6 +16320,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:00:00",
       goldPerCraftingSecond: "25.93",
       merchantXpPerCraftingSecond: "2.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12832,6 +16353,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:10:00",
       goldPerCraftingSecond: "26.76",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12857,6 +16385,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:00:00",
       goldPerCraftingSecond: "26.71",
       merchantXpPerCraftingSecond: "2.51",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12883,6 +16418,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:00:00",
       goldPerCraftingSecond: "30.45",
       merchantXpPerCraftingSecond: "2.51",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12909,6 +16451,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:00:00",
       goldPerCraftingSecond: "26.88",
       merchantXpPerCraftingSecond: "2.24",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12934,6 +16483,13 @@ db.blueprints.insertMany([
       timeFormatted: "44:20:00",
       goldPerCraftingSecond: "32.89",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12960,6 +16516,13 @@ db.blueprints.insertMany([
       timeFormatted: "44:20:00",
       goldPerCraftingSecond: "33.83",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -12984,6 +16547,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13009,6 +16579,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "7.71",
       merchantXpPerCraftingSecond: "7.07",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13034,6 +16611,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "2.71",
       merchantXpPerCraftingSecond: "7.07",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13059,6 +16643,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:30",
       goldPerCraftingSecond: "4.10",
       merchantXpPerCraftingSecond: "9.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13084,6 +16675,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:20",
       goldPerCraftingSecond: "5.92",
       merchantXpPerCraftingSecond: "9.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13109,6 +16707,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:17:30",
       goldPerCraftingSecond: "7.05",
       merchantXpPerCraftingSecond: "7.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13135,6 +16740,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:22:00",
       goldPerCraftingSecond: "10.23",
       merchantXpPerCraftingSecond: "7.31",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13161,6 +16773,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:22:00",
       goldPerCraftingSecond: "11.36",
       merchantXpPerCraftingSecond: "7.31",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13186,6 +16805,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:45:00",
       goldPerCraftingSecond: "8.89",
       merchantXpPerCraftingSecond: "5.56",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13212,6 +16838,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "12.27",
       merchantXpPerCraftingSecond: "5.15",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13237,6 +16870,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "10.83",
       merchantXpPerCraftingSecond: "4.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13262,6 +16902,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:50:00",
       goldPerCraftingSecond: "15.91",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13288,6 +16935,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:30:00",
       goldPerCraftingSecond: "13.33",
       merchantXpPerCraftingSecond: "3.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13313,6 +16967,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:50:00",
       goldPerCraftingSecond: "13.41",
       merchantXpPerCraftingSecond: "2.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13339,6 +17000,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "14.58",
       merchantXpPerCraftingSecond: "2.35",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13365,6 +17033,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:20:00",
       goldPerCraftingSecond: "16.03",
       merchantXpPerCraftingSecond: "2.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13390,6 +17065,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "15.69",
       merchantXpPerCraftingSecond: "2.48",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13415,6 +17097,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:00:00",
       goldPerCraftingSecond: "18.29",
       merchantXpPerCraftingSecond: "2.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13441,6 +17130,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:10:00",
       goldPerCraftingSecond: "16.86",
       merchantXpPerCraftingSecond: "2.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13466,6 +17162,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:30:00",
       goldPerCraftingSecond: "19.77",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13492,6 +17195,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:10:00",
       goldPerCraftingSecond: "17.08",
       merchantXpPerCraftingSecond: "1.72",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13517,6 +17227,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:40:00",
       goldPerCraftingSecond: "23.67",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13542,6 +17259,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:40:00",
       goldPerCraftingSecond: "27.46",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13568,6 +17292,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:40:00",
       goldPerCraftingSecond: "28.41",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13594,6 +17325,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:10:00",
       goldPerCraftingSecond: "28.35",
       merchantXpPerCraftingSecond: "1.98",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13619,6 +17357,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:30:00",
       goldPerCraftingSecond: "46.03",
       merchantXpPerCraftingSecond: "1.83",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13644,6 +17389,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:00:00",
       goldPerCraftingSecond: "29.44",
       merchantXpPerCraftingSecond: "2.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13670,6 +17422,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:00:00",
       goldPerCraftingSecond: "31.67",
       merchantXpPerCraftingSecond: "2.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13696,6 +17455,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:50:00",
       goldPerCraftingSecond: "27.93",
       merchantXpPerCraftingSecond: "2.14",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13722,6 +17488,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:50:00",
       goldPerCraftingSecond: "27.93",
       merchantXpPerCraftingSecond: "2.14",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13747,6 +17520,13 @@ db.blueprints.insertMany([
       timeFormatted: "42:40:00",
       goldPerCraftingSecond: "34.83",
       merchantXpPerCraftingSecond: "1.69",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13771,6 +17551,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13796,6 +17583,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "2.71",
       merchantXpPerCraftingSecond: "7.07",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13821,6 +17615,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:30",
       goldPerCraftingSecond: "3.29",
       merchantXpPerCraftingSecond: "9.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13847,6 +17648,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:04:50",
       goldPerCraftingSecond: "6.72",
       merchantXpPerCraftingSecond: "8.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13872,6 +17680,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:20",
       goldPerCraftingSecond: "5.39",
       merchantXpPerCraftingSecond: "9.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13897,6 +17712,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:17:30",
       goldPerCraftingSecond: "7.62",
       merchantXpPerCraftingSecond: "7.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13922,6 +17744,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:22:00",
       goldPerCraftingSecond: "15.91",
       merchantXpPerCraftingSecond: "7.31",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13948,6 +17777,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:28:00",
       goldPerCraftingSecond: "8.33",
       merchantXpPerCraftingSecond: "6.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13973,6 +17809,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "7.71",
       merchantXpPerCraftingSecond: "6.25",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -13999,6 +17842,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "8.50",
       merchantXpPerCraftingSecond: "5.67",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14025,6 +17875,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "8.81",
       merchantXpPerCraftingSecond: "4.64",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14050,6 +17907,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "10.33",
       merchantXpPerCraftingSecond: "4.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14076,6 +17940,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "14.58",
       merchantXpPerCraftingSecond: "3.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14102,6 +17973,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "13.89",
       merchantXpPerCraftingSecond: "3.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14127,6 +18005,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:40:00",
       goldPerCraftingSecond: "14.77",
       merchantXpPerCraftingSecond: "2.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14152,6 +18037,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:00:00",
       goldPerCraftingSecond: "24.17",
       merchantXpPerCraftingSecond: "2.58",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14177,6 +18069,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:20:00",
       goldPerCraftingSecond: "16.93",
       merchantXpPerCraftingSecond: "2.63",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14203,6 +18102,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "16.67",
       merchantXpPerCraftingSecond: "2.22",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14229,6 +18135,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:40:00",
       goldPerCraftingSecond: "17.50",
       merchantXpPerCraftingSecond: "2.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14254,6 +18167,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:30:00",
       goldPerCraftingSecond: "19.61",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14280,6 +18200,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:30:00",
       goldPerCraftingSecond: "21.90",
       merchantXpPerCraftingSecond: "1.91",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14305,6 +18232,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:40:00",
       goldPerCraftingSecond: "27.46",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14331,6 +18265,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:40:00",
       goldPerCraftingSecond: "28.41",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14357,6 +18298,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:30:00",
       goldPerCraftingSecond: "29.37",
       merchantXpPerCraftingSecond: "1.83",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14382,6 +18330,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:00:00",
       goldPerCraftingSecond: "26.67",
       merchantXpPerCraftingSecond: "2.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14408,6 +18363,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:00:00",
       goldPerCraftingSecond: "30.00",
       merchantXpPerCraftingSecond: "2.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14433,6 +18395,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:00:00",
       goldPerCraftingSecond: "54.44",
       merchantXpPerCraftingSecond: "2.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14458,6 +18427,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:50:00",
       goldPerCraftingSecond: "24.21",
       merchantXpPerCraftingSecond: "2.14",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14484,6 +18460,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:50:00",
       goldPerCraftingSecond: "26.54",
       merchantXpPerCraftingSecond: "2.14",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14509,6 +18492,13 @@ db.blueprints.insertMany([
       timeFormatted: "42:40:00",
       goldPerCraftingSecond: "34.83",
       merchantXpPerCraftingSecond: "1.69",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14534,6 +18524,13 @@ db.blueprints.insertMany([
       timeFormatted: "42:40:00",
       goldPerCraftingSecond: "37.11",
       merchantXpPerCraftingSecond: "1.69",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14558,6 +18555,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14583,6 +18587,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:40",
       goldPerCraftingSecond: "4.10",
       merchantXpPerCraftingSecond: "8.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14608,6 +18619,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:04:50",
       goldPerCraftingSecond: "4.48",
       merchantXpPerCraftingSecond: "9.14",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14633,6 +18651,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:09:50",
       goldPerCraftingSecond: "7.20",
       merchantXpPerCraftingSecond: "9.49",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14659,6 +18684,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:14:00",
       goldPerCraftingSecond: "7.14",
       merchantXpPerCraftingSecond: "8.21",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14684,6 +18716,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:28:00",
       goldPerCraftingSecond: "6.85",
       merchantXpPerCraftingSecond: "6.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14710,6 +18749,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:36:00",
       goldPerCraftingSecond: "7.41",
       merchantXpPerCraftingSecond: "6.25",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14736,6 +18782,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:45:00",
       goldPerCraftingSecond: "6.85",
       merchantXpPerCraftingSecond: "5.74",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14761,6 +18814,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "6.82",
       merchantXpPerCraftingSecond: "5.30",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14786,6 +18846,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "11.07",
       merchantXpPerCraftingSecond: "4.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14812,6 +18879,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "11.43",
       merchantXpPerCraftingSecond: "4.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14837,6 +18911,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "11.50",
       merchantXpPerCraftingSecond: "4.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14863,6 +18944,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "10.58",
       merchantXpPerCraftingSecond: "3.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14889,6 +18977,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:30:00",
       goldPerCraftingSecond: "10.17",
       merchantXpPerCraftingSecond: "3.39",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14914,6 +19009,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "11.01",
       merchantXpPerCraftingSecond: "2.41",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14939,6 +19041,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:00:00",
       goldPerCraftingSecond: "16.94",
       merchantXpPerCraftingSecond: "2.64",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14964,6 +19073,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:00:00",
       goldPerCraftingSecond: "24.54",
       merchantXpPerCraftingSecond: "2.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -14989,6 +19105,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:40:00",
       goldPerCraftingSecond: "19.23",
       merchantXpPerCraftingSecond: "1.92",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15015,6 +19138,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:20:00",
       goldPerCraftingSecond: "17.34",
       merchantXpPerCraftingSecond: "1.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15040,6 +19170,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:50:00",
       goldPerCraftingSecond: "22.47",
       merchantXpPerCraftingSecond: "2.06",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15066,6 +19203,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:50:00",
       goldPerCraftingSecond: "24.34",
       merchantXpPerCraftingSecond: "2.06",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15092,6 +19236,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:40:00",
       goldPerCraftingSecond: "23.58",
       merchantXpPerCraftingSecond: "1.89",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15118,6 +19269,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:40:00",
       goldPerCraftingSecond: "26.73",
       merchantXpPerCraftingSecond: "1.89",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15143,6 +19301,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:10:00",
       goldPerCraftingSecond: "22.56",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15169,6 +19334,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:10:00",
       goldPerCraftingSecond: "24.86",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15194,6 +19366,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:10:00",
       goldPerCraftingSecond: "46.04",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15220,6 +19399,13 @@ db.blueprints.insertMany([
       timeFormatted: "36:00:00",
       goldPerCraftingSecond: "22.38",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15245,6 +19431,13 @@ db.blueprints.insertMany([
       timeFormatted: "43:00:00",
       goldPerCraftingSecond: "34.56",
       merchantXpPerCraftingSecond: "1.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15271,6 +19464,13 @@ db.blueprints.insertMany([
       timeFormatted: "43:00:00",
       goldPerCraftingSecond: "35.53",
       merchantXpPerCraftingSecond: "1.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15296,6 +19496,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15321,6 +19528,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:00",
       goldPerCraftingSecond: "3.00",
       merchantXpPerCraftingSecond: "8.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15346,6 +19560,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:30",
       goldPerCraftingSecond: "4.80",
       merchantXpPerCraftingSecond: "8.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15371,6 +19592,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:04:00",
       goldPerCraftingSecond: "8.54",
       merchantXpPerCraftingSecond: "10.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15397,6 +19625,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:20",
       goldPerCraftingSecond: "6.18",
       merchantXpPerCraftingSecond: "8.68",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15422,6 +19657,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:10",
       goldPerCraftingSecond: "6.84",
       merchantXpPerCraftingSecond: "8.57",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15448,6 +19690,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:13:30",
       goldPerCraftingSecond: "6.30",
       merchantXpPerCraftingSecond: "7.96",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15473,6 +19722,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:21:30",
       goldPerCraftingSecond: "6.78",
       merchantXpPerCraftingSecond: "7.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15499,6 +19755,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:27:30",
       goldPerCraftingSecond: "9.39",
       merchantXpPerCraftingSecond: "6.67",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15524,6 +19787,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "7.92",
       merchantXpPerCraftingSecond: "6.04",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15549,6 +19819,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "9.40",
       merchantXpPerCraftingSecond: "4.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15574,6 +19851,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "10.92",
       merchantXpPerCraftingSecond: "3.92",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15600,6 +19884,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "3.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15625,6 +19916,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:20:00",
       goldPerCraftingSecond: "14.58",
       merchantXpPerCraftingSecond: "2.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15651,6 +19949,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "11.11",
       merchantXpPerCraftingSecond: "2.35",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15676,6 +19981,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:50:00",
       goldPerCraftingSecond: "17.53",
       merchantXpPerCraftingSecond: "2.59",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15702,6 +20014,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:50:00",
       goldPerCraftingSecond: "19.76",
       merchantXpPerCraftingSecond: "2.31",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15727,6 +20046,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:20:00",
       goldPerCraftingSecond: "20.33",
       merchantXpPerCraftingSecond: "1.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15753,6 +20079,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:00:00",
       goldPerCraftingSecond: "18.19",
       merchantXpPerCraftingSecond: "1.68",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15778,6 +20111,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:00:00",
       goldPerCraftingSecond: "48.61",
       merchantXpPerCraftingSecond: "1.68",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15803,6 +20143,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:20:00",
       goldPerCraftingSecond: "25.19",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15829,6 +20176,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:20:00",
       goldPerCraftingSecond: "31.01",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15855,6 +20209,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:10:00",
       goldPerCraftingSecond: "27.51",
       merchantXpPerCraftingSecond: "1.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15880,6 +20241,13 @@ db.blueprints.insertMany([
       timeFormatted: "24:30:00",
       goldPerCraftingSecond: "27.21",
       merchantXpPerCraftingSecond: "2.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15905,6 +20273,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:20:00",
       goldPerCraftingSecond: "24.62",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15931,6 +20306,13 @@ db.blueprints.insertMany([
       timeFormatted: "24:30:00",
       goldPerCraftingSecond: "29.48",
       merchantXpPerCraftingSecond: "2.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15957,6 +20339,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:20:00",
       goldPerCraftingSecond: "26.52",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -15982,6 +20371,13 @@ db.blueprints.insertMany([
       timeFormatted: "41:50:00",
       goldPerCraftingSecond: "36.19",
       merchantXpPerCraftingSecond: "1.66",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16006,6 +20402,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16031,6 +20434,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:10",
       goldPerCraftingSecond: "3.29",
       merchantXpPerCraftingSecond: "7.21",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16056,6 +20466,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:30",
       goldPerCraftingSecond: "4.73",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16082,6 +20499,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:30",
       goldPerCraftingSecond: "5.71",
       merchantXpPerCraftingSecond: "9.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16107,6 +20531,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:30",
       goldPerCraftingSecond: "5.51",
       merchantXpPerCraftingSecond: "8.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16133,6 +20564,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:10",
       goldPerCraftingSecond: "6.84",
       merchantXpPerCraftingSecond: "9.18",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16158,6 +20596,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:22:30",
       goldPerCraftingSecond: "6.04",
       merchantXpPerCraftingSecond: "7.30",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16183,6 +20628,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:27:30",
       goldPerCraftingSecond: "13.64",
       merchantXpPerCraftingSecond: "6.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16209,6 +20661,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:36:00",
       goldPerCraftingSecond: "6.71",
       merchantXpPerCraftingSecond: "6.25",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16234,6 +20693,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "7.83",
       merchantXpPerCraftingSecond: "5.83",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16260,6 +20726,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "7.02",
       merchantXpPerCraftingSecond: "4.76",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16285,6 +20758,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "11.50",
       merchantXpPerCraftingSecond: "4.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16311,6 +20791,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:30:00",
       goldPerCraftingSecond: "9.44",
       merchantXpPerCraftingSecond: "3.39",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16336,6 +20823,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:50:00",
       goldPerCraftingSecond: "14.13",
       merchantXpPerCraftingSecond: "2.68",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16361,6 +20855,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "18.45",
       merchantXpPerCraftingSecond: "2.83",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16386,6 +20887,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:00:00",
       goldPerCraftingSecond: "28.01",
       merchantXpPerCraftingSecond: "2.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16412,6 +20920,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:10:00",
       goldPerCraftingSecond: "15.89",
       merchantXpPerCraftingSecond: "2.15",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16437,6 +20952,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:40:00",
       goldPerCraftingSecond: "20.03",
       merchantXpPerCraftingSecond: "1.92",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16463,6 +20985,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:20:00",
       goldPerCraftingSecond: "18.01",
       merchantXpPerCraftingSecond: "1.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16489,6 +21018,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:20:00",
       goldPerCraftingSecond: "18.82",
       merchantXpPerCraftingSecond: "1.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16514,6 +21050,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:50:00",
       goldPerCraftingSecond: "23.41",
       merchantXpPerCraftingSecond: "2.06",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16540,6 +21083,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:50:00",
       goldPerCraftingSecond: "30.90",
       merchantXpPerCraftingSecond: "2.06",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16566,6 +21116,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:40:00",
       goldPerCraftingSecond: "28.30",
       merchantXpPerCraftingSecond: "1.89",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16591,6 +21148,13 @@ db.blueprints.insertMany([
       timeFormatted: "25:20:00",
       goldPerCraftingSecond: "27.96",
       merchantXpPerCraftingSecond: "2.41",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16616,6 +21180,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:10:00",
       goldPerCraftingSecond: "25.32",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16642,6 +21213,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:10:00",
       goldPerCraftingSecond: "25.78",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16667,6 +21245,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:10:00",
       goldPerCraftingSecond: "48.34",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16693,6 +21278,13 @@ db.blueprints.insertMany([
       timeFormatted: "30:10:00",
       goldPerCraftingSecond: "26.70",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16718,6 +21310,13 @@ db.blueprints.insertMany([
       timeFormatted: "43:00:00",
       goldPerCraftingSecond: "35.21",
       merchantXpPerCraftingSecond: "1.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16743,6 +21342,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:15",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "9.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16768,6 +21374,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:00",
       goldPerCraftingSecond: "8.33",
       merchantXpPerCraftingSecond: "8.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16793,6 +21406,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:00",
       goldPerCraftingSecond: "3.00",
       merchantXpPerCraftingSecond: "8.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16818,6 +21438,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:30",
       goldPerCraftingSecond: "4.40",
       merchantXpPerCraftingSecond: "8.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16844,6 +21471,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:30",
       goldPerCraftingSecond: "5.48",
       merchantXpPerCraftingSecond: "8.57",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16869,6 +21503,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:07:30",
       goldPerCraftingSecond: "6.22",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16895,6 +21536,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:10:30",
       goldPerCraftingSecond: "7.94",
       merchantXpPerCraftingSecond: "8.41",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16920,6 +21568,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:17:00",
       goldPerCraftingSecond: "6.81",
       merchantXpPerCraftingSecond: "7.65",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16946,6 +21601,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:21:30",
       goldPerCraftingSecond: "10.08",
       merchantXpPerCraftingSecond: "7.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16971,6 +21633,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "8.54",
       merchantXpPerCraftingSecond: "6.04",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -16997,6 +21666,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "8.00",
       merchantXpPerCraftingSecond: "5.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17023,6 +21699,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "8.69",
       merchantXpPerCraftingSecond: "4.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17048,6 +21731,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:20:00",
       goldPerCraftingSecond: "11.88",
       merchantXpPerCraftingSecond: "4.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17074,6 +21764,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "13.00",
       merchantXpPerCraftingSecond: "3.92",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17099,6 +21796,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:40:00",
       goldPerCraftingSecond: "13.26",
       merchantXpPerCraftingSecond: "2.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17124,6 +21828,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "14.20",
       merchantXpPerCraftingSecond: "2.35",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17149,6 +21860,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:50:00",
       goldPerCraftingSecond: "18.39",
       merchantXpPerCraftingSecond: "2.59",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17174,6 +21892,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:50:00",
       goldPerCraftingSecond: "18.10",
       merchantXpPerCraftingSecond: "2.31",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17200,6 +21925,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:50:00",
       goldPerCraftingSecond: "20.24",
       merchantXpPerCraftingSecond: "2.31",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17225,6 +21957,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:20:00",
       goldPerCraftingSecond: "20.17",
       merchantXpPerCraftingSecond: "1.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17251,6 +21990,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:00:00",
       goldPerCraftingSecond: "18.06",
       merchantXpPerCraftingSecond: "1.68",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17276,6 +22022,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:20:00",
       goldPerCraftingSecond: "26.16",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17302,6 +22055,13 @@ db.blueprints.insertMany([
       timeFormatted: "13:50:00",
       goldPerCraftingSecond: "32.13",
       merchantXpPerCraftingSecond: "2.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17327,6 +22087,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:20:00",
       goldPerCraftingSecond: "53.29",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17352,6 +22119,13 @@ db.blueprints.insertMany([
       timeFormatted: "24:30:00",
       goldPerCraftingSecond: "28.34",
       merchantXpPerCraftingSecond: "2.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17378,6 +22152,13 @@ db.blueprints.insertMany([
       timeFormatted: "24:30:00",
       goldPerCraftingSecond: "30.61",
       merchantXpPerCraftingSecond: "2.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17404,6 +22185,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:20:00",
       goldPerCraftingSecond: "27.46",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17430,6 +22218,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:20:00",
       goldPerCraftingSecond: "27.94",
       merchantXpPerCraftingSecond: "2.08",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17455,6 +22250,13 @@ db.blueprints.insertMany([
       timeFormatted: "41:50:00",
       goldPerCraftingSecond: "36.85",
       merchantXpPerCraftingSecond: "1.66",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17479,6 +22281,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:00:30",
       goldPerCraftingSecond: "3.67",
       merchantXpPerCraftingSecond: "8.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17504,6 +22313,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:20",
       goldPerCraftingSecond: "3.50",
       merchantXpPerCraftingSecond: "8.57",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17529,6 +22345,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:04:30",
       goldPerCraftingSecond: "4.44",
       merchantXpPerCraftingSecond: "8.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17554,6 +22377,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:10:30",
       goldPerCraftingSecond: "5.32",
       merchantXpPerCraftingSecond: "7.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17579,6 +22409,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:13:00",
       goldPerCraftingSecond: "9.04",
       merchantXpPerCraftingSecond: "7.82",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17604,6 +22441,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:21:00",
       goldPerCraftingSecond: "7.70",
       merchantXpPerCraftingSecond: "6.90",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17630,6 +22474,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:26:30",
       goldPerCraftingSecond: "9.12",
       merchantXpPerCraftingSecond: "6.29",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17656,6 +22507,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:32:00",
       goldPerCraftingSecond: "9.11",
       merchantXpPerCraftingSecond: "6.25",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17681,6 +22539,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "8.96",
       merchantXpPerCraftingSecond: "5.63",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17707,6 +22572,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "9.33",
       merchantXpPerCraftingSecond: "5.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17733,6 +22605,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "10.00",
       merchantXpPerCraftingSecond: "4.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17758,6 +22637,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "11.00",
       merchantXpPerCraftingSecond: "3.67",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17784,6 +22670,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:20:00",
       goldPerCraftingSecond: "12.50",
       merchantXpPerCraftingSecond: "3.21",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17809,6 +22702,13 @@ db.blueprints.insertMany([
       timeFormatted: "03:30:00",
       goldPerCraftingSecond: "15.48",
       merchantXpPerCraftingSecond: "2.58",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17834,6 +22734,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "19.05",
       merchantXpPerCraftingSecond: "2.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17859,6 +22766,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "19.36",
       merchantXpPerCraftingSecond: "2.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17885,6 +22799,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "18.63",
       merchantXpPerCraftingSecond: "2.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17911,6 +22832,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "19.61",
       merchantXpPerCraftingSecond: "2.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17936,6 +22864,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "24.39",
       merchantXpPerCraftingSecond: "1.99",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17961,6 +22896,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:10:00",
       goldPerCraftingSecond: "20.75",
       merchantXpPerCraftingSecond: "1.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -17987,6 +22929,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:40:00",
       goldPerCraftingSecond: "18.82",
       merchantXpPerCraftingSecond: "1.62",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18012,6 +22961,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "25.79",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18038,6 +22994,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "33.73",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18064,6 +23027,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "31.67",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18089,6 +23059,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:50:00",
       goldPerCraftingSecond: "29.14",
       merchantXpPerCraftingSecond: "2.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18115,6 +23092,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:40:00",
       goldPerCraftingSecond: "31.69",
       merchantXpPerCraftingSecond: "2.29",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18140,6 +23124,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:50:00",
       goldPerCraftingSecond: "58.28",
       merchantXpPerCraftingSecond: "2.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18166,6 +23157,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "28.27",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18192,6 +23190,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "27.29",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18217,6 +23222,13 @@ db.blueprints.insertMany([
       timeFormatted: "40:40:00",
       goldPerCraftingSecond: "35.86",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18243,6 +23255,13 @@ db.blueprints.insertMany([
       timeFormatted: "48:30:00",
       goldPerCraftingSecond: "30.93",
       merchantXpPerCraftingSecond: "1.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18268,6 +23287,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:05:30",
       goldPerCraftingSecond: "8.03",
       merchantXpPerCraftingSecond: "10.45",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18294,6 +23320,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:12:30",
       goldPerCraftingSecond: "11.13",
       merchantXpPerCraftingSecond: "9.73",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18320,6 +23353,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:24:30",
       goldPerCraftingSecond: "12.93",
       merchantXpPerCraftingSecond: "8.84",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18346,6 +23386,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "13.67",
       merchantXpPerCraftingSecond: "6.67",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18372,6 +23419,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "17.50",
       merchantXpPerCraftingSecond: "6.39",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18398,6 +23452,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "14.58",
       merchantXpPerCraftingSecond: "4.51",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18424,6 +23485,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:20:00",
       goldPerCraftingSecond: "10.58",
       merchantXpPerCraftingSecond: "3.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18450,6 +23518,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:00:00",
       goldPerCraftingSecond: "21.67",
       merchantXpPerCraftingSecond: "3.47",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18476,6 +23551,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "17.89",
       merchantXpPerCraftingSecond: "2.74",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18502,6 +23584,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:50:00",
       goldPerCraftingSecond: "17.37",
       merchantXpPerCraftingSecond: "2.22",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18528,6 +23617,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "27.50",
       merchantXpPerCraftingSecond: "2.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18553,6 +23649,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "53.33",
       merchantXpPerCraftingSecond: "2.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18579,6 +23682,13 @@ db.blueprints.insertMany([
       timeFormatted: "20:00:00",
       goldPerCraftingSecond: "27.08",
       merchantXpPerCraftingSecond: "2.15",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18605,6 +23715,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:40:00",
       goldPerCraftingSecond: "27.13",
       merchantXpPerCraftingSecond: "2.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18631,6 +23748,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:40:00",
       goldPerCraftingSecond: "30.04",
       merchantXpPerCraftingSecond: "2.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18657,6 +23781,13 @@ db.blueprints.insertMany([
       timeFormatted: "34:10:00",
       goldPerCraftingSecond: "25.61",
       merchantXpPerCraftingSecond: "2.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18683,6 +23814,13 @@ db.blueprints.insertMany([
       timeFormatted: "48:40:00",
       goldPerCraftingSecond: "32.82",
       merchantXpPerCraftingSecond: "1.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18708,6 +23846,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:02:20",
       goldPerCraftingSecond: "4.93",
       merchantXpPerCraftingSecond: "8.57",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18732,6 +23877,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:04:30",
       goldPerCraftingSecond: "4.44",
       merchantXpPerCraftingSecond: "8.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18756,6 +23908,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:10:30",
       goldPerCraftingSecond: "5.32",
       merchantXpPerCraftingSecond: "7.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18781,6 +23940,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:13:00",
       goldPerCraftingSecond: "8.33",
       merchantXpPerCraftingSecond: "7.82",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18806,6 +23972,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:21:00",
       goldPerCraftingSecond: "5.44",
       merchantXpPerCraftingSecond: "6.90",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18832,6 +24005,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:26:30",
       goldPerCraftingSecond: "6.92",
       merchantXpPerCraftingSecond: "6.29",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18857,6 +24037,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:32:00",
       goldPerCraftingSecond: "7.29",
       merchantXpPerCraftingSecond: "6.25",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18883,6 +24070,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:34:00",
       goldPerCraftingSecond: "9.80",
       merchantXpPerCraftingSecond: "5.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18909,6 +24103,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "8.75",
       merchantXpPerCraftingSecond: "5.63",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18934,6 +24135,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:45:00",
       goldPerCraftingSecond: "8.70",
       merchantXpPerCraftingSecond: "5.74",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18960,6 +24168,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "12.36",
       merchantXpPerCraftingSecond: "4.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -18986,6 +24201,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "12.78",
       merchantXpPerCraftingSecond: "4.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19011,6 +24233,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "9.83",
       merchantXpPerCraftingSecond: "3.67",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19036,6 +24265,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "13.75",
       merchantXpPerCraftingSecond: "3.40",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19062,6 +24298,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:20:00",
       goldPerCraftingSecond: "14.29",
       merchantXpPerCraftingSecond: "3.21",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19087,6 +24330,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "11.42",
       merchantXpPerCraftingSecond: "2.19",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19113,6 +24363,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:20:00",
       goldPerCraftingSecond: "10.68",
       merchantXpPerCraftingSecond: "2.03",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19138,6 +24395,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "16.67",
       merchantXpPerCraftingSecond: "2.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19164,6 +24428,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:40:00",
       goldPerCraftingSecond: "18.63",
       merchantXpPerCraftingSecond: "2.23",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19190,6 +24461,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "17.07",
       merchantXpPerCraftingSecond: "1.99",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19215,6 +24493,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:50:00",
       goldPerCraftingSecond: "22.36",
       merchantXpPerCraftingSecond: "1.99",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19240,6 +24525,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:10:00",
       goldPerCraftingSecond: "21.26",
       merchantXpPerCraftingSecond: "1.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19265,6 +24557,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:40:00",
       goldPerCraftingSecond: "19.68",
       merchantXpPerCraftingSecond: "1.62",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19291,6 +24590,13 @@ db.blueprints.insertMany([
       timeFormatted: "08:20:00",
       goldPerCraftingSecond: "23.00",
       merchantXpPerCraftingSecond: "1.88",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19317,6 +24623,13 @@ db.blueprints.insertMany([
       timeFormatted: "11:40:00",
       goldPerCraftingSecond: "16.55",
       merchantXpPerCraftingSecond: "1.45",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19342,6 +24655,13 @@ db.blueprints.insertMany([
       timeFormatted: "14:00:00",
       goldPerCraftingSecond: "27.78",
       merchantXpPerCraftingSecond: "1.93",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19368,6 +24688,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "28.33",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19394,6 +24721,13 @@ db.blueprints.insertMany([
       timeFormatted: "16:40:00",
       goldPerCraftingSecond: "30.00",
       merchantXpPerCraftingSecond: "1.75",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19419,6 +24753,13 @@ db.blueprints.insertMany([
       timeFormatted: "23:50:00",
       goldPerCraftingSecond: "28.55",
       merchantXpPerCraftingSecond: "2.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19445,6 +24786,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "26.32",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19471,6 +24819,13 @@ db.blueprints.insertMany([
       timeFormatted: "28:30:00",
       goldPerCraftingSecond: "27.29",
       merchantXpPerCraftingSecond: "2.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19497,6 +24852,13 @@ db.blueprints.insertMany([
       timeFormatted: "34:00:00",
       goldPerCraftingSecond: "23.69",
       merchantXpPerCraftingSecond: "1.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19522,6 +24884,13 @@ db.blueprints.insertMany([
       timeFormatted: "34:00:00",
       goldPerCraftingSecond: "44.93",
       merchantXpPerCraftingSecond: "1.80",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19548,6 +24917,13 @@ db.blueprints.insertMany([
       timeFormatted: "40:40:00",
       goldPerCraftingSecond: "34.15",
       merchantXpPerCraftingSecond: "1.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19572,6 +24948,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:01:50",
       goldPerCraftingSecond: "5.00",
       merchantXpPerCraftingSecond: "8.36",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19596,6 +24979,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:03:40",
       goldPerCraftingSecond: "4.77",
       merchantXpPerCraftingSecond: "9.32",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19620,6 +25010,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:06:40",
       goldPerCraftingSecond: "6.13",
       merchantXpPerCraftingSecond: "9.50",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19645,6 +25042,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:40",
       goldPerCraftingSecond: "20.38",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19670,6 +25074,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:14:30",
       goldPerCraftingSecond: "6.84",
       merchantXpPerCraftingSecond: "8.56",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19695,6 +25106,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:18:30",
       goldPerCraftingSecond: "8.69",
       merchantXpPerCraftingSecond: "8.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19721,6 +25139,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:18:30",
       goldPerCraftingSecond: "8.11",
       merchantXpPerCraftingSecond: "8.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19746,6 +25171,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:23:00",
       goldPerCraftingSecond: "7.25",
       merchantXpPerCraftingSecond: "7.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19772,6 +25204,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:29:00",
       goldPerCraftingSecond: "10.92",
       merchantXpPerCraftingSecond: "7.18",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19797,6 +25236,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:45:00",
       goldPerCraftingSecond: "18.52",
       merchantXpPerCraftingSecond: "6.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19822,6 +25268,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:32:00",
       goldPerCraftingSecond: "15.36",
       merchantXpPerCraftingSecond: "8.59",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19848,6 +25301,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:40:00",
       goldPerCraftingSecond: "16.88",
       merchantXpPerCraftingSecond: "7.92",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19874,6 +25334,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "14.33",
       merchantXpPerCraftingSecond: "7.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19899,6 +25366,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "10.06",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19925,6 +25399,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:40:00",
       goldPerCraftingSecond: "11.98",
       merchantXpPerCraftingSecond: "3.44",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19950,6 +25431,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:00:00",
       goldPerCraftingSecond: "13.89",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -19976,6 +25464,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:50:00",
       goldPerCraftingSecond: "14.08",
       merchantXpPerCraftingSecond: "2.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20001,6 +25496,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:50:00",
       goldPerCraftingSecond: "12.38",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20026,6 +25528,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:00:00",
       goldPerCraftingSecond: "16.94",
       merchantXpPerCraftingSecond: "2.86",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20052,6 +25561,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "18.69",
       merchantXpPerCraftingSecond: "2.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20078,6 +25594,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "14.19",
       merchantXpPerCraftingSecond: "2.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20103,6 +25626,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:00:00",
       goldPerCraftingSecond: "18.83",
       merchantXpPerCraftingSecond: "2.01",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20129,6 +25659,13 @@ db.blueprints.insertMany([
       timeFormatted: "09:00:00",
       goldPerCraftingSecond: "19.44",
       merchantXpPerCraftingSecond: "2.01",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20155,6 +25692,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:40:00",
       goldPerCraftingSecond: "16.93",
       merchantXpPerCraftingSecond: "1.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20180,6 +25724,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:20:00",
       goldPerCraftingSecond: "28.08",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20205,6 +25756,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:20:00",
       goldPerCraftingSecond: "31.70",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20231,6 +25789,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:20:00",
       goldPerCraftingSecond: "27.27",
       merchantXpPerCraftingSecond: "1.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20257,6 +25822,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:10:00",
       goldPerCraftingSecond: "26.70",
       merchantXpPerCraftingSecond: "2.10",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20283,6 +25855,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "24.62",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20308,6 +25887,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:20:00",
       goldPerCraftingSecond: "20.39",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20333,6 +25919,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:20:00",
       goldPerCraftingSecond: "41.22",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20359,6 +25952,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:20:00",
       goldPerCraftingSecond: "23.49",
       merchantXpPerCraftingSecond: "2.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20385,6 +25985,13 @@ db.blueprints.insertMany([
       timeFormatted: "69:26:40",
       goldPerCraftingSecond: "11.00",
       merchantXpPerCraftingSecond: "1.02",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20411,6 +26018,13 @@ db.blueprints.insertMany([
       timeFormatted: "37:20:00",
       goldPerCraftingSecond: "22.32",
       merchantXpPerCraftingSecond: "2.01",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20436,6 +26050,13 @@ db.blueprints.insertMany([
       timeFormatted: "44:40:00",
       goldPerCraftingSecond: "33.58",
       merchantXpPerCraftingSecond: "1.77",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20461,6 +26082,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:05:50",
       goldPerCraftingSecond: "10.86",
       merchantXpPerCraftingSecond: "11.57",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20487,6 +26115,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:13:30",
       goldPerCraftingSecond: "11.91",
       merchantXpPerCraftingSecond: "10.74",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20513,6 +26148,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:27:30",
       goldPerCraftingSecond: "13.03",
       merchantXpPerCraftingSecond: "9.39",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20539,6 +26181,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:55:00",
       goldPerCraftingSecond: "14.70",
       merchantXpPerCraftingSecond: "7.27",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20565,6 +26214,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:30:00",
       goldPerCraftingSecond: "17.78",
       merchantXpPerCraftingSecond: "4.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20591,6 +26247,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:40:00",
       goldPerCraftingSecond: "15.48",
       merchantXpPerCraftingSecond: "3.42",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20617,6 +26280,13 @@ db.blueprints.insertMany([
       timeFormatted: "06:10:00",
       goldPerCraftingSecond: "17.12",
       merchantXpPerCraftingSecond: "3.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20643,6 +26313,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:20:00",
       goldPerCraftingSecond: "22.98",
       merchantXpPerCraftingSecond: "2.51",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20669,6 +26346,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:10:00",
       goldPerCraftingSecond: "35.17",
       merchantXpPerCraftingSecond: "2.60",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20694,6 +26378,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:10:00",
       goldPerCraftingSecond: "67.28",
       merchantXpPerCraftingSecond: "2.60",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20720,6 +26411,13 @@ db.blueprints.insertMany([
       timeFormatted: "31:00:00",
       goldPerCraftingSecond: "31.36",
       merchantXpPerCraftingSecond: "3.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20746,6 +26444,13 @@ db.blueprints.insertMany([
       timeFormatted: "52:50:00",
       goldPerCraftingSecond: "39.17",
       merchantXpPerCraftingSecond: "2.16",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20771,6 +26476,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:40",
       goldPerCraftingSecond: "4.62",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20796,6 +26508,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:14:30",
       goldPerCraftingSecond: "5.17",
       merchantXpPerCraftingSecond: "8.56",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20822,6 +26541,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:18:30",
       goldPerCraftingSecond: "6.85",
       merchantXpPerCraftingSecond: "8.11",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20847,6 +26573,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:29:00",
       goldPerCraftingSecond: "6.03",
       merchantXpPerCraftingSecond: "7.18",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20873,6 +26606,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:36:00",
       goldPerCraftingSecond: "4.86",
       merchantXpPerCraftingSecond: "6.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20898,6 +26638,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:50:00",
       goldPerCraftingSecond: "8.50",
       merchantXpPerCraftingSecond: "6.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20924,6 +26671,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "7.26",
       merchantXpPerCraftingSecond: "5.12",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20950,6 +26704,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:10:00",
       goldPerCraftingSecond: "7.38",
       merchantXpPerCraftingSecond: "5.12",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -20975,6 +26736,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:50:00",
       goldPerCraftingSecond: "11.74",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21001,6 +26769,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:10:00",
       goldPerCraftingSecond: "11.54",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21026,6 +26801,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:00:00",
       goldPerCraftingSecond: "13.54",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21051,6 +26833,13 @@ db.blueprints.insertMany([
       timeFormatted: "05:20:00",
       goldPerCraftingSecond: "16.41",
       merchantXpPerCraftingSecond: "2.92",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21076,6 +26865,13 @@ db.blueprints.insertMany([
       timeFormatted: "10:40:00",
       goldPerCraftingSecond: "17.45",
       merchantXpPerCraftingSecond: "1.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21101,6 +26897,13 @@ db.blueprints.insertMany([
       timeFormatted: "15:20:00",
       goldPerCraftingSecond: "25.36",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21127,6 +26930,13 @@ db.blueprints.insertMany([
       timeFormatted: "18:20:00",
       goldPerCraftingSecond: "24.24",
       merchantXpPerCraftingSecond: "1.97",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21152,6 +26962,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "30.25",
       merchantXpPerCraftingSecond: "2.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21177,6 +26994,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "59.98",
       merchantXpPerCraftingSecond: "2.55",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21202,6 +27026,13 @@ db.blueprints.insertMany([
       timeFormatted: "44:40:00",
       goldPerCraftingSecond: "33.89",
       merchantXpPerCraftingSecond: "1.77",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21227,6 +27058,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:10:00",
       goldPerCraftingSecond: "5.00",
       merchantXpPerCraftingSecond: "7.00",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21253,6 +27091,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:16:30",
       goldPerCraftingSecond: "7.27",
       merchantXpPerCraftingSecond: "6.52",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21279,6 +27124,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:34:00",
       goldPerCraftingSecond: "8.09",
       merchantXpPerCraftingSecond: "5.39",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21305,6 +27157,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:00:00",
       goldPerCraftingSecond: "15.28",
       merchantXpPerCraftingSecond: "4.58",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21331,6 +27190,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:20:00",
       goldPerCraftingSecond: "14.58",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21357,6 +27223,13 @@ db.blueprints.insertMany([
       timeFormatted: "02:00:00",
       goldPerCraftingSecond: "13.75",
       merchantXpPerCraftingSecond: "3.26",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21383,6 +27256,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:30:00",
       goldPerCraftingSecond: "15.12",
       merchantXpPerCraftingSecond: "2.13",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21409,6 +27289,13 @@ db.blueprints.insertMany([
       timeFormatted: "07:00:00",
       goldPerCraftingSecond: "13.89",
       merchantXpPerCraftingSecond: "1.92",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21435,6 +27322,13 @@ db.blueprints.insertMany([
       timeFormatted: "12:10:00",
       goldPerCraftingSecond: "16.78",
       merchantXpPerCraftingSecond: "1.38",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21461,6 +27355,13 @@ db.blueprints.insertMany([
       timeFormatted: "17:30:00",
       goldPerCraftingSecond: "24.60",
       merchantXpPerCraftingSecond: "1.67",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21487,6 +27388,13 @@ db.blueprints.insertMany([
       timeFormatted: "29:50:00",
       goldPerCraftingSecond: "27.93",
       merchantXpPerCraftingSecond: "2.98",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21513,6 +27421,13 @@ db.blueprints.insertMany([
       timeFormatted: "35:40:00",
       goldPerCraftingSecond: "25.31",
       merchantXpPerCraftingSecond: "2.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21538,6 +27453,13 @@ db.blueprints.insertMany([
       timeFormatted: "35:40:00",
       goldPerCraftingSecond: "46.73",
       merchantXpPerCraftingSecond: "2.61",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21564,6 +27486,13 @@ db.blueprints.insertMany([
       timeFormatted: "42:30:00",
       goldPerCraftingSecond: "22.88",
       merchantXpPerCraftingSecond: "2.32",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21590,6 +27519,13 @@ db.blueprints.insertMany([
       timeFormatted: "60:40:00",
       goldPerCraftingSecond: "26.79",
       merchantXpPerCraftingSecond: "1.83",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21615,6 +27551,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:11:00",
       goldPerCraftingSecond: "6.67",
       merchantXpPerCraftingSecond: "4.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21641,6 +27584,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:20:00",
       goldPerCraftingSecond: "11.98",
       merchantXpPerCraftingSecond: "2.81",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21667,6 +27617,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:10:00",
       goldPerCraftingSecond: "10.67",
       merchantXpPerCraftingSecond: "2.17",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21693,6 +27650,13 @@ db.blueprints.insertMany([
       timeFormatted: "20:50:00",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "1.87",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21718,6 +27682,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:14:30",
       goldPerCraftingSecond: "7.70",
       merchantXpPerCraftingSecond: "4.54",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21744,6 +27715,13 @@ db.blueprints.insertMany([
       timeFormatted: "01:40:00",
       goldPerCraftingSecond: "8.67",
       merchantXpPerCraftingSecond: "2.58",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21770,6 +27748,13 @@ db.blueprints.insertMany([
       timeFormatted: "04:10:00",
       goldPerCraftingSecond: "11.33",
       merchantXpPerCraftingSecond: "2.37",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21796,6 +27781,13 @@ db.blueprints.insertMany([
       timeFormatted: "20:50:00",
       goldPerCraftingSecond: "4.00",
       merchantXpPerCraftingSecond: "1.05",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21821,6 +27813,13 @@ db.blueprints.insertMany([
       timeFormatted: "00:08:40",
       goldPerCraftingSecond: "15.67",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21846,6 +27845,13 @@ db.blueprints.insertMany([
       timeFormatted: "1:50:00",
       goldPerCraftingSecond: "15.91",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21871,6 +27877,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21896,6 +27909,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21921,6 +27941,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:08:40",
       goldPerCraftingSecond: "14.23",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21946,6 +27973,13 @@ db.blueprints.insertMany([
       timeFormatted: "1:50:00",
       goldPerCraftingSecond: "15.15",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21971,6 +28005,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -21996,6 +28037,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22021,6 +28069,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:08:40",
       goldPerCraftingSecond: "16.44",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22046,6 +28101,13 @@ db.blueprints.insertMany([
       timeFormatted: "1:50:00",
       goldPerCraftingSecond: "15.08",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22071,6 +28133,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22096,6 +28165,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22121,6 +28197,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:08:40",
       goldPerCraftingSecond: "18.85",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22146,6 +28229,13 @@ db.blueprints.insertMany([
       timeFormatted: "1:50:00",
       goldPerCraftingSecond: "14.62",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22171,6 +28261,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22196,6 +28293,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22221,6 +28325,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:08:40",
       goldPerCraftingSecond: "18.46",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22246,6 +28357,13 @@ db.blueprints.insertMany([
       timeFormatted: "1:50:00",
       goldPerCraftingSecond: "14.62",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22271,6 +28389,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22296,6 +28421,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22321,6 +28453,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:08:40",
       goldPerCraftingSecond: "20.19",
       merchantXpPerCraftingSecond: "9.33",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22346,6 +28485,13 @@ db.blueprints.insertMany([
       timeFormatted: "1:50:00",
       goldPerCraftingSecond: "15.91",
       merchantXpPerCraftingSecond: "4.09",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22371,6 +28517,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22396,6 +28549,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22421,6 +28581,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:36:00",
       goldPerCraftingSecond: "23.15",
       merchantXpPerCraftingSecond: "6.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22446,6 +28613,13 @@ db.blueprints.insertMany([
       timeFormatted: "9:00:00",
       goldPerCraftingSecond: "30.86",
       merchantXpPerCraftingSecond: "2.01",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22471,6 +28645,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:11:30",
       goldPerCraftingSecond: "13.62",
       merchantXpPerCraftingSecond: "8.84",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22496,6 +28677,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:11:30",
       goldPerCraftingSecond: "13.33",
       merchantXpPerCraftingSecond: "8.84",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22521,6 +28709,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:11:30",
       goldPerCraftingSecond: "14.49",
       merchantXpPerCraftingSecond: "8.84",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22546,6 +28741,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:11:30",
       goldPerCraftingSecond: "14.13",
       merchantXpPerCraftingSecond: "8.84",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22571,6 +28773,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:11:30",
       goldPerCraftingSecond: "15.94",
       merchantXpPerCraftingSecond: "8.84",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22596,6 +28805,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:11:30",
       goldPerCraftingSecond: "17.39",
       merchantXpPerCraftingSecond: "8.84",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22622,6 +28838,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:14:30",
       goldPerCraftingSecond: "15.52",
       merchantXpPerCraftingSecond: "8.56",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22647,6 +28870,13 @@ db.blueprints.insertMany([
       timeFormatted: "0:36:00",
       goldPerCraftingSecond: "23.15",
       merchantXpPerCraftingSecond: "6.71",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22672,6 +28902,13 @@ db.blueprints.insertMany([
       timeFormatted: "2:10:00",
       goldPerCraftingSecond: "14.10",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22697,6 +28934,13 @@ db.blueprints.insertMany([
       timeFormatted: "2:10:00",
       goldPerCraftingSecond: "14.10",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22722,6 +28966,13 @@ db.blueprints.insertMany([
       timeFormatted: "2:10:00",
       goldPerCraftingSecond: "14.74",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22747,6 +28998,13 @@ db.blueprints.insertMany([
       timeFormatted: "2:10:00",
       goldPerCraftingSecond: "16.67",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22772,6 +29030,13 @@ db.blueprints.insertMany([
       timeFormatted: "2:10:00",
       goldPerCraftingSecond: "16.03",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22797,6 +29062,13 @@ db.blueprints.insertMany([
       timeFormatted: "2:10:00",
       goldPerCraftingSecond: "16.67",
       merchantXpPerCraftingSecond: "3.85",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22822,6 +29094,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22847,6 +29126,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22872,6 +29158,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22897,6 +29190,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22922,6 +29222,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22947,6 +29254,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:00:00",
       goldPerCraftingSecond: "24.31",
       merchantXpPerCraftingSecond: "2.78",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22973,6 +29287,13 @@ db.blueprints.insertMany([
       timeFormatted: "4:50:00",
       goldPerCraftingSecond: "21.55",
       merchantXpPerCraftingSecond: "2.53",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -22998,6 +29319,13 @@ db.blueprints.insertMany([
       timeFormatted: "9:00:00",
       goldPerCraftingSecond: "30.86",
       merchantXpPerCraftingSecond: "2.01",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -23023,6 +29351,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -23048,6 +29383,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -23073,6 +29415,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -23098,6 +29447,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -23123,6 +29479,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -23148,6 +29511,13 @@ db.blueprints.insertMany([
       timeFormatted: "22:00:00",
       goldPerCraftingSecond: "12.63",
       merchantXpPerCraftingSecond: "1.70",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
   {
@@ -23174,6 +29544,13 @@ db.blueprints.insertMany([
       timeFormatted: "26:10:00",
       goldPerCraftingSecond: "12.21",
       merchantXpPerCraftingSecond: "1.54",
+      materials: [
+        { resource: "Herbs", amount: 484 },
+        { resource: "Oil", amount: 141 },
+        { resource: "Jewels", amount: 41 },
+        { component: "Sigil of True Might", amount: 1 },
+        { component: "Crush Claw", amount: 3 },
+      ],
     },
   },
 ]);
