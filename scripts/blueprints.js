@@ -32,6 +32,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Arming Sword",
@@ -66,6 +67,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Gladius",
@@ -103,6 +105,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Arboreal Blade",
@@ -141,6 +144,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 90 },
   },
   {
     name: "Zweihander",
@@ -176,6 +180,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
   },
   {
     name: "Cutlass",
@@ -214,6 +219,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 35, surcharge: 80, suggest: 15, speedUp: 135 },
   },
   {
     name: "Espada",
@@ -253,6 +259,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 260 },
   },
   {
     name: "Hero's Sword",
@@ -293,6 +300,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 175, suggest: 35, speedUp: 335 },
   },
   {
     name: "Chocolicious Blade",
@@ -333,6 +341,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
   },
   {
     name: "Katana",
@@ -375,6 +384,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 420 },
   },
   {
     name: "Serrated Cinquedea",
@@ -418,6 +428,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 145, surcharge: 320, suggest: 65, speedUp: 515 },
   },
   {
     name: "Regal Blade",
@@ -460,6 +471,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 180, surcharge: 405, suggest: 80, speedUp: 620 },
   },
   {
     name: "Chronos Runeblade",
@@ -503,6 +515,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 675 },
   },
   {
     name: "Celesteel Blade",
@@ -546,6 +559,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
   },
   {
     name: "Damocles",
@@ -589,6 +603,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 330, surcharge: 735, suggest: 145, speedUp: 925 },
   },
   {
     name: "Luxurious Macuahuitl",
@@ -632,6 +647,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 315, surcharge: 700, suggest: 140, speedUp: 995 },
   },
   {
     name: "Crystalline Rapier",
@@ -675,6 +691,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 335, surcharge: 740, suggest: 150, speedUp: 995 },
   },
   {
     name: "Mythril Edge",
@@ -718,6 +735,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 385, surcharge: 850, suggest: 170, speedUp: 1140 },
   },
   {
     name: "Seafarer Blade",
@@ -762,6 +780,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Gentleman Blade",
@@ -806,6 +825,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 435, surcharge: 970, suggest: 195, speedUp: 1220 },
   },
   {
     name: "Oversized Cleaver",
@@ -850,6 +870,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 805, surcharge: 1790, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Caladbolg",
@@ -894,6 +915,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 820, surcharge: 1825, suggest: 365, speedUp: 2480 },
   },
   {
     name: "Dragon Dao",
@@ -939,6 +961,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2480 },
   },
   {
     name: "Tiger Blade",
@@ -984,6 +1007,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 850, surcharge: 1890, suggest: 380, speedUp: 2635 },
   },
   {
     name: "Vorpal Sword",
@@ -1028,6 +1052,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
   },
   {
     name: "Elegant Rapier",
@@ -1073,6 +1098,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2790 },
   },
   {
     name: "Tsukuyomi",
@@ -1118,6 +1144,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2950 },
   },
   {
     name: "Excalibur",
@@ -1162,6 +1189,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3290 },
   },
   {
     name: "Titan Sword",
@@ -1207,6 +1235,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
   },
   {
     name: "Opulent Brand",
@@ -1251,6 +1280,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1490, surcharge: 3310, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Épée d'Artagnan",
@@ -1296,6 +1326,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Thorn of Scorn",
@@ -1341,6 +1372,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Djinn Pyre",
@@ -1385,6 +1417,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2040, surcharge: 4530, suggest: 905, speedUp: 3830 },
   },
   {
     name: "Plasma Saber",
@@ -1430,6 +1463,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2105, surcharge: 4680, suggest: 935, speedUp: 3830 },
   },
   {
     name: "Wood Axe",
@@ -1466,6 +1500,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
   },
   {
     name: "Hatchet",
@@ -1503,6 +1538,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Iron Chopper",
@@ -1540,6 +1576,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
   },
   {
     name: "Explorer's Axe",
@@ -1575,6 +1612,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 30, surcharge: 70, suggest: 15, speedUp: 135 },
   },
   {
     name: "Bardiche",
@@ -1612,6 +1650,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 50, surcharge: 115, suggest: 25, speedUp: 190 },
   },
   {
     name: "Molten Voulge",
@@ -1650,6 +1689,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 55, surcharge: 120, suggest: 25, speedUp: 225 },
   },
   {
     name: "Dismantler's Pickaxe",
@@ -1689,6 +1729,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
   },
   {
     name: "Tomahawk",
@@ -1728,6 +1769,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 295 },
   },
   {
     name: "Companion Axe",
@@ -1768,6 +1810,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 375 },
   },
   {
     name: "Cold Iron Axe",
@@ -1807,6 +1850,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 375 },
   },
   {
     name: "Battleaxe",
@@ -1849,6 +1893,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
   },
   {
     name: "Raptor Reaper",
@@ -1892,6 +1937,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 515 },
   },
   {
     name: "Dwarven Greataxe",
@@ -1935,6 +1981,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 620 },
   },
   {
     name: "Stonesplitter",
@@ -1977,6 +2024,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 210, surcharge: 470, suggest: 95, speedUp: 675 },
   },
   {
     name: "Raider Axe",
@@ -2020,6 +2068,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 320, surcharge: 715, suggest: 145, speedUp: 925 },
   },
   {
     name: "Qian Chopper",
@@ -2064,6 +2113,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 340, surcharge: 750, suggest: 150, speedUp: 995 },
   },
   {
     name: "Executioner",
@@ -2107,6 +2157,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 375, surcharge: 830, suggest: 165, speedUp: 1065 },
   },
   {
     name: "Purgatory",
@@ -2150,6 +2201,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 420, surcharge: 930, suggest: 185, speedUp: 1140 },
   },
   {
     name: "Axe of The Fifth",
@@ -2194,6 +2246,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 995, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Eclipsis",
@@ -2238,6 +2291,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 830, surcharge: 1845, suggest: 370, speedUp: 2335 },
   },
   {
     name: "Terra Tyrannis",
@@ -2282,6 +2336,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 850, surcharge: 1890, suggest: 380, speedUp: 2480 },
   },
   {
     name: "Opulent Grandaxe",
@@ -2326,6 +2381,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 975, surcharge: 2170, suggest: 435, speedUp: 2635 },
   },
   {
     name: "Kodiak Kleaver",
@@ -2371,6 +2427,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 855, surcharge: 1900, suggest: 380, speedUp: 2635 },
   },
   {
     name: "Manticore Slayer",
@@ -2415,6 +2472,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1060, surcharge: 2355, suggest: 470, speedUp: 2790 },
   },
   {
     name: "Beeswaxe",
@@ -2460,6 +2518,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
   },
   {
     name: "Shroom Doom",
@@ -2505,6 +2564,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
   },
   {
     name: "Jötunnbane",
@@ -2550,6 +2610,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1195, surcharge: 2650, suggest: 530, speedUp: 2950 },
   },
   {
     name: "Crescent of Conquest",
@@ -2594,6 +2655,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
   },
   {
     name: "Onyx King Axe",
@@ -2639,6 +2701,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3290 },
   },
   {
     name: "Lover's Quarrel",
@@ -2684,6 +2747,7 @@ db.blueprints.insertMany([
         { upgrade: "x1.25 Value Increase", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1490, surcharge: 3315, suggest: 665, speedUp: 3465 },
   },
   {
     name: "Apex Goraxe",
@@ -2729,6 +2793,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
   },
   {
     name: "Edge Eternal",
@@ -2773,6 +2838,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2040, surcharge: 4530, suggest: 905, speedUp: 3830 },
   },
   {
     name: "Shiv",
@@ -2806,6 +2872,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 10, suggest: 5, speedUp: 15 },
   },
   {
     name: "Ice Pick",
@@ -2843,6 +2910,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
   },
   {
     name: "Swift Blade",
@@ -2880,6 +2948,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
   },
   {
     name: "Kunai",
@@ -2915,6 +2984,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Stealth Knife",
@@ -2952,6 +3022,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 90 },
   },
   {
     name: "Balisong",
@@ -2989,6 +3060,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 45, surcharge: 105, suggest: 20, speedUp: 190 },
   },
   {
     name: "Erudite Vector",
@@ -3027,6 +3099,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 60, surcharge: 135, suggest: 25, speedUp: 260 },
   },
   {
     name: "Ritual Dagger",
@@ -3068,6 +3141,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 295 },
   },
   {
     name: "Sokka's Boomerang",
@@ -3110,6 +3184,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 175, suggest: 35, speedUp: 335 },
   },
   {
     name: "Assassin Tanto",
@@ -3153,6 +3228,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 375 },
   },
   {
     name: "Kingsguard",
@@ -3195,6 +3271,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 105, surcharge: 235, suggest: 45, speedUp: 465 },
   },
   {
     name: "Cloudwalker Chakram",
@@ -3238,6 +3315,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 130, surcharge: 290, suggest: 60, speedUp: 515 },
   },
   {
     name: "Fishmonger",
@@ -3280,6 +3358,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 675 },
   },
   {
     name: "Juniper's Trowel",
@@ -3323,6 +3402,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 195, surcharge: 430, suggest: 85, speedUp: 735 },
   },
   {
     name: "Troll Tooth",
@@ -3365,6 +3445,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 295, surcharge: 650, suggest: 130, speedUp: 860 },
   },
   {
     name: "Levia Fang",
@@ -3407,6 +3488,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 320, surcharge: 710, suggest: 140, speedUp: 925 },
   },
   {
     name: "Misericordia",
@@ -3449,6 +3531,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 375, surcharge: 830, suggest: 165, speedUp: 1065 },
   },
   {
     name: "Sultan Dagger",
@@ -3492,6 +3575,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Luxurious Poignard",
@@ -3534,6 +3618,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 375, surcharge: 835, suggest: 165, speedUp: 1220 },
   },
   {
     name: "Ceremonial Katar",
@@ -3577,6 +3662,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 735, surcharge: 1630, suggest: 325, speedUp: 2335 },
   },
   {
     name: "Nightmare Fellblade",
@@ -3620,6 +3706,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 770, surcharge: 1710, suggest: 340, speedUp: 2480 },
   },
   {
     name: "Swan's Edge",
@@ -3664,6 +3751,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 785, surcharge: 1740, suggest: 350, speedUp: 2480 },
   },
   {
     name: "Lucky Strike",
@@ -3708,6 +3796,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 810, surcharge: 1800, suggest: 360, speedUp: 2635 },
   },
   {
     name: "Heartseeker",
@@ -3751,6 +3840,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 970, surcharge: 2155, suggest: 430, speedUp: 2790 },
   },
   {
     name: "Last Breath",
@@ -3794,6 +3884,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
   },
   {
     name: "Nightwing Bolt",
@@ -3839,6 +3930,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2790 },
   },
   {
     name: "Kyoshi Warrior Fan",
@@ -3883,6 +3975,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
   },
   {
     name: "Wiccan Dagger",
@@ -3928,6 +4021,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
   },
   {
     name: "Sixth Sin",
@@ -3971,6 +4065,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1285, surcharge: 2850, suggest: 570, speedUp: 3290 },
   },
   {
     name: "Opulent Tecpatl",
@@ -4014,6 +4109,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1340, surcharge: 2980, suggest: 595, speedUp: 3290 },
   },
   {
     name: "Celesteel Knuckles",
@@ -4059,6 +4155,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1310, surcharge: 2910, suggest: 580, speedUp: 3465 },
   },
   {
     name: "Empress War Fan",
@@ -4103,6 +4200,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3465 },
   },
   {
     name: "Nocturne",
@@ -4147,6 +4245,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1995, surcharge: 4430, suggest: 885, speedUp: 3830 },
   },
   {
     name: "Cudgel",
@@ -4181,6 +4280,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Spiked Cudgel",
@@ -4218,6 +4318,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Darkwood Branch",
@@ -4256,6 +4357,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 55 },
   },
   {
     name: "Warhammer",
@@ -4293,6 +4395,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Liberty Mace",
@@ -4331,6 +4434,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 90 },
   },
   {
     name: "Morning Star",
@@ -4369,6 +4473,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 135 },
   },
   {
     name: "Inflatable Maul",
@@ -4408,6 +4513,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 50, surcharge: 115, suggest: 25, speedUp: 165 },
   },
   {
     name: "Flanged Mace",
@@ -4450,6 +4556,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 260 },
   },
   {
     name: "First Morning Star",
@@ -4492,6 +4599,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
   },
   {
     name: "Skull Crusher",
@@ -4533,6 +4641,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 420 },
   },
   {
     name: "Troublin Bludgeon",
@@ -4577,6 +4686,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 515 },
   },
   {
     name: "Evening Star",
@@ -4620,6 +4730,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 180, surcharge: 400, suggest: 80, speedUp: 620 },
   },
   {
     name: "Meteor Hammer",
@@ -4662,6 +4773,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 210, surcharge: 465, suggest: 95, speedUp: 675 },
   },
   {
     name: "Button Masher",
@@ -4705,6 +4817,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 735 },
   },
   {
     name: "Powder Keg",
@@ -4748,6 +4861,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 925 },
   },
   {
     name: "Whack-O'-Lantern",
@@ -4792,6 +4906,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 345, surcharge: 765, suggest: 155, speedUp: 995 },
   },
   {
     name: "Peppermint Mallet",
@@ -4836,6 +4951,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 360, surcharge: 795, suggest: 160, speedUp: 995 },
   },
   {
     name: "Tenderizer",
@@ -4879,6 +4995,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 375, surcharge: 835, suggest: 165, speedUp: 1065 },
   },
   {
     name: "Wallace Mallet",
@@ -4923,6 +5040,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Striped Star",
@@ -4967,6 +5085,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Nautilus",
@@ -5011,6 +5130,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 820, surcharge: 1825, suggest: 365, speedUp: 2335 },
   },
   {
     name: "Opulent Maul",
@@ -5054,6 +5174,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 870, surcharge: 1935, suggest: 385, speedUp: 2335 },
   },
   {
     name: "Mundra's Masher",
@@ -5099,6 +5220,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 845, surcharge: 1880, suggest: 375, speedUp: 2480 },
   },
   {
     name: "Thorium Hammer",
@@ -5143,6 +5265,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1025, surcharge: 2280, suggest: 455, speedUp: 2790 },
   },
   {
     name: "Sunglow Impact",
@@ -5187,6 +5310,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
   },
   {
     name: "Gaia Maul",
@@ -5232,6 +5356,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
   },
   {
     name: "Sokka's Club",
@@ -5277,6 +5402,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
   },
   {
     name: "Mjölnir",
@@ -5321,6 +5447,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3465 },
   },
   {
     name: "Eggshell Smasher",
@@ -5366,6 +5493,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
   },
   {
     name: "Merry Christmace",
@@ -5411,6 +5539,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3645 },
   },
   {
     name: "Crag Guardian",
@@ -5455,6 +5584,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2020, surcharge: 4490, suggest: 900, speedUp: 3830 },
   },
   {
     name: "Smash Hit",
@@ -5500,6 +5630,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2070, surcharge: 4605, suggest: 920, speedUp: 3830 },
   },
   {
     name: "Javelin",
@@ -5533,6 +5664,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Hunting Spear",
@@ -5570,6 +5702,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 70 },
   },
   {
     name: "Bladed Spear",
@@ -5607,6 +5740,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 30, surcharge: 65, suggest: 15, speedUp: 135 },
   },
   {
     name: "Sturdy Pitchfork",
@@ -5645,6 +5779,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
   },
   {
     name: "Ranseur",
@@ -5684,6 +5819,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 55, surcharge: 120, suggest: 25, speedUp: 225 },
   },
   {
     name: "Trishula",
@@ -5722,6 +5858,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
   },
   {
     name: "Bunbun Lance",
@@ -5761,6 +5898,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 375 },
   },
   {
     name: "Warlord Halberd",
@@ -5801,6 +5939,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 250, suggest: 50, speedUp: 420 },
   },
   {
     name: "Spetum",
@@ -5843,6 +5982,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 125, surcharge: 275, suggest: 55, speedUp: 465 },
   },
   {
     name: "Triton Lance",
@@ -5885,6 +6025,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 135, surcharge: 300, suggest: 60, speedUp: 515 },
   },
   {
     name: "Cu Chulainn's Lance",
@@ -5929,6 +6070,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 170, surcharge: 375, suggest: 75, speedUp: 565 },
   },
   {
     name: "Royal Halberd",
@@ -5972,6 +6114,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 215, surcharge: 480, suggest: 95, speedUp: 675 },
   },
   {
     name: "Twicicle Javelin",
@@ -6015,6 +6158,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 250, surcharge: 550, suggest: 110, speedUp: 735 },
   },
   {
     name: "Warrior Assegai",
@@ -6057,6 +6201,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 255, surcharge: 570, suggest: 115, speedUp: 735 },
   },
   {
     name: "Champion Lance",
@@ -6100,6 +6245,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 300, surcharge: 665, suggest: 135, speedUp: 860 },
   },
   {
     name: "Sunset Yari",
@@ -6143,6 +6289,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 320, surcharge: 710, suggest: 140, speedUp: 925 },
   },
   {
     name: "Wyvern Glaive",
@@ -6186,6 +6333,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 375, surcharge: 835, suggest: 165, speedUp: 1065 },
   },
   {
     name: "Hoartooth Lance",
@@ -6230,6 +6378,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Luxurious Spear",
@@ -6273,6 +6422,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 400, surcharge: 890, suggest: 180, speedUp: 1140 },
   },
   {
     name: "Stellaria",
@@ -6317,6 +6467,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 805, surcharge: 1790, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Longinus",
@@ -6361,6 +6512,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2335 },
   },
   {
     name: "Birdbane Halberd",
@@ -6406,6 +6558,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2480 },
   },
   {
     name: "Titania's Gift",
@@ -6450,6 +6603,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 970, surcharge: 2155, suggest: 430, speedUp: 2790 },
   },
   {
     name: "Jester Jouster",
@@ -6495,6 +6649,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2790 },
   },
   {
     name: "Holy Night Lance",
@@ -6540,6 +6695,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
   },
   {
     name: "Heaven's Wrath",
@@ -6584,6 +6740,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
   },
   {
     name: "Propeller-Pike",
@@ -6629,6 +6786,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
   },
   {
     name: "Pokey Parasol",
@@ -6674,6 +6832,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1490, surcharge: 3315, suggest: 665, speedUp: 3465 },
   },
   {
     name: "Opulent Halberd",
@@ -6718,6 +6877,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1485, surcharge: 3295, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Blackened Bardiche",
@@ -6762,6 +6922,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2070, surcharge: 4605, suggest: 920, speedUp: 3830 },
   },
   {
     name: "Riptide",
@@ -6806,6 +6967,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2105, surcharge: 4680, suggest: 935, speedUp: 3830 },
   },
   {
     name: "Dire Kakivak",
@@ -6851,6 +7013,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2070, surcharge: 4605, suggest: 920, speedUp: 3830 },
   },
   {
     name: "Training Bow",
@@ -6887,6 +7050,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 25 },
   },
   {
     name: "Tailwind",
@@ -6924,6 +7088,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 40 },
   },
   {
     name: "Elmwood Bow",
@@ -6958,6 +7123,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 55 },
   },
   {
     name: "Reflex Bow",
@@ -6996,6 +7162,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
   },
   {
     name: "Grand Harp",
@@ -7034,6 +7201,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
   },
   {
     name: "Compound Bow",
@@ -7072,6 +7240,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 190 },
   },
   {
     name: "Mundra's Hornbow",
@@ -7111,6 +7280,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 260 },
   },
   {
     name: "Deadeye",
@@ -7150,6 +7320,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 150, suggest: 30, speedUp: 295 },
   },
   {
     name: "Hallowed Willow",
@@ -7190,6 +7361,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 375 },
   },
   {
     name: "Raptoria",
@@ -7232,6 +7404,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 120, surcharge: 270, suggest: 55, speedUp: 465 },
   },
   {
     name: "Quetzal Wing",
@@ -7274,6 +7447,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 145, surcharge: 320, suggest: 65, speedUp: 515 },
   },
   {
     name: "L'Arabesque",
@@ -7317,6 +7491,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 195, surcharge: 430, suggest: 85, speedUp: 675 },
   },
   {
     name: "Hotshot Bowgun",
@@ -7360,6 +7535,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 235, surcharge: 525, suggest: 105, speedUp: 735 },
   },
   {
     name: "Yumi",
@@ -7403,6 +7579,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 310, surcharge: 685, suggest: 135, speedUp: 925 },
   },
   {
     name: "Cupid Bow",
@@ -7447,6 +7624,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 995 },
   },
   {
     name: "Bramblebane",
@@ -7490,6 +7668,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
   },
   {
     name: "Maplewood Gale",
@@ -7534,6 +7713,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Gemini Strike",
@@ -7578,6 +7758,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 820, surcharge: 1825, suggest: 365, speedUp: 2335 },
   },
   {
     name: "Jolly Ranger",
@@ -7623,6 +7804,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2480 },
   },
   {
     name: "Stormrend",
@@ -7667,6 +7849,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2950 },
   },
   {
     name: "Opulent Longbow",
@@ -7711,6 +7894,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
   },
   {
     name: "Pinata Hunter",
@@ -7756,6 +7940,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
   },
   {
     name: "Rising Star",
@@ -7801,6 +7986,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1210, surcharge: 2685, suggest: 535, speedUp: 3120 },
   },
   {
     name: "Boughwrought Bow",
@@ -7846,6 +8032,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1225, surcharge: 2720, suggest: 545, speedUp: 3120 },
   },
   {
     name: "Olympus",
@@ -7890,6 +8077,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3465 },
   },
   {
     name: "Power Flipper",
@@ -7935,6 +8123,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Elite Pathfinder",
@@ -7980,6 +8169,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1530, surcharge: 3395, suggest: 680, speedUp: 3645 },
   },
   {
     name: "Grand Monarque",
@@ -8024,6 +8214,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2030, surcharge: 4510, suggest: 900, speedUp: 3830 },
   },
   {
     name: "Earthstrung Wings",
@@ -8068,6 +8259,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2055, surcharge: 4565, suggest: 915, speedUp: 3830 },
   },
   {
     name: "Jindai Zakura",
@@ -8113,6 +8305,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2090, surcharge: 4640, suggest: 930, speedUp: 4015 },
   },
   {
     name: "Carved Branch",
@@ -8147,6 +8340,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Sturdy Cane",
@@ -8181,6 +8375,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Oak Staff",
@@ -8218,6 +8413,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Owl Perch",
@@ -8256,6 +8452,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 35, surcharge: 75, suggest: 15, speedUp: 135 },
   },
   {
     name: "Luxurious Stick",
@@ -8294,6 +8491,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 55, surcharge: 125, suggest: 25, speedUp: 135 },
   },
   {
     name: "Bo Staff",
@@ -8333,6 +8531,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 165 },
   },
   {
     name: "Apprentice Staff",
@@ -8371,6 +8570,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 50, surcharge: 115, suggest: 25, speedUp: 225 },
   },
   {
     name: "Jade Scepter",
@@ -8412,6 +8612,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 295 },
   },
   {
     name: "Amber Staff",
@@ -8453,6 +8654,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 335 },
   },
   {
     name: "Wiccan Broomstick",
@@ -8496,6 +8698,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 335 },
   },
   {
     name: "Wizard Staff",
@@ -8538,6 +8741,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 135, surcharge: 295, suggest: 60, speedUp: 465 },
   },
   {
     name: "Staff of Seasons",
@@ -8581,6 +8785,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
+    energy: { discount: 155, surcharge: 340, suggest: 70, speedUp: 515 },
   },
   {
     name: "Celestial Staff",
@@ -8623,6 +8828,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 180, surcharge: 395, suggest: 80, speedUp: 620 },
   },
   {
     name: "Mundra's Scepter",
@@ -8667,6 +8873,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
+    energy: { discount: 200, surcharge: 445, suggest: 90, speedUp: 735 },
   },
   {
     name: "Imperial Aquila",
@@ -8710,6 +8917,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 300, surcharge: 665, suggest: 135, speedUp: 860 },
   },
   {
     name: "Phoenix Staff",
@@ -8753,6 +8961,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 320, surcharge: 715, suggest: 145, speedUp: 925 },
   },
   {
     name: "Fluted Chime",
@@ -8797,6 +9006,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 330, surcharge: 735, suggest: 145, speedUp: 925 },
   },
   {
     name: "Transcendence",
@@ -8840,6 +9050,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 385, surcharge: 850, suggest: 170, speedUp: 1065 },
   },
   {
     name: "Tidebringer",
@@ -8883,6 +9094,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 420, surcharge: 935, suggest: 185, speedUp: 1140 },
   },
   {
     name: "Zesty Scepter",
@@ -8927,6 +9139,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 455, surcharge: 1010, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Seraphim",
@@ -8971,6 +9184,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 830, surcharge: 1845, suggest: 370, speedUp: 2335 },
   },
   {
     name: "Staff of Merriment",
@@ -9016,6 +9230,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2480 },
   },
   {
     name: "Penumbra",
@@ -9060,6 +9275,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
   },
   {
     name: "Ice Queen's Scepter",
@@ -9105,6 +9321,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2790 },
   },
   {
     name: "Heartcaptor's Staff",
@@ -9150,6 +9367,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
   },
   {
     name: "Scepter of Xolimnul",
@@ -9194,6 +9412,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1335, surcharge: 2970, suggest: 595, speedUp: 3290 },
   },
   {
     name: "Opulent Staff",
@@ -9238,6 +9457,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1385, surcharge: 3080, suggest: 615, speedUp: 3290 },
   },
   {
     name: "Soulbinder Staff",
@@ -9283,6 +9503,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1390, surcharge: 3090, suggest: 620, speedUp: 3290 },
   },
   {
     name: "Pharaoh's Ankh",
@@ -9328,6 +9549,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
   },
   {
     name: "Cloud Nine",
@@ -9372,6 +9594,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1940, surcharge: 4310, suggest: 860, speedUp: 4015 },
   },
   {
     name: "Gravity Controller",
@@ -9416,6 +9639,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 4015 },
   },
   {
     name: "Baton",
@@ -9450,6 +9674,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 40 },
   },
   {
     name: "Elvenwood Wand",
@@ -9487,6 +9712,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 30, surcharge: 65, suggest: 15, speedUp: 90 },
   },
   {
     name: "Hexer's Wand",
@@ -9524,6 +9750,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 45, surcharge: 95, suggest: 20, speedUp: 165 },
   },
   {
     name: "Steel Rod",
@@ -9564,6 +9791,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 65, surcharge: 145, suggest: 30, speedUp: 225 },
   },
   {
     name: "Star Rod",
@@ -9607,6 +9835,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 335 },
   },
   {
     name: "Peppermint Cane",
@@ -9651,6 +9880,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 105, surcharge: 230, suggest: 45, speedUp: 375 },
   },
   {
     name: "Sylvanel",
@@ -9695,6 +9925,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 165, surcharge: 370, suggest: 75, speedUp: 465 },
   },
   {
     name: "Chōchin Gohei",
@@ -9738,6 +9969,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 195, surcharge: 430, suggest: 85, speedUp: 515 },
   },
   {
     name: "Ruby Wand",
@@ -9781,6 +10013,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 620 },
   },
   {
     name: "Owl Wing Wand",
@@ -9824,6 +10057,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 675 },
   },
   {
     name: "Wand of Midas",
@@ -9868,6 +10102,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 860 },
   },
   {
     name: "Evergreen Wand",
@@ -9912,6 +10147,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 410, surcharge: 910, suggest: 180, speedUp: 1140 },
   },
   {
     name: "Equinox Rod",
@@ -9956,6 +10192,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 440, surcharge: 975, suggest: 195, speedUp: 1220 },
   },
   {
     name: "Astral Conductor",
@@ -10001,6 +10238,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 840, surcharge: 1870, suggest: 375, speedUp: 2480 },
   },
   {
     name: "Grimar's Grand Wand",
@@ -10046,6 +10284,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 865, surcharge: 1920, suggest: 385, speedUp: 2480 },
   },
   {
     name: "Draconic Eyestalk",
@@ -10091,6 +10330,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
   },
   {
     name: "Opulent Wand",
@@ -10135,6 +10375,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1205, surcharge: 2680, suggest: 535, speedUp: 2790 },
   },
   {
     name: "Moonlight Wand",
@@ -10180,6 +10421,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1240, surcharge: 2750, suggest: 550, speedUp: 2950 },
   },
   {
     name: "Herald of the End",
@@ -10225,6 +10467,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1515, surcharge: 3370, suggest: 675, speedUp: 3290 },
   },
   {
     name: "Ivory Queen Rod",
@@ -10270,6 +10513,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1565, surcharge: 3475, suggest: 695, speedUp: 3290 },
   },
   {
     name: "Fork of Roasting",
@@ -10315,6 +10559,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1585, surcharge: 3525, suggest: 705, speedUp: 3465 },
   },
   {
     name: "Pyroquartz Rod",
@@ -10360,6 +10605,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2155, surcharge: 4790, suggest: 960, speedUp: 4015 },
   },
   {
     name: "Light Crossbow",
@@ -10394,6 +10640,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 25 },
   },
   {
     name: "Hand Crossbow",
@@ -10428,6 +10675,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 55 },
   },
   {
     name: "Arbalest",
@@ -10465,6 +10713,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 35, surcharge: 75, suggest: 15, speedUp: 110 },
   },
   {
     name: "Heavy Crossbow",
@@ -10503,6 +10752,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 55, surcharge: 125, suggest: 25, speedUp: 190 },
   },
   {
     name: "Cluckthrower",
@@ -10542,6 +10792,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 260 },
   },
   {
     name: "Hunter's Crossbow",
@@ -10582,6 +10833,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 90, surcharge: 205, suggest: 40, speedUp: 295 },
   },
   {
     name: "Scorpio",
@@ -10625,6 +10877,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 135, surcharge: 305, suggest: 60, speedUp: 465 },
   },
   {
     name: "Primitech Slingshot",
@@ -10668,6 +10921,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 170, surcharge: 380, suggest: 75, speedUp: 565 },
   },
   {
     name: "Double Crossbow",
@@ -10711,6 +10965,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 255, surcharge: 570, suggest: 115, speedUp: 675 },
   },
   {
     name: "Chu-Ko-Nu",
@@ -10755,6 +11010,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 320, surcharge: 715, suggest: 145, speedUp: 860 },
   },
   {
     name: "Dra-Ko-Nu",
@@ -10799,6 +11055,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 340, surcharge: 750, suggest: 150, speedUp: 925 },
   },
   {
     name: "Triple Crossbow",
@@ -10843,6 +11100,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 415, surcharge: 925, suggest: 185, speedUp: 1140 },
   },
   {
     name: "Super Repeater",
@@ -10888,6 +11146,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2335 },
   },
   {
     name: "Nightwing Caster",
@@ -10933,6 +11192,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 855, surcharge: 1905, suggest: 380, speedUp: 2335 },
   },
   {
     name: "Leviathan",
@@ -10978,6 +11238,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1210, surcharge: 2685, suggest: 535, speedUp: 2790 },
   },
   {
     name: "Opulent Crossbow",
@@ -11022,6 +11283,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1215, surcharge: 2700, suggest: 540, speedUp: 2790 },
   },
   {
     name: "Titan Crossbow",
@@ -11067,6 +11329,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1265, surcharge: 2815, suggest: 565, speedUp: 2950 },
   },
   {
     name: "Godslayer Arbalest",
@@ -11112,6 +11375,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1490, surcharge: 3315, suggest: 665, speedUp: 3290 },
   },
   {
     name: "Baross' Backup",
@@ -11157,6 +11421,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1550, surcharge: 3445, suggest: 690, speedUp: 3290 },
   },
   {
     name: "Primarosa",
@@ -11202,6 +11467,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2120, surcharge: 4715, suggest: 945, speedUp: 3830 },
   },
   {
     name: "Pellet Gun",
@@ -11239,6 +11505,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 40 },
   },
   {
     name: "Handgun",
@@ -11276,6 +11543,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 25, surcharge: 50, suggest: 10, speedUp: 70 },
   },
   {
     name: "Smoothbore",
@@ -11314,6 +11582,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 135 },
   },
   {
     name: "Long Rifle",
@@ -11353,6 +11622,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 225 },
   },
   {
     name: "Snowball Launcher",
@@ -11392,6 +11662,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 260 },
   },
   {
     name: "Blunderbuss",
@@ -11432,6 +11703,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 375 },
   },
   {
     name: "Boomstick",
@@ -11475,6 +11747,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 155, surcharge: 345, suggest: 70, speedUp: 515 },
   },
   {
     name: "Banana Gun",
@@ -11518,6 +11791,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 170, surcharge: 380, suggest: 75, speedUp: 565 },
   },
   {
     name: "Pellet Popper",
@@ -11561,6 +11835,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 175, surcharge: 385, suggest: 75, speedUp: 565 },
   },
   {
     name: "Kenora Mk. IV",
@@ -11605,6 +11880,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 235, surcharge: 525, suggest: 105, speedUp: 675 },
   },
   {
     name: "Prototype Gatling",
@@ -11648,6 +11924,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 320, surcharge: 715, suggest: 145, speedUp: 860 },
   },
   {
     name: "Dragonator",
@@ -11692,6 +11969,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 425, surcharge: 940, suggest: 190, speedUp: 1220 },
   },
   {
     name: "Handcask '65",
@@ -11736,6 +12014,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1220 },
   },
   {
     name: "The Messenger",
@@ -11781,6 +12060,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 840, surcharge: 1870, suggest: 375, speedUp: 2480 },
   },
   {
     name: "Oxen Impact",
@@ -11825,6 +12105,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2635 },
   },
   {
     name: "Omega Disintegrator",
@@ -11870,6 +12151,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
   },
   {
     name: "Opulent Pistol",
@@ -11914,6 +12196,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1200, surcharge: 2665, suggest: 535, speedUp: 2790 },
   },
   {
     name: "Dogbone Blaster",
@@ -11959,6 +12242,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1240, surcharge: 2750, suggest: 550, speedUp: 2790 },
   },
   {
     name: "Blackbeard's Cannon",
@@ -12004,6 +12288,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1550, surcharge: 3445, suggest: 690, speedUp: 3465 },
   },
   {
     name: "Hotshot Carbine",
@@ -12049,6 +12334,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1600, surcharge: 3550, suggest: 710, speedUp: 3465 },
   },
   {
     name: "Gift Wrap Rifle",
@@ -12094,6 +12380,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1620, surcharge: 3600, suggest: 720, speedUp: 3645 },
   },
   {
     name: "Vainglory",
@@ -12138,6 +12425,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2105, surcharge: 4680, suggest: 935, speedUp: 3830 },
   },
   {
     name: "Sonic Trumpeteer",
@@ -12183,6 +12471,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2180, surcharge: 4845, suggest: 970, speedUp: 3830 },
   },
   {
     name: "Mintyleaf Herb",
@@ -12217,6 +12506,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Sweet Grass",
@@ -12254,6 +12544,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Moon Powder",
@@ -12292,6 +12583,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 135 },
   },
   {
     name: "Magical Mistletoe",
@@ -12330,6 +12622,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 45, surcharge: 95, suggest: 20, speedUp: 165 },
   },
   {
     name: "Healing Salve",
@@ -12367,6 +12660,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 50, surcharge: 110, suggest: 20, speedUp: 225 },
   },
   {
     name: "Venerable Oats",
@@ -12406,6 +12700,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 260 },
   },
   {
     name: "Silver Thistle",
@@ -12448,6 +12743,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 335 },
   },
   {
     name: "Bountiful Harvest",
@@ -12487,6 +12783,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 375 },
   },
   {
     name: "Flint Corn Bundle",
@@ -12528,6 +12825,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 100, surcharge: 220, suggest: 45, speedUp: 420 },
   },
   {
     name: "Bloodvine",
@@ -12569,6 +12867,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
   },
   {
     name: "Fragrant Bouquet",
@@ -12612,6 +12911,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
+    energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
   },
   {
     name: "Lil' Cactus",
@@ -12654,6 +12954,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 135, surcharge: 305, suggest: 60, speedUp: 515 },
   },
   {
     name: "Mandragoroot",
@@ -12696,6 +12997,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 620 },
   },
   {
     name: "Unwilting Rose",
@@ -12739,6 +13041,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 735 },
   },
   {
     name: "Wolf's Bane",
@@ -12782,6 +13085,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 300, surcharge: 665, suggest: 135, speedUp: 860 },
   },
   {
     name: "Mistpeak Bloom",
@@ -12825,6 +13129,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 325, surcharge: 725, suggest: 145, speedUp: 925 },
   },
   {
     name: "Yggdrasil Branch",
@@ -12868,6 +13173,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
   },
   {
     name: "Luckiest Clover",
@@ -12912,6 +13218,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 425, surcharge: 940, suggest: 190, speedUp: 1140 },
   },
   {
     name: "Luxurious Panacea",
@@ -12955,6 +13262,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 400, surcharge: 885, suggest: 175, speedUp: 1220 },
   },
   {
     name: "Wyrmblood Ointment",
@@ -12999,6 +13307,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 825, surcharge: 1830, suggest: 365, speedUp: 2480 },
   },
   {
     name: "Wild Oak Rose",
@@ -13044,6 +13353,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2635 },
   },
   {
     name: "Florae Daemonica",
@@ -13088,6 +13398,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
   },
   {
     name: "Bleakspire Roots",
@@ -13132,6 +13443,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
   },
   {
     name: "Seltzer Surprise",
@@ -13177,6 +13489,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
   },
   {
     name: "Super Snack Pack",
@@ -13222,6 +13535,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2950 },
   },
   {
     name: "Philosopher's Stone",
@@ -13266,6 +13580,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
   },
   {
     name: "Sakura Infusion",
@@ -13311,6 +13626,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3290 },
   },
   {
     name: "Opulent Decoction",
@@ -13355,6 +13671,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1495, surcharge: 3325, suggest: 665, speedUp: 3290 },
   },
   {
     name: "Premium Brand Jam",
@@ -13400,6 +13717,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1530, surcharge: 3395, suggest: 680, speedUp: 3465 },
   },
   {
     name: "Voidbloom Roots",
@@ -13444,6 +13762,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1930, surcharge: 4290, suggest: 860, speedUp: 3830 },
   },
   {
     name: "Slide Grease",
@@ -13489,6 +13808,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 3830 },
   },
   {
     name: "Warm Tea",
@@ -13522,6 +13842,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 55 },
   },
   {
     name: "Healing Potion",
@@ -13559,6 +13880,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 110 },
   },
   {
     name: "Magic Potion",
@@ -13597,6 +13919,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 45, surcharge: 105, suggest: 20, speedUp: 190 },
   },
   {
     name: "Science Project",
@@ -13635,6 +13958,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 50, surcharge: 110, suggest: 20, speedUp: 225 },
   },
   {
     name: "XL Healing Potion",
@@ -13672,6 +13996,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 295 },
   },
   {
     name: "Elegant Tea Set",
@@ -13711,6 +14036,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 375 },
   },
   {
     name: "XL Magic Potion",
@@ -13750,6 +14076,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 420 },
   },
   {
     name: "Titan Potion",
@@ -13789,6 +14116,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
   },
   {
     name: "Old Salt's Brew",
@@ -13832,6 +14160,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
+    energy: { discount: 115, surcharge: 260, suggest: 50, speedUp: 515 },
   },
   {
     name: "Phoenix Tonic",
@@ -13874,6 +14203,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 130, surcharge: 290, suggest: 60, speedUp: 515 },
   },
   {
     name: "Zesty Granita",
@@ -13917,6 +14247,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 170, surcharge: 375, suggest: 75, speedUp: 565 },
   },
   {
     name: "Potion of Renewal",
@@ -13958,6 +14289,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 195, surcharge: 430, suggest: 85, speedUp: 620 },
   },
   {
     name: "Bottled Mirth",
@@ -13999,6 +14331,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 220, surcharge: 490, suggest: 100, speedUp: 675 },
   },
   {
     name: "Fizzy Guzzle Bottle",
@@ -14041,6 +14374,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 735 },
   },
   {
     name: "Purple Bomb",
@@ -14084,6 +14418,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 310, surcharge: 685, suggest: 135, speedUp: 860 },
   },
   {
     name: "Gourd Elixir",
@@ -14128,6 +14463,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 335, surcharge: 740, suggest: 150, speedUp: 925 },
   },
   {
     name: "Naya's Special",
@@ -14170,6 +14506,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 340, surcharge: 750, suggest: 150, speedUp: 925 },
   },
   {
     name: "Special Sazonado",
@@ -14213,6 +14550,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 345, surcharge: 765, suggest: 155, speedUp: 995 },
   },
   {
     name: "Soulfire Extract",
@@ -14256,6 +14594,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 380, surcharge: 845, suggest: 170, speedUp: 1065 },
   },
   {
     name: "Tangy Decoction",
@@ -14300,6 +14639,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 445, surcharge: 985, suggest: 195, speedUp: 1140 },
   },
   {
     name: "Oak Essence",
@@ -14343,6 +14683,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Gaia Tonic",
@@ -14387,6 +14728,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 815, surcharge: 1810, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Midnight Oil",
@@ -14432,6 +14774,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 830, surcharge: 1845, suggest: 370, speedUp: 2335 },
   },
   {
     name: "Opulent Elixir",
@@ -14476,6 +14819,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 950, surcharge: 2110, suggest: 420, speedUp: 2480 },
   },
   {
     name: "Distilled Nebula",
@@ -14520,6 +14864,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2790 },
   },
   {
     name: "Aurora Springwater",
@@ -14565,6 +14910,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2790 },
   },
   {
     name: "Nectar Pitcher",
@@ -14610,6 +14956,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
   },
   {
     name: "Ambrosia",
@@ -14654,6 +15001,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
   },
   {
     name: "Mundra's Remedy",
@@ -14699,6 +15047,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
   },
   {
     name: "Quintessence Purity",
@@ -14743,6 +15092,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3465 },
   },
   {
     name: "Supreme Sunscreen",
@@ -14788,6 +15138,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3465 },
   },
   {
     name: "Maple Holy Grail",
@@ -14833,6 +15184,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3645 },
   },
   {
     name: "Conqueror's Blood",
@@ -14877,6 +15229,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
   },
   {
     name: "Satchel of Essentials",
@@ -14922,6 +15275,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2020, surcharge: 4490, suggest: 900, speedUp: 3830 },
   },
   {
     name: "Scroll of Sparks",
@@ -14956,6 +15310,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
   },
   {
     name: "Scroll of Cleansing",
@@ -14990,6 +15345,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 55 },
   },
   {
     name: "Scroll of Armor",
@@ -15027,6 +15383,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 90 },
   },
   {
     name: "Scroll of Storms",
@@ -15065,6 +15422,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 165 },
   },
   {
     name: "Song of Valor",
@@ -15104,6 +15462,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 260 },
   },
   {
     name: "Correspondence",
@@ -15144,6 +15503,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 295 },
   },
   {
     name: "Monster Manual",
@@ -15187,6 +15547,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
   },
   {
     name: "Tome of the Night",
@@ -15228,6 +15589,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 105, surcharge: 235, suggest: 45, speedUp: 375 },
   },
   {
     name: "Tome of Knowledge",
@@ -15271,6 +15633,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 110, surcharge: 245, suggest: 50, speedUp: 375 },
   },
   {
     name: "Tome of Secrets",
@@ -15314,6 +15677,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 135, surcharge: 295, suggest: 60, speedUp: 465 },
   },
   {
     name: "Naughty or Nice List",
@@ -15358,6 +15722,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 155, surcharge: 340, suggest: 70, speedUp: 515 },
   },
   {
     name: "Bagua Board",
@@ -15401,6 +15766,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 190, surcharge: 425, suggest: 85, speedUp: 620 },
   },
   {
     name: "Firework Bundle",
@@ -15444,6 +15810,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 240, surcharge: 535, suggest: 105, speedUp: 675 },
   },
   {
     name: "Tale of the Unicorn",
@@ -15488,6 +15855,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 255, surcharge: 570, suggest: 115, speedUp: 675 },
   },
   {
     name: "Tarot Deck",
@@ -15531,6 +15899,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
   },
   {
     name: "Scroll of Fortune",
@@ -15575,6 +15944,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 335, surcharge: 740, suggest: 150, speedUp: 925 },
   },
   {
     name: "Grimoire Aeternum",
@@ -15618,6 +15988,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1065 },
   },
   {
     name: "Imperial Decree",
@@ -15662,6 +16033,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Luxurious Tablet",
@@ -15705,6 +16077,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 405, surcharge: 895, suggest: 180, speedUp: 1220 },
   },
   {
     name: "Ancestral Atlas",
@@ -15749,6 +16122,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 815, surcharge: 1810, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Prayer Book",
@@ -15794,6 +16168,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2335 },
   },
   {
     name: "Curse of the Night",
@@ -15839,6 +16214,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2480 },
   },
   {
     name: "Druidic Grimoire",
@@ -15884,6 +16260,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 865, surcharge: 1925, suggest: 385, speedUp: 2480 },
   },
   {
     name: "Celestial Choir",
@@ -15928,6 +16305,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
   },
   {
     name: "Phoenix Litany",
@@ -15972,6 +16350,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
   },
   {
     name: "Sealed Declaration",
@@ -16017,6 +16396,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
   },
   {
     name: "Tiger Emperor's Edict",
@@ -16062,6 +16442,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
   },
   {
     name: "Tome of All-Knowledge",
@@ -16106,6 +16487,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1240, surcharge: 2750, suggest: 550, speedUp: 3120 },
   },
   {
     name: "The Bound Beast",
@@ -16150,6 +16532,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3465 },
   },
   {
     name: "Pharaoh's Pact",
@@ -16195,6 +16578,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Lost Star Chart",
@@ -16240,6 +16624,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3645 },
   },
   {
     name: "Love Declaration",
@@ -16285,6 +16670,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1515, surcharge: 3370, suggest: 675, speedUp: 3645 },
   },
   {
     name: "Opulent Incantation",
@@ -16329,6 +16715,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1565, surcharge: 3480, suggest: 695, speedUp: 3645 },
   },
   {
     name: "Pandora's Box",
@@ -16373,6 +16760,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1960, surcharge: 4350, suggest: 870, speedUp: 4015 },
   },
   {
     name: "Sealed Hurricane",
@@ -16417,6 +16805,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2010, surcharge: 4470, suggest: 895, speedUp: 4015 },
   },
   {
     name: "Breastplate",
@@ -16451,6 +16840,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Iron Mail",
@@ -16488,6 +16878,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 55 },
   },
   {
     name: "Scale Armor",
@@ -16525,6 +16916,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 30, surcharge: 70, suggest: 15, speedUp: 110 },
   },
   {
     name: "Hauberk",
@@ -16563,6 +16955,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 45, surcharge: 105, suggest: 20, speedUp: 190 },
   },
   {
     name: "Knight Breastplate",
@@ -16601,6 +16994,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 295 },
   },
   {
     name: "Ceremonial Breastplate",
@@ -16639,6 +17033,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
   },
   {
     name: "Centurion Armor",
@@ -16682,6 +17077,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 420 },
   },
   {
     name: "Paladin Plate",
@@ -16724,6 +17120,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 250, suggest: 50, speedUp: 465 },
   },
   {
     name: "Thorn Baron Armor",
@@ -16766,6 +17163,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 125, surcharge: 275, suggest: 55, speedUp: 465 },
   },
   {
     name: "Hive Guard Plate",
@@ -16809,6 +17207,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 135, surcharge: 300, suggest: 60, speedUp: 515 },
   },
   {
     name: "Samurai Do",
@@ -16852,6 +17251,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 205, surcharge: 460, suggest: 90, speedUp: 675 },
   },
   {
     name: "Brinewater Do",
@@ -16895,6 +17295,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 735 },
   },
   {
     name: "Kyoshi Warrior Armor",
@@ -16938,6 +17339,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 270, surcharge: 600, suggest: 120, speedUp: 735 },
   },
   {
     name: "Warlord Plate",
@@ -16982,6 +17384,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 290, surcharge: 640, suggest: 130, speedUp: 795 },
   },
   {
     name: "General Plate",
@@ -17024,6 +17427,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 860 },
   },
   {
     name: "Landsknecht Plate",
@@ -17068,6 +17472,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 335, surcharge: 740, suggest: 150, speedUp: 925 },
   },
   {
     name: "Santa's Guard Plate",
@@ -17112,6 +17517,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 340, surcharge: 755, suggest: 150, speedUp: 925 },
   },
   {
     name: "Berserker Armor",
@@ -17155,6 +17561,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 390, surcharge: 865, suggest: 175, speedUp: 1065 },
   },
   {
     name: "Gaia Enforcer",
@@ -17198,6 +17605,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 420, surcharge: 935, suggest: 185, speedUp: 1140 },
   },
   {
     name: "Star-Spangled Plate",
@@ -17242,6 +17650,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Juggernaut Fortress",
@@ -17286,6 +17695,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 810, surcharge: 1795, suggest: 360, speedUp: 2480 },
   },
   {
     name: "Amber Citadel",
@@ -17330,6 +17740,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 825, surcharge: 1835, suggest: 365, speedUp: 2480 },
   },
   {
     name: "Opulent Breastplate",
@@ -17374,6 +17785,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 935, surcharge: 2075, suggest: 415, speedUp: 2480 },
   },
   {
     name: "Milesian Mail",
@@ -17419,6 +17831,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 855, surcharge: 1900, suggest: 380, speedUp: 2480 },
   },
   {
     name: "Celesteel Plate",
@@ -17463,6 +17876,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
   },
   {
     name: "Canid Plate",
@@ -17508,6 +17922,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2790 },
   },
   {
     name: "Fire Nation Armor",
@@ -17553,6 +17968,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2790 },
   },
   {
     name: "Vermilion Guard Plate",
@@ -17597,6 +18013,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1350, surcharge: 3000, suggest: 600, speedUp: 3290 },
   },
   {
     name: "Oni Rōnin Armor",
@@ -17642,6 +18059,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
   },
   {
     name: "Tyrant Plate Armor",
@@ -17687,6 +18105,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
   },
   {
     name: "Lost Warrior's Plate",
@@ -17732,6 +18151,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
   },
   {
     name: "Balefire Armor",
@@ -17776,6 +18196,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1960, surcharge: 4350, suggest: 870, speedUp: 4015 },
   },
   {
     name: "Magmacore Plate",
@@ -17820,6 +18241,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2040, surcharge: 4530, suggest: 905, speedUp: 4015 },
   },
   {
     name: "Leather Armor",
@@ -17853,6 +18275,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Gambeson",
@@ -17887,6 +18310,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Doublet",
@@ -17924,6 +18348,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 90 },
   },
   {
     name: "Studded Armor",
@@ -17962,6 +18387,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
   },
   {
     name: "Blizzard Armor",
@@ -18002,6 +18428,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
   },
   {
     name: "Hide Armor",
@@ -18041,6 +18468,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 295 },
   },
   {
     name: "Mundra's Tabard",
@@ -18081,6 +18509,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 335 },
   },
   {
     name: "Sky Pirate Outfit",
@@ -18120,6 +18549,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 335 },
   },
   {
     name: "Savage Garb",
@@ -18163,6 +18593,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
   },
   {
     name: "Glade Guard Armor",
@@ -18206,6 +18637,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 135, surcharge: 295, suggest: 60, speedUp: 515 },
   },
   {
     name: "Pumpkin Armor",
@@ -18250,6 +18682,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 145, surcharge: 320, suggest: 65, speedUp: 515 },
   },
   {
     name: "Ninja Garb",
@@ -18292,6 +18725,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 210, surcharge: 465, suggest: 95, speedUp: 675 },
   },
   {
     name: "Nightwing Mantle",
@@ -18336,6 +18770,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
+    energy: { discount: 240, surcharge: 535, suggest: 105, speedUp: 735 },
   },
   {
     name: "Windrunner Armor",
@@ -18379,6 +18814,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 320, surcharge: 710, suggest: 140, speedUp: 860 },
   },
   {
     name: "Sokka's Outfit",
@@ -18422,6 +18858,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 925 },
   },
   {
     name: "Drakeskin Armor",
@@ -18465,6 +18902,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1065 },
   },
   {
     name: "Smith Attire",
@@ -18509,6 +18947,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Corsair Mantle",
@@ -18553,6 +18992,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 800, surcharge: 1780, suggest: 355, speedUp: 2480 },
   },
   {
     name: "Swan's Garment",
@@ -18598,6 +19038,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2480 },
   },
   {
     name: "Cloudwalker Armor",
@@ -18643,6 +19084,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 850, surcharge: 1890, suggest: 380, speedUp: 2635 },
   },
   {
     name: "Everdusk Lord Attire",
@@ -18687,6 +19129,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
   },
   {
     name: "Opulent Armor",
@@ -18731,6 +19174,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1125, surcharge: 2505, suggest: 500, speedUp: 2790 },
   },
   {
     name: "Barkback's Armor",
@@ -18776,6 +19220,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2790 },
   },
   {
     name: "Cat Burglar Outfit",
@@ -18821,6 +19266,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
   },
   {
     name: "Dawn Thief Uniform",
@@ -18865,6 +19311,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1390, surcharge: 3090, suggest: 620, speedUp: 3290 },
   },
   {
     name: "Shroud of the Lost",
@@ -18909,6 +19356,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1420, surcharge: 3150, suggest: 630, speedUp: 3465 },
   },
   {
     name: "Stylish Poncho",
@@ -18954,6 +19402,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
   },
   {
     name: "Desperado Outfit",
@@ -18999,6 +19448,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Wildhunt Leathers",
@@ -19043,6 +19493,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
   },
   {
     name: "Shirt",
@@ -19077,6 +19528,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Black Robe",
@@ -19114,6 +19566,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
   },
   {
     name: "Druid's Robe",
@@ -19152,6 +19605,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 90 },
   },
   {
     name: "Disciple's Robe",
@@ -19190,6 +19644,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
   },
   {
     name: "Scholar's Tunic",
@@ -19232,6 +19687,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 295 },
   },
   {
     name: "Explorer's Outfit",
@@ -19274,6 +19730,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
   },
   {
     name: "Tailor Mantle",
@@ -19316,6 +19773,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 375 },
   },
   {
     name: "Witch's Outfit",
@@ -19359,6 +19817,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
   },
   {
     name: "Vestal Raiments",
@@ -19400,6 +19859,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 140, surcharge: 315, suggest: 65, speedUp: 515 },
   },
   {
     name: "Wizard Attire",
@@ -19444,6 +19904,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 565 },
   },
   {
     name: "Midnight Apparel",
@@ -19486,6 +19947,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 190, surcharge: 425, suggest: 85, speedUp: 620 },
   },
   {
     name: "Aang's Robe",
@@ -19529,6 +19991,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 235, surcharge: 525, suggest: 105, speedUp: 675 },
   },
   {
     name: "Shaman Vestment",
@@ -19572,6 +20035,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 310, surcharge: 685, suggest: 135, speedUp: 925 },
   },
   {
     name: "Cupid Robes",
@@ -19615,6 +20079,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 325, surcharge: 725, suggest: 145, speedUp: 995 },
   },
   {
     name: "Luxurious Attire",
@@ -19658,6 +20123,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 330, surcharge: 730, suggest: 145, speedUp: 1065 },
   },
   {
     name: "Astravestimenta",
@@ -19701,6 +20167,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 405, surcharge: 900, suggest: 180, speedUp: 1065 },
   },
   {
     name: "Ostara Vest",
@@ -19745,6 +20212,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 430, surcharge: 960, suggest: 190, speedUp: 1140 },
   },
   {
     name: "Desert Threads",
@@ -19789,6 +20257,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Archmage Raiments",
@@ -19833,6 +20302,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 800, surcharge: 1775, suggest: 355, speedUp: 2480 },
   },
   {
     name: "Republic Garments",
@@ -19877,6 +20347,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 815, surcharge: 1810, suggest: 360, speedUp: 2480 },
   },
   {
     name: "Djinn Robes",
@@ -19921,6 +20392,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1025, surcharge: 2280, suggest: 455, speedUp: 2790 },
   },
   {
     name: "Moonlight Kimono",
@@ -19966,6 +20438,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
   },
   {
     name: "Tiger Emperor's Robe",
@@ -20011,6 +20484,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
   },
   {
     name: "Exarch Robes",
@@ -20055,6 +20529,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1365, surcharge: 3030, suggest: 605, speedUp: 3465 },
   },
   {
     name: "Soulbinder Regalia",
@@ -20100,6 +20575,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3465 },
   },
   {
     name: "Opulent Vestment",
@@ -20144,6 +20620,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
   },
   {
     name: "Garb of the Primordial",
@@ -20188,6 +20665,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3645 },
   },
   {
     name: "Ice Queen's Silks",
@@ -20233,6 +20711,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3645 },
   },
   {
     name: "Voidminster Habit",
@@ -20277,6 +20756,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2010, surcharge: 4470, suggest: 895, speedUp: 4015 },
   },
   {
     name: "Sturdy Cap",
@@ -20310,6 +20790,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Warrior Helmet",
@@ -20347,6 +20828,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 55 },
   },
   {
     name: "Horned Helm",
@@ -20384,6 +20866,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
   },
   {
     name: "Raider Helm",
@@ -20421,6 +20904,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 45, surcharge: 95, suggest: 20, speedUp: 165 },
   },
   {
     name: "Knight Heaume",
@@ -20463,6 +20947,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 295 },
   },
   {
     name: "Brinewater Helm",
@@ -20504,6 +20989,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 335 },
   },
   {
     name: "Eagle Helm",
@@ -20546,6 +21032,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
   },
   {
     name: "Rex Chomper",
@@ -20589,6 +21076,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 375 },
   },
   {
     name: "Paladin Helm",
@@ -20631,6 +21119,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 120, surcharge: 265, suggest: 55, speedUp: 465 },
   },
   {
     name: "Kodiak Helmet",
@@ -20674,6 +21163,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 140, surcharge: 315, suggest: 65, speedUp: 515 },
   },
   {
     name: "Fire Nation Helm",
@@ -20717,6 +21207,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
+    energy: { discount: 145, surcharge: 320, suggest: 65, speedUp: 565 },
   },
   {
     name: "Crown of Tyranny",
@@ -20760,6 +21251,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
+    energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 565 },
   },
   {
     name: "Samurai Kabuto",
@@ -20802,6 +21294,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 210, surcharge: 465, suggest: 95, speedUp: 675 },
   },
   {
     name: "Gladiator Helm",
@@ -20845,6 +21338,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 240, surcharge: 535, suggest: 105, speedUp: 735 },
   },
   {
     name: "Sandcastle Protector",
@@ -20887,6 +21381,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 250, surcharge: 550, suggest: 110, speedUp: 735 },
   },
   {
     name: "General Heaume",
@@ -20929,6 +21424,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 860 },
   },
   {
     name: "Crusader Helmet",
@@ -20972,6 +21468,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 315, surcharge: 700, suggest: 140, speedUp: 925 },
   },
   {
     name: "Warlord Helmet",
@@ -21016,6 +21513,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 355, surcharge: 785, suggest: 155, speedUp: 995 },
   },
   {
     name: "Berserker Helmet",
@@ -21059,6 +21557,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 400, surcharge: 885, suggest: 175, speedUp: 1065 },
   },
   {
     name: "Centurion Helmet",
@@ -21103,6 +21602,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Juggernaut Furnace",
@@ -21147,6 +21647,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 800, surcharge: 1780, suggest: 355, speedUp: 2335 },
   },
   {
     name: "Gobble Lord Helm",
@@ -21192,6 +21693,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2480 },
   },
   {
     name: "Opulent Heaume",
@@ -21236,6 +21738,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 975, surcharge: 2170, suggest: 435, speedUp: 2480 },
   },
   {
     name: "Celesteel Heaume",
@@ -21280,6 +21783,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 970, surcharge: 2155, suggest: 430, speedUp: 2790 },
   },
   {
     name: "Canid Helmet",
@@ -21325,6 +21829,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
   },
   {
     name: "Cupid's Heaume",
@@ -21370,6 +21875,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
   },
   {
     name: "Vermilion Guard Helm",
@@ -21414,6 +21920,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
   },
   {
     name: "Onyx King Helm",
@@ -21459,6 +21966,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3290 },
   },
   {
     name: "Thorn Baron Helm",
@@ -21504,6 +22012,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
   },
   {
     name: "Balefire Gaze",
@@ -21548,6 +22057,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1965, surcharge: 4370, suggest: 875, speedUp: 3830 },
   },
   {
     name: "Taishōgun Kabuto",
@@ -21593,6 +22103,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1995, surcharge: 4430, suggest: 885, speedUp: 3830 },
   },
   {
     name: "Leather Cap",
@@ -21626,6 +22137,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Canopy Cap",
@@ -21663,6 +22175,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
   },
   {
     name: "Brimmed Hat",
@@ -21697,6 +22210,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Feathered Hat",
@@ -21734,6 +22248,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 50, suggest: 10, speedUp: 90 },
   },
   {
     name: "Tricorn",
@@ -21772,6 +22287,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 35, surcharge: 80, suggest: 15, speedUp: 135 },
   },
   {
     name: "Silk Hood",
@@ -21811,6 +22327,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 65, surcharge: 145, suggest: 30, speedUp: 260 },
   },
   {
     name: "Santa's Elf Hat",
@@ -21850,6 +22367,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 295 },
   },
   {
     name: "Pharaoh's Nemes",
@@ -21890,6 +22408,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 295 },
   },
   {
     name: "Pirate Hat",
@@ -21932,6 +22451,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 420 },
   },
   {
     name: "Lovely Hat",
@@ -21975,6 +22495,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 465 },
   },
   {
     name: "Night Cowl",
@@ -22017,6 +22538,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 185, surcharge: 410, suggest: 80, speedUp: 620 },
   },
   {
     name: "Nomad Veil",
@@ -22059,6 +22581,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 220, surcharge: 485, suggest: 95, speedUp: 675 },
   },
   {
     name: "Harvester's Hood",
@@ -22101,6 +22624,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 250, surcharge: 550, suggest: 110, speedUp: 735 },
   },
   {
     name: "Windrunner Hat",
@@ -22144,6 +22668,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 860 },
   },
   {
     name: "Blue Spirit Mask",
@@ -22188,6 +22713,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 925 },
   },
   {
     name: "Musketeer Hat",
@@ -22232,6 +22758,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 350, surcharge: 780, suggest: 155, speedUp: 925 },
   },
   {
     name: "Drakeskin Mask",
@@ -22275,6 +22802,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1140 },
   },
   {
     name: "Storm Dragon Mask",
@@ -22318,6 +22846,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 420, surcharge: 930, suggest: 185, speedUp: 1220 },
   },
   {
     name: "Grand Tyrolean",
@@ -22362,6 +22891,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 455, surcharge: 1015, suggest: 205, speedUp: 1220 },
   },
   {
     name: "Corsair Tricorn",
@@ -22406,6 +22936,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 805, surcharge: 1790, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Republic Coiffe",
@@ -22450,6 +22981,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 815, surcharge: 1815, suggest: 365, speedUp: 2480 },
   },
   {
     name: "Everdusk Cowl",
@@ -22494,6 +23026,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 990, surcharge: 2195, suggest: 440, speedUp: 2790 },
   },
   {
     name: "Abyssal Hood",
@@ -22538,6 +23071,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
   },
   {
     name: "Rogue Sombrero",
@@ -22583,6 +23117,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2790 },
   },
   {
     name: "Cat Burglar Hood",
@@ -22628,6 +23163,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2950 },
   },
   {
     name: "Opulent Sallet",
@@ -22672,6 +23208,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
   },
   {
     name: "Dawn Thief Cowl",
@@ -22716,6 +23253,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1420, surcharge: 3150, suggest: 630, speedUp: 3290 },
   },
   {
     name: "Bunbun Masquerade",
@@ -22761,6 +23299,7 @@ db.blueprints.insertMany([
         { upgrade: "-22 Steel Spent", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3290 },
   },
   {
     name: "Dragonseeker Goggles",
@@ -22806,6 +23345,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
   },
   {
     name: "Kitsune Spirit Mask",
@@ -22851,6 +23391,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
   },
   {
     name: "Hooded Iggaak",
@@ -22896,6 +23437,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2020, surcharge: 4490, suggest: 900, speedUp: 3830 },
   },
   {
     name: "Wildhunt Skull",
@@ -22940,6 +23482,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
   },
   {
     name: "Stitched Cone",
@@ -22973,6 +23516,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Black Cowl",
@@ -23007,6 +23551,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Druid Laurels",
@@ -23045,6 +23590,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 90 },
   },
   {
     name: "Apprentice Tiara",
@@ -23083,6 +23629,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 35, surcharge: 75, suggest: 15, speedUp: 110 },
   },
   {
     name: "Bronze Circlet",
@@ -23121,6 +23668,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 35, surcharge: 80, suggest: 15, speedUp: 135 },
   },
   {
     name: "Wizard Hat",
@@ -23164,6 +23712,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 150, suggest: 30, speedUp: 260 },
   },
   {
     name: "Hat of the Four Winds",
@@ -23205,6 +23754,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 80, surcharge: 175, suggest: 35, speedUp: 295 },
   },
   {
     name: "Ostara Hat",
@@ -23249,6 +23799,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 195, suggest: 40, speedUp: 335 },
   },
   {
     name: "Witch Hat",
@@ -23292,6 +23843,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 420 },
   },
   {
     name: "Waterproof Lilycap",
@@ -23335,6 +23887,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 260, suggest: 50, speedUp: 465 },
   },
   {
     name: "Owl Cowl",
@@ -23379,6 +23932,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
   },
   {
     name: "Tactician Hat",
@@ -23420,6 +23974,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 180, surcharge: 400, suggest: 80, speedUp: 620 },
   },
   {
     name: "Summoner Hat",
@@ -23462,6 +24017,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 675 },
   },
   {
     name: "Ivory Queen Crown",
@@ -23505,6 +24061,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 675 },
   },
   {
     name: "Shaman Hat",
@@ -23548,6 +24105,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
   },
   {
     name: "Luxurious Headdress",
@@ -23591,6 +24149,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 340, surcharge: 760, suggest: 150, speedUp: 1065 },
   },
   {
     name: "Astral Hat",
@@ -23634,6 +24193,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 400, surcharge: 885, suggest: 175, speedUp: 1140 },
   },
   {
     name: "Raven Mask",
@@ -23678,6 +24238,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Spellward Hat",
@@ -23722,6 +24283,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Opal Diadem",
@@ -23766,6 +24328,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 800, surcharge: 1780, suggest: 355, speedUp: 2335 },
   },
   {
     name: "Night Crown",
@@ -23811,6 +24374,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 845, surcharge: 1880, suggest: 375, speedUp: 2335 },
   },
   {
     name: "Djinn Veil",
@@ -23855,6 +24419,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1060, surcharge: 2355, suggest: 470, speedUp: 2790 },
   },
   {
     name: "Elegant Top Hat",
@@ -23900,6 +24465,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2790 },
   },
   {
     name: "Ice Queen's Summer Hat",
@@ -23945,6 +24511,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1195, surcharge: 2650, suggest: 530, speedUp: 2950 },
   },
   {
     name: "Exarch Mitre",
@@ -23989,6 +24556,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1350, surcharge: 3000, suggest: 600, speedUp: 3290 },
   },
   {
     name: "Sakura Eboshi",
@@ -24034,6 +24602,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
   },
   {
     name: "Opulent Headdress",
@@ -24078,6 +24647,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
   },
   {
     name: "Phoenix Crest",
@@ -24122,6 +24692,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3465 },
   },
   {
     name: "Empress Hairpins",
@@ -24167,6 +24738,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3465 },
   },
   {
     name: "Voidminster Hat",
@@ -24211,6 +24783,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
   },
   {
     name: "Elysium Halo",
@@ -24255,6 +24828,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2030, surcharge: 4510, suggest: 900, speedUp: 3830 },
   },
   {
     name: "Iron Armguards",
@@ -24288,6 +24862,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Plated Gauntlets",
@@ -24325,6 +24900,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 55 },
   },
   {
     name: "Warrior Gauntlets",
@@ -24363,6 +24939,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
   },
   {
     name: "Demi Gauntlets",
@@ -24402,6 +24979,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 50, surcharge: 110, suggest: 20, speedUp: 190 },
   },
   {
     name: "Pumpkin Gauntlets",
@@ -24441,6 +25019,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
   },
   {
     name: "Knight Gauntlets",
@@ -24482,6 +25061,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
   },
   {
     name: "Santa's Guard Gauntlets",
@@ -24524,6 +25104,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 375 },
   },
   {
     name: "Hands of the Fifth",
@@ -24566,6 +25147,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 420 },
   },
   {
     name: "Paladin Gauntlets",
@@ -24609,6 +25191,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 110, surcharge: 245, suggest: 50, speedUp: 465 },
   },
   {
     name: "Sungrasp Gauntlets",
@@ -24650,6 +25233,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
   },
   {
     name: "Landsknecht Gauntlets",
@@ -24690,6 +25274,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 160, surcharge: 355, suggest: 70, speedUp: 515 },
   },
   {
     name: "Samurai Kote",
@@ -24732,6 +25317,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 620 },
   },
   {
     name: "Republic Gauntlets",
@@ -24775,6 +25361,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 205, surcharge: 460, suggest: 90, speedUp: 675 },
   },
   {
     name: "Fruity Gauntlets",
@@ -24818,6 +25405,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 215, surcharge: 480, suggest: 95, speedUp: 735 },
   },
   {
     name: "General Gauntlets",
@@ -24861,6 +25449,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 925 },
   },
   {
     name: "Berserker Gauntlets",
@@ -24904,6 +25493,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
   },
   {
     name: "Luxurious Gauntlets",
@@ -24947,6 +25537,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 380, surcharge: 840, suggest: 170, speedUp: 1140 },
   },
   {
     name: "Juggernaut Grip",
@@ -24991,6 +25582,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 800, surcharge: 1780, suggest: 355, speedUp: 2335 },
   },
   {
     name: "Winter's Touch",
@@ -25036,6 +25628,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 830, surcharge: 1845, suggest: 370, speedUp: 2480 },
   },
   {
     name: "Celesteel Gauntlets",
@@ -25080,6 +25673,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 970, surcharge: 2155, suggest: 430, speedUp: 2790 },
   },
   {
     name: "Gaia's Hold",
@@ -25125,6 +25719,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
   },
   {
     name: "Vanguard Gauntlets",
@@ -25170,6 +25765,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2950 },
   },
   {
     name: "Huscarl Gauntlets",
@@ -25215,6 +25811,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
   },
   {
     name: "Vermilion Guard Might",
@@ -25259,6 +25856,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1365, surcharge: 3030, suggest: 605, speedUp: 3465 },
   },
   {
     name: "Goon's Facesmackers",
@@ -25304,6 +25902,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3465 },
   },
   {
     name: "Opulent Dracofists",
@@ -25348,6 +25947,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
   },
   {
     name: "Tyrant Fists",
@@ -25393,6 +25993,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3645 },
   },
   {
     name: "Balefire Gauntlets",
@@ -25437,6 +26038,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
   },
   {
     name: "Power Gauntlet",
@@ -25482,6 +26084,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2010, surcharge: 4470, suggest: 895, speedUp: 3830 },
   },
   {
     name: "Leather Gloves",
@@ -25516,6 +26119,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Bracers",
@@ -25550,6 +26154,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Thief's Gloves",
@@ -25587,6 +26192,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Swift Mitts",
@@ -25625,6 +26231,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
   },
   {
     name: "Patchleather Bracers",
@@ -25664,6 +26271,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 135 },
   },
   {
     name: "Studded Gloves",
@@ -25702,6 +26310,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 45, surcharge: 100, suggest: 20, speedUp: 165 },
   },
   {
     name: "Regal Bangles",
@@ -25745,6 +26354,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 55, surcharge: 120, suggest: 25, speedUp: 225 },
   },
   {
     name: "Elven Vambraces",
@@ -25783,6 +26393,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 295 },
   },
   {
     name: "Ostara Gloves",
@@ -25822,6 +26433,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 205, suggest: 40, speedUp: 335 },
   },
   {
     name: "Savage Claws",
@@ -25865,6 +26477,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 420 },
   },
   {
     name: "Black Wyrm Claws",
@@ -25908,6 +26521,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 125, surcharge: 275, suggest: 55, speedUp: 515 },
   },
   {
     name: "Ninja Gloves",
@@ -25950,6 +26564,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 185, surcharge: 410, suggest: 80, speedUp: 620 },
   },
   {
     name: "Cat Burglar Claws",
@@ -25993,6 +26608,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 215, surcharge: 480, suggest: 95, speedUp: 675 },
   },
   {
     name: "Windrunner Gloves",
@@ -26036,6 +26652,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 295, surcharge: 655, suggest: 130, speedUp: 860 },
   },
   {
     name: "Sakura Cuffs",
@@ -26080,6 +26697,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 300, surcharge: 665, suggest: 135, speedUp: 925 },
   },
   {
     name: "Drakeskin Gloves",
@@ -26123,6 +26741,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
   },
   {
     name: "Mountain Man Mitts",
@@ -26167,6 +26786,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 995, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Corsair Gloves",
@@ -26211,6 +26831,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 810, surcharge: 1795, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Fortunate Gloves",
@@ -26256,6 +26877,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2480 },
   },
   {
     name: "Opulent Grasp",
@@ -26300,6 +26922,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 1005, surcharge: 2230, suggest: 445, speedUp: 2480 },
   },
   {
     name: "Everdusk Gloves",
@@ -26344,6 +26967,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
   },
   {
     name: "Raptor Wings",
@@ -26389,6 +27013,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2790 },
   },
   {
     name: "Nightwing Vambraces",
@@ -26434,6 +27059,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
   },
   {
     name: "Dawn Thief's Touch",
@@ -26478,6 +27104,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1350, surcharge: 3000, suggest: 600, speedUp: 3290 },
   },
   {
     name: "Swindler's Fingers",
@@ -26522,6 +27149,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3465 },
   },
   {
     name: "Gloves of Rhythm",
@@ -26567,6 +27195,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3290 },
   },
   {
     name: "Gants d'Artagnan",
@@ -26612,6 +27241,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3465 },
   },
   {
     name: "Wildhunt Gloves",
@@ -26656,6 +27286,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 3830 },
   },
   {
     name: "Shin Guards",
@@ -26689,6 +27320,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Long Boots",
@@ -26726,6 +27358,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Iron Greaves",
@@ -26763,6 +27396,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Hero's Boots",
@@ -26801,6 +27435,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 90 },
   },
   {
     name: "Reinforced Greaves",
@@ -26839,6 +27474,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 35, surcharge: 80, suggest: 15, speedUp: 135 },
   },
   {
     name: "Plated Squeakers",
@@ -26879,6 +27515,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 45, surcharge: 100, suggest: 20, speedUp: 165 },
   },
   {
     name: "Knight Sollerets",
@@ -26917,6 +27554,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 150, suggest: 30, speedUp: 295 },
   },
   {
     name: "Cindersole",
@@ -26956,6 +27594,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
   },
   {
     name: "Warlord Boots",
@@ -26996,6 +27635,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 375 },
   },
   {
     name: "Paladin Boots",
@@ -27039,6 +27679,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 250, suggest: 50, speedUp: 465 },
   },
   {
     name: "Canid Paws",
@@ -27081,6 +27722,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 125, surcharge: 280, suggest: 55, speedUp: 515 },
   },
   {
     name: "Samurai Haidate",
@@ -27124,6 +27766,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 620 },
   },
   {
     name: "Topaz Greaves",
@@ -27166,6 +27809,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 210, surcharge: 465, suggest: 95, speedUp: 735 },
   },
   {
     name: "General Greaves",
@@ -27209,6 +27853,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
   },
   {
     name: "Berserker Stompers",
@@ -27252,6 +27897,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 390, surcharge: 865, suggest: 175, speedUp: 1065 },
   },
   {
     name: "Luxurious Boots",
@@ -27295,6 +27941,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 405, surcharge: 895, suggest: 180, speedUp: 1140 },
   },
   {
     name: "Vanguard Greaves",
@@ -27339,6 +27986,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Juggernaut Greaves",
@@ -27383,6 +28031,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 815, surcharge: 1815, suggest: 365, speedUp: 2335 },
   },
   {
     name: "Bunbun Booties",
@@ -27427,6 +28076,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 845, surcharge: 1880, suggest: 375, speedUp: 2480 },
   },
   {
     name: "Greaves of the Fifth",
@@ -27472,6 +28122,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 865, surcharge: 1920, suggest: 385, speedUp: 2480 },
   },
   {
     name: "Celesteel Boots",
@@ -27516,6 +28167,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 990, surcharge: 2195, suggest: 440, speedUp: 2790 },
   },
   {
     name: "Star-Spangled Greaves",
@@ -27561,6 +28213,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2790 },
   },
   {
     name: "Santa's Guard Boots",
@@ -27606,6 +28259,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
   },
   {
     name: "Vermilion Guard Greaves",
@@ -27650,6 +28304,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1390, surcharge: 3090, suggest: 620, speedUp: 3290 },
   },
   {
     name: "Boots of Zeal",
@@ -27694,6 +28349,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1420, surcharge: 3150, suggest: 630, speedUp: 3465 },
   },
   {
     name: "Fruity Booties",
@@ -27739,6 +28395,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3465 },
   },
   {
     name: "Opulent Greaves",
@@ -27783,6 +28440,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1475, surcharge: 3280, suggest: 655, speedUp: 3465 },
   },
   {
     name: "Rex Stompers",
@@ -27828,6 +28486,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Balefire Greaves",
@@ -27872,6 +28531,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 3830 },
   },
   {
     name: "Leather Boots",
@@ -27906,6 +28566,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
   },
   {
     name: "Trailblazers",
@@ -27940,6 +28601,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
   },
   {
     name: "Flip-Flops",
@@ -27974,6 +28636,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
   },
   {
     name: "Soft Shoes",
@@ -28011,6 +28674,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Legionnaire Sandals",
@@ -28049,6 +28713,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 90 },
   },
   {
     name: "Thief's Shoes",
@@ -28087,6 +28752,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 165 },
   },
   {
     name: "Perennial Sandals",
@@ -28126,6 +28792,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 55, surcharge: 120, suggest: 25, speedUp: 190 },
   },
   {
     name: "Elven Shoes",
@@ -28165,6 +28832,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 260 },
   },
   {
     name: "Moonlight Zōri",
@@ -28205,6 +28873,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 295 },
   },
   {
     name: "Savage Stride",
@@ -28248,6 +28917,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 105, surcharge: 235, suggest: 45, speedUp: 420 },
   },
   {
     name: "Sakura Tabi",
@@ -28292,6 +28962,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
   },
   {
     name: "Sultan Steps",
@@ -28335,6 +29006,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
   },
   {
     name: "Compact Snowshoes",
@@ -28378,6 +29050,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 140, surcharge: 315, suggest: 65, speedUp: 515 },
   },
   {
     name: "Ninja Tabi",
@@ -28420,6 +29093,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 175, surcharge: 385, suggest: 75, speedUp: 565 },
   },
   {
     name: "Nightwing Shoes",
@@ -28463,6 +29137,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 200, surcharge: 445, suggest: 90, speedUp: 620 },
   },
   {
     name: "Windrunner Boots",
@@ -28506,6 +29181,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 295, surcharge: 655, suggest: 130, speedUp: 860 },
   },
   {
     name: "Alpine Stride",
@@ -28549,6 +29225,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 330, surcharge: 735, suggest: 145, speedUp: 925 },
   },
   {
     name: "Drakeskin Boots",
@@ -28592,6 +29269,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1065 },
   },
   {
     name: "Plaguewalkers",
@@ -28635,6 +29313,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 410, surcharge: 910, suggest: 180, speedUp: 1140 },
   },
   {
     name: "Shoes of Style",
@@ -28679,6 +29358,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
   },
   {
     name: "Corsair Boots",
@@ -28723,6 +29403,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 805, surcharge: 1790, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Cloudwalker Steps",
@@ -28768,6 +29449,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2480 },
   },
   {
     name: "Everdusk Boots",
@@ -28812,6 +29494,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1025, surcharge: 2280, suggest: 455, speedUp: 2790 },
   },
   {
     name: "Raptor Talons",
@@ -28857,6 +29540,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2790 },
   },
   {
     name: "Opulent Footwraps",
@@ -28901,6 +29585,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1080, surcharge: 2405, suggest: 480, speedUp: 2790 },
   },
   {
     name: "Dawn Thief's Path",
@@ -28945,6 +29630,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
   },
   {
     name: "Desperado Spurs",
@@ -28990,6 +29676,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
   },
   {
     name: "Hunter Moccasins",
@@ -29035,6 +29722,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Fairy Sandals",
@@ -29080,6 +29768,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1490, surcharge: 3315, suggest: 665, speedUp: 3465 },
   },
   {
     name: "Wildhunt Sandals",
@@ -29124,6 +29813,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2020, surcharge: 4490, suggest: 900, speedUp: 3830 },
   },
   {
     name: "Wooden Shield",
@@ -29157,6 +29847,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 10, surcharge: 20, suggest: 5, speedUp: 25 },
   },
   {
     name: "Heavy Buckler",
@@ -29194,6 +29885,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 70 },
   },
   {
     name: "Oaken Shield",
@@ -29232,6 +29924,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
   },
   {
     name: "Iron Shield",
@@ -29270,6 +29963,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 45, surcharge: 100, suggest: 20, speedUp: 190 },
   },
   {
     name: "Aurum Ward",
@@ -29308,6 +30002,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
   },
   {
     name: "Teardrop Shield",
@@ -29350,6 +30045,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 295 },
   },
   {
     name: "Imperial Scutum",
@@ -29393,6 +30089,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
   },
   {
     name: "Champion Vigil",
@@ -29436,6 +30133,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 100, surcharge: 220, suggest: 45, speedUp: 375 },
   },
   {
     name: "Mythril Aspis",
@@ -29478,6 +30176,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 420 },
   },
   {
     name: "Raider Buckler",
@@ -29521,6 +30220,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 125, surcharge: 275, suggest: 55, speedUp: 465 },
   },
   {
     name: "Gaia Aegis",
@@ -29564,6 +30264,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
   },
   {
     name: "Wyrmguard",
@@ -29607,6 +30308,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 185, surcharge: 410, suggest: 80, speedUp: 620 },
   },
   {
     name: "Vanguard Buckler",
@@ -29651,6 +30353,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 735 },
   },
   {
     name: "Ancestor Totem",
@@ -29694,6 +30397,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
   },
   {
     name: "Angelic Pavise",
@@ -29737,6 +30441,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1065 },
   },
   {
     name: "Prometheon",
@@ -29780,6 +30485,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 420, surcharge: 930, suggest: 185, speedUp: 1140 },
   },
   {
     name: "Milesian Shield",
@@ -29824,6 +30530,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 430, surcharge: 955, suggest: 190, speedUp: 1140 },
   },
   {
     name: "Bunbun Buckler",
@@ -29868,6 +30575,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 440, surcharge: 975, suggest: 195, speedUp: 1140 },
   },
   {
     name: "Luxurious Aegis",
@@ -29911,6 +30619,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 400, surcharge: 890, suggest: 180, speedUp: 1220 },
   },
   {
     name: "Goldmane Guard",
@@ -29955,6 +30664,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 810, surcharge: 1795, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Emperor Wyrmguard",
@@ -30000,6 +30710,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2480 },
   },
   {
     name: "Bearded Paragon",
@@ -30044,6 +30755,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
   },
   {
     name: "Honeycomb Defender",
@@ -30089,6 +30801,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
   },
   {
     name: "Crystalice Targe",
@@ -30134,6 +30847,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1210, surcharge: 2685, suggest: 535, speedUp: 2950 },
   },
   {
     name: "Abyssal Artifact",
@@ -30178,6 +30892,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
   },
   {
     name: "Titan Shield",
@@ -30223,6 +30938,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
   },
   {
     name: "Opulent Buckler",
@@ -30267,6 +30983,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3290 },
   },
   {
     name: "Bastion of Dawn",
@@ -30312,6 +31029,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
   },
   {
     name: "Elongo Shield",
@@ -30357,6 +31075,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3465 },
   },
   {
     name: "Chloroshield",
@@ -30401,6 +31120,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1965, surcharge: 4370, suggest: 875, speedUp: 3830 },
   },
   {
     name: "Mundra's Aegis",
@@ -30446,6 +31166,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 4015 },
   },
   {
     name: "Adventurer Cape",
@@ -30483,6 +31204,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 110 },
   },
   {
     name: "Administrator Cloak",
@@ -30523,6 +31245,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 190 },
   },
   {
     name: "Druid Cloak",
@@ -30567,6 +31290,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 295 },
   },
   {
     name: "Imperial Cape",
@@ -30610,6 +31334,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 420 },
   },
   {
     name: "Vampire Wings",
@@ -30653,6 +31378,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 180, surcharge: 400, suggest: 80, speedUp: 465 },
   },
   {
     name: "Elven Cloak",
@@ -30696,6 +31422,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 620 },
   },
   {
     name: "Beast King's Cloak",
@@ -30739,6 +31466,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 290, surcharge: 640, suggest: 130, speedUp: 860 },
   },
   {
     name: "Dragonlord Crest",
@@ -30783,6 +31511,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 435, surcharge: 965, suggest: 195, speedUp: 1065 },
   },
   {
     name: "Tyrant Cloak",
@@ -30827,6 +31556,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 460, surcharge: 1025, suggest: 205, speedUp: 1140 },
   },
   {
     name: "Archbishop Mantle",
@@ -30872,6 +31602,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 810, surcharge: 1800, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Voidcloth From Beyond",
@@ -30917,6 +31648,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2790 },
   },
   {
     name: "Opulent Cloak",
@@ -30961,6 +31693,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1165, surcharge: 2585, suggest: 515, speedUp: 2790 },
   },
   {
     name: "Woven Lilycloak",
@@ -31006,6 +31739,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1225, surcharge: 2720, suggest: 545, speedUp: 2950 },
   },
   {
     name: "Herald's Mantle",
@@ -31051,6 +31785,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
   },
   {
     name: "Sakura Cloak",
@@ -31096,6 +31831,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1530, surcharge: 3395, suggest: 680, speedUp: 3290 },
   },
   {
     name: "Fairy Wings",
@@ -31141,6 +31877,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1540, surcharge: 3420, suggest: 685, speedUp: 3465 },
   },
   {
     name: "Cloak Everflowing",
@@ -31186,6 +31923,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2055, surcharge: 4565, suggest: 915, speedUp: 3830 },
   },
   {
     name: "Iron Ring",
@@ -31220,6 +31958,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
   },
   {
     name: "Alloy Loop",
@@ -31253,6 +31992,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
   },
   {
     name: "Ruby Ring",
@@ -31290,6 +32030,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 45, surcharge: 100, suggest: 20, speedUp: 190 },
   },
   {
     name: "Emerald Ring",
@@ -31328,6 +32069,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
   },
   {
     name: "Silver Band",
@@ -31366,6 +32108,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 295 },
   },
   {
     name: "Ring of Passion",
@@ -31405,6 +32148,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 80, surcharge: 175, suggest: 35, speedUp: 335 },
   },
   {
     name: "Noble Ring",
@@ -31444,6 +32188,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 90, surcharge: 195, suggest: 40, speedUp: 375 },
   },
   {
     name: "Ring of Rhythm",
@@ -31484,6 +32229,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 105, surcharge: 230, suggest: 45, speedUp: 375 },
   },
   {
     name: "Claud's Will",
@@ -31524,6 +32270,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 420 },
   },
   {
     name: "Knight Signet",
@@ -31567,6 +32314,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 250, suggest: 50, speedUp: 465 },
   },
   {
     name: "Ring of Liberty",
@@ -31610,6 +32358,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 155, surcharge: 340, suggest: 70, speedUp: 515 },
   },
   {
     name: "Qian Loop",
@@ -31653,6 +32402,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 155, surcharge: 345, suggest: 70, speedUp: 515 },
   },
   {
     name: "Batrachite Stone",
@@ -31694,6 +32444,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 175, surcharge: 390, suggest: 80, speedUp: 620 },
   },
   {
     name: "Soulstone Ring",
@@ -31736,6 +32487,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 215, surcharge: 475, suggest: 95, speedUp: 675 },
   },
   {
     name: "Ring of the Chosen",
@@ -31780,6 +32532,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 250, surcharge: 550, suggest: 110, speedUp: 735 },
   },
   {
     name: "Brimstone Coil",
@@ -31823,6 +32576,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 925 },
   },
   {
     name: "Ring of Vampire Kin",
@@ -31867,6 +32621,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 320, surcharge: 710, suggest: 140, speedUp: 995 },
   },
   {
     name: "Fairfolk Band",
@@ -31910,6 +32665,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 370, surcharge: 825, suggest: 165, speedUp: 1065 },
   },
   {
     name: "Dawnflower Ring",
@@ -31954,6 +32710,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 430, surcharge: 955, suggest: 190, speedUp: 1140 },
   },
   {
     name: "Valedictorian Ring",
@@ -31997,6 +32754,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1220 },
   },
   {
     name: "Luxurious Signet",
@@ -32039,6 +32797,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 385, surcharge: 855, suggest: 170, speedUp: 1220 },
   },
   {
     name: "Borealis",
@@ -32083,6 +32842,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 815, surcharge: 1815, suggest: 365, speedUp: 2335 },
   },
   {
     name: "Northwind Gem",
@@ -32127,6 +32887,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2480 },
   },
   {
     name: "Blizzard Ring",
@@ -32172,6 +32933,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 855, surcharge: 1905, suggest: 380, speedUp: 2480 },
   },
   {
     name: "Bunbun Band",
@@ -32217,6 +32979,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 860, surcharge: 1910, suggest: 380, speedUp: 2635 },
   },
   {
     name: "Rubicon Prison",
@@ -32261,6 +33024,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
   },
   {
     name: "Crunchy Bracelet",
@@ -32306,6 +33070,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
   },
   {
     name: "Ring of New Beginnings",
@@ -32351,6 +33116,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
   },
   {
     name: "Pearlescent Perfection",
@@ -32395,6 +33161,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1365, surcharge: 3030, suggest: 605, speedUp: 3290 },
   },
   {
     name: "Crystalice Loop",
@@ -32440,6 +33207,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3465 },
   },
   {
     name: "Ogun's Onyx Ring",
@@ -32485,6 +33253,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3465 },
   },
   {
     name: "Maple Ration Mini",
@@ -32530,6 +33299,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3645 },
   },
   {
     name: "Opulent Signet",
@@ -32574,6 +33344,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1510, surcharge: 3355, suggest: 670, speedUp: 3645 },
   },
   {
     name: "Mark of Ouroboros",
@@ -32619,6 +33390,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1920, surcharge: 4270, suggest: 855, speedUp: 3830 },
   },
   {
     name: "Memento",
@@ -32655,6 +33427,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 55 },
   },
   {
     name: "Jade Pendant",
@@ -32691,6 +33464,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 90 },
   },
   {
     name: "Iron Bond",
@@ -32727,6 +33501,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 135 },
   },
   {
     name: "Mundra's Amulet",
@@ -32764,6 +33539,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 55, surcharge: 125, suggest: 25, speedUp: 165 },
   },
   {
     name: "Sun Pendant",
@@ -32802,6 +33578,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
   },
   {
     name: "Eclipse Amulet",
@@ -32840,6 +33617,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 260 },
   },
   {
     name: "Medal of Honor",
@@ -32879,6 +33657,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 260 },
   },
   {
     name: "Noble Chain",
@@ -32919,6 +33698,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 295 },
   },
   {
     name: "Lucky Medallion",
@@ -32963,6 +33743,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 335 },
   },
   {
     name: "Luxurious Charm",
@@ -33006,6 +33787,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 120, surcharge: 270, suggest: 55, speedUp: 420 },
   },
   {
     name: "Holy Symbol",
@@ -33049,6 +33831,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 125, surcharge: 280, suggest: 55, speedUp: 420 },
   },
   {
     name: "Convenient Pendant",
@@ -33092,6 +33875,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 125, surcharge: 325, suggest: 55, speedUp: 465 },
   },
   {
     name: "Trinket of the Fifth",
@@ -33136,6 +33920,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 125, surcharge: 335, suggest: 55, speedUp: 515 },
   },
   {
     name: "Titanium Torc",
@@ -33178,6 +33963,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 200, surcharge: 445, suggest: 90, speedUp: 675 },
   },
   {
     name: "Magical Timepiece",
@@ -33221,6 +34007,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 240, surcharge: 535, suggest: 105, speedUp: 735 },
   },
   {
     name: "Magatama Necklace",
@@ -33264,6 +34051,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 315, surcharge: 700, suggest: 140, speedUp: 860 },
   },
   {
     name: "Dragonsoul Pendant",
@@ -33307,6 +34095,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 925 },
   },
   {
     name: "Archivist Glasses",
@@ -33349,6 +34138,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 360, surcharge: 795, suggest: 160, speedUp: 995 },
   },
   {
     name: "Stygian Phylactery",
@@ -33392,6 +34182,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
   },
   {
     name: "Ursa Totem",
@@ -33436,6 +34227,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 450, surcharge: 995, suggest: 200, speedUp: 1140 },
   },
   {
     name: "P.E.T. Portable",
@@ -33480,6 +34272,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 390, surcharge: 870, suggest: 175, speedUp: 1140 },
   },
   {
     name: "Alimyriad",
@@ -33524,6 +34317,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 810, surcharge: 1795, suggest: 360, speedUp: 2335 },
   },
   {
     name: "Freyja's Talisman",
@@ -33569,6 +34363,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 820, surcharge: 1825, suggest: 365, speedUp: 2335 },
   },
   {
     name: "VIP Talisman",
@@ -33614,6 +34409,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2480 },
   },
   {
     name: "Brísingamen",
@@ -33658,6 +34454,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
   },
   {
     name: "Monsoon Heart",
@@ -33702,6 +34499,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
   },
   {
     name: "Forlorn Acorn",
@@ -33747,6 +34545,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
   },
   {
     name: "Gyatso's Amulet",
@@ -33792,6 +34591,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2950 },
   },
   {
     name: "Fellgrove Talisman",
@@ -33837,6 +34637,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1225, surcharge: 2720, suggest: 545, speedUp: 3120 },
   },
   {
     name: "Titania's Keepsake",
@@ -33881,6 +34682,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1325, surcharge: 2940, suggest: 590, speedUp: 3465 },
   },
   {
     name: "Opulent Carcanet",
@@ -33925,6 +34727,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1395, surcharge: 3095, suggest: 620, speedUp: 3465 },
   },
   {
     name: "Gamepad Mini",
@@ -33970,6 +34773,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1420, surcharge: 3150, suggest: 630, speedUp: 3465 },
   },
   {
     name: "Eternal Hourglass",
@@ -34015,6 +34819,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
   },
   {
     name: "Fairy Wreath",
@@ -34060,6 +34865,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3645 },
   },
   {
     name: "Titania's Timepiece",
@@ -34104,6 +34910,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 1995, surcharge: 4430, suggest: 885, speedUp: 3830 },
   },
   {
     name: "Troublin",
@@ -34142,6 +34949,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 45, surcharge: 105, suggest: 20, speedUp: 110 },
   },
   {
     name: "Yeti",
@@ -34181,6 +34989,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 190 },
   },
   {
     name: "Toadwitch",
@@ -34221,6 +35030,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 295 },
   },
   {
     name: "Mushgoon",
@@ -34264,6 +35074,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 160, surcharge: 355, suggest: 70, speedUp: 420 },
   },
   {
     name: "Anubis",
@@ -34306,6 +35117,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 285, surcharge: 630, suggest: 125, speedUp: 675 },
   },
   {
     name: "Cyclops",
@@ -34350,6 +35162,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 360, surcharge: 795, suggest: 160, speedUp: 860 },
   },
   {
     name: "Tyrant",
@@ -34393,6 +35206,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 430, surcharge: 955, suggest: 190, speedUp: 1065 },
   },
   {
     name: "Mermaid",
@@ -34438,6 +35252,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 950, surcharge: 2110, suggest: 420, speedUp: 2335 },
   },
   {
     name: "Harpy",
@@ -34483,6 +35298,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1325, surcharge: 2940, suggest: 590, speedUp: 2790 },
   },
   {
     name: "Opulent Golem",
@@ -34527,6 +35343,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1355, surcharge: 3010, suggest: 600, speedUp: 2790 },
   },
   {
     name: "Crushtacean",
@@ -34572,6 +35389,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1620, surcharge: 3600, suggest: 720, speedUp: 3290 },
   },
   {
     name: "Voidling",
@@ -34617,6 +35435,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2325, surcharge: 5170, suggest: 1035, speedUp: 3830 },
   },
   {
     name: "Bacon and Eggs",
@@ -34654,6 +35473,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
   },
   {
     name: "Gua Bao",
@@ -34693,6 +35513,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 50, surcharge: 115, suggest: 25, speedUp: 225 },
   },
   {
     name: "CosmOs Cereals",
@@ -34733,6 +35554,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 65, surcharge: 145, suggest: 30, speedUp: 260 },
   },
   {
     name: "Poutine",
@@ -34771,6 +35593,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 75, surcharge: 170, suggest: 35, speedUp: 335 },
   },
   {
     name: "Sugar Shack Special",
@@ -34810,6 +35633,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 75, surcharge: 170, suggest: 35, speedUp: 375 },
   },
   {
     name: "Cheeseburger",
@@ -34852,6 +35676,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 115, surcharge: 260, suggest: 50, speedUp: 465 },
   },
   {
     name: "Margherita Pizza",
@@ -34895,6 +35720,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
+    energy: { discount: 130, surcharge: 285, suggest: 55, speedUp: 515 },
   },
   {
     name: "Power-Up Pie",
@@ -34938,6 +35764,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 135 },
       ],
     },
+    energy: { discount: 130, surcharge: 285, suggest: 55, speedUp: 515 },
   },
   {
     name: "Ahi Poke Bowl",
@@ -34980,6 +35807,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 200, surcharge: 445, suggest: 90, speedUp: 620 },
   },
   {
     name: "Creamy Scallops",
@@ -35023,6 +35851,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 215, surcharge: 480, suggest: 95, speedUp: 675 },
   },
   {
     name: "Sushi",
@@ -35065,6 +35894,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
   },
   {
     name: "Super Spicy Curry",
@@ -35108,6 +35938,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 390, surcharge: 870, suggest: 175, speedUp: 1140 },
   },
   {
     name: "Veggie Kebabs",
@@ -35152,6 +35983,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 845, surcharge: 1880, suggest: 375, speedUp: 2480 },
   },
   {
     name: "Deluxe Ramen",
@@ -35196,6 +36028,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
   },
   {
     name: "Steamed Sea Bass",
@@ -35241,6 +36074,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
   },
   {
     name: "Huli-Huli Chicken",
@@ -35285,6 +36119,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3290 },
   },
   {
     name: "Opulent Tamales",
@@ -35329,6 +36164,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1530, surcharge: 3400, suggest: 680, speedUp: 3290 },
   },
   {
     name: "Pot of Paella",
@@ -35373,6 +36209,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 3830 },
   },
   {
     name: "Cookie Plate",
@@ -35410,6 +36247,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x3", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 45, surcharge: 95, suggest: 20, speedUp: 165 },
   },
   {
     name: "Shaved Ice",
@@ -35449,6 +36287,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 85 },
       ],
     },
+    energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 225 },
   },
   {
     name: "Taiyaki",
@@ -35491,6 +36330,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 335 },
   },
   {
     name: "Cheesecake",
@@ -35534,6 +36374,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 170, surcharge: 375, suggest: 75, speedUp: 465 },
   },
   {
     name: "Chocolate Box",
@@ -35576,6 +36417,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 190, surcharge: 425, suggest: 85, speedUp: 515 },
   },
   {
     name: "Macaron Set",
@@ -35618,6 +36460,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 620 },
   },
   {
     name: "Strawberry Mochi",
@@ -35661,6 +36504,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 860 },
   },
   {
     name: "Matcha Swiss Roll",
@@ -35705,6 +36549,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 185, speedUp: 1140 },
   },
   {
     name: "Pineapple Cake",
@@ -35750,6 +36595,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 885, surcharge: 1965, suggest: 395, speedUp: 2480 },
   },
   {
     name: "Tuxedo Cake",
@@ -35795,6 +36641,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
   },
   {
     name: "Halo-Halo",
@@ -35840,6 +36687,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3290 },
   },
   {
     name: "Coconut Cream Cake",
@@ -35885,6 +36733,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1565, surcharge: 3475, suggest: 695, speedUp: 3465 },
   },
   {
     name: "Opulent Churros",
@@ -35929,6 +36778,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1575, surcharge: 3495, suggest: 700, speedUp: 3465 },
   },
   {
     name: "Glazed Mirror Cake",
@@ -35974,6 +36824,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 1620, surcharge: 3600, suggest: 720, speedUp: 3645 },
   },
   {
     name: "Ultimate Fruit Salad",
@@ -36019,6 +36870,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 45 },
       ],
     },
+    energy: { discount: 2070, surcharge: 4605, suggest: 920, speedUp: 4015 },
   },
   {
     name: "Chipped Runestone",
@@ -36056,6 +36908,7 @@ db.blueprints.insertMany([
         { upgrade: "Blueprint: Flawed Runestone", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 50, surcharge: 110, suggest: 45, speedUp: 135 },
   },
   {
     name: "Flawed Runestone",
@@ -36095,6 +36948,7 @@ db.blueprints.insertMany([
         { upgrade: "Blueprint: Chiseled Runestone", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 175, surcharge: 385, suggest: 155, speedUp: 420 },
   },
   {
     name: "Chiseled Runestone",
@@ -36139,6 +36993,7 @@ db.blueprints.insertMany([
         { upgrade: "Blueprint: Perfect Runestone", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 285, surcharge: 630, suggest: 250, speedUp: 860 },
   },
   {
     name: "Perfect Runestone",
@@ -36183,6 +37038,7 @@ db.blueprints.insertMany([
         { upgrade: "+20% Multicraft Chance", craftsNeeded: 70 },
       ],
     },
+    energy: { discount: 495, surcharge: 1105, suggest: 440, speedUp: 2480 },
   },
   {
     name: "Lesser Moonstone",
@@ -36220,6 +37076,7 @@ db.blueprints.insertMany([
         { upgrade: "Blueprint: Superior Moonstone", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 60, surcharge: 135, suggest: 55, speedUp: 165 },
   },
   {
     name: "Superior Moonstone",
@@ -36259,6 +37116,7 @@ db.blueprints.insertMany([
         { upgrade: "Blueprint: Greater Moonstone", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 165, surcharge: 365, suggest: 145, speedUp: 465 },
   },
   {
     name: "Greater Moonstone",
@@ -36303,6 +37161,7 @@ db.blueprints.insertMany([
         { upgrade: "Blueprint: Perfect Moonstone", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 435, surcharge: 970, suggest: 390, speedUp: 1665 },
   },
   {
     name: "Perfect Moonstone",
@@ -36347,6 +37206,7 @@ db.blueprints.insertMany([
         { upgrade: "+20% Multicraft Chance", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 495, surcharge: 1105, suggest: 440, speedUp: 2335 },
   },
   {
     name: "Ember Element",
@@ -36385,6 +37245,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 70, surcharge: 150, suggest: 60, speedUp: 165 },
   },
   {
     name: "Flame Element",
@@ -36427,6 +37288,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 230, surcharge: 515, suggest: 205, speedUp: 620 },
   },
   {
     name: "Blaze Element",
@@ -36470,6 +37332,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Inferno Element",
@@ -36514,6 +37377,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Bubble Element",
@@ -36552,6 +37416,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 65, surcharge: 145, suggest: 60, speedUp: 165 },
   },
   {
     name: "Tide Element",
@@ -36594,6 +37459,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 500, suggest: 200, speedUp: 620 },
   },
   {
     name: "Flood Element",
@@ -36637,6 +37503,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Torrent Element",
@@ -36681,6 +37548,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Breeze Element",
@@ -36719,6 +37587,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 70, surcharge: 155, suggest: 60, speedUp: 165 },
   },
   {
     name: "Gale Element",
@@ -36761,6 +37630,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 500, suggest: 200, speedUp: 620 },
   },
   {
     name: "Tempest Element",
@@ -36804,6 +37674,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Hurricane Element",
@@ -36848,6 +37719,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Nature Element",
@@ -36886,6 +37758,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 65, speedUp: 165 },
   },
   {
     name: "Wild Element",
@@ -36928,6 +37801,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 495, suggest: 200, speedUp: 620 },
   },
   {
     name: "Primal Element",
@@ -36971,6 +37845,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Primeval Element",
@@ -37015,6 +37890,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Light Element",
@@ -37056,6 +37932,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 100 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 65, speedUp: 165 },
   },
   {
     name: "Holy Element",
@@ -37098,6 +37975,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 225, surcharge: 495, suggest: 200, speedUp: 620 },
   },
   {
     name: "Sacred Element",
@@ -37141,6 +38019,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Divine Element",
@@ -37185,6 +38064,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Corrupted Element",
@@ -37226,6 +38106,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 75, surcharge: 170, suggest: 70, speedUp: 165 },
   },
   {
     name: "Unholy Element",
@@ -37268,6 +38149,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 230, surcharge: 515, suggest: 205, speedUp: 620 },
   },
   {
     name: "Nightmare Element",
@@ -37311,6 +38193,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 125 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Abyssal Element",
@@ -37355,6 +38238,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Luxurious Element",
@@ -37396,6 +38280,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 120, surcharge: 270, suggest: 110, speedUp: 375 },
   },
   {
     name: "Opulent Element",
@@ -37439,6 +38324,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 765, surcharge: 1705, suggest: 680, speedUp: 2335 },
   },
   {
     name: "Ram Spirit",
@@ -37477,6 +38363,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 70, surcharge: 160, suggest: 65, speedUp: 190 },
   },
   {
     name: "Wolf Spirit",
@@ -37515,6 +38402,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 70, surcharge: 160, suggest: 65, speedUp: 190 },
   },
   {
     name: "Ox Spirit",
@@ -37553,6 +38441,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 65, speedUp: 190 },
   },
   {
     name: "Eagle Spirit",
@@ -37591,6 +38480,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 75, surcharge: 165, suggest: 65, speedUp: 190 },
   },
   {
     name: "Viper Spirit",
@@ -37629,6 +38519,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 80, surcharge: 175, suggest: 70, speedUp: 190 },
   },
   {
     name: "Cat Spirit",
@@ -37667,6 +38558,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 80, surcharge: 180, suggest: 70, speedUp: 190 },
   },
   {
     name: "Bunny Spirit",
@@ -37706,6 +38598,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 80 },
       ],
     },
+    energy: { discount: 85, surcharge: 190, suggest: 75, speedUp: 225 },
   },
   {
     name: "Xolotl Spirit",
@@ -37747,6 +38640,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 120, surcharge: 270, suggest: 110, speedUp: 375 },
   },
   {
     name: "Rhino Spirit",
@@ -37789,6 +38683,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 235, surcharge: 525, suggest: 210, speedUp: 675 },
   },
   {
     name: "Owl Spirit",
@@ -37831,6 +38726,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 235, surcharge: 525, suggest: 210, speedUp: 675 },
   },
   {
     name: "Armadillo Spirit",
@@ -37873,6 +38769,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 240, surcharge: 535, suggest: 215, speedUp: 675 },
   },
   {
     name: "Lizard Spirit",
@@ -37915,6 +38812,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 255, surcharge: 570, suggest: 230, speedUp: 675 },
   },
   {
     name: "Horse Spirit",
@@ -37957,6 +38855,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 250, surcharge: 560, suggest: 225, speedUp: 675 },
   },
   {
     name: "Hippo Spirit",
@@ -37999,6 +38898,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 255, surcharge: 570, suggest: 230, speedUp: 675 },
   },
   {
     name: "Shark Spirit",
@@ -38042,6 +38942,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Walrus Spirit",
@@ -38085,6 +38986,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Lion Spirit",
@@ -38128,6 +39030,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Bear Spirit",
@@ -38171,6 +39074,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Mammoth Spirit",
@@ -38214,6 +39118,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Dinosaur Spirit",
@@ -38257,6 +39162,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
   },
   {
     name: "Tiger Spirit",
@@ -38301,6 +39207,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 95 },
       ],
     },
+    energy: { discount: 425, surcharge: 945, suggest: 380, speedUp: 925 },
   },
   {
     name: "Quetzalcoatl Spirit",
@@ -38344,6 +39251,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 110 },
       ],
     },
+    energy: { discount: 765, surcharge: 1705, suggest: 680, speedUp: 2335 },
   },
   {
     name: "Phoenix Spirit",
@@ -38388,6 +39296,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Hydra Spirit",
@@ -38432,6 +39341,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Tarrasque Spirit",
@@ -38476,6 +39386,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Carbuncle Spirit",
@@ -38520,6 +39431,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Chimera Spirit",
@@ -38564,6 +39476,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Kraken Spirit",
@@ -38608,6 +39521,7 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
   },
   {
     name: "Christmas Spirit",
@@ -38653,5 +39567,6 @@ db.blueprints.insertMany([
         { upgrade: "Quality Chance x2", craftsNeeded: 60 },
       ],
     },
+    energy: { discount: 950, surcharge: 2110, suggest: 845, speedUp: 3290 },
   },
 ]);

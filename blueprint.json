@@ -65,7 +65,9 @@
   },
   "stats": {
     "ATK": 930,
-    "HP": 29,
-    "elementalAffinity": "Light"
+    "HP": 29
+  },
+  "affinity": {
+    "elemental": "Light"
   }
 }

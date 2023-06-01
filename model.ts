@@ -33,6 +33,12 @@ export interface Blueprint {
       CraftUpgrade
     ];
   };
+  energy: {
+    discount: number;
+    surcharge: number;
+    suggest: number;
+    speedUp: number;
+  };
 }
 
 interface CraftUpgrade {

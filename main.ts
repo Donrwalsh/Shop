@@ -199,6 +199,12 @@ async function main() {
               },
             ],
           },
+          energy: {
+            discount: getBpVal(bp, headers, "Discount Energy"),
+            surcharge: getBpVal(bp, headers, "Surcharge Energy"),
+            suggest: getBpVal(bp, headers, "Suggest Energy"),
+            speedUp: getBpVal(bp, headers, "Speed Up Energy"),
+          },
         } as Blueprint) +
         ",",
       ""
