@@ -1,6 +1,6 @@
 import * as utils from "./helpers/utils";
 import fs = require("fs");
-import { Blueprint, CraftingMaterial } from "./model";
+import { Blueprint, CraftingMaterial } from "./model/blueprint";
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 
@@ -231,7 +231,7 @@ async function main() {
     ""
   );
 
-  fs.writeFileSync("./scripts/blueprints.json", bpOutput, "utf-8");
+  fs.writeFileSync("./data/blueprints.json", bpOutput, "utf-8");
 
   async function execute(command) {
     const { stdout, stderr } = await exec(command);
@@ -241,9 +241,9 @@ async function main() {
 
   await execute("mongosh shop --eval 'db.blueprints.deleteMany({})'");
   await execute("mongosh shop --eval 'db.blueprints.drop()'");
-  await execute("mongosh shop < ./scripts/schema.js");
+  await execute("mongosh shop < ./model/schema.js");
   await execute(
-    "mongoimport --db shop --collection blueprints --type=json --file ./scripts/blueprints.json"
+    "mongoimport --db shop --collection blueprints --type=json --file ./data/blueprints.json"
   );
   await execute(
     `mongosh shop --eval 'printjson(db.blueprints.aggregate([{ "$sample": { size: 1 } }]))'`

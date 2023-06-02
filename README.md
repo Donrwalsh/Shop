@@ -1,8 +1,10 @@
 did a `sudo npm install -g typescript`
 
-## Script
+## Populate Script
 
-> `tsc main.ts`: Creates main.js in the `dist/` directory.
-> `node ./dist/main.js`: Runs script
+CWD as `scripts/populate`
+
+> `tsc populate.ts`: Creates main.js in the `dist/` directory.
+> `node ./dist/populate.js`: Runs script
 
 > `tsc -w -p .` to run in live reload mode.
