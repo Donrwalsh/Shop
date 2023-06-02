@@ -239,7 +239,8 @@ async function main() {
     console.log("stderr:", stderr);
   }
 
-  await execute("mongosh shop < ./scripts/reset.js");
+  await execute("mongosh shop --eval 'db.blueprints.deleteMany({})'");
+  await execute("mongosh shop --eval 'db.blueprints.drop()'");
   await execute("mongosh shop < ./scripts/schema.js");
   await execute(
     "mongoimport --db shop --collection blueprints --type=json --file ./scripts/blueprints.json"
