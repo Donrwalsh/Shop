@@ -20,8 +20,8 @@
   "crafting": {
     "timeInSeconds": 146400,
     "timeFormatted": "40:40:00",
-    "goldPerCraftingSecond": 41.33,
-    "merchantXpPerCraftingSecond": 1.61,
+    "goldPerCraftingSecond": "41.33",
+    "merchantXpPerCraftingSecond": "1.61",
     "materials": [
       { "resource": "Iron", "amount": 431 },
       { "resource": "Jewels", "amount": 39 },
@@ -30,9 +30,9 @@
       { "component": "Zirconia Eggshell", "amount": 4 }
     ],
     "workers": [
-      { "requiredWorker": "Blacksmith", "workerLevel": 32 },
-      { "requiredWorker": "Master", "workerLevel": 28 },
-      { "requiredWorker": "Jeweler", "workerLevel": 25 }
+      { "worker": "Blacksmith", "workerLevel": 32 },
+      { "worker": "Master", "workerLevel": 28 },
+      { "worker": "Jeweler", "workerLevel": 25 }
     ],
     "upgrades": [
       {

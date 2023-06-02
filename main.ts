@@ -83,152 +83,149 @@ async function main() {
   // Remove first array element (headers)
   blueprints.shift();
 
-  let bpOutput =
-    "db.blueprints.insertMany([" +
-    blueprints.reduce(
-      (accumulator, bp) =>
-        accumulator +
-        JSON.stringify({
-          name: getBpVal(bp, headers, "Name"),
-          type: getBpVal(bp, headers, "Type"),
-          tier: getBpVal(bp, headers, "Tier"),
-          ...(getBpVal(bp, headers, "Unlock Prerequisite") !== "---" && {
-            unlockPrerequisite: getBpVal(bp, headers, "Unlock Prerequisite"),
+  let bpOutput = blueprints.reduce(
+    (accumulator, bp) =>
+      accumulator +
+      JSON.stringify({
+        name: getBpVal(bp, headers, "Name"),
+        type: getBpVal(bp, headers, "Type"),
+        tier: getBpVal(bp, headers, "Tier"),
+        ...(getBpVal(bp, headers, "Unlock Prerequisite") !== "---" && {
+          unlockPrerequisite: getBpVal(bp, headers, "Unlock Prerequisite"),
+        }),
+        values: {
+          gold: getBpVal(bp, headers, "Value"),
+          merchantXp: getBpVal(bp, headers, "Merchant XP"),
+          workerXp: getBpVal(bp, headers, "Worker XP"),
+          fusionXp: getBpVal(bp, headers, "Fusion XP"),
+          favor: getBpVal(bp, headers, "Favor"),
+          airshipPower: getBpVal(bp, headers, "Airship Power"),
+          ...(getBpVal(bp, headers, "Antique Tokens") !== "---" && {
+            antiqueTokens: getBpVal(bp, headers, "Antique Tokens"),
           }),
-          values: {
-            gold: getBpVal(bp, headers, "Value"),
-            merchantXp: getBpVal(bp, headers, "Merchant XP"),
-            workerXp: getBpVal(bp, headers, "Worker XP"),
-            fusionXp: getBpVal(bp, headers, "Fusion XP"),
-            favor: getBpVal(bp, headers, "Favor"),
-            airshipPower: getBpVal(bp, headers, "Airship Power"),
-            ...(getBpVal(bp, headers, "Antique Tokens") !== "---" && {
-              antiqueTokens: getBpVal(bp, headers, "Antique Tokens"),
-            }),
-            ...(getBpVal(bp, headers, "Research Scrolls") !== "---" && {
-              researchScrolls: getBpVal(bp, headers, "Research Scrolls"),
-            }),
+          ...(getBpVal(bp, headers, "Research Scrolls") !== "---" && {
+            researchScrolls: getBpVal(bp, headers, "Research Scrolls"),
+          }),
+        },
+        ascensionUpgrades: [
+          {
+            upgrade: getBpVal(bp, headers, "Ascension Upgrade 1"),
+            shards: getBpVal(bp, headers, "Shards Needed")[0],
           },
-          ascensionUpgrades: [
+          {
+            upgrade: getBpVal(bp, headers, "Ascension Upgrade 2"),
+            shards: getBpVal(bp, headers, "Shards Needed")[1],
+          },
+          {
+            upgrade: getBpVal(bp, headers, "Ascension Upgrade 3"),
+            shards: getBpVal(bp, headers, "Shards Needed")[2],
+          },
+        ],
+        crafting: {
+          timeInSeconds: getBpVal(bp, headers, "Crafting Time (seconds)"),
+          timeFormatted: getBpVal(bp, headers, "Crafting Time (formatted)"),
+          goldPerCraftingSecond: getBpVal(
+            bp,
+            headers,
+            "Value / Crafting Time"
+          ).toFixed(2),
+          merchantXpPerCraftingSecond: getBpVal(
+            bp,
+            headers,
+            "Merchant XP / Crafting Time"
+          ).toFixed(2),
+          materials: [
+            ...conditionalMaterial(bp, "Iron"),
+            ...conditionalMaterial(bp, "Wood"),
+            ...conditionalMaterial(bp, "Leather"),
+            ...conditionalMaterial(bp, "Herbs"),
+            ...conditionalMaterial(bp, "Steel"),
+            ...conditionalMaterial(bp, "Ironwood"),
+            ...conditionalMaterial(bp, "Fabric"),
+            ...conditionalMaterial(bp, "Oil"),
+            ...conditionalMaterial(bp, "Mana"),
+            ...conditionalMaterial(bp, "Jewels"),
+            ...conditionalMaterial(bp, "Essence"),
+            ...conditionalComponent(bp, 0),
+            ...conditionalComponent(bp, 1),
+          ],
+          workers: [
             {
-              upgrade: getBpVal(bp, headers, "Ascension Upgrade 1"),
-              shards: getBpVal(bp, headers, "Shards Needed")[0],
+              worker: getBpVal(bp, headers, "Required Worker "), // Note the space
+              workerLevel: getBpVal(bp, headers, "Worker Level")[0],
+            },
+            ...(getBpVal(bp, headers, "Required Worker")[0] !== "---"
+              ? ([
+                  {
+                    worker: getBpVal(bp, headers, "Required Worker")[0],
+                    workerLevel: getBpVal(bp, headers, "Worker Level")[1],
+                  },
+                  // This casting as a const prevents ts2322 where typescript thinks this
+                  // array that is being spread may contain more than a single element and
+                  // thus violates the tuple requirement of no more than 3 workers. Cool
+                ] as const)
+              : ([] as const)),
+            ...(getBpVal(bp, headers, "Required Worker")[1] !== "---"
+              ? ([
+                  {
+                    worker: getBpVal(bp, headers, "Required Worker")[1],
+                    workerLevel: getBpVal(bp, headers, "Worker Level")[2],
+                  },
+                ] as const)
+              : ([] as const)),
+          ],
+          upgrades: [
+            {
+              upgrade: getBpVal(bp, headers, "Crafting Upgrade 1"),
+              craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[0],
             },
             {
-              upgrade: getBpVal(bp, headers, "Ascension Upgrade 2"),
-              shards: getBpVal(bp, headers, "Shards Needed")[1],
+              upgrade: getBpVal(bp, headers, "Crafting Upgrade 2"),
+              craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[1],
             },
             {
-              upgrade: getBpVal(bp, headers, "Ascension Upgrade 3"),
-              shards: getBpVal(bp, headers, "Shards Needed")[2],
+              upgrade: getBpVal(bp, headers, "Crafting Upgrade 3"),
+              craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[2],
+            },
+            {
+              upgrade: getBpVal(bp, headers, "Crafting Upgrade 4"),
+              craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[3],
+            },
+            {
+              upgrade: getBpVal(bp, headers, "Crafting Upgrade 5"),
+              craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[4],
             },
           ],
-          crafting: {
-            timeInSeconds: getBpVal(bp, headers, "Crafting Time (seconds)"),
-            timeFormatted: getBpVal(bp, headers, "Crafting Time (formatted)"),
-            goldPerCraftingSecond: getBpVal(
-              bp,
-              headers,
-              "Value / Crafting Time"
-            ).toFixed(2),
-            merchantXpPerCraftingSecond: getBpVal(
-              bp,
-              headers,
-              "Merchant XP / Crafting Time"
-            ).toFixed(2),
-            materials: [
-              ...conditionalMaterial(bp, "Iron"),
-              ...conditionalMaterial(bp, "Wood"),
-              ...conditionalMaterial(bp, "Leather"),
-              ...conditionalMaterial(bp, "Herbs"),
-              ...conditionalMaterial(bp, "Steel"),
-              ...conditionalMaterial(bp, "Ironwood"),
-              ...conditionalMaterial(bp, "Fabric"),
-              ...conditionalMaterial(bp, "Oil"),
-              ...conditionalMaterial(bp, "Mana"),
-              ...conditionalMaterial(bp, "Jewels"),
-              ...conditionalMaterial(bp, "Essence"),
-              ...conditionalComponent(bp, 0),
-              ...conditionalComponent(bp, 1),
-            ],
-            workers: [
-              {
-                worker: getBpVal(bp, headers, "Required Worker "), // Note the space
-                workerLevel: getBpVal(bp, headers, "Worker Level")[0],
-              },
-              ...(getBpVal(bp, headers, "Required Worker")[0] !== "---"
-                ? ([
-                    {
-                      worker: getBpVal(bp, headers, "Required Worker")[0],
-                      workerLevel: getBpVal(bp, headers, "Worker Level")[1],
-                    },
-                    // This casting as a const prevents ts2322 where typescript thinks this
-                    // array that is being spread may contain more than a single element and
-                    // thus violates the tuple requirement of no more than 3 workers. Cool
-                  ] as const)
-                : ([] as const)),
-              ...(getBpVal(bp, headers, "Required Worker")[1] !== "---"
-                ? ([
-                    {
-                      worker: getBpVal(bp, headers, "Required Worker")[1],
-                      workerLevel: getBpVal(bp, headers, "Worker Level")[2],
-                    },
-                  ] as const)
-                : ([] as const)),
-            ],
-            upgrades: [
-              {
-                upgrade: getBpVal(bp, headers, "Crafting Upgrade 1"),
-                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[0],
-              },
-              {
-                upgrade: getBpVal(bp, headers, "Crafting Upgrade 2"),
-                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[1],
-              },
-              {
-                upgrade: getBpVal(bp, headers, "Crafting Upgrade 3"),
-                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[2],
-              },
-              {
-                upgrade: getBpVal(bp, headers, "Crafting Upgrade 4"),
-                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[3],
-              },
-              {
-                upgrade: getBpVal(bp, headers, "Crafting Upgrade 5"),
-                craftsNeeded: getBpVal(bp, headers, "Crafts Needed")[4],
-              },
-            ],
-          },
-          energy: {
-            discount: getBpVal(bp, headers, "Discount Energy"),
-            surcharge: getBpVal(bp, headers, "Surcharge Energy"),
-            suggest: getBpVal(bp, headers, "Suggest Energy"),
-            speedUp: getBpVal(bp, headers, "Speed Up Energy"),
-          },
-          stats: {
-            ...(getBpVal(bp, headers, "ATK") !== "---" && {
-              ATK: getBpVal(bp, headers, "ATK"),
-            }),
-            ...(getBpVal(bp, headers, "DEF") !== "---" && {
-              DEF: getBpVal(bp, headers, "DEF"),
-            }),
-            ...(getBpVal(bp, headers, "HP") !== "---" && {
-              HP: getBpVal(bp, headers, "HP"),
-            }),
-            ...(getBpVal(bp, headers, "EVA") !== "---" && {
-              EVA: getBpVal(bp, headers, "EVA"),
-            }),
-            ...(getBpVal(bp, headers, "CRIT") !== "---" && {
-              CRIT: getBpVal(bp, headers, "CRIT"),
-            }),
-          },
-        } as Blueprint) +
-        ",",
-      ""
-    ) +
-    "]);";
+        },
+        energy: {
+          discount: getBpVal(bp, headers, "Discount Energy"),
+          surcharge: getBpVal(bp, headers, "Surcharge Energy"),
+          suggest: getBpVal(bp, headers, "Suggest Energy"),
+          speedUp: getBpVal(bp, headers, "Speed Up Energy"),
+        },
+        stats: {
+          ...(getBpVal(bp, headers, "ATK") !== "---" && {
+            ATK: getBpVal(bp, headers, "ATK"),
+          }),
+          ...(getBpVal(bp, headers, "DEF") !== "---" && {
+            DEF: getBpVal(bp, headers, "DEF"),
+          }),
+          ...(getBpVal(bp, headers, "HP") !== "---" && {
+            HP: getBpVal(bp, headers, "HP"),
+          }),
+          ...(getBpVal(bp, headers, "EVA") !== "---" && {
+            EVA: getBpVal(bp, headers, "EVA"),
+          }),
+          ...(getBpVal(bp, headers, "CRIT") !== "---" && {
+            CRIT: getBpVal(bp, headers, "CRIT"),
+          }),
+        },
+      } as Blueprint) +
+      "",
+    ""
+  );
 
-  fs.writeFileSync("./scripts/blueprints.js", bpOutput, "utf-8");
+  fs.writeFileSync("./scripts/blueprints.json", bpOutput, "utf-8");
 
   async function execute(command) {
     const { stdout, stderr } = await exec(command);
@@ -238,7 +235,9 @@ async function main() {
 
   await execute("mongosh shop < ./scripts/reset.js");
   await execute("mongosh shop < ./scripts/schema.js");
-  await execute("mongosh shop < ./scripts/blueprints.js");
+  await execute(
+    "mongoimport --db shop --collection blueprints --type=json --file ./scripts/blueprints.json"
+  );
   await execute(
     `mongosh shop --eval 'printjson(db.blueprints.aggregate([{ "$sample": { size: 1 } }]))'`
   );
