@@ -50,7 +50,7 @@ export interface Blueprint {
   };
 }
 
-interface CraftUpgrade {
+export interface CraftUpgrade {
   upgrade: string;
   craftsNeeded: number;
 }
@@ -59,7 +59,7 @@ interface Material {
   amount: number;
 }
 
-interface ResourceMaterial extends Material {
+export interface ResourceMaterial extends Material {
   resource: string;
   component?: never;
   item?: never;
