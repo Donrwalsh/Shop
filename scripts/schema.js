@@ -201,6 +201,65 @@ db.createCollection("blueprints", {
                 },
               },
             },
+            upgrades: {
+              bsonType: "array",
+              maxItems: 5,
+              minItems: 5,
+              description: "Blueprint crafting upgrades (required)",
+              items: {
+                bsonType: "object",
+                required: ["upgrade", "craftsNeeded"],
+                properties: {
+                  upgrade: {
+                    bsonType: "string",
+                  },
+                  craftsNeeded: {
+                    bsonType: "int",
+                  },
+                },
+              },
+            },
+          },
+        },
+        energy: {
+          bsonType: "object",
+          required: ["discount", "surcharge", "suggest", "speedUp"],
+          description: "Blueprint energy values (required)",
+          properties: {
+            discount: {
+              bsonType: "int",
+            },
+            surcharge: {
+              bsonType: "int",
+            },
+            suggest: {
+              bsonType: "int",
+            },
+            speedUp: {
+              bsonType: "int",
+            },
+          },
+        },
+        stats: {
+          bsonType: "object",
+          description:
+            "Blueprint stat values (required but each stat is optional)",
+          properties: {
+            ATK: {
+              bsonType: "int",
+            },
+            DEF: {
+              bsonType: "int",
+            },
+            HP: {
+              bsonType: "int",
+            },
+            EVA: {
+              bsonType: "double",
+            },
+            CRIT: {
+              bsonType: "double",
+            },
           },
         },
       },

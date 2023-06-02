@@ -39,6 +39,13 @@ export interface Blueprint {
     suggest: number;
     speedUp: number;
   };
+  stats: {
+    ATK?: number;
+    DEF?: number;
+    HP?: number;
+    EVA?: number;
+    CRIT?: number;
+  };
 }
 
 interface CraftUpgrade {

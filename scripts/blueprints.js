@@ -33,6 +33,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { ATK: 16 },
   },
   {
     name: "Arming Sword",
@@ -68,6 +69,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { ATK: 32 },
   },
   {
     name: "Gladius",
@@ -106,6 +108,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { ATK: 52 },
   },
   {
     name: "Arboreal Blade",
@@ -145,6 +148,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 90 },
+    stats: { ATK: 85 },
   },
   {
     name: "Zweihander",
@@ -181,6 +185,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
+    stats: { ATK: 76, DEF: 19 },
   },
   {
     name: "Cutlass",
@@ -220,6 +225,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 35, surcharge: 80, suggest: 15, speedUp: 135 },
+    stats: { ATK: 88 },
   },
   {
     name: "Espada",
@@ -260,6 +266,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 260 },
+    stats: { ATK: 144 },
   },
   {
     name: "Hero's Sword",
@@ -301,6 +308,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 175, suggest: 35, speedUp: 335 },
+    stats: { ATK: 172, DEF: 43 },
   },
   {
     name: "Chocolicious Blade",
@@ -342,6 +350,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
+    stats: { ATK: 172, HP: 5 },
   },
   {
     name: "Katana",
@@ -385,6 +394,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 420 },
+    stats: { ATK: 200 },
   },
   {
     name: "Serrated Cinquedea",
@@ -429,6 +439,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 320, suggest: 65, speedUp: 515 },
+    stats: { ATK: 230, CRIT: 0.05 },
   },
   {
     name: "Regal Blade",
@@ -472,6 +483,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 180, surcharge: 405, suggest: 80, speedUp: 620 },
+    stats: { ATK: 270 },
   },
   {
     name: "Chronos Runeblade",
@@ -516,6 +528,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 675 },
+    stats: { ATK: 280, DEF: 70 },
   },
   {
     name: "Celesteel Blade",
@@ -560,6 +573,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
+    stats: { ATK: 340 },
   },
   {
     name: "Damocles",
@@ -604,6 +618,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 330, surcharge: 735, suggest: 145, speedUp: 925 },
+    stats: { ATK: 407 },
   },
   {
     name: "Luxurious Macuahuitl",
@@ -648,6 +663,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 315, surcharge: 700, suggest: 140, speedUp: 995 },
+    stats: { ATK: 370 },
   },
   {
     name: "Crystalline Rapier",
@@ -692,6 +708,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 335, surcharge: 740, suggest: 150, speedUp: 995 },
+    stats: { ATK: 370, HP: 12 },
   },
   {
     name: "Mythril Edge",
@@ -736,6 +753,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 385, surcharge: 850, suggest: 170, speedUp: 1140 },
+    stats: { ATK: 410 },
   },
   {
     name: "Seafarer Blade",
@@ -781,6 +799,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1220 },
+    stats: { ATK: 430, HP: 13 },
   },
   {
     name: "Gentleman Blade",
@@ -826,6 +845,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 435, surcharge: 970, suggest: 195, speedUp: 1220 },
+    stats: { ATK: 430, DEF: 108 },
   },
   {
     name: "Oversized Cleaver",
@@ -871,6 +891,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 805, surcharge: 1790, suggest: 360, speedUp: 2335 },
+    stats: { ATK: 450 },
   },
   {
     name: "Caladbolg",
@@ -916,6 +937,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 820, surcharge: 1825, suggest: 365, speedUp: 2480 },
+    stats: { ATK: 542 },
   },
   {
     name: "Dragon Dao",
@@ -962,6 +984,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2480 },
+    stats: { ATK: 470, DEF: 118 },
   },
   {
     name: "Tiger Blade",
@@ -1008,6 +1031,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 850, surcharge: 1890, suggest: 380, speedUp: 2635 },
+    stats: { ATK: 480, HP: 15 },
   },
   {
     name: "Vorpal Sword",
@@ -1053,6 +1077,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
+    stats: { ATK: 580 },
   },
   {
     name: "Elegant Rapier",
@@ -1099,6 +1124,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2790 },
+    stats: { ATK: 580, HP: 18 },
   },
   {
     name: "Tsukuyomi",
@@ -1145,6 +1171,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2950 },
+    stats: { ATK: 600, CRIT: 0.05 },
   },
   {
     name: "Excalibur",
@@ -1190,6 +1217,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3290 },
+    stats: { ATK: 730 },
   },
   {
     name: "Titan Sword",
@@ -1236,6 +1264,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
+    stats: { ATK: 730, DEF: 183 },
   },
   {
     name: "Opulent Brand",
@@ -1281,6 +1310,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1490, surcharge: 3310, suggest: 660, speedUp: 3465 },
+    stats: { ATK: 760 },
   },
   {
     name: "Épée d'Artagnan",
@@ -1327,6 +1357,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
+    stats: { ATK: 760, CRIT: 0.07 },
   },
   {
     name: "Thorn of Scorn",
@@ -1373,6 +1404,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
+    stats: { ATK: 760, DEF: 190 },
   },
   {
     name: "Djinn Pyre",
@@ -1418,6 +1450,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2040, surcharge: 4530, suggest: 905, speedUp: 3830 },
+    stats: { ATK: 930 },
   },
   {
     name: "Plasma Saber",
@@ -1464,6 +1497,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2105, surcharge: 4680, suggest: 935, speedUp: 3830 },
+    stats: { ATK: 930, HP: 29 },
   },
   {
     name: "Wood Axe",
@@ -1501,6 +1535,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
+    stats: { ATK: 30 },
   },
   {
     name: "Hatchet",
@@ -1539,6 +1574,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { ATK: 50 },
   },
   {
     name: "Iron Chopper",
@@ -1577,6 +1613,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
+    stats: { ATK: 72 },
   },
   {
     name: "Explorer's Axe",
@@ -1613,6 +1650,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 30, surcharge: 70, suggest: 15, speedUp: 135 },
+    stats: { ATK: 84, DEF: 21 },
   },
   {
     name: "Bardiche",
@@ -1651,6 +1689,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 50, surcharge: 115, suggest: 25, speedUp: 190 },
+    stats: { ATK: 108 },
   },
   {
     name: "Molten Voulge",
@@ -1690,6 +1729,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 55, surcharge: 120, suggest: 25, speedUp: 225 },
+    stats: { ATK: 145 },
   },
   {
     name: "Dismantler's Pickaxe",
@@ -1730,6 +1770,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
+    stats: { ATK: 124, HP: 4 },
   },
   {
     name: "Tomahawk",
@@ -1770,6 +1811,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 295 },
+    stats: { ATK: 148 },
   },
   {
     name: "Companion Axe",
@@ -1811,6 +1853,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 375 },
+    stats: { ATK: 176, DEF: 44 },
   },
   {
     name: "Cold Iron Axe",
@@ -1851,6 +1894,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 375 },
+    stats: { ATK: 176, HP: 6 },
   },
   {
     name: "Battleaxe",
@@ -1894,6 +1938,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
+    stats: { ATK: 210 },
   },
   {
     name: "Raptor Reaper",
@@ -1938,6 +1983,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 515 },
+    stats: { ATK: 220, HP: 7 },
   },
   {
     name: "Dwarven Greataxe",
@@ -1982,6 +2028,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 620 },
+    stats: { ATK: 250 },
   },
   {
     name: "Stonesplitter",
@@ -2025,6 +2072,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 210, surcharge: 470, suggest: 95, speedUp: 675 },
+    stats: { ATK: 327 },
   },
   {
     name: "Raider Axe",
@@ -2069,6 +2117,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 320, surcharge: 715, suggest: 145, speedUp: 925 },
+    stats: { ATK: 330 },
   },
   {
     name: "Qian Chopper",
@@ -2114,6 +2163,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 340, surcharge: 750, suggest: 150, speedUp: 995 },
+    stats: { ATK: 350, DEF: 88 },
   },
   {
     name: "Executioner",
@@ -2158,6 +2208,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 375, surcharge: 830, suggest: 165, speedUp: 1065 },
+    stats: { ATK: 370 },
   },
   {
     name: "Purgatory",
@@ -2202,6 +2253,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 420, surcharge: 930, suggest: 185, speedUp: 1140 },
+    stats: { ATK: 452 },
   },
   {
     name: "Axe of The Fifth",
@@ -2247,6 +2299,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 995, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 380, DEF: 95 },
   },
   {
     name: "Eclipsis",
@@ -2292,6 +2345,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 830, surcharge: 1845, suggest: 370, speedUp: 2335 },
+    stats: { ATK: 420 },
   },
   {
     name: "Terra Tyrannis",
@@ -2337,6 +2391,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 850, surcharge: 1890, suggest: 380, speedUp: 2480 },
+    stats: { ATK: 512 },
   },
   {
     name: "Opulent Grandaxe",
@@ -2382,6 +2437,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 975, surcharge: 2170, suggest: 435, speedUp: 2635 },
+    stats: { ATK: 460 },
   },
   {
     name: "Kodiak Kleaver",
@@ -2428,6 +2484,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 855, surcharge: 1900, suggest: 380, speedUp: 2635 },
+    stats: { ATK: 460, HP: 14 },
   },
   {
     name: "Manticore Slayer",
@@ -2473,6 +2530,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1060, surcharge: 2355, suggest: 470, speedUp: 2790 },
+    stats: { ATK: 540 },
   },
   {
     name: "Beeswaxe",
@@ -2519,6 +2577,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
+    stats: { ATK: 540, DEF: 135 },
   },
   {
     name: "Shroom Doom",
@@ -2565,6 +2624,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
+    stats: { ATK: 560, HP: 18 },
   },
   {
     name: "Jötunnbane",
@@ -2611,6 +2671,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1195, surcharge: 2650, suggest: 530, speedUp: 2950 },
+    stats: { ATK: 560, DEF: 140 },
   },
   {
     name: "Crescent of Conquest",
@@ -2656,6 +2717,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
+    stats: { ATK: 690 },
   },
   {
     name: "Onyx King Axe",
@@ -2702,6 +2764,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3290 },
+    stats: { ATK: 690, HP: 21 },
   },
   {
     name: "Lover's Quarrel",
@@ -2748,6 +2811,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1490, surcharge: 3315, suggest: 665, speedUp: 3465 },
+    stats: { ATK: 710, DEF: 178 },
   },
   {
     name: "Apex Goraxe",
@@ -2794,6 +2858,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
+    stats: { ATK: 710, HP: 22 },
   },
   {
     name: "Edge Eternal",
@@ -2839,6 +2904,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2040, surcharge: 4530, suggest: 905, speedUp: 3830 },
+    stats: { ATK: 870 },
   },
   {
     name: "Shiv",
@@ -2873,6 +2939,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 10, suggest: 5, speedUp: 15 },
+    stats: { ATK: 14 },
   },
   {
     name: "Ice Pick",
@@ -2911,6 +2978,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
+    stats: { ATK: 51 },
   },
   {
     name: "Swift Blade",
@@ -2949,6 +3017,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
+    stats: { ATK: 30 },
   },
   {
     name: "Kunai",
@@ -2985,6 +3054,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { ATK: 50, CRIT: 0.05 },
   },
   {
     name: "Stealth Knife",
@@ -3023,6 +3093,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 90 },
+    stats: { ATK: 60 },
   },
   {
     name: "Balisong",
@@ -3061,6 +3132,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 105, suggest: 20, speedUp: 190 },
+    stats: { ATK: 108 },
   },
   {
     name: "Erudite Vector",
@@ -3100,6 +3172,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 135, suggest: 25, speedUp: 260 },
+    stats: { ATK: 136, CRIT: 0.05 },
   },
   {
     name: "Ritual Dagger",
@@ -3142,6 +3215,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 295 },
+    stats: { ATK: 148 },
   },
   {
     name: "Sokka's Boomerang",
@@ -3185,6 +3259,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 175, suggest: 35, speedUp: 335 },
+    stats: { ATK: 164, DEF: 41 },
   },
   {
     name: "Assassin Tanto",
@@ -3229,6 +3304,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 375 },
+    stats: { ATK: 176, CRIT: 0.05 },
   },
   {
     name: "Kingsguard",
@@ -3272,6 +3348,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 105, surcharge: 235, suggest: 45, speedUp: 465 },
+    stats: { ATK: 210 },
   },
   {
     name: "Cloudwalker Chakram",
@@ -3316,6 +3393,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 130, surcharge: 290, suggest: 60, speedUp: 515 },
+    stats: { ATK: 220, CRIT: 0.05 },
   },
   {
     name: "Fishmonger",
@@ -3359,6 +3437,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 675 },
+    stats: { ATK: 270 },
   },
   {
     name: "Juniper's Trowel",
@@ -3403,6 +3482,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 195, surcharge: 430, suggest: 85, speedUp: 735 },
+    stats: { ATK: 280, HP: 9 },
   },
   {
     name: "Troll Tooth",
@@ -3446,6 +3526,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 295, surcharge: 650, suggest: 130, speedUp: 860 },
+    stats: { ATK: 320 },
   },
   {
     name: "Levia Fang",
@@ -3489,6 +3570,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 320, surcharge: 710, suggest: 140, speedUp: 925 },
+    stats: { ATK: 387 },
   },
   {
     name: "Misericordia",
@@ -3532,6 +3614,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 375, surcharge: 830, suggest: 165, speedUp: 1065 },
+    stats: { ATK: 370 },
   },
   {
     name: "Sultan Dagger",
@@ -3576,6 +3659,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
+    stats: { ATK: 400, CRIT: 0.05 },
   },
   {
     name: "Luxurious Poignard",
@@ -3619,6 +3703,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 375, surcharge: 835, suggest: 165, speedUp: 1220 },
+    stats: { ATK: 400 },
   },
   {
     name: "Ceremonial Katar",
@@ -3663,6 +3748,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 735, surcharge: 1630, suggest: 325, speedUp: 2335 },
+    stats: { ATK: 420 },
   },
   {
     name: "Nightmare Fellblade",
@@ -3707,6 +3793,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 770, surcharge: 1710, suggest: 340, speedUp: 2480 },
+    stats: { ATK: 512 },
   },
   {
     name: "Swan's Edge",
@@ -3752,6 +3839,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 785, surcharge: 1740, suggest: 350, speedUp: 2480 },
+    stats: { ATK: 440, CRIT: 0.05 },
   },
   {
     name: "Lucky Strike",
@@ -3797,6 +3885,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 810, surcharge: 1800, suggest: 360, speedUp: 2635 },
+    stats: { ATK: 460, CRIT: 0.05 },
   },
   {
     name: "Heartseeker",
@@ -3841,6 +3930,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 970, surcharge: 2155, suggest: 430, speedUp: 2790 },
+    stats: { ATK: 540 },
   },
   {
     name: "Last Breath",
@@ -3885,6 +3975,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
+    stats: { ATK: 612 },
   },
   {
     name: "Nightwing Bolt",
@@ -3931,6 +4022,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2790 },
+    stats: { ATK: 540, DEF: 135 },
   },
   {
     name: "Kyoshi Warrior Fan",
@@ -3976,6 +4068,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
+    stats: { ATK: 560, HP: 18 },
   },
   {
     name: "Wiccan Dagger",
@@ -4022,6 +4115,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
+    stats: { ATK: 560, CRIT: 0.1 },
   },
   {
     name: "Sixth Sin",
@@ -4066,6 +4160,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1285, surcharge: 2850, suggest: 570, speedUp: 3290 },
+    stats: { ATK: 690 },
   },
   {
     name: "Opulent Tecpatl",
@@ -4110,6 +4205,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1340, surcharge: 2980, suggest: 595, speedUp: 3290 },
+    stats: { ATK: 690 },
   },
   {
     name: "Celesteel Knuckles",
@@ -4156,6 +4252,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1310, surcharge: 2910, suggest: 580, speedUp: 3465 },
+    stats: { ATK: 710, DEF: 178 },
   },
   {
     name: "Empress War Fan",
@@ -4201,6 +4298,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3465 },
+    stats: { ATK: 710, EVA: 0.05 },
   },
   {
     name: "Nocturne",
@@ -4246,6 +4344,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1995, surcharge: 4430, suggest: 885, speedUp: 3830 },
+    stats: { ATK: 870 },
   },
   {
     name: "Cudgel",
@@ -4281,6 +4380,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { ATK: 14 },
   },
   {
     name: "Spiked Cudgel",
@@ -4319,6 +4419,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { ATK: 30 },
   },
   {
     name: "Darkwood Branch",
@@ -4358,6 +4459,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 55 },
+    stats: { ATK: 61 },
   },
   {
     name: "Warhammer",
@@ -4396,6 +4498,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { ATK: 50 },
   },
   {
     name: "Liberty Mace",
@@ -4435,6 +4538,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 90 },
+    stats: { ATK: 60, HP: 2 },
   },
   {
     name: "Morning Star",
@@ -4474,6 +4578,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 135 },
+    stats: { ATK: 84 },
   },
   {
     name: "Inflatable Maul",
@@ -4514,6 +4619,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 50, surcharge: 115, suggest: 25, speedUp: 165 },
+    stats: { ATK: 96, HP: 3 },
   },
   {
     name: "Flanged Mace",
@@ -4557,6 +4663,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 260 },
+    stats: { ATK: 136 },
   },
   {
     name: "First Morning Star",
@@ -4600,6 +4707,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
+    stats: { ATK: 164, DEF: 41 },
   },
   {
     name: "Skull Crusher",
@@ -4642,6 +4750,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 420 },
+    stats: { ATK: 192 },
   },
   {
     name: "Troublin Bludgeon",
@@ -4687,6 +4796,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 515 },
+    stats: { ATK: 220, DEF: 55 },
   },
   {
     name: "Evening Star",
@@ -4731,6 +4841,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 180, surcharge: 400, suggest: 80, speedUp: 620 },
+    stats: { ATK: 250 },
   },
   {
     name: "Meteor Hammer",
@@ -4774,6 +4885,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 210, surcharge: 465, suggest: 95, speedUp: 675 },
+    stats: { ATK: 327 },
   },
   {
     name: "Button Masher",
@@ -4818,6 +4930,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 735 },
+    stats: { ATK: 280, CRIT: 0.1 },
   },
   {
     name: "Powder Keg",
@@ -4862,6 +4975,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 925 },
+    stats: { ATK: 330 },
   },
   {
     name: "Whack-O'-Lantern",
@@ -4907,6 +5021,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 345, surcharge: 765, suggest: 155, speedUp: 995 },
+    stats: { ATK: 350, HP: 11 },
   },
   {
     name: "Peppermint Mallet",
@@ -4952,6 +5067,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 360, surcharge: 795, suggest: 160, speedUp: 995 },
+    stats: { ATK: 350, CRIT: 0.05 },
   },
   {
     name: "Tenderizer",
@@ -4996,6 +5112,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 375, surcharge: 835, suggest: 165, speedUp: 1065 },
+    stats: { ATK: 370 },
   },
   {
     name: "Wallace Mallet",
@@ -5041,6 +5158,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 380, HP: 12 },
   },
   {
     name: "Striped Star",
@@ -5086,6 +5204,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1220 },
+    stats: { ATK: 400, CRIT: 0.05 },
   },
   {
     name: "Nautilus",
@@ -5131,6 +5250,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 820, surcharge: 1825, suggest: 365, speedUp: 2335 },
+    stats: { ATK: 420 },
   },
   {
     name: "Opulent Maul",
@@ -5175,6 +5295,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 870, surcharge: 1935, suggest: 385, speedUp: 2335 },
+    stats: { ATK: 420 },
   },
   {
     name: "Mundra's Masher",
@@ -5221,6 +5342,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 845, surcharge: 1880, suggest: 375, speedUp: 2480 },
+    stats: { ATK: 515, HP: 29 },
   },
   {
     name: "Thorium Hammer",
@@ -5266,6 +5388,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1025, surcharge: 2280, suggest: 455, speedUp: 2790 },
+    stats: { ATK: 540 },
   },
   {
     name: "Sunglow Impact",
@@ -5311,6 +5434,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
+    stats: { ATK: 612 },
   },
   {
     name: "Gaia Maul",
@@ -5357,6 +5481,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
+    stats: { ATK: 560, DEF: 140 },
   },
   {
     name: "Sokka's Club",
@@ -5403,6 +5528,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
+    stats: { ATK: 560, HP: 18 },
   },
   {
     name: "Mjölnir",
@@ -5448,6 +5574,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3465 },
+    stats: { ATK: 710 },
   },
   {
     name: "Eggshell Smasher",
@@ -5494,6 +5621,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
+    stats: { ATK: 710, DEF: 178 },
   },
   {
     name: "Merry Christmace",
@@ -5540,6 +5668,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3645 },
+    stats: { ATK: 730, DEF: 183 },
   },
   {
     name: "Crag Guardian",
@@ -5585,6 +5714,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2020, surcharge: 4490, suggest: 900, speedUp: 3830 },
+    stats: { ATK: 870 },
   },
   {
     name: "Smash Hit",
@@ -5631,6 +5761,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2070, surcharge: 4605, suggest: 920, speedUp: 3830 },
+    stats: { ATK: 870, HP: 27 },
   },
   {
     name: "Javelin",
@@ -5665,6 +5796,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { ATK: 30 },
   },
   {
     name: "Hunting Spear",
@@ -5703,6 +5835,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 70 },
+    stats: { ATK: 50 },
   },
   {
     name: "Bladed Spear",
@@ -5741,6 +5874,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 30, surcharge: 65, suggest: 15, speedUp: 135 },
+    stats: { ATK: 84 },
   },
   {
     name: "Sturdy Pitchfork",
@@ -5780,6 +5914,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
+    stats: { ATK: 96, CRIT: 0.05 },
   },
   {
     name: "Ranseur",
@@ -5820,6 +5955,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 55, surcharge: 120, suggest: 25, speedUp: 225 },
+    stats: { ATK: 124 },
   },
   {
     name: "Trishula",
@@ -5859,6 +5995,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
+    stats: { ATK: 164 },
   },
   {
     name: "Bunbun Lance",
@@ -5899,6 +6036,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 375 },
+    stats: { ATK: 176, DEF: 44 },
   },
   {
     name: "Warlord Halberd",
@@ -5940,6 +6078,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 250, suggest: 50, speedUp: 420 },
+    stats: { ATK: 192, CRIT: 0.05 },
   },
   {
     name: "Spetum",
@@ -5983,6 +6122,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 125, surcharge: 275, suggest: 55, speedUp: 465 },
+    stats: { ATK: 210 },
   },
   {
     name: "Triton Lance",
@@ -6026,6 +6166,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 135, surcharge: 300, suggest: 60, speedUp: 515 },
+    stats: { ATK: 277 },
   },
   {
     name: "Cu Chulainn's Lance",
@@ -6071,6 +6212,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 170, surcharge: 375, suggest: 75, speedUp: 565 },
+    stats: { ATK: 240, CRIT: 0.05 },
   },
   {
     name: "Royal Halberd",
@@ -6115,6 +6257,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 215, surcharge: 480, suggest: 95, speedUp: 675 },
+    stats: { ATK: 270 },
   },
   {
     name: "Twicicle Javelin",
@@ -6159,6 +6302,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 250, surcharge: 550, suggest: 110, speedUp: 735 },
+    stats: { ATK: 280, DEF: 70 },
   },
   {
     name: "Warrior Assegai",
@@ -6202,6 +6346,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 255, surcharge: 570, suggest: 115, speedUp: 735 },
+    stats: { ATK: 280, HP: 10 },
   },
   {
     name: "Champion Lance",
@@ -6246,6 +6391,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 300, surcharge: 665, suggest: 135, speedUp: 860 },
+    stats: { ATK: 320 },
   },
   {
     name: "Sunset Yari",
@@ -6290,6 +6436,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 320, surcharge: 710, suggest: 140, speedUp: 925 },
+    stats: { ATK: 330, HP: 10 },
   },
   {
     name: "Wyvern Glaive",
@@ -6334,6 +6481,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 375, surcharge: 835, suggest: 165, speedUp: 1065 },
+    stats: { ATK: 370 },
   },
   {
     name: "Hoartooth Lance",
@@ -6379,6 +6527,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 380, HP: 12 },
   },
   {
     name: "Luxurious Spear",
@@ -6423,6 +6572,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 400, surcharge: 890, suggest: 180, speedUp: 1140 },
+    stats: { ATK: 380 },
   },
   {
     name: "Stellaria",
@@ -6468,6 +6618,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 805, surcharge: 1790, suggest: 360, speedUp: 2335 },
+    stats: { ATK: 420 },
   },
   {
     name: "Longinus",
@@ -6513,6 +6664,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2335 },
+    stats: { ATK: 492 },
   },
   {
     name: "Birdbane Halberd",
@@ -6559,6 +6711,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2480 },
+    stats: { ATK: 440, DEF: 110 },
   },
   {
     name: "Titania's Gift",
@@ -6604,6 +6757,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 970, surcharge: 2155, suggest: 430, speedUp: 2790 },
+    stats: { ATK: 540 },
   },
   {
     name: "Jester Jouster",
@@ -6650,6 +6804,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2790 },
+    stats: { ATK: 540, HP: 17 },
   },
   {
     name: "Holy Night Lance",
@@ -6696,6 +6851,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
+    stats: { ATK: 560, DEF: 140 },
   },
   {
     name: "Heaven's Wrath",
@@ -6741,6 +6897,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
+    stats: { ATK: 690 },
   },
   {
     name: "Propeller-Pike",
@@ -6787,6 +6944,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
+    stats: { ATK: 690, HP: 21 },
   },
   {
     name: "Pokey Parasol",
@@ -6833,6 +6991,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1490, surcharge: 3315, suggest: 665, speedUp: 3465 },
+    stats: { ATK: 710, DEF: 178 },
   },
   {
     name: "Opulent Halberd",
@@ -6878,6 +7037,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1485, surcharge: 3295, suggest: 660, speedUp: 3465 },
+    stats: { ATK: 710 },
   },
   {
     name: "Blackened Bardiche",
@@ -6923,6 +7083,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2070, surcharge: 4605, suggest: 920, speedUp: 3830 },
+    stats: { ATK: 870 },
   },
   {
     name: "Riptide",
@@ -6968,6 +7129,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2105, surcharge: 4680, suggest: 935, speedUp: 3830 },
+    stats: { ATK: 1003 },
   },
   {
     name: "Dire Kakivak",
@@ -7014,6 +7176,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2070, surcharge: 4605, suggest: 920, speedUp: 3830 },
+    stats: { ATK: 870, HP: 27 },
   },
   {
     name: "Training Bow",
@@ -7051,6 +7214,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 25 },
+    stats: { ATK: 22 },
   },
   {
     name: "Tailwind",
@@ -7089,6 +7253,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 40 },
+    stats: { ATK: 53 },
   },
   {
     name: "Elmwood Bow",
@@ -7124,6 +7289,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 55 },
+    stats: { ATK: 42 },
   },
   {
     name: "Reflex Bow",
@@ -7163,6 +7329,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
+    stats: { ATK: 76 },
   },
   {
     name: "Grand Harp",
@@ -7202,6 +7369,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
+    stats: { ATK: 104, HP: 3 },
   },
   {
     name: "Compound Bow",
@@ -7241,6 +7409,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 190 },
+    stats: { ATK: 116 },
   },
   {
     name: "Mundra's Hornbow",
@@ -7281,6 +7450,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 260 },
+    stats: { ATK: 219, CRIT: 0.05 },
   },
   {
     name: "Deadeye",
@@ -7321,6 +7491,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 150, suggest: 30, speedUp: 295 },
+    stats: { ATK: 160 },
   },
   {
     name: "Hallowed Willow",
@@ -7362,6 +7533,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 375 },
+    stats: { ATK: 188, DEF: 47 },
   },
   {
     name: "Raptoria",
@@ -7405,6 +7577,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 120, surcharge: 270, suggest: 55, speedUp: 465 },
+    stats: { ATK: 220 },
   },
   {
     name: "Quetzal Wing",
@@ -7448,6 +7621,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 320, suggest: 65, speedUp: 515 },
+    stats: { ATK: 287 },
   },
   {
     name: "L'Arabesque",
@@ -7492,6 +7666,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 195, surcharge: 430, suggest: 85, speedUp: 675 },
+    stats: { ATK: 280 },
   },
   {
     name: "Hotshot Bowgun",
@@ -7536,6 +7711,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 235, surcharge: 525, suggest: 105, speedUp: 735 },
+    stats: { ATK: 300, DEF: 75 },
   },
   {
     name: "Yumi",
@@ -7580,6 +7756,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 310, surcharge: 685, suggest: 135, speedUp: 925 },
+    stats: { ATK: 350 },
   },
   {
     name: "Cupid Bow",
@@ -7625,6 +7802,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 995 },
+    stats: { ATK: 370, HP: 12 },
   },
   {
     name: "Bramblebane",
@@ -7669,6 +7847,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
+    stats: { ATK: 390 },
   },
   {
     name: "Maplewood Gale",
@@ -7714,6 +7893,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 410, DEF: 103 },
   },
   {
     name: "Gemini Strike",
@@ -7759,6 +7939,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 820, surcharge: 1825, suggest: 365, speedUp: 2335 },
+    stats: { ATK: 450 },
   },
   {
     name: "Jolly Ranger",
@@ -7805,6 +7986,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2480 },
+    stats: { ATK: 470, HP: 15 },
   },
   {
     name: "Stormrend",
@@ -7850,6 +8032,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2950 },
+    stats: { ATK: 600 },
   },
   {
     name: "Opulent Longbow",
@@ -7895,6 +8078,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
+    stats: { ATK: 600 },
   },
   {
     name: "Pinata Hunter",
@@ -7941,6 +8125,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
+    stats: { ATK: 600, CRIT: 0.05 },
   },
   {
     name: "Rising Star",
@@ -7987,6 +8172,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1210, surcharge: 2685, suggest: 535, speedUp: 3120 },
+    stats: { ATK: 620, DEF: 155 },
   },
   {
     name: "Boughwrought Bow",
@@ -8033,6 +8219,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1225, surcharge: 2720, suggest: 545, speedUp: 3120 },
+    stats: { ATK: 620, HP: 20 },
   },
   {
     name: "Olympus",
@@ -8078,6 +8265,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3465 },
+    stats: { ATK: 760 },
   },
   {
     name: "Power Flipper",
@@ -8124,6 +8312,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
+    stats: { ATK: 760, CRIT: 0.07 },
   },
   {
     name: "Elite Pathfinder",
@@ -8170,6 +8359,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1530, surcharge: 3395, suggest: 680, speedUp: 3645 },
+    stats: { ATK: 780, DEF: 223 },
   },
   {
     name: "Grand Monarque",
@@ -8215,6 +8405,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2030, surcharge: 4510, suggest: 900, speedUp: 3830 },
+    stats: { ATK: 930 },
   },
   {
     name: "Earthstrung Wings",
@@ -8260,6 +8451,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2055, surcharge: 4565, suggest: 915, speedUp: 3830 },
+    stats: { ATK: 1063 },
   },
   {
     name: "Jindai Zakura",
@@ -8306,6 +8498,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2090, surcharge: 4640, suggest: 930, speedUp: 4015 },
+    stats: { ATK: 960, HP: 30 },
   },
   {
     name: "Carved Branch",
@@ -8341,6 +8534,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { ATK: 16 },
   },
   {
     name: "Sturdy Cane",
@@ -8376,6 +8570,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { ATK: 32 },
   },
   {
     name: "Oak Staff",
@@ -8414,6 +8609,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { ATK: 52 },
   },
   {
     name: "Owl Perch",
@@ -8453,6 +8649,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 35, surcharge: 75, suggest: 15, speedUp: 135 },
+    stats: { ATK: 88, HP: 3 },
   },
   {
     name: "Luxurious Stick",
@@ -8492,6 +8689,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 55, surcharge: 125, suggest: 25, speedUp: 135 },
+    stats: { ATK: 88 },
   },
   {
     name: "Bo Staff",
@@ -8532,6 +8730,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 165 },
+    stats: { ATK: 104 },
   },
   {
     name: "Apprentice Staff",
@@ -8571,6 +8770,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 50, surcharge: 115, suggest: 25, speedUp: 225 },
+    stats: { ATK: 128, DEF: 32 },
   },
   {
     name: "Jade Scepter",
@@ -8613,6 +8813,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 295 },
+    stats: { ATK: 160 },
   },
   {
     name: "Amber Staff",
@@ -8655,6 +8856,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 335 },
+    stats: { ATK: 229 },
   },
   {
     name: "Wiccan Broomstick",
@@ -8699,6 +8901,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 335 },
+    stats: { ATK: 172, HP: 5 },
   },
   {
     name: "Wizard Staff",
@@ -8742,6 +8945,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 135, surcharge: 295, suggest: 60, speedUp: 465 },
+    stats: { ATK: 220 },
   },
   {
     name: "Staff of Seasons",
@@ -8786,6 +8990,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 155, surcharge: 340, suggest: 70, speedUp: 515 },
+    stats: { ATK: 230, EVA: 0.05 },
   },
   {
     name: "Celestial Staff",
@@ -8829,6 +9034,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 180, surcharge: 395, suggest: 80, speedUp: 620 },
+    stats: { ATK: 270 },
   },
   {
     name: "Mundra's Scepter",
@@ -8874,6 +9080,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 200, surcharge: 445, suggest: 90, speedUp: 735 },
+    stats: { ATK: 375, CRIT: 0.05 },
   },
   {
     name: "Imperial Aquila",
@@ -8918,6 +9125,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 300, surcharge: 665, suggest: 135, speedUp: 860 },
+    stats: { ATK: 340 },
   },
   {
     name: "Phoenix Staff",
@@ -8962,6 +9170,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 320, surcharge: 715, suggest: 145, speedUp: 925 },
+    stats: { ATK: 407 },
   },
   {
     name: "Fluted Chime",
@@ -9007,6 +9216,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 330, surcharge: 735, suggest: 145, speedUp: 925 },
+    stats: { ATK: 350, DEF: 88 },
   },
   {
     name: "Transcendence",
@@ -9051,6 +9261,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 385, surcharge: 850, suggest: 170, speedUp: 1065 },
+    stats: { ATK: 390 },
   },
   {
     name: "Tidebringer",
@@ -9095,6 +9306,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 420, surcharge: 935, suggest: 185, speedUp: 1140 },
+    stats: { ATK: 482 },
   },
   {
     name: "Zesty Scepter",
@@ -9140,6 +9352,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 455, surcharge: 1010, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 410, DEF: 103 },
   },
   {
     name: "Seraphim",
@@ -9185,6 +9398,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 830, surcharge: 1845, suggest: 370, speedUp: 2335 },
+    stats: { ATK: 450 },
   },
   {
     name: "Staff of Merriment",
@@ -9231,6 +9445,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2480 },
+    stats: { ATK: 470, DEF: 118 },
   },
   {
     name: "Penumbra",
@@ -9276,6 +9491,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
+    stats: { ATK: 580 },
   },
   {
     name: "Ice Queen's Scepter",
@@ -9322,6 +9538,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2790 },
+    stats: { ATK: 580, HP: 18 },
   },
   {
     name: "Heartcaptor's Staff",
@@ -9368,6 +9585,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
+    stats: { ATK: 600, DEF: 150 },
   },
   {
     name: "Scepter of Xolimnul",
@@ -9413,6 +9631,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1335, surcharge: 2970, suggest: 595, speedUp: 3290 },
+    stats: { ATK: 730 },
   },
   {
     name: "Opulent Staff",
@@ -9458,6 +9677,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1385, surcharge: 3080, suggest: 615, speedUp: 3290 },
+    stats: { ATK: 730 },
   },
   {
     name: "Soulbinder Staff",
@@ -9504,6 +9724,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1390, surcharge: 3090, suggest: 620, speedUp: 3290 },
+    stats: { ATK: 730, CRIT: 0.05 },
   },
   {
     name: "Pharaoh's Ankh",
@@ -9550,6 +9771,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
+    stats: { ATK: 760, HP: 24 },
   },
   {
     name: "Cloud Nine",
@@ -9595,6 +9817,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1940, surcharge: 4310, suggest: 860, speedUp: 4015 },
+    stats: { ATK: 960 },
   },
   {
     name: "Gravity Controller",
@@ -9640,6 +9863,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 4015 },
+    stats: { ATK: 1093 },
   },
   {
     name: "Baton",
@@ -9675,6 +9899,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 40 },
+    stats: { ATK: 36 },
   },
   {
     name: "Elvenwood Wand",
@@ -9713,6 +9938,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 30, surcharge: 65, suggest: 15, speedUp: 90 },
+    stats: { ATK: 74 },
   },
   {
     name: "Hexer's Wand",
@@ -9751,6 +9977,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 95, suggest: 20, speedUp: 165 },
+    stats: { ATK: 120 },
   },
   {
     name: "Steel Rod",
@@ -9792,6 +10019,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 145, suggest: 30, speedUp: 225 },
+    stats: { ATK: 152 },
   },
   {
     name: "Star Rod",
@@ -9836,6 +10064,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 335 },
+    stats: { ATK: 200 },
   },
   {
     name: "Peppermint Cane",
@@ -9881,6 +10110,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 105, surcharge: 230, suggest: 45, speedUp: 375 },
+    stats: { ATK: 220, DEF: 55 },
   },
   {
     name: "Sylvanel",
@@ -9926,6 +10156,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 165, surcharge: 370, suggest: 75, speedUp: 465 },
+    stats: { ATK: 260 },
   },
   {
     name: "Chōchin Gohei",
@@ -9970,6 +10201,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 195, surcharge: 430, suggest: 85, speedUp: 515 },
+    stats: { ATK: 280, HP: 9 },
   },
   {
     name: "Ruby Wand",
@@ -10014,6 +10246,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 620 },
+    stats: { ATK: 330 },
   },
   {
     name: "Owl Wing Wand",
@@ -10058,6 +10291,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 675 },
+    stats: { ATK: 350, HP: 11 },
   },
   {
     name: "Wand of Midas",
@@ -10103,6 +10337,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 860 },
+    stats: { ATK: 410 },
   },
   {
     name: "Evergreen Wand",
@@ -10148,6 +10383,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 910, suggest: 180, speedUp: 1140 },
+    stats: { ATK: 490 },
   },
   {
     name: "Equinox Rod",
@@ -10193,6 +10429,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 440, surcharge: 975, suggest: 195, speedUp: 1220 },
+    stats: { ATK: 520, HP: 16 },
   },
   {
     name: "Astral Conductor",
@@ -10239,6 +10476,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 840, surcharge: 1870, suggest: 375, speedUp: 2480 },
+    stats: { ATK: 560 },
   },
   {
     name: "Grimar's Grand Wand",
@@ -10285,6 +10523,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 865, surcharge: 1920, suggest: 385, speedUp: 2480 },
+    stats: { ATK: 560, DEF: 140 },
   },
   {
     name: "Draconic Eyestalk",
@@ -10331,6 +10570,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
+    stats: { ATK: 700 },
   },
   {
     name: "Opulent Wand",
@@ -10376,6 +10616,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1205, surcharge: 2680, suggest: 535, speedUp: 2790 },
+    stats: { ATK: 700 },
   },
   {
     name: "Moonlight Wand",
@@ -10422,6 +10663,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1240, surcharge: 2750, suggest: 550, speedUp: 2950 },
+    stats: { ATK: 720, HP: 22 },
   },
   {
     name: "Herald of the End",
@@ -10468,6 +10710,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1515, surcharge: 3370, suggest: 675, speedUp: 3290 },
+    stats: { ATK: 880 },
   },
   {
     name: "Ivory Queen Rod",
@@ -10514,6 +10757,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1565, surcharge: 3475, suggest: 695, speedUp: 3290 },
+    stats: { ATK: 880, DEF: 220 },
   },
   {
     name: "Fork of Roasting",
@@ -10560,6 +10804,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1585, surcharge: 3525, suggest: 705, speedUp: 3465 },
+    stats: { ATK: 910, HP: 28 },
   },
   {
     name: "Pyroquartz Rod",
@@ -10606,6 +10851,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2155, surcharge: 4790, suggest: 960, speedUp: 4015 },
+    stats: { ATK: 1150 },
   },
   {
     name: "Light Crossbow",
@@ -10641,6 +10887,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 25 },
+    stats: { ATK: 24 },
   },
   {
     name: "Hand Crossbow",
@@ -10676,6 +10923,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 55 },
+    stats: { ATK: 46 },
   },
   {
     name: "Arbalest",
@@ -10714,6 +10962,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 35, surcharge: 75, suggest: 15, speedUp: 110 },
+    stats: { ATK: 84 },
   },
   {
     name: "Heavy Crossbow",
@@ -10753,6 +11002,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 55, surcharge: 125, suggest: 25, speedUp: 190 },
+    stats: { ATK: 128 },
   },
   {
     name: "Cluckthrower",
@@ -10793,6 +11043,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 260 },
+    stats: { ATK: 160, HP: 5 },
   },
   {
     name: "Hunter's Crossbow",
@@ -10834,6 +11085,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 205, suggest: 40, speedUp: 295 },
+    stats: { ATK: 176 },
   },
   {
     name: "Scorpio",
@@ -10878,6 +11130,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 135, surcharge: 305, suggest: 60, speedUp: 465 },
+    stats: { ATK: 240 },
   },
   {
     name: "Primitech Slingshot",
@@ -10922,6 +11175,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 170, surcharge: 380, suggest: 75, speedUp: 565 },
+    stats: { ATK: 280, DEF: 70 },
   },
   {
     name: "Double Crossbow",
@@ -10966,6 +11220,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 255, surcharge: 570, suggest: 115, speedUp: 675 },
+    stats: { ATK: 320 },
   },
   {
     name: "Chu-Ko-Nu",
@@ -11011,6 +11266,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 320, surcharge: 715, suggest: 145, speedUp: 860 },
+    stats: { ATK: 380 },
   },
   {
     name: "Dra-Ko-Nu",
@@ -11056,6 +11312,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 340, surcharge: 750, suggest: 150, speedUp: 925 },
+    stats: { ATK: 400, HP: 12 },
   },
   {
     name: "Triple Crossbow",
@@ -11101,6 +11358,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 415, surcharge: 925, suggest: 185, speedUp: 1140 },
+    stats: { ATK: 460 },
   },
   {
     name: "Super Repeater",
@@ -11147,6 +11405,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2335 },
+    stats: { ATK: 500 },
   },
   {
     name: "Nightwing Caster",
@@ -11193,6 +11452,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 855, surcharge: 1905, suggest: 380, speedUp: 2335 },
+    stats: { ATK: 500, DEF: 125 },
   },
   {
     name: "Leviathan",
@@ -11239,6 +11499,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1210, surcharge: 2685, suggest: 535, speedUp: 2790 },
+    stats: { ATK: 650 },
   },
   {
     name: "Opulent Crossbow",
@@ -11284,6 +11545,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1215, surcharge: 2700, suggest: 540, speedUp: 2790 },
+    stats: { ATK: 650 },
   },
   {
     name: "Titan Crossbow",
@@ -11330,6 +11592,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1265, surcharge: 2815, suggest: 565, speedUp: 2950 },
+    stats: { ATK: 680, HP: 21 },
   },
   {
     name: "Godslayer Arbalest",
@@ -11376,6 +11639,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1490, surcharge: 3315, suggest: 665, speedUp: 3290 },
+    stats: { ATK: 820 },
   },
   {
     name: "Baross' Backup",
@@ -11422,6 +11686,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1550, surcharge: 3445, suggest: 690, speedUp: 3290 },
+    stats: { ATK: 820, DEF: 205 },
   },
   {
     name: "Primarosa",
@@ -11468,6 +11733,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2120, surcharge: 4715, suggest: 945, speedUp: 3830 },
+    stats: { ATK: 1050 },
   },
   {
     name: "Pellet Gun",
@@ -11506,6 +11772,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 40 },
+    stats: { ATK: 38 },
   },
   {
     name: "Handgun",
@@ -11544,6 +11811,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 50, suggest: 10, speedUp: 70 },
+    stats: { ATK: 64 },
   },
   {
     name: "Smoothbore",
@@ -11583,6 +11851,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 135 },
+    stats: { ATK: 108 },
   },
   {
     name: "Long Rifle",
@@ -11623,6 +11892,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 225 },
+    stats: { ATK: 160 },
   },
   {
     name: "Snowball Launcher",
@@ -11663,6 +11933,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 260 },
+    stats: { ATK: 176, DEF: 44 },
   },
   {
     name: "Blunderbuss",
@@ -11704,6 +11975,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 375 },
+    stats: { ATK: 230 },
   },
   {
     name: "Boomstick",
@@ -11748,6 +12020,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 155, surcharge: 345, suggest: 70, speedUp: 515 },
+    stats: { ATK: 290 },
   },
   {
     name: "Banana Gun",
@@ -11792,6 +12065,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 170, surcharge: 380, suggest: 75, speedUp: 565 },
+    stats: { ATK: 310, HP: 10 },
   },
   {
     name: "Pellet Popper",
@@ -11836,6 +12110,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 175, surcharge: 385, suggest: 75, speedUp: 565 },
+    stats: { ATK: 310, DEF: 93 },
   },
   {
     name: "Kenora Mk. IV",
@@ -11881,6 +12156,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 235, surcharge: 525, suggest: 105, speedUp: 675 },
+    stats: { ATK: 350 },
   },
   {
     name: "Prototype Gatling",
@@ -11925,6 +12201,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 320, surcharge: 715, suggest: 145, speedUp: 860 },
+    stats: { ATK: 420 },
   },
   {
     name: "Dragonator",
@@ -11970,6 +12247,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 425, surcharge: 940, suggest: 190, speedUp: 1220 },
+    stats: { ATK: 530 },
   },
   {
     name: "Handcask '65",
@@ -12015,6 +12293,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1220 },
+    stats: { ATK: 530, DEF: 133 },
   },
   {
     name: "The Messenger",
@@ -12061,6 +12340,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 840, surcharge: 1870, suggest: 375, speedUp: 2480 },
+    stats: { ATK: 580 },
   },
   {
     name: "Oxen Impact",
@@ -12106,6 +12386,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2635 },
+    stats: { ATK: 610, DEF: 153 },
   },
   {
     name: "Omega Disintegrator",
@@ -12152,6 +12433,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
+    stats: { ATK: 720 },
   },
   {
     name: "Opulent Pistol",
@@ -12197,6 +12479,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1200, surcharge: 2665, suggest: 535, speedUp: 2790 },
+    stats: { ATK: 720 },
   },
   {
     name: "Dogbone Blaster",
@@ -12243,6 +12526,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1240, surcharge: 2750, suggest: 550, speedUp: 2790 },
+    stats: { ATK: 720, HP: 23 },
   },
   {
     name: "Blackbeard's Cannon",
@@ -12289,6 +12573,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1550, surcharge: 3445, suggest: 690, speedUp: 3465 },
+    stats: { ATK: 950 },
   },
   {
     name: "Hotshot Carbine",
@@ -12335,6 +12620,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1600, surcharge: 3550, suggest: 710, speedUp: 3465 },
+    stats: { ATK: 950, DEF: 238 },
   },
   {
     name: "Gift Wrap Rifle",
@@ -12381,6 +12667,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1620, surcharge: 3600, suggest: 720, speedUp: 3645 },
+    stats: { ATK: 980, CRIT: 0.05 },
   },
   {
     name: "Vainglory",
@@ -12426,6 +12713,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2105, surcharge: 4680, suggest: 935, speedUp: 3830 },
+    stats: { ATK: 1170 },
   },
   {
     name: "Sonic Trumpeteer",
@@ -12472,6 +12760,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2180, surcharge: 4845, suggest: 970, speedUp: 3830 },
+    stats: { ATK: 1170, HP: 36 },
   },
   {
     name: "Mintyleaf Herb",
@@ -12507,6 +12796,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { ATK: 8, HP: 2 },
   },
   {
     name: "Sweet Grass",
@@ -12545,6 +12835,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { ATK: 13, HP: 3 },
   },
   {
     name: "Moon Powder",
@@ -12584,6 +12875,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 135 },
+    stats: { ATK: 21, HP: 5 },
   },
   {
     name: "Magical Mistletoe",
@@ -12623,6 +12915,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 95, suggest: 20, speedUp: 165 },
+    stats: { ATK: 36, HP: 6 },
   },
   {
     name: "Healing Salve",
@@ -12661,6 +12954,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 50, surcharge: 110, suggest: 20, speedUp: 225 },
+    stats: { ATK: 31, HP: 8 },
   },
   {
     name: "Venerable Oats",
@@ -12701,6 +12995,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 260 },
+    stats: { ATK: 51, HP: 8 },
   },
   {
     name: "Silver Thistle",
@@ -12744,6 +13039,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 335 },
+    stats: { ATK: 41, HP: 10 },
   },
   {
     name: "Bountiful Harvest",
@@ -12784,6 +13080,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 375 },
+    stats: { ATK: 66, HP: 11 },
   },
   {
     name: "Flint Corn Bundle",
@@ -12826,6 +13123,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 220, suggest: 45, speedUp: 420 },
+    stats: { ATK: 48, HP: 21 },
   },
   {
     name: "Bloodvine",
@@ -12868,6 +13166,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
+    stats: { ATK: 53, HP: 13 },
   },
   {
     name: "Fragrant Bouquet",
@@ -12912,6 +13211,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
+    stats: { ATK: 83, HP: 14 },
   },
   {
     name: "Lil' Cactus",
@@ -12955,6 +13255,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 135, surcharge: 305, suggest: 60, speedUp: 515 },
+    stats: { ATK: 55, HP: 21 },
   },
   {
     name: "Mandragoroot",
@@ -12998,6 +13299,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 620 },
+    stats: { ATK: 63, HP: 16 },
   },
   {
     name: "Unwilting Rose",
@@ -13042,6 +13344,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 735 },
+    stats: { ATK: 70, HP: 27 },
   },
   {
     name: "Wolf's Bane",
@@ -13086,6 +13389,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 300, surcharge: 665, suggest: 135, speedUp: 860 },
+    stats: { ATK: 80, HP: 20 },
   },
   {
     name: "Mistpeak Bloom",
@@ -13130,6 +13434,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 325, surcharge: 725, suggest: 145, speedUp: 925 },
+    stats: { ATK: 140, HP: 33 },
   },
   {
     name: "Yggdrasil Branch",
@@ -13174,6 +13479,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
+    stats: { ATK: 93, HP: 23 },
   },
   {
     name: "Luckiest Clover",
@@ -13219,6 +13525,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 425, surcharge: 940, suggest: 190, speedUp: 1140 },
+    stats: { ATK: 143, HP: 24 },
   },
   {
     name: "Luxurious Panacea",
@@ -13263,6 +13570,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 400, surcharge: 885, suggest: 175, speedUp: 1220 },
+    stats: { ATK: 100, HP: 25 },
   },
   {
     name: "Wyrmblood Ointment",
@@ -13308,6 +13616,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 825, surcharge: 1830, suggest: 365, speedUp: 2480 },
+    stats: { ATK: 110, HP: 27 },
   },
   {
     name: "Wild Oak Rose",
@@ -13354,6 +13663,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2635 },
+    stats: { ATK: 173, HP: 29 },
   },
   {
     name: "Florae Daemonica",
@@ -13399,6 +13709,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
+    stats: { ATK: 135, HP: 34 },
   },
   {
     name: "Bleakspire Roots",
@@ -13444,6 +13755,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
+    stats: { ATK: 207, HP: 49 },
   },
   {
     name: "Seltzer Surprise",
@@ -13490,6 +13802,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
+    stats: { ATK: 135, HP: 51 },
   },
   {
     name: "Super Snack Pack",
@@ -13536,6 +13849,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2950 },
+    stats: { ATK: 210, HP: 35 },
   },
   {
     name: "Philosopher's Stone",
@@ -13581,6 +13895,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
+    stats: { ATK: 173, HP: 43 },
   },
   {
     name: "Sakura Infusion",
@@ -13627,6 +13942,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3290 },
+    stats: { ATK: 173, HP: 64 },
   },
   {
     name: "Opulent Decoction",
@@ -13672,6 +13988,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1495, surcharge: 3325, suggest: 665, speedUp: 3290 },
+    stats: { ATK: 173, HP: 43 },
   },
   {
     name: "Premium Brand Jam",
@@ -13718,6 +14035,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1530, surcharge: 3395, suggest: 680, speedUp: 3465 },
+    stats: { ATK: 266, HP: 44 },
   },
   {
     name: "Voidbloom Roots",
@@ -13763,6 +14081,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1930, surcharge: 4290, suggest: 860, speedUp: 3830 },
+    stats: { ATK: 218, HP: 55 },
   },
   {
     name: "Slide Grease",
@@ -13809,6 +14128,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 3830 },
+    stats: { ATK: 218, HP: 82 },
   },
   {
     name: "Warm Tea",
@@ -13843,6 +14163,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 55 },
+    stats: { HP: 5 },
   },
   {
     name: "Healing Potion",
@@ -13881,6 +14202,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 110 },
+    stats: { HP: 9 },
   },
   {
     name: "Magic Potion",
@@ -13920,6 +14242,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 105, suggest: 20, speedUp: 190 },
+    stats: { HP: 14 },
   },
   {
     name: "Science Project",
@@ -13959,6 +14282,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 50, surcharge: 110, suggest: 20, speedUp: 225 },
+    stats: { ATK: 16, HP: 15 },
   },
   {
     name: "XL Healing Potion",
@@ -13997,6 +14321,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 295 },
+    stats: { HP: 19 },
   },
   {
     name: "Elegant Tea Set",
@@ -14037,6 +14362,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 375 },
+    stats: { DEF: 44, HP: 22 },
   },
   {
     name: "XL Magic Potion",
@@ -14077,6 +14403,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 420 },
+    stats: { HP: 24 },
   },
   {
     name: "Titan Potion",
@@ -14117,6 +14444,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
+    stats: { DEF: 53, HP: 26 },
   },
   {
     name: "Old Salt's Brew",
@@ -14161,6 +14489,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 260, suggest: 50, speedUp: 515 },
+    stats: { ATK: 28, HP: 28 },
   },
   {
     name: "Phoenix Tonic",
@@ -14204,6 +14533,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 130, surcharge: 290, suggest: 60, speedUp: 515 },
+    stats: { HP: 28 },
   },
   {
     name: "Zesty Granita",
@@ -14248,6 +14578,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 170, surcharge: 375, suggest: 75, speedUp: 565 },
+    stats: { DEF: 60, HP: 30 },
   },
   {
     name: "Potion of Renewal",
@@ -14290,6 +14621,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 195, surcharge: 430, suggest: 85, speedUp: 620 },
+    stats: { HP: 32 },
   },
   {
     name: "Bottled Mirth",
@@ -14332,6 +14664,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 220, surcharge: 490, suggest: 100, speedUp: 675 },
+    stats: { HP: 46 },
   },
   {
     name: "Fizzy Guzzle Bottle",
@@ -14375,6 +14708,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 735 },
+    stats: { DEF: 70, HP: 36 },
   },
   {
     name: "Purple Bomb",
@@ -14419,6 +14753,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 310, surcharge: 685, suggest: 135, speedUp: 860 },
+    stats: { ATK: 40, HP: 40 },
   },
   {
     name: "Gourd Elixir",
@@ -14464,6 +14799,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 335, surcharge: 740, suggest: 150, speedUp: 925 },
+    stats: { ATK: 83, HP: 42 },
   },
   {
     name: "Naya's Special",
@@ -14507,6 +14843,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 340, surcharge: 750, suggest: 150, speedUp: 925 },
+    stats: { DEF: 83, HP: 42 },
   },
   {
     name: "Special Sazonado",
@@ -14551,6 +14888,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 345, surcharge: 765, suggest: 155, speedUp: 995 },
+    stats: { ATK: 88, HP: 44 },
   },
   {
     name: "Soulfire Extract",
@@ -14595,6 +14933,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 380, surcharge: 845, suggest: 170, speedUp: 1065 },
+    stats: { HP: 46 },
   },
   {
     name: "Tangy Decoction",
@@ -14640,6 +14979,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 445, surcharge: 985, suggest: 195, speedUp: 1140 },
+    stats: { ATK: 95, HP: 48 },
   },
   {
     name: "Oak Essence",
@@ -14684,6 +15024,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
+    stats: { DEF: 100, HP: 50 },
   },
   {
     name: "Gaia Tonic",
@@ -14729,6 +15070,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 815, surcharge: 1810, suggest: 360, speedUp: 2335 },
+    stats: { HP: 53 },
   },
   {
     name: "Midnight Oil",
@@ -14775,6 +15117,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 830, surcharge: 1845, suggest: 370, speedUp: 2335 },
+    stats: { ATK: 105, HP: 53 },
   },
   {
     name: "Opulent Elixir",
@@ -14820,6 +15163,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 950, surcharge: 2110, suggest: 420, speedUp: 2480 },
+    stats: { HP: 55 },
   },
   {
     name: "Distilled Nebula",
@@ -14865,6 +15209,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2790 },
+    stats: { HP: 68 },
   },
   {
     name: "Aurora Springwater",
@@ -14911,6 +15256,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2790 },
+    stats: { DEF: 135, HP: 68 },
   },
   {
     name: "Nectar Pitcher",
@@ -14957,6 +15303,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
+    stats: { ATK: 140, HP: 71 },
   },
   {
     name: "Ambrosia",
@@ -15002,6 +15349,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
+    stats: { HP: 86 },
   },
   {
     name: "Mundra's Remedy",
@@ -15048,6 +15396,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
+    stats: { DEF: 222, HP: 101 },
   },
   {
     name: "Quintessence Purity",
@@ -15093,6 +15442,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3465 },
+    stats: { HP: 116 },
   },
   {
     name: "Supreme Sunscreen",
@@ -15139,6 +15489,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3465 },
+    stats: { ATK: 178, HP: 89 },
   },
   {
     name: "Maple Holy Grail",
@@ -15185,6 +15536,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3645 },
+    stats: { DEF: 183, HP: 92 },
   },
   {
     name: "Conqueror's Blood",
@@ -15230,6 +15582,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
+    stats: { HP: 109 },
   },
   {
     name: "Satchel of Essentials",
@@ -15276,6 +15629,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2020, surcharge: 4490, suggest: 900, speedUp: 3830 },
+    stats: { DEF: 218, HP: 109 },
   },
   {
     name: "Scroll of Sparks",
@@ -15311,6 +15665,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
+    stats: { ATK: 44 },
   },
   {
     name: "Scroll of Cleansing",
@@ -15346,6 +15701,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 55 },
+    stats: { ATK: 81 },
   },
   {
     name: "Scroll of Armor",
@@ -15384,6 +15740,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 90 },
+    stats: { ATK: 96, DEF: 24 },
   },
   {
     name: "Scroll of Storms",
@@ -15423,6 +15780,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 165 },
+    stats: { ATK: 156 },
   },
   {
     name: "Song of Valor",
@@ -15463,6 +15821,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 260 },
+    stats: { ATK: 220 },
   },
   {
     name: "Correspondence",
@@ -15504,6 +15863,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 295 },
+    stats: { ATK: 240, DEF: 48 },
   },
   {
     name: "Monster Manual",
@@ -15548,6 +15908,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
+    stats: { ATK: 270 },
   },
   {
     name: "Tome of the Night",
@@ -15590,6 +15951,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 105, surcharge: 235, suggest: 45, speedUp: 375 },
+    stats: { ATK: 347 },
   },
   {
     name: "Tome of Knowledge",
@@ -15634,6 +15996,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 110, surcharge: 245, suggest: 50, speedUp: 375 },
+    stats: { ATK: 290, DEF: 58 },
   },
   {
     name: "Tome of Secrets",
@@ -15678,6 +16041,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 135, surcharge: 295, suggest: 60, speedUp: 465 },
+    stats: { ATK: 340 },
   },
   {
     name: "Naughty or Nice List",
@@ -15723,6 +16087,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 155, surcharge: 340, suggest: 70, speedUp: 515 },
+    stats: { ATK: 370, HP: 12 },
   },
   {
     name: "Bagua Board",
@@ -15767,6 +16132,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 190, surcharge: 425, suggest: 85, speedUp: 620 },
+    stats: { ATK: 420 },
   },
   {
     name: "Firework Bundle",
@@ -15811,6 +16177,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 240, surcharge: 535, suggest: 105, speedUp: 675 },
+    stats: { ATK: 450, DEF: 90 },
   },
   {
     name: "Tale of the Unicorn",
@@ -15856,6 +16223,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 255, surcharge: 570, suggest: 115, speedUp: 675 },
+    stats: { ATK: 450, HP: 14 },
   },
   {
     name: "Tarot Deck",
@@ -15900,6 +16268,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
+    stats: { ATK: 530 },
   },
   {
     name: "Scroll of Fortune",
@@ -15945,6 +16314,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 335, surcharge: 740, suggest: 150, speedUp: 925 },
+    stats: { ATK: 560, HP: 17 },
   },
   {
     name: "Grimoire Aeternum",
@@ -15989,6 +16359,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1065 },
+    stats: { ATK: 620 },
   },
   {
     name: "Imperial Decree",
@@ -16034,6 +16405,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 640, DEF: 128 },
   },
   {
     name: "Luxurious Tablet",
@@ -16078,6 +16450,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 405, surcharge: 895, suggest: 180, speedUp: 1220 },
+    stats: { ATK: 670 },
   },
   {
     name: "Ancestral Atlas",
@@ -16123,6 +16496,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 815, surcharge: 1810, suggest: 360, speedUp: 2335 },
+    stats: { ATK: 700 },
   },
   {
     name: "Prayer Book",
@@ -16169,6 +16543,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2335 },
+    stats: { ATK: 700, DEF: 140 },
   },
   {
     name: "Curse of the Night",
@@ -16215,6 +16590,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2480 },
+    stats: { ATK: 730, DEF: 146 },
   },
   {
     name: "Druidic Grimoire",
@@ -16261,6 +16637,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 865, surcharge: 1925, suggest: 385, speedUp: 2480 },
+    stats: { ATK: 730, HP: 23 },
   },
   {
     name: "Celestial Choir",
@@ -16306,6 +16683,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
+    stats: { ATK: 910 },
   },
   {
     name: "Phoenix Litany",
@@ -16351,6 +16729,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
+    stats: { ATK: 982 },
   },
   {
     name: "Sealed Declaration",
@@ -16397,6 +16776,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
+    stats: { ATK: 950, HP: 30 },
   },
   {
     name: "Tiger Emperor's Edict",
@@ -16443,6 +16823,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
+    stats: { ATK: 950, DEF: 190 },
   },
   {
     name: "Tome of All-Knowledge",
@@ -16488,6 +16869,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1240, surcharge: 2750, suggest: 550, speedUp: 3120 },
+    stats: { ATK: 990, DEF: 198 },
   },
   {
     name: "The Bound Beast",
@@ -16533,6 +16915,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3465 },
+    stats: { ATK: 1200 },
   },
   {
     name: "Pharaoh's Pact",
@@ -16579,6 +16962,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
+    stats: { ATK: 1200, HP: 37 },
   },
   {
     name: "Lost Star Chart",
@@ -16625,6 +17009,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3645 },
+    stats: { ATK: 1240, DEF: 248 },
   },
   {
     name: "Love Declaration",
@@ -16671,6 +17056,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1515, surcharge: 3370, suggest: 675, speedUp: 3645 },
+    stats: { ATK: 1240, HP: 44 },
   },
   {
     name: "Opulent Incantation",
@@ -16716,6 +17102,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1565, surcharge: 3480, suggest: 695, speedUp: 3645 },
+    stats: { ATK: 1240 },
   },
   {
     name: "Pandora's Box",
@@ -16761,6 +17148,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1960, surcharge: 4350, suggest: 870, speedUp: 4015 },
+    stats: { ATK: 1520 },
   },
   {
     name: "Sealed Hurricane",
@@ -16806,6 +17194,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2010, surcharge: 4470, suggest: 895, speedUp: 4015 },
+    stats: { ATK: 1653 },
   },
   {
     name: "Breastplate",
@@ -16841,6 +17230,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 8 },
   },
   {
     name: "Iron Mail",
@@ -16879,6 +17269,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 55 },
+    stats: { DEF: 22 },
   },
   {
     name: "Scale Armor",
@@ -16917,6 +17308,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 30, surcharge: 70, suggest: 15, speedUp: 110 },
+    stats: { DEF: 40 },
   },
   {
     name: "Hauberk",
@@ -16956,6 +17348,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 105, suggest: 20, speedUp: 190 },
+    stats: { DEF: 62 },
   },
   {
     name: "Knight Breastplate",
@@ -16995,6 +17388,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 295 },
+    stats: { DEF: 84 },
   },
   {
     name: "Ceremonial Breastplate",
@@ -17034,6 +17428,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
+    stats: { DEF: 129 },
   },
   {
     name: "Centurion Armor",
@@ -17078,6 +17473,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 420 },
+    stats: { DEF: 105, HP: 7 },
   },
   {
     name: "Paladin Plate",
@@ -17121,6 +17517,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 250, suggest: 50, speedUp: 465 },
+    stats: { DEF: 115 },
   },
   {
     name: "Thorn Baron Armor",
@@ -17164,6 +17561,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 125, surcharge: 275, suggest: 55, speedUp: 465 },
+    stats: { DEF: 115, HP: 7 },
   },
   {
     name: "Hive Guard Plate",
@@ -17208,6 +17606,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 135, surcharge: 300, suggest: 60, speedUp: 515 },
+    stats: { ATK: 31, DEF: 125 },
   },
   {
     name: "Samurai Do",
@@ -17252,6 +17651,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 205, surcharge: 460, suggest: 90, speedUp: 675 },
+    stats: { DEF: 150 },
   },
   {
     name: "Brinewater Do",
@@ -17296,6 +17696,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 735 },
+    stats: { DEF: 197 },
   },
   {
     name: "Kyoshi Warrior Armor",
@@ -17340,6 +17741,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 270, surcharge: 600, suggest: 120, speedUp: 735 },
+    stats: { ATK: 40, DEF: 160 },
   },
   {
     name: "Warlord Plate",
@@ -17385,6 +17787,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 290, surcharge: 640, suggest: 130, speedUp: 795 },
+    stats: { DEF: 170, HP: 11 },
   },
   {
     name: "General Plate",
@@ -17428,6 +17831,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 860 },
+    stats: { DEF: 180 },
   },
   {
     name: "Landsknecht Plate",
@@ -17473,6 +17877,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 335, surcharge: 740, suggest: 150, speedUp: 925 },
+    stats: { DEF: 190, HP: 12 },
   },
   {
     name: "Santa's Guard Plate",
@@ -17518,6 +17923,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 340, surcharge: 755, suggest: 150, speedUp: 925 },
+    stats: { ATK: 48, DEF: 190 },
   },
   {
     name: "Berserker Armor",
@@ -17562,6 +17968,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 390, surcharge: 865, suggest: 175, speedUp: 1065 },
+    stats: { DEF: 205 },
   },
   {
     name: "Gaia Enforcer",
@@ -17606,6 +18013,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 420, surcharge: 935, suggest: 185, speedUp: 1140 },
+    stats: { DEF: 263 },
   },
   {
     name: "Star-Spangled Plate",
@@ -17651,6 +18059,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1220 },
+    stats: { DEF: 225, HP: 14 },
   },
   {
     name: "Juggernaut Fortress",
@@ -17696,6 +18105,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 810, surcharge: 1795, suggest: 360, speedUp: 2480 },
+    stats: { DEF: 245 },
   },
   {
     name: "Amber Citadel",
@@ -17741,6 +18151,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 825, surcharge: 1835, suggest: 365, speedUp: 2480 },
+    stats: { DEF: 293 },
   },
   {
     name: "Opulent Breastplate",
@@ -17786,6 +18197,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 935, surcharge: 2075, suggest: 415, speedUp: 2480 },
+    stats: { DEF: 245 },
   },
   {
     name: "Milesian Mail",
@@ -17832,6 +18244,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 855, surcharge: 1900, suggest: 380, speedUp: 2480 },
+    stats: { DEF: 245, HP: 15 },
   },
   {
     name: "Celesteel Plate",
@@ -17877,6 +18290,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
+    stats: { DEF: 305 },
   },
   {
     name: "Canid Plate",
@@ -17923,6 +18337,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2790 },
+    stats: { ATK: 76, DEF: 305 },
   },
   {
     name: "Fire Nation Armor",
@@ -17969,6 +18384,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2790 },
+    stats: { DEF: 305, HP: 19 },
   },
   {
     name: "Vermilion Guard Plate",
@@ -18014,6 +18430,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1350, surcharge: 3000, suggest: 600, speedUp: 3290 },
+    stats: { DEF: 385 },
   },
   {
     name: "Oni Rōnin Armor",
@@ -18060,6 +18477,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
+    stats: { ATK: 96, DEF: 385 },
   },
   {
     name: "Tyrant Plate Armor",
@@ -18106,6 +18524,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
+    stats: { DEF: 400, HP: 25 },
   },
   {
     name: "Lost Warrior's Plate",
@@ -18152,6 +18571,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
+    stats: { DEF: 400, CRIT: 0.05 },
   },
   {
     name: "Balefire Armor",
@@ -18197,6 +18617,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1960, surcharge: 4350, suggest: 870, speedUp: 4015 },
+    stats: { DEF: 510 },
   },
   {
     name: "Magmacore Plate",
@@ -18242,6 +18663,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2040, surcharge: 4530, suggest: 905, speedUp: 4015 },
+    stats: { DEF: 598 },
   },
   {
     name: "Leather Armor",
@@ -18276,6 +18698,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 8 },
   },
   {
     name: "Gambeson",
@@ -18311,6 +18734,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { DEF: 16 },
   },
   {
     name: "Doublet",
@@ -18349,6 +18773,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 90 },
+    stats: { DEF: 32 },
   },
   {
     name: "Studded Armor",
@@ -18388,6 +18813,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
+    stats: { DEF: 52 },
   },
   {
     name: "Blizzard Armor",
@@ -18429,6 +18855,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
+    stats: { ATK: 16, DEF: 64 },
   },
   {
     name: "Hide Armor",
@@ -18469,6 +18896,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 295 },
+    stats: { DEF: 80 },
   },
   {
     name: "Mundra's Tabard",
@@ -18510,6 +18938,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 335 },
+    stats: { ATK: 97, DEF: 135 },
   },
   {
     name: "Sky Pirate Outfit",
@@ -18550,6 +18979,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 335 },
+    stats: { DEF: 86, EVA: 0.05 },
   },
   {
     name: "Savage Garb",
@@ -18594,6 +19024,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
+    stats: { DEF: 110 },
   },
   {
     name: "Glade Guard Armor",
@@ -18638,6 +19069,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 135, surcharge: 295, suggest: 60, speedUp: 515 },
+    stats: { DEF: 152 },
   },
   {
     name: "Pumpkin Armor",
@@ -18683,6 +19115,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 320, suggest: 65, speedUp: 515 },
+    stats: { ATK: 29, DEF: 115 },
   },
   {
     name: "Ninja Garb",
@@ -18726,6 +19159,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 210, surcharge: 465, suggest: 95, speedUp: 675 },
+    stats: { DEF: 140 },
   },
   {
     name: "Nightwing Mantle",
@@ -18771,6 +19205,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 240, surcharge: 535, suggest: 105, speedUp: 735 },
+    stats: { ATK: 38, DEF: 150 },
   },
   {
     name: "Windrunner Armor",
@@ -18815,6 +19250,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 320, surcharge: 710, suggest: 140, speedUp: 860 },
+    stats: { DEF: 170 },
   },
   {
     name: "Sokka's Outfit",
@@ -18859,6 +19295,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 925 },
+    stats: { DEF: 175, HP: 11 },
   },
   {
     name: "Drakeskin Armor",
@@ -18903,6 +19340,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1065 },
+    stats: { DEF: 195 },
   },
   {
     name: "Smith Attire",
@@ -18948,6 +19386,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 51, DEF: 205 },
   },
   {
     name: "Corsair Mantle",
@@ -18993,6 +19432,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 800, surcharge: 1780, suggest: 355, speedUp: 2480 },
+    stats: { DEF: 235 },
   },
   {
     name: "Swan's Garment",
@@ -19039,6 +19479,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2480 },
+    stats: { ATK: 59, DEF: 235 },
   },
   {
     name: "Cloudwalker Armor",
@@ -19085,6 +19526,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 850, surcharge: 1890, suggest: 380, speedUp: 2635 },
+    stats: { DEF: 240, HP: 15 },
   },
   {
     name: "Everdusk Lord Attire",
@@ -19130,6 +19572,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
+    stats: { DEF: 290 },
   },
   {
     name: "Opulent Armor",
@@ -19175,6 +19618,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1125, surcharge: 2505, suggest: 500, speedUp: 2790 },
+    stats: { DEF: 290 },
   },
   {
     name: "Barkback's Armor",
@@ -19221,6 +19665,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2790 },
+    stats: { ATK: 73, DEF: 290 },
   },
   {
     name: "Cat Burglar Outfit",
@@ -19267,6 +19712,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
+    stats: { DEF: 300, EVA: 0.05 },
   },
   {
     name: "Dawn Thief Uniform",
@@ -19312,6 +19758,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1390, surcharge: 3090, suggest: 620, speedUp: 3290 },
+    stats: { DEF: 365 },
   },
   {
     name: "Shroud of the Lost",
@@ -19357,6 +19804,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1420, surcharge: 3150, suggest: 630, speedUp: 3465 },
+    stats: { DEF: 468 },
   },
   {
     name: "Stylish Poncho",
@@ -19403,6 +19851,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
+    stats: { DEF: 365, HP: 23 },
   },
   {
     name: "Desperado Outfit",
@@ -19449,6 +19898,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
+    stats: { ATK: 95, DEF: 380 },
   },
   {
     name: "Wildhunt Leathers",
@@ -19494,6 +19944,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
+    stats: { DEF: 465 },
   },
   {
     name: "Shirt",
@@ -19529,6 +19980,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 7 },
   },
   {
     name: "Black Robe",
@@ -19567,6 +20019,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
+    stats: { DEF: 15 },
   },
   {
     name: "Druid's Robe",
@@ -19606,6 +20059,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 90 },
+    stats: { DEF: 30 },
   },
   {
     name: "Disciple's Robe",
@@ -19645,6 +20099,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
+    stats: { DEF: 48 },
   },
   {
     name: "Scholar's Tunic",
@@ -19688,6 +20143,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 295 },
+    stats: { DEF: 74 },
   },
   {
     name: "Explorer's Outfit",
@@ -19731,6 +20187,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
+    stats: { ATK: 21, DEF: 82 },
   },
   {
     name: "Tailor Mantle",
@@ -19774,6 +20231,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 375 },
+    stats: { DEF: 88, HP: 6 },
   },
   {
     name: "Witch's Outfit",
@@ -19818,6 +20276,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
+    stats: { DEF: 105 },
   },
   {
     name: "Vestal Raiments",
@@ -19860,6 +20319,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 140, surcharge: 315, suggest: 65, speedUp: 515 },
+    stats: { DEF: 147 },
   },
   {
     name: "Wizard Attire",
@@ -19905,6 +20365,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 565 },
+    stats: { ATK: 30, DEF: 120 },
   },
   {
     name: "Midnight Apparel",
@@ -19948,6 +20409,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 190, surcharge: 425, suggest: 85, speedUp: 620 },
+    stats: { DEF: 125 },
   },
   {
     name: "Aang's Robe",
@@ -19992,6 +20454,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 235, surcharge: 525, suggest: 105, speedUp: 675 },
+    stats: { DEF: 135, HP: 8 },
   },
   {
     name: "Shaman Vestment",
@@ -20036,6 +20499,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 310, surcharge: 685, suggest: 135, speedUp: 925 },
+    stats: { DEF: 165 },
   },
   {
     name: "Cupid Robes",
@@ -20080,6 +20544,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 325, surcharge: 725, suggest: 145, speedUp: 995 },
+    stats: { DEF: 175, HP: 11 },
   },
   {
     name: "Luxurious Attire",
@@ -20124,6 +20589,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 330, surcharge: 730, suggest: 145, speedUp: 1065 },
+    stats: { DEF: 185 },
   },
   {
     name: "Astravestimenta",
@@ -20168,6 +20634,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 405, surcharge: 900, suggest: 180, speedUp: 1065 },
+    stats: { DEF: 185 },
   },
   {
     name: "Ostara Vest",
@@ -20213,6 +20680,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 430, surcharge: 960, suggest: 190, speedUp: 1140 },
+    stats: { ATK: 48, DEF: 190 },
   },
   {
     name: "Desert Threads",
@@ -20258,6 +20726,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
+    stats: { DEF: 200, HP: 13 },
   },
   {
     name: "Archmage Raiments",
@@ -20303,6 +20772,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 800, surcharge: 1775, suggest: 355, speedUp: 2480 },
+    stats: { DEF: 220 },
   },
   {
     name: "Republic Garments",
@@ -20348,6 +20818,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 815, surcharge: 1810, suggest: 360, speedUp: 2480 },
+    stats: { DEF: 220, HP: 14 },
   },
   {
     name: "Djinn Robes",
@@ -20393,6 +20864,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1025, surcharge: 2280, suggest: 455, speedUp: 2790 },
+    stats: { DEF: 270 },
   },
   {
     name: "Moonlight Kimono",
@@ -20439,6 +20911,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
+    stats: { ATK: 68, DEF: 270 },
   },
   {
     name: "Tiger Emperor's Robe",
@@ -20485,6 +20958,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
+    stats: { DEF: 280, HP: 18 },
   },
   {
     name: "Exarch Robes",
@@ -20530,6 +21004,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1365, surcharge: 3030, suggest: 605, speedUp: 3465 },
+    stats: { DEF: 355 },
   },
   {
     name: "Soulbinder Regalia",
@@ -20576,6 +21051,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3465 },
+    stats: { ATK: 89, DEF: 355 },
   },
   {
     name: "Opulent Vestment",
@@ -20621,6 +21097,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
+    stats: { DEF: 355 },
   },
   {
     name: "Garb of the Primordial",
@@ -20666,6 +21143,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3645 },
+    stats: { DEF: 453 },
   },
   {
     name: "Ice Queen's Silks",
@@ -20712,6 +21190,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3645 },
+    stats: { DEF: 365, HP: 23 },
   },
   {
     name: "Voidminster Habit",
@@ -20757,6 +21236,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2010, surcharge: 4470, suggest: 895, speedUp: 4015 },
+    stats: { DEF: 450 },
   },
   {
     name: "Sturdy Cap",
@@ -20791,6 +21271,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 8 },
   },
   {
     name: "Warrior Helmet",
@@ -20829,6 +21310,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 55 },
+    stats: { DEF: 23 },
   },
   {
     name: "Horned Helm",
@@ -20867,6 +21349,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
+    stats: { DEF: 42 },
   },
   {
     name: "Raider Helm",
@@ -20905,6 +21388,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 95, suggest: 20, speedUp: 165 },
+    stats: { DEF: 56 },
   },
   {
     name: "Knight Heaume",
@@ -20948,6 +21432,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 295 },
+    stats: { DEF: 88 },
   },
   {
     name: "Brinewater Helm",
@@ -20990,6 +21475,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 335 },
+    stats: { DEF: 133 },
   },
   {
     name: "Eagle Helm",
@@ -21033,6 +21519,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
+    stats: { DEF: 96, HP: 6 },
   },
   {
     name: "Rex Chomper",
@@ -21077,6 +21564,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 375 },
+    stats: { ATK: 26, DEF: 105 },
   },
   {
     name: "Paladin Helm",
@@ -21120,6 +21608,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 120, surcharge: 265, suggest: 55, speedUp: 465 },
+    stats: { DEF: 120 },
   },
   {
     name: "Kodiak Helmet",
@@ -21164,6 +21653,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 140, surcharge: 315, suggest: 65, speedUp: 515 },
+    stats: { DEF: 130, HP: 8 },
   },
   {
     name: "Fire Nation Helm",
@@ -21208,6 +21698,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 320, suggest: 65, speedUp: 565 },
+    stats: { ATK: 35, DEF: 140 },
   },
   {
     name: "Crown of Tyranny",
@@ -21252,6 +21743,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 565 },
+    stats: { DEF: 140, HP: 9 },
   },
   {
     name: "Samurai Kabuto",
@@ -21295,6 +21787,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 210, surcharge: 465, suggest: 95, speedUp: 675 },
+    stats: { DEF: 160 },
   },
   {
     name: "Gladiator Helm",
@@ -21339,6 +21832,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 240, surcharge: 535, suggest: 105, speedUp: 735 },
+    stats: { DEF: 170, HP: 11 },
   },
   {
     name: "Sandcastle Protector",
@@ -21382,6 +21876,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 250, surcharge: 550, suggest: 110, speedUp: 735 },
+    stats: { ATK: 43, DEF: 170 },
   },
   {
     name: "General Heaume",
@@ -21425,6 +21920,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 860 },
+    stats: { DEF: 190 },
   },
   {
     name: "Crusader Helmet",
@@ -21469,6 +21965,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 315, surcharge: 700, suggest: 140, speedUp: 925 },
+    stats: { DEF: 237 },
   },
   {
     name: "Warlord Helmet",
@@ -21514,6 +22011,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 355, surcharge: 785, suggest: 155, speedUp: 995 },
+    stats: { DEF: 210, HP: 13 },
   },
   {
     name: "Berserker Helmet",
@@ -21558,6 +22056,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 400, surcharge: 885, suggest: 175, speedUp: 1065 },
+    stats: { DEF: 220 },
   },
   {
     name: "Centurion Helmet",
@@ -21603,6 +22102,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 58, DEF: 230 },
   },
   {
     name: "Juggernaut Furnace",
@@ -21648,6 +22148,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 800, surcharge: 1780, suggest: 355, speedUp: 2335 },
+    stats: { DEF: 250 },
   },
   {
     name: "Gobble Lord Helm",
@@ -21694,6 +22195,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 850, surcharge: 1885, suggest: 375, speedUp: 2480 },
+    stats: { DEF: 260, HP: 16 },
   },
   {
     name: "Opulent Heaume",
@@ -21739,6 +22241,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 975, surcharge: 2170, suggest: 435, speedUp: 2480 },
+    stats: { DEF: 260 },
   },
   {
     name: "Celesteel Heaume",
@@ -21784,6 +22287,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 970, surcharge: 2155, suggest: 430, speedUp: 2790 },
+    stats: { DEF: 325 },
   },
   {
     name: "Canid Helmet",
@@ -21830,6 +22334,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
+    stats: { ATK: 81, DEF: 325 },
   },
   {
     name: "Cupid's Heaume",
@@ -21876,6 +22381,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1160, surcharge: 2580, suggest: 515, speedUp: 2950 },
+    stats: { DEF: 340, HP: 21 },
   },
   {
     name: "Vermilion Guard Helm",
@@ -21921,6 +22427,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
+    stats: { DEF: 410 },
   },
   {
     name: "Onyx King Helm",
@@ -21967,6 +22474,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3290 },
+    stats: { ATK: 103, DEF: 410 },
   },
   {
     name: "Thorn Baron Helm",
@@ -22013,6 +22521,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
+    stats: { DEF: 425, HP: 27 },
   },
   {
     name: "Balefire Gaze",
@@ -22058,6 +22567,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1965, surcharge: 4370, suggest: 875, speedUp: 3830 },
+    stats: { DEF: 525 },
   },
   {
     name: "Taishōgun Kabuto",
@@ -22104,6 +22614,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1995, surcharge: 4430, suggest: 885, speedUp: 3830 },
+    stats: { ATK: 131, DEF: 525 },
   },
   {
     name: "Leather Cap",
@@ -22138,6 +22649,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 8 },
   },
   {
     name: "Canopy Cap",
@@ -22176,6 +22688,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
+    stats: { DEF: 31 },
   },
   {
     name: "Brimmed Hat",
@@ -22211,6 +22724,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { DEF: 16 },
   },
   {
     name: "Feathered Hat",
@@ -22249,6 +22763,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 50, suggest: 10, speedUp: 90 },
+    stats: { DEF: 32 },
   },
   {
     name: "Tricorn",
@@ -22288,6 +22803,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 35, surcharge: 80, suggest: 15, speedUp: 135 },
+    stats: { DEF: 44 },
   },
   {
     name: "Silk Hood",
@@ -22328,6 +22844,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 145, suggest: 30, speedUp: 260 },
+    stats: { DEF: 72 },
   },
   {
     name: "Santa's Elf Hat",
@@ -22368,6 +22885,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 295 },
+    stats: { DEF: 80, HP: 5 },
   },
   {
     name: "Pharaoh's Nemes",
@@ -22409,6 +22927,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 295 },
+    stats: { ATK: 20, DEF: 80 },
   },
   {
     name: "Pirate Hat",
@@ -22452,6 +22971,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 420 },
+    stats: { DEF: 100 },
   },
   {
     name: "Lovely Hat",
@@ -22496,6 +23016,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 465 },
+    stats: { DEF: 110, HP: 7 },
   },
   {
     name: "Night Cowl",
@@ -22539,6 +23060,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 185, surcharge: 410, suggest: 80, speedUp: 620 },
+    stats: { DEF: 135 },
   },
   {
     name: "Nomad Veil",
@@ -22582,6 +23104,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 220, surcharge: 485, suggest: 95, speedUp: 675 },
+    stats: { DEF: 177 },
   },
   {
     name: "Harvester's Hood",
@@ -22625,6 +23148,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 250, surcharge: 550, suggest: 110, speedUp: 735 },
+    stats: { ATK: 38, DEF: 150 },
   },
   {
     name: "Windrunner Hat",
@@ -22669,6 +23193,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 860 },
+    stats: { DEF: 170 },
   },
   {
     name: "Blue Spirit Mask",
@@ -22714,6 +23239,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 925 },
+    stats: { ATK: 44, DEF: 175 },
   },
   {
     name: "Musketeer Hat",
@@ -22759,6 +23285,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 350, surcharge: 780, suggest: 155, speedUp: 925 },
+    stats: { DEF: 175, HP: 15 },
   },
   {
     name: "Drakeskin Mask",
@@ -22803,6 +23330,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1140 },
+    stats: { DEF: 205 },
   },
   {
     name: "Storm Dragon Mask",
@@ -22847,6 +23375,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 420, surcharge: 930, suggest: 185, speedUp: 1220 },
+    stats: { DEF: 263 },
   },
   {
     name: "Grand Tyrolean",
@@ -22892,6 +23421,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 455, surcharge: 1015, suggest: 205, speedUp: 1220 },
+    stats: { ATK: 54, DEF: 215 },
   },
   {
     name: "Corsair Tricorn",
@@ -22937,6 +23467,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 805, surcharge: 1790, suggest: 360, speedUp: 2335 },
+    stats: { DEF: 225 },
   },
   {
     name: "Republic Coiffe",
@@ -22982,6 +23513,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 815, surcharge: 1815, suggest: 365, speedUp: 2480 },
+    stats: { DEF: 235, HP: 15 },
   },
   {
     name: "Everdusk Cowl",
@@ -23027,6 +23559,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 990, surcharge: 2195, suggest: 440, speedUp: 2790 },
+    stats: { DEF: 290 },
   },
   {
     name: "Abyssal Hood",
@@ -23072,6 +23605,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
+    stats: { DEF: 338 },
   },
   {
     name: "Rogue Sombrero",
@@ -23118,6 +23652,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2790 },
+    stats: { ATK: 73, DEF: 290 },
   },
   {
     name: "Cat Burglar Hood",
@@ -23164,6 +23699,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2950 },
+    stats: { DEF: 300, HP: 19 },
   },
   {
     name: "Opulent Sallet",
@@ -23209,6 +23745,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
+    stats: { DEF: 300 },
   },
   {
     name: "Dawn Thief Cowl",
@@ -23254,6 +23791,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1420, surcharge: 3150, suggest: 630, speedUp: 3290 },
+    stats: { DEF: 365 },
   },
   {
     name: "Bunbun Masquerade",
@@ -23300,6 +23838,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3290 },
+    stats: { ATK: 91, DEF: 365 },
   },
   {
     name: "Dragonseeker Goggles",
@@ -23346,6 +23885,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
+    stats: { DEF: 380, HP: 24 },
   },
   {
     name: "Kitsune Spirit Mask",
@@ -23392,6 +23932,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3465 },
+    stats: { ATK: 95, DEF: 380 },
   },
   {
     name: "Hooded Iggaak",
@@ -23438,6 +23979,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2020, surcharge: 4490, suggest: 900, speedUp: 3830 },
+    stats: { DEF: 465, HP: 29 },
   },
   {
     name: "Wildhunt Skull",
@@ -23483,6 +24025,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
+    stats: { DEF: 465 },
   },
   {
     name: "Stitched Cone",
@@ -23517,6 +24060,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 7 },
   },
   {
     name: "Black Cowl",
@@ -23552,6 +24096,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { DEF: 15 },
   },
   {
     name: "Druid Laurels",
@@ -23591,6 +24136,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 90 },
+    stats: { DEF: 29 },
   },
   {
     name: "Apprentice Tiara",
@@ -23630,6 +24176,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 35, surcharge: 75, suggest: 15, speedUp: 110 },
+    stats: { DEF: 34, HP: 2 },
   },
   {
     name: "Bronze Circlet",
@@ -23669,6 +24216,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 35, surcharge: 80, suggest: 15, speedUp: 135 },
+    stats: { DEF: 39 },
   },
   {
     name: "Wizard Hat",
@@ -23713,6 +24261,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 150, suggest: 30, speedUp: 260 },
+    stats: { DEF: 64 },
   },
   {
     name: "Hat of the Four Winds",
@@ -23755,6 +24304,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 175, suggest: 35, speedUp: 295 },
+    stats: { DEF: 107 },
   },
   {
     name: "Ostara Hat",
@@ -23800,6 +24350,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 195, suggest: 40, speedUp: 335 },
+    stats: { ATK: 19, DEF: 76 },
   },
   {
     name: "Witch Hat",
@@ -23844,6 +24395,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 420 },
+    stats: { DEF: 90 },
   },
   {
     name: "Waterproof Lilycap",
@@ -23888,6 +24440,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 260, suggest: 50, speedUp: 465 },
+    stats: { ATK: 25, DEF: 98 },
   },
   {
     name: "Owl Cowl",
@@ -23933,6 +24486,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
+    stats: { DEF: 105, HP: 7 },
   },
   {
     name: "Tactician Hat",
@@ -23975,6 +24529,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 180, surcharge: 400, suggest: 80, speedUp: 620 },
+    stats: { DEF: 120 },
   },
   {
     name: "Summoner Hat",
@@ -24018,6 +24573,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 675 },
+    stats: { ATK: 31, DEF: 125 },
   },
   {
     name: "Ivory Queen Crown",
@@ -24062,6 +24618,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 675 },
+    stats: { DEF: 125, HP: 8 },
   },
   {
     name: "Shaman Hat",
@@ -24106,6 +24663,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
+    stats: { DEF: 150 },
   },
   {
     name: "Luxurious Headdress",
@@ -24150,6 +24708,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 340, surcharge: 760, suggest: 150, speedUp: 1065 },
+    stats: { DEF: 170 },
   },
   {
     name: "Astral Hat",
@@ -24194,6 +24753,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 400, surcharge: 885, suggest: 175, speedUp: 1140 },
+    stats: { DEF: 180 },
   },
   {
     name: "Raven Mask",
@@ -24239,6 +24799,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
+    stats: { ATK: 48, DEF: 190 },
   },
   {
     name: "Spellward Hat",
@@ -24284,6 +24845,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1220 },
+    stats: { DEF: 190, HP: 12 },
   },
   {
     name: "Opal Diadem",
@@ -24329,6 +24891,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 800, surcharge: 1780, suggest: 355, speedUp: 2335 },
+    stats: { DEF: 195 },
   },
   {
     name: "Night Crown",
@@ -24375,6 +24938,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 845, surcharge: 1880, suggest: 375, speedUp: 2335 },
+    stats: { ATK: 49, DEF: 195 },
   },
   {
     name: "Djinn Veil",
@@ -24420,6 +24984,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1060, surcharge: 2355, suggest: 470, speedUp: 2790 },
+    stats: { DEF: 255 },
   },
   {
     name: "Elegant Top Hat",
@@ -24466,6 +25031,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2790 },
+    stats: { DEF: 255, HP: 16 },
   },
   {
     name: "Ice Queen's Summer Hat",
@@ -24512,6 +25078,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1195, surcharge: 2650, suggest: 530, speedUp: 2950 },
+    stats: { ATK: 66, DEF: 265 },
   },
   {
     name: "Exarch Mitre",
@@ -24557,6 +25124,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1350, surcharge: 3000, suggest: 600, speedUp: 3290 },
+    stats: { DEF: 320 },
   },
   {
     name: "Sakura Eboshi",
@@ -24603,6 +25171,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
+    stats: { DEF: 320, HP: 20 },
   },
   {
     name: "Opulent Headdress",
@@ -24648,6 +25217,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
+    stats: { DEF: 320 },
   },
   {
     name: "Phoenix Crest",
@@ -24693,6 +25263,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3465 },
+    stats: { DEF: 418 },
   },
   {
     name: "Empress Hairpins",
@@ -24739,6 +25310,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3465 },
+    stats: { ATK: 96, DEF: 363 },
   },
   {
     name: "Voidminster Hat",
@@ -24784,6 +25356,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
+    stats: { DEF: 410 },
   },
   {
     name: "Elysium Halo",
@@ -24829,6 +25402,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2030, surcharge: 4510, suggest: 900, speedUp: 3830 },
+    stats: { DEF: 498 },
   },
   {
     name: "Iron Armguards",
@@ -24863,6 +25437,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 7 },
   },
   {
     name: "Plated Gauntlets",
@@ -24901,6 +25476,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 35, suggest: 5, speedUp: 55 },
+    stats: { DEF: 20 },
   },
   {
     name: "Warrior Gauntlets",
@@ -24940,6 +25516,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
+    stats: { DEF: 36 },
   },
   {
     name: "Demi Gauntlets",
@@ -24980,6 +25557,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 50, surcharge: 110, suggest: 20, speedUp: 190 },
+    stats: { DEF: 54 },
   },
   {
     name: "Pumpkin Gauntlets",
@@ -25020,6 +25598,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
+    stats: { ATK: 16, DEF: 62 },
   },
   {
     name: "Knight Gauntlets",
@@ -25062,6 +25641,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
+    stats: { DEF: 82 },
   },
   {
     name: "Santa's Guard Gauntlets",
@@ -25105,6 +25685,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 375 },
+    stats: { DEF: 88, HP: 6 },
   },
   {
     name: "Hands of the Fifth",
@@ -25148,6 +25729,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 420 },
+    stats: { ATK: 24, DEF: 96 },
   },
   {
     name: "Paladin Gauntlets",
@@ -25192,6 +25774,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 110, surcharge: 245, suggest: 50, speedUp: 465 },
+    stats: { DEF: 105 },
   },
   {
     name: "Sungrasp Gauntlets",
@@ -25234,6 +25817,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
+    stats: { DEF: 147 },
   },
   {
     name: "Landsknecht Gauntlets",
@@ -25275,6 +25859,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 160, surcharge: 355, suggest: 70, speedUp: 515 },
+    stats: { DEF: 110, HP: 7 },
   },
   {
     name: "Samurai Kote",
@@ -25318,6 +25903,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 620 },
+    stats: { DEF: 125 },
   },
   {
     name: "Republic Gauntlets",
@@ -25362,6 +25948,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 205, surcharge: 460, suggest: 90, speedUp: 675 },
+    stats: { DEF: 135, HP: 8 },
   },
   {
     name: "Fruity Gauntlets",
@@ -25406,6 +25993,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 215, surcharge: 480, suggest: 95, speedUp: 735 },
+    stats: { ATK: 35, DEF: 140 },
   },
   {
     name: "General Gauntlets",
@@ -25450,6 +26038,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 925 },
+    stats: { DEF: 165 },
   },
   {
     name: "Berserker Gauntlets",
@@ -25494,6 +26083,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
+    stats: { DEF: 185 },
   },
   {
     name: "Luxurious Gauntlets",
@@ -25538,6 +26128,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 380, surcharge: 840, suggest: 170, speedUp: 1140 },
+    stats: { DEF: 190 },
   },
   {
     name: "Juggernaut Grip",
@@ -25583,6 +26174,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 800, surcharge: 1780, suggest: 355, speedUp: 2335 },
+    stats: { DEF: 210 },
   },
   {
     name: "Winter's Touch",
@@ -25629,6 +26221,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 830, surcharge: 1845, suggest: 370, speedUp: 2480 },
+    stats: { ATK: 55, DEF: 220 },
   },
   {
     name: "Celesteel Gauntlets",
@@ -25674,6 +26267,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 970, surcharge: 2155, suggest: 430, speedUp: 2790 },
+    stats: { DEF: 270 },
   },
   {
     name: "Gaia's Hold",
@@ -25720,6 +26314,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
+    stats: { DEF: 270, HP: 17 },
   },
   {
     name: "Vanguard Gauntlets",
@@ -25766,6 +26361,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1080, surcharge: 2395, suggest: 480, speedUp: 2950 },
+    stats: { ATK: 70, DEF: 280 },
   },
   {
     name: "Huscarl Gauntlets",
@@ -25812,6 +26408,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
+    stats: { DEF: 280, HP: 18 },
   },
   {
     name: "Vermilion Guard Might",
@@ -25857,6 +26454,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1365, surcharge: 3030, suggest: 605, speedUp: 3465 },
+    stats: { DEF: 355 },
   },
   {
     name: "Goon's Facesmackers",
@@ -25903,6 +26501,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3465 },
+    stats: { ATK: 89, DEF: 355 },
   },
   {
     name: "Opulent Dracofists",
@@ -25948,6 +26547,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
+    stats: { DEF: 355 },
   },
   {
     name: "Tyrant Fists",
@@ -25994,6 +26594,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3645 },
+    stats: { DEF: 365, HP: 23 },
   },
   {
     name: "Balefire Gauntlets",
@@ -26039,6 +26640,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 3830 },
+    stats: { DEF: 435 },
   },
   {
     name: "Power Gauntlet",
@@ -26085,6 +26687,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2010, surcharge: 4470, suggest: 895, speedUp: 3830 },
+    stats: { ATK: 116, DEF: 435 },
   },
   {
     name: "Leather Gloves",
@@ -26120,6 +26723,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 7 },
   },
   {
     name: "Bracers",
@@ -26155,6 +26759,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { DEF: 14 },
   },
   {
     name: "Thief's Gloves",
@@ -26193,6 +26798,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { DEF: 22 },
   },
   {
     name: "Swift Mitts",
@@ -26232,6 +26838,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
+    stats: { DEF: 47 },
   },
   {
     name: "Patchleather Bracers",
@@ -26272,6 +26879,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 135 },
+    stats: { DEF: 37, EVA: 0.05 },
   },
   {
     name: "Studded Gloves",
@@ -26311,6 +26919,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 100, suggest: 20, speedUp: 165 },
+    stats: { DEF: 42 },
   },
   {
     name: "Regal Bangles",
@@ -26355,6 +26964,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 55, surcharge: 120, suggest: 25, speedUp: 225 },
+    stats: { DEF: 54, HP: 3 },
   },
   {
     name: "Elven Vambraces",
@@ -26394,6 +27004,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 295 },
+    stats: { DEF: 66 },
   },
   {
     name: "Ostara Gloves",
@@ -26434,6 +27045,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 205, suggest: 40, speedUp: 335 },
+    stats: { ATK: 18, DEF: 72 },
   },
   {
     name: "Savage Claws",
@@ -26478,6 +27090,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 420 },
+    stats: { DEF: 84 },
   },
   {
     name: "Black Wyrm Claws",
@@ -26522,6 +27135,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 125, surcharge: 275, suggest: 55, speedUp: 515 },
+    stats: { DEF: 135 },
   },
   {
     name: "Ninja Gloves",
@@ -26565,6 +27179,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 185, surcharge: 410, suggest: 80, speedUp: 620 },
+    stats: { DEF: 110 },
   },
   {
     name: "Cat Burglar Claws",
@@ -26609,6 +27224,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 215, surcharge: 480, suggest: 95, speedUp: 675 },
+    stats: { ATK: 29, DEF: 115 },
   },
   {
     name: "Windrunner Gloves",
@@ -26653,6 +27269,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 295, surcharge: 655, suggest: 130, speedUp: 860 },
+    stats: { DEF: 140 },
   },
   {
     name: "Sakura Cuffs",
@@ -26698,6 +27315,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 300, surcharge: 665, suggest: 135, speedUp: 925 },
+    stats: { DEF: 145, HP: 9 },
   },
   {
     name: "Drakeskin Gloves",
@@ -26742,6 +27360,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
+    stats: { DEF: 160 },
   },
   {
     name: "Mountain Man Mitts",
@@ -26787,6 +27406,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 995, suggest: 200, speedUp: 1140 },
+    stats: { DEF: 170, EVA: 0.05 },
   },
   {
     name: "Corsair Gloves",
@@ -26832,6 +27452,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 810, surcharge: 1795, suggest: 360, speedUp: 2335 },
+    stats: { DEF: 185 },
   },
   {
     name: "Fortunate Gloves",
@@ -26878,6 +27499,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2480 },
+    stats: { ATK: 48, DEF: 190 },
   },
   {
     name: "Opulent Grasp",
@@ -26923,6 +27545,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1005, surcharge: 2230, suggest: 445, speedUp: 2480 },
+    stats: { DEF: 190 },
   },
   {
     name: "Everdusk Gloves",
@@ -26968,6 +27591,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
+    stats: { DEF: 240 },
   },
   {
     name: "Raptor Wings",
@@ -27014,6 +27638,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2790 },
+    stats: { DEF: 240, EVA: 0.05 },
   },
   {
     name: "Nightwing Vambraces",
@@ -27060,6 +27685,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
+    stats: { DEF: 245, HP: 15 },
   },
   {
     name: "Dawn Thief's Touch",
@@ -27105,6 +27731,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1350, surcharge: 3000, suggest: 600, speedUp: 3290 },
+    stats: { DEF: 300 },
   },
   {
     name: "Swindler's Fingers",
@@ -27150,6 +27777,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3465 },
+    stats: { DEF: 398 },
   },
   {
     name: "Gloves of Rhythm",
@@ -27196,6 +27824,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1405, surcharge: 3120, suggest: 625, speedUp: 3290 },
+    stats: { ATK: 75, DEF: 300 },
   },
   {
     name: "Gants d'Artagnan",
@@ -27242,6 +27871,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3465 },
+    stats: { DEF: 310, EVA: 0.07 },
   },
   {
     name: "Wildhunt Gloves",
@@ -27287,6 +27917,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 3830 },
+    stats: { DEF: 380 },
   },
   {
     name: "Shin Guards",
@@ -27321,6 +27952,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 8 },
   },
   {
     name: "Long Boots",
@@ -27359,6 +27991,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { DEF: 17 },
   },
   {
     name: "Iron Greaves",
@@ -27397,6 +28030,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { DEF: 28 },
   },
   {
     name: "Hero's Boots",
@@ -27436,6 +28070,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 90 },
+    stats: { DEF: 34, HP: 2 },
   },
   {
     name: "Reinforced Greaves",
@@ -27475,6 +28110,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 35, surcharge: 80, suggest: 15, speedUp: 135 },
+    stats: { DEF: 47 },
   },
   {
     name: "Plated Squeakers",
@@ -27516,6 +28152,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 100, suggest: 20, speedUp: 165 },
+    stats: { DEF: 54, HP: 3 },
   },
   {
     name: "Knight Sollerets",
@@ -27555,6 +28192,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 150, suggest: 30, speedUp: 295 },
+    stats: { DEF: 84 },
   },
   {
     name: "Cindersole",
@@ -27595,6 +28233,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 180, suggest: 35, speedUp: 335 },
+    stats: { DEF: 129 },
   },
   {
     name: "Warlord Boots",
@@ -27636,6 +28275,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 375 },
+    stats: { ATK: 25, DEF: 100 },
   },
   {
     name: "Paladin Boots",
@@ -27680,6 +28320,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 250, suggest: 50, speedUp: 465 },
+    stats: { DEF: 115 },
   },
   {
     name: "Canid Paws",
@@ -27723,6 +28364,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 125, surcharge: 280, suggest: 55, speedUp: 515 },
+    stats: { ATK: 31, DEF: 125 },
   },
   {
     name: "Samurai Haidate",
@@ -27767,6 +28409,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 190, surcharge: 420, suggest: 85, speedUp: 620 },
+    stats: { DEF: 140 },
   },
   {
     name: "Topaz Greaves",
@@ -27810,6 +28453,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 210, surcharge: 465, suggest: 95, speedUp: 735 },
+    stats: { DEF: 160, HP: 10 },
   },
   {
     name: "General Greaves",
@@ -27854,6 +28498,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
+    stats: { DEF: 180 },
   },
   {
     name: "Berserker Stompers",
@@ -27898,6 +28543,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 390, surcharge: 865, suggest: 175, speedUp: 1065 },
+    stats: { DEF: 205 },
   },
   {
     name: "Luxurious Boots",
@@ -27942,6 +28588,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 405, surcharge: 895, suggest: 180, speedUp: 1140 },
+    stats: { DEF: 215 },
   },
   {
     name: "Vanguard Greaves",
@@ -27987,6 +28634,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 445, surcharge: 990, suggest: 200, speedUp: 1220 },
+    stats: { DEF: 225, HP: 14 },
   },
   {
     name: "Juggernaut Greaves",
@@ -28032,6 +28680,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 815, surcharge: 1815, suggest: 365, speedUp: 2335 },
+    stats: { DEF: 235 },
   },
   {
     name: "Bunbun Booties",
@@ -28077,6 +28726,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 845, surcharge: 1880, suggest: 375, speedUp: 2480 },
+    stats: { ATK: 61, DEF: 245 },
   },
   {
     name: "Greaves of the Fifth",
@@ -28123,6 +28773,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 865, surcharge: 1920, suggest: 385, speedUp: 2480 },
+    stats: { DEF: 245, HP: 15 },
   },
   {
     name: "Celesteel Boots",
@@ -28168,6 +28819,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 990, surcharge: 2195, suggest: 440, speedUp: 2790 },
+    stats: { DEF: 305 },
   },
   {
     name: "Star-Spangled Greaves",
@@ -28214,6 +28866,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2790 },
+    stats: { DEF: 305, HP: 19 },
   },
   {
     name: "Santa's Guard Boots",
@@ -28260,6 +28913,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
+    stats: { ATK: 80, DEF: 320 },
   },
   {
     name: "Vermilion Guard Greaves",
@@ -28305,6 +28959,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1390, surcharge: 3090, suggest: 620, speedUp: 3290 },
+    stats: { DEF: 385 },
   },
   {
     name: "Boots of Zeal",
@@ -28350,6 +29005,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1420, surcharge: 3150, suggest: 630, speedUp: 3465 },
+    stats: { DEF: 488 },
   },
   {
     name: "Fruity Booties",
@@ -28396,6 +29052,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3465 },
+    stats: { DEF: 400, HP: 25 },
   },
   {
     name: "Opulent Greaves",
@@ -28441,6 +29098,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1475, surcharge: 3280, suggest: 655, speedUp: 3465 },
+    stats: { DEF: 400 },
   },
   {
     name: "Rex Stompers",
@@ -28487,6 +29145,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
+    stats: { ATK: 100, DEF: 400 },
   },
   {
     name: "Balefire Greaves",
@@ -28532,6 +29191,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 3830 },
+    stats: { DEF: 495 },
   },
   {
     name: "Leather Boots",
@@ -28567,6 +29227,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 5, surcharge: 15, suggest: 5, speedUp: 15 },
+    stats: { DEF: 7 },
   },
   {
     name: "Trailblazers",
@@ -28602,6 +29263,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 15, surcharge: 30, suggest: 5, speedUp: 40 },
+    stats: { DEF: 30 },
   },
   {
     name: "Flip-Flops",
@@ -28637,6 +29299,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 25, suggest: 5, speedUp: 40 },
+    stats: { DEF: 15 },
   },
   {
     name: "Soft Shoes",
@@ -28675,6 +29338,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { DEF: 25 },
   },
   {
     name: "Legionnaire Sandals",
@@ -28714,6 +29378,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 90 },
+    stats: { ATK: 8, DEF: 30 },
   },
   {
     name: "Thief's Shoes",
@@ -28753,6 +29418,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 165 },
+    stats: { DEF: 48 },
   },
   {
     name: "Perennial Sandals",
@@ -28793,6 +29459,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 55, surcharge: 120, suggest: 25, speedUp: 190 },
+    stats: { DEF: 54, HP: 3 },
   },
   {
     name: "Elven Shoes",
@@ -28833,6 +29500,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 260 },
+    stats: { DEF: 68 },
   },
   {
     name: "Moonlight Zōri",
@@ -28874,6 +29542,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 85, surcharge: 190, suggest: 40, speedUp: 295 },
+    stats: { DEF: 74, HP: 5 },
   },
   {
     name: "Savage Stride",
@@ -28918,6 +29587,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 105, surcharge: 235, suggest: 45, speedUp: 420 },
+    stats: { DEF: 96 },
   },
   {
     name: "Sakura Tabi",
@@ -28963,6 +29633,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 255, suggest: 50, speedUp: 465 },
+    stats: { DEF: 105, HP: 6 },
   },
   {
     name: "Sultan Steps",
@@ -29007,6 +29678,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
+    stats: { ATK: 28, DEF: 110 },
   },
   {
     name: "Compact Snowshoes",
@@ -29051,6 +29723,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 140, surcharge: 315, suggest: 65, speedUp: 515 },
+    stats: { DEF: 110, HP: 7 },
   },
   {
     name: "Ninja Tabi",
@@ -29094,6 +29767,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 175, surcharge: 385, suggest: 75, speedUp: 565 },
+    stats: { DEF: 120 },
   },
   {
     name: "Nightwing Shoes",
@@ -29138,6 +29812,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 200, surcharge: 445, suggest: 90, speedUp: 620 },
+    stats: { DEF: 125, EVA: 0.05 },
   },
   {
     name: "Windrunner Boots",
@@ -29182,6 +29857,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 295, surcharge: 655, suggest: 130, speedUp: 860 },
+    stats: { DEF: 160 },
   },
   {
     name: "Alpine Stride",
@@ -29226,6 +29902,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 330, surcharge: 735, suggest: 145, speedUp: 925 },
+    stats: { DEF: 202 },
   },
   {
     name: "Drakeskin Boots",
@@ -29270,6 +29947,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1065 },
+    stats: { DEF: 185 },
   },
   {
     name: "Plaguewalkers",
@@ -29314,6 +29992,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 910, suggest: 180, speedUp: 1140 },
+    stats: { DEF: 238 },
   },
   {
     name: "Shoes of Style",
@@ -29359,6 +30038,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1005, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 48, DEF: 190 },
   },
   {
     name: "Corsair Boots",
@@ -29404,6 +30084,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 805, surcharge: 1790, suggest: 360, speedUp: 2335 },
+    stats: { DEF: 210 },
   },
   {
     name: "Cloudwalker Steps",
@@ -29450,6 +30131,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2480 },
+    stats: { DEF: 220, HP: 14 },
   },
   {
     name: "Everdusk Boots",
@@ -29495,6 +30177,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1025, surcharge: 2280, suggest: 455, speedUp: 2790 },
+    stats: { DEF: 270 },
   },
   {
     name: "Raptor Talons",
@@ -29541,6 +30224,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2790 },
+    stats: { ATK: 68, DEF: 270 },
   },
   {
     name: "Opulent Footwraps",
@@ -29586,6 +30270,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1080, surcharge: 2405, suggest: 480, speedUp: 2790 },
+    stats: { DEF: 270 },
   },
   {
     name: "Dawn Thief's Path",
@@ -29631,6 +30316,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
+    stats: { DEF: 345 },
   },
   {
     name: "Desperado Spurs",
@@ -29677,6 +30363,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
+    stats: { DEF: 345, HP: 21 },
   },
   {
     name: "Hunter Moccasins",
@@ -29723,6 +30410,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
+    stats: { DEF: 355, EVA: 0.07 },
   },
   {
     name: "Fairy Sandals",
@@ -29769,6 +30457,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1490, surcharge: 3315, suggest: 665, speedUp: 3465 },
+    stats: { ATK: 89, DEF: 355 },
   },
   {
     name: "Wildhunt Sandals",
@@ -29814,6 +30503,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2020, surcharge: 4490, suggest: 900, speedUp: 3830 },
+    stats: { DEF: 435 },
   },
   {
     name: "Wooden Shield",
@@ -29848,6 +30538,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 10, surcharge: 20, suggest: 5, speedUp: 25 },
+    stats: { DEF: 12 },
   },
   {
     name: "Heavy Buckler",
@@ -29886,6 +30577,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 70 },
+    stats: { DEF: 28 },
   },
   {
     name: "Oaken Shield",
@@ -29925,6 +30617,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
+    stats: { DEF: 40 },
   },
   {
     name: "Iron Shield",
@@ -29964,6 +30657,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 100, suggest: 20, speedUp: 190 },
+    stats: { DEF: 62 },
   },
   {
     name: "Aurum Ward",
@@ -30003,6 +30697,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
+    stats: { DEF: 83 },
   },
   {
     name: "Teardrop Shield",
@@ -30046,6 +30741,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 295 },
+    stats: { DEF: 84 },
   },
   {
     name: "Imperial Scutum",
@@ -30090,6 +30786,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 200, suggest: 40, speedUp: 335 },
+    stats: { DEF: 92, HP: 6 },
   },
   {
     name: "Champion Vigil",
@@ -30134,6 +30831,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 220, suggest: 45, speedUp: 375 },
+    stats: { DEF: 100, HP: 6 },
   },
   {
     name: "Mythril Aspis",
@@ -30177,6 +30875,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 420 },
+    stats: { DEF: 105 },
   },
   {
     name: "Raider Buckler",
@@ -30221,6 +30920,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 125, surcharge: 275, suggest: 55, speedUp: 465 },
+    stats: { ATK: 29, DEF: 115 },
   },
   {
     name: "Gaia Aegis",
@@ -30265,6 +30965,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 140, surcharge: 310, suggest: 60, speedUp: 515 },
+    stats: { DEF: 125, HP: 8 },
   },
   {
     name: "Wyrmguard",
@@ -30309,6 +31010,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 185, surcharge: 410, suggest: 80, speedUp: 620 },
+    stats: { DEF: 140 },
   },
   {
     name: "Vanguard Buckler",
@@ -30354,6 +31056,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 735 },
+    stats: { DEF: 160, EVA: 0.05 },
   },
   {
     name: "Ancestor Totem",
@@ -30398,6 +31101,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
+    stats: { DEF: 180 },
   },
   {
     name: "Angelic Pavise",
@@ -30442,6 +31146,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 395, surcharge: 880, suggest: 175, speedUp: 1065 },
+    stats: { DEF: 205 },
   },
   {
     name: "Prometheon",
@@ -30486,6 +31191,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 420, surcharge: 930, suggest: 185, speedUp: 1140 },
+    stats: { DEF: 263 },
   },
   {
     name: "Milesian Shield",
@@ -30531,6 +31237,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 430, surcharge: 955, suggest: 190, speedUp: 1140 },
+    stats: { DEF: 215, HP: 14 },
   },
   {
     name: "Bunbun Buckler",
@@ -30576,6 +31283,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 440, surcharge: 975, suggest: 195, speedUp: 1140 },
+    stats: { DEF: 215, EVA: 0.05 },
   },
   {
     name: "Luxurious Aegis",
@@ -30620,6 +31328,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 400, surcharge: 890, suggest: 180, speedUp: 1220 },
+    stats: { DEF: 225 },
   },
   {
     name: "Goldmane Guard",
@@ -30665,6 +31374,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 810, surcharge: 1795, suggest: 360, speedUp: 2335 },
+    stats: { DEF: 235 },
   },
   {
     name: "Emperor Wyrmguard",
@@ -30711,6 +31421,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1855, suggest: 370, speedUp: 2480 },
+    stats: { DEF: 245, HP: 15 },
   },
   {
     name: "Bearded Paragon",
@@ -30756,6 +31467,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1005, surcharge: 2235, suggest: 445, speedUp: 2790 },
+    stats: { DEF: 305 },
   },
   {
     name: "Honeycomb Defender",
@@ -30802,6 +31514,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
+    stats: { DEF: 305, HP: 19 },
   },
   {
     name: "Crystalice Targe",
@@ -30848,6 +31561,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1210, surcharge: 2685, suggest: 535, speedUp: 2950 },
+    stats: { ATK: 80, DEF: 320 },
   },
   {
     name: "Abyssal Artifact",
@@ -30893,6 +31607,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1375, surcharge: 3060, suggest: 610, speedUp: 3290 },
+    stats: { DEF: 385 },
   },
   {
     name: "Titan Shield",
@@ -30939,6 +31654,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3290 },
+    stats: { DEF: 385, HP: 24 },
   },
   {
     name: "Opulent Buckler",
@@ -30984,6 +31700,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3290 },
+    stats: { DEF: 385 },
   },
   {
     name: "Bastion of Dawn",
@@ -31030,6 +31747,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3465 },
+    stats: { ATK: 100, DEF: 400 },
   },
   {
     name: "Elongo Shield",
@@ -31076,6 +31794,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3465 },
+    stats: { DEF: 400, HP: 29 },
   },
   {
     name: "Chloroshield",
@@ -31121,6 +31840,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1965, surcharge: 4370, suggest: 875, speedUp: 3830 },
+    stats: { DEF: 495 },
   },
   {
     name: "Mundra's Aegis",
@@ -31167,6 +31887,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1985, surcharge: 4410, suggest: 880, speedUp: 4015 },
+    stats: { DEF: 559, HP: 53 },
   },
   {
     name: "Adventurer Cape",
@@ -31205,6 +31926,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 90, suggest: 20, speedUp: 110 },
+    stats: { DEF: 52 },
   },
   {
     name: "Administrator Cloak",
@@ -31246,6 +31968,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 190 },
+    stats: { DEF: 78 },
   },
   {
     name: "Druid Cloak",
@@ -31291,6 +32014,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 295 },
+    stats: { DEF: 105 },
   },
   {
     name: "Imperial Cape",
@@ -31335,6 +32059,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 145, surcharge: 325, suggest: 65, speedUp: 420 },
+    stats: { DEF: 140 },
   },
   {
     name: "Vampire Wings",
@@ -31379,6 +32104,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 180, surcharge: 400, suggest: 80, speedUp: 465 },
+    stats: { ATK: 38, DEF: 150 },
   },
   {
     name: "Elven Cloak",
@@ -31423,6 +32149,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 230, surcharge: 515, suggest: 105, speedUp: 620 },
+    stats: { DEF: 185 },
   },
   {
     name: "Beast King's Cloak",
@@ -31467,6 +32194,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 290, surcharge: 640, suggest: 130, speedUp: 860 },
+    stats: { DEF: 230 },
   },
   {
     name: "Dragonlord Crest",
@@ -31512,6 +32240,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 435, surcharge: 965, suggest: 195, speedUp: 1065 },
+    stats: { DEF: 270 },
   },
   {
     name: "Tyrant Cloak",
@@ -31557,6 +32286,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 460, surcharge: 1025, suggest: 205, speedUp: 1140 },
+    stats: { DEF: 280, EVA: 0.05 },
   },
   {
     name: "Archbishop Mantle",
@@ -31603,6 +32333,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 810, surcharge: 1800, suggest: 360, speedUp: 2335 },
+    stats: { DEF: 310 },
   },
   {
     name: "Voidcloth From Beyond",
@@ -31649,6 +32380,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2790 },
+    stats: { DEF: 400 },
   },
   {
     name: "Opulent Cloak",
@@ -31694,6 +32426,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1165, surcharge: 2585, suggest: 515, speedUp: 2790 },
+    stats: { DEF: 400 },
   },
   {
     name: "Woven Lilycloak",
@@ -31740,6 +32473,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1225, surcharge: 2720, suggest: 545, speedUp: 2950 },
+    stats: { DEF: 415, EVA: 0.05 },
   },
   {
     name: "Herald's Mantle",
@@ -31786,6 +32520,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3290 },
+    stats: { DEF: 505 },
   },
   {
     name: "Sakura Cloak",
@@ -31832,6 +32567,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1530, surcharge: 3395, suggest: 680, speedUp: 3290 },
+    stats: { DEF: 505, HP: 32 },
   },
   {
     name: "Fairy Wings",
@@ -31878,6 +32614,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1540, surcharge: 3420, suggest: 685, speedUp: 3465 },
+    stats: { ATK: 130, DEF: 520 },
   },
   {
     name: "Cloak Everflowing",
@@ -31924,6 +32661,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2055, surcharge: 4565, suggest: 915, speedUp: 3830 },
+    stats: { DEF: 645 },
   },
   {
     name: "Iron Ring",
@@ -31959,6 +32697,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 45, suggest: 10, speedUp: 70 },
+    stats: { ATK: 29 },
   },
   {
     name: "Alloy Loop",
@@ -31993,6 +32732,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 60, suggest: 10, speedUp: 110 },
+    stats: { ATK: 42 },
   },
   {
     name: "Ruby Ring",
@@ -32031,6 +32771,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 100, suggest: 20, speedUp: 190 },
+    stats: { ATK: 64 },
   },
   {
     name: "Emerald Ring",
@@ -32070,6 +32811,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
+    stats: { ATK: 93 },
   },
   {
     name: "Silver Band",
@@ -32109,6 +32851,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 295 },
+    stats: { ATK: 88 },
   },
   {
     name: "Ring of Passion",
@@ -32149,6 +32892,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 175, suggest: 35, speedUp: 335 },
+    stats: { ATK: 96, HP: 6 },
   },
   {
     name: "Noble Ring",
@@ -32189,6 +32933,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 90, surcharge: 195, suggest: 40, speedUp: 375 },
+    stats: { ATK: 105 },
   },
   {
     name: "Ring of Rhythm",
@@ -32230,6 +32975,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 105, surcharge: 230, suggest: 45, speedUp: 375 },
+    stats: { ATK: 105, HP: 7 },
   },
   {
     name: "Claud's Will",
@@ -32271,6 +33017,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 420 },
+    stats: { ATK: 115, DEF: 29 },
   },
   {
     name: "Knight Signet",
@@ -32315,6 +33062,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 250, suggest: 50, speedUp: 465 },
+    stats: { ATK: 120 },
   },
   {
     name: "Ring of Liberty",
@@ -32359,6 +33107,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 155, surcharge: 340, suggest: 70, speedUp: 515 },
+    stats: { ATK: 130, DEF: 33 },
   },
   {
     name: "Qian Loop",
@@ -32403,6 +33152,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 155, surcharge: 345, suggest: 70, speedUp: 515 },
+    stats: { ATK: 130, HP: 8 },
   },
   {
     name: "Batrachite Stone",
@@ -32445,6 +33195,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 175, surcharge: 390, suggest: 80, speedUp: 620 },
+    stats: { ATK: 150 },
   },
   {
     name: "Soulstone Ring",
@@ -32488,6 +33239,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 215, surcharge: 475, suggest: 95, speedUp: 675 },
+    stats: { ATK: 217 },
   },
   {
     name: "Ring of the Chosen",
@@ -32533,6 +33285,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 250, surcharge: 550, suggest: 110, speedUp: 735 },
+    stats: { ATK: 170, DEF: 43 },
   },
   {
     name: "Brimstone Coil",
@@ -32577,6 +33330,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 305, surcharge: 675, suggest: 135, speedUp: 925 },
+    stats: { ATK: 200 },
   },
   {
     name: "Ring of Vampire Kin",
@@ -32622,6 +33376,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 320, surcharge: 710, suggest: 140, speedUp: 995 },
+    stats: { ATK: 210, HP: 13 },
   },
   {
     name: "Fairfolk Band",
@@ -32666,6 +33421,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 370, surcharge: 825, suggest: 165, speedUp: 1065 },
+    stats: { ATK: 220 },
   },
   {
     name: "Dawnflower Ring",
@@ -32711,6 +33467,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 430, surcharge: 955, suggest: 190, speedUp: 1140 },
+    stats: { ATK: 230, HP: 14 },
   },
   {
     name: "Valedictorian Ring",
@@ -32755,6 +33512,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 1000, suggest: 200, speedUp: 1220 },
+    stats: { ATK: 240, DEF: 60 },
   },
   {
     name: "Luxurious Signet",
@@ -32798,6 +33556,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 385, surcharge: 855, suggest: 170, speedUp: 1220 },
+    stats: { ATK: 240 },
   },
   {
     name: "Borealis",
@@ -32843,6 +33602,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 815, surcharge: 1815, suggest: 365, speedUp: 2335 },
+    stats: { ATK: 250 },
   },
   {
     name: "Northwind Gem",
@@ -32888,6 +33648,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2480 },
+    stats: { ATK: 332 },
   },
   {
     name: "Blizzard Ring",
@@ -32934,6 +33695,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 855, surcharge: 1905, suggest: 380, speedUp: 2480 },
+    stats: { ATK: 260, DEF: 65 },
   },
   {
     name: "Bunbun Band",
@@ -32980,6 +33742,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 860, surcharge: 1910, suggest: 380, speedUp: 2635 },
+    stats: { ATK: 270, HP: 17 },
   },
   {
     name: "Rubicon Prison",
@@ -33025,6 +33788,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
+    stats: { ATK: 325 },
   },
   {
     name: "Crunchy Bracelet",
@@ -33071,6 +33835,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2950 },
+    stats: { ATK: 340, DEF: 85 },
   },
   {
     name: "Ring of New Beginnings",
@@ -33117,6 +33882,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
+    stats: { ATK: 340, HP: 21 },
   },
   {
     name: "Pearlescent Perfection",
@@ -33162,6 +33928,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1365, surcharge: 3030, suggest: 605, speedUp: 3290 },
+    stats: { ATK: 410 },
   },
   {
     name: "Crystalice Loop",
@@ -33208,6 +33975,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1430, surcharge: 3175, suggest: 635, speedUp: 3465 },
+    stats: { ATK: 425, DEF: 106 },
   },
   {
     name: "Ogun's Onyx Ring",
@@ -33254,6 +34022,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1455, surcharge: 3235, suggest: 645, speedUp: 3465 },
+    stats: { ATK: 425, HP: 29 },
   },
   {
     name: "Maple Ration Mini",
@@ -33300,6 +34069,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1480, surcharge: 3290, suggest: 660, speedUp: 3645 },
+    stats: { ATK: 440, HP: 30 },
   },
   {
     name: "Opulent Signet",
@@ -33345,6 +34115,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1510, surcharge: 3355, suggest: 670, speedUp: 3645 },
+    stats: { ATK: 440 },
   },
   {
     name: "Mark of Ouroboros",
@@ -33391,6 +34162,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1920, surcharge: 4270, suggest: 855, speedUp: 3830 },
+    stats: { ATK: 525 },
   },
   {
     name: "Memento",
@@ -33428,6 +34200,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 20, surcharge: 40, suggest: 10, speedUp: 55 },
+    stats: { DEF: 23 },
   },
   {
     name: "Jade Pendant",
@@ -33465,6 +34238,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 25, surcharge: 55, suggest: 10, speedUp: 90 },
+    stats: { DEF: 35 },
   },
   {
     name: "Iron Bond",
@@ -33502,6 +34276,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 135 },
+    stats: { DEF: 49 },
   },
   {
     name: "Mundra's Amulet",
@@ -33540,6 +34315,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 55, surcharge: 125, suggest: 25, speedUp: 165 },
+    stats: { ATK: 89, DEF: 105 },
   },
   {
     name: "Sun Pendant",
@@ -33579,6 +34355,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 130, suggest: 25, speedUp: 225 },
+    stats: { DEF: 72 },
   },
   {
     name: "Eclipse Amulet",
@@ -33618,6 +34395,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 155, suggest: 30, speedUp: 260 },
+    stats: { DEF: 95 },
   },
   {
     name: "Medal of Honor",
@@ -33658,6 +34436,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 160, suggest: 30, speedUp: 260 },
+    stats: { DEF: 80, HP: 5 },
   },
   {
     name: "Noble Chain",
@@ -33699,6 +34478,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 295 },
+    stats: { DEF: 88 },
   },
   {
     name: "Lucky Medallion",
@@ -33744,6 +34524,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 100, surcharge: 225, suggest: 45, speedUp: 335 },
+    stats: { ATK: 24, DEF: 96 },
   },
   {
     name: "Luxurious Charm",
@@ -33788,6 +34569,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 120, surcharge: 270, suggest: 55, speedUp: 420 },
+    stats: { DEF: 115 },
   },
   {
     name: "Holy Symbol",
@@ -33832,6 +34614,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 125, surcharge: 280, suggest: 55, speedUp: 420 },
+    stats: { DEF: 115 },
   },
   {
     name: "Convenient Pendant",
@@ -33876,6 +34659,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 125, surcharge: 325, suggest: 55, speedUp: 465 },
+    stats: { ATK: 29, HP: 31 },
   },
   {
     name: "Trinket of the Fifth",
@@ -33921,6 +34705,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 125, surcharge: 335, suggest: 55, speedUp: 515 },
+    stats: { DEF: 115, HP: 8 },
   },
   {
     name: "Titanium Torc",
@@ -33964,6 +34749,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 200, surcharge: 445, suggest: 90, speedUp: 675 },
+    stats: { DEF: 160 },
   },
   {
     name: "Magical Timepiece",
@@ -34008,6 +34794,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 240, surcharge: 535, suggest: 105, speedUp: 735 },
+    stats: { ATK: 43, DEF: 170 },
   },
   {
     name: "Magatama Necklace",
@@ -34052,6 +34839,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 315, surcharge: 700, suggest: 140, speedUp: 860 },
+    stats: { DEF: 190 },
   },
   {
     name: "Dragonsoul Pendant",
@@ -34096,6 +34884,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 925 },
+    stats: { DEF: 200, HP: 12 },
   },
   {
     name: "Archivist Glasses",
@@ -34139,6 +34928,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 360, surcharge: 795, suggest: 160, speedUp: 995 },
+    stats: { ATK: 35, DEF: 210 },
   },
   {
     name: "Stygian Phylactery",
@@ -34183,6 +34973,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 385, surcharge: 860, suggest: 170, speedUp: 1065 },
+    stats: { DEF: 220 },
   },
   {
     name: "Ursa Totem",
@@ -34228,6 +35019,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 450, surcharge: 995, suggest: 200, speedUp: 1140 },
+    stats: { ATK: 58, DEF: 230 },
   },
   {
     name: "P.E.T. Portable",
@@ -34273,6 +35065,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 390, surcharge: 870, suggest: 175, speedUp: 1140 },
+    stats: { DEF: 230, HP: 16 },
   },
   {
     name: "Alimyriad",
@@ -34318,6 +35111,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 810, surcharge: 1795, suggest: 360, speedUp: 2335 },
+    stats: { DEF: 250 },
   },
   {
     name: "Freyja's Talisman",
@@ -34364,6 +35158,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 820, surcharge: 1825, suggest: 365, speedUp: 2335 },
+    stats: { ATK: 63, DEF: 250 },
   },
   {
     name: "VIP Talisman",
@@ -34410,6 +35205,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 835, surcharge: 1850, suggest: 370, speedUp: 2480 },
+    stats: { DEF: 260, HP: 16 },
   },
   {
     name: "Brísingamen",
@@ -34455,6 +35251,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
+    stats: { DEF: 325 },
   },
   {
     name: "Monsoon Heart",
@@ -34500,6 +35297,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1145, surcharge: 2545, suggest: 510, speedUp: 2790 },
+    stats: { DEF: 373 },
   },
   {
     name: "Forlorn Acorn",
@@ -34546,6 +35344,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1175, surcharge: 2615, suggest: 525, speedUp: 2950 },
+    stats: { ATK: 85, DEF: 340 },
   },
   {
     name: "Gyatso's Amulet",
@@ -34592,6 +35391,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1130, surcharge: 2510, suggest: 500, speedUp: 2950 },
+    stats: { DEF: 340, HP: 21 },
   },
   {
     name: "Fellgrove Talisman",
@@ -34638,6 +35438,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1225, surcharge: 2720, suggest: 545, speedUp: 3120 },
+    stats: { ATK: 88, DEF: 350 },
   },
   {
     name: "Titania's Keepsake",
@@ -34683,6 +35484,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1325, surcharge: 2940, suggest: 590, speedUp: 3465 },
+    stats: { DEF: 425 },
   },
   {
     name: "Opulent Carcanet",
@@ -34728,6 +35530,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1395, surcharge: 3095, suggest: 620, speedUp: 3465 },
+    stats: { DEF: 425 },
   },
   {
     name: "Gamepad Mini",
@@ -34774,6 +35577,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1420, surcharge: 3150, suggest: 630, speedUp: 3465 },
+    stats: { DEF: 425, HP: 27 },
   },
   {
     name: "Eternal Hourglass",
@@ -34820,6 +35624,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1440, surcharge: 3205, suggest: 640, speedUp: 3465 },
+    stats: { ATK: 106, DEF: 425 },
   },
   {
     name: "Fairy Wreath",
@@ -34866,6 +35671,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3645 },
+    stats: { DEF: 440, HP: 27 },
   },
   {
     name: "Titania's Timepiece",
@@ -34911,6 +35717,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1995, surcharge: 4430, suggest: 885, speedUp: 3830 },
+    stats: { DEF: 525 },
   },
   {
     name: "Troublin",
@@ -34950,6 +35757,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 105, suggest: 20, speedUp: 110 },
+    stats: { ATK: 82 },
   },
   {
     name: "Yeti",
@@ -34990,6 +35798,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 35, speedUp: 190 },
+    stats: { ATK: 125 },
   },
   {
     name: "Toadwitch",
@@ -35031,6 +35840,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 110, surcharge: 240, suggest: 50, speedUp: 295 },
+    stats: { ATK: 175, DEF: 175 },
   },
   {
     name: "Mushgoon",
@@ -35075,6 +35885,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 160, surcharge: 355, suggest: 70, speedUp: 420 },
+    stats: { ATK: 230, HP: 23 },
   },
   {
     name: "Anubis",
@@ -35118,6 +35929,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 285, surcharge: 630, suggest: 125, speedUp: 675 },
+    stats: { DEF: 320, HP: 32 },
   },
   {
     name: "Cyclops",
@@ -35163,6 +35975,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 360, surcharge: 795, suggest: 160, speedUp: 860 },
+    stats: { HP: 38, EVA: 0.1 },
   },
   {
     name: "Tyrant",
@@ -35207,6 +36020,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 430, surcharge: 955, suggest: 190, speedUp: 1065 },
+    stats: { DEF: 445, HP: 45 },
   },
   {
     name: "Mermaid",
@@ -35253,6 +36067,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 950, surcharge: 2110, suggest: 420, speedUp: 2335 },
+    stats: { ATK: 510, DEF: 510 },
   },
   {
     name: "Harpy",
@@ -35299,6 +36114,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1325, surcharge: 2940, suggest: 590, speedUp: 2790 },
+    stats: { ATK: 660, CRIT: 0.1 },
   },
   {
     name: "Opulent Golem",
@@ -35344,6 +36160,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1355, surcharge: 3010, suggest: 600, speedUp: 2790 },
+    stats: { ATK: 660, HP: 66 },
   },
   {
     name: "Crushtacean",
@@ -35390,6 +36207,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1620, surcharge: 3600, suggest: 720, speedUp: 3290 },
+    stats: { DEF: 835, HP: 84 },
   },
   {
     name: "Voidling",
@@ -35436,6 +36254,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2325, surcharge: 5170, suggest: 1035, speedUp: 3830 },
+    stats: { ATK: 1070, DEF: 1070 },
   },
   {
     name: "Bacon and Eggs",
@@ -35474,6 +36293,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 40, surcharge: 85, suggest: 15, speedUp: 165 },
+    stats: { ATK: 24, DEF: 24 },
   },
   {
     name: "Gua Bao",
@@ -35514,6 +36334,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 50, surcharge: 115, suggest: 25, speedUp: 225 },
+    stats: { ATK: 31, DEF: 31 },
   },
   {
     name: "CosmOs Cereals",
@@ -35555,6 +36376,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 145, suggest: 30, speedUp: 260 },
+    stats: { ATK: 37, DEF: 34 },
   },
   {
     name: "Poutine",
@@ -35594,6 +36416,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 170, suggest: 35, speedUp: 335 },
+    stats: { ATK: 41, DEF: 41 },
   },
   {
     name: "Sugar Shack Special",
@@ -35634,6 +36457,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 170, suggest: 35, speedUp: 375 },
+    stats: { ATK: 44, DEF: 66 },
   },
   {
     name: "Cheeseburger",
@@ -35677,6 +36501,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 115, surcharge: 260, suggest: 50, speedUp: 465 },
+    stats: { ATK: 53, DEF: 53 },
   },
   {
     name: "Margherita Pizza",
@@ -35721,6 +36546,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 130, surcharge: 285, suggest: 55, speedUp: 515 },
+    stats: { ATK: 83, DEF: 55 },
   },
   {
     name: "Power-Up Pie",
@@ -35765,6 +36591,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 130, surcharge: 285, suggest: 55, speedUp: 515 },
+    stats: { ATK: 55, DEF: 83 },
   },
   {
     name: "Ahi Poke Bowl",
@@ -35808,6 +36635,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 200, surcharge: 445, suggest: 90, speedUp: 620 },
+    stats: { ATK: 63, DEF: 63 },
   },
   {
     name: "Creamy Scallops",
@@ -35852,6 +36680,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 215, surcharge: 480, suggest: 95, speedUp: 675 },
+    stats: { ATK: 68, DEF: 101 },
   },
   {
     name: "Sushi",
@@ -35895,6 +36724,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 310, surcharge: 690, suggest: 140, speedUp: 860 },
+    stats: { ATK: 80, DEF: 80 },
   },
   {
     name: "Super Spicy Curry",
@@ -35939,6 +36769,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 390, surcharge: 870, suggest: 175, speedUp: 1140 },
+    stats: { ATK: 95, DEF: 95 },
   },
   {
     name: "Veggie Kebabs",
@@ -35984,6 +36815,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 845, surcharge: 1880, suggest: 375, speedUp: 2480 },
+    stats: { ATK: 110, DEF: 110 },
   },
   {
     name: "Deluxe Ramen",
@@ -36029,6 +36861,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1045, surcharge: 2320, suggest: 465, speedUp: 2790 },
+    stats: { ATK: 135, DEF: 135 },
   },
   {
     name: "Steamed Sea Bass",
@@ -36075,6 +36908,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1110, surcharge: 2470, suggest: 495, speedUp: 2950 },
+    stats: { ATK: 210, DEF: 140 },
   },
   {
     name: "Huli-Huli Chicken",
@@ -36120,6 +36954,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1465, surcharge: 3260, suggest: 650, speedUp: 3290 },
+    stats: { ATK: 173, DEF: 173 },
   },
   {
     name: "Opulent Tamales",
@@ -36165,6 +37000,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1530, surcharge: 3400, suggest: 680, speedUp: 3290 },
+    stats: { ATK: 173, DEF: 173 },
   },
   {
     name: "Pot of Paella",
@@ -36210,6 +37046,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2005, surcharge: 4450, suggest: 890, speedUp: 3830 },
+    stats: { ATK: 218, DEF: 218 },
   },
   {
     name: "Cookie Plate",
@@ -36248,6 +37085,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 45, surcharge: 95, suggest: 20, speedUp: 165 },
+    stats: { HP: 16 },
   },
   {
     name: "Shaved Ice",
@@ -36288,6 +37126,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 140, suggest: 30, speedUp: 225 },
+    stats: { HP: 20 },
   },
   {
     name: "Taiyaki",
@@ -36331,6 +37170,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 95, surcharge: 210, suggest: 40, speedUp: 335 },
+    stats: { HP: 27 },
   },
   {
     name: "Cheesecake",
@@ -36375,6 +37215,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 170, surcharge: 375, suggest: 75, speedUp: 465 },
+    stats: { HP: 34 },
   },
   {
     name: "Chocolate Box",
@@ -36418,6 +37259,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 190, surcharge: 425, suggest: 85, speedUp: 515 },
+    stats: { DEF: 42, HP: 37 },
   },
   {
     name: "Macaron Set",
@@ -36461,6 +37303,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 500, suggest: 100, speedUp: 620 },
+    stats: { HP: 42 },
   },
   {
     name: "Strawberry Mochi",
@@ -36505,6 +37348,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 345, surcharge: 770, suggest: 155, speedUp: 860 },
+    stats: { HP: 53 },
   },
   {
     name: "Matcha Swiss Roll",
@@ -36550,6 +37394,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 185, speedUp: 1140 },
+    stats: { HP: 64 },
   },
   {
     name: "Pineapple Cake",
@@ -36596,6 +37441,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1965, suggest: 395, speedUp: 2480 },
+    stats: { HP: 73 },
   },
   {
     name: "Tuxedo Cake",
@@ -36642,6 +37488,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1095, surcharge: 2435, suggest: 485, speedUp: 2790 },
+    stats: { HP: 91 },
   },
   {
     name: "Halo-Halo",
@@ -36688,6 +37535,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1505, surcharge: 3340, suggest: 670, speedUp: 3290 },
+    stats: { HP: 114 },
   },
   {
     name: "Coconut Cream Cake",
@@ -36734,6 +37582,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1565, surcharge: 3475, suggest: 695, speedUp: 3465 },
+    stats: { DEF: 118, HP: 118 },
   },
   {
     name: "Opulent Churros",
@@ -36779,6 +37628,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1575, surcharge: 3495, suggest: 700, speedUp: 3465 },
+    stats: { HP: 118 },
   },
   {
     name: "Glazed Mirror Cake",
@@ -36825,6 +37675,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 1620, surcharge: 3600, suggest: 720, speedUp: 3645 },
+    stats: { ATK: 122, HP: 122 },
   },
   {
     name: "Ultimate Fruit Salad",
@@ -36871,6 +37722,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 2070, surcharge: 4605, suggest: 920, speedUp: 4015 },
+    stats: { HP: 131 },
   },
   {
     name: "Chipped Runestone",
@@ -36909,6 +37761,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 50, surcharge: 110, suggest: 45, speedUp: 135 },
+    stats: {},
   },
   {
     name: "Flawed Runestone",
@@ -36949,6 +37802,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 175, surcharge: 385, suggest: 155, speedUp: 420 },
+    stats: {},
   },
   {
     name: "Chiseled Runestone",
@@ -36994,6 +37848,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 285, surcharge: 630, suggest: 250, speedUp: 860 },
+    stats: {},
   },
   {
     name: "Perfect Runestone",
@@ -37039,6 +37894,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 495, surcharge: 1105, suggest: 440, speedUp: 2480 },
+    stats: {},
   },
   {
     name: "Lesser Moonstone",
@@ -37077,6 +37933,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 60, surcharge: 135, suggest: 55, speedUp: 165 },
+    stats: {},
   },
   {
     name: "Superior Moonstone",
@@ -37117,6 +37974,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 165, surcharge: 365, suggest: 145, speedUp: 465 },
+    stats: {},
   },
   {
     name: "Greater Moonstone",
@@ -37162,6 +38020,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 435, surcharge: 970, suggest: 390, speedUp: 1665 },
+    stats: {},
   },
   {
     name: "Perfect Moonstone",
@@ -37207,6 +38066,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 495, surcharge: 1105, suggest: 440, speedUp: 2335 },
+    stats: {},
   },
   {
     name: "Ember Element",
@@ -37246,6 +38106,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 150, suggest: 60, speedUp: 165 },
+    stats: { ATK: 14, DEF: 10, HP: 3 },
   },
   {
     name: "Flame Element",
@@ -37289,6 +38150,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 230, surcharge: 515, suggest: 205, speedUp: 620 },
+    stats: { ATK: 38, DEF: 25, HP: 8 },
   },
   {
     name: "Blaze Element",
@@ -37333,6 +38195,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Inferno Element",
@@ -37378,6 +38241,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Bubble Element",
@@ -37417,6 +38281,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 65, surcharge: 145, suggest: 60, speedUp: 165 },
+    stats: { ATK: 14, DEF: 10, HP: 3 },
   },
   {
     name: "Tide Element",
@@ -37460,6 +38325,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 500, suggest: 200, speedUp: 620 },
+    stats: { ATK: 38, DEF: 25, HP: 8 },
   },
   {
     name: "Flood Element",
@@ -37504,6 +38370,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Torrent Element",
@@ -37549,6 +38416,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Breeze Element",
@@ -37588,6 +38456,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 155, suggest: 60, speedUp: 165 },
+    stats: { ATK: 14, DEF: 10, HP: 3 },
   },
   {
     name: "Gale Element",
@@ -37631,6 +38500,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 500, suggest: 200, speedUp: 620 },
+    stats: { ATK: 38, DEF: 25, HP: 8 },
   },
   {
     name: "Tempest Element",
@@ -37675,6 +38545,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Hurricane Element",
@@ -37720,6 +38591,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Nature Element",
@@ -37759,6 +38631,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 65, speedUp: 165 },
+    stats: { ATK: 14, DEF: 10, HP: 3 },
   },
   {
     name: "Wild Element",
@@ -37802,6 +38675,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 495, suggest: 200, speedUp: 620 },
+    stats: { ATK: 38, DEF: 25, HP: 8 },
   },
   {
     name: "Primal Element",
@@ -37846,6 +38720,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Primeval Element",
@@ -37891,6 +38766,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Light Element",
@@ -37933,6 +38809,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 65, speedUp: 165 },
+    stats: { ATK: 14, DEF: 10, HP: 3 },
   },
   {
     name: "Holy Element",
@@ -37976,6 +38853,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 225, surcharge: 495, suggest: 200, speedUp: 620 },
+    stats: { ATK: 38, DEF: 25, HP: 8 },
   },
   {
     name: "Sacred Element",
@@ -38020,6 +38898,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Divine Element",
@@ -38065,6 +38944,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Corrupted Element",
@@ -38107,6 +38987,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 170, suggest: 70, speedUp: 165 },
+    stats: { ATK: 14, DEF: 10, HP: 3 },
   },
   {
     name: "Unholy Element",
@@ -38150,6 +39031,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 230, surcharge: 515, suggest: 205, speedUp: 620 },
+    stats: { ATK: 38, DEF: 25, HP: 8 },
   },
   {
     name: "Nightmare Element",
@@ -38194,6 +39076,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Abyssal Element",
@@ -38239,6 +39122,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Luxurious Element",
@@ -38281,6 +39165,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 120, surcharge: 270, suggest: 110, speedUp: 375 },
+    stats: { ATK: 26, DEF: 18, HP: 5 },
   },
   {
     name: "Opulent Element",
@@ -38325,6 +39210,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 765, surcharge: 1705, suggest: 680, speedUp: 2335 },
+    stats: { ATK: 63, DEF: 42, HP: 13 },
   },
   {
     name: "Ram Spirit",
@@ -38364,6 +39250,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 160, suggest: 65, speedUp: 190 },
+    stats: { ATK: 16, DEF: 11, HP: 3 },
   },
   {
     name: "Wolf Spirit",
@@ -38403,6 +39290,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 70, surcharge: 160, suggest: 65, speedUp: 190 },
+    stats: { ATK: 16, DEF: 11, HP: 3 },
   },
   {
     name: "Ox Spirit",
@@ -38442,6 +39330,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 65, speedUp: 190 },
+    stats: { ATK: 16, DEF: 11, HP: 3 },
   },
   {
     name: "Eagle Spirit",
@@ -38481,6 +39370,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 75, surcharge: 165, suggest: 65, speedUp: 190 },
+    stats: { ATK: 16, DEF: 11, HP: 3 },
   },
   {
     name: "Viper Spirit",
@@ -38520,6 +39410,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 175, suggest: 70, speedUp: 190 },
+    stats: { ATK: 16, DEF: 11, HP: 3 },
   },
   {
     name: "Cat Spirit",
@@ -38559,6 +39450,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 80, surcharge: 180, suggest: 70, speedUp: 190 },
+    stats: { ATK: 16, DEF: 11, HP: 3 },
   },
   {
     name: "Bunny Spirit",
@@ -38599,6 +39491,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 85, surcharge: 190, suggest: 75, speedUp: 225 },
+    stats: { ATK: 19, DEF: 12, HP: 4 },
   },
   {
     name: "Xolotl Spirit",
@@ -38641,6 +39534,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 120, surcharge: 270, suggest: 110, speedUp: 375 },
+    stats: { ATK: 26, DEF: 18, HP: 5 },
   },
   {
     name: "Rhino Spirit",
@@ -38684,6 +39578,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 235, surcharge: 525, suggest: 210, speedUp: 675 },
+    stats: { ATK: 41, DEF: 27, HP: 8 },
   },
   {
     name: "Owl Spirit",
@@ -38727,6 +39622,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 235, surcharge: 525, suggest: 210, speedUp: 675 },
+    stats: { ATK: 41, DEF: 27, HP: 8 },
   },
   {
     name: "Armadillo Spirit",
@@ -38770,6 +39666,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 240, surcharge: 535, suggest: 215, speedUp: 675 },
+    stats: { ATK: 41, DEF: 27, HP: 8 },
   },
   {
     name: "Lizard Spirit",
@@ -38813,6 +39710,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 255, surcharge: 570, suggest: 230, speedUp: 675 },
+    stats: { ATK: 41, DEF: 27, HP: 8 },
   },
   {
     name: "Horse Spirit",
@@ -38856,6 +39754,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 250, surcharge: 560, suggest: 225, speedUp: 675 },
+    stats: { ATK: 41, DEF: 27, HP: 8 },
   },
   {
     name: "Hippo Spirit",
@@ -38899,6 +39798,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 255, surcharge: 570, suggest: 230, speedUp: 675 },
+    stats: { ATK: 41, DEF: 27, HP: 8 },
   },
   {
     name: "Shark Spirit",
@@ -38943,6 +39843,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Walrus Spirit",
@@ -38987,6 +39888,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Lion Spirit",
@@ -39031,6 +39933,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Bear Spirit",
@@ -39075,6 +39978,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Mammoth Spirit",
@@ -39119,6 +40023,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Dinosaur Spirit",
@@ -39163,6 +40068,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 410, surcharge: 915, suggest: 365, speedUp: 860 },
+    stats: { ATK: 48, DEF: 32, HP: 10 },
   },
   {
     name: "Tiger Spirit",
@@ -39208,6 +40114,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 425, surcharge: 945, suggest: 380, speedUp: 925 },
+    stats: { ATK: 50, DEF: 33, HP: 10 },
   },
   {
     name: "Quetzalcoatl Spirit",
@@ -39252,6 +40159,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 765, surcharge: 1705, suggest: 680, speedUp: 2335 },
+    stats: { ATK: 63, DEF: 42, HP: 13 },
   },
   {
     name: "Phoenix Spirit",
@@ -39297,6 +40205,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Hydra Spirit",
@@ -39342,6 +40251,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Tarrasque Spirit",
@@ -39387,6 +40297,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Carbuncle Spirit",
@@ -39432,6 +40343,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Chimera Spirit",
@@ -39477,6 +40389,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Kraken Spirit",
@@ -39522,6 +40435,7 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 885, surcharge: 1970, suggest: 790, speedUp: 3120 },
+    stats: { ATK: 89, DEF: 59, HP: 18 },
   },
   {
     name: "Christmas Spirit",
@@ -39568,5 +40482,6 @@ db.blueprints.insertMany([
       ],
     },
     energy: { discount: 950, surcharge: 2110, suggest: 845, speedUp: 3290 },
+    stats: { ATK: 92, DEF: 61, HP: 18 },
   },
 ]);

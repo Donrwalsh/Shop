@@ -205,6 +205,23 @@ async function main() {
             suggest: getBpVal(bp, headers, "Suggest Energy"),
             speedUp: getBpVal(bp, headers, "Speed Up Energy"),
           },
+          stats: {
+            ...(getBpVal(bp, headers, "ATK") !== "---" && {
+              ATK: getBpVal(bp, headers, "ATK"),
+            }),
+            ...(getBpVal(bp, headers, "DEF") !== "---" && {
+              DEF: getBpVal(bp, headers, "DEF"),
+            }),
+            ...(getBpVal(bp, headers, "HP") !== "---" && {
+              HP: getBpVal(bp, headers, "HP"),
+            }),
+            ...(getBpVal(bp, headers, "EVA") !== "---" && {
+              EVA: getBpVal(bp, headers, "EVA"),
+            }),
+            ...(getBpVal(bp, headers, "CRIT") !== "---" && {
+              CRIT: getBpVal(bp, headers, "CRIT"),
+            }),
+          },
         } as Blueprint) +
         ",",
       ""
