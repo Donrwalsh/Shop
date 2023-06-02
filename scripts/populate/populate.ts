@@ -15,7 +15,9 @@ async function main() {
     `${baseSpreadsheetURL}/export?gid=${blueprintsGID}&exportFormat=csv`
   );
 
-  let blueprints = await utils.readCSVFile(`./${bpFileName}`);
+  fs.renameSync(`./${bpFileName}`, `./data/${bpFileName}`);
+
+  let blueprints = await utils.readCSVFile(`./data/${bpFileName}`);
 
   let bpOracle = new Oracle(blueprints);
 
