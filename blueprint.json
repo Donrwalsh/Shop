@@ -13,9 +13,9 @@
     "antiqueTokens": 375
   },
   "ascensionUpgrades": [
-    {"upgrade": "-86 Iron Spent", "shards": 100},
-    {"upgrade": "-1 Zirconia Eggshell Spent", "shards": 100},
-    {"upgrade": "+10% Multicraft Chance", "shards": 100}
+    { "upgrade": "-86 Iron Spent", "shards": 100 },
+    { "upgrade": "-1 Zirconia Eggshell Spent", "shards": 100 },
+    { "upgrade": "+10% Multicraft Chance", "shards": 100 }
   ],
   "crafting": {
     "timeInSeconds": 146400,
@@ -65,9 +65,7 @@
   },
   "stats": {
     "ATK": 930,
-    "HP": 29
-  },
-  "affinity": {
-    "elemental": "Light"
+    "HP": 29,
+    "elementalAffinity": "Light"
   }
 }

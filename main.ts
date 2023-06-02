@@ -219,6 +219,12 @@ async function main() {
           ...(getBpVal(bp, headers, "CRIT") !== "---" && {
             CRIT: getBpVal(bp, headers, "CRIT"),
           }),
+          ...(getBpVal(bp, headers, "Elemental Affinity") !== "---" && {
+            elementalAffinity: getBpVal(bp, headers, "Elemental Affinity"),
+          }),
+          ...(getBpVal(bp, headers, "Spirit Affinity") !== "---" && {
+            spiritAffinity: getBpVal(bp, headers, "Spirit Affinity"),
+          }),
         },
       } as Blueprint) +
       "",

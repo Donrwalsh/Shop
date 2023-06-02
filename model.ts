@@ -45,6 +45,8 @@ export interface Blueprint {
     HP?: number;
     EVA?: number;
     CRIT?: number;
+    elementalAffinity?: string;
+    spiritAffinity?: string;
   };
 }
 

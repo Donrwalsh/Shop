@@ -260,6 +260,12 @@ db.createCollection("blueprints", {
             CRIT: {
               bsonType: "double",
             },
+            elementalAffinity: {
+              bsonType: "string",
+            },
+            spiritAffinity: {
+              bsonType: "string",
+            },
           },
         },
       },
