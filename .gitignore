@@ -1,2 +1,3 @@
 scripts/populate/dist/*
 scripts/populate/node_modules/*
+scripts/populate/data/*

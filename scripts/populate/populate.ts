@@ -8,16 +8,81 @@ const exec = util.promisify(require("child_process").exec);
 const baseSpreadsheetURL =
   "https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c";
 
-const blueprintsGID = "1558235212";
+const GIDs = [
+  { fileName: "home", GID: "0" },
+  { fileName: "blueprints", GID: "1558235212" },
+  { fileName: "workers", GID: "1935922361" },
+  { fileName: "workerLevels", GID: "370031681" },
+  { fileName: "quests", GID: "1118047087" },
+  { fileName: "questComponents", GID: "1893574363" },
+  { fileName: "questLevels", GID: "1268805263" },
+  { fileName: "heroes", GID: "525835005" },
+  { fileName: "heroLevels", GID: "1921844007" },
+  { fileName: "champions", GID: "256894468" },
+  { fileName: "skills", GID: "1214352620" },
+  { fileName: "enchantments", GID: "24042844" },
+  { fileName: "slots", GID: "214440679" },
+  { fileName: "merchantLevels", GID: "1602631852" },
+  { fileName: "shopExpansions", GID: "788450752" },
+  { fileName: "basementExpansions", GID: "2073268902" },
+  { fileName: "racksCountersAndTrunks", GID: "348010505" },
+  { fileName: "resourceBins", GID: "69438216" },
+  { fileName: "guildPerks", GID: "229020017" },
+  { fileName: "guildBoosts", GID: "1646781176" },
+  { fileName: "friendshipLevels", GID: "303650781" },
+  { fileName: "achievements", GID: "1060499774" },
+  { fileName: "buildings", GID: "460010172" },
+  { fileName: "buildingTicks", GID: "1688636929" },
+  { fileName: "pets", GID: "28361090" },
+  { fileName: "petLevels", GID: "1414683499" },
+  { fileName: "fullMoonFusions", GID: "604614418" },
+  { fileName: "collectionBook", GID: "805699567" },
+  { fileName: "changelog", GID: "739208601" },
+  { fileName: "legendKey", GID: "1970198360" },
+];
 
 async function main() {
-  let bpFileName = await utils.downloadFile(
-    `${baseSpreadsheetURL}/export?gid=${blueprintsGID}&exportFormat=csv`
+  // Get the data
+  let homeFileName = (await utils.downloadFile(
+    `${baseSpreadsheetURL}/export?gid=${GIDs[0].GID}&exportFormat=csv`
+  )) as string;
+
+  let vFolder = `${homeFileName.split(" ")[6]}-${homeFileName.split(" ")[8]}`;
+  let dataFolder = `./data/${vFolder}`;
+
+  if (!fs.existsSync(dataFolder)) {
+    fs.mkdirSync(dataFolder);
+  }
+
+  fs.renameSync(
+    `./${homeFileName}`,
+    `${dataFolder}/${homeFileName.split(" ")[10].toLowerCase()}`
   );
 
-  fs.renameSync(`./${bpFileName}`, `./data/${bpFileName}`);
+  async function fetchCsv(gid: string, fileName: string) {
+    if (!fs.existsSync(`${dataFolder}/${fileName}`)) {
+      let csvFileName = (await utils.downloadFile(
+        `${baseSpreadsheetURL}/export?gid=${gid}&exportFormat=csv`
+      )) as string;
+      fs.renameSync(
+        `./${csvFileName.replace("/", "_")}`,
+        `${dataFolder}/${fileName}`
+      );
+      return true;
+    }
+    return false;
+  }
 
-  let blueprints = await utils.readCSVFile(`./data/${bpFileName}`);
+  for (let i = 1; i < GIDs.length; i++) {
+    console.log(
+      (await fetchCsv(GIDs[i].GID, `${GIDs[i].fileName}.csv`))
+        ? `NOT FOUND ${GIDs[i].fileName}.csv: processing download`
+        : `found ${GIDs[i].fileName}.csv: skipping download`
+    );
+  }
+
+  // Populate the database
+  let blueprints = await utils.readCSVFile(`${dataFolder}/blueprints.csv`);
 
   let bpOracle = new Oracle(blueprints);
 
@@ -152,7 +217,7 @@ async function main() {
     } as Blueprint);
   }
 
-  fs.writeFileSync("./data/blueprints.json", bpOutput, "utf-8");
+  fs.writeFileSync(`${dataFolder}/blueprints.json`, bpOutput, "utf-8");
 
   async function execute(command) {
     const { stdout, stderr } = await exec(command);
@@ -164,7 +229,7 @@ async function main() {
   await execute("mongosh shop --eval 'db.blueprints.drop()'");
   await execute("mongosh shop < ./model/schema.js");
   await execute(
-    "mongoimport --db shop --collection blueprints --type=json --file ./data/blueprints.json"
+    `mongoimport --db shop --collection blueprints --type=json --file ${dataFolder}/blueprints.json`
   );
   await execute(
     `mongosh shop --eval 'printjson(db.blueprints.aggregate([{ "$sample": { size: 1 } }]))'`

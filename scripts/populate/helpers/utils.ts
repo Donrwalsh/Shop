@@ -30,9 +30,11 @@ export async function downloadFile(url) {
           .replace("/", "_");
 
         // save the file to disk
-        const fileWriter = fs.createWriteStream(filename).on("finish", () => {
-          resolve(filename);
-        });
+        const fileWriter = fs
+          .createWriteStream(filename.replace("/", "_"))
+          .on("finish", () => {
+            resolve(filename);
+          });
 
         response.pipe(fileWriter);
       })
