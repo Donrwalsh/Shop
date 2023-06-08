@@ -1,0 +1,33 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo:6-jammy
+    ports:
+      - '27017:27017'
+    volumes:
+      - dbdata6:/data/db
+    networks:
+      - shop-network
+
+  script-runner:
+    image: "node"
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./:/home/node/app
+    networks:
+      - shop-network
+    expose:
+      - "8085:8085"
+    tty: true
+    command: bash -c "npx tsc && node ./dist/script.mjs"
+
+
+volumes:
+  dbdata6:
+
+networks:
+  shop-network:
+    driver: bridge
