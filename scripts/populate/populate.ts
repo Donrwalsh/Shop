@@ -2,8 +2,11 @@ import { Oracle } from "./helpers/oracle";
 import * as utils from "./helpers/utils";
 import { Blueprint, CraftUpgrade } from "./model/blueprint";
 import fs = require("fs");
+import { getLogger } from "./helpers/LogConfig";
 const util = require("util");
 const exec = util.promisify(require("child_process").exec);
+
+const log = getLogger("script.populate");
 
 const baseSpreadsheetURL =
   "https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c";
@@ -42,22 +45,29 @@ const GIDs = [
 ];
 
 async function main() {
-  // Get the data
-  let homeFileName = (await utils.downloadFile(
+  console.clear();
+  log.info(() => `(1) Data Harvest (1)`);
+
+  let scout = (await utils.downloadFile(
     `${baseSpreadsheetURL}/export?gid=${GIDs[0].GID}&exportFormat=csv`
   )) as string;
 
-  let vFolder = `${homeFileName.split(" ")[6]}-${homeFileName.split(" ")[8]}`;
-  let dataFolder = `./data/${vFolder}`;
+  let version = `${scout.split(" ")[6]}-${scout.split(" ")[8]}`;
+  let dataFolder = `./data/${version}`;
 
   if (!fs.existsSync(dataFolder)) {
+    log.info(() => `Found new version: ${version}`);
     fs.mkdirSync(dataFolder);
+    fs.renameSync(
+      `./${scout}`,
+      `${dataFolder}/${scout.split(" ")[10].toLowerCase()}`
+    );
+  } else {
+    log.info(() => `On latest version: ${version}`);
   }
 
-  fs.renameSync(
-    `./${homeFileName}`,
-    `${dataFolder}/${homeFileName.split(" ")[10].toLowerCase()}`
-  );
+  console.log("");
+  // process.exit(1);
 
   async function fetchCsv(gid: string, fileName: string) {
     if (!fs.existsSync(`${dataFolder}/${fileName}`)) {

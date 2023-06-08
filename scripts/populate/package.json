@@ -1,7 +1,10 @@
 {
   "dependencies": {
     "csv-parser": "^3.0.0",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "typescript-logging": "^2.1.0",
+    "typescript-logging-category-style": "^2.1.0",
+    "typescript-logging-log4ts-style": "^2.1.0"
   },
   "devDependencies": {
     "@types/node": "^20.2.3"
