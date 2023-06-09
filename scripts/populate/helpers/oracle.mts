@@ -1,4 +1,4 @@
-import { CraftingMaterial, ResourceMaterial } from "../model/blueprint";
+import { CraftingMaterial, ResourceMaterial } from "../model/blueprint.mjs";
 
 const manualColumns = {
   "24": "Iron",

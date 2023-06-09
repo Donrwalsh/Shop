@@ -16,13 +16,13 @@ services:
     environment:
       - NODE_ENV=development
     volumes:
-      - ./:/home/node/app
+      - ./scripts/populate:/home/node/app
     networks:
       - shop-network
     expose:
       - "8085:8085"
     tty: true
-    command: bash -c "npx tsc && node ./dist/script.mjs"
+    command: bash -c "npm install && npx tsc && node ./dist/populate.mjs"
 
 
 volumes:

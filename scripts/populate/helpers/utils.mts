@@ -1,6 +1,7 @@
-import csv = require("csv-parser");
-import fs = require("fs");
-import https = require("https");
+import * as https from "https";
+import * as fs from "fs";
+import csv from 'csv-parser';
+
 
 //https://futurestud.io/tutorials/node-js-how-to-download-a-file
 export async function downloadFile(url) {

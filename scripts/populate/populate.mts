@@ -1,10 +1,10 @@
-import { Oracle } from "./helpers/oracle";
-import * as utils from "./helpers/utils";
-import { Blueprint, CraftUpgrade } from "./model/blueprint";
-import fs = require("fs");
-import { getLogger } from "./helpers/LogConfig";
-const util = require("util");
-const exec = util.promisify(require("child_process").exec);
+import { Oracle } from "./helpers/oracle.mjs";
+import * as utils from "./helpers/utils.mjs";
+import { Blueprint, CraftUpgrade } from "./model/blueprint.mjs";
+import * as fs from "fs";
+import { getLogger } from "./helpers/LogConfig.mjs";
+import {exec} from "child_process";
+import * as mongoDB from "mongodb"
 
 const log = getLogger("script.populate");
 
@@ -58,16 +58,15 @@ async function main() {
   if (!fs.existsSync(dataFolder)) {
     log.info(() => `Found new version: ${version}`);
     fs.mkdirSync(dataFolder);
-    fs.renameSync(
-      `./${scout}`,
-      `${dataFolder}/${scout.split(" ")[10].toLowerCase()}`
-    );
   } else {
     log.info(() => `On latest version: ${version}`);
   }
+  fs.renameSync(
+    `./${scout}`,
+    `${dataFolder}/${scout.split(" ")[10].toLowerCase()}`
+  );
 
   console.log("");
-  // process.exit(1);
 
   async function fetchCsv(gid: string, fileName: string) {
     if (!fs.existsSync(`${dataFolder}/${fileName}`)) {
@@ -91,14 +90,22 @@ async function main() {
     );
   }
 
+  
   // Populate the database
   let blueprints = await utils.readCSVFile(`${dataFolder}/blueprints.csv`);
 
   let bpOracle = new Oracle(blueprints);
 
+  const client: mongoDB.MongoClient = new mongoDB.MongoClient("mongodb://mongodb:27017");
+  await client.connect();
+
+  const db: mongoDB.Db = client.db("shopData");
+
+  const blueprintsCollection: mongoDB.Collection = db.collection("blueprints");
+  
   let bpOutput = "";
   for (let i = 0; i < bpOracle.count(); i++) {
-    bpOutput += JSON.stringify({
+    let thisBp = {
       name: bpOracle.getValue("Name", i),
       type: bpOracle.getValue("Type", i),
       tier: bpOracle.getValue("Tier", i),
@@ -224,29 +231,34 @@ async function main() {
           spiritAffinity: bpOracle.getValue("Spirit Affinity", i),
         }),
       },
-    } as Blueprint);
+    } as Blueprint;
+    await blueprintsCollection.insertOne(thisBp)
+    bpOutput += JSON.stringify(thisBp);
   }
 
   fs.writeFileSync(`${dataFolder}/blueprints.json`, bpOutput, "utf-8");
 
-  async function execute(command) {
-    const { stdout, stderr } = await exec(command);
-    console.log("stdout:", stdout);
-    console.log("stderr:", stderr);
-  }
 
-  await execute("mongosh shop --eval 'db.blueprints.deleteMany({})'");
-  await execute("mongosh shop --eval 'db.blueprints.drop()'");
-  await execute("mongosh shop < ./model/schema.js");
-  await execute(
-    `mongoimport --db shop --collection blueprints --type=json --file ${dataFolder}/blueprints.json`
-  );
-  await execute(
-    `mongosh shop --eval 'printjson(db.blueprints.aggregate([{ "$sample": { size: 1 } }]))'`
-  );
+  // return
+
+  // async function execute(command) {
+  //   const { stdout, stderr } = await exec(command);
+  //   console.log("stdout:", stdout);
+  //   console.log("stderr:", stderr);
+  // }
+
+  // await execute("mongosh shop --eval 'db.blueprints.deleteMany({})'");
+  // await execute("mongosh shop --eval 'db.blueprints.drop()'");
+  // await execute("mongosh shop < ./model/schema.js");
+  // await execute(
+  //   `mongoimport --db shop --collection blueprints --type=json --file ${dataFolder}/blueprints.json`
+  // );
+  // await execute(
+  //   `mongosh shop --eval 'printjson(db.blueprints.aggregate([{ "$sample": { size: 1 } }]))'`
+  // );
 
   console.log("success");
   process.exit(0);
 }
 
-main();
+await main();
