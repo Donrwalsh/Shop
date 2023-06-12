@@ -8,3 +8,10 @@ CWD as `scripts/populate`
 > `node ./dist/populate.js`: Runs script
 
 > `tsc -w -p .` to run in live reload mode.
+
+
+## Containerized Script
+
+CWD as `containerized`
+
+>`npm run start`
