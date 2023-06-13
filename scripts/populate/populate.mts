@@ -3,8 +3,7 @@ import * as utils from "./helpers/utils.mjs";
 import { Blueprint, CraftUpgrade } from "./model/blueprint.mjs";
 import * as fs from "fs";
 import { getLogger } from "./helpers/LogConfig.mjs";
-import {exec} from "child_process";
-import * as mongoDB from "mongodb"
+import * as mongoDB from "mongodb";
 
 const log = getLogger("script.populate");
 
@@ -90,19 +89,126 @@ async function main() {
     );
   }
 
-  
+  // ==== FURNITURE
+  let furniture = await utils.readCSVFile(
+    `${dataFolder}/racksCountersAndTrunks.csv`
+  );
+
+  let cursors = [];
+
+  furniture.forEach((row, index) => {
+    Object.keys(row).forEach((key) => {
+      if (/[A-Z]+$/.test(row[key])) {
+        cursors.push({
+          name: row[key],
+          x: parseInt(key),
+          y: index,
+        });
+      }
+    });
+  });
+
+  let furnitureOutput = "[";
+
+  cursors.forEach((cursor) => {
+    let table = [];
+    console.log(cursor);
+
+    let i = 0;
+    while (true) {
+      let field = furniture[cursor.y + 2][`${cursor.x + 1 + i}`];
+      if (field != "" && field != undefined) {
+        let values = Array.from({ length: 20 }, (_, j) => {
+          let output = furniture[cursor.y + 2 + 1 + j][`${cursor.x + 1 + i}`];
+          let timeVals = [60, 3600, 86400];
+          if (field == "Upgrade Time") {
+            return output
+              .split(",")
+              .map((val) => {
+                let base = val.trim().replace(/\D/g, "");
+                let multiplier = [
+                  val.indexOf("mins"),
+                  val.indexOf("hour"),
+                  val.indexOf("day"),
+                ]
+                  .map((result, i) => (result == -1 ? 0 : 1 * timeVals[i]))
+                  .reduce((r, a) => {
+                    return r + a;
+                  });
+                return base * multiplier;
+              })
+              .reduce((r, a) => {
+                return r + a;
+              });
+          } else if (["Size"].includes(field)) {
+            return output;
+          } else {
+            return output == "---" ? null : parseInt(output);
+          }
+        });
+        table.push({
+          field: field,
+          values: values,
+        });
+        i++;
+      } else {
+        break;
+      }
+    }
+
+    console.log(table);
+
+    for (let i = 0; i < 20; i++) {
+      furnitureOutput +=
+        JSON.stringify({
+          _id: `${cursor.name.replace(" ", "").toLowerCase()}-${i + 1}`,
+          type: cursor.name
+            .toLowerCase()
+            .split(" ")
+            .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+            .join(" "),
+          level: i + 1,
+          stats: {
+            ...(table.filter((entry) => entry.field == "Energy Cap").length >
+              0 && {
+              energy: table.filter((entry) => entry.field == "Energy Cap")[0]
+                .values[i],
+            }),
+            ...(table.filter((entry) => entry.field == "Storage Cap").length >
+              0 && {
+              storage: table.filter((entry) => entry.field == "Storage Cap")[0]
+                .values[i],
+            }),
+            ...(table.filter((entry) => entry.field == "Inventory Cap").length >
+              0 && {
+              storage: table.filter((entry) => entry.field == "Inventory Cap")[0]
+                .values[i],
+            }),
+            size: table.filter((entry) => entry.field == "Size")[0].values[i],
+          },
+        }) + ",";
+    }
+  });
+
+  furnitureOutput =
+    furnitureOutput.substring(0, furnitureOutput.length - 1) + "]";
+
+  fs.writeFileSync(`furniture.json`, furnitureOutput, "utf-8");
+
   // Populate the database
   let blueprints = await utils.readCSVFile(`${dataFolder}/blueprints.csv`);
 
   let bpOracle = new Oracle(blueprints);
 
-  const client: mongoDB.MongoClient = new mongoDB.MongoClient("mongodb://mongodb:27017");
-  await client.connect();
+  // const client: mongoDB.MongoClient = new mongoDB.MongoClient(
+  //   "mongodb://mongodb:27017"
+  // );
+  // await client.connect();
 
-  const db: mongoDB.Db = client.db("shopData");
+  // const db: mongoDB.Db = client.db("shopData");
 
-  const blueprintsCollection: mongoDB.Collection = db.collection("blueprints");
-  
+  // const blueprintsCollection: mongoDB.Collection = db.collection("blueprints");
+
   let bpOutput = "";
   for (let i = 0; i < bpOracle.count(); i++) {
     let thisBp = {
@@ -232,12 +338,11 @@ async function main() {
         }),
       },
     } as Blueprint;
-    await blueprintsCollection.insertOne(thisBp)
+    // await blueprintsCollection.insertOne(thisBp);
     bpOutput += JSON.stringify(thisBp);
   }
 
   fs.writeFileSync(`${dataFolder}/blueprints.json`, bpOutput, "utf-8");
-
 
   // return
 

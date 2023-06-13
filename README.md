@@ -1,17 +1,12 @@
-did a `sudo npm install -g typescript`
-
 ## Populate Script
 
-CWD as `scripts/populate`
+### Using
+> `cd scripts/populate`
+> `npx tsc`
+> `node ./dist/populate.mjs`
 
-> `tsc populate.ts`: Creates main.js in the `dist/` directory.
-> `node ./dist/populate.js`: Runs script
+### Current State
+Some tools are available for connecting to mongoDB, but this script is most useful in producing data to import manually.
 
-> `tsc -w -p .` to run in live reload mode.
-
-
-## Containerized Script
-
-CWD as `containerized`
-
->`npm run start`
+### TODO:
+[] Is the current state of the database just the data or did I get the schema in there?
