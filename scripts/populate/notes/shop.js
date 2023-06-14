@@ -10,13 +10,20 @@ let furnitureExample = {
     energy: 30,
     size: "2x4",
     storage: 8,
+    // hoardStorage: [102, 42, 23, 5],
+    // regenBonusPct: 5,
+    // resource: "Iron",
+    // saleEnergy: 1,
+    // maxEnergyPct: 5,
   },
   upgrade: { // All these values come from the next row in the sheet
     goldCost: 500000, 
     gemRush: 150, 
     // dragonmarks: 100,
     upgradeTimeInSeconds: 2880,
-    requiredMerchantLevel: 12
+    requiredMerchantLevel: 12,
+    // requiredBuilding: "Iron Mine",
+    // requiredBuildingLevel: 20,
   }
 }
 

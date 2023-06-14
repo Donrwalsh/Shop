@@ -143,7 +143,9 @@ async function main() {
           } else if (["Size"].includes(field)) {
             return output;
           } else {
-            return output == "---" ? null : parseInt(output);
+            return output == "---"
+              ? null
+              : parseInt(output.split(",").join(""));
           }
         });
         table.push({
@@ -181,11 +183,49 @@ async function main() {
             }),
             ...(table.filter((entry) => entry.field == "Inventory Cap").length >
               0 && {
-              storage: table.filter((entry) => entry.field == "Inventory Cap")[0]
-                .values[i],
+              storage: table.filter(
+                (entry) => entry.field == "Inventory Cap"
+              )[0].values[i],
             }),
             size: table.filter((entry) => entry.field == "Size")[0].values[i],
+            ...(table.filter((entry) => entry.field == "Sale Energy").length >
+              0 && {
+              saleEnergy: table.filter(
+                (entry) => entry.field == "Sale Energy"
+              )[0].values[i],
+            }),
+            ...(table.filter((entry) => entry.field == "Max Energy (%)")
+              .length > 0 &&
+              table.filter((entry) => entry.field == "Max Energy (%)")[0]
+                .values[i] != null && {
+                maxEnergyPct: table.filter(
+                  (entry) => entry.field == "Max Energy (%)"
+                )[0].values[i],
+              }),
           },
+          ...(i != 19
+            ? {
+                upgrade: {
+                  goldCost: table.filter(
+                    (entry) => entry.field == "Gold Cost"
+                  )[0].values[i + 1],
+                  gemRush: table.filter((entry) => entry.field == "Gem Cost")[0]
+                    .values[i + 1],
+                  ...(table.filter((entry) => entry.field == "Dragonmarks")[0]
+                    .values[i + 1] != null && {
+                    dragonMarks: table.filter(
+                      (entry) => entry.field == "Dragonmarks"
+                    )[0].values[i + 1],
+                  }),
+                  upgradeTimeInSeconds: table.filter(
+                    (entry) => entry.field == "Upgrade Time"
+                  )[0].values[i + 1],
+                  requiredMerchantLevel: table.filter(
+                    (entry) => entry.field == "Merchant Level"
+                  )[0].values[i + 1],
+                },
+              }
+            : {}),
         }) + ",";
     }
   });
@@ -225,9 +265,11 @@ async function main() {
         fusionXp: bpOracle.getValue("Fusion XP", i),
         favor: bpOracle.getValue("Favor", i),
         airshipPower: bpOracle.getValue("Airship Power", i),
+        
         ...(bpOracle.getValue("Antique Tokens", i) !== "---" && {
           antiqueTokens: bpOracle.getValue("Antique Tokens", i),
         }),
+
         ...(bpOracle.getValue("Research Scrolls", i) !== "---" && {
           researchScrolls: bpOracle.getValue("Research Scrolls", i),
         }),
