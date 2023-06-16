@@ -10,45 +10,12 @@ const log = getLogger("script.populate");
 const baseSpreadsheetURL =
   "https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c";
 
-const GIDs = [
-  { fileName: "home", GID: "0" },
-  { fileName: "blueprints", GID: "1558235212" },
-  { fileName: "workers", GID: "1935922361" },
-  { fileName: "workerLevels", GID: "370031681" },
-  { fileName: "quests", GID: "1118047087" },
-  { fileName: "questComponents", GID: "1893574363" },
-  { fileName: "questLevels", GID: "1268805263" },
-  { fileName: "heroes", GID: "525835005" },
-  { fileName: "heroLevels", GID: "1921844007" },
-  { fileName: "champions", GID: "256894468" },
-  { fileName: "skills", GID: "1214352620" },
-  { fileName: "enchantments", GID: "24042844" },
-  { fileName: "slots", GID: "214440679" },
-  { fileName: "merchantLevels", GID: "1602631852" },
-  { fileName: "shopExpansions", GID: "788450752" },
-  { fileName: "basementExpansions", GID: "2073268902" },
-  { fileName: "racksCountersAndTrunks", GID: "348010505" },
-  { fileName: "resourceBins", GID: "69438216" },
-  { fileName: "guildPerks", GID: "229020017" },
-  { fileName: "guildBoosts", GID: "1646781176" },
-  { fileName: "friendshipLevels", GID: "303650781" },
-  { fileName: "achievements", GID: "1060499774" },
-  { fileName: "buildings", GID: "460010172" },
-  { fileName: "buildingTicks", GID: "1688636929" },
-  { fileName: "pets", GID: "28361090" },
-  { fileName: "petLevels", GID: "1414683499" },
-  { fileName: "fullMoonFusions", GID: "604614418" },
-  { fileName: "collectionBook", GID: "805699567" },
-  { fileName: "changelog", GID: "739208601" },
-  { fileName: "legendKey", GID: "1970198360" },
-];
-
 async function main() {
   console.clear();
   log.info(() => `(1) Data Harvest (1)`);
 
   let scout = (await utils.downloadFile(
-    `${baseSpreadsheetURL}/export?gid=${GIDs[0].GID}&exportFormat=csv`
+    `${baseSpreadsheetURL}/export?gid=${utils.GIDs[0].GID}&exportFormat=csv`
   )) as string;
 
   let version = `${scout.split(" ")[6]}-${scout.split(" ")[8]}`;
@@ -81,11 +48,11 @@ async function main() {
     return false;
   }
 
-  for (let i = 1; i < GIDs.length; i++) {
+  for (let i = 1; i < utils.GIDs.length; i++) {
     console.log(
-      (await fetchCsv(GIDs[i].GID, `${GIDs[i].fileName}.csv`))
-        ? `NOT FOUND ${GIDs[i].fileName}.csv: processing download`
-        : `found ${GIDs[i].fileName}.csv: skipping download`
+      (await fetchCsv(utils.GIDs[i].GID, `${utils.GIDs[i].fileName}.csv`))
+        ? `NOT FOUND ${utils.GIDs[i].fileName}.csv: processing download`
+        : `found ${utils.GIDs[i].fileName}.csv: skipping download`
     );
   }
 
@@ -93,13 +60,26 @@ async function main() {
   let furniture = await utils.readCSVFile(
     `${dataFolder}/racksCountersAndTrunks.csv`
   );
+  let bins = await utils.readCSVFile(`${dataFolder}/resourceBins.csv`);
 
-  let cursors = [];
+  let furnitureCursors = [];
+  let binCursors = [];
 
   furniture.forEach((row, index) => {
     Object.keys(row).forEach((key) => {
       if (/[A-Z]+$/.test(row[key])) {
-        cursors.push({
+        furnitureCursors.push({
+          name: row[key],
+          x: parseInt(key),
+          y: index,
+        });
+      }
+    });
+  });
+  bins.forEach((row, index) => {
+    Object.keys(row).forEach((key) => {
+      if (/[A-Z]+$/.test(row[key])) {
+        binCursors.push({
           name: row[key],
           x: parseInt(key),
           y: index,
@@ -108,11 +88,11 @@ async function main() {
     });
   });
 
-  let furnitureOutput = "[";
+  let furnitureOutput = "";
+  let binOutput = "";
 
-  cursors.forEach((cursor) => {
+  furnitureCursors.forEach((cursor) => {
     let table = [];
-    console.log(cursor);
 
     let i = 0;
     while (true) {
@@ -157,8 +137,6 @@ async function main() {
         break;
       }
     }
-
-    console.log(table);
 
     for (let i = 0; i < 20; i++) {
       furnitureOutput +=
@@ -230,10 +208,158 @@ async function main() {
     }
   });
 
-  furnitureOutput =
-    furnitureOutput.substring(0, furnitureOutput.length - 1) + "]";
+  binCursors.forEach((cursor) => {
+    let table = [];
+    // console.log(cursor);
 
-  fs.writeFileSync(`furniture.json`, furnitureOutput, "utf-8");
+    let i = 0;
+    while (true) {
+      let field = bins[cursor.y + 2][`${cursor.x + 1 + i}`];
+      if (field != "" && field != undefined) {
+        let values = Array.from({ length: 20 }, (_, j) => {
+          let output = bins[cursor.y + 2 + 1 + j][`${cursor.x + 1 + i}`];
+          let timeVals = [60, 3600, 86400];
+          if (field == "Upgrade Time") {
+            return output
+              .split(",")
+              .map((val) => {
+                let base = val.trim().replace(/\D/g, "");
+                let multiplier = [
+                  val.indexOf("mins"),
+                  val.indexOf("hour"),
+                  val.indexOf("day"),
+                ]
+                  .map((result, i) => (result == -1 ? 0 : 1 * timeVals[i]))
+                  .reduce((r, a) => {
+                    return r + a;
+                  });
+                return base * multiplier;
+              })
+              .reduce((r, a) => {
+                return r + a;
+              });
+          } else if (
+            field == "Storage Cap" &&
+            cursor.name === "DRAGON'S HOARD BIN"
+          ) {
+            return output;
+          } else if (["Size", "Required Building"].includes(field)) {
+            return output;
+          } else {
+            return output == "---"
+              ? null
+              : parseInt(output.split(",").join(""));
+          }
+        });
+        table.push({
+          field: field,
+          values: values,
+        });
+        i++;
+      } else {
+        break;
+      }
+    }
+
+    // console.log(table);
+
+    for (let i = 0; i < 20; i++) {
+      binOutput +=
+        JSON.stringify({
+          _id: `${cursor.name
+            .replace(" ", "")
+            .replace(" ", "")
+            .replace("'", "")
+            .toLowerCase()}-${i + 1}`,
+          type: cursor.name
+            .toLowerCase()
+            .split(" ")
+            .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+            .join(" "),
+          level: i + 1,
+          stats: {
+            ...(cursor.name === "DRAGON'S HOARD BIN"
+              ? {
+                  hoardStorage: table
+                    .filter((entry) => entry.field == "Storage Cap")[0]
+                    .values[i].split("/")
+                    .map((val) => parseInt(val.trim())),
+                }
+              : {
+                  storage: table.filter(
+                    (entry) => entry.field == "Storage Cap"
+                  )[0].values[i],
+                }),
+            ...(table.filter((entry) => entry.field == "Regen Bonus (%)")
+              .length > 0 &&
+              table.filter((entry) => entry.field == "Regen Bonus (%)")[0]
+                .values[i] != null && {
+                regenBonusPct: table.filter(
+                  (entry) => entry.field == "Regen Bonus (%)"
+                )[0].values[i],
+              }),
+            size: table.filter((entry) => entry.field == "Size")[0].values[i],
+          },
+          ...(i != 19
+            ? {
+                upgrade: {
+                  goldCost: table.filter(
+                    (entry) => entry.field == "Gold Cost"
+                  )[0].values[i + 1],
+                  gemRush: table.filter((entry) => entry.field == "Gem Cost")[0]
+                    .values[i + 1],
+                  ...(table.filter((entry) => entry.field == "Dragonmarks")[0]
+                    .values[i + 1] != null && {
+                    dragonMarks: table.filter(
+                      (entry) => entry.field == "Dragonmarks"
+                    )[0].values[i + 1],
+                  }),
+                  upgradeTimeInSeconds: table.filter(
+                    (entry) => entry.field == "Upgrade Time"
+                  )[0].values[i + 1],
+                  requiredMerchantLevel: table.filter(
+                    (entry) => entry.field == "Merchant Level"
+                  )[0].values[i + 1],
+                  ...(table.filter(
+                    (entry) => entry.field == "Required Building"
+                  )[0].values[i + 1] != "---" && {
+                    requiredBuilding: table
+                      .filter((entry) => entry.field == "Required Building")[0]
+                      .values[i + 1].slice(
+                        0,
+                        table
+                          .filter(
+                            (entry) => entry.field == "Required Building"
+                          )[0]
+                          .values[i + 1].indexOf("Lv.") - 1
+                      ),
+                  }),
+                  ...(table.filter(
+                    (entry) => entry.field == "Required Building"
+                  )[0].values[i + 1] != "---" && {
+                    requiredBuildingLevel: parseInt(
+                      table
+                        .filter(
+                          (entry) => entry.field == "Required Building"
+                        )[0]
+                        .values[i + 1].trim()
+                        .replace(/\D/g, "")
+                    ),
+                  }),
+                },
+              }
+            : {}),
+        }) + ",";
+    }
+  });
+
+  binOutput = binOutput.substring(0, binOutput.length - 1);
+
+  fs.writeFileSync(
+    `${dataFolder}/furniture.json`,
+    `[${furnitureOutput} ${binOutput}]`,
+    "utf-8"
+  );
 
   // Populate the database
   let blueprints = await utils.readCSVFile(`${dataFolder}/blueprints.csv`);
@@ -265,7 +391,7 @@ async function main() {
         fusionXp: bpOracle.getValue("Fusion XP", i),
         favor: bpOracle.getValue("Favor", i),
         airshipPower: bpOracle.getValue("Airship Power", i),
-        
+
         ...(bpOracle.getValue("Antique Tokens", i) !== "---" && {
           antiqueTokens: bpOracle.getValue("Antique Tokens", i),
         }),
