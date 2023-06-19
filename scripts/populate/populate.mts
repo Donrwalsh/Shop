@@ -4,6 +4,8 @@ import { Blueprint, CraftUpgrade } from "./model/blueprint.mjs";
 import * as fs from "fs";
 import { getLogger } from "./helpers/LogConfig.mjs";
 import * as mongoDB from "mongodb";
+import { Seeker } from "./helpers/seeker.mjs";
+import { Furniture } from "./model/furniture.mjs";
 
 const log = getLogger("script.populate");
 
@@ -57,86 +59,21 @@ async function main() {
   }
 
   // ==== FURNITURE
-  let furniture = await utils.readCSVFile(
+  let seeker = new Seeker();
+
+  let racksCountersAndTrunks = await utils.readCSVFile(
     `${dataFolder}/racksCountersAndTrunks.csv`
   );
+
+  seeker.setRacksCountersAndTrunks(racksCountersAndTrunks);
+
   let bins = await utils.readCSVFile(`${dataFolder}/resourceBins.csv`);
 
-  let furnitureCursors = [];
-  let binCursors = [];
-
-  furniture.forEach((row, index) => {
-    Object.keys(row).forEach((key) => {
-      if (/[A-Z]+$/.test(row[key])) {
-        furnitureCursors.push({
-          name: row[key],
-          x: parseInt(key),
-          y: index,
-        });
-      }
-    });
-  });
-  bins.forEach((row, index) => {
-    Object.keys(row).forEach((key) => {
-      if (/[A-Z]+$/.test(row[key])) {
-        binCursors.push({
-          name: row[key],
-          x: parseInt(key),
-          y: index,
-        });
-      }
-    });
-  });
+  seeker.setBins(bins);
 
   let furnitureOutput = "";
-  let binOutput = "";
-
-  furnitureCursors.forEach((cursor) => {
-    let table = [];
-
-    let i = 0;
-    while (true) {
-      let field = furniture[cursor.y + 2][`${cursor.x + 1 + i}`];
-      if (field != "" && field != undefined) {
-        let values = Array.from({ length: 20 }, (_, j) => {
-          let output = furniture[cursor.y + 2 + 1 + j][`${cursor.x + 1 + i}`];
-          let timeVals = [60, 3600, 86400];
-          if (field == "Upgrade Time") {
-            return output
-              .split(",")
-              .map((val) => {
-                let base = val.trim().replace(/\D/g, "");
-                let multiplier = [
-                  val.indexOf("mins"),
-                  val.indexOf("hour"),
-                  val.indexOf("day"),
-                ]
-                  .map((result, i) => (result == -1 ? 0 : 1 * timeVals[i]))
-                  .reduce((r, a) => {
-                    return r + a;
-                  });
-                return base * multiplier;
-              })
-              .reduce((r, a) => {
-                return r + a;
-              });
-          } else if (["Size"].includes(field)) {
-            return output;
-          } else {
-            return output == "---"
-              ? null
-              : parseInt(output.split(",").join(""));
-          }
-        });
-        table.push({
-          field: field,
-          values: values,
-        });
-        i++;
-      } else {
-        break;
-      }
-    }
+  seeker.getFurnitureCursors().forEach((cursor, index) => {
+    let table = cursor.tables;
 
     for (let i = 0; i < 20; i++) {
       furnitureOutput +=
@@ -149,215 +86,76 @@ async function main() {
             .join(" "),
           level: i + 1,
           stats: {
-            ...(table.filter((entry) => entry.field == "Energy Cap").length >
-              0 && {
-              energy: table.filter((entry) => entry.field == "Energy Cap")[0]
-                .values[i],
+            ...(seeker.getValue(cursor, "Energy Cap", i) && {
+              energy: seeker.getValue(cursor, "Energy Cap", i),
             }),
-            ...(table.filter((entry) => entry.field == "Storage Cap").length >
-              0 && {
-              storage: table.filter((entry) => entry.field == "Storage Cap")[0]
-                .values[i],
-            }),
-            ...(table.filter((entry) => entry.field == "Inventory Cap").length >
-              0 && {
-              storage: table.filter(
-                (entry) => entry.field == "Inventory Cap"
-              )[0].values[i],
-            }),
-            size: table.filter((entry) => entry.field == "Size")[0].values[i],
-            ...(table.filter((entry) => entry.field == "Sale Energy").length >
-              0 && {
-              saleEnergy: table.filter(
-                (entry) => entry.field == "Sale Energy"
-              )[0].values[i],
-            }),
-            ...(table.filter((entry) => entry.field == "Max Energy (%)")
-              .length > 0 &&
-              table.filter((entry) => entry.field == "Max Energy (%)")[0]
-                .values[i] != null && {
-                maxEnergyPct: table.filter(
-                  (entry) => entry.field == "Max Energy (%)"
-                )[0].values[i],
-              }),
-          },
-          ...(i != 19
-            ? {
-                upgrade: {
-                  goldCost: table.filter(
-                    (entry) => entry.field == "Gold Cost"
-                  )[0].values[i + 1],
-                  gemRush: table.filter((entry) => entry.field == "Gem Cost")[0]
-                    .values[i + 1],
-                  ...(table.filter((entry) => entry.field == "Dragonmarks")[0]
-                    .values[i + 1] != null && {
-                    dragonMarks: table.filter(
-                      (entry) => entry.field == "Dragonmarks"
-                    )[0].values[i + 1],
-                  }),
-                  upgradeTimeInSeconds: table.filter(
-                    (entry) => entry.field == "Upgrade Time"
-                  )[0].values[i + 1],
-                  requiredMerchantLevel: table.filter(
-                    (entry) => entry.field == "Merchant Level"
-                  )[0].values[i + 1],
-                },
-              }
-            : {}),
-        }) + ",";
-    }
-  });
-
-  binCursors.forEach((cursor) => {
-    let table = [];
-    // console.log(cursor);
-
-    let i = 0;
-    while (true) {
-      let field = bins[cursor.y + 2][`${cursor.x + 1 + i}`];
-      if (field != "" && field != undefined) {
-        let values = Array.from({ length: 20 }, (_, j) => {
-          let output = bins[cursor.y + 2 + 1 + j][`${cursor.x + 1 + i}`];
-          let timeVals = [60, 3600, 86400];
-          if (field == "Upgrade Time") {
-            return output
-              .split(",")
-              .map((val) => {
-                let base = val.trim().replace(/\D/g, "");
-                let multiplier = [
-                  val.indexOf("mins"),
-                  val.indexOf("hour"),
-                  val.indexOf("day"),
-                ]
-                  .map((result, i) => (result == -1 ? 0 : 1 * timeVals[i]))
-                  .reduce((r, a) => {
-                    return r + a;
-                  });
-                return base * multiplier;
-              })
-              .reduce((r, a) => {
-                return r + a;
-              });
-          } else if (
-            field == "Storage Cap" &&
-            cursor.name === "DRAGON'S HOARD BIN"
-          ) {
-            return output;
-          } else if (["Size", "Required Building"].includes(field)) {
-            return output;
-          } else {
-            return output == "---"
-              ? null
-              : parseInt(output.split(",").join(""));
-          }
-        });
-        table.push({
-          field: field,
-          values: values,
-        });
-        i++;
-      } else {
-        break;
-      }
-    }
-
-    // console.log(table);
-
-    for (let i = 0; i < 20; i++) {
-      binOutput +=
-        JSON.stringify({
-          _id: `${cursor.name
-            .replace(" ", "")
-            .replace(" ", "")
-            .replace("'", "")
-            .toLowerCase()}-${i + 1}`,
-          type: cursor.name
-            .toLowerCase()
-            .split(" ")
-            .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
-            .join(" "),
-          level: i + 1,
-          stats: {
             ...(cursor.name === "DRAGON'S HOARD BIN"
               ? {
-                  hoardStorage: table
-                    .filter((entry) => entry.field == "Storage Cap")[0]
-                    .values[i].split("/")
+                  hoardStorage: seeker
+                    .getValue(cursor, "Storage Cap", i)
+                    .split("/")
                     .map((val) => parseInt(val.trim())),
                 }
-              : {
-                  storage: table.filter(
-                    (entry) => entry.field == "Storage Cap"
-                  )[0].values[i],
+              : seeker.getValue(cursor, "Storage Cap", i) && {
+                  storage: seeker.getValue(cursor, "Storage Cap", i),
                 }),
-            ...(table.filter((entry) => entry.field == "Regen Bonus (%)")
-              .length > 0 &&
-              table.filter((entry) => entry.field == "Regen Bonus (%)")[0]
-                .values[i] != null && {
-                regenBonusPct: table.filter(
-                  (entry) => entry.field == "Regen Bonus (%)"
-                )[0].values[i],
-              }),
-            size: table.filter((entry) => entry.field == "Size")[0].values[i],
+            size: seeker.getValue(cursor, "Size", i),
+            ...(seeker.getValue(cursor, "Sale Energy", i) && {
+              saleEnergy: seeker.getValue(cursor, "Sale Energy", i),
+            }),
+            ...(seeker.getValue(cursor, "Max Energy (%)", i) && {
+              maxEnergyPct: seeker.getValue(cursor, "Max Energy (%)", i),
+            }),
+            ...(seeker.getValue(cursor, "Regen Bonus (%)", i) && {
+              regenBonusPct: seeker.getValue(cursor, "Regen Bonus (%)", i),
+            }),
           },
           ...(i != 19
             ? {
                 upgrade: {
-                  goldCost: table.filter(
-                    (entry) => entry.field == "Gold Cost"
-                  )[0].values[i + 1],
-                  gemRush: table.filter((entry) => entry.field == "Gem Cost")[0]
-                    .values[i + 1],
-                  ...(table.filter((entry) => entry.field == "Dragonmarks")[0]
-                    .values[i + 1] != null && {
-                    dragonMarks: table.filter(
-                      (entry) => entry.field == "Dragonmarks"
-                    )[0].values[i + 1],
+                  goldCost: seeker.getValue(cursor, "Gold Cost", i + 1),
+                  gemRush: seeker.getValue(cursor, "Gem Cost", i + 1),
+                  ...(seeker.getValue(cursor, "Dragonmarks", i + 1) && {
+                    dragonMarks: seeker.getValue(cursor, "Dragonmarks", i + 1),
                   }),
-                  upgradeTimeInSeconds: table.filter(
-                    (entry) => entry.field == "Upgrade Time"
-                  )[0].values[i + 1],
-                  requiredMerchantLevel: table.filter(
-                    (entry) => entry.field == "Merchant Level"
-                  )[0].values[i + 1],
-                  ...(table.filter(
-                    (entry) => entry.field == "Required Building"
-                  )[0].values[i + 1] != "---" && {
-                    requiredBuilding: table
-                      .filter((entry) => entry.field == "Required Building")[0]
-                      .values[i + 1].slice(
+                  upgradeTimeInSeconds: seeker.getValue(
+                    cursor,
+                    "Upgrade Time",
+                    i + 1
+                  ),
+                  requiredMerchantLevel: seeker.getValue(
+                    cursor,
+                    "Merchant Level",
+                    i + 1
+                  ),
+                  ...(seeker.getValue(cursor, "Required Building", i + 1) && {
+                    requiredBuilding: seeker
+                      .getValue(cursor, "Required Building", i + 1)
+                      .slice(
                         0,
-                        table
-                          .filter(
-                            (entry) => entry.field == "Required Building"
-                          )[0]
-                          .values[i + 1].indexOf("Lv.") - 1
+                        seeker
+                          .getValue(cursor, "Required Building", i + 1)
+                          .indexOf("Lv.") - 1
                       ),
                   }),
-                  ...(table.filter(
-                    (entry) => entry.field == "Required Building"
-                  )[0].values[i + 1] != "---" && {
+                  ...(seeker.getValue(cursor, "Required Building", i + 1) && {
                     requiredBuildingLevel: parseInt(
-                      table
-                        .filter(
-                          (entry) => entry.field == "Required Building"
-                        )[0]
-                        .values[i + 1].trim()
+                      seeker
+                        .getValue(cursor, "Required Building", i + 1)
+                        .trim()
                         .replace(/\D/g, "")
                     ),
                   }),
                 },
               }
             : {}),
-        }) + ",";
+        } as Furniture) + ",";
     }
   });
 
-  binOutput = binOutput.substring(0, binOutput.length - 1);
-
   fs.writeFileSync(
     `${dataFolder}/furniture.json`,
-    `[${furnitureOutput} ${binOutput}]`,
+    `[${furnitureOutput.substring(0, furnitureOutput.length - 1)}]`,
     "utf-8"
   );
 

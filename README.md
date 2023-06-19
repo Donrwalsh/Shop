@@ -12,8 +12,8 @@ Script will fetch all spreadsheet data by version.
 
 Script will output complete json file for blueprints.
 
-Script will output incomplete json file for furniture (includes racks, counters and trunks but needs resourceBins)
+Script will output complete json file for furniture (includes racks, counters, trunks and resource bins)
 
 ### TODO:
 [] Is the current state of the database just the data or did I get the schema in there?
-[] populate.mts is gathering furniture data in an awkward way. This should be improved.
+[] oracle + seeker is fine for now, but is there a grand unifying approach that could combine the two?
