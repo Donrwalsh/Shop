@@ -154,7 +154,7 @@ async function main() {
   });
 
   fs.writeFileSync(
-    `${dataFolder}/furniture.json`,
+    `../../database/data/furniture.json`,
     `[${furnitureOutput.substring(0, furnitureOutput.length - 1)}]`,
     "utf-8"
   );
@@ -305,10 +305,14 @@ async function main() {
       },
     } as Blueprint;
     // await blueprintsCollection.insertOne(thisBp);
-    bpOutput += JSON.stringify(thisBp);
+    bpOutput += JSON.stringify(thisBp) + ",";
   }
 
-  fs.writeFileSync(`${dataFolder}/blueprints.json`, bpOutput, "utf-8");
+  fs.writeFileSync(
+    `../../database/data/blueprints.json`,
+    `[${bpOutput.substring(0, bpOutput.length - 1)}]`,
+    "utf-8"
+  );
 
   // return
 

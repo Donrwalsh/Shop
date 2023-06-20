@@ -1,0 +1,4714 @@
+[
+  {
+    "_id": "verticalrack-1",
+    "type": "Vertical Rack",
+    "level": 1,
+    "stats": { "energy": 9, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 500,
+      "gemRush": 20,
+      "upgradeTimeInSeconds": 300,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "verticalrack-2",
+    "type": "Vertical Rack",
+    "level": 2,
+    "stats": { "energy": 12, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 3600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "verticalrack-3",
+    "type": "Vertical Rack",
+    "level": 3,
+    "stats": { "energy": 15, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 12500,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "verticalrack-4",
+    "type": "Vertical Rack",
+    "level": 4,
+    "stats": { "energy": 18, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 25000,
+      "gemRush": 75,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "verticalrack-5",
+    "type": "Vertical Rack",
+    "level": 5,
+    "stats": { "energy": 21, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "verticalrack-6",
+    "type": "Vertical Rack",
+    "level": 6,
+    "stats": { "energy": 24, "storage": 8, "size": "2x5" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 28800,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "verticalrack-7",
+    "type": "Vertical Rack",
+    "level": 7,
+    "stats": { "energy": 30, "storage": 8, "size": "2x5" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 41400,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "verticalrack-8",
+    "type": "Vertical Rack",
+    "level": 8,
+    "stats": { "energy": 36, "storage": 8, "size": "2x5" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "verticalrack-9",
+    "type": "Vertical Rack",
+    "level": 9,
+    "stats": { "energy": 42, "storage": 8, "size": "2x5" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 100800,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "verticalrack-10",
+    "type": "Vertical Rack",
+    "level": 10,
+    "stats": { "energy": 48, "storage": 8, "size": "2x5" },
+    "upgrade": {
+      "goldCost": 6250000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "verticalrack-11",
+    "type": "Vertical Rack",
+    "level": 11,
+    "stats": { "energy": 54, "storage": 12, "size": "2x7" },
+    "upgrade": {
+      "goldCost": 12500000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 194400,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "verticalrack-12",
+    "type": "Vertical Rack",
+    "level": 12,
+    "stats": { "energy": 63, "storage": 12, "size": "2x7" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "verticalrack-13",
+    "type": "Vertical Rack",
+    "level": 13,
+    "stats": { "energy": 72, "storage": 12, "size": "2x7" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "verticalrack-14",
+    "type": "Vertical Rack",
+    "level": 14,
+    "stats": { "energy": 81, "storage": 12, "size": "2x7" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "verticalrack-15",
+    "type": "Vertical Rack",
+    "level": 15,
+    "stats": { "energy": 90, "storage": 12, "size": "2x7" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1100,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 324000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "verticalrack-16",
+    "type": "Vertical Rack",
+    "level": 16,
+    "stats": { "energy": 99, "storage": 12, "size": "2x7" },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1250,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 338400,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "verticalrack-17",
+    "type": "Vertical Rack",
+    "level": 17,
+    "stats": { "energy": 110, "storage": 12, "size": "2x7" },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 360000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "verticalrack-18",
+    "type": "Vertical Rack",
+    "level": 18,
+    "stats": { "energy": 121, "storage": 12, "size": "2x7" },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 381600,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "verticalrack-19",
+    "type": "Vertical Rack",
+    "level": 19,
+    "stats": { "energy": 132, "storage": 12, "size": "2x7" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 2000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 403200,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "verticalrack-20",
+    "type": "Vertical Rack",
+    "level": 20,
+    "stats": { "energy": 143, "storage": 12, "size": "2x7" }
+  },
+  {
+    "_id": "counter-1",
+    "type": "Counter",
+    "level": 1,
+    "stats": { "size": "2x2", "saleEnergy": 1 },
+    "upgrade": {
+      "goldCost": 1000,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "counter-2",
+    "type": "Counter",
+    "level": 2,
+    "stats": { "size": "2x2", "saleEnergy": 2 },
+    "upgrade": {
+      "goldCost": 20000,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 7200,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "counter-3",
+    "type": "Counter",
+    "level": 3,
+    "stats": { "size": "2x2", "saleEnergy": 3 },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 21600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "counter-4",
+    "type": "Counter",
+    "level": 4,
+    "stats": { "size": "2x2", "saleEnergy": 4 },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 21600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "counter-5",
+    "type": "Counter",
+    "level": 5,
+    "stats": { "size": "2x2", "saleEnergy": 5 },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 32400,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "counter-6",
+    "type": "Counter",
+    "level": 6,
+    "stats": { "size": "2x4", "saleEnergy": 7 },
+    "upgrade": {
+      "goldCost": 1500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "counter-7",
+    "type": "Counter",
+    "level": 7,
+    "stats": { "size": "2x4", "saleEnergy": 9 },
+    "upgrade": {
+      "goldCost": 3000000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 82800,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "counter-8",
+    "type": "Counter",
+    "level": 8,
+    "stats": { "size": "2x4", "saleEnergy": 11 },
+    "upgrade": {
+      "goldCost": 6000000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 115200,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "counter-9",
+    "type": "Counter",
+    "level": 9,
+    "stats": { "size": "2x4", "saleEnergy": 13 },
+    "upgrade": {
+      "goldCost": 18000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 201600,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "counter-10",
+    "type": "Counter",
+    "level": 10,
+    "stats": { "size": "2x4", "saleEnergy": 15 },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 600,
+      "upgradeTimeInSeconds": 345600,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "counter-11",
+    "type": "Counter",
+    "level": 11,
+    "stats": { "size": "2x6", "saleEnergy": 18 },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 800,
+      "upgradeTimeInSeconds": 388800,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "counter-12",
+    "type": "Counter",
+    "level": 12,
+    "stats": { "size": "2x6", "saleEnergy": 21 },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 432000,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "counter-13",
+    "type": "Counter",
+    "level": 13,
+    "stats": { "size": "2x6", "saleEnergy": 24 },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 1500,
+      "upgradeTimeInSeconds": 518400,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "counter-14",
+    "type": "Counter",
+    "level": 14,
+    "stats": { "size": "2x6", "saleEnergy": 27 },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 2000,
+      "upgradeTimeInSeconds": 604800,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "counter-15",
+    "type": "Counter",
+    "level": 15,
+    "stats": { "size": "2x6", "saleEnergy": 30 },
+    "upgrade": {
+      "goldCost": 600000000,
+      "gemRush": 2200,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 648000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "counter-16",
+    "type": "Counter",
+    "level": 16,
+    "stats": { "size": "2x6", "saleEnergy": 33, "maxEnergyPct": 1 },
+    "upgrade": {
+      "goldCost": 700000000,
+      "gemRush": 2400,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 676800,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "counter-17",
+    "type": "Counter",
+    "level": 17,
+    "stats": { "size": "2x6", "saleEnergy": 37, "maxEnergyPct": 2 },
+    "upgrade": {
+      "goldCost": 800000000,
+      "gemRush": 2600,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 720000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "counter-18",
+    "type": "Counter",
+    "level": 18,
+    "stats": { "size": "2x6", "saleEnergy": 41, "maxEnergyPct": 3 },
+    "upgrade": {
+      "goldCost": 900000000,
+      "gemRush": 2800,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 763200,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "counter-19",
+    "type": "Counter",
+    "level": 19,
+    "stats": { "size": "2x6", "saleEnergy": 45, "maxEnergyPct": 4 },
+    "upgrade": {
+      "goldCost": 1000000000,
+      "gemRush": 3000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 806400,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "counter-20",
+    "type": "Counter",
+    "level": 20,
+    "stats": { "size": "2x6", "saleEnergy": 49, "maxEnergyPct": 5 }
+  },
+  {
+    "_id": "table-1",
+    "type": "Table",
+    "level": 1,
+    "stats": { "energy": 9, "storage": 3, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 500,
+      "gemRush": 20,
+      "upgradeTimeInSeconds": 300,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "table-2",
+    "type": "Table",
+    "level": 2,
+    "stats": { "energy": 12, "storage": 3, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 3600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "table-3",
+    "type": "Table",
+    "level": 3,
+    "stats": { "energy": 15, "storage": 3, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 12500,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "table-4",
+    "type": "Table",
+    "level": 4,
+    "stats": { "energy": 18, "storage": 3, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 25000,
+      "gemRush": 75,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "table-5",
+    "type": "Table",
+    "level": 5,
+    "stats": { "energy": 21, "storage": 3, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "table-6",
+    "type": "Table",
+    "level": 6,
+    "stats": { "energy": 24, "storage": 6, "size": "4x4" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 28800,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "table-7",
+    "type": "Table",
+    "level": 7,
+    "stats": { "energy": 30, "storage": 6, "size": "4x4" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 41400,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "table-8",
+    "type": "Table",
+    "level": 8,
+    "stats": { "energy": 36, "storage": 6, "size": "4x4" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "table-9",
+    "type": "Table",
+    "level": 9,
+    "stats": { "energy": 42, "storage": 6, "size": "4x4" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 100800,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "table-10",
+    "type": "Table",
+    "level": 10,
+    "stats": { "energy": 48, "storage": 6, "size": "4x4" },
+    "upgrade": {
+      "goldCost": 6250000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "table-11",
+    "type": "Table",
+    "level": 11,
+    "stats": { "energy": 54, "storage": 10, "size": "6x4" },
+    "upgrade": {
+      "goldCost": 12500000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 194400,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "table-12",
+    "type": "Table",
+    "level": 12,
+    "stats": { "energy": 63, "storage": 10, "size": "6x4" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "table-13",
+    "type": "Table",
+    "level": 13,
+    "stats": { "energy": 72, "storage": 10, "size": "6x4" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "table-14",
+    "type": "Table",
+    "level": 14,
+    "stats": { "energy": 81, "storage": 10, "size": "6x4" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "table-15",
+    "type": "Table",
+    "level": 15,
+    "stats": { "energy": 90, "storage": 10, "size": "6x4" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1100,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 324000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "table-16",
+    "type": "Table",
+    "level": 16,
+    "stats": { "energy": 99, "storage": 10, "size": "6x4" },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1250,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 338400,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "table-17",
+    "type": "Table",
+    "level": 17,
+    "stats": { "energy": 110, "storage": 10, "size": "6x4" },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 360000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "table-18",
+    "type": "Table",
+    "level": 18,
+    "stats": { "energy": 121, "storage": 10, "size": "6x4" },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 381600,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "table-19",
+    "type": "Table",
+    "level": 19,
+    "stats": { "energy": 132, "storage": 10, "size": "6x4" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 2000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 403200,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "table-20",
+    "type": "Table",
+    "level": 20,
+    "stats": { "energy": 143, "storage": 10, "size": "6x4" }
+  },
+  {
+    "_id": "trunk-1",
+    "type": "Trunk",
+    "level": 1,
+    "stats": { "size": "2x2" },
+    "upgrade": {
+      "goldCost": 1000,
+      "gemRush": 20,
+      "upgradeTimeInSeconds": 300,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "trunk-2",
+    "type": "Trunk",
+    "level": 2,
+    "stats": { "size": "2x2" },
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 3600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "trunk-3",
+    "type": "Trunk",
+    "level": 3,
+    "stats": { "size": "2x2" },
+    "upgrade": {
+      "goldCost": 12500,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "trunk-4",
+    "type": "Trunk",
+    "level": 4,
+    "stats": { "size": "2x2" },
+    "upgrade": {
+      "goldCost": 25000,
+      "gemRush": 75,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "trunk-5",
+    "type": "Trunk",
+    "level": 5,
+    "stats": { "size": "2x2" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "trunk-6",
+    "type": "Trunk",
+    "level": 6,
+    "stats": { "size": "2x3" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 28800,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "trunk-7",
+    "type": "Trunk",
+    "level": 7,
+    "stats": { "size": "2x3" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 41400,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "trunk-8",
+    "type": "Trunk",
+    "level": 8,
+    "stats": { "size": "2x3" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "trunk-9",
+    "type": "Trunk",
+    "level": 9,
+    "stats": { "size": "2x3" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 100800,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "trunk-10",
+    "type": "Trunk",
+    "level": 10,
+    "stats": { "size": "2x3" },
+    "upgrade": {
+      "goldCost": 6250000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "trunk-11",
+    "type": "Trunk",
+    "level": 11,
+    "stats": { "size": "3x3" },
+    "upgrade": {
+      "goldCost": 12500000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 194400,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "trunk-12",
+    "type": "Trunk",
+    "level": 12,
+    "stats": { "size": "3x3" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "trunk-13",
+    "type": "Trunk",
+    "level": 13,
+    "stats": { "size": "3x3" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "trunk-14",
+    "type": "Trunk",
+    "level": 14,
+    "stats": { "size": "3x3" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "trunk-15",
+    "type": "Trunk",
+    "level": 15,
+    "stats": { "size": "3x3" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1100,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 324000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "trunk-16",
+    "type": "Trunk",
+    "level": 16,
+    "stats": { "size": "3x3" },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1250,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 338400,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "trunk-17",
+    "type": "Trunk",
+    "level": 17,
+    "stats": { "size": "3x3" },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 360000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "trunk-18",
+    "type": "Trunk",
+    "level": 18,
+    "stats": { "size": "3x3" },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 381600,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "trunk-19",
+    "type": "Trunk",
+    "level": 19,
+    "stats": { "size": "3x3" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 2000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 403200,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "trunk-20",
+    "type": "Trunk",
+    "level": 20,
+    "stats": { "size": "3x3" }
+  },
+  {
+    "_id": "shelves-1",
+    "type": "Shelves",
+    "level": 1,
+    "stats": { "energy": 9, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 500,
+      "gemRush": 20,
+      "upgradeTimeInSeconds": 300,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "shelves-2",
+    "type": "Shelves",
+    "level": 2,
+    "stats": { "energy": 12, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 3600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "shelves-3",
+    "type": "Shelves",
+    "level": 3,
+    "stats": { "energy": 15, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 12500,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "shelves-4",
+    "type": "Shelves",
+    "level": 4,
+    "stats": { "energy": 18, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 25000,
+      "gemRush": 75,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "shelves-5",
+    "type": "Shelves",
+    "level": 5,
+    "stats": { "energy": 21, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "shelves-6",
+    "type": "Shelves",
+    "level": 6,
+    "stats": { "energy": 24, "storage": 6, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 28800,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "shelves-7",
+    "type": "Shelves",
+    "level": 7,
+    "stats": { "energy": 30, "storage": 6, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 41400,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "shelves-8",
+    "type": "Shelves",
+    "level": 8,
+    "stats": { "energy": 36, "storage": 6, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "shelves-9",
+    "type": "Shelves",
+    "level": 9,
+    "stats": { "energy": 42, "storage": 6, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 100800,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "shelves-10",
+    "type": "Shelves",
+    "level": 10,
+    "stats": { "energy": 48, "storage": 6, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 6250000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "shelves-11",
+    "type": "Shelves",
+    "level": 11,
+    "stats": { "energy": 54, "storage": 9, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 12500000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 194400,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "shelves-12",
+    "type": "Shelves",
+    "level": 12,
+    "stats": { "energy": 63, "storage": 9, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "shelves-13",
+    "type": "Shelves",
+    "level": 13,
+    "stats": { "energy": 72, "storage": 9, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "shelves-14",
+    "type": "Shelves",
+    "level": 14,
+    "stats": { "energy": 81, "storage": 9, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "shelves-15",
+    "type": "Shelves",
+    "level": 15,
+    "stats": { "energy": 90, "storage": 9, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1100,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 324000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "shelves-16",
+    "type": "Shelves",
+    "level": 16,
+    "stats": { "energy": 99, "storage": 9, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1250,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 338400,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "shelves-17",
+    "type": "Shelves",
+    "level": 17,
+    "stats": { "energy": 110, "storage": 9, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 360000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "shelves-18",
+    "type": "Shelves",
+    "level": 18,
+    "stats": { "energy": 121, "storage": 9, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 381600,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "shelves-19",
+    "type": "Shelves",
+    "level": 19,
+    "stats": { "energy": 132, "storage": 9, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 2000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 403200,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "shelves-20",
+    "type": "Shelves",
+    "level": 20,
+    "stats": { "energy": 143, "storage": 9, "size": "3x4" }
+  },
+  {
+    "_id": "mannequin-1",
+    "type": "Mannequin",
+    "level": 1,
+    "stats": { "energy": 9, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 500,
+      "gemRush": 20,
+      "upgradeTimeInSeconds": 300,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "mannequin-2",
+    "type": "Mannequin",
+    "level": 2,
+    "stats": { "energy": 12, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 3600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "mannequin-3",
+    "type": "Mannequin",
+    "level": 3,
+    "stats": { "energy": 15, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 12500,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "mannequin-4",
+    "type": "Mannequin",
+    "level": 4,
+    "stats": { "energy": 18, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 25000,
+      "gemRush": 75,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "mannequin-5",
+    "type": "Mannequin",
+    "level": 5,
+    "stats": { "energy": 21, "storage": 4, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "mannequin-6",
+    "type": "Mannequin",
+    "level": 6,
+    "stats": { "energy": 24, "storage": 8, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 28800,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "mannequin-7",
+    "type": "Mannequin",
+    "level": 7,
+    "stats": { "energy": 30, "storage": 8, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 41400,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "mannequin-8",
+    "type": "Mannequin",
+    "level": 8,
+    "stats": { "energy": 36, "storage": 8, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "mannequin-9",
+    "type": "Mannequin",
+    "level": 9,
+    "stats": { "energy": 42, "storage": 8, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 100800,
+      "requiredMerchantLevel": 12
+    }
+  },
+  {
+    "_id": "mannequin-10",
+    "type": "Mannequin",
+    "level": 10,
+    "stats": { "energy": 48, "storage": 8, "size": "2x4" },
+    "upgrade": {
+      "goldCost": 6250000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "mannequin-11",
+    "type": "Mannequin",
+    "level": 11,
+    "stats": { "energy": 54, "storage": 12, "size": "2x6" },
+    "upgrade": {
+      "goldCost": 12500000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 194400,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "mannequin-12",
+    "type": "Mannequin",
+    "level": 12,
+    "stats": { "energy": 63, "storage": 12, "size": "2x6" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "mannequin-13",
+    "type": "Mannequin",
+    "level": 13,
+    "stats": { "energy": 72, "storage": 12, "size": "2x6" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "mannequin-14",
+    "type": "Mannequin",
+    "level": 14,
+    "stats": { "energy": 81, "storage": 12, "size": "2x6" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 24
+    }
+  },
+  {
+    "_id": "mannequin-15",
+    "type": "Mannequin",
+    "level": 15,
+    "stats": { "energy": 90, "storage": 12, "size": "2x6" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1100,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 324000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "mannequin-16",
+    "type": "Mannequin",
+    "level": 16,
+    "stats": { "energy": 99, "storage": 12, "size": "2x6" },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1250,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 338400,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "mannequin-17",
+    "type": "Mannequin",
+    "level": 17,
+    "stats": { "energy": 110, "storage": 12, "size": "2x6" },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 360000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "mannequin-18",
+    "type": "Mannequin",
+    "level": 18,
+    "stats": { "energy": 121, "storage": 12, "size": "2x6" },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 381600,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "mannequin-19",
+    "type": "Mannequin",
+    "level": 19,
+    "stats": { "energy": 132, "storage": 12, "size": "2x6" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 2000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 403200,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "mannequin-20",
+    "type": "Mannequin",
+    "level": 20,
+    "stats": { "energy": 143, "storage": 12, "size": "2x6" }
+  },
+  {
+    "_id": "ironbin-1",
+    "type": "Iron Bin",
+    "level": 1,
+    "stats": { "storage": 35, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 500,
+      "gemRush": 20,
+      "upgradeTimeInSeconds": 300,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "ironbin-2",
+    "type": "Iron Bin",
+    "level": 2,
+    "stats": { "storage": 41, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 25,
+      "upgradeTimeInSeconds": 3600,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "ironbin-3",
+    "type": "Iron Bin",
+    "level": 3,
+    "stats": { "storage": 47, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 12500,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "ironbin-4",
+    "type": "Iron Bin",
+    "level": 4,
+    "stats": { "storage": 53, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 50000,
+      "gemRush": 40,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "ironbin-5",
+    "type": "Iron Bin",
+    "level": 5,
+    "stats": { "storage": 59, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "ironbin-6",
+    "type": "Iron Bin",
+    "level": 6,
+    "stats": { "storage": 65, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 75,
+      "upgradeTimeInSeconds": 28800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "ironbin-7",
+    "type": "Iron Bin",
+    "level": 7,
+    "stats": { "storage": 77, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 41400,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "ironbin-8",
+    "type": "Iron Bin",
+    "level": 8,
+    "stats": { "storage": 89, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "ironbin-9",
+    "type": "Iron Bin",
+    "level": 9,
+    "stats": { "storage": 101, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 100800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "ironbin-10",
+    "type": "Iron Bin",
+    "level": 10,
+    "stats": { "storage": 113, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 6250000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "ironbin-11",
+    "type": "Iron Bin",
+    "level": 11,
+    "stats": { "storage": 125, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 12500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 194400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "ironbin-12",
+    "type": "Iron Bin",
+    "level": 12,
+    "stats": { "storage": 145, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "ironbin-13",
+    "type": "Iron Bin",
+    "level": 13,
+    "stats": { "storage": 165, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "ironbin-14",
+    "type": "Iron Bin",
+    "level": 14,
+    "stats": { "storage": 185, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "ironbin-15",
+    "type": "Iron Bin",
+    "level": 15,
+    "stats": { "storage": 205, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1100,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 324000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "ironbin-16",
+    "type": "Iron Bin",
+    "level": 16,
+    "stats": { "storage": 225, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1250,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 338400,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "ironbin-17",
+    "type": "Iron Bin",
+    "level": 17,
+    "stats": { "storage": 250, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 360000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "ironbin-18",
+    "type": "Iron Bin",
+    "level": 18,
+    "stats": { "storage": 275, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 381600,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "ironbin-19",
+    "type": "Iron Bin",
+    "level": 19,
+    "stats": { "storage": 300, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 2000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 403200,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Iron Mine",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "ironbin-20",
+    "type": "Iron Bin",
+    "level": 20,
+    "stats": { "storage": 325, "size": "3x3", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "steelbin-1",
+    "type": "Steel Bin",
+    "level": 1,
+    "stats": { "storage": 15, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 50000,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "steelbin-2",
+    "type": "Steel Bin",
+    "level": 2,
+    "stats": { "storage": 18, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 150000,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 12600,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "steelbin-3",
+    "type": "Steel Bin",
+    "level": 3,
+    "stats": { "storage": 21, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 18000,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "steelbin-4",
+    "type": "Steel Bin",
+    "level": 4,
+    "stats": { "storage": 24, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 350000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 25200,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "steelbin-5",
+    "type": "Steel Bin",
+    "level": 5,
+    "stats": { "storage": 27, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 175,
+      "upgradeTimeInSeconds": 36000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "steelbin-6",
+    "type": "Steel Bin",
+    "level": 6,
+    "stats": { "storage": 30, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 750000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 46800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "steelbin-7",
+    "type": "Steel Bin",
+    "level": 7,
+    "stats": { "storage": 36, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 1500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 79200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "steelbin-8",
+    "type": "Steel Bin",
+    "level": 8,
+    "stats": { "storage": 42, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 3000000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 90000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "steelbin-9",
+    "type": "Steel Bin",
+    "level": 9,
+    "stats": { "storage": 48, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 9000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 201600,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "steelbin-10",
+    "type": "Steel Bin",
+    "level": 10,
+    "stats": { "storage": 54, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 223200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "steelbin-11",
+    "type": "Steel Bin",
+    "level": 11,
+    "stats": { "storage": 60, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 450,
+      "upgradeTimeInSeconds": 266400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "steelbin-12",
+    "type": "Steel Bin",
+    "level": 12,
+    "stats": { "storage": 68, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 309600,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "steelbin-13",
+    "type": "Steel Bin",
+    "level": 13,
+    "stats": { "storage": 76, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 600,
+      "upgradeTimeInSeconds": 352800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "steelbin-14",
+    "type": "Steel Bin",
+    "level": 14,
+    "stats": { "storage": 84, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 250000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 388800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "steelbin-15",
+    "type": "Steel Bin",
+    "level": 15,
+    "stats": { "storage": 92, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 1000,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 421200,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "steelbin-16",
+    "type": "Steel Bin",
+    "level": 16,
+    "stats": { "storage": 100, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 400000000,
+      "gemRush": 1200,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 439920,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "steelbin-17",
+    "type": "Steel Bin",
+    "level": 17,
+    "stats": { "storage": 110, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 1500,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 468000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "steelbin-18",
+    "type": "Steel Bin",
+    "level": 18,
+    "stats": { "storage": 120, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 600000000,
+      "gemRush": 1750,
+      "dragonMarks": 225,
+      "upgradeTimeInSeconds": 496080,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "steelbin-19",
+    "type": "Steel Bin",
+    "level": 19,
+    "stats": { "storage": 130, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 750000000,
+      "gemRush": 2250,
+      "dragonMarks": 250,
+      "upgradeTimeInSeconds": 524160,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Smelter",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "steelbin-20",
+    "type": "Steel Bin",
+    "level": 20,
+    "stats": { "storage": 140, "size": "3x3", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "jewelbin-1",
+    "type": "Jewel Bin",
+    "level": 1,
+    "stats": { "storage": 8, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 750000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "jewelbin-2",
+    "type": "Jewel Bin",
+    "level": 2,
+    "stats": { "storage": 10, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 18900,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "jewelbin-3",
+    "type": "Jewel Bin",
+    "level": 3,
+    "stats": { "storage": 12, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 1500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 27000,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "jewelbin-4",
+    "type": "Jewel Bin",
+    "level": 4,
+    "stats": { "storage": 14, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 37800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "jewelbin-5",
+    "type": "Jewel Bin",
+    "level": 5,
+    "stats": { "storage": 16, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 4000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 54000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "jewelbin-6",
+    "type": "Jewel Bin",
+    "level": 6,
+    "stats": { "storage": 18, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 5000000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 70200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "jewelbin-7",
+    "type": "Jewel Bin",
+    "level": 7,
+    "stats": { "storage": 21, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 7500000,
+      "gemRush": 450,
+      "upgradeTimeInSeconds": 118800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "jewelbin-8",
+    "type": "Jewel Bin",
+    "level": 8,
+    "stats": { "storage": 24, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 135000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "jewelbin-9",
+    "type": "Jewel Bin",
+    "level": 9,
+    "stats": { "storage": 27, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 30000000,
+      "gemRush": 550,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "jewelbin-10",
+    "type": "Jewel Bin",
+    "level": 10,
+    "stats": { "storage": 30, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 40000000,
+      "gemRush": 600,
+      "upgradeTimeInSeconds": 334800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "jewelbin-11",
+    "type": "Jewel Bin",
+    "level": 11,
+    "stats": { "storage": 33, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 60000000,
+      "gemRush": 650,
+      "upgradeTimeInSeconds": 399600,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "jewelbin-12",
+    "type": "Jewel Bin",
+    "level": 12,
+    "stats": { "storage": 37, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 700,
+      "upgradeTimeInSeconds": 464400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "jewelbin-13",
+    "type": "Jewel Bin",
+    "level": 13,
+    "stats": { "storage": 41, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 800,
+      "upgradeTimeInSeconds": 529200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "jewelbin-14",
+    "type": "Jewel Bin",
+    "level": 14,
+    "stats": { "storage": 45, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 900,
+      "upgradeTimeInSeconds": 583200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "jewelbin-15",
+    "type": "Jewel Bin",
+    "level": 15,
+    "stats": { "storage": 49, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 600000000,
+      "gemRush": 1250,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 631800,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "jewelbin-16",
+    "type": "Jewel Bin",
+    "level": 16,
+    "stats": { "storage": 53, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 750000000,
+      "gemRush": 1400,
+      "dragonMarks": 225,
+      "upgradeTimeInSeconds": 659880,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "jewelbin-17",
+    "type": "Jewel Bin",
+    "level": 17,
+    "stats": { "storage": 58, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 1000000000,
+      "gemRush": 1600,
+      "dragonMarks": 250,
+      "upgradeTimeInSeconds": 702000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "jewelbin-18",
+    "type": "Jewel Bin",
+    "level": 18,
+    "stats": { "storage": 63, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 1250000000,
+      "gemRush": 2000,
+      "dragonMarks": 275,
+      "upgradeTimeInSeconds": 744120,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "jewelbin-19",
+    "type": "Jewel Bin",
+    "level": 19,
+    "stats": { "storage": 68, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 1500000000,
+      "gemRush": 2500,
+      "dragonMarks": 300,
+      "upgradeTimeInSeconds": 786240,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Jewel Storehouse",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "jewelbin-20",
+    "type": "Jewel Bin",
+    "level": 20,
+    "stats": { "storage": 73, "size": "3x3", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "essencebeacon-1",
+    "type": "Essence Beacon",
+    "level": 1,
+    "stats": { "storage": 5, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 2250000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 32400,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "essencebeacon-2",
+    "type": "Essence Beacon",
+    "level": 2,
+    "stats": { "storage": 6, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 3000000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 37800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "essencebeacon-3",
+    "type": "Essence Beacon",
+    "level": 3,
+    "stats": { "storage": 7, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 4500000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 54000,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "essencebeacon-4",
+    "type": "Essence Beacon",
+    "level": 4,
+    "stats": { "storage": 8, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 7500000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 75600,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "essencebeacon-5",
+    "type": "Essence Beacon",
+    "level": 5,
+    "stats": { "storage": 9, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 12000000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 108000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "essencebeacon-6",
+    "type": "Essence Beacon",
+    "level": 6,
+    "stats": { "storage": 10, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 450,
+      "upgradeTimeInSeconds": 140400,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "essencebeacon-7",
+    "type": "Essence Beacon",
+    "level": 7,
+    "stats": { "storage": 12, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 22500000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 237600,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "essencebeacon-8",
+    "type": "Essence Beacon",
+    "level": 8,
+    "stats": { "storage": 14, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 45000000,
+      "gemRush": 550,
+      "upgradeTimeInSeconds": 270000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "essencebeacon-9",
+    "type": "Essence Beacon",
+    "level": 9,
+    "stats": { "storage": 16, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 90000000,
+      "gemRush": 600,
+      "upgradeTimeInSeconds": 604800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "essencebeacon-10",
+    "type": "Essence Beacon",
+    "level": 10,
+    "stats": { "storage": 18, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 120000000,
+      "gemRush": 700,
+      "upgradeTimeInSeconds": 669600,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "essencebeacon-11",
+    "type": "Essence Beacon",
+    "level": 11,
+    "stats": { "storage": 20, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 180000000,
+      "gemRush": 800,
+      "upgradeTimeInSeconds": 799200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "essencebeacon-12",
+    "type": "Essence Beacon",
+    "level": 12,
+    "stats": { "storage": 23, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 900,
+      "upgradeTimeInSeconds": 928800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "essencebeacon-13",
+    "type": "Essence Beacon",
+    "level": 13,
+    "stats": { "storage": 26, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 900000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 1058400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "essencebeacon-14",
+    "type": "Essence Beacon",
+    "level": 14,
+    "stats": { "storage": 29, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 1500000000,
+      "gemRush": 1100,
+      "upgradeTimeInSeconds": 1166400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "essencebeacon-15",
+    "type": "Essence Beacon",
+    "level": 15,
+    "stats": { "storage": 32, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 1800000000,
+      "gemRush": 1250,
+      "dragonMarks": 250,
+      "upgradeTimeInSeconds": 1263600,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "essencebeacon-16",
+    "type": "Essence Beacon",
+    "level": 16,
+    "stats": { "storage": 35, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 2250000000,
+      "gemRush": 1500,
+      "dragonMarks": 300,
+      "upgradeTimeInSeconds": 1319760,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "essencebeacon-17",
+    "type": "Essence Beacon",
+    "level": 17,
+    "stats": { "storage": 40, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 3000000000,
+      "gemRush": 1750,
+      "dragonMarks": 350,
+      "upgradeTimeInSeconds": 1404000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "essencebeacon-18",
+    "type": "Essence Beacon",
+    "level": 18,
+    "stats": { "storage": 45, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 3750000000,
+      "gemRush": 2250,
+      "dragonMarks": 400,
+      "upgradeTimeInSeconds": 1488240,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "essencebeacon-19",
+    "type": "Essence Beacon",
+    "level": 19,
+    "stats": { "storage": 50, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 4500000000,
+      "gemRush": 3000,
+      "dragonMarks": 500,
+      "upgradeTimeInSeconds": 1572480,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Mausoleum",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "essencebeacon-20",
+    "type": "Essence Beacon",
+    "level": 20,
+    "stats": { "storage": 55, "size": "3x3", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "dragon'shoard bin-1",
+    "type": "Dragon's Hoard Bin",
+    "level": 1,
+    "stats": { "hoardStorage": [10], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 1000,
+      "gemRush": 30,
+      "dragonMarks": 10,
+      "upgradeTimeInSeconds": 600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-2",
+    "type": "Dragon's Hoard Bin",
+    "level": 2,
+    "stats": { "hoardStorage": [12], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 20000,
+      "gemRush": 50,
+      "dragonMarks": 20,
+      "upgradeTimeInSeconds": 7200,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-3",
+    "type": "Dragon's Hoard Bin",
+    "level": 3,
+    "stats": { "hoardStorage": [14], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 100,
+      "dragonMarks": 30,
+      "upgradeTimeInSeconds": 21600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-4",
+    "type": "Dragon's Hoard Bin",
+    "level": 4,
+    "stats": { "hoardStorage": [16], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 150,
+      "dragonMarks": 50,
+      "upgradeTimeInSeconds": 21600,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-5",
+    "type": "Dragon's Hoard Bin",
+    "level": 5,
+    "stats": { "hoardStorage": [18], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 200,
+      "dragonMarks": 75,
+      "upgradeTimeInSeconds": 32400,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-6",
+    "type": "Dragon's Hoard Bin",
+    "level": 6,
+    "stats": { "hoardStorage": [20, 10], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 1500000,
+      "gemRush": 250,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-7",
+    "type": "Dragon's Hoard Bin",
+    "level": 7,
+    "stats": { "hoardStorage": [24, 12], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 3000000,
+      "gemRush": 300,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 82800,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-8",
+    "type": "Dragon's Hoard Bin",
+    "level": 8,
+    "stats": { "hoardStorage": [28, 14], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 6000000,
+      "gemRush": 400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 115200,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-9",
+    "type": "Dragon's Hoard Bin",
+    "level": 9,
+    "stats": { "hoardStorage": [32, 16], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 18000000,
+      "gemRush": 500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 201600,
+      "requiredMerchantLevel": 6
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-10",
+    "type": "Dragon's Hoard Bin",
+    "level": 10,
+    "stats": { "hoardStorage": [36, 18], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 600,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 345600,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-11",
+    "type": "Dragon's Hoard Bin",
+    "level": 11,
+    "stats": { "hoardStorage": [40, 20, 10], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 800,
+      "dragonMarks": 225,
+      "upgradeTimeInSeconds": 388800,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-12",
+    "type": "Dragon's Hoard Bin",
+    "level": 12,
+    "stats": { "hoardStorage": [46, 22, 11], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1000,
+      "dragonMarks": 250,
+      "upgradeTimeInSeconds": 432000,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-13",
+    "type": "Dragon's Hoard Bin",
+    "level": 13,
+    "stats": { "hoardStorage": [52, 24, 12], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 1500,
+      "dragonMarks": 275,
+      "upgradeTimeInSeconds": 518400,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-14",
+    "type": "Dragon's Hoard Bin",
+    "level": 14,
+    "stats": { "hoardStorage": [58, 26, 13], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 2000,
+      "dragonMarks": 300,
+      "upgradeTimeInSeconds": 604800,
+      "requiredMerchantLevel": 11
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-15",
+    "type": "Dragon's Hoard Bin",
+    "level": 15,
+    "stats": { "hoardStorage": [64, 28, 14], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 600000000,
+      "gemRush": 2250,
+      "dragonMarks": 325,
+      "upgradeTimeInSeconds": 648000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-16",
+    "type": "Dragon's Hoard Bin",
+    "level": 16,
+    "stats": { "hoardStorage": [70, 30, 15, 1], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 700000000,
+      "gemRush": 2500,
+      "dragonMarks": 350,
+      "upgradeTimeInSeconds": 676800,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-17",
+    "type": "Dragon's Hoard Bin",
+    "level": 17,
+    "stats": { "hoardStorage": [78, 33, 17, 2], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 800000000,
+      "gemRush": 2750,
+      "dragonMarks": 375,
+      "upgradeTimeInSeconds": 720000,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-18",
+    "type": "Dragon's Hoard Bin",
+    "level": 18,
+    "stats": { "hoardStorage": [86, 36, 19, 3], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 900000000,
+      "gemRush": 3000,
+      "dragonMarks": 400,
+      "upgradeTimeInSeconds": 763200,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-19",
+    "type": "Dragon's Hoard Bin",
+    "level": 19,
+    "stats": { "hoardStorage": [94, 39, 21, 4], "size": "4x4" },
+    "upgrade": {
+      "goldCost": 1000000000,
+      "gemRush": 3500,
+      "dragonMarks": 450,
+      "upgradeTimeInSeconds": 806400,
+      "requiredMerchantLevel": 16
+    }
+  },
+  {
+    "_id": "dragon'shoard bin-20",
+    "type": "Dragon's Hoard Bin",
+    "level": 20,
+    "stats": { "hoardStorage": [102, 42, 23, 5], "size": "4x4" }
+  },
+  {
+    "_id": "woodbin-1",
+    "type": "Wood Bin",
+    "level": 1,
+    "stats": { "storage": 35, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 500,
+      "gemRush": 20,
+      "upgradeTimeInSeconds": 300,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "woodbin-2",
+    "type": "Wood Bin",
+    "level": 2,
+    "stats": { "storage": 41, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 25,
+      "upgradeTimeInSeconds": 3600,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "woodbin-3",
+    "type": "Wood Bin",
+    "level": 3,
+    "stats": { "storage": 47, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 12500,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "woodbin-4",
+    "type": "Wood Bin",
+    "level": 4,
+    "stats": { "storage": 53, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 50000,
+      "gemRush": 40,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "woodbin-5",
+    "type": "Wood Bin",
+    "level": 5,
+    "stats": { "storage": 59, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "woodbin-6",
+    "type": "Wood Bin",
+    "level": 6,
+    "stats": { "storage": 65, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 75,
+      "upgradeTimeInSeconds": 28800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "woodbin-7",
+    "type": "Wood Bin",
+    "level": 7,
+    "stats": { "storage": 77, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 41400,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "woodbin-8",
+    "type": "Wood Bin",
+    "level": 8,
+    "stats": { "storage": 89, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "woodbin-9",
+    "type": "Wood Bin",
+    "level": 9,
+    "stats": { "storage": 101, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 100800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "woodbin-10",
+    "type": "Wood Bin",
+    "level": 10,
+    "stats": { "storage": 113, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 6250000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "woodbin-11",
+    "type": "Wood Bin",
+    "level": 11,
+    "stats": { "storage": 125, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 12500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 194400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "woodbin-12",
+    "type": "Wood Bin",
+    "level": 12,
+    "stats": { "storage": 145, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "woodbin-13",
+    "type": "Wood Bin",
+    "level": 13,
+    "stats": { "storage": 165, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "woodbin-14",
+    "type": "Wood Bin",
+    "level": 14,
+    "stats": { "storage": 185, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "woodbin-15",
+    "type": "Wood Bin",
+    "level": 15,
+    "stats": { "storage": 205, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1100,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 324000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "woodbin-16",
+    "type": "Wood Bin",
+    "level": 16,
+    "stats": { "storage": 225, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1250,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 338400,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "woodbin-17",
+    "type": "Wood Bin",
+    "level": 17,
+    "stats": { "storage": 250, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 360000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "woodbin-18",
+    "type": "Wood Bin",
+    "level": 18,
+    "stats": { "storage": 275, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 381600,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "woodbin-19",
+    "type": "Wood Bin",
+    "level": 19,
+    "stats": { "storage": 300, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 2000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 403200,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Lumberyard",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "woodbin-20",
+    "type": "Wood Bin",
+    "level": 20,
+    "stats": { "storage": 325, "size": "3x3", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "ironwoodbin-1",
+    "type": "Ironwood Bin",
+    "level": 1,
+    "stats": { "storage": 15, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 50000,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "ironwoodbin-2",
+    "type": "Ironwood Bin",
+    "level": 2,
+    "stats": { "storage": 18, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 150000,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 12600,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "ironwoodbin-3",
+    "type": "Ironwood Bin",
+    "level": 3,
+    "stats": { "storage": 21, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 18000,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "ironwoodbin-4",
+    "type": "Ironwood Bin",
+    "level": 4,
+    "stats": { "storage": 24, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 350000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 25200,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "ironwoodbin-5",
+    "type": "Ironwood Bin",
+    "level": 5,
+    "stats": { "storage": 27, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 175,
+      "upgradeTimeInSeconds": 36000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "ironwoodbin-6",
+    "type": "Ironwood Bin",
+    "level": 6,
+    "stats": { "storage": 30, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 750000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 46800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "ironwoodbin-7",
+    "type": "Ironwood Bin",
+    "level": 7,
+    "stats": { "storage": 36, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 1500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 79200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "ironwoodbin-8",
+    "type": "Ironwood Bin",
+    "level": 8,
+    "stats": { "storage": 42, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 3000000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 90000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "ironwoodbin-9",
+    "type": "Ironwood Bin",
+    "level": 9,
+    "stats": { "storage": 48, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 9000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 201600,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "ironwoodbin-10",
+    "type": "Ironwood Bin",
+    "level": 10,
+    "stats": { "storage": 54, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 223200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "ironwoodbin-11",
+    "type": "Ironwood Bin",
+    "level": 11,
+    "stats": { "storage": 60, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 450,
+      "upgradeTimeInSeconds": 266400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "ironwoodbin-12",
+    "type": "Ironwood Bin",
+    "level": 12,
+    "stats": { "storage": 68, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 309600,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "ironwoodbin-13",
+    "type": "Ironwood Bin",
+    "level": 13,
+    "stats": { "storage": 76, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 600,
+      "upgradeTimeInSeconds": 352800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "ironwoodbin-14",
+    "type": "Ironwood Bin",
+    "level": 14,
+    "stats": { "storage": 84, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 250000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 388800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "ironwoodbin-15",
+    "type": "Ironwood Bin",
+    "level": 15,
+    "stats": { "storage": 92, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 1000,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 421200,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "ironwoodbin-16",
+    "type": "Ironwood Bin",
+    "level": 16,
+    "stats": { "storage": 100, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 400000000,
+      "gemRush": 1200,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 439920,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "ironwoodbin-17",
+    "type": "Ironwood Bin",
+    "level": 17,
+    "stats": { "storage": 110, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 1500,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 468000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "ironwoodbin-18",
+    "type": "Ironwood Bin",
+    "level": 18,
+    "stats": { "storage": 120, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 600000000,
+      "gemRush": 1750,
+      "dragonMarks": 225,
+      "upgradeTimeInSeconds": 496080,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "ironwoodbin-19",
+    "type": "Ironwood Bin",
+    "level": 19,
+    "stats": { "storage": 130, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 750000000,
+      "gemRush": 2250,
+      "dragonMarks": 250,
+      "upgradeTimeInSeconds": 524160,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ironwood Sawmill",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "ironwoodbin-20",
+    "type": "Ironwood Bin",
+    "level": 20,
+    "stats": { "storage": 140, "size": "3x3", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "etherbin-1",
+    "type": "Ether Bin",
+    "level": 1,
+    "stats": { "storage": 8, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 750000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "etherbin-2",
+    "type": "Ether Bin",
+    "level": 2,
+    "stats": { "storage": 10, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 18900,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "etherbin-3",
+    "type": "Ether Bin",
+    "level": 3,
+    "stats": { "storage": 12, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 1500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 27000,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "etherbin-4",
+    "type": "Ether Bin",
+    "level": 4,
+    "stats": { "storage": 14, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 37800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "etherbin-5",
+    "type": "Ether Bin",
+    "level": 5,
+    "stats": { "storage": 16, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 4000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 54000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "etherbin-6",
+    "type": "Ether Bin",
+    "level": 6,
+    "stats": { "storage": 18, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 5000000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 70200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "etherbin-7",
+    "type": "Ether Bin",
+    "level": 7,
+    "stats": { "storage": 21, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 7500000,
+      "gemRush": 450,
+      "upgradeTimeInSeconds": 118800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "etherbin-8",
+    "type": "Ether Bin",
+    "level": 8,
+    "stats": { "storage": 24, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 135000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "etherbin-9",
+    "type": "Ether Bin",
+    "level": 9,
+    "stats": { "storage": 27, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 30000000,
+      "gemRush": 550,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "etherbin-10",
+    "type": "Ether Bin",
+    "level": 10,
+    "stats": { "storage": 30, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 40000000,
+      "gemRush": 600,
+      "upgradeTimeInSeconds": 334800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "etherbin-11",
+    "type": "Ether Bin",
+    "level": 11,
+    "stats": { "storage": 33, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 60000000,
+      "gemRush": 650,
+      "upgradeTimeInSeconds": 399600,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "etherbin-12",
+    "type": "Ether Bin",
+    "level": 12,
+    "stats": { "storage": 37, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 700,
+      "upgradeTimeInSeconds": 464400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "etherbin-13",
+    "type": "Ether Bin",
+    "level": 13,
+    "stats": { "storage": 41, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 800,
+      "upgradeTimeInSeconds": 529200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "etherbin-14",
+    "type": "Ether Bin",
+    "level": 14,
+    "stats": { "storage": 45, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 900,
+      "upgradeTimeInSeconds": 583200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "etherbin-15",
+    "type": "Ether Bin",
+    "level": 15,
+    "stats": { "storage": 49, "size": "3x4" },
+    "upgrade": {
+      "goldCost": 600000000,
+      "gemRush": 1250,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 631800,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "etherbin-16",
+    "type": "Ether Bin",
+    "level": 16,
+    "stats": { "storage": 53, "size": "3x4", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 750000000,
+      "gemRush": 1400,
+      "dragonMarks": 225,
+      "upgradeTimeInSeconds": 659880,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "etherbin-17",
+    "type": "Ether Bin",
+    "level": 17,
+    "stats": { "storage": 58, "size": "3x4", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 1000000000,
+      "gemRush": 1600,
+      "dragonMarks": 250,
+      "upgradeTimeInSeconds": 702000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "etherbin-18",
+    "type": "Ether Bin",
+    "level": 18,
+    "stats": { "storage": 63, "size": "3x4", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 1250000000,
+      "gemRush": 2000,
+      "dragonMarks": 275,
+      "upgradeTimeInSeconds": 744120,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "etherbin-19",
+    "type": "Ether Bin",
+    "level": 19,
+    "stats": { "storage": 68, "size": "3x4", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 1500000000,
+      "gemRush": 2500,
+      "dragonMarks": 300,
+      "upgradeTimeInSeconds": 786240,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Ether Well",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "etherbin-20",
+    "type": "Ether Bin",
+    "level": 20,
+    "stats": { "storage": 73, "size": "3x4", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "leatherbin-1",
+    "type": "Leather Bin",
+    "level": 1,
+    "stats": { "storage": 35, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 500,
+      "gemRush": 20,
+      "upgradeTimeInSeconds": 300,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "leatherbin-2",
+    "type": "Leather Bin",
+    "level": 2,
+    "stats": { "storage": 41, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 25,
+      "upgradeTimeInSeconds": 3600,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "leatherbin-3",
+    "type": "Leather Bin",
+    "level": 3,
+    "stats": { "storage": 47, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 12500,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "leatherbin-4",
+    "type": "Leather Bin",
+    "level": 4,
+    "stats": { "storage": 53, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 50000,
+      "gemRush": 40,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "leatherbin-5",
+    "type": "Leather Bin",
+    "level": 5,
+    "stats": { "storage": 59, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "leatherbin-6",
+    "type": "Leather Bin",
+    "level": 6,
+    "stats": { "storage": 65, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 75,
+      "upgradeTimeInSeconds": 28800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "leatherbin-7",
+    "type": "Leather Bin",
+    "level": 7,
+    "stats": { "storage": 77, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 41400,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "leatherbin-8",
+    "type": "Leather Bin",
+    "level": 8,
+    "stats": { "storage": 89, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "leatherbin-9",
+    "type": "Leather Bin",
+    "level": 9,
+    "stats": { "storage": 101, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 100800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "leatherbin-10",
+    "type": "Leather Bin",
+    "level": 10,
+    "stats": { "storage": 113, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 6250000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "leatherbin-11",
+    "type": "Leather Bin",
+    "level": 11,
+    "stats": { "storage": 125, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 12500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 194400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "leatherbin-12",
+    "type": "Leather Bin",
+    "level": 12,
+    "stats": { "storage": 145, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "leatherbin-13",
+    "type": "Leather Bin",
+    "level": 13,
+    "stats": { "storage": 165, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "leatherbin-14",
+    "type": "Leather Bin",
+    "level": 14,
+    "stats": { "storage": 185, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "leatherbin-15",
+    "type": "Leather Bin",
+    "level": 15,
+    "stats": { "storage": 205, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1100,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 324000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "leatherbin-16",
+    "type": "Leather Bin",
+    "level": 16,
+    "stats": { "storage": 225, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1250,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 338400,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "leatherbin-17",
+    "type": "Leather Bin",
+    "level": 17,
+    "stats": { "storage": 250, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 360000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "leatherbin-18",
+    "type": "Leather Bin",
+    "level": 18,
+    "stats": { "storage": 275, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 381600,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "leatherbin-19",
+    "type": "Leather Bin",
+    "level": 19,
+    "stats": { "storage": 300, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 2000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 403200,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Tannery",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "leatherbin-20",
+    "type": "Leather Bin",
+    "level": 20,
+    "stats": { "storage": 325, "size": "3x3", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "fabricbin-1",
+    "type": "Fabric Bin",
+    "level": 1,
+    "stats": { "storage": 15, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 50000,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "fabricbin-2",
+    "type": "Fabric Bin",
+    "level": 2,
+    "stats": { "storage": 18, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 150000,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 12600,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "fabricbin-3",
+    "type": "Fabric Bin",
+    "level": 3,
+    "stats": { "storage": 21, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 18000,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "fabricbin-4",
+    "type": "Fabric Bin",
+    "level": 4,
+    "stats": { "storage": 24, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 350000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 25200,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "fabricbin-5",
+    "type": "Fabric Bin",
+    "level": 5,
+    "stats": { "storage": 27, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 175,
+      "upgradeTimeInSeconds": 36000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "fabricbin-6",
+    "type": "Fabric Bin",
+    "level": 6,
+    "stats": { "storage": 30, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 750000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 46800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "fabricbin-7",
+    "type": "Fabric Bin",
+    "level": 7,
+    "stats": { "storage": 36, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 1500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 79200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "fabricbin-8",
+    "type": "Fabric Bin",
+    "level": 8,
+    "stats": { "storage": 42, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 3000000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 90000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "fabricbin-9",
+    "type": "Fabric Bin",
+    "level": 9,
+    "stats": { "storage": 48, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 9000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 201600,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "fabricbin-10",
+    "type": "Fabric Bin",
+    "level": 10,
+    "stats": { "storage": 54, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 223200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "fabricbin-11",
+    "type": "Fabric Bin",
+    "level": 11,
+    "stats": { "storage": 60, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 450,
+      "upgradeTimeInSeconds": 266400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "fabricbin-12",
+    "type": "Fabric Bin",
+    "level": 12,
+    "stats": { "storage": 68, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 309600,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "fabricbin-13",
+    "type": "Fabric Bin",
+    "level": 13,
+    "stats": { "storage": 76, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 600,
+      "upgradeTimeInSeconds": 352800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "fabricbin-14",
+    "type": "Fabric Bin",
+    "level": 14,
+    "stats": { "storage": 84, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 250000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 388800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "fabricbin-15",
+    "type": "Fabric Bin",
+    "level": 15,
+    "stats": { "storage": 92, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 1000,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 421200,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "fabricbin-16",
+    "type": "Fabric Bin",
+    "level": 16,
+    "stats": { "storage": 100, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 400000000,
+      "gemRush": 1200,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 439920,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "fabricbin-17",
+    "type": "Fabric Bin",
+    "level": 17,
+    "stats": { "storage": 110, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 1500,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 468000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "fabricbin-18",
+    "type": "Fabric Bin",
+    "level": 18,
+    "stats": { "storage": 120, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 600000000,
+      "gemRush": 1750,
+      "dragonMarks": 225,
+      "upgradeTimeInSeconds": 496080,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "fabricbin-19",
+    "type": "Fabric Bin",
+    "level": 19,
+    "stats": { "storage": 130, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 750000000,
+      "gemRush": 2250,
+      "dragonMarks": 250,
+      "upgradeTimeInSeconds": 524160,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Weaver Mill",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "fabricbin-20",
+    "type": "Fabric Bin",
+    "level": 20,
+    "stats": { "storage": 140, "size": "3x3", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "herbdryer-1",
+    "type": "Herb Dryer",
+    "level": 1,
+    "stats": { "storage": 35, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 500,
+      "gemRush": 20,
+      "upgradeTimeInSeconds": 300,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "herbdryer-2",
+    "type": "Herb Dryer",
+    "level": 2,
+    "stats": { "storage": 41, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 25,
+      "upgradeTimeInSeconds": 3600,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "herbdryer-3",
+    "type": "Herb Dryer",
+    "level": 3,
+    "stats": { "storage": 47, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 12500,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "herbdryer-4",
+    "type": "Herb Dryer",
+    "level": 4,
+    "stats": { "storage": 53, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 50000,
+      "gemRush": 40,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "herbdryer-5",
+    "type": "Herb Dryer",
+    "level": 5,
+    "stats": { "storage": 59, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 16200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "herbdryer-6",
+    "type": "Herb Dryer",
+    "level": 6,
+    "stats": { "storage": 65, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 75,
+      "upgradeTimeInSeconds": 28800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "herbdryer-7",
+    "type": "Herb Dryer",
+    "level": 7,
+    "stats": { "storage": 77, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 100,
+      "upgradeTimeInSeconds": 41400,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "herbdryer-8",
+    "type": "Herb Dryer",
+    "level": 8,
+    "stats": { "storage": 89, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "herbdryer-9",
+    "type": "Herb Dryer",
+    "level": 9,
+    "stats": { "storage": 101, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 100800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "herbdryer-10",
+    "type": "Herb Dryer",
+    "level": 10,
+    "stats": { "storage": 113, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 6250000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "herbdryer-11",
+    "type": "Herb Dryer",
+    "level": 11,
+    "stats": { "storage": 125, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 12500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 194400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "herbdryer-12",
+    "type": "Herb Dryer",
+    "level": 12,
+    "stats": { "storage": 145, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "herbdryer-13",
+    "type": "Herb Dryer",
+    "level": 13,
+    "stats": { "storage": 165, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "herbdryer-14",
+    "type": "Herb Dryer",
+    "level": 14,
+    "stats": { "storage": 185, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "herbdryer-15",
+    "type": "Herb Dryer",
+    "level": 15,
+    "stats": { "storage": 205, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1100,
+      "dragonMarks": 100,
+      "upgradeTimeInSeconds": 324000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "herbdryer-16",
+    "type": "Herb Dryer",
+    "level": 16,
+    "stats": { "storage": 225, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 1250,
+      "dragonMarks": 125,
+      "upgradeTimeInSeconds": 338400,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "herbdryer-17",
+    "type": "Herb Dryer",
+    "level": 17,
+    "stats": { "storage": 250, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1400,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 360000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "herbdryer-18",
+    "type": "Herb Dryer",
+    "level": 18,
+    "stats": { "storage": 275, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 381600,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "herbdryer-19",
+    "type": "Herb Dryer",
+    "level": 19,
+    "stats": { "storage": 300, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 2000,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 403200,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Garden",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "herbdryer-20",
+    "type": "Herb Dryer",
+    "level": 20,
+    "stats": { "storage": 325, "size": "3x3", "regenBonusPct": 5 }
+  },
+  {
+    "_id": "oilpot-1",
+    "type": "Oil Pot",
+    "level": 1,
+    "stats": { "storage": 15, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 50000,
+      "gemRush": 30,
+      "upgradeTimeInSeconds": 10800,
+      "requiredMerchantLevel": 1
+    }
+  },
+  {
+    "_id": "oilpot-2",
+    "type": "Oil Pot",
+    "level": 2,
+    "stats": { "storage": 18, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 150000,
+      "gemRush": 50,
+      "upgradeTimeInSeconds": 12600,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 2
+    }
+  },
+  {
+    "_id": "oilpot-3",
+    "type": "Oil Pot",
+    "level": 3,
+    "stats": { "storage": 21, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 125,
+      "upgradeTimeInSeconds": 18000,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 3
+    }
+  },
+  {
+    "_id": "oilpot-4",
+    "type": "Oil Pot",
+    "level": 4,
+    "stats": { "storage": 24, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 350000,
+      "gemRush": 150,
+      "upgradeTimeInSeconds": 25200,
+      "requiredMerchantLevel": 1,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 4
+    }
+  },
+  {
+    "_id": "oilpot-5",
+    "type": "Oil Pot",
+    "level": 5,
+    "stats": { "storage": 27, "size": "2x2" },
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 175,
+      "upgradeTimeInSeconds": 36000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 6
+    }
+  },
+  {
+    "_id": "oilpot-6",
+    "type": "Oil Pot",
+    "level": 6,
+    "stats": { "storage": 30, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 750000,
+      "gemRush": 200,
+      "upgradeTimeInSeconds": 46800,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 7
+    }
+  },
+  {
+    "_id": "oilpot-7",
+    "type": "Oil Pot",
+    "level": 7,
+    "stats": { "storage": 36, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 1500000,
+      "gemRush": 250,
+      "upgradeTimeInSeconds": 79200,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 9
+    }
+  },
+  {
+    "_id": "oilpot-8",
+    "type": "Oil Pot",
+    "level": 8,
+    "stats": { "storage": 42, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 3000000,
+      "gemRush": 300,
+      "upgradeTimeInSeconds": 90000,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 10
+    }
+  },
+  {
+    "_id": "oilpot-9",
+    "type": "Oil Pot",
+    "level": 9,
+    "stats": { "storage": 48, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 9000000,
+      "gemRush": 350,
+      "upgradeTimeInSeconds": 201600,
+      "requiredMerchantLevel": 6,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 11
+    }
+  },
+  {
+    "_id": "oilpot-10",
+    "type": "Oil Pot",
+    "level": 10,
+    "stats": { "storage": 54, "size": "2x3" },
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 400,
+      "upgradeTimeInSeconds": 223200,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "oilpot-11",
+    "type": "Oil Pot",
+    "level": 11,
+    "stats": { "storage": 60, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 450,
+      "upgradeTimeInSeconds": 266400,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 12
+    }
+  },
+  {
+    "_id": "oilpot-12",
+    "type": "Oil Pot",
+    "level": 12,
+    "stats": { "storage": 68, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 309600,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 13
+    }
+  },
+  {
+    "_id": "oilpot-13",
+    "type": "Oil Pot",
+    "level": 13,
+    "stats": { "storage": 76, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 600,
+      "upgradeTimeInSeconds": 352800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 14
+    }
+  },
+  {
+    "_id": "oilpot-14",
+    "type": "Oil Pot",
+    "level": 14,
+    "stats": { "storage": 84, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 250000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 388800,
+      "requiredMerchantLevel": 11,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 15
+    }
+  },
+  {
+    "_id": "oilpot-15",
+    "type": "Oil Pot",
+    "level": 15,
+    "stats": { "storage": 92, "size": "3x3" },
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 1000,
+      "dragonMarks": 150,
+      "upgradeTimeInSeconds": 421200,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 16
+    }
+  },
+  {
+    "_id": "oilpot-16",
+    "type": "Oil Pot",
+    "level": 16,
+    "stats": { "storage": 100, "size": "3x3", "regenBonusPct": 1 },
+    "upgrade": {
+      "goldCost": 400000000,
+      "gemRush": 1200,
+      "dragonMarks": 175,
+      "upgradeTimeInSeconds": 439920,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 17
+    }
+  },
+  {
+    "_id": "oilpot-17",
+    "type": "Oil Pot",
+    "level": 17,
+    "stats": { "storage": 110, "size": "3x3", "regenBonusPct": 2 },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 1500,
+      "dragonMarks": 200,
+      "upgradeTimeInSeconds": 468000,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 18
+    }
+  },
+  {
+    "_id": "oilpot-18",
+    "type": "Oil Pot",
+    "level": 18,
+    "stats": { "storage": 120, "size": "3x3", "regenBonusPct": 3 },
+    "upgrade": {
+      "goldCost": 600000000,
+      "gemRush": 1750,
+      "dragonMarks": 225,
+      "upgradeTimeInSeconds": 496080,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 19
+    }
+  },
+  {
+    "_id": "oilpot-19",
+    "type": "Oil Pot",
+    "level": 19,
+    "stats": { "storage": 130, "size": "3x3", "regenBonusPct": 4 },
+    "upgrade": {
+      "goldCost": 750000000,
+      "gemRush": 2250,
+      "dragonMarks": 250,
+      "upgradeTimeInSeconds": 524160,
+      "requiredMerchantLevel": 16,
+      "requiredBuilding": "Oil Press",
+      "requiredBuildingLevel": 20
+    }
+  },
+  {
+    "_id": "oilpot-20",
+    "type": "Oil Pot",
+    "level": 20,
+    "stats": { "storage": 140, "size": "3x3", "regenBonusPct": 5 }
+  }
+]

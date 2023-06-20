@@ -3,10 +3,10 @@ export interface Furniture {
     type: string;
     level: number;
     stats: {
-        energy?: number;
-        hoardStorage?: number[];
-        storage: number;
         size: string;
+        energy?: number;
+        storage?: number;
+        hoardStorage?: number[];
         saleEnergy?: number;
         maxEnergyPct?: number;
         regenBonusPct?: number;
@@ -18,6 +18,6 @@ export interface Furniture {
         upgradeTimeInSeconds: number;
         requiredMerchantLevel: number;
         requiredBuilding?: string;
-        requiredBuildingLevel: number;
+        requiredBuildingLevel?: number;
     }
 }
