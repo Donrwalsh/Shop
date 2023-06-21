@@ -4,21 +4,21 @@ This project uses MongoDB for storing data.
 
 Core game data is obtained from the [Shop Titans Data Spreadsheet](https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c) by the [populate script](#populate-script). These collections are in the **shopData** database.
 
-| Collection | Spreadsheet Source                            | Populate           | Schema             |
-| ---------- | --------------------------------------------- | ------------------ | ------------------ |
-| blueprints | Blueprints                                    | :white_check_mark: | :white_check_mark: |
-| furniture  | Racks, Counters & Trunks <br /> Resource Bins | :white_check_mark: | :white_check_mark: |
-| :question: | Slots                                         |
-| :question: | Merchant Levels                               |
-| :question: | Shop Expansions                               |
-| :question: | Basement Expansions                           |
-| :question: | Guild Perks                                   |
-| :question: | Guild Boosts                                  |
-| :question: | Collection Book                               |
+| Collection                                             | Spreadsheet Source                            | Populate                                                       | Schema                                                         |
+| ------------------------------------------------------ | --------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
+| blueprints                                             | Blueprints                                    | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
+| furniture                                              | Racks, Counters & Trunks <br /> Resource Bins | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
+| <center><p align = "center"> :question: </p> </center> | Slots                                         |
+| <center><p align = "center"> :question: </p> </center> | Merchant Levels                               |
+| <center><p align = "center"> :question: </p> </center> | Shop Expansions                               |
+| <center><p align = "center"> :question: </p> </center> | Basement Expansions                           |
+| <center><p align = "center"> :question: </p> </center> | Guild Perks                                   |
+| <center><p align = "center"> :question: </p> </center> | Guild Boosts                                  |
+| <center><p align = "center"> :question: </p> </center> | Collection Book                               |
 
 User data exists in the **shopUser** database. The **account** collection represents data that must be input. The data for this collection is built manually.
 
-| Collection | 
+| Collection |
 | ---------- |
 | account    |
 
