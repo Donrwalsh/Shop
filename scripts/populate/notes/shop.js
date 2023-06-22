@@ -1,5 +1,26 @@
 // db.shopData.blueprints (blueprints)
 
+let merchantUnlockExamples = [
+  {
+    _id: "hero-slot-2",
+    type: "Hero Slot",
+    slotNumber: 2,
+
+    //optional:
+    requiredMerchantLevel: 3,
+    goldCost: 500,
+    gemCost: 10,
+  },
+  {
+    _id: "shop-expansion-5",
+    type: "Size & Furniture",
+    slotNumber: 5,
+    capacity: 40,
+    goldCost: 10,
+    gemCost: 12,
+    upgradeTimeInSeconds: 24 * 60 * 60
+  }
+];
 
 // dp.shopData.furniture (racks, counter & trunks, resourceBins)
 let furnitureExample = {
