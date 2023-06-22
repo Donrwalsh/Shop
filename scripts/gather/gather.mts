@@ -58,9 +58,19 @@ async function main() {
     );
   }
 
-  // ==== FURNITURE
   let seeker = new Seeker();
 
+  // ==== SLOTS
+  seeker.setSlots(await utils.readCSVFile(`${dataFolder}/slots.csv`));
+
+  let slotOutput = "";
+  seeker.slotsCursors.forEach((cursor) => {
+    for (let i = 0; i < cursor.tableHeight; i++) {
+      // slotOutput += 
+    }
+  })
+
+  // ==== FURNITURE
   let racksCountersAndTrunks = await utils.readCSVFile(
     `${dataFolder}/racksCountersAndTrunks.csv`
   );
@@ -73,8 +83,6 @@ async function main() {
 
   let furnitureOutput = "";
   seeker.getFurnitureCursors().forEach((cursor, index) => {
-    let table = cursor.tables;
-
     for (let i = 0; i < 20; i++) {
       furnitureOutput +=
         JSON.stringify({

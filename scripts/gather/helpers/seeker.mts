@@ -5,6 +5,7 @@ interface Cursor {
   name: string;
   x: number;
   y: number;
+  tableHeight: number | null;
   tables: {
     field: string;
     values: any[];
@@ -14,6 +15,7 @@ interface Cursor {
 export class Seeker {
   public racksCountersAndTrunksCursors;
   public binsCursors;
+  public slotsCursors;
 
   constructor() {}
 
@@ -29,18 +31,22 @@ export class Seeker {
     this.binsCursors = this.cursorsFromCsv(csvFile);
   }
 
+  setSlots(csvFile: object[]) {
+    this.slotsCursors = this.cursorsFromCsv(csvFile, false);
+  }
+
   getValue(cursor: Cursor, fieldName: string, i: number) {
     return (
       cursor.tables.filter((entry) => entry.field === fieldName).length > 0 &&
       cursor.tables.filter((entry) => entry.field == fieldName)[0].values[i] !=
         null &&
-        cursor.tables.filter((entry) => entry.field == fieldName)[0].values[i] !=
+      cursor.tables.filter((entry) => entry.field == fieldName)[0].values[i] !=
         "---" &&
       cursor.tables.filter((entry) => entry.field == fieldName)[0].values[i]
     );
   }
 
-  cursorsFromCsv(csvFile: object[]) {
+  cursorsFromCsv(csvFile: object[], largeTitle: boolean = true) {
     let cursors = [];
     csvFile.forEach((row, index) => {
       Object.keys(row).forEach((key) => {
@@ -49,6 +55,7 @@ export class Seeker {
             name: row[key],
             x: parseInt(key),
             y: index,
+            tableHeight: null,
           });
         }
       });
@@ -58,10 +65,32 @@ export class Seeker {
 
       let i = 0;
       while (true) {
-        let field = csvFile[cursor.y + 2][`${cursor.x + 1 + i}`];
+        let field =
+          csvFile[cursor.y + (largeTitle ? 2 : 1)][
+            `${cursor.x + (largeTitle ? 1 : 0) + i}`
+          ];
         if (field != "" && field != undefined) {
-          let values = Array.from({ length: 20 }, (_, j) => {
-            let output = csvFile[cursor.y + 2 + 1 + j][`${cursor.x + 1 + i}`];
+          if (cursor.tableHeight === null) {
+            let height = 0;
+            while (true) {
+              let yPos = cursor.y + (largeTitle ? 2 : 1) + height;
+              if (yPos === csvFile.length) {
+                cursor.tableHeight = height - 1;
+                break;
+              } else {
+                let fieldVal =
+                  csvFile[yPos][`${cursor.x + (largeTitle ? 1 : 0) + i}`];
+                if (fieldVal != "" && fieldVal != undefined) {
+                  height++;
+                } else {
+                  cursor.tableHeight = height - 1;
+                  break;
+                }
+              }
+            }
+          }
+          let values = Array.from({ length: cursor.tableHeight }, (_, j) => {
+            let output = csvFile[cursor.y + (largeTitle ? 3 : 2) + j][`${cursor.x + (largeTitle ? 1 : 0) + i}`];
             let timeVals = [60, 3600, 86400];
             if (field == "Upgrade Time") {
               return output
