@@ -1,6 +1,6 @@
-scripts/populate/dist/*
-scripts/populate/node_modules/*
-scripts/populate/data/*
+scripts/gather/dist/*
+scripts/gather/node_modules/*
+scripts/gather/data/*
 
 containerized/dist/*
 containerized/node_modules/*

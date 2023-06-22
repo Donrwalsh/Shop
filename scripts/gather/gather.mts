@@ -7,14 +7,14 @@ import * as mongoDB from "mongodb";
 import { Seeker } from "./helpers/seeker.mjs";
 import { Furniture } from "./model/furniture.mjs";
 
-const log = getLogger("script.populate");
+const log = getLogger("script.gather");
 
 const baseSpreadsheetURL =
   "https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c";
 
 async function main() {
   console.clear();
-  log.info(() => `(1) Data Harvest (1)`);
+  log.info(() => `--===-- Data Harvest --===--`);
 
   let scout = (await utils.downloadFile(
     `${baseSpreadsheetURL}/export?gid=${utils.GIDs[0].GID}&exportFormat=csv`
@@ -159,19 +159,10 @@ async function main() {
     "utf-8"
   );
 
-  // Populate the database
+  // ==== BLUEPRINTS
   let blueprints = await utils.readCSVFile(`${dataFolder}/blueprints.csv`);
 
   let bpOracle = new Oracle(blueprints);
-
-  // const client: mongoDB.MongoClient = new mongoDB.MongoClient(
-  //   "mongodb://mongodb:27017"
-  // );
-  // await client.connect();
-
-  // const db: mongoDB.Db = client.db("shopData");
-
-  // const blueprintsCollection: mongoDB.Collection = db.collection("blueprints");
 
   let bpOutput = "";
   for (let i = 0; i < bpOracle.count(); i++) {
@@ -304,7 +295,7 @@ async function main() {
         }),
       },
     } as Blueprint;
-    // await blueprintsCollection.insertOne(thisBp);
+
     bpOutput += JSON.stringify(thisBp) + ",";
   }
 
@@ -313,24 +304,6 @@ async function main() {
     `[${bpOutput.substring(0, bpOutput.length - 1)}]`,
     "utf-8"
   );
-
-  // return
-
-  // async function execute(command) {
-  //   const { stdout, stderr } = await exec(command);
-  //   console.log("stdout:", stdout);
-  //   console.log("stderr:", stderr);
-  // }
-
-  // await execute("mongosh shop --eval 'db.blueprints.deleteMany({})'");
-  // await execute("mongosh shop --eval 'db.blueprints.drop()'");
-  // await execute("mongosh shop < ./model/schema.js");
-  // await execute(
-  //   `mongoimport --db shop --collection blueprints --type=json --file ${dataFolder}/blueprints.json`
-  // );
-  // await execute(
-  //   `mongosh shop --eval 'printjson(db.blueprints.aggregate([{ "$sample": { size: 1 } }]))'`
-  // );
 
   console.log("success");
   process.exit(0);
