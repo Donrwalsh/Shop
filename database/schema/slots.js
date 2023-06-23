@@ -21,20 +21,44 @@ db.createCollection("slots", {
         slotNumber: {
           bsonType: "int",
         },
-        requiredMerchantLevel: {
-          bsonType: "int",
+        stats: {
+          bsonType: "object",
+          required: [
+            "capacity",
+          ],
+          properties: {
+            capacity: {
+              bsonType: "number"
+            }
+          }
         },
-        goldCost: {
-          bsonType: "int",
-        },
-        gemCost: {
-          bsonType: "int",
-        },
-        capacity: {
-          bsonType: "int",
-        },
-        upgradeTimeInSeconds: {
-          bsonType: "int",
+        upgrade: {
+          bsonType: "object",
+          required: [
+            "goldCost",
+            "gemRush",
+            "requiredMerchantLevel",
+          ],
+          properties: {
+            goldCost: {
+              bsonType: "int",
+            },
+            gemRush: {
+              bsonType: "int",
+            },
+            upgradeTimeInSeconds: {
+              bsonType: "int",
+            },
+            requiredMerchantLevel: {
+              bsonType: "int",
+            },
+            requiredBuilding: {
+              bsonType: "string",
+            },
+            requiredBuildingLevel: {
+              bsonType: "string",
+            },
+          },
         },
       },
     },

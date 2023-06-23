@@ -6,6 +6,7 @@ import { getLogger } from "./helpers/LogConfig.mjs";
 import * as mongoDB from "mongodb";
 import { Seeker } from "./helpers/seeker.mjs";
 import { Furniture } from "./model/furniture.mjs";
+import { Slot } from "./model/slot.mjs";
 
 const log = getLogger("script.gather");
 
@@ -62,13 +63,71 @@ async function main() {
 
   // ==== SLOTS
   seeker.setSlots(await utils.readCSVFile(`${dataFolder}/slots.csv`));
+  seeker.setShopExpansionCursor(
+    await utils.readCSVFile(`${dataFolder}/shopExpansions.csv`)
+  );
+  seeker.setBasementExpansionCursor(
+    await utils.readCSVFile(`${dataFolder}/basementExpansions.csv`)
+  );
 
   let slotOutput = "";
-  seeker.slotsCursors.forEach((cursor) => {
+  console.log(seeker.getFullSlotsCursors());
+  seeker.getFullSlotsCursors().forEach((cursor) => {
     for (let i = 0; i < cursor.tableHeight; i++) {
-      // slotOutput += 
+      if (cursor.name == "SHOP EXPANSIONS") {
+        console.log(cursor);
+        console.log(cursor.tables);
+      }
+      slotOutput +=
+        JSON.stringify({
+          _id: `${cursor.name
+            .replace(" ", "-")
+            .toLowerCase()
+            .substring(0, cursor.name.length - 1)}-${i + 1}`,
+
+          type: `${cursor.name
+            .toLowerCase()
+            .split(" ")
+            .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+            .join(" ")
+            .substring(0, cursor.name.length - 1)}`,
+          ...(seeker.getValue(cursor, "Expansion Type", i) && {
+            subType: seeker.getValue(cursor, "Expansion Type", i),
+          }),
+          ...(seeker.getValue(cursor, "Capacity", i) && {
+            stats: {capacity: seeker.getValue(cursor, "Capacity", i) },
+          }),
+          ...(i != cursor.tableHeight - 1
+            ? {
+                upgrade: {
+                  goldCost: seeker.getValue(cursor, "Gold Cost", i + 1),
+                  gemRush: seeker.getValue(cursor, "Gem Cost", i + 1),
+                  ...(seeker.getValue(cursor, "Completion Time", i) && {
+                    upgradeTimeInSeconds: seeker.getValue(
+                      cursor,
+                      "Completion Time",
+                      i + 1
+                    ),
+                  }),
+                  requiredMerchantLevel: seeker.getValue(
+                    cursor,
+                    "Level Required",
+                    i + 1
+                  ),
+                },
+              }
+            : {}),
+
+          slotNumber: seeker.getValue(cursor, "#", i),
+        } as Partial<Slot>) + ",";
     }
-  })
+  });
+
+  fs.writeFileSync(
+    `../../database/data/slots.json`,
+    `[${slotOutput.substring(0, slotOutput.length - 1)}]`,
+    "utf-8"
+  );
 
   // ==== FURNITURE
   let racksCountersAndTrunks = await utils.readCSVFile(

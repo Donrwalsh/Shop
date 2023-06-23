@@ -1,0 +1,1165 @@
+[
+  {
+    "_id": "hero-slot-1",
+    "type": "Hero Slot",
+    "upgrade": { "goldCost": 500, "gemRush": 10, "requiredMerchantLevel": 3 },
+    "slotNumber": 1
+  },
+  {
+    "_id": "hero-slot-2",
+    "type": "Hero Slot",
+    "upgrade": { "goldCost": 1000, "gemRush": 20, "requiredMerchantLevel": 5 },
+    "slotNumber": 2
+  },
+  {
+    "_id": "hero-slot-3",
+    "type": "Hero Slot",
+    "upgrade": { "goldCost": 5000, "gemRush": 50, "requiredMerchantLevel": 15 },
+    "slotNumber": 3
+  },
+  {
+    "_id": "hero-slot-4",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 10000,
+      "gemRush": 50,
+      "requiredMerchantLevel": 17
+    },
+    "slotNumber": 4
+  },
+  {
+    "_id": "hero-slot-5",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 20000,
+      "gemRush": 175,
+      "requiredMerchantLevel": 20
+    },
+    "slotNumber": 5
+  },
+  {
+    "_id": "hero-slot-6",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 100000,
+      "gemRush": 300,
+      "requiredMerchantLevel": 25
+    },
+    "slotNumber": 6
+  },
+  {
+    "_id": "hero-slot-7",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 400,
+      "requiredMerchantLevel": 27
+    },
+    "slotNumber": 7
+  },
+  {
+    "_id": "hero-slot-8",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 500,
+      "requiredMerchantLevel": 29
+    },
+    "slotNumber": 8
+  },
+  {
+    "_id": "hero-slot-9",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 500,
+      "requiredMerchantLevel": 33
+    },
+    "slotNumber": 9
+  },
+  {
+    "_id": "hero-slot-10",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 700,
+      "requiredMerchantLevel": 35
+    },
+    "slotNumber": 10
+  },
+  {
+    "_id": "hero-slot-11",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 5000000,
+      "gemRush": 750,
+      "requiredMerchantLevel": 40
+    },
+    "slotNumber": 11
+  },
+  {
+    "_id": "hero-slot-12",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 10000000,
+      "gemRush": 900,
+      "requiredMerchantLevel": 42
+    },
+    "slotNumber": 12
+  },
+  {
+    "_id": "hero-slot-13",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 950,
+      "requiredMerchantLevel": 44
+    },
+    "slotNumber": 13
+  },
+  {
+    "_id": "hero-slot-14",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 1150,
+      "requiredMerchantLevel": 50
+    },
+    "slotNumber": 14
+  },
+  {
+    "_id": "hero-slot-15",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 1250,
+      "requiredMerchantLevel": 52
+    },
+    "slotNumber": 15
+  },
+  {
+    "_id": "hero-slot-16",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 1350,
+      "requiredMerchantLevel": 54
+    },
+    "slotNumber": 16
+  },
+  {
+    "_id": "hero-slot-17",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 150000000,
+      "gemRush": 1500,
+      "requiredMerchantLevel": 60
+    },
+    "slotNumber": 17
+  },
+  {
+    "_id": "hero-slot-18",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 1500,
+      "requiredMerchantLevel": 64
+    },
+    "slotNumber": 18
+  },
+  {
+    "_id": "hero-slot-19",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 300000000,
+      "gemRush": 1700,
+      "requiredMerchantLevel": 68
+    },
+    "slotNumber": 19
+  },
+  {
+    "_id": "hero-slot-20",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 1850,
+      "requiredMerchantLevel": 72
+    },
+    "slotNumber": 20
+  },
+  {
+    "_id": "hero-slot-21",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 700000000,
+      "gemRush": 1950,
+      "requiredMerchantLevel": 76
+    },
+    "slotNumber": 21
+  },
+  {
+    "_id": "hero-slot-22",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 850000000,
+      "gemRush": 2150,
+      "requiredMerchantLevel": 80
+    },
+    "slotNumber": 22
+  },
+  {
+    "_id": "hero-slot-23",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 1000000000,
+      "gemRush": 2250,
+      "requiredMerchantLevel": 84
+    },
+    "slotNumber": 23
+  },
+  {
+    "_id": "hero-slot-24",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 1250000000,
+      "gemRush": 2500,
+      "requiredMerchantLevel": 88
+    },
+    "slotNumber": 24
+  },
+  {
+    "_id": "hero-slot-25",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 1500000000,
+      "gemRush": 2750,
+      "requiredMerchantLevel": 90
+    },
+    "slotNumber": 25
+  },
+  {
+    "_id": "hero-slot-26",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 2000000000,
+      "gemRush": 3000,
+      "requiredMerchantLevel": 92
+    },
+    "slotNumber": 26
+  },
+  {
+    "_id": "hero-slot-27",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 2500000000,
+      "gemRush": 3500,
+      "requiredMerchantLevel": 94
+    },
+    "slotNumber": 27
+  },
+  {
+    "_id": "hero-slot-28",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 3000000000,
+      "gemRush": 4000,
+      "requiredMerchantLevel": 96
+    },
+    "slotNumber": 28
+  },
+  {
+    "_id": "hero-slot-29",
+    "type": "Hero Slot",
+    "upgrade": {
+      "goldCost": 5000000000,
+      "gemRush": 5000,
+      "requiredMerchantLevel": 98
+    },
+    "slotNumber": 29
+  },
+  { "_id": "hero-slot-30", "type": "Hero Slot", "slotNumber": 30 },
+  {
+    "_id": "crafting-slot-1",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": false,
+      "gemRush": false,
+      "requiredMerchantLevel": false
+    },
+    "slotNumber": 1
+  },
+  {
+    "_id": "crafting-slot-2",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 2500,
+      "gemRush": 100,
+      "requiredMerchantLevel": 10
+    },
+    "slotNumber": 2
+  },
+  {
+    "_id": "crafting-slot-3",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 30000,
+      "gemRush": 200,
+      "requiredMerchantLevel": 20
+    },
+    "slotNumber": 3
+  },
+  {
+    "_id": "crafting-slot-4",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 500000,
+      "gemRush": 500,
+      "requiredMerchantLevel": 30
+    },
+    "slotNumber": 4
+  },
+  {
+    "_id": "crafting-slot-5",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 2000000,
+      "gemRush": 750,
+      "requiredMerchantLevel": 40
+    },
+    "slotNumber": 5
+  },
+  {
+    "_id": "crafting-slot-6",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 5000000,
+      "gemRush": 1000,
+      "requiredMerchantLevel": 50
+    },
+    "slotNumber": 6
+  },
+  {
+    "_id": "crafting-slot-7",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 10000000,
+      "gemRush": 1500,
+      "requiredMerchantLevel": 60
+    },
+    "slotNumber": 7
+  },
+  {
+    "_id": "crafting-slot-8",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 2000,
+      "requiredMerchantLevel": 65
+    },
+    "slotNumber": 8
+  },
+  {
+    "_id": "crafting-slot-9",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 2500,
+      "requiredMerchantLevel": 70
+    },
+    "slotNumber": 9
+  },
+  {
+    "_id": "crafting-slot-10",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 125000000,
+      "gemRush": 5000,
+      "requiredMerchantLevel": 75
+    },
+    "slotNumber": 10
+  },
+  {
+    "_id": "crafting-slot-11",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 250000000,
+      "gemRush": 10000,
+      "requiredMerchantLevel": 80
+    },
+    "slotNumber": 11
+  },
+  {
+    "_id": "crafting-slot-12",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 1000000000,
+      "gemRush": 12500,
+      "requiredMerchantLevel": 85
+    },
+    "slotNumber": 12
+  },
+  {
+    "_id": "crafting-slot-13",
+    "type": "Crafting Slot",
+    "upgrade": {
+      "goldCost": 5000000000,
+      "gemRush": 15000,
+      "requiredMerchantLevel": 90
+    },
+    "slotNumber": 13
+  },
+  { "_id": "crafting-slot-14", "type": "Crafting Slot", "slotNumber": 14 },
+  {
+    "_id": "questing-slot-1",
+    "type": "Questing Slot",
+    "upgrade": {
+      "goldCost": 25000,
+      "gemRush": 150,
+      "requiredMerchantLevel": 15
+    },
+    "slotNumber": 1
+  },
+  {
+    "_id": "questing-slot-2",
+    "type": "Questing Slot",
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 250,
+      "requiredMerchantLevel": 25
+    },
+    "slotNumber": 2
+  },
+  {
+    "_id": "questing-slot-3",
+    "type": "Questing Slot",
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 500,
+      "requiredMerchantLevel": 35
+    },
+    "slotNumber": 3
+  },
+  {
+    "_id": "questing-slot-4",
+    "type": "Questing Slot",
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 750,
+      "requiredMerchantLevel": 45
+    },
+    "slotNumber": 4
+  },
+  {
+    "_id": "questing-slot-5",
+    "type": "Questing Slot",
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 1000,
+      "requiredMerchantLevel": 60
+    },
+    "slotNumber": 5
+  },
+  {
+    "_id": "questing-slot-6",
+    "type": "Questing Slot",
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 2000,
+      "requiredMerchantLevel": 70
+    },
+    "slotNumber": 6
+  },
+  {
+    "_id": "questing-slot-7",
+    "type": "Questing Slot",
+    "upgrade": {
+      "goldCost": 250000000,
+      "gemRush": 4000,
+      "requiredMerchantLevel": 80
+    },
+    "slotNumber": 7
+  },
+  {
+    "_id": "questing-slot-8",
+    "type": "Questing Slot",
+    "upgrade": {
+      "goldCost": 1000000000,
+      "gemRush": 5000,
+      "requiredMerchantLevel": 85
+    },
+    "slotNumber": 8
+  },
+  {
+    "_id": "questing-slot-9",
+    "type": "Questing Slot",
+    "upgrade": {
+      "goldCost": 5000000000,
+      "gemRush": 7500,
+      "requiredMerchantLevel": 90
+    },
+    "slotNumber": 9
+  },
+  { "_id": "questing-slot-10", "type": "Questing Slot", "slotNumber": 10 },
+  {
+    "_id": "trading-slot-1",
+    "type": "Trading Slot",
+    "upgrade": {
+      "goldCost": 25000,
+      "gemRush": 100,
+      "requiredMerchantLevel": 20
+    },
+    "slotNumber": 1
+  },
+  {
+    "_id": "trading-slot-2",
+    "type": "Trading Slot",
+    "upgrade": {
+      "goldCost": 250000,
+      "gemRush": 250,
+      "requiredMerchantLevel": 30
+    },
+    "slotNumber": 2
+  },
+  {
+    "_id": "trading-slot-3",
+    "type": "Trading Slot",
+    "upgrade": {
+      "goldCost": 2500000,
+      "gemRush": 500,
+      "requiredMerchantLevel": 40
+    },
+    "slotNumber": 3
+  },
+  {
+    "_id": "trading-slot-4",
+    "type": "Trading Slot",
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 750,
+      "requiredMerchantLevel": 50
+    },
+    "slotNumber": 4
+  },
+  {
+    "_id": "trading-slot-5",
+    "type": "Trading Slot",
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 1000,
+      "requiredMerchantLevel": 60
+    },
+    "slotNumber": 5
+  },
+  {
+    "_id": "trading-slot-6",
+    "type": "Trading Slot",
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 2000,
+      "requiredMerchantLevel": 70
+    },
+    "slotNumber": 6
+  },
+  {
+    "_id": "trading-slot-7",
+    "type": "Trading Slot",
+    "upgrade": {
+      "goldCost": 250000000,
+      "gemRush": 4000,
+      "requiredMerchantLevel": 80
+    },
+    "slotNumber": 7
+  },
+  { "_id": "trading-slot-8", "type": "Trading Slot", "slotNumber": 8 },
+  {
+    "_id": "pet-slot-1",
+    "type": "Pet Slot",
+    "upgrade": {
+      "goldCost": 5000000,
+      "gemRush": 1000,
+      "requiredMerchantLevel": 35
+    },
+    "slotNumber": 1
+  },
+  {
+    "_id": "pet-slot-2",
+    "type": "Pet Slot",
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 2000,
+      "requiredMerchantLevel": 50
+    },
+    "slotNumber": 2
+  },
+  { "_id": "pet-slot-3", "type": "Pet Slot", "slotNumber": 3 },
+  {
+    "_id": "shop-expansion-1",
+    "type": "Shop Expansion",
+    "subType": "Size & Furniture",
+    "stats": { "capacity": 8 },
+    "upgrade": {
+      "goldCost": 3000,
+      "gemRush": 50,
+      "requiredMerchantLevel": false
+    },
+    "slotNumber": 1
+  },
+  {
+    "_id": "shop-expansion-2",
+    "type": "Shop Expansion",
+    "subType": "Size & Furniture",
+    "stats": { "capacity": 16 },
+    "upgrade": {
+      "goldCost": 30000,
+      "gemRush": 250,
+      "requiredMerchantLevel": 15
+    },
+    "slotNumber": 2
+  },
+  {
+    "_id": "shop-expansion-3",
+    "type": "Shop Expansion",
+    "subType": "Size & Furniture",
+    "stats": { "capacity": 24 },
+    "upgrade": {
+      "goldCost": 1000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 72000,
+      "requiredMerchantLevel": 30
+    },
+    "slotNumber": 3
+  },
+  {
+    "_id": "shop-expansion-4",
+    "type": "Shop Expansion",
+    "subType": "Size & Furniture",
+    "stats": { "capacity": 32 },
+    "upgrade": {
+      "goldCost": 10000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 86400,
+      "requiredMerchantLevel": 40
+    },
+    "slotNumber": 4
+  },
+  {
+    "_id": "shop-expansion-5",
+    "type": "Shop Expansion",
+    "subType": "Size & Furniture",
+    "stats": { "capacity": 40 },
+    "upgrade": {
+      "goldCost": 50000000,
+      "gemRush": 2000,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 50
+    },
+    "slotNumber": 5
+  },
+  {
+    "_id": "shop-expansion-6",
+    "type": "Shop Expansion",
+    "subType": "Size & Furniture",
+    "stats": { "capacity": 48 },
+    "upgrade": {
+      "goldCost": 200000000,
+      "gemRush": 3000,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 60
+    },
+    "slotNumber": 6
+  },
+  {
+    "_id": "shop-expansion-7",
+    "type": "Shop Expansion",
+    "subType": "Size & Furniture",
+    "stats": { "capacity": 56 },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 4000,
+      "upgradeTimeInSeconds": 432000,
+      "requiredMerchantLevel": 75
+    },
+    "slotNumber": 7
+  },
+  {
+    "_id": "shop-expansion-8",
+    "type": "Shop Expansion",
+    "subType": "Size & Furniture",
+    "stats": { "capacity": 64 },
+    "upgrade": {
+      "goldCost": 1000000000,
+      "gemRush": 5000,
+      "upgradeTimeInSeconds": 604800,
+      "requiredMerchantLevel": 80
+    },
+    "slotNumber": 8
+  },
+  {
+    "_id": "shop-expansion-9",
+    "type": "Shop Expansion",
+    "subType": "Size & Furniture",
+    "stats": { "capacity": 72 },
+    "upgrade": {
+      "goldCost": 1250000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 0,
+      "requiredMerchantLevel": 82
+    },
+    "slotNumber": 9
+  },
+  {
+    "_id": "shop-expansion-10",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 73 },
+    "upgrade": {
+      "goldCost": 1500000000,
+      "gemRush": 1250,
+      "requiredMerchantLevel": 84
+    },
+    "slotNumber": 10
+  },
+  {
+    "_id": "shop-expansion-11",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 74 },
+    "upgrade": {
+      "goldCost": 1750000000,
+      "gemRush": 1500,
+      "requiredMerchantLevel": 86
+    },
+    "slotNumber": 11
+  },
+  {
+    "_id": "shop-expansion-12",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 75 },
+    "upgrade": {
+      "goldCost": 2000000000,
+      "gemRush": 1750,
+      "requiredMerchantLevel": 88
+    },
+    "slotNumber": 12
+  },
+  {
+    "_id": "shop-expansion-13",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 76 },
+    "upgrade": {
+      "goldCost": 2500000000,
+      "gemRush": 2000,
+      "requiredMerchantLevel": 90
+    },
+    "slotNumber": 13
+  },
+  {
+    "_id": "shop-expansion-14",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 77 },
+    "upgrade": {
+      "goldCost": 3000000000,
+      "gemRush": 2250,
+      "requiredMerchantLevel": 91
+    },
+    "slotNumber": 14
+  },
+  {
+    "_id": "shop-expansion-15",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 78 },
+    "upgrade": {
+      "goldCost": 3500000000,
+      "gemRush": 2500,
+      "requiredMerchantLevel": 92
+    },
+    "slotNumber": 15
+  },
+  {
+    "_id": "shop-expansion-16",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 79 },
+    "upgrade": {
+      "goldCost": 4000000000,
+      "gemRush": 3000,
+      "requiredMerchantLevel": 93
+    },
+    "slotNumber": 16
+  },
+  {
+    "_id": "shop-expansion-17",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 80 },
+    "upgrade": {
+      "goldCost": 5000000000,
+      "gemRush": 3500,
+      "requiredMerchantLevel": 94
+    },
+    "slotNumber": 17
+  },
+  {
+    "_id": "shop-expansion-18",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 81 },
+    "upgrade": {
+      "goldCost": 7500000000,
+      "gemRush": 4000,
+      "requiredMerchantLevel": 95
+    },
+    "slotNumber": 18
+  },
+  {
+    "_id": "shop-expansion-19",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 82 },
+    "upgrade": {
+      "goldCost": 10000000000,
+      "gemRush": 4500,
+      "requiredMerchantLevel": 96
+    },
+    "slotNumber": 19
+  },
+  {
+    "_id": "shop-expansion-20",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 83 },
+    "upgrade": {
+      "goldCost": 15000000000,
+      "gemRush": 5000,
+      "requiredMerchantLevel": 97
+    },
+    "slotNumber": 20
+  },
+  {
+    "_id": "shop-expansion-21",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 84 },
+    "upgrade": {
+      "goldCost": 20000000000,
+      "gemRush": 5500,
+      "requiredMerchantLevel": 98
+    },
+    "slotNumber": 21
+  },
+  {
+    "_id": "shop-expansion-22",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 85 },
+    "upgrade": {
+      "goldCost": 25000000000,
+      "gemRush": 6000,
+      "requiredMerchantLevel": 99
+    },
+    "slotNumber": 22
+  },
+  {
+    "_id": "shop-expansion-23",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 86 },
+    "upgrade": {
+      "goldCost": 25000000000,
+      "gemRush": 6000,
+      "requiredMerchantLevel": 99
+    },
+    "slotNumber": 23
+  },
+  {
+    "_id": "shop-expansion-24",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 87 },
+    "upgrade": {
+      "goldCost": 25000000000,
+      "gemRush": 6000,
+      "requiredMerchantLevel": 99
+    },
+    "slotNumber": 24
+  },
+  {
+    "_id": "shop-expansion-25",
+    "type": "Shop Expansion",
+    "subType": "Furniture Only",
+    "stats": { "capacity": 88 },
+    "slotNumber": 25
+  },
+  {
+    "_id": "basement-expansion-1",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 4 },
+    "upgrade": {
+      "goldCost": 15000000,
+      "gemRush": 250,
+      "requiredMerchantLevel": 40
+    },
+    "slotNumber": 1
+  },
+  {
+    "_id": "basement-expansion-2",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 8 },
+    "upgrade": {
+      "goldCost": 25000000,
+      "gemRush": 350,
+      "requiredMerchantLevel": 45
+    },
+    "slotNumber": 2
+  },
+  {
+    "_id": "basement-expansion-3",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 12 },
+    "upgrade": {
+      "goldCost": 75000000,
+      "gemRush": 500,
+      "upgradeTimeInSeconds": 57600,
+      "requiredMerchantLevel": 50
+    },
+    "slotNumber": 3
+  },
+  {
+    "_id": "basement-expansion-4",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 16 },
+    "upgrade": {
+      "goldCost": 100000000,
+      "gemRush": 600,
+      "upgradeTimeInSeconds": 72000,
+      "requiredMerchantLevel": 55
+    },
+    "slotNumber": 4
+  },
+  {
+    "_id": "basement-expansion-5",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 20 },
+    "upgrade": {
+      "goldCost": 250000000,
+      "gemRush": 750,
+      "upgradeTimeInSeconds": 86400,
+      "requiredMerchantLevel": 60
+    },
+    "slotNumber": 5
+  },
+  {
+    "_id": "basement-expansion-6",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 24 },
+    "upgrade": {
+      "goldCost": 350000000,
+      "gemRush": 1000,
+      "upgradeTimeInSeconds": 129600,
+      "requiredMerchantLevel": 64
+    },
+    "slotNumber": 6
+  },
+  {
+    "_id": "basement-expansion-7",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 28 },
+    "upgrade": {
+      "goldCost": 400000000,
+      "gemRush": 1250,
+      "upgradeTimeInSeconds": 172800,
+      "requiredMerchantLevel": 68
+    },
+    "slotNumber": 7
+  },
+  {
+    "_id": "basement-expansion-8",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 32 },
+    "upgrade": {
+      "goldCost": 500000000,
+      "gemRush": 1500,
+      "upgradeTimeInSeconds": 216000,
+      "requiredMerchantLevel": 72
+    },
+    "slotNumber": 8
+  },
+  {
+    "_id": "basement-expansion-9",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 36 },
+    "upgrade": {
+      "goldCost": 650000000,
+      "gemRush": 1750,
+      "upgradeTimeInSeconds": 259200,
+      "requiredMerchantLevel": 75
+    },
+    "slotNumber": 9
+  },
+  {
+    "_id": "basement-expansion-10",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 40 },
+    "upgrade": {
+      "goldCost": 750000000,
+      "gemRush": 2000,
+      "upgradeTimeInSeconds": 302400,
+      "requiredMerchantLevel": 78
+    },
+    "slotNumber": 10
+  },
+  {
+    "_id": "basement-expansion-11",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 44 },
+    "upgrade": {
+      "goldCost": 1000000000,
+      "gemRush": 2250,
+      "upgradeTimeInSeconds": 345600,
+      "requiredMerchantLevel": 81
+    },
+    "slotNumber": 11
+  },
+  {
+    "_id": "basement-expansion-12",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 48 },
+    "upgrade": {
+      "goldCost": 1500000000,
+      "gemRush": 2500,
+      "upgradeTimeInSeconds": 388800,
+      "requiredMerchantLevel": 84
+    },
+    "slotNumber": 12
+  },
+  {
+    "_id": "basement-expansion-13",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 52 },
+    "upgrade": {
+      "goldCost": 2000000000,
+      "gemRush": 2750,
+      "upgradeTimeInSeconds": 432000,
+      "requiredMerchantLevel": 87
+    },
+    "slotNumber": 13
+  },
+  {
+    "_id": "basement-expansion-14",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 56 },
+    "upgrade": {
+      "goldCost": 2500000000,
+      "gemRush": 3000,
+      "upgradeTimeInSeconds": 504000,
+      "requiredMerchantLevel": 89
+    },
+    "slotNumber": 14
+  },
+  {
+    "_id": "basement-expansion-15",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 60 },
+    "upgrade": {
+      "goldCost": 3000000000,
+      "gemRush": 3500,
+      "upgradeTimeInSeconds": 576000,
+      "requiredMerchantLevel": 92
+    },
+    "slotNumber": 15
+  },
+  {
+    "_id": "basement-expansion-16",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 64 },
+    "upgrade": {
+      "goldCost": 3500000000,
+      "gemRush": 4000,
+      "upgradeTimeInSeconds": 612000,
+      "requiredMerchantLevel": 94
+    },
+    "slotNumber": 16
+  },
+  {
+    "_id": "basement-expansion-17",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 68 },
+    "upgrade": {
+      "goldCost": 4000000000,
+      "gemRush": 4500,
+      "upgradeTimeInSeconds": 720000,
+      "requiredMerchantLevel": 95
+    },
+    "slotNumber": 17
+  },
+  {
+    "_id": "basement-expansion-18",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 72 },
+    "upgrade": {
+      "goldCost": 4500000000,
+      "gemRush": 5000,
+      "upgradeTimeInSeconds": 828000,
+      "requiredMerchantLevel": 96
+    },
+    "slotNumber": 18
+  },
+  {
+    "_id": "basement-expansion-19",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 76 },
+    "upgrade": {
+      "goldCost": 5000000000,
+      "gemRush": 5500,
+      "upgradeTimeInSeconds": 936000,
+      "requiredMerchantLevel": 97
+    },
+    "slotNumber": 19
+  },
+  {
+    "_id": "basement-expansion-20",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 80 },
+    "upgrade": {
+      "goldCost": 5500000000,
+      "gemRush": 6000,
+      "upgradeTimeInSeconds": 1080000,
+      "requiredMerchantLevel": 98
+    },
+    "slotNumber": 20
+  },
+  {
+    "_id": "basement-expansion-21",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 84 },
+    "upgrade": {
+      "goldCost": 6000000000,
+      "gemRush": 6500,
+      "upgradeTimeInSeconds": 1260000,
+      "requiredMerchantLevel": 99
+    },
+    "slotNumber": 21
+  },
+  {
+    "_id": "basement-expansion-22",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 88 },
+    "upgrade": {
+      "goldCost": 6000000000,
+      "gemRush": 6500,
+      "upgradeTimeInSeconds": 1260000,
+      "requiredMerchantLevel": 99
+    },
+    "slotNumber": 22
+  },
+  {
+    "_id": "basement-expansion-23",
+    "type": "Basement Expansion",
+    "stats": { "capacity": 92 },
+    "slotNumber": 23
+  }
+]

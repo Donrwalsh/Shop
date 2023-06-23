@@ -3,9 +3,13 @@ export interface Slot {
     type: string;
     subType?: string;
     slotNumber: number;
-    requiredMerchantLevel?: number;
-    goldCost?: number;
-    gemCost?: number;
-    capacity?: number;
-    upgradeTimeInSeconds?: number;
+    stats?: {
+        capacity: number;
+    }
+    upgrade?: {
+        requiredMerchantLevel: number;
+        upgradeTimeInSeconds?: number;
+        goldCost: number;
+        gemRush: number;
+    }
 }

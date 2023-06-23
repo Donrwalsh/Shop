@@ -13,11 +13,19 @@ interface Cursor {
 }
 
 export class Seeker {
-  public racksCountersAndTrunksCursors;
-  public binsCursors;
-  public slotsCursors;
+  private racksCountersAndTrunksCursors: Cursor[];
+  private binsCursors;
+  private slotsCursors;
+  private shopExpansionCursor;
+  private basementExpansionCursor;
 
   constructor() {}
+
+  getFullSlotsCursors() {
+    return this.slotsCursors
+      .concat(this.shopExpansionCursor)
+      .concat(this.basementExpansionCursor);
+  }
 
   getFurnitureCursors() {
     return this.racksCountersAndTrunksCursors.concat(this.binsCursors);
@@ -33,6 +41,14 @@ export class Seeker {
 
   setSlots(csvFile: object[]) {
     this.slotsCursors = this.cursorsFromCsv(csvFile, false);
+  }
+
+  setShopExpansionCursor(csvFile: object[]) {
+    this.shopExpansionCursor = this.cursorsFromCsv(csvFile, false);
+  }
+
+  setBasementExpansionCursor(csvFile: object[]) {
+    this.basementExpansionCursor = this.cursorsFromCsv(csvFile, false);
   }
 
   getValue(cursor: Cursor, fieldName: string, i: number) {
@@ -90,9 +106,12 @@ export class Seeker {
             }
           }
           let values = Array.from({ length: cursor.tableHeight }, (_, j) => {
-            let output = csvFile[cursor.y + (largeTitle ? 3 : 2) + j][`${cursor.x + (largeTitle ? 1 : 0) + i}`];
+            let output =
+              csvFile[cursor.y + (largeTitle ? 3 : 2) + j][
+                `${cursor.x + (largeTitle ? 1 : 0) + i}`
+              ];
             let timeVals = [60, 3600, 86400];
-            if (field == "Upgrade Time") {
+            if (["Upgrade Time", "Completion Time"].includes(field)) {
               return output
                 .split(",")
                 .map((val) => {
@@ -116,7 +135,9 @@ export class Seeker {
               cursor.name === "DRAGON'S HOARD BIN"
             ) {
               return output;
-            } else if (["Size", "Required Building"].includes(field)) {
+            } else if (
+              ["Size", "Required Building", "Expansion Type"].includes(field)
+            ) {
               return output;
             } else {
               return output == "---"

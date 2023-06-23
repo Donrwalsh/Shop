@@ -8,7 +8,7 @@ Core game data is obtained from the [Shop Titans Data Spreadsheet](https://docs.
 | ------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------- |
 | blueprints                                             | Blueprints                                              | <center><p align = "center"> :white_check_mark: </p> </center>       | <center><p align = "center"> :white_check_mark: </p> </center> |
 | furniture                                              | Racks, Counters & Trunks <br /> Resource Bins           | <center><p align = "center"> :white_check_mark: </p> </center>       | <center><p align = "center"> :white_check_mark: </p> </center> |
-| slots                                                  | Slots <br /> Shop Expansions <br /> Basement Expansions | <center><p align = "center"> :hourglass_flowing_sand: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
+| slots                                                  | Slots <br /> Shop Expansions <br /> Basement Expansions | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | <center><p align = "center"> :question: </p> </center> | Merchant Levels                                         |
 | <center><p align = "center"> :question: </p> </center> | Guild Perks                                             |
 | <center><p align = "center"> :question: </p> </center> | Guild Boosts                                            |
