@@ -4,10 +4,10 @@ This project uses MongoDB for storing data.
 
 Core game data is obtained from the [Shop Titans Data Spreadsheet](https://docs.google.com/spreadsheets/d/1WLa7X8h3O0-aGKxeAlCL7bnN8-FhGd3t7pz2RCzSg8c) by the [gather script](#gather-script). These collections are in the **shopData** database.
 
-| Collection                                             | Spreadsheet Source                                      | Gather                                                               | Schema                                                         |
-| ------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------- |
-| blueprints                                             | Blueprints                                              | <center><p align = "center"> :white_check_mark: </p> </center>       | <center><p align = "center"> :white_check_mark: </p> </center> |
-| furniture                                              | Racks, Counters & Trunks <br /> Resource Bins           | <center><p align = "center"> :white_check_mark: </p> </center>       | <center><p align = "center"> :white_check_mark: </p> </center> |
+| Collection                                             | Spreadsheet Source                                      | Gather                                                         | Schema                                                         |
+| ------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
+| blueprints                                             | Blueprints                                              | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
+| furniture                                              | Racks, Counters & Trunks <br /> Resource Bins           | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | slots                                                  | Slots <br /> Shop Expansions <br /> Basement Expansions | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | <center><p align = "center"> :question: </p> </center> | Merchant Levels                                         |
 | <center><p align = "center"> :question: </p> </center> | Guild Perks                                             |
@@ -65,3 +65,27 @@ Anyway, I've been hand-constructing a schema for the table and then using the ga
 - oracle + seeker is fine for now, but is there a grand unifying approach that could combine the two?
 
 - When it comes time to build the populate script: Older versions of the gather script have some functionality that will be useful.
+
+# User Stories
+
+**As a user, I want the ability to save information about my Shop Titans account and be presented with insights backed by spreadsheet game data. For example I would enter my furniture collection details and be able to explore loadouts and costs to upgrade milestones.**
+
+This user story has been rolling around in my brain for a while. You don't have to try too hard to find offhand references to it throughout this project. Sometimes I would call it "Phase 1". In any case, the basic core of an application is outlined in the above sentence and example.
+
+Because what's described here sounds a lot like a fully functional app, one of the earliest things I'm considering is the stack. I've landed on the following setup:
+
+| Thing    | Language     | Comfort Level                                           |
+| -------- | ------------ | ------------------------------------------------------- |
+| Database | MongoDB      | New to MongoDB, some experience with other NoSQL DBs.   |
+| API      | NestJS       | Pretty comfortable.                                     |
+| Frontend | Angular      | Extremely comfortable.                                  |
+| Build    | Jenkins      | Pretty comfortable.                                     |
+| Hosting  | Raspberry Pi | (I have one sitting around that I want to use for this) |
+
+I've spent more time working on the frontend than the backend in my career so a big focus of this project is to get some experience from the backend perspective. MongoDB was the first choice that was locked in and the rest were obvious picks after that. So the database is the first-class citizen in this application and the order I'm building things demonstrates that.
+
+The first order of business is populating the database. It will hold scraped data from the data spreadsheet, so I built a script that pulls data from the spreadsheet and then transforms that data from csv form into a document that can be added to a MongoDB collection. At this point in time I'm more comfortable taking the raw file that is output by my script and manually applying it to the database but this is a step that will certainly be automated at a later time.
+
+I'm learning the basics of MongoDB at this time, so I'm making decisions about the structure of these documents that may need to change later. That's ok. We're in a sort of version 0 right now where things might shift as necessary but will be more solidified once the database becomes integrated with other parts of the app. Even then, I'd prefer to be comfortable changing document structure if it makes sense to do so.
+
+I'm working in this space for now, continuing through the table of data I've flagged as necessary for this user story in the [Database](#database) section. From there I need to work the frontend and API and then hook the three of them together with the build server automatically sending updated builds to my Pi when I push new code.
