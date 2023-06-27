@@ -71,13 +71,8 @@ async function main() {
   );
 
   let slotOutput = "";
-  console.log(seeker.getFullSlotsCursors());
   seeker.getFullSlotsCursors().forEach((cursor) => {
     for (let i = 0; i < cursor.tableHeight; i++) {
-      if (cursor.name == "SHOP EXPANSIONS") {
-        console.log(cursor);
-        console.log(cursor.tables);
-      }
       slotOutput +=
         JSON.stringify({
           _id: `${cursor.name
@@ -95,7 +90,7 @@ async function main() {
             subType: seeker.getValue(cursor, "Expansion Type", i),
           }),
           ...(seeker.getValue(cursor, "Capacity", i) && {
-            stats: {capacity: seeker.getValue(cursor, "Capacity", i) },
+            stats: { capacity: seeker.getValue(cursor, "Capacity", i) },
           }),
           ...(i != cursor.tableHeight - 1
             ? {
@@ -223,6 +218,34 @@ async function main() {
   fs.writeFileSync(
     `../../database/data/furniture.json`,
     `[${furnitureOutput.substring(0, furnitureOutput.length - 1)}]`,
+    "utf-8"
+  );
+
+  // ==== MERCHANT LEVELS
+
+  let merchantLevels = await utils.readCSVFile(`${dataFolder}/merchantLevels.csv`);
+
+  let mlOracle = new Oracle(merchantLevels);
+
+  let mlOutput = "";
+  for (let i = 0; i < mlOracle.count(); i++) {
+    let thisLevel = {
+      level: mlOracle.getValue("Merchant Level", i),
+      highestMarketTier: mlOracle.getValue("Market Item Tier Unlock", i),
+      ...(i === mlOracle.count() - 1 ? {} : {
+        upgrade: {
+          xpNeeded: mlOracle.getValue("XP Needed", i + 1),
+          gemReward: mlOracle.getValue("Gem Reward", i + 1), 
+        }
+      })
+    }
+
+    mlOutput += JSON.stringify(thisLevel) + ",";
+  }
+
+  fs.writeFileSync(
+    `../../database/data/merchantLevels.json`,
+    `[${mlOutput.substring(0, mlOutput.length - 1)}]`,
     "utf-8"
   );
 

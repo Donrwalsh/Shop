@@ -1,0 +1,493 @@
+[
+  {
+    "level": 1,
+    "highestMarketTier": 1,
+    "upgrade": { "xpNeeded": 600, "gemReward": 5 }
+  },
+  {
+    "level": 2,
+    "highestMarketTier": 1,
+    "upgrade": { "xpNeeded": 900, "gemReward": 5 }
+  },
+  {
+    "level": 3,
+    "highestMarketTier": 1,
+    "upgrade": { "xpNeeded": 1400, "gemReward": 5 }
+  },
+  {
+    "level": 4,
+    "highestMarketTier": 1,
+    "upgrade": { "xpNeeded": 2100, "gemReward": 5 }
+  },
+  {
+    "level": 5,
+    "highestMarketTier": 1,
+    "upgrade": { "xpNeeded": 3100, "gemReward": 5 }
+  },
+  {
+    "level": 6,
+    "highestMarketTier": 1,
+    "upgrade": { "xpNeeded": 4500, "gemReward": 5 }
+  },
+  {
+    "level": 7,
+    "highestMarketTier": 2,
+    "upgrade": { "xpNeeded": 6400, "gemReward": 5 }
+  },
+  {
+    "level": 8,
+    "highestMarketTier": 2,
+    "upgrade": { "xpNeeded": 9100, "gemReward": 5 }
+  },
+  {
+    "level": 9,
+    "highestMarketTier": 2,
+    "upgrade": { "xpNeeded": 14300, "gemReward": 5 }
+  },
+  {
+    "level": 10,
+    "highestMarketTier": 2,
+    "upgrade": { "xpNeeded": 20500, "gemReward": 5 }
+  },
+  {
+    "level": 11,
+    "highestMarketTier": 2,
+    "upgrade": { "xpNeeded": 27800, "gemReward": 5 }
+  },
+  {
+    "level": 12,
+    "highestMarketTier": 2,
+    "upgrade": { "xpNeeded": 36400, "gemReward": 5 }
+  },
+  {
+    "level": 13,
+    "highestMarketTier": 2,
+    "upgrade": { "xpNeeded": 46600, "gemReward": 5 }
+  },
+  {
+    "level": 14,
+    "highestMarketTier": 2,
+    "upgrade": { "xpNeeded": 58600, "gemReward": 5 }
+  },
+  {
+    "level": 15,
+    "highestMarketTier": 3,
+    "upgrade": { "xpNeeded": 72800, "gemReward": 5 }
+  },
+  {
+    "level": 16,
+    "highestMarketTier": 3,
+    "upgrade": { "xpNeeded": 89500, "gemReward": 5 }
+  },
+  {
+    "level": 17,
+    "highestMarketTier": 3,
+    "upgrade": { "xpNeeded": 109300, "gemReward": 5 }
+  },
+  {
+    "level": 18,
+    "highestMarketTier": 3,
+    "upgrade": { "xpNeeded": 132600, "gemReward": 5 }
+  },
+  {
+    "level": 19,
+    "highestMarketTier": 3,
+    "upgrade": { "xpNeeded": 160100, "gemReward": 5 }
+  },
+  {
+    "level": 20,
+    "highestMarketTier": 3,
+    "upgrade": { "xpNeeded": 192600, "gemReward": 5 }
+  },
+  {
+    "level": 21,
+    "highestMarketTier": 4,
+    "upgrade": { "xpNeeded": 231000, "gemReward": 5 }
+  },
+  {
+    "level": 22,
+    "highestMarketTier": 4,
+    "upgrade": { "xpNeeded": 276300, "gemReward": 5 }
+  },
+  {
+    "level": 23,
+    "highestMarketTier": 4,
+    "upgrade": { "xpNeeded": 329800, "gemReward": 5 }
+  },
+  {
+    "level": 24,
+    "highestMarketTier": 4,
+    "upgrade": { "xpNeeded": 392900, "gemReward": 5 }
+  },
+  {
+    "level": 25,
+    "highestMarketTier": 4,
+    "upgrade": { "xpNeeded": 467400, "gemReward": 5 }
+  },
+  {
+    "level": 26,
+    "highestMarketTier": 4,
+    "upgrade": { "xpNeeded": 555300, "gemReward": 5 }
+  },
+  {
+    "level": 27,
+    "highestMarketTier": 4,
+    "upgrade": { "xpNeeded": 659100, "gemReward": 5 }
+  },
+  {
+    "level": 28,
+    "highestMarketTier": 5,
+    "upgrade": { "xpNeeded": 781600, "gemReward": 5 }
+  },
+  {
+    "level": 29,
+    "highestMarketTier": 5,
+    "upgrade": { "xpNeeded": 926100, "gemReward": 5 }
+  },
+  {
+    "level": 30,
+    "highestMarketTier": 5,
+    "upgrade": { "xpNeeded": 1096700, "gemReward": 5 }
+  },
+  {
+    "level": 31,
+    "highestMarketTier": 5,
+    "upgrade": { "xpNeeded": 1298100, "gemReward": 5 }
+  },
+  {
+    "level": 32,
+    "highestMarketTier": 5,
+    "upgrade": { "xpNeeded": 1535800, "gemReward": 5 }
+  },
+  {
+    "level": 33,
+    "highestMarketTier": 5,
+    "upgrade": { "xpNeeded": 1816300, "gemReward": 5 }
+  },
+  {
+    "level": 34,
+    "highestMarketTier": 5,
+    "upgrade": { "xpNeeded": 2147400, "gemReward": 5 }
+  },
+  {
+    "level": 35,
+    "highestMarketTier": 6,
+    "upgrade": { "xpNeeded": 2538200, "gemReward": 5 }
+  },
+  {
+    "level": 36,
+    "highestMarketTier": 6,
+    "upgrade": { "xpNeeded": 2999500, "gemReward": 5 }
+  },
+  {
+    "level": 37,
+    "highestMarketTier": 6,
+    "upgrade": { "xpNeeded": 3544000, "gemReward": 5 }
+  },
+  {
+    "level": 38,
+    "highestMarketTier": 6,
+    "upgrade": { "xpNeeded": 4186700, "gemReward": 5 }
+  },
+  {
+    "level": 39,
+    "highestMarketTier": 6,
+    "upgrade": { "xpNeeded": 4945300, "gemReward": 5 }
+  },
+  {
+    "level": 40,
+    "highestMarketTier": 7,
+    "upgrade": { "xpNeeded": 5840700, "gemReward": 5 }
+  },
+  {
+    "level": 41,
+    "highestMarketTier": 7,
+    "upgrade": { "xpNeeded": 6897500, "gemReward": 5 }
+  },
+  {
+    "level": 42,
+    "highestMarketTier": 7,
+    "upgrade": { "xpNeeded": 8144900, "gemReward": 5 }
+  },
+  {
+    "level": 43,
+    "highestMarketTier": 7,
+    "upgrade": { "xpNeeded": 9617200, "gemReward": 5 }
+  },
+  {
+    "level": 44,
+    "highestMarketTier": 7,
+    "upgrade": { "xpNeeded": 11355000, "gemReward": 5 }
+  },
+  {
+    "level": 45,
+    "highestMarketTier": 8,
+    "upgrade": { "xpNeeded": 13406200, "gemReward": 5 }
+  },
+  {
+    "level": 46,
+    "highestMarketTier": 8,
+    "upgrade": { "xpNeeded": 15827200, "gemReward": 5 }
+  },
+  {
+    "level": 47,
+    "highestMarketTier": 8,
+    "upgrade": { "xpNeeded": 18684800, "gemReward": 5 }
+  },
+  {
+    "level": 48,
+    "highestMarketTier": 8,
+    "upgrade": { "xpNeeded": 22057700, "gemReward": 5 }
+  },
+  {
+    "level": 49,
+    "highestMarketTier": 8,
+    "upgrade": { "xpNeeded": 26038800, "gemReward": 5 }
+  },
+  {
+    "level": 50,
+    "highestMarketTier": 9,
+    "upgrade": { "xpNeeded": 30737700, "gemReward": 5 }
+  },
+  {
+    "level": 51,
+    "highestMarketTier": 9,
+    "upgrade": { "xpNeeded": 36284000, "gemReward": 5 }
+  },
+  {
+    "level": 52,
+    "highestMarketTier": 9,
+    "upgrade": { "xpNeeded": 42830400, "gemReward": 5 }
+  },
+  {
+    "level": 53,
+    "highestMarketTier": 9,
+    "upgrade": { "xpNeeded": 50557200, "gemReward": 5 }
+  },
+  {
+    "level": 54,
+    "highestMarketTier": 9,
+    "upgrade": { "xpNeeded": 59677300, "gemReward": 5 }
+  },
+  {
+    "level": 55,
+    "highestMarketTier": 10,
+    "upgrade": { "xpNeeded": 70442000, "gemReward": 5 }
+  },
+  {
+    "level": 56,
+    "highestMarketTier": 10,
+    "upgrade": { "xpNeeded": 83147700, "gemReward": 5 }
+  },
+  {
+    "level": 57,
+    "highestMarketTier": 10,
+    "upgrade": { "xpNeeded": 98144500, "gemReward": 5 }
+  },
+  {
+    "level": 58,
+    "highestMarketTier": 10,
+    "upgrade": { "xpNeeded": 115845600, "gemReward": 5 }
+  },
+  {
+    "level": 59,
+    "highestMarketTier": 11,
+    "upgrade": { "xpNeeded": 136738600, "gemReward": 5 }
+  },
+  {
+    "level": 60,
+    "highestMarketTier": 11,
+    "upgrade": { "xpNeeded": 161399000, "gemReward": 5 }
+  },
+  {
+    "level": 61,
+    "highestMarketTier": 11,
+    "upgrade": { "xpNeeded": 190506200, "gemReward": 5 }
+  },
+  {
+    "level": 62,
+    "highestMarketTier": 11,
+    "upgrade": { "xpNeeded": 224862000, "gemReward": 5 }
+  },
+  {
+    "level": 63,
+    "highestMarketTier": 12,
+    "upgrade": { "xpNeeded": 265412900, "gemReward": 5 }
+  },
+  {
+    "level": 64,
+    "highestMarketTier": 12,
+    "upgrade": { "xpNeeded": 313275900, "gemReward": 5 }
+  },
+  {
+    "level": 65,
+    "highestMarketTier": 12,
+    "upgrade": { "xpNeeded": 369769600, "gemReward": 5 }
+  },
+  {
+    "level": 66,
+    "highestMarketTier": 12,
+    "upgrade": { "xpNeeded": 436450300, "gemReward": 5 }
+  },
+  {
+    "level": 67,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 515154900, "gemReward": 5 }
+  },
+  {
+    "level": 68,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 608051500, "gemReward": 5 }
+  },
+  {
+    "level": 69,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 717699300, "gemReward": 5 }
+  },
+  {
+    "level": 70,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 847118900, "gemReward": 5 }
+  },
+  {
+    "level": 71,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 999875500, "gemReward": 5 }
+  },
+  {
+    "level": 72,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 1180177300, "gemReward": 5 }
+  },
+  {
+    "level": 73,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 1392991200, "gemReward": 5 }
+  },
+  {
+    "level": 74,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 1644179800, "gemReward": 5 }
+  },
+  {
+    "level": 75,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 1940662900, "gemReward": 5 }
+  },
+  {
+    "level": 76,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 2290608100, "gemReward": 5 }
+  },
+  {
+    "level": 77,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 2703655600, "gemReward": 5 }
+  },
+  {
+    "level": 78,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 3191184100, "gemReward": 5 }
+  },
+  {
+    "level": 79,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 3766624000, "gemReward": 5 }
+  },
+  {
+    "level": 80,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 4445827600, "gemReward": 5 }
+  },
+  {
+    "level": 81,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 5247505700, "gemReward": 5 }
+  },
+  {
+    "level": 82,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 6193742900, "gemReward": 5 }
+  },
+  {
+    "level": 83,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 7310606100, "gemReward": 5 }
+  },
+  {
+    "level": 84,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 8628862800, "gemReward": 5 }
+  },
+  {
+    "level": 85,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 10184828400, "gemReward": 5 }
+  },
+  {
+    "level": 86,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 12021366700, "gemReward": 5 }
+  },
+  {
+    "level": 87,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 14189070800, "gemReward": 5 }
+  },
+  {
+    "level": 88,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 16747656700, "gemReward": 5 }
+  },
+  {
+    "level": 89,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 19767608400, "gemReward": 5 }
+  },
+  {
+    "level": 90,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 23332119700, "gemReward": 5 }
+  },
+  {
+    "level": 91,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 27539386000, "gemReward": 5 }
+  },
+  {
+    "level": 92,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 32505309200, "gemReward": 5 }
+  },
+  {
+    "level": 93,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 38366690800, "gemReward": 5 }
+  },
+  {
+    "level": 94,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 45285000500, "gemReward": 5 }
+  },
+  {
+    "level": 95,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 53450824200, "gemReward": 5 }
+  },
+  {
+    "level": 96,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 63089114400, "gemReward": 5 }
+  },
+  {
+    "level": 97,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 74465387300, "gemReward": 5 }
+  },
+  {
+    "level": 98,
+    "highestMarketTier": 13,
+    "upgrade": { "xpNeeded": 87893036900, "gemReward": 5 }
+  },
+  { "level": 99, "highestMarketTier": 13 }
+]

@@ -9,7 +9,7 @@ Core game data is obtained from the [Shop Titans Data Spreadsheet](https://docs.
 | blueprints                                             | Blueprints                                              | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | furniture                                              | Racks, Counters & Trunks <br /> Resource Bins           | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | slots                                                  | Slots <br /> Shop Expansions <br /> Basement Expansions | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
-| <center><p align = "center"> :question: </p> </center> | Merchant Levels                                         |
+| merchantLevels                                         | Merchant Levels                                         | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | <center><p align = "center"> :question: </p> </center> | Guild Perks                                             |
 | <center><p align = "center"> :question: </p> </center> | Guild Boosts                                            |
 | <center><p align = "center"> :question: </p> </center> | Collection Book                                         |
@@ -32,7 +32,7 @@ Integration with scripts will be nice, but it's not a priority until the structu
 
 - Establish a protocol for applying Schemas (I'm enjoying the lack of description used for `account.js`)
 
-- How to store Blueprint data?
+- How to store Blueprint data? - first iteration in `database/data/account.json`
 
 # Scripts
 

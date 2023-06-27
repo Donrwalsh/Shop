@@ -35,6 +35,22 @@
       "jewelBins": [15, 15, 15],
       "etherBins": [15, 15, 16],
       "essenceBeacons": [7, 14]
-    }
+    },
+    "blueprints": [
+      {
+        "name": "Squire Sword",
+        "owned": true,
+        "goldValueInc": true,
+        "mastered": true,
+        "ascensions": 3,
+        "collection": {
+          "normal": true,
+          "superior": true,
+          "flawless": true,
+          "epic": true,
+          "legendary": true
+        }
+      }
+    ]
   }
 ]
