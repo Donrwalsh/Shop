@@ -34,6 +34,8 @@ Integration with scripts will be nice, but it's not a priority until the structu
 
 - How to store Blueprint data? - first iteration in `database/data/account.json`
 
+- I need to store slots data and then guild perks data in the account data structure.
+
 # Scripts
 
 | Script | Language   | Status                            |

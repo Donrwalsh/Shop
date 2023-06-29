@@ -3748,6 +3748,56 @@
     "stats": { "ATK": 220, "CRIT": 0.05, "elementalAffinity": "Air" }
   },
   {
+    "name": "Iced FlavorPop",
+    "type": "Dagger",
+    "tier": 6,
+    "unlockPrerequisite": "Beach Day Mega Pack",
+    "values": {
+      "gold": 42000,
+      "merchantXp": 15500,
+      "workerXp": 233,
+      "fusionXp": 1165,
+      "favor": 288,
+      "airshipPower": 264,
+      "antiqueTokens": 140
+    },
+    "ascensionUpgrades": [
+      { "upgrade": "-25% Craft Time Reduction", "shards": 25 },
+      { "upgrade": "+10% Multicraft Chance", "shards": 25 },
+      { "upgrade": "-1 White Sand Spent", "shards": 25 }
+    ],
+    "crafting": {
+      "timeInSeconds": 4200,
+      "timeFormatted": "01:10:00",
+      "goldPerCraftingSecond": "10.00",
+      "merchantXpPerCraftingSecond": "3.69",
+      "materials": [
+        { "resource": "Herbs", "amount": 106 },
+        { "resource": "Oil", "amount": 16 },
+        { "component": "White Sand", "amount": 4 },
+        { "component": "Rustwyrm Scale", "amount": 3 }
+      ],
+      "workers": [
+        { "worker": "Blacksmith", "workerLevel": 16 },
+        { "worker": "Cook", "workerLevel": 12 }
+      ],
+      "upgrades": [
+        { "upgrade": "-21 Herbs Spent", "craftsNeeded": 10 },
+        { "upgrade": "-21 Herbs Spent", "craftsNeeded": 24 },
+        { "upgrade": "-21 Herbs Spent", "craftsNeeded": 44 },
+        { "upgrade": "x1.25 Value Increase", "craftsNeeded": 70 },
+        { "upgrade": "Quality Chance x2", "craftsNeeded": 110 }
+      ]
+    },
+    "energy": {
+      "discount": 150,
+      "surcharge": 330,
+      "suggest": 65,
+      "speedUp": 565
+    },
+    "stats": { "ATK": 240, "DEF": 60, "elementalAffinity": "Water" }
+  },
+  {
     "name": "Fishmonger",
     "type": "Dagger",
     "tier": 7,
@@ -28413,6 +28463,58 @@
     "stats": { "DEF": 498 }
   },
   {
+    "name": "Tiara of Tides",
+    "type": "Magician Hat",
+    "tier": 13,
+    "unlockPrerequisite": "Beach Day Superior Pack",
+    "values": {
+      "gold": 5850000,
+      "merchantXp": 260000,
+      "workerXp": 3900,
+      "fusionXp": 19500,
+      "favor": 5976,
+      "airshipPower": 622,
+      "antiqueTokens": 375
+    },
+    "ascensionUpgrades": [
+      { "upgrade": "-70 Oils Spent", "shards": 100 },
+      { "upgrade": "Quality Chance x2", "shards": 100 },
+      { "upgrade": "+10% Multicraft Chance", "shards": 100 }
+    ],
+    "crafting": {
+      "timeInSeconds": 122880,
+      "timeFormatted": "34:08:00",
+      "goldPerCraftingSecond": "47.61",
+      "merchantXpPerCraftingSecond": "2.12",
+      "materials": [
+        { "resource": "Herbs", "amount": 360 },
+        { "resource": "Oil", "amount": 70 },
+        { "resource": "Essence", "amount": 5 },
+        { "component": "Precious Shell", "amount": 12 },
+        { "component": "Deep Coral", "amount": 12 }
+      ],
+      "workers": [
+        { "worker": "Tailor", "workerLevel": 32 },
+        { "worker": "Wizard", "workerLevel": 28 },
+        { "worker": "Priestess", "workerLevel": 25 }
+      ],
+      "upgrades": [
+        { "upgrade": "-2 Deep Coral Spent", "craftsNeeded": 4 },
+        { "upgrade": "-3 Deep Coral Spent", "craftsNeeded": 10 },
+        { "upgrade": "-2 Precious Shell Spent", "craftsNeeded": 18 },
+        { "upgrade": "-3 Precious Shell Spent", "craftsNeeded": 30 },
+        { "upgrade": "x1.25 Value Increase", "craftsNeeded": 45 }
+      ]
+    },
+    "energy": {
+      "discount": 2070,
+      "surcharge": 4605,
+      "suggest": 920,
+      "speedUp": 3830
+    },
+    "stats": { "DEF": 410, "HP": 26, "elementalAffinity": "Water" }
+  },
+  {
     "name": "Iron Armguards",
     "type": "Gauntlets",
     "tier": 1,
@@ -35668,6 +35770,58 @@
     "stats": { "DEF": 559, "HP": 53 }
   },
   {
+    "name": "Radical Waverider",
+    "type": "Shield",
+    "tier": 13,
+    "unlockPrerequisite": "Beach Day Mega Pack",
+    "values": {
+      "gold": 5500000,
+      "merchantXp": 235000,
+      "workerXp": 3525,
+      "fusionXp": 17625,
+      "favor": 6670,
+      "airshipPower": 693,
+      "antiqueTokens": 375
+    },
+    "ascensionUpgrades": [
+      { "upgrade": "-1 Essence Spent", "shards": 100 },
+      { "upgrade": "-4 Overgrown Vine Spent", "shards": 100 },
+      { "upgrade": "+10% Multicraft Chance", "shards": 100 }
+    ],
+    "crafting": {
+      "timeInSeconds": 146400,
+      "timeFormatted": "40:40:00",
+      "goldPerCraftingSecond": "37.57",
+      "merchantXpPerCraftingSecond": "1.61",
+      "materials": [
+        { "resource": "Ironwood", "amount": 131 },
+        { "resource": "Jewels", "amount": 52 },
+        { "resource": "Essence", "amount": 5 },
+        { "component": "Outsider's Claw", "amount": 2 },
+        { "component": "Overgrown Vine", "amount": 10 }
+      ],
+      "workers": [
+        { "worker": "Carpenter", "workerLevel": 32 },
+        { "worker": "Jeweler", "workerLevel": 28 },
+        { "worker": "Blacksmith", "workerLevel": 25 }
+      ],
+      "upgrades": [
+        { "upgrade": "-20% Craft Time Reduction", "craftsNeeded": 4 },
+        { "upgrade": "-8 Jewels Spent", "craftsNeeded": 10 },
+        { "upgrade": "x1.25 Value Increase", "craftsNeeded": 18 },
+        { "upgrade": "-33 Ironwood Spent", "craftsNeeded": 30 },
+        { "upgrade": "Quality Chance x2", "craftsNeeded": 45 }
+      ]
+    },
+    "energy": {
+      "discount": 2010,
+      "surcharge": 4470,
+      "suggest": 895,
+      "speedUp": 3830
+    },
+    "stats": { "ATK": 124, "DEF": 495, "elementalAffinity": "Water" }
+  },
+  {
     "name": "Adventurer Cape",
     "type": "Cloak",
     "tier": 3,
@@ -36534,6 +36688,58 @@
       "speedUp": 3830
     },
     "stats": { "DEF": 645, "elementalAffinity": "Water" }
+  },
+  {
+    "name": "Coastal Towel",
+    "type": "Cloak",
+    "tier": 13,
+    "unlockPrerequisite": "Beach Day Superior Pack",
+    "values": {
+      "gold": 5950000,
+      "merchantXp": 345000,
+      "workerXp": 5175,
+      "fusionXp": 25875,
+      "favor": 8218,
+      "airshipPower": 974,
+      "antiqueTokens": 375
+    },
+    "ascensionUpgrades": [
+      { "upgrade": "-1 Essence Spent", "shards": 100 },
+      { "upgrade": "-121 Leather Spent", "shards": 100 },
+      { "upgrade": "+10% Multicraft Chance", "shards": 100 }
+    ],
+    "crafting": {
+      "timeInSeconds": 175200,
+      "timeFormatted": "48:40:00",
+      "goldPerCraftingSecond": "33.96",
+      "merchantXpPerCraftingSecond": "1.97",
+      "materials": [
+        { "resource": "Leather", "amount": 482 },
+        { "resource": "Fabric", "amount": 148 },
+        { "resource": "Essence", "amount": 5 },
+        { "component": "Astral Fabric", "amount": 2 },
+        { "component": "Deep Coral", "amount": 5 }
+      ],
+      "workers": [
+        { "worker": "Summoner", "workerLevel": 32 },
+        { "worker": "Tailor", "workerLevel": 28 },
+        { "worker": "Wizard", "workerLevel": 25 }
+      ],
+      "upgrades": [
+        { "upgrade": "-20% Craft Time Reduction", "craftsNeeded": 4 },
+        { "upgrade": "-22 Fabric Spent", "craftsNeeded": 10 },
+        { "upgrade": "x1.25 Value Increase", "craftsNeeded": 18 },
+        { "upgrade": "-2 Deep Coral Spent", "craftsNeeded": 30 },
+        { "upgrade": "Quality Chance x2", "craftsNeeded": 45 }
+      ]
+    },
+    "energy": {
+      "discount": 2090,
+      "surcharge": 4640,
+      "suggest": 930,
+      "speedUp": 3830
+    },
+    "stats": { "DEF": 645, "HP": 40, "elementalAffinity": "Water" }
   },
   {
     "name": "Iron Ring",
@@ -40780,6 +40986,52 @@
       "speedUp": 375
     },
     "stats": { "ATK": 44, "DEF": 66 }
+  },
+  {
+    "name": "Shepherd's Pie",
+    "type": "Meal",
+    "tier": 5,
+    "values": {
+      "gold": 11000,
+      "merchantXp": 14500,
+      "workerXp": 436,
+      "fusionXp": 2180,
+      "favor": 150,
+      "airshipPower": 106,
+      "antiqueTokens": 120
+    },
+    "ascensionUpgrades": [
+      { "upgrade": "-1 Glow Shroom Spent", "shards": 20 },
+      { "upgrade": "+10% Multicraft Chance", "shards": 20 },
+      { "upgrade": "-1 Silver Dust Spent", "shards": 20 }
+    ],
+    "crafting": {
+      "timeInSeconds": 2160,
+      "timeFormatted": "00:36:00",
+      "goldPerCraftingSecond": "5.09",
+      "merchantXpPerCraftingSecond": "6.71",
+      "materials": [
+        { "resource": "Herbs", "amount": 71 },
+        { "resource": "Oil", "amount": 15 },
+        { "component": "Silver Dust", "amount": 6 },
+        { "component": "Glow Shroom", "amount": 4 }
+      ],
+      "workers": [{ "worker": "Cook", "workerLevel": 12 }],
+      "upgrades": [
+        { "upgrade": "-14 Herbs Spent", "craftsNeeded": 9 },
+        { "upgrade": "-25% Craft Time Reduction", "craftsNeeded": 22 },
+        { "upgrade": "x1.5 Value Increase", "craftsNeeded": 40 },
+        { "upgrade": "-14 Herbs Spent", "craftsNeeded": 60 },
+        { "upgrade": "Quality Chance x2", "craftsNeeded": 95 }
+      ]
+    },
+    "energy": {
+      "discount": 80,
+      "surcharge": 175,
+      "suggest": 35,
+      "speedUp": 375
+    },
+    "stats": { "ATK": 66, "DEF": 44 }
   },
   {
     "name": "Cheeseburger",
