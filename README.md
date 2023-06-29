@@ -1,6 +1,8 @@
 # Backend
 
->`nest new backend`
+Used `>nest new backend` to create the files on this branch. Run app with `npm run start` in the `backend` folder. Navigate to http://localhost:3000/ for a Hello World! message.
+
+Used `>npm install --save @nestjs/swagger` because I love Swagger. Visit http://localhost:3000/api for the Swagger interface.
 # Database
 
 This project uses MongoDB for storing data.
