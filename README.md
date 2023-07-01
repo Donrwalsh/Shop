@@ -6,9 +6,12 @@ Used `>npm install --save @nestjs/swagger` because I love Swagger. Visit http://
 
 Run in hot reload mode using `>npm run start:local`. `>npm run server` is better because it includes an initial clean command.
 
+This guide has been super helpful for basic Mongoose connection into MongoDB: https://medium.com/globant/crud-application-using-nestjs-and-mongodb-99a0756adb76. Hooked into MongoDB and made successful get all and get by id blueprint endpoints.
+
 ### TODO
 
 - How to share the Blueprint (and others) model between the backend and scripts and beyond? (Currently I just duplicated the file across both)
+
 # Database
 
 This project uses MongoDB for storing data.

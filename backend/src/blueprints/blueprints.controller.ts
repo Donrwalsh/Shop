@@ -1,18 +1,34 @@
-import { Controller, Get } from "@nestjs/common";
-import { Blueprint } from "./model";
+import { Controller, Get, HttpStatus, Param, Res } from '@nestjs/common';
+import { BlueprintService } from './blueprints.service';
 
-@Controller()
+@Controller('blueprint')
 export class BlueprintsController {
+  constructor(private readonly blueprintService: BlueprintService) {}
 
-    @Get('/blueprint')
-    getBlueprint(): string {
-      return "Blueprint";
+  @Get('/:id')
+  async getBlueprint(@Res() response, @Param('id') blueprintId: string) {
+    try {
+      const existingBlueprint = await this.blueprintService.getBlueprint(
+        blueprintId,
+      );
+      return response.status(HttpStatus.OK).json({
+        message: 'Blueprint found successfully',
+        existingBlueprint,
+      });
+    } catch (err) {
+      return response.status(err.status).json(err.response);
     }
-
-    @Get('/blueprints')
-    async getAllBlueprints(): Promise<Blueprint[]> {
-        return new Promise((resolve) => {
-            resolve([{name: "Squire Sword"}] as Blueprint[])
-        })
+  }
+  @Get()
+  async getBlueprints(@Res() response) {
+    try {
+      const blueprintData = await this.blueprintService.getAllBlueprints();
+      return response.status(HttpStatus.OK).json({
+        message: 'All blueprints data found successfully',
+        blueprintData,
+      });
+    } catch (err) {
+      return response.status(err.status).json(err.response);
     }
+  }
 }
