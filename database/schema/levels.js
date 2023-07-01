@@ -1,4 +1,4 @@
-db.createCollection("merchantLevels", {
+db.createCollection("levels", {
     validator: {
         $jsonSchema: {
             bsonType: "object",

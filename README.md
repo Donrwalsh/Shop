@@ -11,15 +11,15 @@ This guide has been super helpful for basic Mongoose connection into MongoDB: ht
 Merchant level data makes for a good actual starting point since that'll likely be the first entry for a user data form.
 
 Dockerfile example from https://www.tomray.dev/nestjs-docker-production. `>docker build -t shop-api .` and then `>docker run -p3000:3000 shop-api` to run it.
+
 ### TODO
 
 - Enhance the Level model to cover all attributes. Use this data as a model for readonly data.
 
 - How to share the Blueprint (and others) model between the backend and scripts and beyond? (Currently I just duplicated the file across both)
 
-- I have account data in a different database (non shopData) but the Mongoose for root hooks into a single database. 
+- I have account data in a different database (non shopData) but the Mongoose for root hooks into a single database.
 
-- Propagate the 'Levels' namechange to the gather script.
 # Database
 
 This project uses MongoDB for storing data.
@@ -31,7 +31,7 @@ Core game data is obtained from the [Shop Titans Data Spreadsheet](https://docs.
 | blueprints                                             | Blueprints                                              | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | furniture                                              | Racks, Counters & Trunks <br /> Resource Bins           | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | slots                                                  | Slots <br /> Shop Expansions <br /> Basement Expansions | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
-| merchantLevels                                         | Merchant Levels                                         | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
+| levels                                                 | Merchant Levels                                         | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | <center><p align = "center"> :question: </p> </center> | Guild Perks                                             |
 | <center><p align = "center"> :question: </p> </center> | Guild Boosts                                            |
 | <center><p align = "center"> :question: </p> </center> | Collection Book                                         |

@@ -244,7 +244,7 @@ async function main() {
   }
 
   fs.writeFileSync(
-    `../../database/data/merchantLevels.json`,
+    `../../database/data/levels.json`,
     `[${mlOutput.substring(0, mlOutput.length - 1)}]`,
     "utf-8"
   );
