@@ -58,6 +58,10 @@ Integration with scripts will be nice, but it's not a priority until the structu
 
 - I need to store slots data and then guild perks data in the account data structure.
 
+# Frontend
+
+`>npm init @angular frontend`
+
 # Scripts
 
 | Script | Language   | Status                            |
