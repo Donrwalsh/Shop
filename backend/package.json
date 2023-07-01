@@ -7,11 +7,14 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "nest build",
+    "clean": "rimraf dist",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "server": "npm run clean && npm run start:local",
     "start": "nest start",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
+    "start:local": "tsc-watch -p tsconfig.build.json --onSuccess \"node dist/main.js\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -47,6 +50,7 @@
     "ts-jest": "^29.1.0",
     "ts-loader": "^9.4.3",
     "ts-node": "^10.9.1",
+    "tsc-watch": "2.4.0",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.1.3"
   },

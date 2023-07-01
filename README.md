@@ -2,7 +2,13 @@
 
 Used `>nest new backend` to create the files on this branch. Run app with `npm run start` in the `backend` folder. Navigate to http://localhost:3000/ for a Hello World! message.
 
-Used `>npm install --save @nestjs/swagger` because I love Swagger. Visit http://localhost:3000/api for the Swagger interface.
+Used `>npm install --save @nestjs/swagger` because I love Swagger. Visit http://localhost:3000/swagger for the Swagger interface.
+
+Run in hot reload mode using `>npm run start:local`. `>npm run server` is better because it includes an initial clean command.
+
+### TODO
+
+- How to share the Blueprint (and others) model between the backend and scripts and beyond? (Currently I just duplicated the file across both)
 # Database
 
 This project uses MongoDB for storing data.
