@@ -1,3 +1,25 @@
+# Backend
+
+Used `>nest new backend` to create the files on this branch. Run app with `npm run start` in the `backend` folder. Navigate to http://localhost:3000/ for a Hello World! message.
+
+Used `>npm install --save @nestjs/swagger` because I love Swagger. Visit http://localhost:3000/swagger for the Swagger interface.
+
+Run in hot reload mode using `>npm run start:local`. `>npm run server` is better because it includes an initial clean command.
+
+This guide has been super helpful for basic Mongoose connection into MongoDB: https://medium.com/globant/crud-application-using-nestjs-and-mongodb-99a0756adb76. Hooked into MongoDB and made successful get all and get by id blueprint endpoints.
+
+Merchant level data makes for a good actual starting point since that'll likely be the first entry for a user data form.
+
+Dockerfile example from https://www.tomray.dev/nestjs-docker-production. `>docker build -t shop-api .` and then `>docker run -p3000:3000 shop-api` to run it.
+
+### TODO
+
+- Enhance the Level model to cover all attributes. Use this data as a model for readonly data.
+
+- How to share the Blueprint (and others) model between the backend and scripts and beyond? (Currently I just duplicated the file across both)
+
+- I have account data in a different database (non shopData) but the Mongoose for root hooks into a single database.
+
 # Database
 
 This project uses MongoDB for storing data.
@@ -9,7 +31,7 @@ Core game data is obtained from the [Shop Titans Data Spreadsheet](https://docs.
 | blueprints                                             | Blueprints                                              | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | furniture                                              | Racks, Counters & Trunks <br /> Resource Bins           | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | slots                                                  | Slots <br /> Shop Expansions <br /> Basement Expansions | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
-| merchantLevels                                         | Merchant Levels                                         | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
+| levels                                                 | Merchant Levels                                         | <center><p align = "center"> :white_check_mark: </p> </center> | <center><p align = "center"> :white_check_mark: </p> </center> |
 | <center><p align = "center"> :question: </p> </center> | Guild Perks                                             |
 | <center><p align = "center"> :question: </p> </center> | Guild Boosts                                            |
 | <center><p align = "center"> :question: </p> </center> | Collection Book                                         |
