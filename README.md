@@ -62,6 +62,8 @@ Integration with scripts will be nice, but it's not a priority until the structu
 
 `>npm init @angular frontend`
 
+The `proxy.conf.json` file and related updates to the `angular.json` file are important for resolving CORS errors.
+
 # Scripts
 
 | Script | Language   | Status                            |
