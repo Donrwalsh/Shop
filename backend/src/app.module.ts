@@ -4,9 +4,11 @@ import { AppService } from './app.service';
 import { BlueprintsModule } from './blueprints/blueprints.module';
 import { MongooseModule } from '@nestjs/mongoose';
 import { LevelsModule } from './levels/levels.module';
+import { AccountModule } from './account/account.module';
 
 @Module({
   imports: [
+    AccountModule,
     BlueprintsModule,
     LevelsModule,
     MongooseModule.forRoot('mongodb://192.168.1.11:27017', {
