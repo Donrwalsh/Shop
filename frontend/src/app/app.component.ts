@@ -28,20 +28,7 @@ export class AppComponent {
     level: null,
   };
 
-  ngOnInit() {
-    this.dataService.getLevels().subscribe((data) => {
-      console.log(data);
-      this.levels = data as any;
-      console.log(
-        Math.max(this.levels.levelData.map((levelData: any) => levelData.level))
-      );
-      this.range = `${Math.min(
-        ...this.levels.levelData.map((levelData: any) => levelData.level)
-      )}-${Math.max(
-        ...this.levels.levelData.map((levelData: any) => levelData.level)
-      )}`;
-    });
-  }
+  ngOnInit() {}
 
   getInterestingFactOne(level: number | null) {
     let output = '';

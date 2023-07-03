@@ -68,9 +68,15 @@ Using bootstrap for ease of frontend. Working with a single input field for leve
 
 ### TODO
 
+- Proper formatting and commas on xp tnl input field.
+
 - All this stuff in app.component belongs somewhere better
 
 - NgRx and level input connected to account data in database.
+
+- Number inputs, level and xp tnl with validation based on values driven by level data.
+
+- Naturally, changes to these values need to persist to the database
 
 # Scripts
 
