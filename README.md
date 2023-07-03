@@ -62,7 +62,15 @@ Integration with scripts will be nice, but it's not a priority until the structu
 
 `>npm init @angular frontend`
 
-The `proxy.conf.json` file and related updates to the `angular.json` file are important for resolving CORS errors.
+Basic data service connecting to the API. The `proxy.conf.json` file and related updates to the `angular.json` file are important for resolving CORS errors.
+
+Using bootstrap for ease of frontend. Working with a single input field for level which returns info based on data from API.
+
+### TODO
+
+- All this stuff in app.component belongs somewhere better
+
+- NgRx and level input connected to account data in database.
 
 # Scripts
 

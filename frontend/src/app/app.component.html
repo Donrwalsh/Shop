@@ -1,11 +1,23 @@
 <p>Shop</p>
 
 <div class="container">
-    <div class="mb-3">
-        <label for="levelInput" class="form-label">Level</label>
-        <input type="number" class="form-control" id="levelInput" aria-describedby="levelHelp">
-        <div id="levelHelp" class="form-text">({{range}})</div>
-      </div>
+  <div class="row">
+    <div class="col-sm">
+      <label for="levelInput" class="form-label">Level</label>
+      <input
+        class="form-control"
+        id="levelInput"
+        [(ngModel)]="account.level"
+        aria-describedby="levelHelp"
+        style="width: 20%"
+      />
+      <div id="levelHelp" class="form-text">({{ range }})</div>
+    </div>
+    <div class="col-sm">
+      <p>{{ getInterestingFactOne(account.level) }}</p>
+      <p>{{ getInterestingFactTwo(account.level) }}</p>
+    </div>
+    <div class="col-sm"></div>
+    <div class="col-sm"></div>
+  </div>
 </div>
-
-
