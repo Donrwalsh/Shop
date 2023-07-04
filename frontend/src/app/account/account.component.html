@@ -1,20 +1,20 @@
 <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      <label for="levelInput" class="form-label">Level</label>
-      <input
-        class="form-control"
-        id="levelInput"
-        [formControl]="levelControl"
-        aria-describedby="levelHelp"
-        style="width: 20%"
-      />
-      <div id="levelHelp" class="form-text">
-        ({{ minLevel }}-{{ maxLevel }})
+  <form class="needs-validation" novalidate>
+    <div class="row">
+      <div class="col-sm-1">
+        <label for="levelInput" class="form-label">Level</label>
+        <input
+          class="form-control"
+          id="levelInput"
+          [formControl]="levelControl"
+          [ngClass]="{
+            'is-invalid': !levelControl.valid,
+            'is-valid': levelControl.valid
+          }"
+        />
+        <div class="invalid-feedback">({{ minLevel }}-{{ maxLevel }})</div>
       </div>
-    </div>
-    <div class="col-sm">
-      <div class="mb-3">
+      <div class="col-sm-3">
         <label for="XP" class="form-label">XP</label>
         <div class="input-group">
           <input
@@ -23,19 +23,31 @@
             id="exp"
             [formControl]="expControl"
             aria-describedby="basic-addon3 basic-addon4"
+            [ngClass]="{
+              'is-invalid': !expControl.valid,
+              'is-valid': expControl.valid
+            }"
           />
           <span class="input-group-text" id="basic-addon3"
-            >/ {{ xpToNextLevel() }}</span
+            >/ {{ readableXpToNextLevel() }}</span
           >
         </div>
-        <div class="form-text" id="basic-addon4">
-          Example help text goes outside the input group.
-        </div>
+        <!-- <p>{{ getInterestingFactOne(account.level) }}</p> -->
+        <!-- <p>{{ getInterestingFactTwo(account.level) }}</p> -->
       </div>
-      <!-- <p>{{ getInterestingFactOne(account.level) }}</p> -->
-      <!-- <p>{{ getInterestingFactTwo(account.level) }}</p> -->
+      <div class="col-sm-1">
+        <label for="furniture" class="form-label">Furniture</label>
+        <input
+          class="form-control"
+          id="furnitureInput"
+          [formControl]="furnitureControl"
+          [ngClass]="{
+            'is-invalid': !furnitureControl.valid,
+            'is-valid': furnitureControl.valid
+          }"
+        />
+      </div>
+      <div class="col-sm"></div>
     </div>
-    <div class="col-sm"></div>
-    <div class="col-sm"></div>
-  </div>
+  </form>
 </div>

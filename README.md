@@ -68,6 +68,8 @@ Using bootstrap for ease of frontend. Working with a single input field for leve
 
 ### TODO
 
+- Technically the Furniture Slots input field should only take a value that matches one of the stats.capacity numbers. Tie this into detecting remaining upgrades too.
+
 - Proper formatting and commas on xp tnl input field.
 
 - All this stuff in app.component belongs somewhere better

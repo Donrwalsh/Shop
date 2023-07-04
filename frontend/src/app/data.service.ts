@@ -22,4 +22,8 @@ export class DataService {
       .get(`levels`, { headers: reqHeaders })
       .pipe(map((res) => res));
   }
+
+  getShopExpansionSlots() {
+    return this.http.get(`/slots/shopExpansions`).pipe(map((res) => res));
+  }
 }
