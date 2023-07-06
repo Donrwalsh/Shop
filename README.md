@@ -14,6 +14,8 @@ Dockerfile example from https://www.tomray.dev/nestjs-docker-production. `>docke
 
 ### TODO
 
+- Need some furniture data to the frontend!
+
 - Enhance the Level model to cover all attributes. Use this data as a model for readonly data.
 
 - How to share the Blueprint (and others) model between the backend and scripts and beyond? (Currently I just duplicated the file across both)
@@ -66,7 +68,11 @@ Basic data service connecting to the API. The `proxy.conf.json` file and related
 
 Using bootstrap for ease of frontend. Working with a single input field for level which returns info based on data from API.
 
+`>npm install @swimlane/ngx-datatable`
+
 ### TODO
+
+- FURNITURE AS A DATA TABLE WOOO. But don't change the database structure. I should only need an array of integers representing table levels to show data table stuff (and manage data that way too)
 
 - Proper formatting and commas on xp tnl input field.
 

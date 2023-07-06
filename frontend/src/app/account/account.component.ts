@@ -29,6 +29,20 @@ export class AccountComponent {
   minFurnitureSlots: number = 0;
   maxFurnitureSlots: number = 0;
 
+  // Id here too, but not shown on table
+  // TODO: Get access into furniture data and show other details about the furniture on this table.
+  // TODO: Expand table with the ability to add new data.
+  rows = [
+    { type: 'Counter', level: '2' },
+    { type: 'Trunk', level: '20' },
+    { type: 'Trunk', level: '20' },
+    { type: 'Trunk', level: '20' },
+    { type: 'Trunk', level: '20' },
+    { type: 'Table', level: '15' },
+    { type: "Dragon's Hoard", level: '20' },
+  ];
+  columns = [{ name: 'Type' }, { name: 'Level' }];
+
   ngOnInit() {
     this.dataService.getAccount().subscribe((data) => {
       this.accountForm.controls.level.setValue(
@@ -112,7 +126,7 @@ export class AccountComponent {
     let nullSafeLevel = parseInt(this.accountForm.value.level || '0');
     let nullSafeXp = parseInt(this.accountForm.value.xp || '0');
     let output = '';
-    if (nullSafeLevel) {
+    if (nullSafeLevel && this.levelData) {
       output =
         new Intl.NumberFormat().format(
           this.levelData
@@ -131,7 +145,7 @@ export class AccountComponent {
   getInterestingFactTwo() {
     let nullSafeLevel = parseInt(this.accountForm.value.level || '0');
     let output = '';
-    if (nullSafeLevel) {
+    if (nullSafeLevel && this.levelData) {
       output =
         (1 -
           this.levelData
@@ -153,5 +167,20 @@ export class AccountComponent {
         '% of the way to max';
     }
     return output;
+  }
+
+  getFurnitureImage(type: string, level: string) {
+    switch (type) {
+      case 'Counter':
+        if (parseInt(level) < 6) {
+          return 'assets/furniture/counters/counter1.png';
+        } else if (parseInt(level) < 11) {
+          return 'assets/furniture/counters/counter2.png';
+        } else {
+          return 'assets/furniture/counters/counter3.png';
+        }
+      default:
+        return 'potato';
+    }
   }
 }

@@ -56,6 +56,45 @@
       </div>
       <div class="col-sm"></div>
     </div>
+    <div>
+      <ngx-datatable [rows]="rows" [columns]="columns">
+        <ngx-datatable-column name="Type">
+          <ng-template
+            ngx-datatable-cell-template
+            let-rowIndex="rowIndex"
+            let-value="value"
+            let-row="row"
+          >
+            <img
+              src="{{
+                getFurnitureImage(rows[rowIndex].type, rows[rowIndex].level)
+              }}"
+              style="width: 26px"
+            />
+            {{ rows[rowIndex].type }}
+          </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="Level"> </ngx-datatable-column>
+        <ngx-datatable-column name="Capacity">
+          <ng-template
+            ngx-datatable-cell-template
+            let-rowIndex="rowIndex"
+            let-value="value"
+            let-row="row"
+          >
+          </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column name="Energy">
+          <ng-template
+            ngx-datatable-cell-template
+            let-rowIndex="rowIndex"
+            let-value="value"
+            let-row="row"
+          >
+          </ng-template>
+        </ngx-datatable-column>
+      </ngx-datatable>
+    </div>
     <div class="row mt-5">
       <button type="submit" class="btn btn-primary">Save</button>
     </div>
