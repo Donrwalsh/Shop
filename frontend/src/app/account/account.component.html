@@ -1,15 +1,20 @@
 <div class="container">
-  <form class="needs-validation" novalidate>
+  <form
+    class="needs-validation"
+    novalidate
+    [formGroup]="accountForm"
+    (ngSubmit)="save()"
+  >
     <div class="row">
       <div class="col-sm-1">
         <label for="levelInput" class="form-label">Level</label>
         <input
           class="form-control"
           id="levelInput"
-          [formControl]="levelControl"
+          formControlName="level"
           [ngClass]="{
-            'is-invalid': !levelControl.valid,
-            'is-valid': levelControl.valid
+            'is-invalid': !accountForm.controls.level.valid,
+            'is-valid': accountForm.controls.level.valid
           }"
         />
         <div class="invalid-feedback">({{ minLevel }}-{{ maxLevel }})</div>
@@ -20,34 +25,41 @@
           <input
             type="text"
             class="form-control"
-            id="exp"
-            [formControl]="expControl"
+            id="xp"
+            formControlName="xp"
             aria-describedby="basic-addon3 basic-addon4"
             [ngClass]="{
-              'is-invalid': !expControl.valid,
-              'is-valid': expControl.valid
+              'is-invalid': !accountForm.controls.xp.valid,
+              'is-valid': accountForm.controls.xp.valid
             }"
           />
           <span class="input-group-text" id="basic-addon3"
             >/ {{ readableXpToNextLevel() }}</span
           >
+          <div class="invalid-feedback">(0-{{ readableXpToNextLevel() }})</div>
         </div>
-        <!-- <p>{{ getInterestingFactOne(account.level) }}</p> -->
-        <!-- <p>{{ getInterestingFactTwo(account.level) }}</p> -->
       </div>
       <div class="col-sm-1">
         <label for="furniture" class="form-label">Furniture</label>
         <input
           class="form-control"
           id="furnitureInput"
-          [formControl]="furnitureControl"
+          formControlName="furnitureSlots"
           [ngClass]="{
-            'is-invalid': !furnitureControl.valid,
-            'is-valid': furnitureControl.valid
+            'is-invalid': !accountForm.controls.furnitureSlots.valid,
+            'is-valid': accountForm.controls.furnitureSlots.valid
           }"
         />
+        <div class="invalid-feedback">
+          ({{ minFurnitureSlots }}-{{ maxFurnitureSlots }})
+        </div>
       </div>
       <div class="col-sm"></div>
     </div>
+    <div class="row mt-5">
+      <button type="submit" class="btn btn-primary">Save</button>
+    </div>
   </form>
+  <p>{{ getInterestingFactOne() }}</p>
+  <p>{{ getInterestingFactTwo() }}</p>
 </div>

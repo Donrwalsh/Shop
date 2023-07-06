@@ -2,9 +2,11 @@ db.createCollection("accounts", {
   validator: {
     $jsonSchema: {
       bsonType: "object",
-      //   required: [],
       properties: {
-        merchantLevel: {
+        level: {
+          bsonType: "int",
+        },
+        xp: {
           bsonType: "int",
         },
         furnitureSlots: {
@@ -15,7 +17,6 @@ db.createCollection("accounts", {
         },
         furniture: {
           bsonType: "object",
-          // required: [],
           properties: {
             counter: {
               bsonType: "int",

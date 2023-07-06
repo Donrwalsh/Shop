@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DataService } from '../data.service';
-import { FormControl, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, Validators } from '@angular/forms';
 import { Account } from './account.model';
 
 @Component({
@@ -9,11 +9,16 @@ import { Account } from './account.model';
   styleUrls: ['./account.component.scss'],
 })
 export class AccountComponent {
-  constructor(private dataService: DataService) {}
+  constructor(
+    private dataService: DataService,
+    private formBuilder: FormBuilder
+  ) {}
 
-  levelControl = new FormControl('');
-  expControl = new FormControl('');
-  furnitureControl = new FormControl('');
+  accountForm = this.formBuilder.group({
+    level: '',
+    xp: '',
+    furnitureSlots: '',
+  });
 
   levelData: any;
   slotsData: any;
@@ -21,29 +26,35 @@ export class AccountComponent {
   minLevel: number = 0;
   maxLevel: number = 0;
   xpToNextLevel: number = 0;
+  minFurnitureSlots: number = 0;
+  maxFurnitureSlots: number = 0;
 
   ngOnInit() {
     this.dataService.getAccount().subscribe((data) => {
-      this.levelControl.setValue((data as Account).level.toString());
-      this.expControl.setValue((data as Account).exp.toString());
-      this.furnitureControl.setValue(
+      this.accountForm.controls.level.setValue(
+        (data as Account).level.toString()
+      );
+      this.accountForm.controls.xp.setValue((data as Account).xp.toString());
+      this.accountForm.controls.furnitureSlots.setValue(
         (data as Account).furnitureSlots.toString()
       );
     });
 
     this.dataService.getShopExpansionSlots().subscribe((data) => {
       this.slotsData = data;
-      this.furnitureControl.setValidators([
+      this.maxFurnitureSlots = Math.max(
+        ...this.slotsData.map((slotData: any) => slotData.stats.capacity)
+      );
+      this.minFurnitureSlots = Math.min(
+        ...this.slotsData.map((slotData: any) => slotData.stats.capacity)
+      );
+      this.accountForm.controls.furnitureSlots.setValidators([
         Validators.pattern('^[0-9]*$'),
         Validators.required,
-        Validators.min(0),
-        Validators.max(
-          Math.max(
-            ...this.slotsData.map((slotData: any) => slotData.stats.capacity)
-          )
-        ),
+        Validators.min(this.minFurnitureSlots),
+        Validators.max(this.maxFurnitureSlots),
       ]);
-      this.furnitureControl.updateValueAndValidity();
+      this.accountForm.controls.furnitureSlots.updateValueAndValidity();
     });
 
     this.dataService.getLevels().subscribe((data) => {
@@ -54,35 +65,35 @@ export class AccountComponent {
       this.maxLevel = Math.max(
         ...(data as any).levelData.map((levelData: any) => levelData.level)
       );
-      this.levelControl.setValidators([
+      this.accountForm.controls.level.setValidators([
         Validators.pattern('^[0-9]*$'),
         Validators.min(this.minLevel),
         Validators.max(this.maxLevel),
         Validators.required,
       ]);
-      this.levelControl.updateValueAndValidity();
+      this.accountForm.controls.level.updateValueAndValidity();
     });
 
-    this.levelControl.valueChanges.subscribe((x) => {
-      if (this.levelControl.valid) {
+    this.accountForm.controls.level.valueChanges.subscribe((x) => {
+      if (this.accountForm.controls.level.valid) {
         this.xpToNextLevel = this.levelData?.filter(
           (data: any) => data.level == x
         )[0].upgrade.xpNeeded;
 
-        this.expControl.setValidators([
+        this.accountForm.controls.xp.setValidators([
           Validators.pattern('^[-,0-9]+$'),
           Validators.min(0),
           Validators.max(this.xpToNextLevel),
           Validators.required,
         ]);
-        this.expControl.updateValueAndValidity();
+        this.accountForm.controls.xp.updateValueAndValidity();
       }
     });
   }
 
   expValueAsNumber() {
-    return this.expControl.value
-      ? parseInt(this.expControl.value.replace(/,/g, ''), 10)
+    return this.accountForm.controls.xp.value
+      ? parseInt(this.accountForm.controls.xp.value.replace(/,/g, ''), 10)
       : 0;
   }
 
@@ -90,5 +101,57 @@ export class AccountComponent {
     return this.xpToNextLevel == 0
       ? '???'
       : new Intl.NumberFormat().format(this.xpToNextLevel);
+  }
+
+  save() {
+    console.log('save');
+    console.log(this.accountForm.value);
+  }
+
+  getInterestingFactOne() {
+    let nullSafeLevel = parseInt(this.accountForm.value.level || '0');
+    let nullSafeXp = parseInt(this.accountForm.value.xp || '0');
+    let output = '';
+    if (nullSafeLevel) {
+      output =
+        new Intl.NumberFormat().format(
+          this.levelData
+            .filter((levelData: any) => levelData.level >= nullSafeLevel)
+            .map((levelData: any) => levelData?.upgrade?.xpNeeded || 0)
+            .reduce(
+              (accumulator: number, currentValue: number) =>
+                accumulator + currentValue,
+              nullSafeXp * -1
+            )
+        ) + ' xp to max level';
+    }
+    return output;
+  }
+
+  getInterestingFactTwo() {
+    let nullSafeLevel = parseInt(this.accountForm.value.level || '0');
+    let output = '';
+    if (nullSafeLevel) {
+      output =
+        (1 -
+          this.levelData
+            .filter((levelData: any) => levelData.level >= nullSafeLevel)
+            .map((levelData: any) => levelData?.upgrade?.xpNeeded || 0)
+            .reduce(
+              (accumulator: number, currentValue: number) =>
+                accumulator + currentValue,
+              0
+            ) /
+            this.levelData
+              .map((levelData: any) => levelData?.upgrade?.xpNeeded || 0)
+              .reduce(
+                (accumulator: number, currentValue: number) =>
+                  accumulator + currentValue,
+                0
+              )) *
+          100 +
+        '% of the way to max';
+    }
+    return output;
   }
 }

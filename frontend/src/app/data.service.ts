@@ -11,7 +11,7 @@ export class DataService {
   constructor(private http: HttpClient) {}
 
   getAccount() {
-    return this.http.get(`account`).pipe(map((res) => res));
+    return this.http.get(`account/bigbrass`).pipe(map((res) => res));
   }
 
   getLevels() {

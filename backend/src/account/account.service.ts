@@ -7,8 +7,8 @@ import { IAccount } from './schema';
 export class AccountService {
   constructor(@InjectModel('Account') private accountModel: Model<IAccount>) {}
 
-  async getAccount(): Promise<IAccount> {
-    const accountData = await this.accountModel.findById('bigbrass');
+  async getAccountById(accountId: string): Promise<IAccount> {
+    const accountData = await this.accountModel.findById(accountId);
     if (!accountData) {
       throw new NotFoundException('account data not found!');
     }
