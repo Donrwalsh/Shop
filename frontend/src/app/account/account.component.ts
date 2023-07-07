@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { DataService } from '../data.service';
 import { FormBuilder, FormControl, Validators } from '@angular/forms';
-import { Account } from './account.model';
+import { Account } from '../models/account.model';
 import { Store, select } from '@ngrx/store';
+import * as accountSelectors from '../state/account/account.selectors';
 import * as dataSelectors from '../state/data/data.selectors';
 import { AppState } from '../state/app.state';
 import { combineLatest, take, map, tap, firstValueFrom } from 'rxjs';
@@ -37,25 +38,22 @@ export class AccountComponent {
   // TODO: Get access into furniture data and show other details about the furniture on this table.
   // TODO: Expand table with the ability to add new data.
   rows = [
-    { type: 'Counter', level: '2' },
-    { type: 'Trunk', level: '20' },
-    { type: 'Trunk', level: '20' },
-    { type: 'Trunk', level: '20' },
-    { type: 'Trunk', level: '20' },
-    { type: 'Table', level: '15' },
-    { type: "Dragon's Hoard", level: '20' },
-  ];
+    // { type: 'Counter', level: '2' },
+    // { type: 'Trunk', level: '20' },
+    // { type: 'Trunk', level: '20' },
+    // { type: 'Trunk', level: '20' },
+    // { type: 'Trunk', level: '20' },
+    // { type: 'Table', level: '15' },
+    // { type: "Dragon's Hoard", level: '20' },
+  ] as any;
   columns = [{ name: 'Type' }, { name: 'Level' }];
 
   async ngOnInit() {
     this.accountForm.controls.level.valueChanges.subscribe(async (x) => {
-      if (this.accountForm.controls.level.valid && x != '') {
-        console.log(this.accountForm.value);
-        console.log(x);
+      if (this.accountForm.controls.level.valid) {
         this.xpTNL = await firstValueFrom(
           this.store.pipe(select(dataSelectors.selectXpTNL(parseInt(x!))))
         );
-
         this.accountForm.controls.xp.setValidators([
           Validators.pattern('^[-,0-9]+$'),
           Validators.min(0),
@@ -100,15 +98,37 @@ export class AccountComponent {
       this.accountForm.controls.level.updateValueAndValidity();
     });
 
-    this.dataService.getAccount().subscribe((data) => {
-      this.accountForm.controls.level.setValue(
-        (data as Account).level.toString()
-      );
-      this.accountForm.controls.xp.setValue((data as Account).xp.toString());
-      this.accountForm.controls.furnitureSlots.setValue(
-        (data as Account).furnitureSlots.toString()
-      );
-    });
+    this.store
+      .pipe(select(accountSelectors.selectMyAccount))
+      .subscribe((account) => {
+        if (account) {
+          this.accountForm.controls.level.setValue(account.level.toString());
+          this.accountForm.controls.xp.setValue(account.xp.toString());
+          this.accountForm.controls.furnitureSlots.setValue(
+            account.furnitureSlots.toString()
+          );
+
+          this.rows = [];
+
+          this.rows.push({
+            type: 'Counter',
+            level: account.furniture.counter.toString(),
+          });
+
+          this.rows.push({
+            type: "Dragon's Hoard",
+            level: account.furniture.hoard.toString(),
+          });
+
+          account.furniture.trunks.map((trunkLevel) =>
+            this.rows.push({
+              type: 'Trunk',
+              level: trunkLevel?.toString(),
+            })
+          );
+        }
+        console.log(this.rows);
+      });
   }
 
   expValueAsNumber() {

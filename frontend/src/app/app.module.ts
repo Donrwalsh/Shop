@@ -12,28 +12,27 @@ import { EffectsModule } from '@ngrx/effects';
 import { ROOT_REDUCERS } from './state/app.state';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreModule } from '@ngrx/store';
-import { DataEffects } from './state/data/data.effects.';
+import { DataEffects } from './state/data/data.effects';
 import { metaReducers } from './state/meta.reducer';
+import { AccountEffects } from './state/account/account.effects';
 // import { metaReducers } from './state/meta.reducer';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    StoreModule.forRoot(ROOT_REDUCERS, {metaReducers}),
+    StoreModule.forRoot(ROOT_REDUCERS, { metaReducers }),
     NgbModule,
     HttpClientModule,
     AppRoutingModule,
     ReactiveFormsModule,
     AccountModule,
     NgxDatatableModule,
-    EffectsModule.forRoot([
-      DataEffects
-    ]),
+    EffectsModule.forRoot([AccountEffects, DataEffects]),
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       // logOnly: environment.production
-  }),
+    }),
   ],
   providers: [DataService],
   bootstrap: [AppComponent],

@@ -10,7 +10,7 @@ export class DataService {
 
   constructor(private http: HttpClient) {}
 
-  getAccount() {
+  getBigbrass() {
     return this.http.get(`account/bigbrass`).pipe(map((res) => res));
   }
 
