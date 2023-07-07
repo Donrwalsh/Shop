@@ -3,6 +3,11 @@
     "_id": "bigbrass",
     "level": 80,
     "xp": 2385631927,
-    "furnitureSlots": 88
+    "furnitureSlots": 88,
+    "furniture": {
+      "counter": 20,
+      "hoard": 20,
+      "trunks": [20, 20, 20, 20, 20]
+    }
   }
 ]

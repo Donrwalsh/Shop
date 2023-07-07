@@ -3,7 +3,7 @@ import { DataService } from '../data.service';
 import { FormBuilder, FormControl, Validators } from '@angular/forms';
 import { Account } from './account.model';
 import { Store, select } from '@ngrx/store';
-import * as ssDataSelectors from '../state/data/data.selectors';
+import * as dataSelectors from '../state/data/data.selectors';
 import { AppState } from '../state/app.state';
 import { combineLatest, map, tap } from 'rxjs';
 
@@ -49,21 +49,37 @@ export class AccountComponent {
 
   ngOnInit() {
     combineLatest([
-      this.store.pipe(select(ssDataSelectors.selectMinFurnitureSlots)),
-      this.store.pipe(select(ssDataSelectors.selectMaxFurnitureSlots)),
+      this.store.pipe(select(dataSelectors.selectMinFurnitureSlots)),
+      this.store.pipe(select(dataSelectors.selectMaxFurnitureSlots)),
     ]).subscribe(([min, max]) => {
-      if (Math.abs(min) !== Infinity && Math.abs(max) !== Infinity) {
-        this.minFurnitureSlots = min;
-        this.maxFurnitureSlots = max;
+      // if (Math.abs(min) !== Infinity && Math.abs(max) !== Infinity) {
+      this.minFurnitureSlots = min;
+      this.maxFurnitureSlots = max;
 
-        this.accountForm.controls.furnitureSlots.setValidators([
-          Validators.pattern('^[0-9]*$'),
-          Validators.required,
-          Validators.min(this.minFurnitureSlots),
-          Validators.max(this.maxFurnitureSlots),
-        ]);
-        this.accountForm.controls.furnitureSlots.updateValueAndValidity();
-      }
+      this.accountForm.controls.furnitureSlots.setValidators([
+        Validators.pattern('^[0-9]*$'),
+        Validators.required,
+        Validators.min(this.minFurnitureSlots),
+        Validators.max(this.maxFurnitureSlots),
+      ]);
+      this.accountForm.controls.furnitureSlots.updateValueAndValidity();
+      // }
+    });
+
+    combineLatest([
+      this.store.pipe(select(dataSelectors.selectMinLevel)),
+      this.store.pipe(select(dataSelectors.selectMaxLevel)),
+    ]).subscribe(([min, max]) => {
+      this.minLevel = min;
+      this.maxLevel = max;
+
+      this.accountForm.controls.level.setValidators([
+        Validators.pattern('^[0-9]*$'),
+        Validators.min(this.minLevel),
+        Validators.max(this.maxLevel),
+        Validators.required,
+      ]);
+      this.accountForm.controls.level.updateValueAndValidity();
     });
 
     this.dataService.getAccount().subscribe((data) => {
@@ -74,23 +90,6 @@ export class AccountComponent {
       this.accountForm.controls.furnitureSlots.setValue(
         (data as Account).furnitureSlots.toString()
       );
-    });
-
-    this.dataService.getLevels().subscribe((data) => {
-      this.levelData = (data as any).levelData;
-      this.minLevel = Math.min(
-        ...(data as any).levelData.map((levelData: any) => levelData.level)
-      );
-      this.maxLevel = Math.max(
-        ...(data as any).levelData.map((levelData: any) => levelData.level)
-      );
-      this.accountForm.controls.level.setValidators([
-        Validators.pattern('^[0-9]*$'),
-        Validators.min(this.minLevel),
-        Validators.max(this.maxLevel),
-        Validators.required,
-      ]);
-      this.accountForm.controls.level.updateValueAndValidity();
     });
 
     this.accountForm.controls.level.valueChanges.subscribe((x) => {

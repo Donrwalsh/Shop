@@ -5,7 +5,7 @@ import { exhaustMap, map, withLatestFrom } from 'rxjs/operators';
 import { DataService } from '../../data.service';
 import * as dataActions from './data.actions';
 import * as dataSelectors from './data.selectors';
-import { Slot } from '../../models/slots.model';
+import { Level, Slot } from '../../models/data.model';
 import { AppState } from '../app.state';
 import { of } from 'rxjs';
 
@@ -16,6 +16,25 @@ export class DataEffects {
     private dataService: DataService,
     private store: Store<AppState>
   ) {}
+
+  getLevels$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(dataActions.getLevels),
+      withLatestFrom(this.store.select(dataSelectors.selectLevels)),
+      exhaustMap(([action, levels]) => {
+        if (!levels.length) {
+          const request = this.dataService.getLevels();
+          return request.pipe(
+            map((data: any) =>
+              dataActions.setLevels({ payload: data.levelData as Level[] })
+            )
+          );
+        } else {
+          return of(dataActions.haveLevels());
+        }
+      })
+    )
+  );
 
   getSlots$ = createEffect(() =>
     this.actions$.pipe(

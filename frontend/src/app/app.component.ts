@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { DataService } from './data.service';
-import * as shopExpansionActions from './state/data/data.actions';
+import * as dataActions from './state/data/data.actions';
 
 @Component({
   selector: 'app-root',
@@ -11,10 +11,10 @@ import * as shopExpansionActions from './state/data/data.actions';
 export class AppComponent {
   title = 'frontend';
 
-  constructor(private dataService: DataService, private store: Store) {
-  }
+  constructor(private dataService: DataService, private store: Store) {}
 
   ngOnInit() {
-    this.store.dispatch(shopExpansionActions.getSlots());
+    this.store.dispatch(dataActions.getLevels());
+    this.store.dispatch(dataActions.getSlots());
   }
 }
