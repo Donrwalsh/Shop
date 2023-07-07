@@ -13,6 +13,14 @@ export const selectSlots = createSelector(
   (state: DataState) => state.slots
 );
 
+export const selectXpTNL = (levelParam: number) =>
+  createSelector(
+    selectData,
+    (state: DataState) =>
+      state.levels.filter((level) => level.level == levelParam)[0].upgrade
+        ?.xpNeeded || -1
+  );
+
 export const selectMinLevel = createSelector(selectData, (state: DataState) =>
   Math.min(...state.levels.map((level) => level.level))
 );

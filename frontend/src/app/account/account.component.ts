@@ -5,7 +5,7 @@ import { Account } from './account.model';
 import { Store, select } from '@ngrx/store';
 import * as dataSelectors from '../state/data/data.selectors';
 import { AppState } from '../state/app.state';
-import { combineLatest, map, tap } from 'rxjs';
+import { combineLatest, take, map, tap, firstValueFrom } from 'rxjs';
 
 @Component({
   selector: 'account',
@@ -29,7 +29,7 @@ export class AccountComponent {
 
   minLevel: number = 0;
   maxLevel: number = 0;
-  xpToNextLevel: number = 0;
+  xpTNL: number = 0;
   minFurnitureSlots: number = 0;
   maxFurnitureSlots: number = 0;
 
@@ -47,7 +47,25 @@ export class AccountComponent {
   ];
   columns = [{ name: 'Type' }, { name: 'Level' }];
 
-  ngOnInit() {
+  async ngOnInit() {
+    this.accountForm.controls.level.valueChanges.subscribe(async (x) => {
+      if (this.accountForm.controls.level.valid && x != '') {
+        console.log(this.accountForm.value);
+        console.log(x);
+        this.xpTNL = await firstValueFrom(
+          this.store.pipe(select(dataSelectors.selectXpTNL(parseInt(x!))))
+        );
+
+        this.accountForm.controls.xp.setValidators([
+          Validators.pattern('^[-,0-9]+$'),
+          Validators.min(0),
+          Validators.max(this.xpTNL),
+          Validators.required,
+        ]);
+        this.accountForm.controls.xp.updateValueAndValidity();
+      }
+    });
+
     combineLatest([
       this.store.pipe(select(dataSelectors.selectMinFurnitureSlots)),
       this.store.pipe(select(dataSelectors.selectMaxFurnitureSlots)),
@@ -91,22 +109,6 @@ export class AccountComponent {
         (data as Account).furnitureSlots.toString()
       );
     });
-
-    this.accountForm.controls.level.valueChanges.subscribe((x) => {
-      if (this.accountForm.controls.level.valid) {
-        this.xpToNextLevel = this.levelData?.filter(
-          (data: any) => data.level == x
-        )[0].upgrade.xpNeeded;
-
-        this.accountForm.controls.xp.setValidators([
-          Validators.pattern('^[-,0-9]+$'),
-          Validators.min(0),
-          Validators.max(this.xpToNextLevel),
-          Validators.required,
-        ]);
-        this.accountForm.controls.xp.updateValueAndValidity();
-      }
-    });
   }
 
   expValueAsNumber() {
@@ -116,9 +118,7 @@ export class AccountComponent {
   }
 
   readableXpToNextLevel() {
-    return this.xpToNextLevel == 0
-      ? '???'
-      : new Intl.NumberFormat().format(this.xpToNextLevel);
+    return this.xpTNL == 0 ? '???' : new Intl.NumberFormat().format(this.xpTNL);
   }
 
   save() {
