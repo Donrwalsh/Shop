@@ -2,6 +2,10 @@ import { Component } from '@angular/core';
 import { DataService } from '../data.service';
 import { FormBuilder, FormControl, Validators } from '@angular/forms';
 import { Account } from './account.model';
+import { Store, select } from '@ngrx/store';
+import * as ssDataSelectors from '../state/data/data.selectors';
+import { AppState } from '../state/app.state';
+import { combineLatest, map, tap } from 'rxjs';
 
 @Component({
   selector: 'account',
@@ -11,7 +15,8 @@ import { Account } from './account.model';
 export class AccountComponent {
   constructor(
     private dataService: DataService,
-    private formBuilder: FormBuilder
+    private formBuilder: FormBuilder,
+    private store: Store<AppState>
   ) {}
 
   accountForm = this.formBuilder.group({
@@ -21,7 +26,6 @@ export class AccountComponent {
   });
 
   levelData: any;
-  slotsData: any;
 
   minLevel: number = 0;
   maxLevel: number = 0;
@@ -44,6 +48,24 @@ export class AccountComponent {
   columns = [{ name: 'Type' }, { name: 'Level' }];
 
   ngOnInit() {
+    combineLatest([
+      this.store.pipe(select(ssDataSelectors.selectMinFurnitureSlots)),
+      this.store.pipe(select(ssDataSelectors.selectMaxFurnitureSlots)),
+    ]).subscribe(([min, max]) => {
+      if (Math.abs(min) !== Infinity && Math.abs(max) !== Infinity) {
+        this.minFurnitureSlots = min;
+        this.maxFurnitureSlots = max;
+
+        this.accountForm.controls.furnitureSlots.setValidators([
+          Validators.pattern('^[0-9]*$'),
+          Validators.required,
+          Validators.min(this.minFurnitureSlots),
+          Validators.max(this.maxFurnitureSlots),
+        ]);
+        this.accountForm.controls.furnitureSlots.updateValueAndValidity();
+      }
+    });
+
     this.dataService.getAccount().subscribe((data) => {
       this.accountForm.controls.level.setValue(
         (data as Account).level.toString()
@@ -52,23 +74,6 @@ export class AccountComponent {
       this.accountForm.controls.furnitureSlots.setValue(
         (data as Account).furnitureSlots.toString()
       );
-    });
-
-    this.dataService.getShopExpansionSlots().subscribe((data) => {
-      this.slotsData = data;
-      this.maxFurnitureSlots = Math.max(
-        ...this.slotsData.map((slotData: any) => slotData.stats.capacity)
-      );
-      this.minFurnitureSlots = Math.min(
-        ...this.slotsData.map((slotData: any) => slotData.stats.capacity)
-      );
-      this.accountForm.controls.furnitureSlots.setValidators([
-        Validators.pattern('^[0-9]*$'),
-        Validators.required,
-        Validators.min(this.minFurnitureSlots),
-        Validators.max(this.maxFurnitureSlots),
-      ]);
-      this.accountForm.controls.furnitureSlots.updateValueAndValidity();
     });
 
     this.dataService.getLevels().subscribe((data) => {

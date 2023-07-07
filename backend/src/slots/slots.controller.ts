@@ -5,6 +5,17 @@ import { SlotsService } from './slots.service';
 export class SlotsController {
   constructor(private readonly slotsService: SlotsService) {}
 
+  @Get('/')
+  async getSlots(@Res() response) {
+    try {
+      const slots =
+        await this.slotsService.getAllSlots();
+      return response.status(HttpStatus.OK).json(slots);
+    } catch (err) {
+      return response.status(err.status).json(err.response);
+    }
+  }
+
   @Get('/shopExpansions')
   async getShopExpansionSlots(@Res() response) {
     try {

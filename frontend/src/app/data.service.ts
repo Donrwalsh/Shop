@@ -23,7 +23,7 @@ export class DataService {
       .pipe(map((res) => res));
   }
 
-  getShopExpansionSlots() {
-    return this.http.get(`/slots/shopExpansions`).pipe(map((res) => res));
+  getSlots() {
+    return this.http.get(`/slots`).pipe(map((res) => res));
   }
 }

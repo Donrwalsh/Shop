@@ -70,13 +70,17 @@ Using bootstrap for ease of frontend. Working with a single input field for leve
 
 `>npm install @swimlane/ngx-datatable`
 
+Working on NgRx. I'm using it to store spreadsheet data for the whole application which is a bit of a different pattern than I'm used to (account data will be more standard). So where I landed on this is I will do an initial grab of all the spreadsheet data from the backend (this can be avoided if the data already exists, and since I hooked up the rehydration from localStorage this is expected) (Also, this is where I would implement some sort of version check. Record the current version of the data in the store and then rely on the API to know if a newer collection of data is available.) and then I get access into the specific insight that I care about by using selectors. The advantage with this is that the component gets to enjoy the data it wants and the selector gets to be a location where the logic resides for this sort of thing. I'm not used to this and have generally used selectors as just outright lookup of data (so under my usual approach, I would have a reducer write the min/max furniture values to distinct attributes and just read those) which I'm excited to continue playing with because it feels like a really cool plan. But even then, I'm not sure what the reducer will get up to. Hm, not sure. Read this: https://timdeschryver.dev/blog/parameterized-selectors#memoization
+
+Anyway, I added NgRx store, effects and devtools to get the ball rolling. All ss data goes into the `data` slice in the raw and account stuff will be managed in a separate `account` slice.
+
 ### TODO
+
+- Next up is getting the `levels` call to behave like the `slots` one does. Account is after, but that's a whole different ballgame.
 
 - FURNITURE AS A DATA TABLE WOOO. But don't change the database structure. I should only need an array of integers representing table levels to show data table stuff (and manage data that way too)
 
 - Proper formatting and commas on xp tnl input field.
-
-- All this stuff in app.component belongs somewhere better
 
 - NgRx and level input connected to account data in database.
 

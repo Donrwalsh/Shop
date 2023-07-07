@@ -7,6 +7,14 @@ import { ISlot } from './schema';
 export class SlotsService {
   constructor(@InjectModel('Slot') private slotModel: Model<ISlot>) {}
 
+  async getAllSlots(): Promise<ISlot[]> {
+    const slotsData = await this.slotModel.find({});
+    if (!slotsData) {
+      throw new NotFoundException('slot data not found!');
+    }
+    return slotsData;
+  }
+
   async getShopExpansionSlots(): Promise<ISlot[]> {
     const shopExpansionSlotsData = await this.slotModel.find({
       type: 'Shop Expansion',
