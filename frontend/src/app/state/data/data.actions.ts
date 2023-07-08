@@ -1,5 +1,16 @@
 import { createAction, props } from '@ngrx/store';
-import { Level, Slot } from '../../models/data.model';
+import { Furniture, Level, Slot } from '../../models/data.model';
+
+export const getFurniture = createAction('[Data] Get Furniture');
+
+export const haveFurniture = createAction(
+  '[Data] Furniture Data Has Already Been Downloaded'
+);
+
+export const setFurniture = createAction(
+  '[Data] Set Furniture',
+  props<{ payload: Furniture[] }>()
+);
 
 export const getLevels = createAction('[Data] Get Levels');
 

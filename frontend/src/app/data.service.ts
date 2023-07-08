@@ -14,6 +14,10 @@ export class DataService {
     return this.http.get(`account/bigbrass`).pipe(map((res) => res));
   }
 
+  getFurniture() {
+    return this.http.get('furniture').pipe(map((res) => res));
+  }
+
   getLevels() {
     let reqHeaders = new HttpHeaders({
       'Content-Type': 'application/x-www-form-urlencoded',

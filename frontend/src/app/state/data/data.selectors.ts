@@ -3,6 +3,29 @@ import { AppState, DataState } from '../app.state';
 
 export const selectData = (state: AppState) => state.data;
 
+export const selectFurniture = createSelector(
+  selectData,
+  (state: DataState) => state.furniture
+);
+
+export const selectFurnitureCapacity = (type: string, level: number) =>
+  createSelector(
+    selectData,
+    (state: DataState) =>
+      state.furniture.find(
+        (furniture) => furniture.type == type && furniture.level == level
+      )?.stats.storage
+  );
+
+export const selectFurnitureSize = (type: string, level: number) =>
+  createSelector(
+    selectData,
+    (state: DataState) =>
+      state.furniture.find(
+        (furniture) => furniture.type === type && furniture.level === level
+      )?.stats.size
+  );
+
 export const selectLevels = createSelector(
   selectData,
   (state: DataState) => state.levels

@@ -54,6 +54,8 @@ Integration with scripts will be nice, but it's not a priority until the structu
 
 ### TODO
 
+- Oops, Trunk data has no 'storage' values.
+
 - Establish a protocol for applying Schemas (I'm enjoying the lack of description used for `account.js`)
 
 - How to store Blueprint data? - first iteration in `database/data/account.json`
@@ -75,6 +77,16 @@ Working on NgRx. I'm using it to store spreadsheet data for the whole applicatio
 Anyway, I added NgRx store, effects and devtools to get the ball rolling. All ss data goes into the `data` slice in the raw and account stuff will be managed in a separate `account` slice.
 
 ### TODO
+
+- **Images + Remaining four columns on the furniture table.**
+
+- Let's get some real slick input validation on the table inputs that are always only ever going to be 1-20.
+
+- How to handle validity for dataTable. Took it out for now but the whole ngClass setup that I'm using everywehre is cumbersome.
+
+- Figure out how to not have to use a flat form group in account component.
+
+- Something like this for blueprints: https://swimlane.github.io/ngx-datatable/#row-grouping
 
 - Next up is getting the `levels` call to behave like the `slots` one does. Account is after, but that's a whole different ballgame.
 

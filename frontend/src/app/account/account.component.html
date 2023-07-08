@@ -6,7 +6,7 @@
     (ngSubmit)="save()"
   >
     <div class="row">
-      <div class="col-sm-1">
+      <div class="col-sm-2">
         <label for="levelInput" class="form-label">Level</label>
         <input
           class="form-control"
@@ -19,7 +19,7 @@
         />
         <div class="invalid-feedback">({{ minLevel }}-{{ maxLevel }})</div>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-4">
         <label for="XP" class="form-label">XP</label>
         <div class="input-group">
           <input
@@ -39,7 +39,7 @@
           <div class="invalid-feedback">(0-{{ readableXpToNextLevel() }})</div>
         </div>
       </div>
-      <div class="col-sm-1">
+      <div class="col-sm-2">
         <label for="furniture" class="form-label">Furniture</label>
         <input
           class="form-control"
@@ -58,7 +58,7 @@
     </div>
     <div>
       <ngx-datatable [rows]="rows" [columns]="columns">
-        <ngx-datatable-column name="Type">
+        <ngx-datatable-column name="Type" [width]="200">
           <ng-template
             ngx-datatable-cell-template
             let-rowIndex="rowIndex"
@@ -74,16 +74,35 @@
             {{ rows[rowIndex].type }}
           </ng-template>
         </ngx-datatable-column>
-        <ngx-datatable-column name="Level"> </ngx-datatable-column>
-        <ngx-datatable-column name="Capacity">
+        <ngx-datatable-column name="Level">
           <ng-template
             ngx-datatable-cell-template
             let-rowIndex="rowIndex"
             let-value="value"
             let-row="row"
           >
+            <input
+              *ngIf="
+                ['counter', 'hoard'].includes(typeMap(rows[rowIndex].type))
+              "
+              class="form-control"
+              id="furniture-{{ typeMap(rows[rowIndex].type) }}"
+              formControlName="{{ typeMap(rows[rowIndex].type) }}"
+              style="height: 28px; width: 30%"
+            />
+            <input
+              *ngIf="
+                ['trunk'].includes(typeMap(rows[rowIndex].type))
+              "
+              class="form-control"
+              id="furniture-{{ typeMap(rows[rowIndex].type) }}"
+              formControlName="{{ typeMap(rows[rowIndex].type) + rows[rowIndex].designation }}"
+              style="height: 28px; width: 30%"
+            />
           </ng-template>
         </ngx-datatable-column>
+        <ngx-datatable-column name="Size"></ngx-datatable-column>
+        <ngx-datatable-column name="Storage"></ngx-datatable-column>
         <ngx-datatable-column name="Energy">
           <ng-template
             ngx-datatable-cell-template
@@ -93,6 +112,8 @@
           >
           </ng-template>
         </ngx-datatable-column>
+        <ngx-datatable-column name="Upgrade Cost"></ngx-datatable-column>
+        <ngx-datatable-column name="Upgrade Time"></ngx-datatable-column>
       </ngx-datatable>
     </div>
     <div class="row mt-5">

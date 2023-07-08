@@ -6,11 +6,13 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { LevelsModule } from './levels/levels.module';
 import { AccountModule } from './account/account.module';
 import { SlotsModule } from './slots/slots.module';
+import { FurnitureModule } from './furniture/furniture.module';
 
 @Module({
   imports: [
     AccountModule,
     BlueprintsModule,
+    FurnitureModule,
     LevelsModule,
     SlotsModule,
     MongooseModule.forRoot('mongodb://192.168.1.11:27017', {

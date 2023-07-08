@@ -15,7 +15,6 @@ import { combineLatest, take, map, tap, firstValueFrom } from 'rxjs';
 })
 export class AccountComponent {
   constructor(
-    private dataService: DataService,
     private formBuilder: FormBuilder,
     private store: Store<AppState>
   ) {}
@@ -24,6 +23,15 @@ export class AccountComponent {
     level: '',
     xp: '',
     furnitureSlots: '',
+
+    // Going with flat structure here
+    counter: '',
+    hoard: '',
+    trunk1: '',
+    trunk2: '',
+    trunk3: '',
+    trunk4: '',
+    trunk5: '',
   });
 
   levelData: any;
@@ -46,7 +54,15 @@ export class AccountComponent {
     // { type: 'Table', level: '15' },
     // { type: "Dragon's Hoard", level: '20' },
   ] as any;
-  columns = [{ name: 'Type' }, { name: 'Level' }];
+  columns = [
+    { name: 'Type' },
+    { name: 'Level' },
+    { name: 'Size' },
+    { name: 'Storage' },
+    { name: 'Energy' },
+    { name: 'Upgrade Cost' },
+    { name: 'Upgrade Time' },
+  ];
 
   async ngOnInit() {
     this.accountForm.controls.level.valueChanges.subscribe(async (x) => {
@@ -100,7 +116,7 @@ export class AccountComponent {
 
     this.store
       .pipe(select(accountSelectors.selectMyAccount))
-      .subscribe((account) => {
+      .subscribe(async (account) => {
         if (account) {
           this.accountForm.controls.level.setValue(account.level.toString());
           this.accountForm.controls.xp.setValue(account.xp.toString());
@@ -110,24 +126,61 @@ export class AccountComponent {
 
           this.rows = [];
 
+          this.accountForm.controls.counter.setValue(
+            account.furniture.counter.toString()
+          );
           this.rows.push({
             type: 'Counter',
             level: account.furniture.counter.toString(),
+            size: await firstValueFrom(
+              this.store.pipe(
+                select(
+                  dataSelectors.selectFurnitureSize(
+                    'Counter',
+                    account.furniture.counter
+                  )
+                )
+              )
+            ),
           });
 
+          this.accountForm.controls.hoard.setValue(
+            account.furniture.hoard.toString()
+          );
           this.rows.push({
-            type: "Dragon's Hoard",
+            type: "Dragon's Hoard Bin",
             level: account.furniture.hoard.toString(),
+            size: await firstValueFrom(
+              this.store.pipe(
+                select(
+                  dataSelectors.selectFurnitureSize(
+                    "Dragon's Hoard Bin",
+                    account.furniture.hoard
+                  )
+                )
+              )
+            ),
           });
 
-          account.furniture.trunks.map((trunkLevel) =>
+          account.furniture.trunks.map(async (trunkLevel, index) => {
+            this.accountForm
+              .get('trunk' + (index + 1))
+              ?.setValue(trunkLevel?.toString());
+
             this.rows.push({
               type: 'Trunk',
               level: trunkLevel?.toString(),
-            })
-          );
+              size: await firstValueFrom(
+                this.store.pipe(
+                  select(
+                    dataSelectors.selectFurnitureSize('Trunk', trunkLevel!)
+                  )
+                )
+              ),
+              designation: index + 1,
+            });
+          });
         }
-        console.log(this.rows);
       });
   }
 
@@ -141,9 +194,13 @@ export class AccountComponent {
     return this.xpTNL == 0 ? '???' : new Intl.NumberFormat().format(this.xpTNL);
   }
 
-  save() {
+  async save() {
     console.log('save');
     console.log(this.accountForm.value);
+    this.rows[1].size = 'POTATO';
+    this.rows = [...this.rows];
+
+    // this.store.dispatch(accountActions.saveMyAccount)
   }
 
   getInterestingFactOne() {
@@ -193,18 +250,21 @@ export class AccountComponent {
     return output;
   }
 
+  typeMap(type: string) {
+    if (type === "Dragon's Hoard Bin") {
+      return 'hoard';
+    } else {
+      return type.toLowerCase();
+    }
+  }
+
   getFurnitureImage(type: string, level: string) {
-    switch (type) {
-      case 'Counter':
-        if (parseInt(level) < 6) {
-          return 'assets/furniture/counters/counter1.png';
-        } else if (parseInt(level) < 11) {
-          return 'assets/furniture/counters/counter2.png';
-        } else {
-          return 'assets/furniture/counters/counter3.png';
-        }
-      default:
-        return 'potato';
+    if (parseInt(level) < 6) {
+      return `assets/furniture/${this.typeMap(type)}1.png`;
+    } else if (parseInt(level) < 11) {
+      return `assets/furniture/${this.typeMap(type)}2.png`;
+    } else {
+      return `assets/furniture/${this.typeMap(type)}3.png`;
     }
   }
 }

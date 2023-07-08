@@ -15,6 +15,7 @@ export class AppComponent {
   constructor(private dataService: DataService, private store: Store) {}
 
   ngOnInit() {
+    this.store.dispatch(dataActions.getFurniture());
     this.store.dispatch(dataActions.getLevels());
     this.store.dispatch(dataActions.getSlots());
 

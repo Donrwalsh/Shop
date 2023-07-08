@@ -3,12 +3,20 @@ import { createReducer, on } from '@ngrx/store';
 import * as actions from './data.actions';
 
 export const initialState: DataState = {
+  furniture: [],
   levels: [],
   slots: [],
 };
 
 export const dataReducer = createReducer(
   initialState,
+
+  on(actions.setFurniture, (state, { payload }) => {
+    return {
+      ...state,
+      furniture: payload
+    }
+  }),
 
   on(actions.setLevels, (state, { payload }) => {
     return {
