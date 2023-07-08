@@ -1,4 +1,21 @@
+# Project Overview
+
+Shop
+
 # Backend
+
+This project uses a NestJS API backend with swagger and Mongoose.
+
+## Usage
+
+```bash
+npm install
+npm run start:local
+```
+
+http://localhost:3000/swagger
+
+### Setup Notes
 
 Used `>nest new backend` to create the files on this branch. Run app with `npm run start` in the `backend` folder. Navigate to http://localhost:3000/ for a Hello World! message.
 
@@ -63,6 +80,19 @@ Integration with scripts will be nice, but it's not a priority until the structu
 - I need to store slots data and then guild perks data in the account data structure.
 
 # Frontend
+
+This project uses an Angular frontend with NgRx for state management. 
+
+## Usage
+
+```bash
+npm install
+npm run start
+```
+
+http://localhost:4200/
+
+### Setup Notes
 
 `>npm init @angular frontend`
 
