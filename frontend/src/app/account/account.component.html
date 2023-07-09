@@ -57,7 +57,7 @@
       <div class="col-sm"></div>
     </div>
     <div>
-      <ngx-datatable [rows]="rows" [columns]="columns">
+      <ngx-datatable [rows]="rows" [columns]="columns" rowHeight="auto">
         <ngx-datatable-column name="Type" [width]="200">
           <ng-template
             ngx-datatable-cell-template
@@ -91,18 +91,67 @@
               style="height: 28px; width: 30%"
             />
             <input
-              *ngIf="
-                ['trunk'].includes(typeMap(rows[rowIndex].type))
-              "
+              *ngIf="['trunk'].includes(typeMap(rows[rowIndex].type))"
               class="form-control"
               id="furniture-{{ typeMap(rows[rowIndex].type) }}"
-              formControlName="{{ typeMap(rows[rowIndex].type) + rows[rowIndex].designation }}"
+              formControlName="{{
+                typeMap(rows[rowIndex].type) + rows[rowIndex].designation
+              }}"
               style="height: 28px; width: 30%"
             />
           </ng-template>
         </ngx-datatable-column>
         <ngx-datatable-column name="Size"></ngx-datatable-column>
-        <ngx-datatable-column name="Storage"></ngx-datatable-column>
+        <ngx-datatable-column name="Storage">
+          <ng-template
+            ngx-datatable-cell-template
+            let-rowIndex="rowIndex"
+            let-value="value"
+            let-row="row"
+            ><div *ngIf="rows[rowIndex].hoardStorage" class="hoard-storage">
+              {{ rows[rowIndex].hoardStorage[0] }}
+              <div class="hoard-storage-icons">
+                <img src="assets/resources/iron.png" />
+                <img src="assets/resources/wood.png" />
+                <br />
+                <img src="assets/resources/leather.png" />
+                <img src="assets/resources/herbs.png" />
+              </div>
+              <div
+                *ngIf="rows[rowIndex].hoardStorage.length > 1"
+                class="hoard-storage"
+              >
+                &nbsp;{{ rows[rowIndex].hoardStorage[1] }}
+                <div class="hoard-storage-icons">
+                  <img src="assets/resources/steel.png" />
+                  <img src="assets/resources/ironwood.png" />
+                  <br />
+                  <img src="assets/resources/fabric.png" />
+                  <img src="assets/resources/oil.png" />
+                </div>
+              </div>
+              <div
+                *ngIf="rows[rowIndex].hoardStorage.length > 2"
+                class="hoard-storage"
+              >
+                &nbsp;{{ rows[rowIndex].hoardStorage[2] }}
+                <div class="hoard-storage-icons">
+                  <img src="assets/resources/gems.png" />
+                  <img src="assets/resources/mana.png" />
+                </div>
+              </div>
+              <div
+                *ngIf="rows[rowIndex].hoardStorage.length > 3"
+                class="hoard-storage"
+              >
+                &nbsp;{{ rows[rowIndex].hoardStorage[3] }}
+                <div class="hoard-storage-icons">
+                  <img src="assets/resources/essence.png" />
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </ngx-datatable-column>
         <ngx-datatable-column name="Energy">
           <ng-template
             ngx-datatable-cell-template
@@ -112,7 +161,23 @@
           >
           </ng-template>
         </ngx-datatable-column>
-        <ngx-datatable-column name="Upgrade Cost"></ngx-datatable-column>
+        <ngx-datatable-column name="Upgrade Cost">
+          <ng-template
+            ngx-datatable-cell-template
+            let-rowIndex="rowIndex"
+            let-value="value"
+            let-row="row"
+          >
+            <div *ngIf="rows[rowIndex]['upgradeGold']">
+              {{ formatNumber(rows[rowIndex].upgradeGold) }}
+              <img src="assets/currencies/gold.png" style="width: 26px" />
+            </div>
+            <div *ngIf="rows[rowIndex]['upgradeDragonMarks']">
+              {{ formatNumber(rows[rowIndex].upgradeDragonMarks) }}
+              <img src="assets/currencies/dragonmark.png" style="width: 26px" />
+            </div>
+          </ng-template>
+        </ngx-datatable-column>
         <ngx-datatable-column name="Upgrade Time"></ngx-datatable-column>
       </ngx-datatable>
     </div>

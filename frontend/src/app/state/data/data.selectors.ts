@@ -8,22 +8,11 @@ export const selectFurniture = createSelector(
   (state: DataState) => state.furniture
 );
 
-export const selectFurnitureCapacity = (type: string, level: number) =>
-  createSelector(
-    selectData,
-    (state: DataState) =>
-      state.furniture.find(
-        (furniture) => furniture.type == type && furniture.level == level
-      )?.stats.storage
-  );
-
-export const selectFurnitureSize = (type: string, level: number) =>
-  createSelector(
-    selectData,
-    (state: DataState) =>
-      state.furniture.find(
-        (furniture) => furniture.type === type && furniture.level === level
-      )?.stats.size
+export const selectFurnitureEntry = (type: string, level: number) =>
+  createSelector(selectData, (state: DataState) =>
+    state.furniture.find(
+      (furniture) => furniture.type == type && furniture.level == level
+    )
   );
 
 export const selectLevels = createSelector(

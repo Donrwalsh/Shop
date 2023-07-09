@@ -126,60 +126,46 @@ export class AccountComponent {
 
           this.rows = [];
 
+          this.accountForm.controls.counter.valueChanges.subscribe(
+            async (value) => {
+              this.updateFurnitureRowValue('Counter', +value!);
+            }
+          );
           this.accountForm.controls.counter.setValue(
             account.furniture.counter.toString()
           );
-          this.rows.push({
-            type: 'Counter',
-            level: account.furniture.counter.toString(),
-            size: await firstValueFrom(
-              this.store.pipe(
-                select(
-                  dataSelectors.selectFurnitureSize(
-                    'Counter',
-                    account.furniture.counter
-                  )
-                )
-              )
-            ),
-          });
 
+          this.accountForm.controls.hoard.valueChanges.subscribe(
+            async (value) => {
+              this.updateFurnitureRowValue("Dragon's Hoard Bin", +value!);
+            }
+          );
           this.accountForm.controls.hoard.setValue(
             account.furniture.hoard.toString()
           );
-          this.rows.push({
-            type: "Dragon's Hoard Bin",
-            level: account.furniture.hoard.toString(),
-            size: await firstValueFrom(
-              this.store.pipe(
-                select(
-                  dataSelectors.selectFurnitureSize(
-                    "Dragon's Hoard Bin",
-                    account.furniture.hoard
-                  )
-                )
-              )
-            ),
-          });
 
-          account.furniture.trunks.map(async (trunkLevel, index) => {
-            this.accountForm
-              .get('trunk' + (index + 1))
-              ?.setValue(trunkLevel?.toString());
+          // Not working right now -> Async inside .map()
 
-            this.rows.push({
-              type: 'Trunk',
-              level: trunkLevel?.toString(),
-              size: await firstValueFrom(
-                this.store.pipe(
-                  select(
-                    dataSelectors.selectFurnitureSize('Trunk', trunkLevel!)
-                  )
-                )
-              ),
-              designation: index + 1,
-            });
-          });
+          // account.furniture.trunks.map(async (trunkLevel, index) => {
+          //   this.accountForm
+          //     .get('trunk' + (index + 1))
+          //     ?.setValue(trunkLevel?.toString());
+
+          //   this.rows.push({
+          //     type: 'Trunk',
+          //     level: trunkLevel?.toString(),
+          //     size: (
+          //       (await firstValueFrom(
+          //         this.store.pipe(
+          //           select(
+          //             dataSelectors.selectFurnitureEntry('Trunk', trunkLevel!)
+          //           )
+          //         )
+          //       )) as any
+          //     ).size,
+          //     designation: index + 1,
+          //   });
+          // });
         }
       });
   }
@@ -194,6 +180,39 @@ export class AccountComponent {
     return this.xpTNL == 0 ? '???' : new Intl.NumberFormat().format(this.xpTNL);
   }
 
+  async updateFurnitureRowValue(type: string, level: number) {
+    let newRow = await this.buildRow(type, level);
+    if (this.rows.map((row: any) => row.type).includes(type)) {
+      this.rows = [
+        ...this.rows.map((row: any) => (row.type === type ? newRow : row)),
+      ];
+    } else {
+      this.rows = [newRow, ...this.rows];
+    }
+  }
+
+  async buildRow(type: string, level: number) {
+    let furnitureSource = await firstValueFrom(
+      this.store.pipe(select(dataSelectors.selectFurnitureEntry(type, level)))
+    );
+    console.log(furnitureSource);
+    let row: any = {
+      type: type,
+      level: level.toString(),
+      size: furnitureSource?.stats.size,
+      hoardStorage: furnitureSource?.stats.hoardStorage,
+      storage: furnitureSource?.stats.storage,
+      energy: furnitureSource?.stats.energy,
+      upgradeGold: furnitureSource?.upgrade?.goldCost,
+      upgradeDragonMarks: furnitureSource?.upgrade?.dragonMarks,
+      upgradeTime: this.secondsToReadableTime(
+        furnitureSource?.upgrade?.upgradeTimeInSeconds
+      ),
+    };
+    console.log(row);
+    return row;
+  }
+
   async save() {
     console.log('save');
     console.log(this.accountForm.value);
@@ -201,6 +220,10 @@ export class AccountComponent {
     this.rows = [...this.rows];
 
     // this.store.dispatch(accountActions.saveMyAccount)
+  }
+
+  formatNumber(num: number) {
+    return new Intl.NumberFormat().format(num);
   }
 
   getInterestingFactOne() {
@@ -266,5 +289,40 @@ export class AccountComponent {
     } else {
       return `assets/furniture/${this.typeMap(type)}3.png`;
     }
+  }
+
+  secondsToReadableTime(totalSeconds: number | undefined): string {
+    let output = '';
+    if (totalSeconds != undefined) {
+      let days = Math.floor(totalSeconds / 86400);
+      if (days > 0) {
+        output += days + ' day' + (days > 1 ? 's' : '');
+      }
+
+      let hours = Math.floor((totalSeconds - days * 86400) / 3600);
+      if (hours > 0) {
+        output +=
+          (days > 0 ? ', ' : '') + hours + ' hour' + (hours > 1 ? 's' : '');
+      }
+
+      let minutes = Math.floor(
+        (totalSeconds - days * 86400 - hours * 3600) / 60
+      );
+      if (minutes > 0) {
+        output +=
+          hours > 0 || days > 0
+            ? ', '
+            : '' + minutes + ' minute' + (minutes > 1 ? 's' : '');
+      }
+
+      let seconds = totalSeconds - days * 86400 - hours * 3600 - minutes * 60;
+      if (seconds > 0) {
+        output +=
+          minutes > 0 || hours > 0 || days > 0
+            ? ', '
+            : '' + seconds + ' second' + (seconds > 1 ? 's' : '');
+      }
+    }
+    return output;
   }
 }

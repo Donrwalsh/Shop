@@ -81,7 +81,7 @@ Integration with scripts will be nice, but it's not a priority until the structu
 
 # Frontend
 
-This project uses an Angular frontend with NgRx for state management. 
+This project uses an Angular frontend with NgRx for state management.
 
 ## Usage
 
@@ -106,7 +106,11 @@ Working on NgRx. I'm using it to store spreadsheet data for the whole applicatio
 
 Anyway, I added NgRx store, effects and devtools to get the ball rolling. All ss data goes into the `data` slice in the raw and account stuff will be managed in a separate `account` slice.
 
+Dynamic data table based on 'smart' selector lookups via NgRx is very interesting. I'm in uncharted territory here so I've got that feeling like I'm missing something big that invalidates this approach. The unsolved challenge of the array furniture fields looms large, but the Counter and Dragon's Hoard bin have pretty convincing tech so far. Burn-in testing to resume.
+
 ### TODO
+
+- Counter should write % boost to Energy column.
 
 - **Images + Remaining four columns on the furniture table.**
 
