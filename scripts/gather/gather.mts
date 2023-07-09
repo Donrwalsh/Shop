@@ -161,6 +161,9 @@ async function main() {
               : seeker.getValue(cursor, "Storage Cap", i) && {
                   storage: seeker.getValue(cursor, "Storage Cap", i),
                 }),
+            ...(seeker.getValue(cursor, "Inventory Cap", i) && {
+              storage: seeker.getValue(cursor, "Inventory Cap", i),
+            }),
             size: seeker.getValue(cursor, "Size", i),
             ...(seeker.getValue(cursor, "Sale Energy", i) && {
               saleEnergy: seeker.getValue(cursor, "Sale Energy", i),
@@ -223,7 +226,9 @@ async function main() {
 
   // ==== MERCHANT LEVELS
 
-  let merchantLevels = await utils.readCSVFile(`${dataFolder}/merchantLevels.csv`);
+  let merchantLevels = await utils.readCSVFile(
+    `${dataFolder}/merchantLevels.csv`
+  );
 
   let mlOracle = new Oracle(merchantLevels);
 
@@ -232,13 +237,15 @@ async function main() {
     let thisLevel = {
       level: mlOracle.getValue("Merchant Level", i),
       highestMarketTier: mlOracle.getValue("Market Item Tier Unlock", i),
-      ...(i === mlOracle.count() - 1 ? {} : {
-        upgrade: {
-          xpNeeded: mlOracle.getValue("XP Needed", i + 1),
-          gemReward: mlOracle.getValue("Gem Reward", i + 1), 
-        }
-      })
-    }
+      ...(i === mlOracle.count() - 1
+        ? {}
+        : {
+            upgrade: {
+              xpNeeded: mlOracle.getValue("XP Needed", i + 1),
+              gemReward: mlOracle.getValue("Gem Reward", i + 1),
+            },
+          }),
+    };
 
     mlOutput += JSON.stringify(thisLevel) + ",";
   }

@@ -720,7 +720,7 @@
     "_id": "trunk-1",
     "type": "Trunk",
     "level": 1,
-    "stats": { "size": "2x2" },
+    "stats": { "storage": 15, "size": "2x2" },
     "upgrade": {
       "goldCost": 1000,
       "gemRush": 20,
@@ -732,7 +732,7 @@
     "_id": "trunk-2",
     "type": "Trunk",
     "level": 2,
-    "stats": { "size": "2x2" },
+    "stats": { "storage": 20, "size": "2x2" },
     "upgrade": {
       "goldCost": 2500,
       "gemRush": 30,
@@ -744,7 +744,7 @@
     "_id": "trunk-3",
     "type": "Trunk",
     "level": 3,
-    "stats": { "size": "2x2" },
+    "stats": { "storage": 25, "size": "2x2" },
     "upgrade": {
       "goldCost": 12500,
       "gemRush": 50,
@@ -756,7 +756,7 @@
     "_id": "trunk-4",
     "type": "Trunk",
     "level": 4,
-    "stats": { "size": "2x2" },
+    "stats": { "storage": 30, "size": "2x2" },
     "upgrade": {
       "goldCost": 25000,
       "gemRush": 75,
@@ -768,7 +768,7 @@
     "_id": "trunk-5",
     "type": "Trunk",
     "level": 5,
-    "stats": { "size": "2x2" },
+    "stats": { "storage": 35, "size": "2x2" },
     "upgrade": {
       "goldCost": 100000,
       "gemRush": 100,
@@ -780,7 +780,7 @@
     "_id": "trunk-6",
     "type": "Trunk",
     "level": 6,
-    "stats": { "size": "2x3" },
+    "stats": { "storage": 40, "size": "2x3" },
     "upgrade": {
       "goldCost": 250000,
       "gemRush": 125,
@@ -792,7 +792,7 @@
     "_id": "trunk-7",
     "type": "Trunk",
     "level": 7,
-    "stats": { "size": "2x3" },
+    "stats": { "storage": 47, "size": "2x3" },
     "upgrade": {
       "goldCost": 500000,
       "gemRush": 150,
@@ -804,7 +804,7 @@
     "_id": "trunk-8",
     "type": "Trunk",
     "level": 8,
-    "stats": { "size": "2x3" },
+    "stats": { "storage": 54, "size": "2x3" },
     "upgrade": {
       "goldCost": 1000000,
       "gemRush": 200,
@@ -816,7 +816,7 @@
     "_id": "trunk-9",
     "type": "Trunk",
     "level": 9,
-    "stats": { "size": "2x3" },
+    "stats": { "storage": 61, "size": "2x3" },
     "upgrade": {
       "goldCost": 2500000,
       "gemRush": 250,
@@ -828,7 +828,7 @@
     "_id": "trunk-10",
     "type": "Trunk",
     "level": 10,
-    "stats": { "size": "2x3" },
+    "stats": { "storage": 68, "size": "2x3" },
     "upgrade": {
       "goldCost": 6250000,
       "gemRush": 300,
@@ -840,7 +840,7 @@
     "_id": "trunk-11",
     "type": "Trunk",
     "level": 11,
-    "stats": { "size": "3x3" },
+    "stats": { "storage": 75, "size": "3x3" },
     "upgrade": {
       "goldCost": 12500000,
       "gemRush": 400,
@@ -852,7 +852,7 @@
     "_id": "trunk-12",
     "type": "Trunk",
     "level": 12,
-    "stats": { "size": "3x3" },
+    "stats": { "storage": 85, "size": "3x3" },
     "upgrade": {
       "goldCost": 25000000,
       "gemRush": 500,
@@ -864,7 +864,7 @@
     "_id": "trunk-13",
     "type": "Trunk",
     "level": 13,
-    "stats": { "size": "3x3" },
+    "stats": { "storage": 95, "size": "3x3" },
     "upgrade": {
       "goldCost": 50000000,
       "gemRush": 750,
@@ -876,7 +876,7 @@
     "_id": "trunk-14",
     "type": "Trunk",
     "level": 14,
-    "stats": { "size": "3x3" },
+    "stats": { "storage": 105, "size": "3x3" },
     "upgrade": {
       "goldCost": 75000000,
       "gemRush": 1000,
@@ -888,7 +888,7 @@
     "_id": "trunk-15",
     "type": "Trunk",
     "level": 15,
-    "stats": { "size": "3x3" },
+    "stats": { "storage": 115, "size": "3x3" },
     "upgrade": {
       "goldCost": 100000000,
       "gemRush": 1100,
@@ -901,7 +901,7 @@
     "_id": "trunk-16",
     "type": "Trunk",
     "level": 16,
-    "stats": { "size": "3x3" },
+    "stats": { "storage": 125, "size": "3x3" },
     "upgrade": {
       "goldCost": 125000000,
       "gemRush": 1250,
@@ -914,7 +914,7 @@
     "_id": "trunk-17",
     "type": "Trunk",
     "level": 17,
-    "stats": { "size": "3x3" },
+    "stats": { "storage": 137, "size": "3x3" },
     "upgrade": {
       "goldCost": 150000000,
       "gemRush": 1400,
@@ -927,7 +927,7 @@
     "_id": "trunk-18",
     "type": "Trunk",
     "level": 18,
-    "stats": { "size": "3x3" },
+    "stats": { "storage": 149, "size": "3x3" },
     "upgrade": {
       "goldCost": 200000000,
       "gemRush": 1500,
@@ -940,7 +940,7 @@
     "_id": "trunk-19",
     "type": "Trunk",
     "level": 19,
-    "stats": { "size": "3x3" },
+    "stats": { "storage": 161, "size": "3x3" },
     "upgrade": {
       "goldCost": 300000000,
       "gemRush": 2000,
@@ -953,7 +953,7 @@
     "_id": "trunk-20",
     "type": "Trunk",
     "level": 20,
-    "stats": { "size": "3x3" }
+    "stats": { "storage": 173, "size": "3x3" }
   },
   {
     "_id": "shelves-1",
