@@ -110,6 +110,8 @@ Dynamic data table based on 'smart' selector lookups via NgRx is very interestin
 
 ### TODO
 
+- Figuring out this bug with adding a Trunk column. . . I can't for the life of me to get it to retain what appears to be a working setup for pulling in multiple trunks from saved data. That works just fine, but when I try to add a new row the table loses coherence and input fields don't tie correctly to stuff and don't update the correct row. I have no clue why this is happening. (There is certainly something wonky with how I'm specifically referencing where to find input field values via the datatables-wrapped formControlName setup.)
+
 - Counter should write % boost to Energy column.
 
 - **Images + Remaining four columns on the furniture table.**

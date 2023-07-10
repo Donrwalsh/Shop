@@ -1,12 +1,27 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import { DataService } from '../data.service';
-import { FormBuilder, FormControl, Validators } from '@angular/forms';
+import {
+  AbstractControl,
+  FormArray,
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  Validators,
+} from '@angular/forms';
 import { Account } from '../models/account.model';
 import { Store, select } from '@ngrx/store';
 import * as accountSelectors from '../state/account/account.selectors';
 import * as dataSelectors from '../state/data/data.selectors';
 import { AppState } from '../state/app.state';
-import { combineLatest, take, map, tap, firstValueFrom } from 'rxjs';
+import {
+  combineLatest,
+  take,
+  map,
+  tap,
+  firstValueFrom,
+  Subscription,
+  merge,
+} from 'rxjs';
 
 @Component({
   selector: 'account',
@@ -16,7 +31,8 @@ import { combineLatest, take, map, tap, firstValueFrom } from 'rxjs';
 export class AccountComponent {
   constructor(
     private formBuilder: FormBuilder,
-    private store: Store<AppState>
+    private store: Store<AppState>,
+    private cdr: ChangeDetectorRef
   ) {}
 
   accountForm = this.formBuilder.group({
@@ -24,15 +40,14 @@ export class AccountComponent {
     xp: '',
     furnitureSlots: '',
 
-    // Going with flat structure here
     counter: '',
     hoard: '',
-    trunk1: '',
-    trunk2: '',
-    trunk3: '',
-    trunk4: '',
-    trunk5: '',
+
+    trunkArray: this.formBuilder.array([]),
   });
+
+  // trunkSub: Subscription;
+  trunkSub: any;
 
   levelData: any;
 
@@ -124,11 +139,11 @@ export class AccountComponent {
             account.furnitureSlots.toString()
           );
 
-          this.rows = [];
+          // this.rows = [];
 
           this.accountForm.controls.counter.valueChanges.subscribe(
             async (value) => {
-              this.updateFurnitureRowValue('Counter', +value!);
+              await this.updateFurnitureRowValue('Counter', +value!);
             }
           );
           this.accountForm.controls.counter.setValue(
@@ -137,37 +152,104 @@ export class AccountComponent {
 
           this.accountForm.controls.hoard.valueChanges.subscribe(
             async (value) => {
-              this.updateFurnitureRowValue("Dragon's Hoard Bin", +value!);
+              await this.updateFurnitureRowValue("Dragon's Hoard Bin", +value!);
             }
           );
           this.accountForm.controls.hoard.setValue(
             account.furniture.hoard.toString()
           );
 
-          // Not working right now -> Async inside .map()
+          this.trunkSub = await this.trunkListenerSubscribe();
 
-          // account.furniture.trunks.map(async (trunkLevel, index) => {
-          //   this.accountForm
-          //     .get('trunk' + (index + 1))
-          //     ?.setValue(trunkLevel?.toString());
-
-          //   this.rows.push({
-          //     type: 'Trunk',
-          //     level: trunkLevel?.toString(),
-          //     size: (
-          //       (await firstValueFrom(
-          //         this.store.pipe(
-          //           select(
-          //             dataSelectors.selectFurnitureEntry('Trunk', trunkLevel!)
-          //           )
-          //         )
-          //       )) as any
-          //     ).size,
-          //     designation: index + 1,
-          //   });
-          // });
+          account.furniture.trunks.forEach(async (trunkLevel, index) => {
+            await this.pushTrunk(index, trunkLevel!);
+          });
         }
       });
+  }
+
+  async pushTrunk(index: number, level: number) {
+    const trunks = this.accountForm.get('trunkArray') as FormArray;
+
+    console.log('pushTrunk', index, level);
+
+    let fg = this.formBuilder.group({
+      index: index,
+      level: level,
+    });
+    fg.controls.level.valueChanges.subscribe(async (val) => {
+      console.log('potato');
+      await this.updateFurnitureRowValue('Trunk', +val!, +index!);
+    });
+    await this.updateFurnitureRowValue('Trunk', +level!, +index!);
+
+    if (trunks.length <= index) {
+      trunks.push(fg);
+    }
+  }
+
+  async trunkListenerSubscribe() {
+    merge(
+      ...this.accountForm.controls.trunkArray.controls.map(
+        (control: AbstractControl, index: number) =>
+          control.valueChanges.pipe(
+            map((value) => ({ rowIndex: index, value }))
+          )
+      )
+    ).subscribe((changes) => {
+      console.log(changes);
+    });
+    // this.accountForm.controls.trunkArray.valueChanges.subscribe(
+    //   async (value) => {
+    //     console.log('trunkListenerSubscribe', value);
+    //     for await (const val of value) {
+    //       await this.updateFurnitureRowValue(
+    //         'Trunk',
+    //         +(val as any).level!,
+    //         +(val as any).index!
+    //       );
+    //     }
+    //     // this.updateFurnitureRowValue('Trunk', +value!);
+    //   }
+    // );
+  }
+
+  async addTrunk() {
+    if (this.accountForm.controls.trunkArray.value.length < 5) {
+      let trunkLevels = [
+        ...this.accountForm.controls.trunkArray.value.map(
+          (thing: any) => thing.level
+        ),
+        1,
+      ];
+
+      console.log(trunkLevels);
+
+      this.accountForm.controls.trunkArray = this.formBuilder.array([]);
+
+      trunkLevels.forEach(async (trunkLevel, index) => {
+        console.log(index);
+        (this.accountForm.controls.trunkArray as FormArray).removeAt(index);
+        this.rows = [...this.rows.filter((row: any) => row.type !== 'Trunk')];
+        await this.pushTrunk(index, trunkLevel!);
+      });
+
+      // console.log(
+      //   this.accountForm.controls.trunkArray.value.map(
+      //     (thing: any) => thing.level
+      //   )
+      // );
+      // await this.pushTrunk(
+      //   this.accountForm.controls.trunkArray.value.length,
+      //   1
+      // );
+      // this.rows = [...this.rows];
+    }
+
+    // console.log(this.accountForm.value);
+    // console.log('add trunk');
+    // console.log(this.rows);
+    // this.cdr.detectChanges();
   }
 
   expValueAsNumber() {
@@ -180,22 +262,35 @@ export class AccountComponent {
     return this.xpTNL == 0 ? '???' : new Intl.NumberFormat().format(this.xpTNL);
   }
 
-  async updateFurnitureRowValue(type: string, level: number) {
-    let newRow = await this.buildRow(type, level);
-    if (this.rows.map((row: any) => row.type).includes(type)) {
+  async updateFurnitureRowValue(
+    type: string,
+    level: number,
+    designation?: number
+  ) {
+    let newRow = await this.buildRow(type, level, designation);
+
+    let matchFound = this.rows.find(
+      (row: any) => row.type === type && row.designation === designation
+    );
+
+    if (matchFound) {
       this.rows = [
-        ...this.rows.map((row: any) => (row.type === type ? newRow : row)),
+        ...this.rows.map((row: any) =>
+          row.type === type && row.designation === designation ? newRow : row
+        ),
       ];
     } else {
       this.rows = [newRow, ...this.rows];
     }
+
+    // console.log(`updateFurnitureRowValue(${type}, ${level}, ${designation})`);
+    // console.log(this.rows);
   }
 
-  async buildRow(type: string, level: number) {
+  async buildRow(type: string, level: number, designation?: number) {
     let furnitureSource = await firstValueFrom(
       this.store.pipe(select(dataSelectors.selectFurnitureEntry(type, level)))
     );
-    console.log(furnitureSource);
     let row: any = {
       type: type,
       level: level.toString(),
@@ -208,15 +303,22 @@ export class AccountComponent {
       upgradeTime: this.secondsToReadableTime(
         furnitureSource?.upgrade?.upgradeTimeInSeconds
       ),
+      designation: designation,
     };
-    console.log(row);
     return row;
   }
 
   async save() {
-    console.log('save');
     console.log(this.accountForm.value);
-    this.rows[1].size = 'POTATO';
+    console.log(this.rows);
+    let dbStructure = {
+      ...this.accountForm.value,
+      trunks: this.accountForm.value.trunkArray?.map((trunkFG: any) => {
+        return trunkFG.level;
+      }),
+    };
+    delete dbStructure.trunkArray;
+
     this.rows = [...this.rows];
 
     // this.store.dispatch(accountActions.saveMyAccount)
