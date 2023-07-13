@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { map } from 'rxjs';
+import { Account } from './models/account.model';
 
 @Injectable({
   providedIn: 'root',
@@ -12,6 +13,10 @@ export class DataService {
 
   getBigbrass() {
     return this.http.get(`account/bigbrass`).pipe(map((res) => res));
+  }
+
+  updateMyAccount(payload: Partial<Account>) {
+    return this.http.put(`account/${payload.id}`, payload).pipe(map((res) => res));
   }
 
   getFurniture() {

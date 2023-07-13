@@ -31,8 +31,6 @@ Dockerfile example from https://www.tomray.dev/nestjs-docker-production. `>docke
 
 ### TODO
 
-- Need some furniture data to the frontend!
-
 - Enhance the Level model to cover all attributes. Use this data as a model for readonly data.
 
 - How to share the Blueprint (and others) model between the backend and scripts and beyond? (Currently I just duplicated the file across both)
@@ -109,6 +107,8 @@ Anyway, I added NgRx store, effects and devtools to get the ball rolling. All ss
 Dynamic data table based on 'smart' selector lookups via NgRx is very interesting. I'm in uncharted territory here so I've got that feeling like I'm missing something big that invalidates this approach. The unsolved challenge of the array furniture fields looms large, but the Counter and Dragon's Hoard bin have pretty convincing tech so far. Burn-in testing to resume.
 
 ### TODO
+
+- How about a toast message for a successful account save?
 
 - Figuring out this bug with adding a Trunk column. . . I can't for the life of me to get it to retain what appears to be a working setup for pulling in multiple trunks from saved data. That works just fine, but when I try to add a new row the table loses coherence and input fields don't tie correctly to stuff and don't update the correct row. I have no clue why this is happening. (There is certainly something wonky with how I'm specifically referencing where to find input field values via the datatables-wrapped formControlName setup.)
 

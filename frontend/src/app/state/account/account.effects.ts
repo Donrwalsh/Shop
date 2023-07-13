@@ -27,4 +27,16 @@ export class AccountEffects {
       })
     )
   );
+
+  updateAccount$ = createEffect(() =>
+      this.actions$.pipe(
+        ofType(accountActions.updateMyAccount),
+        exhaustMap((action) => {
+          const request = this.dataService.updateMyAccount(action.payload);
+          return request.pipe(
+            map((data: any) => accountActions.setMyAccount({ payload: data.existingAccount }))
+          )
+        })
+      )
+  )
 }

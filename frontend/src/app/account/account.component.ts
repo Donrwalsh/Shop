@@ -12,6 +12,7 @@ import { Account } from '../models/account.model';
 import { Store, select } from '@ngrx/store';
 import * as accountSelectors from '../state/account/account.selectors';
 import * as dataSelectors from '../state/data/data.selectors';
+import * as accountActions from '../state/account/account.actions';
 import { AppState } from '../state/app.state';
 import {
   combineLatest,
@@ -171,8 +172,6 @@ export class AccountComponent {
   async pushTrunk(index: number, level: number) {
     const trunks = this.accountForm.get('trunkArray') as FormArray;
 
-    console.log('pushTrunk', index, level);
-
     let fg = this.formBuilder.group({
       index: index,
       level: level,
@@ -309,19 +308,30 @@ export class AccountComponent {
   }
 
   async save() {
-    console.log(this.accountForm.value);
-    console.log(this.rows);
-    let dbStructure = {
-      ...this.accountForm.value,
-      trunks: this.accountForm.value.trunkArray?.map((trunkFG: any) => {
-        return trunkFG.level;
-      }),
-    };
-    delete dbStructure.trunkArray;
+    if (this.accountForm.dirty) {
+      let dbStructure = {
+        id: 'bigbrass',
+        ...(this.accountForm.value.level &&
+        this.accountForm.controls.level.dirty
+          ? { level: parseInt(this.accountForm.value.level) }
+          : {}),
+        ...(this.accountForm.value.xp && this.accountForm.controls.xp.dirty
+          ? { xp: parseInt(this.accountForm.value.xp) }
+          : {}),
+        ...(this.accountForm.value.furnitureSlots && this.accountForm.controls.furnitureSlots.dirty
+          ? { furnitureSlots: parseInt(this.accountForm.value.furnitureSlots) }
+          : {}),
+      };
 
-    this.rows = [...this.rows];
+      console.log(dbStructure);
 
-    // this.store.dispatch(accountActions.saveMyAccount)
+      this.store.dispatch(
+        accountActions.updateMyAccount({
+          payload: dbStructure as Partial<Account>,
+        })
+      );
+      this.accountForm.markAsPristine();
+    }
   }
 
   formatNumber(num: number) {

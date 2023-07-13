@@ -7,3 +7,8 @@ export const setMyAccount = createAction(
   `[Account] Set My Account`,
   props<{ payload: Account }>()
 );
+
+export const updateMyAccount = createAction(
+  `[Account] Update My Account`,
+  props<{ payload: Partial<Account> }>()
+)

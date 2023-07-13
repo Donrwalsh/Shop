@@ -56,153 +56,17 @@
       </div>
       <div class="col-sm"></div>
     </div>
-    <div>
-      <ngx-datatable
-        [rows]="rows"
-        [columns]="columns"
-        rowHeight="auto"
-        [sorts]="[{ prop: 'type', dir: 'desc' }]"
-      >
-        <ngx-datatable-column name="Type" [width]="200" [sortable]="true">
-          <ng-template
-            ngx-datatable-cell-template
-            let-rowIndex="rowIndex"
-            let-value="value"
-            let-row="row"
-            let-sort="sortFn"
-          >
-            <img
-              src="{{
-                getFurnitureImage(rows[rowIndex]?.type, rows[rowIndex]?.level)
-              }}"
-              style="width: 26px"
-            />
-            {{ rows[rowIndex].type }} {{ rows[rowIndex].level }}
-          </ng-template>
-        </ngx-datatable-column>
-        <ngx-datatable-column name="Level">
-          <ng-template
-            ngx-datatable-cell-template
-            let-rowIndex="rowIndex"
-            let-value="value"
-            let-row="row"
-          >
-            <input
-              *ngIf="
-                ['counter', 'hoard'].includes(typeMap(rows[rowIndex].type))
-              "
-              class="form-control"
-              id="furniture-{{ typeMap(rows[rowIndex].type) }}"
-              formControlName="{{ typeMap(rows[rowIndex].type) }}"
-              style="height: 28px; width: 30%"
-            />
-            <ng-container
-              *ngIf="'Trunk' == rows[rowIndex].type"
-              formArrayName="trunkArray"
-            >
-              <ng-container [formGroupName]="rows[rowIndex].designation">
-                <input
-                  class="form-control"
-                  id="furniture-{{ typeMap(rows[rowIndex].type) }}-{{
-                    rows[rowIndex].designation
-                  }}"
-                  formControlName="level"
-                  style="height: 28px; width: 30%"
-                />
-                <!-- {{ rows[rowIndex].designation }} -->
-              </ng-container>
-            </ng-container>
-          </ng-template>
-        </ngx-datatable-column>
-        <ngx-datatable-column name="Size"></ngx-datatable-column>
-        <ngx-datatable-column name="Storage">
-          <ng-template
-            ngx-datatable-cell-template
-            let-rowIndex="rowIndex"
-            let-value="value"
-            let-row="row"
-          >
-            <ng-container *ngIf="rows[rowIndex].storage">
-              {{ rows[rowIndex].storage }}
-            </ng-container>
-            <div *ngIf="rows[rowIndex].hoardStorage" class="hoard-storage">
-              {{ rows[rowIndex].hoardStorage[0] }}
-              <div class="hoard-storage-icons">
-                <img src="assets/resources/iron.png" />
-                <img src="assets/resources/wood.png" />
-                <br />
-                <img src="assets/resources/leather.png" />
-                <img src="assets/resources/herbs.png" />
-              </div>
-              <div
-                *ngIf="rows[rowIndex].hoardStorage.length > 1"
-                class="hoard-storage"
-              >
-                &nbsp;{{ rows[rowIndex].hoardStorage[1] }}
-                <div class="hoard-storage-icons">
-                  <img src="assets/resources/steel.png" />
-                  <img src="assets/resources/ironwood.png" />
-                  <br />
-                  <img src="assets/resources/fabric.png" />
-                  <img src="assets/resources/oil.png" />
-                </div>
-              </div>
-              <div
-                *ngIf="rows[rowIndex].hoardStorage.length > 2"
-                class="hoard-storage"
-              >
-                &nbsp;{{ rows[rowIndex].hoardStorage[2] }}
-                <div class="hoard-storage-icons">
-                  <img src="assets/resources/gems.png" />
-                  <img src="assets/resources/mana.png" />
-                </div>
-              </div>
-              <div
-                *ngIf="rows[rowIndex].hoardStorage.length > 3"
-                class="hoard-storage"
-              >
-                &nbsp;{{ rows[rowIndex].hoardStorage[3] }}
-                <div class="hoard-storage-icons">
-                  <img src="assets/resources/essence.png" />
-                </div>
-              </div>
-            </div>
-          </ng-template>
-        </ngx-datatable-column>
-        <ngx-datatable-column name="Energy">
-          <ng-template
-            ngx-datatable-cell-template
-            let-rowIndex="rowIndex"
-            let-value="value"
-            let-row="row"
-          >
-          </ng-template>
-        </ngx-datatable-column>
-        <ngx-datatable-column name="Upgrade Cost">
-          <ng-template
-            ngx-datatable-cell-template
-            let-rowIndex="rowIndex"
-            let-value="value"
-            let-row="row"
-          >
-            <div *ngIf="rows[rowIndex]['upgradeGold']">
-              {{ formatNumber(rows[rowIndex].upgradeGold) }}
-              <img src="assets/currencies/gold.png" style="width: 26px" />
-            </div>
-            <div *ngIf="rows[rowIndex]['upgradeDragonMarks']">
-              {{ formatNumber(rows[rowIndex].upgradeDragonMarks) }}
-              <img src="assets/currencies/dragonmark.png" style="width: 26px" />
-            </div>
-          </ng-template>
-        </ngx-datatable-column>
-        <ngx-datatable-column name="Upgrade Time"></ngx-datatable-column>
-      </ngx-datatable>
-      <button type="button" (click)="addTrunk()" class="btn btn-secondary">
-        Add Trunk
-      </button>
-    </div>
+    <div></div>
     <div class="row mt-5">
-      <button type="submit" class="btn btn-primary">Save</button>
+      <button
+        type="submit"
+        class="btn btn-primary"
+        [ngClass]="{
+          'disabled': accountForm.pristine || !accountForm.valid
+        }"
+      >
+        Save
+      </button>
     </div>
   </form>
   <p>{{ getInterestingFactOne() }}</p>
