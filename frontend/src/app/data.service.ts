@@ -12,15 +12,15 @@ export class DataService {
   constructor(private http: HttpClient) {}
 
   getBigbrass() {
-    return this.http.get(`account/bigbrass`).pipe(map((res) => res));
+    return this.http.get(`api/account/bigbrass`).pipe(map((res) => res));
   }
 
   updateMyAccount(payload: Partial<Account>) {
-    return this.http.put(`account/${payload.id}`, payload).pipe(map((res) => res));
+    return this.http.put(`api/account/${payload.id}`, payload).pipe(map((res) => res));
   }
 
   getFurniture() {
-    return this.http.get('furniture').pipe(map((res) => res));
+    return this.http.get('api/furniture').pipe(map((res) => res));
   }
 
   getLevels() {
@@ -28,11 +28,11 @@ export class DataService {
       'Content-Type': 'application/x-www-form-urlencoded',
     });
     return this.http
-      .get(`levels`, { headers: reqHeaders })
+      .get(`api/levels`, { headers: reqHeaders })
       .pipe(map((res) => res));
   }
 
   getSlots() {
-    return this.http.get(`/slots`).pipe(map((res) => res));
+    return this.http.get(`api//slots`).pipe(map((res) => res));
   }
 }
