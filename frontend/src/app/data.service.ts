@@ -16,7 +16,9 @@ export class DataService {
   }
 
   updateMyAccount(payload: Partial<Account>) {
-    return this.http.put(`account/${payload.id}`, payload).pipe(map((res) => res));
+    return this.http
+      .put(`account/${payload.id}`, payload)
+      .pipe(map((res) => res));
   }
 
   getFurniture() {
