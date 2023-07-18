@@ -35,6 +35,6 @@ export class DataService {
   }
 
   getSlots() {
-    return this.http.get(`api//slots`).pipe(map((res) => res));
+    return this.http.get(`api/slots`).pipe(map((res) => res));
   }
 }
