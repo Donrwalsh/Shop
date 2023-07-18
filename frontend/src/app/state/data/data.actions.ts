@@ -1,5 +1,17 @@
 import { createAction, props } from '@ngrx/store';
 import { Furniture, Level, Slot } from '../../models/data.model';
+import { BasicBlueprint } from 'src/app/models/blueprint.model';
+
+export const getBlueprintRef = createAction('[Data] Get Blueprint Reference');
+
+export const haveBlueprintRef = createAction(
+  '[Data] Blueprint Reference Has Already Been Downloaded'
+);
+
+export const setBlueprintRef = createAction(
+  '[Data] Set Blueprint Reference',
+  props<{ payload: BasicBlueprint[] }>()
+);
 
 export const getFurniture = createAction('[Data] Get Furniture');
 

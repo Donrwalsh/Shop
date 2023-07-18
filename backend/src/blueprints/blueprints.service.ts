@@ -16,7 +16,17 @@ export class BlueprintService {
     }
     return blueprintData;
   }
-  
+
+  async getAllBlueprintsRef(): Promise<Partial<IBlueprint>[]> {
+    const blueprintData = await this.blueprintModel.find();
+    if (!blueprintData || blueprintData.length == 0) {
+      throw new NotFoundException('Blueprint data not found!');
+    }
+    return blueprintData.map((bpData) => {
+      return { id: bpData.id, name: bpData.name };
+    });
+  }
+
   async getBlueprint(blueprintId: string): Promise<IBlueprint> {
     const existingBlueprint = await this.blueprintModel
       .findById(blueprintId)
