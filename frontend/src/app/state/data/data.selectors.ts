@@ -8,6 +8,11 @@ export const selectFurniture = createSelector(
   (state: DataState) => state.furniture
 );
 
+export const selectBlueprintRef = createSelector(
+  selectData,
+  (state: DataState) => state.blueprints
+);
+
 export const selectFurnitureEntry = (type: string, level: number) =>
   createSelector(selectData, (state: DataState) =>
     state.furniture.find(

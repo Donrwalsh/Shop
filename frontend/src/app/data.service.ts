@@ -15,6 +15,10 @@ export class DataService {
     return this.http.get(`api/account/bigbrass`).pipe(map((res) => res));
   }
 
+  getBlueprintRef() {
+    return this.http.get(`api/blueprint/ref`).pipe(map((res) => res));
+  }
+
   updateMyAccount(payload: Partial<Account>) {
     return this.http
       .put(`api/account/${payload.id}`, payload)

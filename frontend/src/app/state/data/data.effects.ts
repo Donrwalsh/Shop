@@ -8,6 +8,7 @@ import * as dataSelectors from './data.selectors';
 import { Furniture, Level, Slot } from '../../models/data.model';
 import { AppState } from '../app.state';
 import { of } from 'rxjs';
+import { BasicBlueprint } from 'src/app/models/blueprint.model';
 
 @Injectable()
 export class DataEffects {
@@ -16,6 +17,25 @@ export class DataEffects {
     private dataService: DataService,
     private store: Store<AppState>
   ) {}
+
+  getBlueprintRef$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(dataActions.getBlueprintRef),
+      withLatestFrom(this.store.select(dataSelectors.selectBlueprintRef)),
+      exhaustMap(([action, blueprints]) => {
+        if (!blueprints.length) {
+          const request = this.dataService.getBlueprintRef();
+          return request.pipe(
+            map((data: any) =>
+              dataActions.setBlueprintRef({ payload: data as BasicBlueprint[] })
+            )
+          );
+        } else {
+          return of(dataActions.haveBlueprintRef());
+        }
+      })
+    )
+  );
 
   getFurniture$ = createEffect(() =>
     this.actions$.pipe(

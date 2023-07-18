@@ -5,6 +5,19 @@ import { BlueprintService } from './blueprints.service';
 export class BlueprintsController {
   constructor(private readonly blueprintService: BlueprintService) {}
 
+  @Get('/ref')
+  async getBlueprintReference(@Res() response) {
+    try {
+      const blueprintData = await this.blueprintService.getAllBlueprintsRef();
+      return response.status(HttpStatus.OK).json({
+        message: 'Blueprints reference data found successfully',
+        blueprintData,
+      });
+    } catch (err) {
+      return response.status(err.status).json(err.response);
+    }
+  }
+
   @Get('/:id')
   async getBlueprint(@Res() response, @Param('id') blueprintId: string) {
     try {
@@ -19,6 +32,7 @@ export class BlueprintsController {
       return response.status(err.status).json(err.response);
     }
   }
+
   @Get()
   async getBlueprints(@Res() response) {
     try {
