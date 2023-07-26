@@ -12,9 +12,7 @@ import * as blueprintActions from '../state/blueprint/blueprint.actions';
 })
 export class BlueprintDetailComponent implements OnInit {
   id: string | null = '';
-  constructor(private route: ActivatedRoute, private store: Store<AppState>) {}
-  current$ = this.store.pipe(select(blueprintSelectors.selectCurrent));
-  uri = 'localhost:4200/blueprint/${this.id}';
+  constructor(private route: ActivatedRoute) {}
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id');
     this.current$.subscribe((data) => {
