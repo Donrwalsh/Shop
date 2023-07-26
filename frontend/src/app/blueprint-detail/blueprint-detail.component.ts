@@ -8,6 +8,7 @@ import { ActivatedRoute } from '@angular/router';
 export class BlueprintDetailComponent implements OnInit {
   id: string | null = '';
   constructor(private route: ActivatedRoute) {}
+  uri = 'localhost:4200/blueprint/${this.id}';
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id');
   }

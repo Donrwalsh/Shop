@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { DataService } from '../data.service';
 import { Store, select } from '@ngrx/store';
 import * as dataSelectors from '../state/data/data.selectors';
 import { AppState } from '../state/app.state';
