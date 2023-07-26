@@ -20,4 +20,10 @@ export class BlueprintComponent {
       this.data = blueprints;
     });
   }
+
+  tableSort(header: string) {
+    if (header === 'blueprintId') {
+      this.data.sort((a, b) => (a.id > b.id ? 1 : -1));
+    }
+  }
 }
