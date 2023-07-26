@@ -17,6 +17,7 @@ import { metaReducers } from './state/meta.reducer';
 import { AccountEffects } from './state/account/account.effects';
 import { BlueprintComponent } from './blueprint/blueprint.component';
 import { BlueprintDetailComponent } from './blueprint-detail/blueprint-detail.component';
+import { BlueprintEffects } from './state/blueprint/blueprint.effects';
 // import { BlueprintComponent } from './blueprint/blueprint.component';
 // import { metaReducers } from './state/meta.reducer';
 
@@ -32,7 +33,7 @@ import { BlueprintDetailComponent } from './blueprint-detail/blueprint-detail.co
     ReactiveFormsModule,
     AccountModule,
     NgxDatatableModule,
-    EffectsModule.forRoot([AccountEffects, DataEffects]),
+    EffectsModule.forRoot([AccountEffects, BlueprintEffects, DataEffects]),
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       // logOnly: environment.production
